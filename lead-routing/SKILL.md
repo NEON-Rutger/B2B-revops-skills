@@ -1,5 +1,6 @@
 ---
 name: lead-routing
+aliases: [lead-routing]
 description: >
   Lead routing strategy, assignment logic, round-robin patterns, territory
   design, speed-to-lead SLA frameworks, and routing automation for B2B
@@ -15,6 +16,8 @@ description: >
   (CRM-agnostic). For CRM-specific implementation, see revops-hubspot or
   revops-salesforce. For enrichment that feeds routing, see data-enrichment.
   For lead scoring, see marketing-operations.
+status: seed
+
 ---
 
 # Lead Routing for B2B Revenue Operations

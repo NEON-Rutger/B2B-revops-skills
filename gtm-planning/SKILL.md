@@ -1,5 +1,6 @@
 ---
 name: gtm-planning
+aliases: [gtm-planning]
 description: >
   Go-to-market planning, org design, territory design, and capacity planning for B2B
   revenue teams. Use when the user mentions GTM planning, go-to-market, GTM motion,
@@ -12,6 +13,8 @@ description: >
   BOUNDARY: Covers team STRUCTURE, territories, and capacity. For comp plans and
   quotas, see gtm-compensation. For ICP BUILDING methodology (GAP method, interviews,
   thresholds), see neon-icp.
+status: seed
+
 ---
 
 # GTM Planning & Revenue Org Design
@@ -495,5 +498,61 @@ Industry data that reframes quota-setting as a system problem:
 ## Canon References
 
 Cross-references: ICP building methodology (customer count thresholds, expansion strategy, Goldilocks zone), growth maturity model (Stream 2 drives GTM planning decisions), Fullcast/Pavilion 2026 GTM benchmarks (SDR headcount, AE surge, sales efficiency, AI-enabled ramp data), and customer pain quote library for territory hypothesis validation.
+- For cost-to-serve model per GTM motion (7 cost centres, cost-to-serve benchmarks by ARR, GRR durability thresholds, throughput levers), see `references/wbd-gtm-cost-model.md`.
 
 > Built by [Neon Triforce](https://neontriforce.com)
+
+---
+
+## Revenue Factory — GTM Motion Architecture
+
+GTM planning should be structured as parallel production lines, each with its own input/throughput/output profile. This section provides the WbD Revenue Factory framing for multi-motion GTM architecture.
+
+Source: WbD Mathematical Model PDF, Chapter 07, pages 94-101; WbD Growth Model PDF. Jacco van der Kooij, Revenue Architecture.
+
+### GTM motion production lines
+
+| Motion | Target segment | ARR per customer | Touch level | Cost-to-serve |
+|---|---|---|---|---|
+| No Touch | SMB/PLG | <€10K | Self-serve only | Very low |
+| Low Touch | SMB/mid-market | €10–€50K | Inside sales | Low |
+| Medium Touch | Mid-market | €50–€200K | Field sales | Medium |
+| High Touch | Enterprise | €200K–€1M | Dedicated AE + SE | High |
+| Dedicated Touch | Strategic accounts | >€1M | Named account team | Very high |
+
+**Factory sustainability check:** For each GTM motion, total acquisition cost (CAC) must be <20% of total customer lifetime revenue. If CAC payback exceeds 24 months, the motion is destroying value even if it's generating ARR.
+
+### Domain separation principle
+
+When planning GTM:
+- **Acquisition planning** (left of bowtie): Plan in conversion rates and frequency. "How many MQLs, at what conversion rate, to hit pipeline targets?" Polynomial math — marginal improvements compound.
+- **Retention planning** (right of bowtie): Plan in retention rates and time. "What GRR and NRR do we need to hit ARR targets without new logo growth?" Exponential math — small NRR improvements compound dramatically over 3-5 years.
+
+**Common mistake:** Planning only acquisition (new logo) without modelling retention math. At 80% GRR, you churn 20% of your ARR every year — you're running to stand still. At 95% GRR with 110% NRR, your existing base grows without new logo acquisition.
+
+### Multi-motion GTM sequencing
+
+Sequence GTM motions as the business grows:
+1. Start with one motion, prove it works, document the repeatable play
+2. Add the adjacent motion only when the first is producing consistent results
+3. Never run two new motions simultaneously — you lose the ability to learn what's working
+
+*Source: WbD Mathematical Model PDF, Chapter 07, pages 94-101. Jacco van der Kooij, Revenue Architecture.*
+
+---
+
+## Operator Templates — Funnel Conversion Model + Revenue Planning
+
+For funnel capacity and revenue planning in client engagements:
+
+**Funnel Conversion Model:** `Frameworks/Templates/cro-school/funnel-conversion-model-neon.xlsx`
+- Monthly funnel with headcount-driven capacity
+- Conversion rates per channel: PPC, organic search, organic social, direct, referral, events, outbound, email
+- 1018 rows × 27 cols — use for pipeline capacity planning
+
+**Revenue Planning:** `Frameworks/Templates/cro-school/revenue-planning-neon.xlsx`
+- 3 sheets: Revenue Allocation, Budget, Tactics
+- Use for strategic planning engagements when building the full GTM financial model
+
+Original sources: `Sources/Courses/CRO-School/Funnel Conversion Model.xlsx` + `Sources/Courses/CRO-School/Revenue Planning.xlsx`
+Attribution: Adapted from Pavilion CRO School. Original author: Carter/Nalbandian/Dick.

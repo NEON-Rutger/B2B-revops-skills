@@ -1,5 +1,6 @@
 ---
 name: operating-cadence-designer
+aliases: [operating-cadence-designer]
 description: >
   Design and install the operating cadence for a client — the calendar that
   makes the revenue operating system real. Connects the strategy scorecard (strategy),
@@ -14,6 +15,8 @@ description: >
   'pipeline review,' 'QBR,' 'board meeting,' 'board deck,' 'monthly business
   review,' 'sales standup,' or 'deal review.' BOUNDARY: For the revenue
   dashboard build itself, see pipeline-visibility.
+status: seed
+
 ---
 
 # Operating Cadence Designer

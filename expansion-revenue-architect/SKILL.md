@@ -1,5 +1,6 @@
 ---
 name: expansion-revenue-architect
+aliases: [expansion-revenue-architect]
 description: >
   Design and install expansion revenue systems improving NRR and GRR for B2B SaaS. GRR/NRR
   diagnostic, expansion motion architecture, whitespace analysis, CS-Sales handback, renewal
@@ -13,6 +14,8 @@ description: >
   see cs-operations. For pricing, see pricing-strategy. For handoffs, see revops-handoffs.
 metadata:
   version: 2.0.0
+status: seed
+
 ---
 
 # Expansion Revenue Architect

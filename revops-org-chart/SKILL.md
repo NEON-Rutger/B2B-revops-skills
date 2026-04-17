@@ -1,5 +1,6 @@
 ---
 name: revops-org-chart
+aliases: [revops-org-chart]
 description: >
   RevOps team org design, role structure, and hiring sequencing by company size and
   ARR stage. Use whenever a client asks about structuring their RevOps team, hiring
@@ -11,6 +12,8 @@ description: >
   client has Business Partners and is theorizing about adding an Architect role.
   Includes frameworks from RevOps Co-op, Revenue Wizards, Hyperscayle, Go Nimbly,
   Winning by Design, Maxio, Leanlayer, Stage2 Capital, and Rutger's own hiring guide.
+status: seed
+
 ---
 
 # RevOps Org Chart & Team Design
@@ -263,3 +266,18 @@ Primary sources:
 - Rutger's Google Drive: "RevOps Team Roles and Hiring Guide" (4 org charts, 1–3 / 4–6 / 7–10 / 10+)
 
 > Built by [Neon Triforce](https://neontriforce.com)
+
+---
+
+## Operator Templates — Competency Matrices
+
+For CS/AM and management hiring and calibration:
+
+**Account Management Competency Matrix:** `Frameworks/Templates/cro-school/account-management-competency-matrix-neon.xlsx`
+Use in: CS maturity assessments, AM performance reviews, hiring rubrics.
+
+**Management Competencies Matrix:** `Frameworks/Templates/cro-school/management-competencies-matrix-neon.xlsx`
+Use in: Manager hiring, org design, succession planning.
+
+Original sources: `Sources/Courses/CRO-School/CRO School Class #4 Template - CS Fundamentals - Account Management Competency Matrix.xlsx` + `Management Competencies Matrix.xlsx`
+Attribution: Adapted from Pavilion CRO School. Original author: Carter/Nalbandian/Dick.

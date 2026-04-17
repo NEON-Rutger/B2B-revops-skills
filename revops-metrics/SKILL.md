@@ -1,5 +1,6 @@
 ---
 name: revops-metrics
+aliases: [revops-metrics]
 description: >
   Revenue performance measurement, funnel math, and unit economics for B2B teams.
   Use when the user mentions revenue metrics, conversion rates, pipeline velocity,
@@ -12,6 +13,8 @@ description: >
   conversion rate be," or "how healthy is this deal."
   BOUNDARY: This skill covers WHAT to measure. For forecasting, see revops-forecasting.
   For meeting cadence, see revenue-operating-cadence.
+status: seed
+
 ---
 
 # Revenue Performance Metrics
@@ -636,4 +639,23 @@ Know these numbers before setting any quota:
 
 **"What should we track from call recordings?":** Start with the 6 conversational intelligence metrics. Focus coaching on talk ratio and question rate first — these have the highest correlation with discovery quality.
 
+---
+
+**Cross-references:**
+- For V/CR/Δt metric scaffold, expansion type matrix (Renew/Resell/Upsell/Cross-sell), churn classification, and benchmarking methods, see `references/wbd-data-model-scaffold.md`.
+
 > Built by [Neon Triforce](https://neontriforce.com)
+
+---
+
+## Operator Templates — Pavilion Unit Economics Worksheet
+
+For LTV/CAC/GM Payback/LTV:CAC calculations in client engagements, use the pre-built Neon-adapted template:
+`Frameworks/Templates/cro-school/pavilion-unit-economics-neon.xlsx`
+
+Structure: 1 sheet, 30 rows × 7 cols. Includes validation cells (`=if(E4=G4,"CORRECT","INCORRECT")`). Preserves all original formulas.
+
+Use in: Focus Audit baseline, programme ROI justification, benchmark comparisons.
+
+Original source: `Sources/Courses/CRO-School/Pavilion Unit Economics Worksheet.xlsx`
+Attribution: Adapted from Pavilion CRO School. Original author: Carter/Nalbandian/Dick.

@@ -1,5 +1,6 @@
 ---
 name: revops-crisis
+aliases: [revops-crisis]
 description: >
   Revenue crisis triage and emergency response when multiple systems break
   simultaneously. Use this skill when the user describes a CRISIS state: forecast
@@ -14,6 +15,8 @@ description: >
   emergency response (what to fix FIRST when everything is broken). For detailed
   methodology after stabilization, see revops-diagnostic and revops-maturity.
   For specific domain fixes, see the relevant domain skill.
+status: seed
+
 ---
 
 # RevOps Crisis Triage & Emergency Response

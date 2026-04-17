@@ -1,5 +1,6 @@
 ---
 name: partner-ecosystem-architect
+aliases: [partner-ecosystem-architect]
 description: >
   Design and install partner ecosystem strategies for B2B SaaS clients using ecosystem-led
   growth (ELG) and nearbound methodology. Use when someone mentions 'partner strategy,'
@@ -14,6 +15,8 @@ description: >
   properties), see partner-channel-operations. For handoffs see revops-handoffs.
 metadata:
   version: 2.0.0
+status: seed
+
 ---
 
 # Partner Ecosystem Architect

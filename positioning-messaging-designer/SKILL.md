@@ -1,5 +1,6 @@
 ---
 name: positioning-messaging-designer
+aliases: [positioning-messaging-designer]
 description: >
   Design positioning and messaging frameworks for clients using the Use Case
   Messaging Canvas and Opposites method. Use whenever helping a client
@@ -13,6 +14,8 @@ description: >
   POSITIONING and MESSAGING frameworks. For ICP building (the step BEFORE), see
   icp-builder. For writing actual LinkedIn copy, see
   a LinkedIn posting skill. For proposals, see a proposal generator skill.
+status: seed
+
 ---
 
 # Positioning & Messaging Designer

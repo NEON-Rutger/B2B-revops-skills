@@ -1,5 +1,6 @@
 ---
 name: revops-salesforce
+aliases: [revops-salesforce]
 description: >
   Salesforce implementation patterns for revenue operations teams. Use when
   the user mentions Salesforce, SFDC, Salesforce setup, Salesforce object
@@ -15,6 +16,8 @@ description: >
   Salesforce-specific implementation. For CRM-agnostic strategy, see
   revops-strategy. For HubSpot, see revops-hubspot. For generic enrichment,
   see data-enrichment. For generic routing, see lead-routing.
+status: seed
+
 ---
 
 # Salesforce Implementation for B2B Revenue Operations

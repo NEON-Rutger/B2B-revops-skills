@@ -1,5 +1,6 @@
 ---
 name: marketing-operations
+aliases: [marketing-operations]
 description: >
   Marketing operations for B2B revenue teams — lead scoring, attribution, campaign
   tracking, and handoff protocols. Use when the user mentions marketing operations,
@@ -12,6 +13,8 @@ description: >
   marketing OPERATIONS (lead management, attribution, campaign ops).
   For HubSpot, see revops-hubspot. For funnel math, see revops-metrics. For ICP
   BUILDING methodology (GAP method, customer interviews), see neon-icp.
+status: seed
+
 ---
 
 # Marketing Operations

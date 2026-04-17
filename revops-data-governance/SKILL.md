@@ -1,5 +1,6 @@
 ---
 name: revops-data-governance
+aliases: [revops-data-governance]
 description: >
   Revenue data governance — the operational discipline every other RevOps skill
   depends on. Use when the user mentions data governance, data quality, data model,
@@ -12,6 +13,8 @@ description: >
   Fix data governance before building metrics or scaling.
   BOUNDARY: Covers data MODEL, QUALITY, and GOVERNANCE. For HubSpot setup, see
   revops-hubspot. For metrics, see revops-metrics.
+status: seed
+
 ---
 
 # Revenue Data Governance

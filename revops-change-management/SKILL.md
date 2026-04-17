@@ -1,5 +1,6 @@
 ---
 name: revops-change-management
+aliases: [revops-change-management]
 description: >
   Revenue change management — plan change, design enablement, make it stick, measure adoption.
   Trigger on change management, enablement design, adoption failure, rollout plan, communication
@@ -11,6 +12,8 @@ description: >
   AI, AI adoption, works council AI, AI governance framework, AI rollout, or fear of becoming
   obsolete. BOUNDARY: For HubSpot adoption, see revops-hubspot. For GTM org change, see gtm-planning.
   For AI Readiness Day, see neon-ai-readiness-day.
+status: seed
+
 ---
 
 # RevOps Change Management

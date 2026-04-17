@@ -1,5 +1,6 @@
 ---
 name: data-enrichment
+aliases: [data-enrichment]
 description: >
   B2B data enrichment strategy, provider evaluation, integration patterns,
   and quality management for revenue operations teams. Use when the user
@@ -15,6 +16,8 @@ description: >
   revops-hubspot or revops-salesforce. For data governance, see
   revops-data-governance. For lead scoring that uses enriched data, see
   marketing-operations.
+status: seed
+
 ---
 
 # B2B Data Enrichment for Revenue Operations

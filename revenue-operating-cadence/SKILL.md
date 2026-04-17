@@ -1,5 +1,6 @@
 ---
 name: revenue-operating-cadence
+aliases: [revenue-operating-cadence]
 description: >
   Revenue operating cadence — meeting architecture, data pyramid, and board reporting
   that turns strategy into execution. Use when the user mentions operating cadence,
@@ -12,6 +13,8 @@ description: >
   activate this skill.
   BOUNDARY: Covers meeting structure and data inputs. For forecast methodology, see
   revops-forecasting. For metrics, see revops-metrics.
+status: seed
+
 ---
 
 # Revenue Operating Cadence Framework

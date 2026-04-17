@@ -1,7 +1,10 @@
 ---
 name: revops-tech-stack
+aliases: [revops-tech-stack]
 description: >
   Revenue technology stack architecture, value engineering, platform evaluation, and capability mapping for B2B GTM teams. Use when the user mentions tech stack, martech stack, sales tech, CRM evaluation, platform selection, tool consolidation, stack audit, build vs buy, integration architecture, composability, iPaaS, CDP, MAP, sales engagement platform, AI tools for GTM, AI maturity, AI orchestration, AI agents, knowledge layer, semantic retrieval, RAG stack, vector database, EU AI stack, GDPR AI tools, knowledge management platform, Glean, Langdock, Weaviate, Qdrant, Pinecone, LlamaIndex, LangChain, Dust.tt, Guru, or Notion AI. Also trigger on "we have too many tools," "our tools don't talk to each other," "should we buy X or build it," "where should our knowledge live," or "how do we give AI access to our internal docs." BOUNDARY: Covers TECHNOLOGY evaluation and architecture. For strategy framing, see revops-strategy. For HubSpot, see revops-hubspot. For data governance, see revops-data-governance.
+status: seed
+
 ---
 
 # RevOps Tech Stack Architecture

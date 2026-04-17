@@ -1,5 +1,6 @@
 ---
 name: revops-diagnostic
+aliases: [revops-diagnostic]
 description: >
   Revenue operations diagnostic frameworks for identifying system constraints and
   root causes in B2B GTM organizations. Use when the user mentions diagnosing revenue
@@ -10,6 +11,8 @@ description: >
   leadership chaos. If someone says "we keep missing plan" or "everyone is busy but
   nothing moves," activate this skill. This is the diagnostic skill — find the real
   constraint before recommending what to fix.
+status: seed
+
 ---
 
 # RevOps Diagnostic

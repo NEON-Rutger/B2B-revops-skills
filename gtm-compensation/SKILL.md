@@ -1,5 +1,6 @@
 ---
 name: gtm-compensation
+aliases: [gtm-compensation]
 description: >
   GTM compensation plan design, quota setting, OTE structures, and benchmarking for
   B2B revenue teams. Use when the user mentions comp plans, OTE, on-target earnings,
@@ -10,6 +11,8 @@ description: >
   compensation. If someone says "how should I pay my reps" or "what's a fair OTE"
   or "our comp plan isn't working," activate this skill.
   BOUNDARY: Covers how to PAY people. For org design and capacity, see gtm-planning.
+status: seed
+
 ---
 
 # GTM Compensation Design
@@ -356,3 +359,15 @@ SUSTAINABILITY:
 **Headcount budgeting:** Help model fully-loaded cost per rep (OTE + benefits + ramp cost + tools + management overhead) and expected productivity curves. A new AE hire typically costs 1.5-2x OTE in the first year when you include ramp, training, and overhead.
 
 > Built by [Neon Triforce](https://neontriforce.com)
+
+---
+
+## Operator Templates — Bonus/Incentive Calculator
+
+For compensation modelling in client engagements:
+`Frameworks/Templates/cro-school/bonus-incentive-calculator-neon.xlsx`
+
+Formula: Quarterly Comp Amount × Proportion × Attainment. Useful for modelling variable comp scenarios quickly.
+
+Original source: `Sources/Courses/CRO-School/CRO School Class #4 Template - CS Fundamentals - Basic Bonus_Incentive Calculator.xlsx`
+Attribution: Adapted from Pavilion CRO School. Original author: Carter/Nalbandian/Dick.

@@ -1,5 +1,6 @@
 ---
 name: deal-velocity-engineer
+aliases: [deal-velocity-engineer]
 description: >
   Diagnose and fix deal velocity problems. Sales cycle diagnostics, stage exit criteria,
   pipeline deflation, zombie deal elimination, multi-threading, mutual action plans,
@@ -15,6 +16,8 @@ description: >
   see sales-methodology. For operating cadence see revenue-operating-cadence.
 metadata:
   version: 1.0.0
+status: seed
+
 ---
 
 # Deal Velocity Engineer

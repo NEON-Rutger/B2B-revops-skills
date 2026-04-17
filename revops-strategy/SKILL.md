@@ -1,5 +1,6 @@
 ---
 name: revops-strategy
+aliases: [revops-strategy]
 description: >
   Revenue operations strategy, pipeline architecture, and strategic advisory for B2B companies.
   Use this skill when the user mentions RevOps, revenue operations, pipeline architecture,
@@ -13,6 +14,8 @@ description: >
   BOUNDARY: Covers strategic FRAMING and pipeline architecture. For ICP building,
   see revops-icp-building. For CRM implementation, see revops-hubspot.
   For operating system design, see revops-operating-system.
+status: seed
+
 ---
 
 # RevOps Strategy

@@ -1,5 +1,6 @@
 ---
 name: revops-hubspot
+aliases: [revops-hubspot]
 description: >
   HubSpot implementation patterns for revenue operations teams. Use this skill when
   the user mentions HubSpot, CRM setup, HubSpot properties, lifecycle stages, lead
@@ -14,6 +15,8 @@ description: >
   BOUNDARY: This skill covers HubSpot-specific implementation. For strategic pipeline
   architecture and framework thinking, see revops-strategy. For ICP BUILDING methodology,
   see neon-icp.
+status: seed
+
 ---
 
 # RevOps HubSpot Implementation

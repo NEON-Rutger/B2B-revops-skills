@@ -1,5 +1,6 @@
 ---
 name: pipeline-visibility
+aliases: [pipeline-visibility]
 description: >
   Pipeline visibility, reporting architecture, dashboard design, pipeline
   hygiene, and forecast reporting for B2B revenue teams. CRM-agnostic
@@ -14,6 +15,8 @@ description: >
   pipeline VISIBILITY and REPORTING (CRM-agnostic). For CRM-specific
   implementation, see revops-hubspot or revops-salesforce. For forecast
   methodology, see revops-forecasting. For metrics, see revops-metrics.
+status: seed
+
 ---
 
 # Pipeline Visibility for B2B Revenue Operations

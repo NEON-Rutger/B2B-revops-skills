@@ -1,5 +1,6 @@
 ---
 name: revops-handoffs
+aliases: [revops-handoffs]
 description: >
   Revenue handoff design across the full bow-tie model — Marketing → Sales →
   Partner/Implementation → CS → Sales (expansion), plus lifecycle marketing and
@@ -13,6 +14,8 @@ description: >
   SLAs between bow-tie stages. For HubSpot implementation, also consult
   revops-hubspot. For CS operations, see cs-operations. For SPICED, see
   sales-methodology.
+status: seed
+
 ---
 
 # Revenue Handoff Operations — Full Bow-Tie Model

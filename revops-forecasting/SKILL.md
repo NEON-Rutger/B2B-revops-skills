@@ -1,5 +1,6 @@
 ---
 name: revops-forecasting
+aliases: [revops-forecasting]
 description: >
   Revenue forecasting methodology, forecast categories, pipeline analysis, and
   predictability for B2B revenue teams. Use when the user mentions forecasting,
@@ -14,6 +15,8 @@ description: >
   forecast methodology, accuracy, and pipeline visibility/reporting. For CRM-specific
   dashboard implementation, see revops-hubspot. For metrics and benchmarks, see
   revops-metrics.
+status: seed
+
 ---
 
 # Revenue Forecasting
@@ -657,3 +660,18 @@ When a tile turns red, it surfaces in the Weekly revenue dashboard ritual and tr
 Cross-references: signal-trigger-action framework, operating cadence, revenue dashboard tile configuration, deal velocity system, KPI benchmark library, growth maturity model, and revops-metrics skill.
 
 > Built by [Neon Triforce](https://neontriforce.com)
+
+---
+
+## Operator Templates — Forecasting Worksheet
+
+For forecast modelling in client engagements:
+`Frameworks/Templates/cro-school/forecasting-worksheet-neon.xlsx`
+
+4 sheets: Assumptions, Sales Capacity, Waterfall, Renewals.
+Tip: The Renewals tab is especially useful for CS operations — it models the renewal cohort with churn rates and expansion.
+
+Use in: Forecasting methodology buildout, board preparation, ops cadence design.
+
+Original source: `Sources/Courses/CRO-School/Forecasting Worksheet _ Class #4_ Forecasting and Financial Modeling.xlsx`
+Attribution: Adapted from Pavilion CRO School. Original author: Carter/Nalbandian/Dick.

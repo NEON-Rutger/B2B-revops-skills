@@ -1,5 +1,6 @@
 ---
 name: icp-builder
+aliases: [icp-builder]
 description: >
   Build, validate, or expand a client's ICP (Ideal Customer Profile) using
   the GAP method, SPICED framework, and customer interview pipeline.
@@ -14,6 +15,8 @@ description: >
   scratch, refine with interviews, and plan expansion. BOUNDARY: For
   positioning/messaging (step AFTER ICP), see
   positioning-messaging-designer.
+status: seed
+
 ---
 
 # ICP Builder — Validate, Build & Expand

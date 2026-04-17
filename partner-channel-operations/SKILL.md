@@ -1,7 +1,10 @@
 ---
 name: partner-channel-operations
+aliases: [partner-channel-operations]
 description: >
   Partner and channel operations for B2B SaaS — programme design, partner enablement, co-selling, deal registration, and ecosystem-led growth. Use when the user mentions partner programme, channel strategy, partner enablement, co-sell, deal registration, partner onboarding, partner tiers, ecosystem-led growth, partner-sourced pipeline, partner health scoring, partner QBR, ideal partner profile, IPP, referral partners, resellers, VARs, implementation partners, GSIs, MSPs, partner portal, MDF, partner attribution, partner revenue, or partner operations. Also trigger when someone says 'we need partners to scale,' 'our partner programme isn't producing,' 'how do we structure partner tiers,' 'partners aren't bringing deals,' or 'we want to build an ecosystem.' BOUNDARY: covers partner OPERATIONS (programme design, enablement, pipeline, reporting). For GTM org design and capacity, see gtm-planning. For handoff design between partner and direct, see revops-handoffs. For HubSpot implementation, see revops-hubspot.
+status: seed
+
 ---
 
 # Partner & Channel Operations

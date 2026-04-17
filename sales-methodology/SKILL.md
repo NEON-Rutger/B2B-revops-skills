@@ -1,5 +1,6 @@
 ---
 name: sales-methodology
+aliases: [sales-methodology]
 description: >
   Implement and operationalize proven sales methodologies across revenue teams,
   with deep SPICED qualification depth. Use when the user mentions SPICED,
@@ -17,6 +18,8 @@ description: >
 metadata:
   version: 2.1.0
   spiced_depth: full
+status: seed
+
 ---
 
 # Sales Methodology Implementation
@@ -1332,3 +1335,27 @@ One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcrip
 - **Ebsta 2025 GTM Benchmarks** (655K opportunities, 2,000+ CROs): early decision-maker involvement boosts win rates by 55%; delayed deals reduce win rates by 113%; top performers close 11× faster than bottom.
 
 > Built by [Neon Triforce](https://neontriforce.com)
+
+---
+
+## SPICED ↔ Impact Journey Cross-Reference
+
+SPICED uncovers *why* a customer is buying. The Impact Journey maps *what happens after* they buy. They are connected at Mutual Commit.
+
+| SPICED element | Maps to Impact Journey |
+|---|---|
+| **Situation** | Contextualises which Impact Journey stage the customer is starting from |
+| **Pain** | The gap between their current Impact Journey stage and where they need to be |
+| **Impact** | The specific business outcome they need — this becomes the Joint Impact Plan milestone |
+| **Critical Event** | The deadline by which they must reach that Impact — anchors the CET (see Critical Event Timeline section in neon-discovery-spiced) |
+| **Decision** | Mutual Commit — the moment the customer and Rutger formalise the Impact promise |
+
+### Pre-Mutual Commit: SPICED qualifies readiness
+
+During discovery, SPICED determines whether the customer can reach the Impact they need in the time their Critical Event requires. A customer with a Critical Event but missing data readiness (RED score) is a bad qualification — the CET cannot be met.
+
+### Post-Mutual Commit: Impact Journey governs CS
+
+Once SPICED closes to Mutual Commit, the Impact Journey takes over. The Joint Impact Plan (O3) documents the Impact target and CET milestones. CS owns delivery from here.
+
+*Source: WbD Operating Model PDF, Chapter 08, pages 85-95, 143-148. Jacco van der Kooij, Revenue Architecture.*
