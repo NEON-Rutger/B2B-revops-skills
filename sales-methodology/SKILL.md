@@ -1358,4 +1358,3 @@ During discovery, SPICED determines whether the customer can reach the Impact th
 
 Once SPICED closes to Mutual Commit, the Impact Journey takes over. The Joint Impact Plan (O3) documents the Impact target and CET milestones. CS owns delivery from here.
 
-*Source: WbD Operating Model PDF, Chapter 08, pages 85-95, 143-148. Jacco van der Kooij, Revenue Architecture.*

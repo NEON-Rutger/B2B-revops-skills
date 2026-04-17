@@ -506,9 +506,7 @@ Cross-references: ICP building methodology (customer count thresholds, expansion
 
 ## Revenue Factory — GTM Motion Architecture
 
-GTM planning should be structured as parallel production lines, each with its own input/throughput/output profile. This section provides the WbD Revenue Factory framing for multi-motion GTM architecture.
-
-Source: WbD Mathematical Model PDF, Chapter 07, pages 94-101; WbD Growth Model PDF. Jacco van der Kooij, Revenue Architecture.
+GTM planning should be structured as parallel production lines, each with its own input/throughput/output profile. This section provides the Revenue Factory framing for multi-motion GTM architecture.
 
 ### GTM motion production lines
 
@@ -537,7 +535,6 @@ Sequence GTM motions as the business grows:
 2. Add the adjacent motion only when the first is producing consistent results
 3. Never run two new motions simultaneously — you lose the ability to learn what's working
 
-*Source: WbD Mathematical Model PDF, Chapter 07, pages 94-101. Jacco van der Kooij, Revenue Architecture.*
 
 ---
 

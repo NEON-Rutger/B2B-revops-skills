@@ -414,7 +414,7 @@ Ranked by evidence strength:
 
 ### Tactic 3: Methodology Adherence (SPICED/MEDDPICC)
 
-**Evidence:** Organizations fully adopting MEDDPICC see **18% higher win rates**, **24% larger deal sizes**, and **15-25% cycle reduction** (Winning by Design; DemandFarm 2024). Consistent methodology reinforcement produces **27% higher win rates** vs. one-time training (Korn Ferry).
+**Evidence:** Organizations fully adopting MEDDPICC see **18% higher win rates**, **24% larger deal sizes**, and **15-25% cycle reduction** (DemandFarm 2024). Consistent methodology reinforcement produces **27% higher win rates** vs. one-time training (Korn Ferry).
 
 **How to implement:**
 - Stage exit criteria mapped to methodology fields

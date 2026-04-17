@@ -11,7 +11,7 @@ description: >
   design, or how to use agencies without creating dependency. Also trigger when a
   client has Business Partners and is theorizing about adding an Architect role.
   Includes frameworks from RevOps Co-op, Revenue Wizards, Hyperscayle, Go Nimbly,
-  Winning by Design, Maxio, Leanlayer, Stage2 Capital, and Rutger's own hiring guide.
+  Maxio, Leanlayer, Stage2 Capital, and Rutger's own hiring guide.
 status: seed
 
 ---
@@ -95,7 +95,7 @@ The Architect is not a binary hire. Engagement comes in three modes — match th
 | **FTE** | Team has 3–6+ RevOps people; 10+ tools with active integrations; architectural decisions are a weekly bottleneck | Fully embedded; owns the entire systems layer |
 
 **Trigger for any engagement (advisory minimum):**
-- Launching a new CRM or revenue architecture (HubSpot, WbD bowtie implementation)
+- Launching a new CRM or revenue architecture (HubSpot, bowtie implementation)
 - Integrating 3+ systems with bidirectional data flows
 - Internal team is technically capable but architecturally junior — good at configuring, not at designing for scale
 - Multi-BU complexity where one team's changes break another's processes
@@ -259,7 +259,6 @@ Primary sources:
 - Revenue Wizards: seven-tier FTE breakdown by company size
 - Hyperscayle: maturity-level visual org chart (5 levels, GTM complexity lens)
 - Go Nimbly: three structural models comparison
-- Winning by Design (Revenue Architecture, van der Kooij 2024): S-curve model, $10M–$10B
 - Maxio: team structures by size with OpenAI Systems/Strategic split
 - Stage2 Capital: hiring sequencing and RevOps Co-op endorsement
 - Leanlayer: team size calculator with ratio benchmarks

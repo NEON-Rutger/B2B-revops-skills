@@ -677,7 +677,6 @@ The Impact Journey maps the post-Mutual Commit customer journey into structured 
 
 Customers achieving impact in a **single area only** are more at risk of churn than customers with **widespread stakeholder usage** — expand to cover multiple Impact areas wherever possible.
 
-*Source: WbD Operating Model PDF, Chapter 08, pages 143-148. Jacco van der Kooij, Revenue Architecture.*
 
 ---
 
