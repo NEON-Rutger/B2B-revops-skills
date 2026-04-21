@@ -1,37 +1,48 @@
 # Contributing
 
-These skills are maintained by [Neon Triforce](https://neontriforce.com). Contributions welcome.
+Contributions are welcome. The bar is intentionally high — these skills are used in live commercial engagements and the quality standard reflects that.
 
-## What we accept
+## What makes a good contribution
 
-- Benchmark updates with sources
-- Factual corrections
-- Additional trigger phrases that improve skill discovery
-- New reference data (industry reports, framework citations)
-- Bug fixes (broken formatting, incorrect cross-references)
+A skill worth adding must do one thing well and know its limits. Before submitting, ask yourself: does this skill surface constraints the user wouldn't have spotted otherwise, or does it just describe what the user already knows?
 
-## What we don't accept
+## Requirements for every submitted skill
 
-- Skills that reference proprietary frameworks
-- Content without sources or attribution
-- Marketing language or promotional content
+Every pull request must include:
 
-## Style guide
+1. **`SKILL.md`** — The skill file itself. Must include:
+   - A clear activation trigger (one sentence describing when Claude should load this skill)
+   - A BOUNDARY statement that names at least two other skills it intentionally does not overlap with, and why
+   - Concrete diagnostic questions or frameworks, not general advice
+   - British English throughout (organisation, colour, analyse, behaviour)
 
-- **British spelling throughout.** Organisation, not organization. Colour, not color.
-- **Plain language.** Everyday words over jargon.
-- **Active voice.** "Fix the handoffs" not "Handoff optimization should be prioritized."
-- **Concrete over abstract.** Numbers, examples, short stories. Kill vague claims.
-- Each skill must have a clear `BOUNDARY` statement in its YAML description.
-- Each skill must have tested trigger phrases.
+2. **`references/` directory** (required if the skill cites external frameworks) — One markdown file per framework or methodology cited, explaining what it is and how the skill uses it. Don't cite MEDDIC or SPICED without explaining how your skill interprets them.
 
-## Submitting a PR
+3. **A test prompt** — A one-paragraph scenario that demonstrates the skill working correctly. Include it in the PR description, not in the skill file itself.
 
-1. Fork the repo
-2. Make your changes
-3. Run a grep for proprietary terms before submitting (Company Operating System, Growth Maturity Model, Obeya, X-Matrix, Revenue Insights Room, Signal-Trigger-Action framework, Five Revenue Leaks)
-4. Open a PR with a clear description of what changed and why
+## What we won't merge
+
+- Skills that duplicate existing skills without a clear differentiation statement
+- Skills that give general advice without a diagnostic or implementation layer
+- Skills that require private data, proprietary frameworks, or external paid tools to function
+- Skills with Americanised spelling (realise → realize etc.)
+- AI tells: em-dashes used more than 4 times per skill, phrases like "game-changer", "dive deep", "leveraging synergies"
+
+## Scope
+
+This repo covers the generic operational layer — frameworks any B2B revenue team can use. It is not the place for:
+
+- Client-specific delivery skills
+- Skills requiring Neon Triforce IP or proprietary maturity models
+- Experimental or unvalidated frameworks
+
+## Process
+
+1. Open an issue describing the skill before building it — this avoids duplicate effort
+2. Fork the repo, create a branch named `skill/[skill-name]`
+3. Submit a pull request with the skill file, references (if applicable), and a test prompt in the PR description
+4. One maintainer review required before merge
 
 ## Questions
 
-Open an issue or reach out at [neontriforce.com](https://neontriforce.com).
+Open a [Discussion](https://github.com/NEON-Rutger/B2B-revops-skills/discussions) before opening an issue for exploratory questions. Issues are for confirmed bugs or concrete skill proposals.
