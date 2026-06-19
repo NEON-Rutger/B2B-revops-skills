@@ -88,210 +88,9 @@ D — Decision
 
 ### SPICED Deep Dive: Element-by-Element
 
-#### Situation — Map Their Operating Model
+Each SPICED element has its own discovery checklist, 0-3 scoring rubric, and worked T1 (perfect-fit) example. For the full element-by-element deep dive (Situation operating-model mapping, Pain quantification framework, Impact vision-building, Critical Event trigger types and false-positive red flags, and the Decision eight-role committee + process-stall map), see `references/spiced-elements-detailed.md`.
 
-The Situation element is where you prove you understand the customer's baseline. Don't move forward until you can draw their org chart, explain their tech stack, and articulate their growth constraints.
-
-**What to uncover in discovery:**
-
-- Team structure: How many GTM teams? (Marketing, SDR, AE, Expansion, CS, Enablement?) Who reports to whom? Is there a RevOps function?
-- Growth stage: Series/ARR band, months in business, historical growth rate, current growth target
-- Process maturity: Do they run standardised processes (sprints, OKRs, weekly cadence) or hero-led heroics?
-- Current tooling: CRM, MA, data stack, call recording, enablement tooling. Are these used or legacy?
-- Customer types: SMB, mid-market, enterprise? Product-led, sales-led, partner-led? Geographic spread?
-- Constraints: Capital, headcount, market saturation, regulatory, competitive pressure?
-
-**Scoring rubric for Situation:**
-
-- **0 = Unknown:** Vague sense of what they do. No org chart, no process details.
-- **1 = Identified:** You've talked to one contact. You have basic firmographics (company size, revenue, sector). But gaps remain: you don't know their org structure, tech stack details, or growth trajectory.
-- **2 = Validated:** You've spoken to 2+ contacts (sales leader + practitioner). You have a clear picture of their GTM team, current process, and tooling. You can explain their growth stage and what's constraining them.
-- **3 = Leveraged:** You understand their operating model deeply enough to position your solution against their current way of working. You can say: "You're doing X today, which works for Y, but breaks when Z happens. Here's how we'd change that."
-
-**Example (T1 — Perfect Fit):**
-"They're a 30M ARR SaaS scale-up, 5 years old, selling mid-market finance teams across EMEA. 25-person sales org. Using HubSpot and Outreach. Running a blend of 60% sales-led new business, 40% inbound. Growth has plateaued at 25% YoY because their qualification process is gut-feel; reps are working low-quality pipeline."
-
----
-
-#### Pain — Quantify the Cost
-
-Pain without numbers isn't pain — it's complaining. Your job is to translate vague dissatisfaction into a concrete cost.
-
-**Types of pain to uncover:**
-
-- Revenue pain: Pipeline leakage, lost opportunities, low close rates, extended sales cycle
-- Operational pain: Manual processes, system sprawl, data quality, time wasted in meetings
-- People pain: Rep frustration, turnover, low morale, burnout from firefighting
-- Strategic pain: Can't scale GTM, can't enter new markets, can't defend growth targets, can't make confident decisions
-
-**Quantification framework:**
-
-For each pain, calculate the annual cost using this formula:
-```
-Pain cost = Impact * Frequency * Time period
-```
-
-Examples:
-- "Pipeline leaks at qualification stage" → 40 deals/quarter × 25% leak rate × €50K ACV = €500K/quarter lost
-- "SDR:AE ratio is 1:4 but best-in-class is 1:8" → 4 extra SDRs × €120K fully-loaded = €480K/year cost
-- "Forecast is off by 30%; each miss costs 2 exec days in forensics" → 4 quarters × 2 days × €1K/day = €8K/year + reputational cost
-- "Sales cycle stretched from 90 to 120 days" → 30 extra days × 25 reps × €200/day pipeline drag = €150K opportunity cost
-
-**Scoring rubric for Pain:**
-
-- **0 = Unknown:** Haven't talked about what's broken.
-- **1 = Identified:** They've mentioned a problem. "Our forecast is messy" or "reps aren't using CRM." But no quantification.
-- **2 = Validated:** You've quantified the pain. "You're losing 30% of qualified opportunities because reps don't have a standard qualification method. That's roughly 12 deals/quarter × €80K ACV = €960K/year."
-- **3 = Leveraged:** The customer is actively using this number in conversations internally. They reference the cost-of-inaction in their own justification for moving. You hear: "We need to close that €960K leak" instead of "maybe we should look at this."
-
-**Example (T1 — Perfect Fit):**
-"Biggest pain: they have 15-person AE team closing ~€60M ARR. Forecast is consistently off by 25–30% month-to-month because reps have no qualification discipline. No standard definition of 'qualified deal.' One rep uses gut feel, another uses BANT, another just works everything in the pipeline. This creates: (1) wasted AE time on poor-fit deals; (2) CFO trust erosion; (3) inability to make confident hiring/resource decisions. Quantified: 20% of AE time (~€200K) wasted on deals that will never close. Plus monthly exec reconciliation meetings (~€3K/month × 12 = €36K/year)."
-
----
-
-#### Impact — Build the Vision
-
-Impact is where pain becomes motive. It's the gap between current state (bad) and future state (better). Make it vivid.
-
-**Two dimensions of impact:**
-
-1. **Quantified business outcomes:**
-   - Revenue increase: closed deals, expansion revenue, reduced churn
-   - Efficiency: time saved per rep, cost per acquisition, cycle time reduction
-   - Risk mitigation: forecast accuracy, pipeline quality, predictability
-   - Strategic: ability to enter new markets, scale GTM without proportional headcount
-
-2. **Emotional outcomes (the human level):**
-   - Rep confidence: "My reps will trust the pipeline again"
-   - Leader credibility: "I'll be able to give the CFO a number and hit it"
-   - Organisational momentum: "This removes the biggest blocker to our 50% growth goal"
-   - Cultural signal: "We're becoming a data-driven, not opinion-driven, sales org"
-
-**Scoring rubric for Impact:**
-
-- **0 = Unknown:** Haven't discussed outcomes or upside.
-- **1 = Identified:** They've mentioned what success would look like. "We'd like forecast to be more accurate" or "better pipeline management." Vague, no numbers.
-- **2 = Validated:** You've modelled the impact together. "If you reduce your disqualification cycle by 2 weeks and focus AE time on T1/T2 deals only, your revenue per rep goes from €4M to €5M. At 15 reps, that's €15M incremental ARR." They see the logic.
-- **3 = Leveraged:** They're using this impact statement in internal conversations. You hear: "If we get forecast accuracy to ±10%, we can budget properly and hit our 50% growth plan. That's worth the investment."
-
-**Example (T1 — Perfect Fit):**
-"If they implement SPICED: (1) AE time on low-quality pipeline drops 20%, freeing ~€200K capacity. Redeployed to net new, that's ~€4M incremental ARR. (2) Forecast accuracy improves from ±30% to ±10%, which allows predictable headcount planning and eliminates monthly exec firefighting (€36K/year saved in meeting time, credibility, morale). (3) Reps have clear disqualification rules, so they feel less guilt killing deals early and more ownership of the pipeline they keep. (4) Board and CFO trust the GTM story, which opens door to bigger markets/budgets."
-
----
-
-#### Critical Event — Find the Trigger
-
-This is the #1 predictor of deal velocity. Deals without a critical event stall indefinitely. Deals with a clear, immovable deadline close.
-
-**Types of critical events:**
-
-- **Calendar:** Board meeting (usually Q end + 30 days), fiscal year end, annual planning cycle, contract renewal date
-- **Leadership:** New CRO/VP Sales hired (reset window), founder pressure after miss, activist board member
-- **Competitive:** Competitor announced, customer at risk to churn, market shift
-- **Operational:** Compliance deadline, audit finding, M&A integration, system migration
-- **Business:** Growth target raised, capital efficiency pressure, market entry decision, IPO/exit planning
-
-**Red flags (false critical events):**
-
-- "We need this by end of Q" → Only counts if they're willing to slip other priorities. If they'll just defer implementation to Q+1 without financial consequence, it's not urgent.
-- "Our CEO wants this" → Only counts if the CEO personally cares about timing. "CFO said we should evaluate" is weaker than "CFO said we have budget and need this live by board."
-- "Our competitor is doing it" → Only counts if they're losing deals or customers to that competitor specifically. FOMO without financial impact is not a critical event.
-
-**Scoring rubric for Critical Event:**
-
-- **0 = Unknown:** Haven't identified any deadline or trigger.
-- **1 = Identified:** They've mentioned a date. "We'd like this live by year-end" or "next quarter." But no consequence if it slips. Soft deadline.
-- **2 = Validated:** You've confirmed the deadline AND the consequence. "Board review is May 15. CFO needs forecast accuracy ±10% by then. If we can't demonstrate that, we can't approve headcount for H2 expansion plan." Specific, immovable.
-- **3 = Leveraged:** They're managing their internal timeline to hit this deadline. They're prepping board materials, they've allocated budget this quarter, they're clearing calendar for evaluation. You're blocking in signature by their deadline, not theirs moving to yours.
-
-**Example (T1 — Perfect Fit):**
-"Critical event: they hired a new CRO in Q4 (just joined 3 weeks ago). CRO has mandated a 100-day GTM transformation plan with SPICED qualification as pillar 1. They need to show forecast accuracy improvement by April board call (12-week window). If they hit that, CRO gets cover for his broader org redesign and next-phase investments. If they miss, the GTM initiative gets deprioritised and CRO's credibility erodes. This drives tight timeline, executive air cover, and willingness to move fast on implementation."
-
----
-
-#### Decision — Map the Buying Committee and Process
-
-Decision is the most complex SPICED element because it contains three things: Who decides (committee), how they decide (process), and what they decide on (criteria).
-
-**The eight stakeholder roles:**
-
-| Role | Definition | How to Identify |
-|------|-----------|-----------------|
-| **Economic Buyer** | Has budget authority. Final "yes" or "no." | "Who signs cheques for software spend of this size?" |
-| **Champion** | Advocates for your solution. Has credibility + personal win. | "Who do you think will push hardest for this internally?" "Who would lose sleep if this didn't happen?" |
-| **User Buyer** | Will use the system daily. Cares about ease of use, integration. | "Who will be in the system every day?" "Whose workflow changes the most?" |
-| **Technical Buyer** | Evaluates integration, security, compliance, data. | "Is there a technical evaluation process?" "Does your IT or Security team need to sign off?" |
-| **Coach/Mentor** | Trusted advisor to the economic buyer. No formal authority but carries weight. | "Who does [economic buyer] trust for advice on decisions like this?" |
-| **Initiator** | Raised the need internally. Often NOT the economic buyer. | "Who first said 'we need to fix this'?" |
-| **Legal/Procurement** | Contracts, compliance, vendor onboarding. | "What's your legal and procurement process?" |
-| **Saboteur** | Opposes your solution (rare to admit, but look for it). | Who has incentive to maintain status quo? Who competes for budget? |
-
-**The decision process map:**
-
-For each stakeholder, document:
-1. **Their priority:** What matters to them? (CFO = ROI and cash flow; CTO = integration and security; VP Sales = rep adoption; COO = implementation speed)
-2. **Their decision criteria:** What will they check? For the CFO: payback period, reference customers, contract terms. For CTO: API docs, compliance certs, data residency. For VP Sales: rep feature requests, competitor comparison, proof of SPICED methodology.
-3. **Their veto power:** Can they kill the deal? (Usually: economic buyer = yes, champion = sometimes, technical buyer = yes, others = no)
-4. **Their personal win:** What's in it for them? (CFO: hits ROI target. CTO: reduces integration debt. VP Sales: wins deals faster, reps adopt process. COO: implements without disrupting ops.)
-
-**Decision process steps:**
-
-Map the exact journey from "we're interested" to "contract signed":
-
-Example:
-```
-Step 1: Initial evaluation (2 weeks)
-  — Vendor sends capabilities overview
-  — Champion shares with VP Sales team (2 people review)
-  — Technical buyer lists requirements
-
-Step 2: POC/Demo (3 weeks)
-  — Vendor demos to 4-person evaluation committee
-  — Feedback collected via form
-  — Technical team gets access to sandbox
-
-Step 3: Technical validation (2 weeks)
-  — IT team evaluates: API docs, security, data residency, integration effort
-  — Security team runs vendor risk assessment
-
-Step 4: Commercial review (1 week)
-  — CFO/Procurement gets proposal
-  — Procurement checks contract terms (this is where most deals stall — they want standard terms, you might not offer them)
-  — CFO checks ROI math
-
-Step 5: Sign-off (1 week)
-  — Economic buyer (VP Sales or CRO) approves
-  — CFO or CEO cosigns (depending on ACV)
-  — Legal negotiates final terms
-
-Step 6: Signature + kickoff (final step)
-  — Both parties sign
-  — Implementation scheduled
-```
-
-**Where deals get stuck (and why):**
-
-- **After Step 2 (Demo):** Evaluation committee can't agree. Some like you, others prefer status quo or competitor. Saboteur emerges. → Fix: You need 1:1 meetings with each stakeholder to address their specific objections, not just one group demo.
-
-- **After Step 3 (Technical):** IT finds integration issue or security gap. They escalate to CTO who demands custom security controls. Timeline extends 4+ weeks. → Fix: You need technical pre-qualification before Step 2. Reduce surprises.
-
-- **In Step 4 (Commercial):** CFO wants 20% discount. Procurement wants 60-day payment terms instead of 30. Legal wants data residency in specific countries you don't offer. → Fix: Document commercial constraints early. Don't let surprises happen in the contract.
-
-- **After Step 5 (Sign-off):** Champion leaves the company or gets overruled. Economic buyer doesn't actually approve. → Fix: You need direct 1:1 with economic buyer in Step 4, not just champion bringing news back.
-
-**Scoring rubric for Decision:**
-
-- **0 = Unknown:** Haven't talked about process, committee, or criteria. Single contact, no visibility beyond them.
-- **1 = Identified:** You know the champion and maybe the economic buyer. You have a rough idea of "it goes through legal" and "IT checks integration." But no detail. Process feels mysterious.
-- **2 = Validated:** You've mapped 5+ stakeholders, you know their individual criteria, you've walked the process steps, and you understand where deals get stuck. You could draw an org chart. You have 1:1 relationships with at least champion + economic buyer + technical buyer.
-- **3 = Leveraged:** You're actively managing the process. You have 1:1 conversations with each stakeholder aligned to their specific criteria. You're removing blockers proactively (e.g., "I know IT wants data residency in Germany — here's our data centre docs"). You're coaching the champion on how to sell the economic buyer. You know the exact date signature happens.
-
-**Example (T1 — Perfect Fit):**
-"Decision committee: (1) VP Sales (champion, wants rep adoption + proof of SPICED methodology) — met 3x, strong sponsor. (2) CRO (economic buyer, wants forecast accuracy ±10% + board visibility by May) — met 1x, needs 1:1 on ROI math. (3) Controller/CFO (evaluates ROI, contract terms, vendor risk) — has not met, this is the risk. (4) Head of IT/Security (integration + compliance) — met, confirmed no blockers, we pass security review. (5) Procurement (contract terms, vendor onboarding) — have standard agreement? Likely sticking point.
-
-Process: vendor demo → technical eval (2 wks) → CFO review → legal negotiation → sign. Expected duration: 6 weeks from demo to signature IF no commercial surprises.
-
-Next actions: (1) 1:1 with CRO to present ROI model and May timeline. (2) Make intro to Controller to pre-qualify commercial terms (discount limits, payment terms, data residency). (3) Send IT our security + API docs to shorten technical eval."
+The headline guidance: Situation = prove you understand their baseline; Pain = translate dissatisfaction into a quantified cost; Impact = make the current-vs-future gap vivid; Critical Event = the #1 predictor of deal velocity (no immovable deadline = the deal stalls); Decision = map who decides, how they decide, and on what criteria, then manage every step from "interested" to "signed."
 
 ---
 
@@ -313,22 +112,7 @@ Score each element on a 0-3 scale:
 
 ### SPICED Scoring in Practice: Real Deal Example
 
-**Deal: Acme Corp (€80K ACV, 90-day sales cycle)**
-
-| Element | Evidence | Score | Why? |
-|---------|----------|-------|------|
-| **Situation** | Met VP Sales + Sales Ops Manager. Know: 25-person team, HubSpot users, been in role 6 months, growth from 15% to 25% YoY, but team scattered across 3 locations. No shared process. | 2 | Validated: specific people, actual constraints documented. Not yet 3 because haven't met the RevOps or seen their full tech stack. |
-| **Pain** | "Forecast is off 30%; reps don't qualify deals consistently; we have no shared definition of pipeline." Cost: €300K/year in wasted AE time (30% of 8 reps × €50K × 0.2 capacity loss). | 2 | Validated: quantified, specific. Prospect used that €300K number in internal justification. Not yet 3 because we haven't modelled their specific improvement (e.g., if SPICED reduces wasted time by 50%, saves €150K). |
-| **Impact** | "If we nail qualification, we'd focus AE time on high-probability deals. VP estimates 15% efficiency gain = €3M incremental ARR." Also: "Board wants forecast accuracy ±15% — we're at ±30%. That's the bar to hit." | 2 | Validated: they've done the math, referenced it in board discussions. Not yet 3 because they haven't used this to make internal commitments yet (e.g., "we're committing to ±15% by May board"). |
-| **Critical Event** | "Board review in May (12 weeks). VP Sales needs to show GTM progress by then. If he can demonstrate forecast accuracy improvement, he gets air cover for headcount expansion plan." | 3 | Leveraged: immovable date, specific consequence, economic buyer (CEO/CFO) cares. This is the forcing function driving timeline. |
-| **Decision** | Champion: VP Sales (strong, has budget, wants this to work). Economic buyer: CFO (hasn't met yet). Technical: no concern identified. Procurement: no process discussed. Missing: CFO conversation, procurement walkthrough. Process map: unknown. | 1 | Identified: know champion, rough sense that CFO matters, but huge gaps. No process clarity. CFO hasn't validated ROI assumptions. This is the biggest risk. |
-
-**Total: 2+2+2+3+1 = 10/15 (Strong deal, but one major gap — need to close CFO + procurement)**
-
-**Next actions (deal review coaching):**
-- "Your next step is a 1:1 with the CFO. We need to validate: (1) Does she agree ROI is accurate? (2) What are her payment terms and discount limits? (3) Any data residency or compliance requirements?" If CFO isn't excited, deal probability drops 40%.
-- "After that, get a 15-minute call with VP Sales to walk the procurement process. Is it standard terms or heavily negotiated? Does it usually add 2 weeks or 8 weeks?"
-- "Once you've closed both of those, your score jumps to 12-13. Then focus on execution."
+For a fully worked example — the Acme Corp deal (€80K ACV, 90-day cycle) scored element-by-element to 10/15 with evidence, per-element rationale, and deal-review coaching actions — see `references/spiced-scoring-example.md`.
 
 ---
 
@@ -415,37 +199,7 @@ The Neon SPICED ICP Library defines three customer clusters with different SPICE
 
 ### Buying Committee Mapping: SPICED Language by Persona
 
-Different personas in the DMU care about different SPICED elements. Tailor your conversation.
-
-**Chief Revenue Officer (Economic Buyer, Executive Sponsor)**
-- Cares most about: Impact (revenue upside, forecast accuracy, growth targets), Critical Event (board cycle, capital efficiency), Decision (process, speed to implement)
-- SPICED language: "You're aiming for 50% growth. Today your forecast is ±30%, which makes planning risky. If we get to ±10%, you can confidently hire and budget. Board meets in May — 12-week window to show improvement."
-- Key question: "If you could choose one thing to fix in your GTM in the next quarter, what would it be?"
-- Objection handler: Never lead with features. Lead with business outcomes. "This solves your forecast problem because we embed qualification discipline at each stage."
-
-**VP Sales (Champion, User Buyer)**
-- Cares most about: Situation (how it fits their team's workflow), Pain (rep experience, pipeline quality), Decision (ease of adoption, rep buy-in)
-- SPICED language: "Your reps are working low-quality pipeline because there's no shared qualification standard. SPICED gives them a framework that actually works — helps them disqualify faster and focus on winnable deals."
-- Key question: "What does a bad rep experience look like in your current process? Where do reps get stuck?"
-- Objection handler: Address adoption head-on. "We know reps won't use a framework that feels like extra work. SPICED lives in your CRM; it's how deals move through stages. Reps adopt it because it makes their job easier, not harder."
-
-**Sales Operations / Enablement (Technical Buyer, Process Owner)**
-- Cares most about: Situation (system integration, data hygiene), Pain (manual processes, reporting, data quality), Decision (implementation effort, ongoing support)
-- SPICED language: "You're spending 15 hours/week reconciling forecast data because there's no clear qualification definition. SPICED standardises the language. Once reps consistently score deals in your CRM, forecasting becomes automatic."
-- Key question: "What's your biggest pain point in CRM today? What data is unreliable?"
-- Objection handler: Be prescriptive. "Here's how we implement this: Day 1, create 5 custom fields in your CRM. Week 2, train reps on scoring. Week 4, we lock stage gates so deals can't move without minimum scores. Within 8 weeks, you're running from clean data."
-
-**CFO / Finance (Economic Buyer, Fiscal Gatekeeper)**
-- Cares most about: Impact (ROI, payback period, reference customers), Pain (quantified savings or revenue), Decision (contract terms, risk, implementation timeline)
-- SPICED language: "You identified €300K/year in wasted AE capacity due to poor qualification. SPICED reduces that by at least 50%, saving €150K. Implementation is 8 weeks, zero disruption. ROI = 1.2x in year one."
-- Key question: "What's your approval threshold for new software? What does the business case need to show?"
-- Objection handler: Show the math. "If we free up 15% of AE time and redeploy it to new business at 30% close rate, that's 6 deals/AE × 12 AEs × €80K ACV × 30% = €1.7M incremental ARR. Software costs €80K/year. That's 21x ROI."
-
-**CTO / Head of IT (Technical Buyer, Gatekeeper)**
-- Cares most about: Situation (system integration, data architecture), Pain (integration debt, security, compliance), Decision (implementation burden, ongoing support)
-- SPICED language: "This integrates with your HubSpot via API. No custom integration needed. Security: SOC 2 Type II, GDPR-ready, on-premise or cloud options. 4-week implementation."
-- Key question: "What systems does this need to integrate with? Any compliance or security requirements we need to know?"
-- Objection handler: Be technical, not marketing. "Here's our API docs. Here's our security whitepaper. Here's the data that flows: deal stage + SPICED scores sync to your BI tool every 4 hours. No data lives in our system; we're a processing layer on top of your HubSpot."
+Different personas in the DMU care about different SPICED elements, so tailor your conversation to each. For the full per-persona playbook — which SPICED elements each cares most about, canonical SPICED language, key question, and objection handler for the CRO, VP Sales, Sales Ops/Enablement, CFO/Finance, and CTO/Head of IT — see `references/spiced-personas.md`.
 
 ---
 
@@ -477,123 +231,13 @@ Structure your discovery calls around the five SPICED elements. This is the rhyt
 - Identify #1 gap: which element is weakest?
 - Plan next action: who do you need to speak to next?
 
-**Example discovery call transcript (Large SaaS, VP Sales):**
-
-```
-You: "Walk me through your GTM org."
-
-VP Sales: "We've got 30 AEs, split across three regions. 10 SDRs feeding them. Marketing does demand gen. We also have a CS team that owns expansion. The big problem is that SDRs, AEs, and CS aren't talking. An opportunity can come from inbound, or a CS suggestion, or an AE network call — and we have no consistent way to score it or move it through stages."
-
-[This tells you: Situation is known. Multiple motions (inbound + expansion), weak handoffs, no shared qualification. Likely pain: pipeline transparency, low conversion rates.]
-
-You: "That makes sense. You have three entry points into the pipeline, but no shared language on what 'qualified' means. How does that show up for you? Where do deals leak?"
-
-VP Sales: "Exactly. SDRs might mark something as SQL that an AE would disqualify in the first call. And expansion opportunities that CS surfaces sometimes die because AEs think they're too small. We're probably losing 30–40% of expansion revenue because it never even makes it into an opportunity. That's roughly €2M/year in lost expansion."
-
-[This tells you: Pain is quantified. Specific number (€2M/year). Multiple problems (inbound + expansion qualification). This is real enough for a follow-up conversation.]
-
-You: "€2M is significant. If you closed that gap — if you had a shared way to qualify opportunities so you didn't lose that expansion revenue — what would that mean?"
-
-VP Sales: "We could hit our growth target. Right now we're at 35% growth, aiming for 50%. If we keep that €2M, we're a lot closer. Plus, it would make our forecast more reliable. Today we're off by 25% month to month because we're working low-quality pipeline."
-
-[Impact: clarified. Two outcomes: (1) hit growth target, (2) forecast accuracy. Both matter to CFO.]
-
-You: "Is there a timeline driving this? When does this need to be solved?"
-
-VP Sales: "We have a board meeting in May. The growth story is the centerpiece. If we can show that we're being more disciplined about qualification and that our forecast is more accurate, that's a win. If we show up to the board saying 'yeah, we're losing €2M but we're thinking about it,' that's bad."
-
-[Critical Event: May board meeting. Specific date, specific consequence (board confidence). This creates urgency.]
-
-You: "Got it. When the board asks you how you're solving this, who do you need to have in the room with you?"
-
-VP Sales: "The CFO will definitely be there. And our CRO — she's new, 6 months in, and this GTM transformation is her agenda. She cares a lot about the forecast piece."
-
-[Decision: Started to emerge. CRO = champion/economic buyer. CFO = fiscal gatekeeper. But haven't identified technical buyer yet.]
-
-You: "Are there any technical or operational people involved in evaluating a solution like this?"
-
-VP Sales: "We have a Sales Ops person, Sarah. She'd need to sign off on whether it fits into our HubSpot setup and doesn't break anything. And honestly, our IT team is a bit of a gate — they're protective about integrations."
-
-[Decision: Clearer now. Sarah = Sales Ops (process owner), IT = gatekeeper.]
-
-You: "Perfect. Here's what I'm hearing: you have three entry points into pipeline (inbound, expansion, network), but no shared qualification language. That's costing you €2M in lost expansion revenue and making your forecast unreliable. You're aiming for 50% growth, but can't confidently budget for it. The May board meeting is the forcing function — you want to show disciplined, predictable GTM. To fix this, you'd need buy-in from the CRO (business), CFO (ROI), Sales Ops Sarah (implementation), and IT (technical gates). Does that summary land?"
-
-VP Sales: "Yes, that's exactly right."
-
-You: "Great. My next step is to have a conversation with CRO and the CFO — just to understand: Does the May board date actually drive urgency? And what does the ROI business case need to show? Sound good?"
-
-VP Sales: "Yeah, let's do that. I'll make the introduction."
-```
-
-**Coaching debrief on that call:**
-
-Situation score: 2 (validated — clear picture of org, growth stage, motions, tools)
-Pain score: 2 (validated — quantified at €2M/year, specific impact on forecast)
-Impact score: 1 (identified — they've mentioned growth target and forecast, but not modelled the specific impact)
-Critical Event score: 3 (leveraged — May board meeting is immovable, consequence is clear, they're thinking about it as timeline driver)
-Decision score: 1 (identified — know some stakeholders, but no process clarity yet, haven't spoken to CFO or IT)
-
-**Total: 2+2+1+3+1 = 9/15.** Next actions: (1) 1:1 with CRO to confirm business case and urgency. (2) 1:1 with CFO to validate ROI math (€2M expansion upside + forecast accuracy improvement). (3) 15-min call with Sales Ops Sarah to confirm no technical blockers. Once those are done, deal jumps to 12-13/15.
+For a full annotated discovery-call transcript (Large SaaS, VP Sales) showing how each SPICED element gets uncovered in real conversation, plus the post-call coaching debrief that scores it to 9/15 with next actions, see `references/spiced-discovery-call-example.md`.
 
 ---
 
 ### SPICED Evidence by Pipeline Stage
 
-Different SPICED scores are required at different stages. This prevents deals from moving too fast or stalling.
-
-```
-DISCOVERY STAGE (0-30 days):
-  Goal: Build situation + pain foundation
-  Minimum SPICED score: 4+ (any combination)
-  Must have:
-    - Situation ≥ 1 (know who you're talking to and what they do)
-    - Pain ≥ 1 (identified a problem, even if not quantified)
-  Red flags to exit:
-    - Pain score stays at 0 after 2 calls (they don't actually care)
-    - Situation score stays at 0 (can't even schedule a follow-up)
-    - Buyer says "we're happy with status quo and have no budget" (not a deal)
-
-QUALIFICATION STAGE (30-60 days):
-  Goal: Validate impact + critical event + decision process
-  Minimum SPICED score: 8+
-  Must have:
-    - Situation ≥ 2 (know their operating model)
-    - Pain ≥ 2 (quantified in euros)
-    - Impact ≥ 1 (they've articulated future state)
-    - Critical Event ≥ 1 (identified deadline or trigger)
-    - Decision ≥ 1 (know who's involved)
-  Red flags to exit:
-    - After 3 calls, Critical Event is still 0 (no real urgency, deal will stall)
-    - Pain stays at 1 (no quantification; they're not serious)
-    - Decision is 0 (still no idea who the economic buyer is)
-
-SOLUTION DESIGN / PROPOSAL (60-90 days):
-  Goal: Close decision + champion gaps, prepare proposal
-  Minimum SPICED score: 10+
-  Must have:
-    - Situation ≥ 2 (understand how to position solution)
-    - Pain ≥ 2 (can quantify savings/upside against their cost)
-    - Impact ≥ 2 (they've modelled the business case)
-    - Critical Event ≥ 1 (driven timeline for proposal delivery)
-    - Decision ≥ 2 (know decision process, have champion, identified economic buyer)
-  Red flags to delay proposal:
-    - Decision score is 1 or 0 (haven't talked to economic buyer; proposing to wrong person)
-    - Impact score is 0 or 1 (haven't modelled upside; proposal will be about price)
-    - Pain quantification is missing (can't tie ROI to specific problem)
-
-NEGOTIATION / CLOSE (90+ days):
-  Goal: Close economic buyer, handle legal/procurement
-  Minimum SPICED score: 12+
-  Must have:
-    - All elements ≥ 2
-    - Economic buyer directly engaged (not through champion)
-    - Decision process walkthrough complete (know exact path to signature)
-    - Commercial terms pre-qualified (no surprises in legal/procurement)
-  Red flags to escalate:
-    - Economic buyer hasn't been engaged directly by this stage (you've been relying on champion)
-    - Critical Event passed (May board was the deadline, it's now June)
-    - Procurement introduces new requirements not discussed before (scope creep)
-```
+Different SPICED scores are required at different stages — this prevents deals from moving too fast or stalling. The quick gate: Discovery (0-30 days) needs SPICED 4+ with S≥1 and P≥1; Qualification (30-60 days) needs 8+; Solution Design/Proposal (60-90 days) needs 10+; Negotiation/Close (90+ days) needs 12+ with all elements ≥2 and the economic buyer directly engaged. For the full per-stage breakdown — goal, minimum score, must-have element thresholds, and stage-specific red flags to exit/delay/escalate — see `references/spiced-pipeline-stages.md`.
 
 ---
 
@@ -810,23 +454,7 @@ For full ICP building methodology using interview data, see `neon-icp` skill.
 
 ## Stakeholder / Champion Mapping
 
-For deals above €25K ACV, map every identified person against the 8 stakeholder roles:
-
-| Role | What They Do | How to Identify |
-|------|-------------|----------------|
-| **Initiator** | First raised the need internally | "Who first brought this up?" |
-| **Champion** | Actively helps you win; has personal stake | Tests: Will they coach you? Share intel? Sell internally? |
-| **Decider** | Final budget authority | "Who signs off on investments of this size?" |
-| **Operations** | Will manage implementation day-to-day | "Who will own the rollout?" |
-| **Users** | Will use the solution daily | "Who will be in the system every day?" |
-| **CxO** | Executive sponsor above the Decider | Often the Decider's boss — provides air cover |
-| **Finance** | Procurement, CFO, budget gatekeeper | "What's your procurement process?" |
-| **Security** | IT, compliance, legal review | "Do you have a security review process for new vendors?" |
-
-**CRM Implementation:** Create a `stakeholder_map` note field per deal. In deal reviews, count roles filled:
-- 1-2 roles: ⚠️ Single-threaded — highest risk factor
-- 3-4 roles: Developing — push for Decider access
-- 5+ roles: Well-mapped — focus on Champion strength
+For deals above €25K ACV, map every identified person against the 8 stakeholder roles (Initiator, Champion, Decider, Operations, Users, CxO, Finance, Security). In deal reviews, count roles filled: 1-2 = single-threaded (highest risk factor); 3-4 = developing, push for Decider access; 5+ = well-mapped, focus on Champion strength. For the full 8-role table — what each role does, how to identify them, and the `stakeholder_map` CRM implementation — see `references/stakeholder-map.md`.
 
 ## Coaching & Adoption
 
@@ -852,32 +480,7 @@ Methodology adoption fails when it feels like extra work on top of selling. Make
 
 ### New Rep Onboarding
 
-```
-Week 1: Framework introduction + language
-  - Teach the methodology concepts (2-hour session max)
-  - Give them a one-page reference card, not a 40-page playbook
-  - Have them score 5 historical deals using the framework
-
-Week 2: Guided practice
-  - Role-play discovery calls using the framework
-  - Listen to 3-5 recorded calls and identify methodology elements
-  - Debrief each exercise: what was strong, what was missed
-
-Week 3: Shadowing
-  - Shadow 3+ live calls with experienced reps
-  - After each call, identify: what SPICED elements were uncovered?
-  - Begin scoring real deals in CRM
-
-Week 4: Live with coaching
-  - Run own discovery calls with manager listening
-  - Debrief after every call for the first 2 weeks
-  - Start participating in deal reviews
-
-Ongoing:
-  - Weekly deal reviews with methodology scoring
-  - Monthly calibration: are reps scoring consistently?
-  - Quarterly refresh: any methodology adjustments needed?
-```
+Ramp new reps on the methodology over a 4-week arc: Week 1 framework + language (score historical deals), Week 2 guided practice (role-plays + recorded-call analysis), Week 3 shadowing live calls, Week 4 live calls with coaching — then ongoing weekly reviews, monthly calibration, and quarterly refresh. For the full week-by-week plan with specific activities, see `references/methodology-onboarding-plan.md`.
 
 ## Discount Negotiation Playbook
 
@@ -910,29 +513,7 @@ Ask: "Help me understand what's driving the request" before you offer anything.
 
 ### Discount Objection Scripts
 
-**"Your competitor offered us X% less"**
-
-Response: "Which solution are you comparing? When you look at total cost including implementation, training, and support — plus the switching cost from [current tool] — how do the proposals compare? We find that customers who evaluated both chose us because of [specific differentiator]. Let me walk you through what that means for your use case."
-
-If the threat is real and documented: this qualifies for competitive displacement reason code. Follow the discount governance matrix. Require: named competitor, specific proposal evidence, written competitive analysis.
-
-If the threat is vague: hold on price. Offer to do a joint value assessment or proof-of-value. Let the product win on merit.
-
-**"We need a bigger discount to get this approved"**
-
-Response: "I understand procurement wants to see value. Rather than discounting the rate, let me help you build the business case. We've quantified [pain] at [cost]. Even at list price, you're looking at [X]x ROI in the first year. Can we schedule a call with your CFO where I present the value analysis?"
-
-Alternative: offer non-monetary concessions — extended onboarding, additional training, dedicated success manager for 90 days, priority support upgrade, early access to beta features. High perceived value, low marginal cost.
-
-**"Others in our market got a better price"**
-
-Response: "Every customer's pricing reflects their specific commitment — term length, seat count, timing. I can't speak to other agreements, but I can build you a proposal that matches the value and commitment you're making. If you're looking for comparable economics, the path is typically [multi-year / volume commitment / prepay]."
-
-Never confirm or deny specific customer pricing. Confidentiality is non-negotiable and also your strongest defence.
-
-**"Our buying organisation expects standard pricing"**
-
-Response: "We value your organisation's role. Let me understand: how many of your member companies are actively evaluating? What's the expected adoption timeline? We structure pricing based on actual committed volume rather than projected, which ensures every member gets fair terms tied to their specific configuration."
+Once you've diagnosed the real objection (Step 1) and decided how to respond, use the verbatim response scripts for the four most common discount objections — "Your competitor offered us X% less," "We need a bigger discount to get this approved," "Others in our market got a better price," and "Our buying organisation expects standard pricing." Each includes a ready-to-use response plus the governance/confidentiality rules and non-monetary alternatives. For the full scripts, see `references/discount-objection-handlers.md`.
 
 For GPO/consortium handling framework (admin fees, volume tiers, negotiation rules), see the pricing-strategy skill.
 
@@ -957,224 +538,18 @@ Track these to identify patterns: which reps discount most, which reason codes a
 
 ## Pipeline Management Operating Model
 
-Beyond discovery and qualification, the sales process needs an operational backbone. This section covers the management layer that ensures deals move through stages correctly and forecasting is reliable.
+Beyond discovery and qualification, the sales process needs an operational backbone — the management layer that ensures deals move through stages correctly and forecasting is reliable. SPICED tells you how to run the conversation; this tells you how to run the pipeline.
 
-**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid. Neon applies this as the operational complement to SPICED — SPICED tells you how to run the conversation; this tells you how to run the pipeline.
+**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid, applied by Neon as the operational complement to SPICED.
 
-### Stage Entry/Exit Criteria
+The model has five components:
+- **Stage entry/exit criteria** — every stage has explicit gates. The spine: Discovery exits at SPICED S+P ≥ 2 each with Pain validated; Qualification exits at SPICED total ≥ 8/15 with economic buyer + champion identified; Solution Design exits at solution presented and technical validation complete; Negotiation exits at verbal terms agreed and legal/procurement engaged; Closed Won exits at handoff to CS.
+- **Stocks & required CRM fields by stage** — the information inventory that must be captured before a deal advances. If the stock is empty, the deal shouldn't progress.
+- **Pipeline inspection cadence** — weekly deal review (top 5 by close date, deal-quality questions), monthly cross-functional pipeline council (health, conversion, source, forecast), quarterly revenue planning (coverage vs. quota, win/loss calibration).
+- **Disqualification / deal-kill criteria** — explicit close-out rules. Kill if: no identifiable pain after two discovery calls, no economic-buyer access after Qualification, Critical Event keeps moving, champion leaves, deal age > 2x average cycle with no progression, or requirements outside product capability. Staleness rule: no progression in > 1.5x average cycle triggers mandatory review.
+- **Forecast categories** — Commit (verbal yes, in legal, signs this period), Best Case (presented/accepted, budget confirmed, no known blockers), Upside (SPICED ≥ 8, champion engaged, timeline plausible), Pipeline (too early, move up only at SPICED ≥ 6). Coverage discipline: if Commit + Best Case < quota, that's a pipeline-generation problem, not a forecasting one.
 
-Every deal stage needs explicit criteria for what must be true to enter and exit. Without this, stages become meaningless labels and pipeline data is unreliable.
-
-```
-STAGE           ENTRY CRITERIA                           EXIT CRITERIA
-────────────    ──────────────────────────────────       ──────────────────────────────────
-Discovery       - Contact identified as ICP fit          - SPICED S+P scored ≥ 2 each
-                - Initial meeting booked/completed       - Pain validated (not assumed)
-                - Contact record created in CRM          - Next meeting booked
-
-Qualification   - SPICED S+P+I scored                    - SPICED total ≥ 8/15
-                - Decision process understood            - Economic buyer identified
-                - Budget range confirmed                 - Timeline established
-                - Competition known                      - Champion identified
-
-Solution        - Solution mapped to validated pain      - Solution presented to buyer
-Design          - Pricing model selected                 - Objections captured
-                - Internal resources confirmed           - Technical validation complete
-                - Proposal/SOW drafted                   - Champion coaching delivered
-
-Negotiation     - Proposal delivered to decision-maker   - Terms agreed (verbal)
-                - Commercial terms discussed             - Legal/procurement engaged
-                - Contract redlines received             - Signature timeline confirmed
-
-Closed Won      - Contract signed                        - Handoff to CS initiated
-                - Payment terms confirmed                - Onboarding scheduled
-```
-
-### Stocks & Questions by Stage
-
-"Stocks" = the information inventory that should be captured at each stage. If the stock is empty, the deal shouldn't progress.
-
-```
-DISCOVERY STOCKS:                    QUESTIONS TO ASK:
-  Situation context                  "How do you handle [X] today?"
-  Pain statement (their words)       "What's the main friction?"
-  Stakeholder map (initial)          "Who else is involved in this?"
-  Current tools/process              "What have you tried before?"
-
-QUALIFICATION STOCKS:                QUESTIONS TO ASK:
-  Impact quantified (€/time)         "What would solving this be worth?"
-  Critical Event identified          "When does this need to be resolved?"
-  Decision process mapped            "Walk me through how you'd make this decision"
-  Champion validated                 "Who internally is pushing for this?"
-  Budget confirmed                   "Is there budget allocated for this?"
-
-SOLUTION STOCKS:                     QUESTIONS TO ASK:
-  Requirements documented            "What does success look like in 90 days?"
-  Technical fit validated            "Any integration requirements I should know?"
-  Objections surfaced                "What concerns does your team have?"
-  Competition comparison             "Who else are you evaluating?"
-
-NEGOTIATION STOCKS:                  QUESTIONS TO ASK:
-  Decision criteria ranked           "What matters most in your final decision?"
-  Contract redlines listed           "Are there standard procurement terms?"
-  Concession limits defined          "What would make this a clear yes?"
-  Timeline commitment                "When do you need to go live?"
-```
-
-### Pipeline Inspection Process
-
-```
-WEEKLY DEAL REVIEW (30 min per rep):
-  Format: Rep walks through top 5 deals by expected close date
-  Questions:
-    1. What changed since last week?
-    2. What's the next concrete step? (Not "follow up" — specific action)
-    3. Is this deal on track for the forecast commit?
-    4. What's blocking progress?
-    5. Should we involve anyone else? (Champion coaching, exec sponsor)
-
-  Manager actions:
-    - Challenge: "What evidence do you have for that?" (test deal quality)
-    - Coach: "Here's what I'd try next" (develop capability)
-    - Redirect: "This deal is stuck — let's deprioritise or kill it"
-
-MONTHLY PIPELINE COUNCIL (60 min, cross-functional):
-  Attendees: Sales leader, Marketing leader, CS leader, RevOps
-  Agenda:
-    1. Pipeline health: coverage ratio, velocity, stage distribution
-    2. Conversion analysis: which stages are leaking?
-    3. Source analysis: which channels produce best-quality pipeline?
-    4. Forecast review: commit vs actual trend
-    5. Actions: what changes this month?
-
-DEAL KILL CRITERIA (when to walk away):
-  - SPICED score < 4 after two discovery calls
-  - No access to economic buyer after qualification stage
-  - Critical Event keeps moving (no real urgency)
-  - Champion leaves the organisation
-  - Deal age > 2x average sales cycle with no stage progression
-  - Customer requirements outside product capability
-```
-
-### Forecast Categories
-
-```
-CATEGORY        DEFINITION                                    CRITERIA
-────────        ──────────                                    ────────
-Commit          Will close this period. Would bet my job.     - Verbal yes received
-                                                              - Contract in legal/procurement
-                                                              - Signature expected within period
-
-Best Case       High probability, needs 1-2 things to land.  - Solution presented and accepted
-                                                              - Budget confirmed
-                                                              - Decision timeline within period
-                                                              - No known blockers
-
-Upside          Could close but significant unknowns remain.  - Qualified (SPICED ≥ 8)
-                                                              - Champion engaged
-                                                              - Timeline plausible but not committed
-
-Pipeline        Active opportunities, too early to forecast.   - In Discovery or early Qualification
-                                                              - Building relationship
-                                                              - Not yet forecast-ready
-```
-
-## Pipeline Management Operating Model
-
-SPICED qualifies deals. This section operationalizes the full pipeline management model around SPICED — from stage entry criteria to inspection cadence.
-
-### Stage Entry and Exit Criteria
-
-Every deal stage requires explicit entry and exit gates. Without them, CRM data reflects rep optimism, not deal reality.
-
-```
-STAGE               ENTRY CRITERIA                          EXIT CRITERIA (must be true to advance)
-─────               ──────────────                          ────────────────────────────────────────
-MQL/Prospect        Meets ICP (firmographic + intent fit)   Responded to outreach / booked meeting
-
-Discovery           Meeting booked                          SPICED partially captured: Situation +
-                                                            Pain confirmed (minimum viable score ≥ 4)
-
-Qualification       Pain confirmed, S+P+I captured          I+C+E captured; SPICED score ≥ 7;
-                                                            Champion identified and engaged
-
-Solution Presented  SPICED complete; solution scoped        Verbal acceptance of solution fit;
-                                                            Proposal/pricing shared
-
-Evaluation          Proposal shared                         Legal/procurement engaged or decision
-                                                            timeline confirmed within period
-
-Closed Won          Contract signed                         —
-Closed Lost         Decision made in favour of competitor   Loss reason documented in CRM
-                    or status quo; or deal abandoned
-```
-
-### Required CRM Fields by Stage
-
-Every stage should mandate data capture before the deal advances. These are the minimum fields — adapt to your CRM workflow.
-
-```
-STAGE               REQUIRED CRM FIELDS
-─────               ───────────────────
-Discovery           Company size (ARR/headcount), current state, problem trigger
-Qualification       Pain category, business impact (quantified if possible), decision process,
-                    Champion name + role, critical event / deadline
-Solution Presented  Solution scope, commercial model proposed, price range shared
-Evaluation          Key stakeholders engaged, procurement/legal status, timeline confirmed
-Closed              Win/loss reason, competitor (if applicable), ACV, close date
-```
-
-### Disqualification Criteria (When to Walk Away)
-
-Explicit "close out" rules prevent pipeline pollution and wasted forecast capacity.
-
-**Disqualify immediately if:**
-- No identifiable pain connected to your solution after two discovery conversations
-- Budget is 0 and there's no route to create budget within 2 quarters
-- No executive sponsor or champion willing to engage
-- Product fit gap confirmed (customer requirements outside capability)
-- Company not in ICP (wrong segment, geography, or GTM motion)
-
-**Put on hold (not disqualify) if:**
-- Critical Event is more than 6 months out
-- Champion leaves but relationship can be rebuilt
-- Budget freeze expected to lift in next quarter
-
-**Staleness rule:** Any deal with no stage progression in > 1.5x your average sales cycle triggers a mandatory review. Either advance it or close it out.
-
-### Pipeline Inspection Process
-
-Management cadence for reviewing deal quality, not just deal volume.
-
-**Weekly (individual rep + manager 1:1):**
-- Review SPICED score for each Qualification+ deal
-- Call out any deals advancing without meeting exit criteria
-- Flag stale deals (no activity in 10+ business days)
-- Confirm next best action for every deal in Evaluation
-
-**Monthly (team pipeline review):**
-- Review stage conversion rates vs. benchmarks
-- Identify systematic gaps (e.g., low Discovery → Qualification conversion = qualification criteria too loose or too tight)
-- Review closed-lost reasons and adjust ICP/disqualification criteria if patterns emerge
-
-**Quarterly (revenue planning):**
-- Reconcile pipeline coverage ratio vs. quota (minimum 3x for Commit, 4-5x for full quarter target)
-- Adjust territory/capacity if pipeline generation is below coverage threshold
-- Win/loss analysis: aggregate patterns across wins and losses to update SPICED calibration
-
-### Forecasting Methodology
-
-See the revops-forecasting skill for full forecasting depth and methodology. The Forecast Categories below are the sales methodology layer — what reps commit and why.
-
-*Note: Full category definitions are in the Forecast Categories section above. The pipeline management context:*
-- Commit deals must have all SPICED elements captured and a clear path to signature
-- Best Case deals have a qualified champion but one or two open elements (e.g., procurement not yet engaged)
-- Upside deals have enough SPICED for a reasonable call but timeline or decision process is unclear
-- Pipeline deals are active but too early for the forecast — move to a category only when SPICED score ≥ 6
-
-**Coverage discipline:** If Commit + Best Case < quota, the team doesn't have a forecasting problem — they have a pipeline generation problem. Escalate there, not at forecast accuracy.
-
-For pipeline reporting architecture and dashboard design, see the pipeline-visibility skill.
+For the full operating model — both stage-criteria tables (5-stage and granular MQL→Closed Lost), the Stocks & Questions matrix, required CRM fields by stage, the complete weekly/monthly/quarterly inspection process, full disqualification rules, and the forecast-category definitions — see `references/pipeline-management-model.md`. For full forecasting depth, see the revops-forecasting skill; for pipeline reporting architecture and dashboard design, see the pipeline-visibility skill.
 
 ---
 
@@ -1184,113 +559,11 @@ For Ebsta/Pavilion 2025 benchmark data on discovery, multi-threading, qualificat
 
 ---
 
-### The AI-Augmented Sales Day (Kyle Norton / Owner.com)
+## Emerging Practices: AI-Augmented Methodology
 
-Kyle Norton runs a 100+ AI-infused sales team at Owner.com. His framework for what a rep's day looks like when AI is properly embedded:
+The governing principle: build methodology as **architecture, not craft** — systems (CRM-embedded fields, stage gates, AI-assisted scoring, coaching cadence) that make average reps execute SPICED/MEDDIC consistently, rather than relying on individual talent. AI handles research, admin, and data prep so reps spend 70-80% of time selling; the rep still brings qualification judgement and runs the discovery. Two guardrails: use AI to *suggest* methodology scores (not auto-populate — confirm/override to avoid cognitive atrophy), and focus methodology training on closing skills, not prospecting (most revenue is inbound).
 
-**Morning (automated by AI):**
-- Pre-call research: AI prepares briefing packs for every scheduled meeting (company context, contact history, recent signals, recommended talk points)
-- Account prioritisation: AI scores today's pipeline by urgency and signal strength
-- Admin clearance: CRM updates, activity logging, and data enrichment happen automatically overnight
-
-**Core hours (human-led, AI-supported):**
-- Discovery and negotiation calls (the 70-80% revenue-generating time target)
-- AI provides real-time coaching prompts during calls (if conversation intelligence is deployed)
-- Post-call: AI generates summary, updates CRM, drafts follow-up email for rep review
-
-**End of day (automated by AI):**
-- Pipeline snapshot updated
-- Next-day prep begins automatically
-- Stale deal alerts surfaced for tomorrow's action
-
-**The target:** reps spend 70-80% of their time on revenue-generating activities. Current industry average: 30-40%. The gap is filled by automating research, admin, and data entry — not by automating the human conversation.
-
-**Bridge to SPICED:** the AI handles data collection and preparation. The rep brings SPICED qualification skill, judgement, and human connection. AI can score deals on SPICED dimensions, but the rep runs the discovery.
-
-Source: SaaStr AI Agent Playbook, Kyle Norton / Owner.com case study
-
----
-
-## Norton Framework Additions (Source: Kyle Norton / Aviv Canaani, Revenue Leadership Podcast, 2026)
-
-### Methodology as Architecture vs. Craft
-
-Two modes of methodology implementation:
-
-**Craft Mode:** Great reps execute SPICED/MEDDIC well because they're skilled. Depends on individual talent.
-
-**Architecture Mode:** Systems ensure average reps execute SPICED/MEDDIC consistently. Depends on process design + tool enforcement + coaching cadence.
-
-Architecture mode scales. Craft mode doesn't.
-
-**Implementation Principles:**
-- Embed methodology in CRM (required fields, stage gates, scoring)
-- Automate methodology coaching via deal review templates
-- Use AI to evaluate SPICED completeness before stage advancement
-- Measure methodology adoption as a leading indicator, not just outcomes
-
-**Anti-Prospecting Qualification Gate:**
-High SPICED thresholds reduce proposal churn. Use methodology to DISQUALIFY fast:
-- Kill deals with SPICED <4 after discovery
-- This frees rep time for higher-quality opportunities
-- Productivity play: fewer deals worked, but higher conversion on the deals you do work
-
-**Self-Reinforcing Methodology Adoption Loop:**
-Better qualification → faster velocity → better results → higher rep trust → more adoption → better qualification → (repeat)
-
-### "Show, Don't Demo" Methodology (Donnelly, E62)
-
-In low-trust, noisy AI markets, stop claiming and start proving.
-
-**The approach:**
-1. When a prospect books a demo, build a custom AI agent using the prospect's public knowledge base within 24 hours
-2. Show the prospect how THEIR specific use case would work — not a generic demo environment
-3. Generic demos create generic trust. Custom proof creates specific confidence.
-
-**Extended "show me" philosophy:**
-- Tell prospects to become customers of your existing clients: "Go to [client] and buy something. See how they upsell you."
-- One prospect tested a client's experience, found issues — turned into a teaching moment about configuration choices
-- Build time has collapsed with AI. What took weeks now takes hours.
-
-**When to deploy:**
-- Noisy markets where every competitor claims the same thing
-- AI/tech sales where the product can be demonstrated with prospect data
-- Deals where trust is the bottleneck (not feature comparison)
-
-**CRM tracking:** Add a field `custom_proof_delivered` (Yes/No/Date) to track whether the "show, don't demo" approach was used and its impact on win rate.
-
-### Cognitive Atrophy Warning for AI-Assisted Methodology (Donovan, E61)
-
-One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcripts. The tool worked perfectly — but the AEs stopped thinking critically about their deals. They became passive consumers of AI-generated qualification.
-
-**The principle:** AI that removes cognitive load can also remove cognitive development.
-
-**Implementation rule for MEDDIC/SPICED automation:**
-- Use AI to SUGGEST methodology scores, not auto-populate them
-- Require reps to CONFIRM or OVERRIDE AI suggestions with their own reasoning
-- Build "why do you agree/disagree?" prompts into the workflow
-- Track override frequency — too few overrides means reps aren't thinking
-
-### The Anti-Prospecting Thesis (Canaani, E64)
-
-**The myth:** "You're not a real AE if you don't prospect."
-
-**The reality:**
-- 80-90% of closed revenue comes from inbound (Canaani's data)
-- Salesforce State of Sales: reps spend only 28% of their week actually selling
-- Paying €250-300K OTE for prospecting = failure of resource allocation
-
-**Why AEs are bad prospectors:**
-- Not getting the repetitions (BDRs do this full-time)
-- Don't actually want to do it (misaligned motivation)
-- BDRs are motivated differently — their #1 goal is to stop being a BDR
-
-**Implication for methodology:** Methodology training should focus on CLOSING skills (discovery, qualification, negotiation), not prospecting skills. Invest prospecting methodology training in the BDR team, not the AE team.
-
-**Supporting data:**
-- 6sense: 83% of the time, the buyer initiates first contact
-- Gartner: self-navigating buyers complete high-quality deals 65% of the time vs. 24% in sales-rep-led purchases
-- HubSpot: inbound leads cost 61% less
+For the full emerging-practices detail — Kyle Norton's AI-Augmented Sales Day, the Architecture vs. Craft framework, "Show, Don't Demo," the Cognitive Atrophy warning, and the Anti-Prospecting Thesis with supporting data and sources (Norton/Canaani, Revenue Leadership Podcast 2026; SaaStr AI Agent Playbook) — see `references/emerging-practices.md`.
 
 ## How to Use This Skill
 
@@ -1309,6 +582,24 @@ One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcrip
 **"How do I handle discount objections?"** → Use the discount negotiation playbook. Diagnose the real objection, use methodology scores as leverage, trade rather than give. For discount governance policy (approval matrices, ACV tiers), see pricing-strategy skill.
 
 **"Prospect is asking for GPO/consortium pricing"** → Flag the deal with gpo_flag. Validate actual committed volume (not projected). Offer framework pricing, not a flat rate. Escalate to Deal Desk. For the full GPO handling framework, see pricing-strategy skill.
+
+## Reference Files
+
+The body above is the decision/methodology layer. Load these on demand for full depth.
+
+| File | When to load | Contents |
+|------|-------------|----------|
+| `references/spiced-elements-detailed.md` | Running deep discovery or coaching a specific SPICED element | Element-by-element deep dive: discovery checklists, 0-3 scoring rubrics, T1 examples for Situation/Pain/Impact/Critical Event/Decision; 8-role committee table; decision process-stall map |
+| `references/spiced-scoring-example.md` | Demonstrating how to score a real deal | Worked Acme Corp example (€80K ACV) scored to 10/15 with evidence, rationale, and deal-review actions |
+| `references/spiced-personas.md` | Tailoring SPICED language to a specific buyer | Per-persona playbook (CRO, VP Sales, Sales Ops, CFO, CTO): elements they care about, language, key question, objection handler |
+| `references/spiced-discovery-call-example.md` | Teaching discovery call flow or building a script | Full annotated discovery-call transcript (Large SaaS, VP Sales) + coaching debrief scored to 9/15 |
+| `references/spiced-pipeline-stages.md` | Setting stage-gate SPICED thresholds | Per-stage goals, minimum scores, must-have element thresholds, and red flags (Discovery → Negotiation/Close) |
+| `references/stakeholder-map.md` | Mapping a complex buying committee (>€25K ACV) | Full 8-role stakeholder table (what they do, how to identify) + `stakeholder_map` CRM implementation |
+| `references/methodology-onboarding-plan.md` | Onboarding a new rep on the methodology | Week-by-week 4-week ramp plan + ongoing cadence |
+| `references/discount-objection-handlers.md` | Handling a live discount objection | Verbatim response scripts for the four most common discount objections + governance/confidentiality rules |
+| `references/pipeline-management-model.md` | Operationalizing the pipeline (stage criteria, inspection, forecasting) | Full operating model: both stage-criteria tables, Stocks & Questions, required CRM fields, inspection cadence, disqualification rules, forecast categories |
+| `references/emerging-practices.md` | Designing AI-augmented methodology or coaching | AI-Augmented Sales Day, Architecture vs. Craft, Show-Don't-Demo, Cognitive Atrophy warning, Anti-Prospecting Thesis (with sources) |
+| `references/spiced-icp-library.md` | Building SPICED tiers or needing canonical language by cluster | SPICED language library with T1/T2/T3 qualification tiers by customer cluster |
 
 ## Canon References
 

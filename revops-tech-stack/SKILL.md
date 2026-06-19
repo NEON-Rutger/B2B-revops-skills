@@ -68,70 +68,11 @@ COMMUNICATION (Engagement Layer):
     If reps have to manually log activities, they won't.
 ```
 
-### The Intelligence Layer (Stage-Dependent)
+### The Intelligence Layer (Stage-Dependent) and Automation Layer
 
-Add these capabilities as the GTM matures and data volume justifies the investment.
+Beyond the core layer, add Intelligence Layer capabilities (conversation intelligence, buyer intent & enrichment, customer success platform, revenue intelligence/forecasting) as the GTM matures and data volume justifies the investment — each gated to an ARR/headcount threshold. The Automation Layer wraps the stack with iPaaS integration, document/CPQ, and data operations. Each capability has a defining architecture rule (most reduce to: it must integrate with the CRM, or it's shelfware).
 
-```
-CONVERSATION INTELLIGENCE (€10M+ ARR or 10+ reps):
-  Capability: Turn sales conversations into coaching insights and
-    deal intelligence
-  Value: Manager leverage (coach 2x more reps without more meetings),
-    competitive intelligence, methodology adherence tracking
-  Architecture rule: Must integrate with CRM to tag deals with
-    conversation insights. Standalone recording has minimal value.
-
-BUYER INTENT & ENRICHMENT (€15M+ ARR or entering new segments):
-  Capability: Identify accounts showing buying signals before they
-    enter your funnel; enrich contact/account data
-  Value: Prioritize outbound, time campaigns, personalize outreach
-  Architecture rule: Intent data is only valuable if it triggers
-    action. Connect to SDR workflows and marketing campaigns.
-    Data sitting in a dashboard is shelfware.
-
-CUSTOMER SUCCESS PLATFORM (when CS team > 3 people):
-  Capability: Health scoring, renewal management, playbook automation,
-    expansion signal tracking
-  Value: Proactive retention, expansion pipeline, scaled CS delivery
-  Architecture rule: Must pull data from CRM, product usage,
-    and support systems. A CS platform with only CRM data
-    produces surface-level health scores.
-
-REVENUE INTELLIGENCE / FORECASTING (€20M+ ARR):
-  Capability: AI-assisted forecasting, pipeline analytics, deal
-    scoring, trend analysis
-  Value: Forecast accuracy improvement, risk identification, pattern
-    detection across large deal volumes
-  Architecture rule: Requires clean CRM data to work. If stage
-    definitions are inconsistent and data is sparse, AI forecasting
-    will produce confident-sounding garbage.
-```
-
-### The Automation Layer
-
-```
-INTEGRATION PLATFORM (iPaaS):
-  Purpose: Connect tools that don't have native integrations
-  When needed: When you have 5+ tools or complex data flows
-  Common choices: Zapier (simple), Make/Tray.io (mid), Workato (enterprise)
-  Architecture rule: Minimize point-to-point integrations. Use a hub
-    model: tools → iPaaS → CRM. This makes the stack maintainable.
-
-DOCUMENT / CPQ:
-  Purpose: Proposal generation, contract management, pricing configuration
-  When needed: When reps spend significant time on manual proposals
-  Common choices: PandaDoc, DocuSign, DealHub, Salesforce CPQ
-  Architecture rule: Must pull pricing and deal data from CRM.
-    Reps shouldn't re-enter deal details into a separate system.
-
-DATA OPERATIONS:
-  Purpose: Data cleaning, deduplication, enrichment, routing
-  When needed: When data quality issues are causing visible problems
-  Common choices: ZoomInfo, Clearbit, LeanData, Openprise
-  Architecture rule: Data enrichment should be automated and
-    triggered by events (new lead created, account updated).
-    Manual enrichment doesn't scale.
-```
+For the per-capability detail — capability, value, ARR/headcount triggers, architecture rule, and common tool choices for every Intelligence and Automation Layer capability — see `references/capability-catalog-reference.md`.
 
 ## Value Engineering: Finding Your Real ICP Through the Stack
 
@@ -267,35 +208,9 @@ CUT (low fit, low value):
 
 ### Stack by Stage
 
-```
-STARTUP (€0-5M ARR, <10 GTM headcount):
-  CRM: HubSpot Free/Starter or Pipedrive
-  Marketing: HubSpot Marketing Starter or Mailchimp
-  Engagement: Built-in CRM email tracking + basic sequences
-  Meetings: Calendly or HubSpot Meetings
-  Documents: PandaDoc or manual proposals
-  Total tools: 3-5 | Budget: €5-15K/year
+Stack composition scales with stage: Startup (€0-5M ARR, <10 GTM) runs 3-5 tools at €5-15K/year; Scale-up (€5-25M, 10-50 GTM) runs 6-12 tools at €50-200K/year; Growth (€25-100M, 50-200 GTM) runs 12-20 tools at €300K-1M/year. Don't build a Growth stack at Startup scale.
 
-SCALE-UP (€5-25M ARR, 10-50 GTM headcount):
-  CRM: HubSpot Professional or Salesforce Professional
-  Marketing: HubSpot Marketing Pro or Marketo
-  Engagement: Native CRM sequences or dedicated tool (Outreach/Apollo)
-  Intelligence: Conversation tool (Gong/Chorus), basic enrichment
-  Integration: Zapier Pro or native integrations
-  Documents: PandaDoc or HubSpot Quotes
-  Total tools: 6-12 | Budget: €50-200K/year
-
-GROWTH (€25-100M ARR, 50-200 GTM headcount):
-  CRM: Salesforce Enterprise or HubSpot Enterprise
-  Marketing: Full MAP with ABM capabilities
-  Engagement: Dedicated sales engagement platform
-  Intelligence: Full conversation + intent + enrichment
-  CS Platform: Gainsight, ChurnZero, or Vitally
-  Revenue Intelligence: Clari, Aviso, or BoostUp
-  Integration: iPaaS platform (Workato/Tray.io)
-  Documents: CPQ solution
-  Total tools: 12-20 | Budget: €300K-1M/year
-```
+For the full per-stage tool lists (CRM, marketing, engagement, intelligence, integration, documents), tool counts, and budget ranges, see `references/stack-by-stage-reference.md`.
 
 ## GTM AI Strategy
 
@@ -372,28 +287,9 @@ Source: SaaStr AI Agent Playbook, Part 13; Kyle Norton (Owner.com)
 
 ## Tool Evaluation Framework
 
-When evaluating a new tool, score these dimensions:
+When evaluating a new tool, score four weighted dimensions: **Capability Fit (40%)** — does it solve the specific gap, and does it replace or add a tool; **Integration Quality (25%)** — depth and quality of native CRM integration; **Total Cost of Ownership (20%)** — license plus implementation, integration, training, admin, and context-switching cost, divided by users; and **Vendor Viability (15%)** — funding, customers, roadmap, market position (a great tool from a vendor that won't exist in 2 years is a liability).
 
-```
-CAPABILITY FIT (40% of decision):
-  Does it solve the specific capability gap we've identified?
-  How well does it handle our use case vs. the general case?
-  Does it replace an existing tool or add a new one?
-
-INTEGRATION QUALITY (25% of decision):
-  Native CRM integration? How deep (one-way sync, bi-directional,
-  real-time)? API quality? How much custom work to integrate?
-
-TOTAL COST OF OWNERSHIP (20% of decision):
-  License cost + implementation + integration + training + ongoing
-  admin + opportunity cost of context switching
-  Divide by number of users to get per-user total cost
-
-VENDOR VIABILITY (15% of decision):
-  Funding status, customer count, product roadmap, market position
-  A great tool from a vendor that won't exist in 2 years is a
-  liability, not an asset
-```
+For the full rubric with the scoring questions under each weighted dimension, see `references/tool-evaluation-rubric.md`.
 
 ### The Build vs. Buy Decision
 
@@ -497,51 +393,11 @@ Source: SaaStr AI Agent Playbook, Part 13
 
 ## Norton Framework Additions (Source: Kyle Norton, Revenue Leadership Podcast, Jan 2026)
 
-### Sales Engagement Platform Composability (Norton Model)
+### Sales Engagement Platform Composability & AI Orchestration (Norton Model)
 
-Most sales engagement platforms are slapping AI into existing products and building closed ecosystems.
+Most sales engagement platforms are slapping AI into closed ecosystems. Revenue leaders need the opposite: composability, an open API ecosystem, control over how the product works, bring-your-own-model with no token constraints, and the ability to build on top of tools rather than be trapped by them — the "Shopify model" for sales tech (simple out of the box, endlessly customizable, developer-centric). As tools proliferate, orchestration becomes the competitive advantage, and the centralized AI model (a small expert team owning AI transformation from the center out) outperforms reps managing their own tools.
 
-**What Revenue Leaders Need:**
-- Composability, flexibility, and open API ecosystem
-- Control over how the product works
-- Bring your own model — no token constraints
-- Ability to build on top of tools, not be trapped by them
-
-**The Shopify Model for Sales Tech:**
-Simple out of the box for small operations. Endlessly customizable for teams that want sophisticated, deeply integrated experiences. Developer-centric: you can code on top of the platform. This experience layer is missing from most sales acceleration tools.
-
-**Composability Maturity Levels:**
-1. **Monolithic** — Single platform, closed ecosystem
-2. **Integrated** — Best-of-breed tools connected via native integrations
-3. **Orchestrated** — iPaaS/workflow layer coordinates tools with decision logic
-4. **Composable** — Open APIs, custom models, AI agents routing work across tools
-5. **AI-Native** — Stack designed for AI-first operation with human oversight
-
-**Evaluation Questions:**
-- Can I bring my own AI model?
-- Does the tool have open APIs supporting custom workflows?
-- Can I build on top of it or am I locked into their feature roadmap?
-- Does adding this tool reduce seller friction more than it adds tool-switching friction?
-
-### AI Orchestration Architecture
-
-As tools proliferate, orchestration becomes the competitive advantage.
-
-**The Sophistication Ladder:**
-1. **Basic chat** — ad hoc ChatGPT queries
-2. **Prompt templates** — standardized prompts for common tasks
-3. **Workflow automation** — AI-triggered sequences and routing
-4. **Custom agents** — purpose-built agents with proper prompt and context engineering
-5. **Full applications** — production-ready AI features with evals, testing, iteration
-
-**Key Insight:** Decentralized model (reps managing own AI tools) rarely gets past rung 2. Rungs 4–5 require infrastructure a single rep can't build.
-
-**Centralized AI Model (Norton/Owner.com):**
-- Small team of experts owns AI transformation across the entire customer journey
-- Build, test, and deploy capabilities from the center out
-- Reps don't manage agents or run their own tools
-- Owner.com: 8–10 high-value AI implementations in production
-- Example: 2-week build → BDR decision-maker connects up 85%
+For the full Composability Maturity Levels (1 Monolithic → 5 AI-Native), the AI Sophistication Ladder (basic chat → full applications), evaluation questions, and the Norton/Owner.com centralized AI model detail, see `references/norton-framework-composability-detail.md`.
 
 ### Technical RevOps Competencies for Composable Stacks
 
@@ -651,118 +507,24 @@ Four components required:
 3. **Retrieval** — semantic search that understands meaning, not just keywords
 4. **Delivery** — surface the right context to the right agent or person at the right moment
 
-### US Stack — Speed-First, Feature-Rich
+### Stack Options and Vendor Detail
 
-**Managed platform path (buy)**
+Two stack philosophies, each split into buy (managed platform) vs. build (custom RAG): the **US stack** is speed-first and feature-rich (Glean/Guru/Notion to buy; LlamaIndex + Pinecone to build), while the **EU stack** is compliance-first and sovereign (Langdock/Microsoft Copilot to buy; LlamaIndex + Qdrant EU + Mistral, self-hosted, to build) — critical for Neon's Dutch/EU client base, since there is no EU-native equivalent of Glean. Tool choice is gated by a GDPR/regulated-industry/works-council compliance decision tree and scales by stage.
 
-| Component | Recommended | Alternative | Price |
-|-----------|------------|-------------|-------|
-| All-in-one knowledge layer | Glean | Guru (revenue-specific) | Glean: $50+/user/mo (100-seat min). Guru: $25/seat/mo |
-| Team knowledge base | Notion AI Agents | Slite | Notion: $12-27/user/mo. Slite: $8-15/user/mo |
-| Agent platform | Dust.tt | — | Custom pricing |
+**Key technical insight:** chunking quality constrains retrieval accuracy more than embedding model choice — semantic chunking hits faithfulness scores of 0.79-0.82 vs. 0.47-0.51 for naive chunking (a 60% improvement). Design the chunking strategy first; pick tools second.
 
-*When to pick this path:* Time-to-value matters more than cost or control. Team is non-technical. Budget is $100K+/year for the knowledge layer. Already in Notion or similar ecosystem.
+For the full vendor/pricing matrix (US and EU, buy and build), the compliance decision tree, dual US/EU stage-appropriate recommendations, and the G2/Capterra/Gartner vendor summary, see `references/ai-knowledge-stack-vendor-matrix.md`. For the condensed quick-reference, see `references/ai-knowledge-stack-reference.md`.
 
-G2 ratings: Glean 4.8/5 (130+ reviews, Gartner Emerging Leader). Guru 4.8/5 (Capterra, 624 reviews). Notion 4.6/5 (10,149 reviews, G2 Leader).
+## Reference Files
 
-**Custom RAG path (build)**
-
-| Component | Recommended | Alternative | Price |
-|-----------|------------|-------------|-------|
-| Orchestration | LlamaIndex (retrieval-optimised) | LangChain (agent-optimised) | Free (open source) |
-| Vector DB | Pinecone (managed) | Weaviate Cloud | Pinecone: $25-500/mo. Weaviate: $25-50/mo |
-| Embeddings | OpenAI text-embedding-3-small | — | $0.02/1M tokens |
-| Reranking | Cohere Rerank | LLM-based | $50-200/mo |
-| LLM | Claude or GPT-4 | — | Per-token |
-
-Total cost: $900-2,000/month + 2-4 weeks initial build + 2-4 hours/week maintenance.
-
-*When to pick this path:* Need proprietary retrieval logic. Engineering capacity available. Want to optimise chunking strategy for specific content. Data sensitivity requires full control.
-
-### EU Stack — Compliance-First, Sovereign
-
-The EU stack addresses GDPR, data residency, and works council requirements. This is critical for Neon's Dutch/EU client base.
-
-**Managed platform path (buy)**
-
-| Component | Recommended | Alternative | Price | Data residency |
-|-----------|------------|-------------|-------|---------------|
-| AI platform + knowledge folders | Langdock | — | €20/user/mo + usage | EU-hosted, GDPR-native |
-| Enterprise knowledge (M365 shops) | Microsoft Copilot + SharePoint | Google Vertex AI Search | Included in M365 | EU data centre available |
-| Team knowledge base | Slite or Notion (with EU DPA) | Guru (with EU DPA) | $8-27/user/mo | US-hosted with DPA |
-
-*The honest gap:* There is no EU-native equivalent of Glean. Langdock comes closest for the AI layer but its semantic search is weaker than Glean's. For regulated industries (healthcare, finance, government), use the sovereign path below.
-
-**Custom RAG path — EU sovereign**
-
-| Component | Recommended | Alternative | Price | Data residency |
-|-----------|------------|-------------|-------|---------------|
-| Orchestration | LlamaIndex | LangChain | Free | Self-hosted (EU) |
-| Vector DB | Qdrant Cloud EU | Weaviate Cloud EU | Qdrant: €27-102/mo. Weaviate: €25-50/mo | EU cloud |
-| Embeddings | Mistral embeddings (EU) | Local model (all-MiniLM) | Mistral: API pricing. Local: free | Mistral: EU. Local: on-premise |
-| Reranking | Jina Reranker (open source) | LLM-based | Free (self-hosted) | Self-hosted |
-| LLM | Mistral Large (EU) | Claude via Langdock (EU wrapper) | Per-token | EU-native |
-
-Total cost: €800-1,500/month + 2-4 weeks initial build + 2-4 hours/week maintenance.
-
-*When to pick this path:* Regulated industry. Data cannot leave EU borders. Legal/compliance team has specific data sovereignty requirements. Government or public sector contracts.
-
-### Compliance Decision Tree
-
-```
-Does client data include personal data under GDPR?
-├── No → US stack is fine. Standard DPA with vendors.
-├── Yes → Is the client in a regulated industry?
-│   ├── No → US tools with EU DPA acceptable for most use cases.
-│   │         Langdock as AI layer adds compliance comfort.
-│   └── Yes → Full EU sovereign stack required.
-│             Custom RAG with Qdrant EU + Mistral + self-hosted.
-└── Special case: Works council involved?
-    └── Yes → Sovereign stack. Works councils in DE/NL/FR often require
-              on-premise or EU-only data processing. Build this into the
-              change management plan.
-```
-
-### Stage-Appropriate Recommendations (Dual US/EU)
-
-| Stage | US recommendation | EU recommendation |
-|-------|-------------------|-------------------|
-| Seed/Build (€1-5M) | Notion + built-in AI | Notion with EU DPA, or manual |
-| Build/Scale (€5-15M) | Guru or Notion AI Agents | Langdock + Notion (EU DPA) |
-| Scale (€15-50M) | Custom RAG (LlamaIndex + Pinecone) or Glean | Custom RAG (LlamaIndex + Qdrant EU) or Langdock |
-| Expand (€50-100M) | Glean + custom RAG for proprietary data | Microsoft Copilot (EU DC) + custom RAG (Qdrant EU) |
-| Enterprise (€100M+) | Glean Enterprise | Aleph Alpha PhariaAI or Microsoft Copilot (EU DC) |
-
-### Key Technical Insight
-
-**Chunking quality constrains retrieval accuracy more than embedding model choice.**
-
-Semantic chunking achieves faithfulness scores of 0.79-0.82 versus 0.47-0.51 for naive chunking — a 60% improvement. A well-designed custom RAG with good chunking on a cheap embedding model will outperform an expensive managed platform with basic chunking. Design the chunking strategy first. Pick tools second.
-
-### Vendor Summary (G2 / Capterra / Gartner)
-
-| Vendor | G2 | Capterra | Gartner | Notes |
-|--------|-----|---------|---------|-------|
-| Glean | 4.8/5 (130+) | — | eMQ Emerging Leader 2025 | Best enterprise search |
-| Guru | 4.6+/5 | 4.8/5 (624) | 4.7/5 Peer Insights (131) | #1 satisfaction in KM |
-| Notion | 4.6/5 (10,149) | Listed | G2 Leader (Knowledge Base) | Massive review base |
-| Dust.tt | 4.9/5 (19) | — | — | Small sample, very positive |
-| Langdock | Limited data | — | — | 37 customer references |
-| Pinecone | 4.6/5 (39) | — | — | #1 vector DB on G2 |
-| Weaviate | 4.8/5 (30) | — | — | Best for knowledge graphs |
-| Qdrant | ~12 reviews | — | — | Speed + EU sovereign option |
-| ChromaDB | Limited | — | — | Prototype/local only, memory leaks in production |
-| Mem.ai | 1/5 (2) | — | — | Red flag: severe user issues |
-
-*Gartner note:* No unified Magic Quadrant for knowledge management. Vendors appear across Insight Engines, KM Software, and Gen AI eMQ categories. Forrester Wave KM Q4 2024 names Atlassian (Confluence) as Leader.
-
-### Vault References
-
-For the full research behind these recommendations:
-- `Frameworks/AI-Use-Cases/ai-knowledge-stack-us-eu-reference.md` — Dual US/EU stack recommendation by stage
-- `Sources/Research/AI-Knowledge-Layer-Landscape-2025-2026.md` — Full vendor research (14 platforms, pricing, features, data residency)
-- `Sources/Research/AI-Knowledge-Layer-G2-Capterra-Reviews-2026-04-02.md` — Independent review platform data
-- Offering positioning reference (internal)
-- `references/ai-knowledge-stack-reference.md` — Condensed reference for skill use
+| File | When to read | What's inside |
+|------|-------------|---------------|
+| `references/capability-catalog-reference.md` | Designing/auditing the Intelligence or Automation layer | Per-capability detail (capability, value, ARR/headcount triggers, architecture rule, tool choices) for conversation intelligence, intent/enrichment, CS platform, revenue intelligence, iPaaS, document/CPQ, data ops |
+| `references/stack-by-stage-reference.md` | Sizing a stack to company stage | Full Startup / Scale-up / Growth tool lists, tool counts, budget ranges |
+| `references/tool-evaluation-rubric.md` | Scoring a specific tool purchase | Weighted scoring dimensions (Capability Fit 40 / Integration 25 / TCO 20 / Vendor Viability 15) with questions |
+| `references/norton-framework-composability-detail.md` | Assessing composability/orchestration maturity | Composability Maturity Levels (1-5), AI Sophistication Ladder, evaluation questions, Norton/Owner.com centralized AI model |
+| `references/ai-knowledge-stack-vendor-matrix.md` | Recommending a knowledge/RAG stack | Full US & EU vendor/pricing matrix (buy & build), compliance decision tree, dual stage recommendations, vendor review summary |
+| `references/ai-knowledge-stack-reference.md` | Quick knowledge-stack lookup | Condensed AI knowledge stack reference |
+| `references/gtm-ai-catalog.md` | Full AI use-case catalog by bowtie stage | Detailed requirements and KPIs per use case *(pointer referenced in body; file not yet present)* |
 
 > Built by [Neon Triforce](https://neontriforce.com)

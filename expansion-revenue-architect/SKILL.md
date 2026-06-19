@@ -181,81 +181,17 @@ Cross-sell (new BU)       Sales         CS + CSM        Different buying group =
 
 ### Whitespace Analysis Methodology
 
-Whitespace is the gap between what a customer uses and what they could use. It's the expansion pipeline you haven't created yet.
+Whitespace is the gap between what a customer uses and what they could use — the expansion pipeline you haven't created yet. Map it per account across **five dimensions**: Products, Seats/Users, Departments, Features, and Stakeholders (current state vs. potential = the gap). Score each 0-100 on penetration, average to a total whitespace score, then prioritise by whitespace score x health score x contract timing and present in QBRs as a growth partnership.
 
-**Five-dimension whitespace map (per account):**
-
-```
-DIMENSION           CURRENT STATE         POTENTIAL              GAP
----------           -------------         ---------              ---
-Products            Which products        Which products fit     Product whitespace
-                    purchased             their use case
-
-Seats/Users         Current licence       Total addressable      Seat whitespace
-                    count                 users in the org
-
-Departments         Which BUs using       Which BUs could        Department whitespace
-                    the product           benefit
-
-Features            Features actively     Premium features       Feature whitespace
-                    adopted               they'd benefit from
-
-Stakeholders        Contacts engaged      Org chart coverage     Relationship whitespace
-                    in CRM                (decision-makers,
-                                          influencers, users)
-```
-
-**How to run it:**
-
-1. **Build the map** for each account in your high-touch and mid-touch segments
-2. **Score each dimension** (0-100 based on penetration)
-3. **Calculate total whitespace score** — average across 5 dimensions
-4. **Prioritise by**: whitespace score x health score x contract timing
-5. **Review in QBR** — present to customer as growth partnership, not sales pitch
-6. **Update quarterly** — whitespace changes as customers grow and your product evolves
-
-**Whitespace -> Expansion Pipeline conversion targets:**
-
-| Segment | Whitespace identified | Target conversion to pipeline | Target close rate |
-|---------|----------------------|-------------------------------|-------------------|
-| High-touch (>EUR50K ARR) | 100% mapped | 40% become pipeline within 6 months | 50-60% |
-| Mid-touch (EUR10-50K) | Top 20% mapped | 25% become pipeline within 6 months | 40-50% |
-| Low-touch (<EUR10K) | Product-led signals only | 10% auto-convert via in-app | 30-40% |
+For the full whitespace template, run-it steps, and segment conversion/close-rate targets, see `references/whitespace-and-scoring-mechanics.md`.
 
 ---
 
 ## The Expansion Scoring Model
 
-Not all expansion signals are equal. Score them systematically:
+Not all expansion signals are equal. Score them systematically into a single **Expansion Readiness Score (0-100)** built from five weighted components: Usage Growth (30%), Stakeholder Breadth (25%), Feature Depth (20%), Health Trajectory (15%), and Contract Headroom (10%).
 
-```
-EXPANSION READINESS SCORE (0-100)
-
-  Usage Growth (30%)
-    Is usage increasing month-over-month?
-    Are they approaching or exceeding plan limits?
-    Are new features being adopted?
-
-  Stakeholder Breadth (25%)
-    Are new people engaging with the product?
-    Are new departments involved?
-    Is there executive-level engagement beyond the original sponsor?
-
-  Feature Depth (20%)
-    Are they using advanced/premium features?
-    Are they requesting features in higher tiers?
-    Are they building workflows that depend on your product?
-
-  Health Trajectory (15%)
-    Is the health score trending up over 3+ months?
-    Has NPS improved?
-    Are support tickets decreasing?
-
-  Contract Headroom (10%)
-    Is there room to expand (seats, usage, products)?
-    When is the renewal? (Expansion is easiest post-renewal confirmation)
-    Are there unused contractual entitlements?
-```
+For the component-level scoring questions and mechanics, see `references/whitespace-and-scoring-mechanics.md`.
 
 **Score-to-action mapping:**
 
@@ -286,169 +222,21 @@ These plug directly into the operating cadence. When a signal fires, the cadence
 
 ## 90-Day NRR Improvement Programme
 
-This is the delivery format. When a client's NRR needs improving, here's how to structure the engagement:
+This is the delivery format. When a client's NRR needs improving, structure the engagement in three phases:
 
-### Phase 1: Diagnose (Weeks 1-3)
+- **Phase 1: Diagnose (Weeks 1-3)** — data audit, system assessment, whitespace/pipeline audit. Output: Expansion Diagnostic Report.
+- **Phase 2: Design (Weeks 4-6)** — expansion motion design, system build, enablement. Output: Expansion System Blueprint.
+- **Phase 3: Install and Measure (Weeks 7-12)** — activate, iterate, embed and report against baseline.
 
-**Week 1: Data audit**
-- Pull trailing 12-month NRR and GRR by segment
-- Map churn reasons (last 20 churned accounts)
-- Identify expansion revenue sources (which accounts, which type)
-- Assess: is this a GRR problem or an expansion problem?
-
-**Week 2: System assessment**
-- Score expansion maturity using the expansion maturity framework
-- Assess health scoring quality (are scores calibrated against actual outcomes?)
-- Map current expansion ownership (who identifies, who closes, who gets credit?)
-- Review pricing architecture (is there a natural expansion path?)
-
-**Week 3: Whitespace and pipeline audit**
-- Run whitespace analysis on top 20 accounts
-- Map current expansion pipeline (what exists, what's the conversion rate?)
-- Identify the constraint: signals? ownership? pricing? process? enablement?
-
-**Output:** Expansion Diagnostic Report with NRR/GRR bands, constraint identification, and 60-day action plan.
-
-### Phase 2: Design (Weeks 4-6)
-
-**Week 4: Expansion motion design**
-- Define expansion ownership model (who owns which expansion types)
-- Design CS-to-Sales handback process (with SPICED context transfer)
-- Set expansion scoring thresholds and automation triggers
-
-**Week 5: System build**
-- Configure expansion scoring in CRM/CS platform
-- Build expansion signals dashboard
-- Set up automated alerts and dashboard integration
-- Create whitespace analysis template for QBRs
-
-**Week 6: Enablement**
-- Train CSMs on expansion signal identification
-- Train Sales on expansion discovery (different from new business discovery)
-- Create expansion playbook (by segment, by expansion type)
-- Define compensation/credit model for expansion
-
-**Output:** Expansion System Blueprint with scoring model, signals, ownership, and playbooks.
-
-### Phase 3: Install and Measure (Weeks 7-12)
-
-**Weeks 7-8: Activate**
-- Launch expansion scoring
-- Run first whitespace-based QBRs
-- First CS-to-Sales handbacks using new process
-
-**Weeks 9-10: Iterate**
-- Review first expansion pipeline created
-- Calibrate scoring (are the right accounts surfacing?)
-- Adjust thresholds based on real data
-
-**Weeks 11-12: Embed and report**
-- First NRR leading indicator check (expansion pipeline created vs target)
-- Install expansion review into operating cadence
-- Add expansion tile to revenue dashboard
-- Report to leadership with baseline, progress, and 6-month projection
-
-**Success metrics:**
-
-| Metric | Baseline (capture at Week 1) | 90-Day Target | 6-Month Target |
-|--------|------------------------------|---------------|----------------|
-| NRR | Current | +3-5 points | +8-12 points |
-| GRR | Current | +2-3 points (if <90%) | +5 points (if <90%) |
-| Expansion pipeline created | Current | 2x baseline | 3x baseline |
-| Expansion pipeline conversion | Current | +10pp | +15pp |
-| Whitespace coverage (mapped accounts) | 0% | Top 20 accounts | Top 50% of high-touch |
-| CS-sourced expansion rate | Current | +50% | +100% |
+For the full weekly breakdown and the success-metrics table (90-day and 6-month targets), see `references/90-day-nrr-programme.md`.
 
 ---
 
 ## Benchmarks
 
-Calibrated for EUR15-150M B2B SaaS. Always adjust for client's stage, ACV, and motion type.
+Calibrated for EUR15-150M B2B SaaS. Always adjust for client's stage, ACV, and motion type. The headline thresholds: **NRR >110%** (great) / **>120%** (best-in-class), **GRR >90%** (great) / **>95%** (best-in-class), and **expansion as 20-30%+ of new ARR**.
 
-| Metric | Good | Great | Best-in-class | Source |
-|--------|------|-------|---------------|--------|
-| GRR | >85% | >90% | >95% | KeyBanc 2025 (median 88-91%, top quartile 95%+) |
-| NRR | >100% | >110% | >120% | KeyBanc 2025; Bessemer Cloud 100 |
-| Expansion as % of new ARR | 15-20% | 20-30% | >40% | OpenView; Bessemer Scaling to $100M |
-| Expansion ARR acquisition cost | $0.40/$ | $0.27/$ | $0.20/$ | Ordway; Pacific Crest |
-| CS-led expansion close rate (<$50K) | 30% | 40% | 50% | ChurnZero 2025 |
-| Sales-led expansion close rate (>$50K) | 20% | 30% | 35% | Gainsight; industry composite |
-| Time from signal to expansion pipeline | <30 days | <14 days | <7 days | Operator benchmark |
-| Seat expansion velocity (quarterly, 50+ seat accounts) | 3% | 5% | 8-12% | Bessemer Cloud 100 |
-
-**Valuation context:** A 10-point NRR improvement (e.g. 110% -> 120%) translates to 20-30% valuation uplift. Companies with 120%+ NRR command 20-40% premium multiples. This is the cost-of-gap argument in proposals.
-
-**Source:** m3ter 2026 NRR analysis; Software Equity Group public SaaS NRR-to-valuation correlation.
-
----
-
-## Sourced NRR Benchmarks by Stage and ACV
-
-These deepen the benchmark table above with segment-specific data from primary research.
-
-### NRR by Company Stage
-
-| ARR Stage | Median NRR | Top Quartile NRR | Source |
-|-----------|-----------|-------------------|--------|
-| $1-10M | ~105% | 145%+ | Bessemer Cloud 100, 2024 |
-| $10-25M | ~108% | 135%+ | Bessemer Cloud 100, 2024 |
-| $25-50M | ~106% | 125%+ | KeyBanc 2024-2025 SaaS Survey |
-| $50-100M | ~110% | 135%+ | Bessemer Cloud 100, 2024 |
-| $100M+ | ~112% | 120%+ | High Alpha/OpenView 2024 SaaS Benchmarks |
-
-**Context:** Median NRR across ~100 private SaaS firms is 101% (KeyBanc/Sapphire Ventures 2024-2025). Public SaaS companies average ~110% (High Alpha/OpenView 2024).
-
-### NRR by ACV Band
-
-| ACV | Median NRR | Top Quartile | Bottom Quartile | Source |
-|-----|-----------|-------------|-----------------|--------|
-| <$25K | ~100% | 108% | 95% | KeyBanc 2024-2025 |
-| $25-50K | 102% | 111% | 97% | KeyBanc 2024-2025 |
-| $50-100K | 105%+ | 115%+ | 98% | KeyBanc 2024-2025 |
-| >$100K | 108%+ | 120%+ | 100% | KeyBanc 2024-2025 |
-
-**Implication:** Higher-ACV products consistently outperform on NRR. This validates the land-and-expand strategy — land small, then grow ACV through expansion.
-
-### GRR by Segment (Sourced)
-
-| Segment | Good | Great | Best-in-Class | Source |
-|---------|------|-------|---------------|--------|
-| Enterprise (ACV >EUR100K) | >90% | >93% | >95% | Ordway Labs 2024; SaaS Capital 2023 |
-| Mid-Market (ACV EUR25-100K) | >88% | >91% | >94% | KeyBanc 2024-2025 |
-| SMB (ACV EUR5-25K) | >80% | >85% | >90% | ChartMogul SaaS Retention 2023 |
-| PLG / Low ARPA (<EUR50/mo) | >60% | >70% | >80% | ChartMogul 2023 (ARPA <$50: top quartile 60-70%) |
-
-**Strategic pattern:** A company with 5-7% annual logo churn AND 110%+ NRR is actually healthy — high logo churn can coexist with strong NRR if expansion from retained accounts more than offsets losses (Vitally SaaS Churn Benchmarks 2025).
-
----
-
-## The Expansion Economics Advantage
-
-Expansion revenue is the most efficient growth lever in B2B SaaS. The data is overwhelming:
-
-### Cost Efficiency
-
-| Metric | New Business | Expansion | Multiple | Source |
-|--------|-------------|-----------|----------|--------|
-| CAC (cost to acquire $1 of ARR) | $1.20-1.60 | $0.17-0.40 | **7x cheaper** | Paddle 2024; SaaS Metrics Board |
-| Payback period | 18-24 months | 6 months | **3-4x faster** | Paddle 2024 |
-| Close rate | 5-20% | 60-70% | **3-10x higher** | Gainsight 2024 |
-| Sales cycle | 60-180 days | 14-90 days | **2-4x shorter** | 180ops 2024 |
-
-### Expansion Revenue Share by ARR Stage
-
-As companies scale, expansion becomes the dominant growth source:
-
-| ARR Stage | % from New Business | % from Expansion | Source |
-|-----------|-------------------|-----------------|--------|
-| <$1M | 90% | 10% | OpenView 2024 |
-| $2-5M | 70-80% | 20-30% | OpenView 2024 |
-| $5-20M | 60-70% | 30-40% | OpenView 2024 |
-| $20-50M | ~65% | ~35% | Ordway Labs 2024 |
-| $50-100M | ~50% | ~50% | OpenView 2024 |
-| $200M+ | ~33% | ~67% | OpenView 2024 |
-
-**Cost-of-gap argument:** If a client at EUR30M ARR is getting only 15% of new ARR from expansion (vs. 35% benchmark), that's a 20pp gap. At EUR6M new ARR target, that gap = EUR1.2M in missed expansion revenue annually — at 7x lower CAC than acquiring it via new business.
+For the full sourced benchmark set — master benchmarks, NRR by company stage, NRR by ACV band, GRR by segment, the expansion economics advantage (CAC/payback/close-rate/cycle), and expansion-revenue share by ARR stage — see `references/benchmarks-sourced.md`.
 
 ---
 
@@ -474,76 +262,25 @@ UBP is the strongest structural lever for NRR. The data supports prioritizing pr
 
 ## Time-to-Value: The Retention Foundation
 
-TTV is the most underrated lever for both GRR and expansion readiness. Customers who find value quickly retain better AND expand more.
+TTV is the most underrated lever for both GRR and expansion readiness. Customers who find value quickly retain better AND expand more — so **fix TTV first, then build expansion**. Customers who haven't reached value will never expand, and the first-90-days onboarding window is the make-or-break moment for the entire right side of the bowtie.
 
-### TTV-to-Retention Correlation (Sourced)
-
-| TTV Achievement | Impact | Source |
-|----------------|--------|--------|
-| Value in 24 hours vs. 4-7 days | **183% churn reduction**, 26.5% higher 1-month retention, 45.6% higher 3-month retention | Amplitude 2024 |
-| "Aha moment" in first session | **3x more likely to renew** | Amplitude 2024 |
-| 7-day activation benchmark | **69% correlation** with 3-month retention | Amplitude 2024 |
-| Cutting TTV by 20% | **18% ARR growth lift** (mid-market SaaS case study) | Amplitude 2024 |
-| No value in first 2 weeks | **98% churn rate** | Chameleon 2024 |
-| Proactive onboarding outreach | **40% higher activation**, 50% better 90-day retention vs. automation-only | OnboardingNinjas 2025 |
-
-### TTV Benchmarks by Segment
-
-| Segment | Good | Great | Best-in-Class | Source |
-|---------|------|-------|---------------|--------|
-| SMB | <14 days | <7 days | <3 days | CS Ops Reference |
-| Mid-Market | <60 days | <30 days | <14 days | CS Ops Reference |
-| Enterprise | <90 days | <60 days | <30 days | CS Ops Reference |
-
-**Implication for expansion:** Fix TTV first, then build expansion. Customers who haven't reached value will never expand. **43% of SMB customer losses occur in the first 90 days** (Chameleon 2024) — the onboarding window is the make-or-break moment for the entire right side of the bowtie.
+For the sourced TTV-to-retention correlation data and TTV benchmarks by segment, see `references/ttv-benchmarks.md`.
 
 ---
 
 ## Health Scoring Effectiveness
 
-Does health scoring actually work? The data says yes — but only when done well.
+Health scoring works — but only when done well. Multi-signal scores (usage + engagement + support + satisfaction) outperform single-dimension scores, and segment-specific scores predict at-risk accounts more accurately.
 
-| Finding | Data Point | Source |
-|---------|-----------|--------|
-| Health score accuracy (best platforms) | 8.9/10 rated accuracy | ChurnZero 2025 |
-| Segment-specific scores | **15-20% more accurate** at predicting at-risk accounts | Totango 2024 |
-| CS platform impact on churn | **15-25% churn reduction** within first year of deployment | Industry composite 2026 |
-| Health score calibration | 50% of churned customers had "red" score 90 days prior (good); 80%+ (best-in-class) | CS Ops Reference |
-
-**What predicts churn vs. expansion:**
-- **Gainsight finding:** Satisfaction (relationship quality) is as predictive as usage
-- **Totango finding:** Product adoption (feature depth + frequency) drives the strongest churn prediction
-- **Combined:** Multi-signal health scores (usage + engagement + support + satisfaction) outperform single-dimension scores
-
-**CSM coverage model (from Gainsight Pulse 2025):**
-
-| Touch Model | Accounts per CSM | ARR per CSM | Source |
-|-------------|-----------------|-------------|--------|
-| High-touch | ~22 accounts | $2-5M ARR | Gainsight 2025 |
-| Mid-touch | ~49 accounts | $2-5M ARR | Gainsight 2025 |
-| Low-touch | ~144 accounts | Varies | Gainsight 2025 |
+For the effectiveness data, churn-vs-expansion predictors, and the CSM coverage model (accounts/ARR per CSM by touch model), see `references/health-scoring-effectiveness.md`.
 
 ---
 
 ## Customer Advocacy as Expansion Multiplier
 
-Happy customers don't just retain — they compound growth through second-order revenue.
+Happy customers don't just retain — they compound growth through second-order revenue (referrals, references, case studies). **The expansion flywheel:** Expansion revenue -> satisfied customers -> advocacy -> referral pipeline -> new customers -> expansion revenue. This is why NRR is the compound interest of SaaS. Operationalize it by wiring advocacy triggers (NPS promoter -> reference request; closed expansion -> case study request) into the expansion system.
 
-| Impact | Data Point | Source |
-|--------|-----------|--------|
-| Referral vs. paid advertising ROI | Advocacy programs generate **5x more revenue** than paid | Influitive 2024 |
-| Referred customer LTV | **25% higher LTV** vs. non-referred | Wharton School / Influitive |
-| Referred customer conversion | **70% higher conversion** vs. traditional marketing | Ambassador 2024 |
-| Reference customers | **Reduce deal cycles by up to 30%** | Alexander Jarvis 2024 |
-| NPS promoter -> advocacy | Companies with advocacy programs: **71% higher NPS** | Influitive 2024 |
-
-**The expansion flywheel:** Expansion revenue -> satisfied customers -> advocacy -> referral pipeline -> new customers -> expansion revenue. This is why NRR is the compound interest of SaaS.
-
-**Operationalize it:** Build the advocacy playbook into the expansion system:
-1. NPS promoter detected (score 9-10) -> trigger reference request workflow
-2. Successful expansion closed -> trigger case study request within 30 days
-3. Customer referral received -> attribute to referring CSM + advocate scoring
-4. Case study published -> use in proposal cost-of-gap calculations + sales collateral
+For the referral ROI stats and the full advocacy playbook, see `references/advocacy-as-expansion-multiplier.md`.
 
 ---
 
@@ -568,6 +305,17 @@ Run whitespace analysis on top 20 accounts. Score expansion readiness. The accou
 Use the GRR diagnostic bands + NRR benchmarks to quantify the gap. Frame the cost of inaction: "Your NRR is 102%. At EUR30M ARR, the difference between 102% and 115% is EUR3.9M in compounded revenue over 3 years. That's the gap this programme closes."
 
 ---
+
+## Reference Files
+
+| File | When to read | What's inside |
+|------|-------------|---------------|
+| `references/90-day-nrr-programme.md` | Delivering or scoping a 90-day NRR engagement | Full weekly breakdown of all 3 phases + success-metrics table (90-day and 6-month targets) |
+| `references/benchmarks-sourced.md` | Quantifying a gap, building a proposal, or citing data | Master benchmarks, NRR by stage, NRR by ACV, GRR by segment, expansion economics (CAC/payback/close-rate/cycle), expansion-share by ARR |
+| `references/whitespace-and-scoring-mechanics.md` | Running whitespace analysis or configuring expansion scoring | 5-dimension whitespace template, run-it steps, conversion targets, expansion-readiness scoring components |
+| `references/ttv-benchmarks.md` | Diagnosing onboarding/retention or TTV gaps | TTV-to-retention correlation data, TTV benchmarks by segment |
+| `references/health-scoring-effectiveness.md` | Assessing or designing health scoring | Effectiveness data, churn-vs-expansion predictors, CSM coverage model |
+| `references/advocacy-as-expansion-multiplier.md` | Building the advocacy/referral motion | Referral ROI stats, advocacy playbook triggers |
 
 ## Related Skills
 

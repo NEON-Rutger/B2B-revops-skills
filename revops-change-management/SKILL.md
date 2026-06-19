@@ -208,17 +208,7 @@ SaaStr went through 47 iterations on a single outbound agent. Expect 20-50 itera
 
 ### Expectation-Setting Framework
 
-Before any AI agent deployment, set these expectations with leadership:
-
-| Expectation | Reality |
-|-------------|---------|
-| "Set it and forget it" | 3-4 hrs/week per agent, ongoing |
-| "It'll work out of the box" | 30 days minimum before stable quality |
-| "We'll save headcount immediately" | ROI compounds over months, not days |
-| "One agent does everything" | Each motion needs its own agent with specific training |
-| "The vendor handles it" | You manage the agent; the vendor provides the platform |
-
-**SaaStr's real numbers:** Jason Lemkin and Amelia Lerutte each spend 15-20 hrs/week managing 20 agents. That's 30-40 hrs/week of senior operator time for a $500K/year AI stack that generates $2.4M in closed-won revenue.
+Before any AI agent deployment, reset leadership expectations: agents are not "set it and forget it" — budget **3-4 hrs/week per agent**, ongoing, and expect 30 days minimum before stable quality (the 30-Day Rule above). For the full reality-check table (five common myths vs. reality) plus SaaStr's real operator numbers, see `references/ai-expectation-setting.md`.
 
 ### FOBO and AI Resistance
 
@@ -251,15 +241,7 @@ Read `references/change-scenarios.md` for detailed playbooks on: rolling out a n
 
 ## Book Integration
 
-Seven books underpin the enablement methodology. Read `references/book-integration-guide.md` for how to weave each into client conversations and programme design:
-
-- **The Talent Code** (Coyle) → deep practice, myelin, isolation drills
-- **The Adult Learner** (Knowles) → andragogy, relevance, autonomy
-- **The Coaching Habit** (Bungay Stanier) → questions-based coaching, reducing dependency
-- **How to Decide** (Duke) → 4P prioritisation for choosing what to change
-- **Thinking in Bets** (Duke) → separating outcome quality from decision quality
-- **Atomic Habits** (Clear) → habit design, identity-based change, environment design
-- **The Obstacle Is the Way** (Holiday) → leadership resilience through the productivity dip
+Seven books underpin the enablement methodology (Coyle's *The Talent Code*, Knowles' *The Adult Learner*, Bungay Stanier's *The Coaching Habit*, Duke's *How to Decide* and *Thinking in Bets*, Clear's *Atomic Habits*, Holiday's *The Obstacle Is the Way*). For the mapping of each book to a framework and how to weave them into client conversations and programme design, read `references/book-integration-guide.md`.
 
 ## Neon Voice and Positioning
 
@@ -337,107 +319,19 @@ This is not one audience. One-size-fits-all adoption programs fail.
 
 ### Shadow AI — The Invisible Adoption Problem
 
-Your team is already using AI. You just don't know about it.
+Your team is already using AI. You just don't know about it. Shadow AI is the opposite problem from resistance — silent adoption happening around your governance (78–86% of employees use unapproved tools; average breach cost $4.2M). By the time you discover it, habits are formed and risk is crystallised.
 
-**The scale:**
-- 78–86% of employees use unapproved AI tools at work (Gartner, Deloitte)
-- 65% of shadow AI incidents result in PII exposure
-- 40% lead to IP theft or regulatory violation
-- Enterprises discover 200–300 AI tools in actual use vs. 5–10 sanctioned
-- Average shadow AI data breach cost: $4.2M
+**The change management response: Legalise, don't ban.** Banning fails — you can't enforce it, you drive it underground, and you signal distrust. Instead, bring shadow AI into the light with governed usage. Key messaging: "We're not blocking AI. We're making sure it's safe, so you can use it confidently."
 
-**Why it matters:**
-Shadow AI is the opposite problem from resistance. It's silent adoption happening around your governance. By the time you discover it, habits are formed, data's been processed, and risk is crystallised.
-
-**The change management response: Legalise, don't ban.**
-
-Most organizations' first instinct: "Ban unapproved tools." This fails because:
-1. You can't enforce it (people work around it)
-2. You drive it further underground (increased risk)
-3. You signal distrust (damages adoption of official tools)
-
-Instead: **Bring shadow AI into the light with governed usage.**
-
-**Build an AI governance framework (4-week sprint):**
-
-```
-Week 1: Discovery
-- Anonymous survey: What tools are you using? For what? With what data?
-- Shadow IT audit: network logs, SaaS spend, employee interviews
-- Risk categorisation: which tools pose PII risk, IP risk, accuracy risk
-
-Week 2: Classification
-- Tier 1 (Sanctioned): official tools, fully managed, full support
-- Tier 2 (Approved): shadow tools that meet governance bar, can stay
-- Tier 3 (Restricted): data sensitivity/risk flags, conditional use only
-- Tier 4 (Banned): unacceptable risk, alternative provided, migration plan
-
-Week 3: Transition
-- Formal communication: "We found X tools, Y are now approved, Z have restrictions, A get replaced"
-- Migration plan: timeline to move from restricted/banned to approved alternatives
-- Training: approved tools, use policies, incident reporting
-- Change champion network: peer support during transition
-
-Week 4: Govern
-- Ongoing monitoring (logs, surveys, spot checks)
-- Quarterly risk review
-- Incident protocol for data exposure
-- Feedback loop: employee tool requests evaluated and answered monthly
-```
-
-**Key messaging:** "We're not blocking AI. We're making sure it's safe, so you can use it confidently."
+For the full scale data and the 4-week governance sprint (Discovery → Classification → Transition → Govern, including the four-tier tool classification), see `references/shadow-ai-governance-sprint.md`.
 
 ---
 
 ### EU Works Council Requirements for AI Deployment
 
-If you operate in Europe, AI deployment triggers mandatory employee consultation. This isn't optional. Timelines are tight.
+If you operate in Europe, AI deployment triggers mandatory employee consultation — this isn't optional, and timelines are tight. The EU AI Act (Article 26(7)) requires information and consultation of employee representatives before high-risk AI deployment by the **August 2, 2026 deadline**, with stricter works council rules in Germany, Belgium, France, and the Netherlands. HR-adjacent uses (territory allocation, comp calculation, performance/qualification scoring) are classed high-risk and must reserve **4–8 weeks** before rollout.
 
-**The regulatory structure:**
-
-| Jurisdiction | Requirement | Timeline |
-|---|---|---|
-| **EU (all member states)** | AI Act Article 26(7): mandatory information and consultation of employee representatives before high-risk AI deployment | By Aug 2, 2026 |
-| **Germany** | Works Constitution Act: employer must inform works council of AI introduction and grant external expert consultation right | Before implementation |
-| **Belgium** | Written information on technology nature, justification, and social/collective impact required when significant | Before implementation |
-| **France** | Consultation required under "significant technology change" provisions; similar to Germany | Before implementation |
-| **Netherlands** | Works council consultation for technology affecting job content, work conditions, employment relations | Before implementation |
-
-**High-risk AI classification (HR-adjacent):**
-These trigger mandatory consultation:
-- Recruitment scoring or resume screening
-- Performance assessment or promotion recommendations
-- Qualification evaluation affecting employment decisions
-- Sales territory allocation
-- Compensation/commission calculation
-- Customer segmentation with employment implications
-
-**Planning timeline (must reserve 4–8 weeks before rollout):**
-
-```
-Weeks 1–2: Works council notification
-- Formal written notice of AI introduction
-- Technical documentation: how the tool works, decision logic
-- Impact assessment: what jobs/roles affected, what data used
-
-Weeks 2–4: Consultation process
-- Works council meets, gathers employee input
-- External expert review (Germany, some others)
-- Negotiation of safeguards, audit rights, data handling
-
-Weeks 4–6: Remediation
-- Adjust system based on feedback
-- Document agreed safeguards
-- Build monitoring/transparency mechanisms
-- Employee communication plan
-
-Weeks 6–8: Implementation
-- Final approval sign-off
-- Deploy with agreed controls
-- Ongoing reporting to works council
-```
-
-**August 2, 2026 deadline:** This is real. Mark calendars now if you have EU operations.
+For the full jurisdiction-by-jurisdiction table, the high-risk classification list, and the 4–8 week works council planning timeline, see `references/eu-ai-governance-requirements.md`.
 
 ---
 
@@ -470,346 +364,48 @@ Here's what the data says about why AI implementations fail:
 
 ### AI Adoption Measurement Framework
 
-Usage metrics (% adoption, login frequency) lie. They tell you how often people click the tool, not whether the tool is actually changing work.
+Usage metrics (% adoption, login frequency) lie. They tell you how often people click the tool, not whether the tool is actually changing work. Measure all four dimensions: **Engagement** (frequency/consistency of use), **Behaviour** (how teams interact with outputs), **Capability** (confidence and skill), and **Governance** (oversight and risk control). Pair quantitative telemetry with qualitative insight for a complete picture, and expect a 3–6 month ROI horizon, not 6 weeks.
 
-**Four dimensions of AI adoption (measure all four):**
-
-| Dimension | What it measures | Key metrics |
-|---|---|---|
-| **Engagement** | Frequency and consistency of use | Daily/weekly active users %, sessions per user, feature adoption rate |
-| **Behaviour** | How teams are actually interacting with outputs | Output acceptance rate, refinement/iteration rate, handoff patterns |
-| **Capability** | Confidence and skill in using the tool effectively | Proficiency self-assessment, error reduction rate, time-to-competence |
-| **Governance** | Oversight effectiveness and risk control | Incident reports, data handling compliance, audit pass rate |
-
-**Complete measurement formula:**
-Quantitative telemetry (tool logs, usage data) + qualitative insights (user interviews, team sentiment) = complete picture of adoption health.
-
-**AI adoption KPI set (RevOps specific):**
-
-```
-Engagement tier:
-- Active AI Users %: (unique users/total eligible) × 100. Target: 70%+ by month 6.
-- AI Tool Engagement Rate: (weekly active sessions / total users) × 100. Target: 60%+ sustained.
-
-Behaviour tier:
-- Output Acceptance Rate: (outputs used as-is or refined / total outputs generated) × 100. Target: 65%+.
-- Time Saved per Function: hours/week recovered from task automation. Target: 5–8 hrs/FTE/week.
-
-Capability tier:
-- Proficiency Score: (skill self-assessment + error rate reduction) / 2. Target: 3.5+/5 by month 4.
-- Time-to-Value per Role: weeks to first meaningful productivity gain. Target: 3–4 weeks.
-
-Governance tier:
-- Incident Rate: (data breaches, compliance violations) per 1,000 active users. Target: <1 per month.
-- Audit Pass Rate: % of samples meeting governance standards. Target: 98%+.
-```
-
-**ROI measurement (3-tier model):**
-
-1. **Realized ROI** (months 1–3): Direct time savings and automation. Dollar value of hours freed. Easy to quantify. Usually overstated.
-
-2. **Trending ROI** (months 3–9): Quality improvements (better proposals, higher qualification accuracy), faster decision cycles, reduced rework. Harder to quantify; requires baseline comparison.
-
-3. **Capability ROI** (months 6–18): Organizational learning, capability uplift, competitive advantage from AI fluency. Hardest to measure; most valuable long-term. Frame as "organizational option value"—you've built a team that can scale AI further.
-
-**Realistic expectations:**
-- Expect 3–6 month ROI horizon, not 6 weeks
-- First 6 weeks will show time investment (learning curve)
-- Weeks 6–12 show usage and early efficiency gains
-- Months 3–6 show behaviour change and quality improvements
-- Month 6+ shows organizational capability gains
+For the full per-dimension metric tables, the RevOps-specific KPI set with targets, and the 3-tier ROI model (Realized → Trending → Capability), see `references/ai-adoption-measurement-guide.md`.
 
 ---
 
 ### AI Change Readiness Assessment
 
-Before you roll out, measure your readiness. Same format as the existing change readiness assessment in this skill, but AI-specific dimensions.
+Before you roll out, measure your readiness. Same format as the change readiness assessment in Part 1, but AI-specific dimensions. Score five factors 1–5 each (total 5–25): **Data Maturity, AI Literacy, Leadership Commitment, Governance Readiness, Cultural Openness.**
 
-**Five factors, scored 1–5 each (total 5–25 scale):**
+Scoring bands: **5–10 RED** (not ready — pre-work first), **11–17 YELLOW** (proceed with caution, strong discipline required), **18–22 GREEN** (ready), **23–25 IDEAL** (move quickly).
 
-```
-FACTOR 1: Data Maturity
-How clean, accessible, and documented is your data?
-5: All revenue data sources integrated, governance framework in place, data quality >95%,
-   clear data lineage
-4: 80%+ integrated, documented standards, quality >90%, mostly clear lineage
-3: 60%+ integrated, some standards, quality 75–85%, data lineage unclear in places
-2: <60% integrated, minimal standards, quality <75%, poor lineage tracking
-1: Siloed data, no standards, quality concerns, no lineage
-
-FACTOR 2: AI Literacy
-How comfortable is your leadership and individual contributors with AI concepts?
-5: Executive team fluent in AI applications, team has hands-on experience with LLMs,
-   proactive learning culture, >50% team engaged in AI exploration
-4: Leadership understands AI potential, most team members have used AI tools,
-   learning opportunities available, 30–50% actively exploring
-3: Leadership curious but not fluent, some team members have used AI, limited learning
-   pathways, <30% engaged
-2: Leadership skeptical or worried, few have used AI, resistance evident, no structured
-   learning
-1: Leadership opposed or oblivious, team unsure what AI does, active resistance,
-   no learning infrastructure
-
-FACTOR 3: Leadership Commitment
-Are your leaders aligned and allocated to the change?
-5: Executive sponsor fully committed, dedicated budget, protected time for pilots,
-   leaders model AI use, visible change sponsorship
-4: Executive sponsor committed, adequate budget, some protected time, leaders engaged
-3: Executive sponsor nominally committed, tight budget, competing priorities, leaders
-   interested but distracted
-2: Executive sponsor uncertain, budget constraints, AI competes with other initiatives,
-   leaders passive
-1: No executive sponsorship, budget unknown, no priority signal, leaders disconnected
-   from AI initiative
-
-FACTOR 4: Governance Readiness
-Do you have frameworks to manage risk and oversight?
-5: Privacy/security policies drafted for AI use, data governance framework exists,
-   incident response protocol defined, compliance reviewed, legal alignment confirmed
-4: Basic data governance in place, privacy review underway, incident protocol drafted,
-   compliance questions identified
-3: Governance questions identified, some policies in place, compliance gaps known,
-   no clear owner
-2: Minimal governance, compliance risk acknowledged but not addressed, no clear
-   framework
-1: No governance framework, compliance risk unexamined, no protocol for incidents
-
-FACTOR 5: Cultural Openness
-How much does your organization embrace change and experimentation?
-5: Strong experimentation culture, failure is learning, change-averse employees are
-   minority, high psychological safety, cross-functional collaboration normalized
-4: Experimentation encouraged, failure usually tolerated, change resistance present
-   but manageable, good psychological safety
-3: Some experimentation, mixed tolerance for failure, change resistance significant,
-   moderate psychological safety
-2: Risk-averse culture, failure is punished, change resistance high, psychological
-   safety low
-1: Command-and-control culture, failure intolerable, strong change resistance, fear-based
-```
-
-**Scoring interpretation:**
-
-```
-5–10 (RED):      Not ready. Major blockers present. Spend weeks on pre-work before rollout.
-11–17 (YELLOW):  Partial readiness. Proceed with caution. Strong change discipline required.
-18–22 (GREEN):   Ready. Moderate challenges, but have the foundation to execute.
-23–25 (IDEAL):   Exceptional readiness. Can move quickly and absorb complications.
-```
-
-**Diagnostic conversation starter (use this in leadership team setting):**
-
-For each factor, ask the room: "On a scale of 1–5, where do we actually sit?" Don't average. Listen to divergence. The gap between CEO and Head of Sales on "Leadership Commitment" is diagnostic. That gap is where resistance lives.
+For the full 1–5 scoring rubric per factor and the leadership diagnostic conversation starter, see `references/ai-readiness-assessment-rubric.md`.
 
 ---
 
 ### AI Rollout Playbook: Five-Phase Approach
 
-This is your operational blueprint. Use it to sequence your AI adoption.
+This is your operational blueprint for sequencing AI adoption. Each phase has gates (go/no-go decisions), specific activities, and success metrics. **Discover → Pilot → Scale → Embed → Govern.**
 
-**Phase structure: Discover → Pilot → Scale → Embed → Govern**
+1. **Discover (Weeks 1–3):** identify which processes, decisions, and teams benefit most from AI; build the business case.
+2. **Pilot (Weeks 4–8):** test one AI application with a small, engaged team via a two-week sprint (Scope → Baseline → Build → Run → Evaluate → Document); prove concept and learn what doesn't work.
+3. **Scale (Weeks 9–16):** expand from one team to 3–4 teams with clear playbooks and change champions.
+4. **Embed (Weeks 17–26):** make AI usage standard operating procedure — integrated into workflows, performance metrics, and hiring.
+5. **Govern (Ongoing, week 26+):** ensure sustained use, manage risk, optimise continuously.
 
-Each phase has gates (go/no-go decisions), specific activities, and success metrics.
+The full framework takes 6–9 months from Discover to full Embed. GenAI adoption is not a 6-week sprint — it's a quarterly narrative. Your biggest risk isn't the technology; it's abandoning the change process too early when adoption looks slow (weeks 4–6 is always slow). Move at the speed of trust-building, not the speed of the technology.
 
-#### Phase 1: Discover (Weeks 1–3)
-
-**Goal:** Identify which processes, decisions, and teams benefit most from AI. Build business case.
-
-**Activities:**
-- Audit current processes: where's manual work, where do humans add low value, where's error-prone work?
-- Prioritize by impact and ease (impact/effort matrix)
-- Identify high-risk processes first (compliance-sensitive, data-heavy, error-prone)
-- Build financial case: time savings, quality improvements, cost avoidance
-- Check regulatory landscape (Works council notification if EU-based)
-
-**Duration:** 2–3 weeks
-
-**Success metrics:**
-- 3–5 priority processes identified
-- Business case quantified (conservative estimate OK here)
-- Regulatory blockers identified (early)
-- Executive alignment on first pilot
-
-**Gate:** Proceed to Pilot when executive sponsor approves business case and pilot scope.
+For the complete playbook — every phase's activities, durations, success metrics, gates, the two-week pilot sprint template, pilot metrics and kill criteria, and the Weekly Standup cadence — see `references/ai-rollout-5-phase-playbook.md`.
 
 ---
 
-#### Phase 2: Pilot (Weeks 4–8)
+## Reference Index
 
-**Goal:** Test one AI application in a controlled environment with a small, engaged team. Prove concept. Learn what doesn't work.
-
-**Two-week sprint structure (repeat as needed within pilot phase):**
-
-```
-SPRINT TEMPLATE: Scope → Baseline → Build → Run → Evaluate → Document
-
-Week 1: Scope & Baseline
-Day 1-2: Scope
-  - Define the specific decision/task: "Qualification scoring for inbound leads"
-  - Define AI tool: vendor, model, integration point
-  - Define success: "AI scores match human qualification 80%+ of the time"
-  - Define constraints: data available, team capacity, regulatory requirements
-
-Day 3-4: Baseline
-  - Measure current state: How long does qualification take? Accuracy? Who decides?
-  - Document decision logic: What criteria does a human use to qualify?
-  - Establish comparison: Can we run manual and AI in parallel for a week?
-
-Week 2: Build & Run
-Day 5-7: Build
-  - Configure tool: connect data, set parameters, define rules
-  - QA: test on historical data, validate outputs match expectations
-  - Safety check: confirm no data leakage, no PII exposure, no bias amplification
-
-Day 8-10: Run
-  - Live pilot: 100–200 records through AI + human decision
-  - Log: inputs, AI output, human decision, time taken
-  - Weekly standups: team feedback, quick fixes to parameters
-  - Incident log: any errors, any weird outputs, any governance issues
-
-Week 3: Evaluate & Document
-Day 11-12: Evaluate
-  - Compare: AI vs human accuracy, speed, consistency
-  - Sentiment: team feedback, adoption friction, confidence in tool
-  - Financial: hours saved, quality improvements, cost-per-decision
-
-Day 13-14: Document
-  - Pilot report: what worked, what didn't, learnings
-  - Process map: AI's new place in the workflow
-  - Team playbook: how to use tool for next phase
-  - Recommendation: scale, refine, or kill
-```
-
-**Pilot metrics (measure all):**
-- **Accuracy:** AI decision vs. ground truth (human expert review). Target: 75%+ agreement.
-- **Consistency:** Same input yields same output. Target: 95%+ (identify edge cases).
-- **Speed:** Time per decision (AI vs. human). Target: 60%+ faster.
-- **Adoption:** Team using tool without prompting. Target: 80%+ of available opportunities used.
-- **Confidence:** Team trusts AI outputs (survey 1–5). Target: 3.5+.
-
-**Kill criteria (when to stop an initiative):**
-- Accuracy <65% (tool not reliable enough)
-- Adoption <40% after 2 weeks (team doesn't want it)
-- Data quality issues discovered (garbage in, garbage out)
-- Governance blockers identified (regulatory issue, data sensitivity)
-- Cost-per-use higher than manual process
-- Team confidence score <2.5 (distrust too high)
-
-**Gate:** Proceed to Scale when:
-- Accuracy ≥75% OR team confident in outputs + clear remediation plan
-- Adoption ≥60%
-- No unresolved governance issues
-- Financial case holds (ROI neutral or positive within 6 months)
-
----
-
-#### Phase 3: Scale (Weeks 9–16)
-
-**Goal:** Expand from one team to 3–4 teams. Roll out with clear playbooks. Build confidence.
-
-**Activities:**
-- Expand to adjacent teams (similar roles, similar processes)
-- Recruit change champions from pilot team (they become trainers)
-- Weekly operational cadence: usage standup, issue triage, quick wins celebration
-- Build skill: structured training, hands-on practice, certification (optional but effective)
-- Gather feedback: monthly pulse survey, open suggestion channel
-
-**Duration:** 6–8 weeks
-
-**Success metrics:**
-- 3–4 teams active, 60%+ usage rate
-- Accuracy sustained (75%+) or improving
-- Incident rate <1 per 100 active users
-- Team confidence increasing (sentiment survey)
-- Time savings realized and quantified
-
-**Gate:** Proceed to Embed when:
-- 60%+ of expanded user base actively using tool
-- Business case metrics met (time saved, quality improved)
-- No major governance incidents
-- Process standardization documented
-
----
-
-#### Phase 4: Embed (Weeks 17–26)
-
-**Goal:** Make AI usage standard operating procedure. Integrate into workflows, performance metrics, hiring.
-
-**Activities:**
-- Integrate AI into formal workflows: job descriptions updated, training mandatory, metrics tracked
-- Add to onboarding: new hires trained on AI tools day 1
-- Performance management: AI productivity (time saved, quality) becomes KPI
-- Feedback loops: monthly review of outputs, retraining as needed
-- Build organizational muscle memory: "this is how we work now"
-
-**Duration:** 8–10 weeks
-
-**Success metrics:**
-- 80%+ usage rate sustained
-- New hires up to speed within 2 weeks
-- Accuracy stable or improving
-- Productivity metrics show sustained gains
-- Shadow AI usage declining (people using approved tools)
-
-**Gate:** Move to Govern when:
-- AI-enabled workflow is default, not optional
-- Team competency normalized
-- Business value clearly realized
-- Regulatory compliance proven over time
-
----
-
-#### Phase 5: Govern (Ongoing, starting week 26+)
-
-**Goal:** Ensure sustained use, manage risk, optimize continuously.
-
-**Ongoing activities:**
-- Monthly metrics review: usage, accuracy, incidents, cost-per-use
-- Quarterly business review: is AI still delivering ROI? Should we expand?
-- Continuous retraining: skill decay monitoring, refresher cadence
-- Incident management: protocol for errors, data breaches, user issues
-- Tool refresh: evaluate new models, update parameters, retire if outdated
-- Works council reporting (EU): quarterly updates on usage, incidents, any changes
-
-**Metrics (track forever):**
-- Active user rate, engagement rate, output acceptance rate
-- Incident rate, data governance compliance, audit pass rate
-- Time saved per user, quality improvements (reduced rework)
-- ROI (realized + trending + capability)
-
----
-
-### Weekly Cadence During Implementation
-
-Once you're in Pilot, Scale, or Embed, this is your rhythm:
-
-```
-WEEKLY STANDUP (30 min, Tuesdays 9am)
-Attendees: Project lead, tool owner, team representatives, change champion
-
-Agenda:
-1. Usage: Are people using it? Adoption rate vs. target?
-2. Issues: Any errors, data problems, user confusion?
-3. Quick wins: What's working well? Celebrate it.
-4. Blockers: What's slowing adoption? What needs fixing?
-5. Forecast: What's coming next week?
-
-Decision rights:
-- Quick fix (parameter tweak, training gap): PM decides, implements by Thursday
-- Larger issue (tool limitation, design change): escalate to steering, decide within 1 week
-- Kill decision: steering committee vote (Weeks 1–4 of pilot)
-
-OUTPUT:
-- 1-pager: adoption %, issues, next week's focus
-- Shared with sponsors, works council (EU), exec team
-```
-
----
-
-This framework takes 6–9 months from Discover to full Embed. That's realistic. GenAI adoption is not a 6-week sprint. It's a quarterly narrative.
-
-Your biggest risk isn't the technology. It's abandoning the change process too early when adoption looks slow (weeks 4–6 is always slow), or trying to move faster than your organization can absorb.
-
-Move at the speed of trust-building, not the speed of the technology.
-
+| File | When to load | Contents |
+|---|---|---|
+| `references/ai-expectation-setting.md` | Setting leadership expectations before any AI agent deployment | Five myths-vs-reality table; SaaStr operator numbers ($500K stack → $2.4M closed-won) |
+| `references/shadow-ai-governance-sprint.md` | Discovering or governing unsanctioned AI tool use | Scale data; 4-week sprint (Discovery → Classification → Transition → Govern); four-tier tool classification |
+| `references/eu-ai-governance-requirements.md` | Deploying AI in EU operations / works council planning | AI Act Art. 26(7) + per-jurisdiction table; high-risk HR-adjacent classification; 4–8 week consultation timeline |
+| `references/ai-adoption-measurement-guide.md` | Building AI adoption KPIs / measuring ROI | Four-dimension metric tables; RevOps KPI set with targets; 3-tier ROI model |
+| `references/ai-readiness-assessment-rubric.md` | Scoring AI change readiness before rollout | Full 1–5 rubric for all five factors; scoring bands; leadership diagnostic starter |
+| `references/ai-rollout-5-phase-playbook.md` | Sequencing and running an AI rollout | All five phases (activities, durations, metrics, gates); two-week pilot sprint template; weekly standup cadence |
+| `references/book-integration-guide.md` | Weaving the seven foundational books into programme design | Seven books mapped to enablement frameworks |
 
 > Built by [Neon Triforce](https://neontriforce.com)

@@ -61,51 +61,9 @@ Review scoring quarterly. Decay engagement scores weekly (someone who was active
 
 ### SPICED-Based ICP Fit Scoring (Advanced)
 
-When a client uses the SPICED qualification framework, replace the generic Fit Score with a SPICED ICP Fit Matrix. This produces more accurate MQL scoring because it uses the same language sales uses to qualify deals.
+When a client uses the SPICED qualification framework, replace the generic Fit Score with a SPICED ICP Fit Matrix — scoring two independent dimensions, Selection Fit (is this our ICP?) and Urgency Fit (are they ready now?), to assign a qualification tier (T1/T2/T3). This produces more accurate MQL scoring because it uses the same language sales uses to qualify deals.
 
-**The ICP Fit Matrix: Selection × Urgency**
-
-Instead of a single "fit" number, score two independent dimensions:
-
-**Selection Fit (Is this our ICP?):**
-
-| Criterion | Weight | Data Source | Score 0-3 |
-|-----------|--------|-------------|-----------|
-| Company size (ARR/employees in ICP range) | 25% | Enrichment (Apollo, ZoomInfo) | 0=outside, 1=adjacent, 2=close, 3=bullseye |
-| Industry/vertical match | 20% | Enrichment + self-reported | 0=wrong, 1=tangential, 2=adjacent, 3=core |
-| Technology stack signals | 20% | Enrichment (technographic) | 0=no signals, 1=some, 2=strong, 3=exact match |
-| Growth stage / funding | 15% | Enrichment + news | 0=wrong stage, 1=early, 2=approaching, 3=ideal |
-| Geography (in-market) | 10% | Enrichment | 0=excluded, 1=secondary, 2=primary, 3=core |
-| Role/title of contact | 10% | Form data + enrichment | 0=wrong dept, 1=adjacent, 2=right dept, 3=decision-maker |
-
-**Selection Fit Score** = Weighted average × 33.3 (scales to 0-100)
-
-**Urgency Fit (Are they ready now?):**
-
-| Signal | Weight | Data Source | Score 0-3 |
-|--------|--------|-------------|-----------|
-| Engagement recency (last 7 days) | 25% | MAP behavioral data | 0=none, 1=>30d, 2=7-30d, 3=<7d |
-| Content depth (pricing, case studies, demo) | 25% | MAP page tracking | 0=blog only, 1=mid-funnel, 2=bottom-funnel, 3=pricing/demo |
-| Critical event signals | 20% | Form data, intent, news | 0=none, 1=implied, 2=mentioned, 3=confirmed |
-| Repeat visits / multi-session | 15% | MAP tracking | 0=1 visit, 1=2-3, 2=4-6, 3=7+ |
-| Direct request (demo, call, trial) | 15% | Form submission type | 0=content only, 1=newsletter, 2=webinar, 3=demo/trial |
-
-**Urgency Fit Score** = Weighted average × 33.3 (scales to 0-100)
-
-**Qualification Tier Assignment:**
-
-| Tier | Selection Fit | Urgency Fit | MQL Action |
-|------|-------------|-------------|------------|
-| **T1 — Perfect Fit** | ≥70 | ≥60 | Immediate routing to AE. Speed-to-lead <1 hour. |
-| **T2 — Good Fit** | ≥50 | ≥40 | Route to SDR for qualification call. Standard SLA. |
-| **T3 — Opportunistic** | ≥30 | ≥30 | Add to nurture sequence. Re-score monthly. |
-| **Below threshold** | <30 | Any | Do not route. Passive nurture only. |
-
-**Why this is better than generic scoring:** Selection Fit uses ICP-specific criteria, not generic firmographics. Urgency Fit captures buying intent, not just engagement volume. The tier system (T1/T2/T3) aligns with how sales qualifies deals using SPICED. SDRs and AEs speak the same qualification language as marketing.
-
-**Implementation note:** The scoring weights above are starting points. Calibrate quarterly by running a correlation analysis: which scoring dimensions best predict Closed-Won? Increase weight on predictive dimensions, decrease on noise.
-
-See [[neon-spiced-icp-library-v1]] for the full ICP Fit Matrix framework and cluster-specific criteria.
+For the full Selection Fit and Urgency Fit scoring tables, tier matrix, and quarterly calibration method, see `references/spiced-icp-fit-matrix.md`. See [[neon-spiced-icp-library-v1]] for the full ICP Fit Matrix framework and cluster-specific criteria.
 
 ### MQL→SQL Handoff SLA
 
@@ -215,60 +173,19 @@ Every touch must trace back to a budget item.
 
 ## 3. Campaign Operations
 
-### Campaign Taxonomy
+### Campaign Taxonomy & Campaign-to-Revenue Dashboard
 
-Structure drives reporting. Build a naming system:
+Structure drives reporting. Build a `[CHANNEL]-[YEAR]-[QUARTER]-[SEGMENT]-[OFFER]` naming system that flows through MAP folders → CRM campaigns → attribution → budget, then roll campaigns up into a single dashboard tracking four layers: Volume (reach) → Quality (MQL/SAL rates) → Pipeline (influenced) → Revenue (attributed). Campaigns can look good on volume but terrible on quality.
 
-```
-[CHANNEL]-[YEAR]-[QUARTER]-[SEGMENT]-[OFFER]
-
-Examples:
-  PAID-SOCIAL-2026-Q1-SCALEUP-DEMAND-GEN
-  WEBINAR-2026-Q2-ENTERPRISE-PRODUCT-DEMO
-  CONTENT-2026-Q1-SEO-REVOPS-GUIDE
-  EVENT-2026-Q3-SAAS-NORTH-SUMMIT
-
-This taxonomy flows through: MAP folders → CRM campaigns → attribution → budget
-```
-
-### Campaign-to-Revenue Dashboard
-
-The one table that matters:
-
-```
-Campaign Name | Spend | Leads | MQLs | SAL | SQL | Pipeline | Revenue | ROI
-EMAIL-Q1...   | €8K   | 450   | 180  | 135 | 98  | €2.1M    | €680K   | 8.5x
-```
-
-Track four layers: Volume (reach) → Quality (MQL/SAL rates) → Pipeline (influenced) → Revenue (attributed). Campaigns can look good on volume but terrible on quality.
+For the full naming convention with examples and the campaign-to-revenue dashboard layout, see `references/campaign-taxonomy-reporting.md`.
 
 ## 4. Demand Generation Operations
 
-### Channel Mix
+### Channel Mix & Budget Allocation
 
-```
-Channel              | Typical Pipeline % | Time to Mature | CAC Efficiency
-Inbound/Content      | 20-35%             | 6-12 months    | High (€5-15/lead)
-Outbound/SDR         | 25-40%             | 2-3 months     | Medium (varies)
-Paid Digital         | 10-20%             | 3-4 months     | Medium (€30-150/lead)
-Events/Webinars      | 5-15%              | 3-6 months     | Low-Medium
-Partnerships         | 5-15%              | 6-12 months    | High
-Product-Led          | 5-20%              | Depends         | Highest
+Build a balanced channel portfolio (recommended mix at €30-80M ARR: Outbound 30% | Inbound 30% | Paid 15% | Events/Partners 15% | PLG 10%) to reduce concentration risk, and allocate budget by blending three methods: historical ROI, pipeline contribution, and strategic goals.
 
-RECOMMENDED MIX (€30-80M ARR):
-  Outbound 30% | Inbound 30% | Paid 15% | Events/Partners 15% | PLG 10%
-  Reduces concentration risk. Enables scaling without hiring armies of SDRs.
-```
-
-### Budget Allocation
-
-Three methods, blend all three:
-
-```
-1. HISTORICAL ROI:   Weight budget by channel ROI (inbound 12x → give it more)
-2. PIPELINE CONTRIBUTION: Allocate proportional to where pipeline comes from
-3. STRATEGIC GOALS:  Reduce sales cost → increase inbound. Hit number now → surge outbound.
-```
+For the full channel-mix table (typical pipeline %, time to mature, CAC efficiency per channel) and the three budget-allocation methods, see `references/channel-mix-budget-allocation.md`.
 
 ### ICP-Fit Tracking for Inbound
 
@@ -276,58 +193,15 @@ Track: "Of inbound leads, % that match ICP." If 68% of inbound are outside your 
 
 ### AI-Assisted Inbound Qualification
 
-When AI is deployed for inbound lead qualification (via Qualified, Agentforce, or custom agents), the lead scoring model needs to adapt:
+When AI is deployed for inbound lead qualification (via Qualified, Agentforce, or custom agents), the scoring model adapts: AI adds behavioural-intent signals (multi-touch patterns humans miss) and real-time SPICED-style qualification via chat before a human gets involved. SaaStr reported 71% of October 2025 closed-won deals came from AI-qualified inbound, up from a 29-34% baseline.
 
-**AI qualification adds two new dimensions to scoring:**
-
-1. **Behavioural intent signals** — not just "downloaded a whitepaper" but "visited pricing page 3 times in 2 days, opened 4 emails, attended webinar, then hit the contact form." AI can score multi-touch behaviour patterns that humans miss.
-
-2. **Real-time qualification** — AI can run SPICED-style qualification questions via chat before a human gets involved. The lead arrives at the rep pre-qualified with Situation, Pain, and Impact already captured.
-
-**SaaStr result:** 71% of October 2025 closed-won deals came from AI-qualified inbound. Historic baseline was 29-34%. The AI didn't just qualify faster — it qualified BETTER by catching signals humans overlooked.
-
-**Implementation pattern:**
-- AI handles first response (speed-to-lead becomes instant)
-- AI asks 3-5 qualification questions (mapped to SPICED or BANT)
-- AI scores based on responses + behavioural data + firmographic fit
-- T1 leads routed to rep immediately with AI-generated brief
-- T2 leads entered into AI nurture sequence
-- T3 leads deprioritised or recycled
-
-**Lead segmentation for AI qualification** — segment by behaviour, not demographics:
-- Website visitors (high-intent pages) → immediate AI engagement
-- Content downloaders → educational nurture sequence
-- Event registrants → event-specific follow-up sequence
-- Returning visitors (previously cold) → re-engagement with context
-- Free trial signups → onboarding + qualification hybrid
-
-Source: SaaStr AI Agent Playbook, Part 14; SaaStr inbound case study
+For the implementation pattern, behaviour-based lead segmentation, and full SaaStr case detail, see `references/ai-inbound-qualification.md`.
 
 ### Customer Interviews as a Marketing Data Source
 
-Marketing operations teams typically rely on enrichment data and behavioral data to score and segment leads. But the highest-signal data source — structured customer interviews — is almost never fed back into the marketing data model.
+The highest-signal data source — structured customer interviews — is almost never fed back into the marketing data model. Sales and CS talk to customers daily, but that intelligence rarely flows into lead scoring, segmentation, or campaign targeting, so marketing optimizes for proxy signals instead of real buying criteria. Ten interviews produce 40+ content assets AND validate/refine your lead scoring model — the highest-ROI activity in marketing operations.
 
-**The gap:** Sales and CS talk to customers daily. That intelligence rarely flows back into lead scoring, segmentation, or campaign targeting. The result: marketing optimizes for proxy signals instead of the real buying criteria.
-
-**The interview→marketing pipeline:**
-
-| Interview Output | Marketing Use | How to Operationalize |
-|-----------------|--------------|----------------------|
-| **SPICED language** (verbatim words) | Ad copy, email subjects, landing page headlines | Store in SPICED library; feed to copywriting briefs |
-| **Pain priorities** (ranked by frequency) | Lead scoring weight adjustment | If 80% of best customers mention pain X, increase score for leads showing pain X signals |
-| **Decision criteria** (what actually mattered) | Nurture content strategy | Create content addressing real criteria, not assumed ones |
-| **Channel attribution** (how they found you) | Budget allocation | Compare self-reported to system-attributed; adjust channel mix |
-| **Objection patterns** (what almost stopped them) | Objection-handling content, FAQ pages | Create targeted content for top 3 objections |
-
-**The math:** 10 customer interviews produce 40+ content assets AND validate/refine your lead scoring model. This is the highest-ROI activity in marketing operations.
-
-**Process:**
-1. CS or Sales conducts structured interviews (see `neon-icp` skill for the 8-step process)
-2. Interview outputs are tagged and stored in the SPICED library
-3. MarOps reviews quarterly: Which scoring criteria align with interview findings? Which don't?
-4. Adjust scoring weights based on what real customers say, not what you assumed
-
-See [[neon-icp-building-reference]] for the full customer interview methodology and GAP method.
+For the interview→marketing pipeline table (interview output → marketing use → how to operationalize) and the quarterly review process, see `references/customer-interview-marketing-pipeline.md`. See [[neon-icp-building-reference]] for the full customer interview methodology and GAP method.
 
 ## 5. Marketing-Sales Alignment Operations
 
@@ -428,62 +302,11 @@ SQL               Discovery completed. Real        Convert to opportunity in CRM
                   opportunity identified.           Pipeline reporting begins.
 ```
 
-### Speed-to-Lead SLA
+### Operational Detail (SLA, Routing, Follow-Up, ABM)
 
-Research consistently shows that response time is the single biggest lever in inbound conversion. After 5 minutes, contact rates drop by 10x.
+The speed-to-lead SLA (response targets and escalation by tier), lead routing rules and conflict resolution, the day-by-day follow-up cadence, and ABM account-level reporting are the operational layer beneath this process. As a baseline: response time is the single biggest lever in inbound conversion — after 5 minutes, contact rates drop by 10x, so T1 MQLs target <5 minutes with escalation.
 
-```
-TIER     RESPONSE SLA     ESCALATION
-────     ────────────     ──────────
-T1 MQL   < 5 minutes      If no response in 5 min → escalate to sales manager
-                           If no response in 15 min → re-route to backup rep
-T2 MQL   < 30 minutes     If no response in 30 min → escalate
-                           If no response in 2 hours → re-route
-T3 MQL   < 4 hours        If no response in 4 hours → auto-nurture sequence
-
-MEASUREMENT:
-  - Track: time from MQL creation to first rep outreach (call/email)
-  - Target: median < 10 minutes for T1
-  - Report: weekly, by rep and by lead source
-  - Enforce: include in rep performance metrics
-```
-
-### Lead Routing Rules
-
-```
-RULE TYPE         LOGIC                                   IMPLEMENTATION
-─────────         ─────                                   ──────────────
-Geographic        Route by country/region/timezone         MAP workflow → CRM owner
-Named Account     If account in named list → assigned rep  MAP lookup → CRM account owner
-Round Robin       Equal distribution within territory      MAP rotation + weighted by capacity
-Segment-Based     Route by ICP tier (T1 → senior rep)     MAP scoring → routing workflow
-Product-Based     Route by product interest signal         MAP form field / page visit → workflow
-
-CONFLICT RESOLUTION:
-  Named Account always wins over Round Robin.
-  If account has existing open opportunity → route to opp owner.
-  If account has existing CSM → notify CSM + route to sales.
-  If no match → round robin within territory.
-```
-
-### Lead Follow-Up Sequence
-
-```
-DAY 0 (within SLA):  Phone call attempt + personalised email
-                     Reference: specific content consumed, company context
-DAY 1:               Second phone attempt (different time of day)
-DAY 2:               Email with relevant case study or resource
-DAY 3:               Phone attempt #3 + LinkedIn connection request
-DAY 5:               Email with value-add (not "just checking in")
-DAY 7:               Final attempt email — "Should I close this out?"
-DAY 10:              If no response → recycle to nurture. Set re-engagement trigger.
-
-RULES:
-  - Never send "just following up" emails. Every touch adds value.
-  - Personalise first email based on lead source + content consumed.
-  - Log all attempts in CRM. No dark pipeline.
-  - If lead responds but isn't ready → set task for 30/60/90 day follow-up.
-```
+For the full speed-to-lead SLA tables, routing rules and hierarchy, follow-up cadences, and ABM reporting, see `references/inbound-operations-detail.md`.
 
 ### Inbound Conversion Metrics by Stage
 
@@ -507,29 +330,7 @@ REVIEW: Monthly with Marketing + Sales leadership.
 Track trends, not absolutes. Degradation = signal to investigate.
 ```
 
-### ABM Reporting (When Running Allbound/ABM Motion)
-
-```
-ACCOUNT COVERAGE REPORTING:
-  - % of target accounts with active engagement (content, ads, outreach)
-  - Average touches per account per month (by channel)
-  - Account penetration depth (contacts engaged per account)
-
-ACCOUNT GENERATION REPORTING:
-  - New accounts entering pipeline from ABM programmes
-  - ABM-sourced vs ABM-influenced pipeline split
-  - Time from ABM activation to first meeting (by tier)
-
-PIPELINE GENERATION REPORTING:
-  - ABM pipeline value vs direct inbound pipeline value
-  - Conversion rates by ABM tier (T1 named vs T2 programmatic)
-  - ABM deal velocity vs non-ABM deal velocity
-
-ABM/INBOUND REVENUE REPORTING:
-  - Closed revenue by motion (ABM, inbound, outbound, partner)
-  - Blended CAC by motion
-  - LTV by acquisition motion (do ABM customers retain better?)
-```
+ABM account-level reporting (account coverage, account generation, pipeline generation, ABM/inbound revenue) lives in `references/inbound-operations-detail.md` alongside the rest of the inbound operational layer.
 
 
 ## 90-Day Sprint
@@ -548,46 +349,9 @@ By month 4 you're at Level 2. Keep pushing to Level 3.
 
 ## Norton Framework Additions (Source: Aviv Canaani, Revenue Leadership Podcast, Mar 2026)
 
-### Inbound Flip Strategy (Canaani Model)
+The Norton "Inbound Flip" strategy engineers an inbound-dominant GTM motion that produces 4x revenue per AE: start with paid across LinkedIn/Google/counterintuitive channels, build an organic engine in parallel, lean into inbound when outbound drops, and use brand as air cover. Supporting data (HubSpot: inbound costs 61% less; 6sense: buyer initiates first contact 83% of the time), the win-rate-first channel quality ranking, the brand-protection-as-architecture principle, and the Donovan (E61) outbound channel destruction data all argue for shifting budget away from cold outbound email.
 
-How to engineer an inbound-dominant GTM motion that produces 4x revenue per AE.
-
-**The Flip Mechanics:**
-1. Start with paid campaigns across LinkedIn, Google, and counterintuitive channels (Facebook/Instagram for B2B worked for Datarails)
-2. Build organic engine in parallel: niche podcast, social content, brand presence
-3. When inbound holds and outbound drops (as happened in 2022 downturn), lean into inbound
-4. Brand as air cover: makes even cold outreach warmer
-
-**Why Inbound Wins (Data):**
-- HubSpot: inbound leads cost 61% less
-- 6sense: 83% of the time, buyer initiates first contact
-- Gartner: self-navigating buyers complete "high-quality deals" 65% vs 24% sales-led
-- Signal quality > cost: buyers who come to you close better
-
-**Channel Quality Ranking:**
-Don't rank channels by volume or CAC alone. Rank by:
-1. Win rate by channel
-2. Cycle time by channel
-3. AE productivity impact (does this channel require AE time to convert?)
-4. Deal size by channel
-The channel that produces highest win rate at shortest cycle time with least AE effort = concentrate budget there.
-
-**Brand Protection as Architectural Choice (Canaani):**
-- VP of Brand has no number — no MQL targets, no pipeline attribution
-- "I want brand to do crazy fun stuff. I don't want them to think about MQLs."
-- Protect the creative function from the metrics machine → long-term work that makes everything easier
-
-### Outbound Channel Destruction Data (Donovan, E61)
-
-For client conversations about channel mix:
-
-| Metric | Then (5 years ago) | Now (2026) |
-|--------|-------------------|------------|
-| Touches per outbound opportunity | 200-400 | 1,000-1,400 |
-| Primary outbound channel that still works | Phone + email | Phone (70% of outbound opps) |
-| Email as cold outreach channel | Viable | Essentially destroyed |
-
-**Implication for MarOps:** Shift budget allocation models to reflect the reality that outbound email is no longer a viable primary channel. Phone + high-quality content + brand are the surviving outbound motions.
+For the full flip mechanics, the supporting data citations, the channel quality ranking, and the outbound channel destruction table, see `references/norton-inbound-flip-strategy.md`.
 
 ## How to Use This Skill
 
@@ -601,100 +365,17 @@ For client conversations about channel mix:
 
 **"How do we make lead scoring more accurate?":** Move beyond generic firmographic scoring. Implement the SPICED ICP Fit Matrix: Selection Fit (is this our ICP?) × Urgency Fit (are they ready now?) = Qualification Tier (T1/T2/T3). Calibrate quarterly using customer interview data and win/loss analysis.
 
-## End-to-End Inbound Process
+## Reference Index
 
-Lead scoring and attribution answer "how good is this lead?" and "where did it come from?" But they only work if the inbound process is well-designed. This section covers the operational model from first touch to qualified opportunity.
-
-### Customer Journey Map (Prerequisite)
-
-Before designing lead qualification rules, map the customer journey. This prevents scoring leads based on what you wish they did instead of what they actually do.
-
-**Minimum journey map elements:**
-- Awareness touchpoints (organic search, paid, content, events, social)
-- Education touchpoints (blog, case studies, comparison pages, webinars)
-- Selection touchpoints (pricing page, demo request, free trial, contact form)
-- Each touchpoint mapped to: buyer intent signal, qualification relevance, hand-raise likelihood
-
-Use this map to weight lead scoring attributes. High-intent touchpoints (pricing page, demo request) should drive qualification tier regardless of firmographic fit.
-
-### Speed-to-Lead SLAs
-
-Response speed is the single highest-leverage lever for inbound conversion. Research consistently shows conversion drops sharply after 5 minutes for high-intent leads.
-
-```
-LEAD TYPE                   TARGET RESPONSE SLA     CHANNEL
-──────────                  ───────────────────     ───────
-T1 (High Fit + High Intent)  < 5 minutes            Phone + email
-T2 (High Fit + Medium Intent) < 1 hour              Email sequence + phone attempt
-T3 (Medium Fit)              < 4 hours              Email sequence
-Nurture (Low Fit or Intent)  < 24 hours             Automated nurture sequence only
-```
-
-SLA performance should be reported weekly. If T1 SLA miss rate > 10%, escalate immediately — this is a revenue leak, not a process problem.
-
-### Lead Routing Process
-
-Routing rules determine which leads go where. Without defined rules, leads route by accident (whoever picks up first, whoever is online, whoever is the default owner).
-
-**Routing logic hierarchy:**
-1. **Geography/territory** — route by region or country first
-2. **Account ownership** — if the lead's company has an existing CRM owner, route to that owner
-3. **Segment/tier** — route T1 leads to senior reps; T3 leads to SDRs or nurture
-4. **Round-robin** — within a qualified pool, distribute evenly to prevent cherry-picking
-5. **Capacity cap** — prevent routing to reps above their daily/weekly lead cap
-
-Document routing rules in CRM as explicit automation — not as "the team knows." For operational depth on routing design, see [[lead-routing]].
-
-### Lead Follow-Up Sequence (Inbound Cadence)
-
-Inbound leads are not self-converting. Even high-intent demo requests require structured follow-up.
-
-```
-T1 LEAD FOLLOW-UP (High Fit + High Intent)
-Day 0:   Phone call (within 5 min) + confirmation email
-Day 1:   Follow-up email with case study or relevant social proof
-Day 3:   Phone attempt + personalised value email (reference their use case)
-Day 5:   "Break-up" email — sets expectation this is final attempt
-Day 7:   Move to nurture if no response
-
-T2 LEAD FOLLOW-UP
-Day 0:   Confirmation email + 4-hour phone attempt
-Day 2:   Follow-up email
-Day 5:   Final follow-up
-Day 7:   Move to nurture
-```
-
-Cadence length and steps should be calibrated against your industry and ACV. High-ACV B2B sales with longer cycles tolerate longer cadences.
-
-### Inbound Conversion Metrics by Stage
-
-Track the full inbound funnel, not just MQL volume.
-
-```
-STAGE                   METRIC                          BENCHMARK (B2B SaaS €1M-50M ARR)
-─────                   ──────                          ──────────────────────────────────
-Lead → MQL              Lead-to-MQL rate                20-40% (depends on channel mix)
-MQL → SAL               MQL acceptance rate             60-80% (if scoring is calibrated)
-SAL → SQL               SAL-to-SQL rate                 40-60%
-SQL → Opportunity       SQL-to-Opp rate                 70-85%
-Opportunity → Closed    Win rate (inbound)              25-40% (typically 1.5-2x outbound)
-```
-
-Diagnose conversion gaps by stage, not just by volume. A low SAL acceptance rate means scoring is miscalibrated or ICP isn't agreed. A low SQL-to-Opp rate means SDRs are advancing poorly qualified leads.
-
-### ABM Account-Level Inbound Reporting
-
-For accounts in your ABM programme, supplement lead-level reporting with account-level coverage and pipeline metrics.
-
-**Key ABM inbound metrics:**
-- **Coverage:** % of target accounts with at least one identified contact (by tier)
-- **Engagement:** % of target accounts with activity in last 30/60/90 days
-- **Account-level MQL:** at least one T1/T2 lead from a target account in active research
-- **Pipeline by ABM tier:** Tier 1 accounts should generate disproportionate pipeline relative to their count
-
-Report ABM inbound at the account level in the monthly Marketing review. Individual lead metrics miss the signal when multiple contacts from one account engage across different channels.
-
-For full pipeline reporting architecture, see [[pipeline-visibility]].
+| File | When to read | What's inside |
+|------|-------------|---------------|
+| `references/spiced-icp-fit-matrix.md` | When a client uses SPICED for lead scoring | Selection Fit + Urgency Fit scoring tables, T1/T2/T3 tier matrix, quarterly calibration |
+| `references/campaign-taxonomy-reporting.md` | Setting up campaign naming or reporting | Campaign naming convention with examples, campaign-to-revenue dashboard layout |
+| `references/channel-mix-budget-allocation.md` | Planning demand-gen spend | Channel-mix table (pipeline %, time to mature, CAC), three budget-allocation methods |
+| `references/ai-inbound-qualification.md` | When AI handles inbound qualification | Implementation pattern, behaviour-based segmentation, full SaaStr case |
+| `references/customer-interview-marketing-pipeline.md` | Feeding interview data into MarOps | Interview→marketing pipeline table, quarterly review process |
+| `references/inbound-operations-detail.md` | Designing the inbound operational layer | Speed-to-lead SLAs, routing rules + hierarchy, follow-up cadences, ABM reporting |
+| `references/norton-inbound-flip-strategy.md` | Channel-mix and inbound-flip conversations | Flip mechanics, supporting data citations, channel quality ranking, outbound destruction data |
 
 ---
 

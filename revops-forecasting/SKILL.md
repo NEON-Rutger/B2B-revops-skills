@@ -72,143 +72,21 @@ Optimistic forecast   = (Commit × 90%) + (Best Case × 50%) + (Upside × 20%)
 
 Present all three to leadership. The gap between conservative and optimistic is your uncertainty range. A wide gap means you need better deal qualification, not better math.
 
-**Validation rules for Commit:**
-```
-□ Has the buyer explicitly confirmed intent to purchase this period?
-□ Is the economic buyer identified and engaged?
-□ Are commercial terms (price, scope, contract length) agreed?
-□ Is there a signed mutual action plan or documented close plan?
-□ Has procurement/legal review been initiated?
-□ Is the close date within the current forecast period?
-□ If any box is unchecked, this is Best Case, not Commit.
-```
+**Validation rules for Commit:** the buyer has explicitly confirmed intent this period, the economic buyer is engaged, commercial terms are agreed, a close plan is documented, procurement/legal is initiated, and the close date is within the period. If any box is unchecked, it's Best Case, not Commit. For the full 7-point checklist, see `references/forecasting-methods.md`.
 
-### Method 2: Stage-Weighted Pipeline (Data-Driven)
+### Methods 2–4 (summary)
 
-Multiply the value of each deal by the historical win probability at its current stage. This removes rep judgment entirely and relies on historical patterns.
+Use these alongside Method 1 to triangulate. Full mechanics, formulas, and limitations are in `references/forecasting-methods.md`.
 
-**How to calculate stage weights:**
-```
-1. Pull all closed deals from the last 12 months (won and lost)
-2. For each stage, calculate: deals that entered this stage → eventually won
-3. That percentage is your stage weight
-
-Example:
-Qualified:       35% of deals that reach this stage eventually close
-Discovery:       42% (qualification has filtered some out)
-Solution Design: 55%
-Proposal:        65%
-Negotiation:     78%
-```
-
-**Weighted pipeline = Σ (deal value × stage probability)**
-
-**When to use it:** As a sanity check against category-based forecasting. If your commit forecast is €1.2M but weighted pipeline says €800K, your commits include some deals that historically don't close from their current stage at the rate your reps expect.
-
-**Limitations:**
-- Treats all deals in a stage equally (a €500K enterprise deal and a €20K SMB deal at the same stage have different close probabilities)
-- Doesn't account for deal age (a deal in Negotiation for 3 days is different from one there for 30 days)
-- Requires clean historical data and enough volume for statistical significance (minimum 50-100 closed deals per segment)
-
-### Method 3: Historical Run-Rate / Trend Analysis
-
-Project future revenue based on historical patterns. Best for recurring revenue components and mature, predictable businesses.
-
-```
-Simple run-rate:
-  Average monthly revenue (last 6 months) × remaining months = projected period revenue
-
-Trend-adjusted:
-  Apply month-over-month growth rate to project forward
-  Example: If MRR grew 4% MoM for the last 6 months, project 4% forward
-
-Seasonal adjustment:
-  Use year-over-year comparisons for the same period to adjust for seasonality
-  Example: Q4 is historically 130% of average quarterly revenue → adjust upward
-```
-
-**When to use:** For the renewal/expansion base of the business. New business is too variable for run-rate forecasting at most companies. Combine run-rate for existing revenue with category-based for new business.
-
-### Method 4: Bottoms-Up Capacity Model
-
-Calculate what the sales team should produce based on capacity, not pipeline.
-
-```
-For each rep:
-  Monthly quota ÷ average deal size = deals needed per month
-  Deals needed ÷ historical win rate = opportunities needed
-  Opportunities needed ÷ meeting-to-opportunity rate = meetings needed
-
-Then:
-  Sum across all ramped reps = total expected output
-  Adjust for ramp (new reps produce at 25/50/75/100% in months 1-4)
-  Adjust for seasonality and historical attainment distribution
-```
-
-**When to use:** For annual planning and capacity planning. This tells you what the team *should* produce given its size and historical productivity. If the bottoms-up model says €8M and the board wants €12M, you have a capacity gap — not a forecasting problem.
+- **Method 2 — Stage-Weighted Pipeline (data-driven):** Weighted pipeline = Σ (deal value × historical win probability at current stage). Removes rep judgment; use as a sanity check against category-based forecasting.
+- **Method 3 — Historical Run-Rate / Trend Analysis:** Project from historical patterns (simple run-rate, trend-adjusted, seasonal). Best for the renewal/expansion base, not variable new business.
+- **Method 4 — Bottoms-Up Capacity Model:** Calculate what the team *should* produce from capacity (quota → deals → opportunities → meetings, adjusted for ramp). For annual and capacity planning; surfaces capacity gaps vs. forecasting problems.
 
 ## Forecast Cadence and Process
 
-### Weekly Forecast Rhythm
+The weekly rhythm runs Monday (reps update CRM and categorize) → Tuesday (managers challenge Commits) → Wednesday (Director/VP rolls up and reviews variance) → Thursday (executive forecast review and pipeline generation check). For the full weekly rhythm, the forecast-call run sheet, and the red flags managers listen for, see `references/forecast-cadence.md`.
 
-```
-MONDAY: Reps update deal stages, close dates, and amounts in CRM
-        Reps categorize active deals (Commit / Best Case / Upside)
-        System generates pipeline snapshot (automated)
-
-TUESDAY: Frontline managers review each rep's pipeline
-         Challenge Commit categorizations against validation checklist
-         Identify at-risk deals that need escalation or support
-         Update team-level forecast
-
-WEDNESDAY: Director/VP reviews rolled-up team forecasts
-           Focus on: variance from last week, new Commits, deals that slipped
-           Identify cross-team dependencies or executive engagement needs
-
-THURSDAY: Executive forecast review (weekly or bi-weekly)
-          Present: Commit, Best Case, Optimistic, vs. target
-          Flag deals requiring executive involvement
-          Pipeline generation status: are we building enough for next period?
-```
-
-### The Forecast Call (How to Run It)
-
-**Do not** let reps read deal updates from their notes. That's a status call, not a forecast call.
-
-**The structure:**
-```
-1. START WITH THE NUMBER (2 minutes)
-   Manager states: "We're at €X Commit, €Y Best Case, against €Z target.
-   Gap to plan on Commit is €[Z-X]. Here's where I want to focus."
-
-2. INSPECT AT-RISK COMMITS (bulk of time)
-   For each Commit deal the manager has questions about:
-   - What changed since last week?
-   - What's the specific next step and when?
-   - Who is the economic buyer and when did we last speak to them?
-   - What could prevent this from closing on time?
-
-3. REVIEW BEST CASE DEALS THAT COULD BECOME COMMIT (10-15 min)
-   - What needs to happen to move this to Commit?
-   - Can we accelerate any of these?
-   - What resources/support does the rep need?
-
-4. PIPELINE GENERATION CHECK (5 min)
-   - Is next quarter's pipeline on track?
-   - Where are the gaps by segment/territory?
-
-5. ACTION ITEMS (2 min)
-   - Who does what by when
-```
-
-**The manager's job is to listen for red flags:**
-```
-RED FLAG: "They're really interested" → No specific next step
-RED FLAG: "We're just waiting on procurement" → No timeline or contact
-RED FLAG: "I think the budget is there" → Budget not confirmed
-RED FLAG: "Close date is end of month" → Same close date for 3+ weeks
-RED FLAG: "The champion is on board" → Haven't met the economic buyer
-```
+**The Forecast Call — 5-step structure:** (1) Start with the number (2 min) — Commit, Best Case, gap to target. (2) Inspect at-risk Commits (bulk of time) — what changed, next step, economic buyer, what could block close. (3) Review Best Case deals that could become Commit (10–15 min). (4) Pipeline generation check (5 min). (5) Action items (2 min). It's a deal-inspection call, not a status read-out.
 
 ## Forecast Accuracy Measurement
 
@@ -236,326 +114,52 @@ Weak:      ±25%+ variance (process problem — needs structural fix)
 
 ### Diagnosing Forecast Misses
 
-**Consistent over-forecasting (closing less than predicted):**
-- Commit criteria too loose — reps putting Best Case deals in Commit
-- Optimistic close dates — deals slipping to next period
-- Insufficient qualification — deals in pipeline that shouldn't be
-- Fix: Tighten Commit validation, implement deal review rigor
-
-**Consistent under-forecasting (closing more than predicted):**
-- Conservative culture — reps sandbagging to protect upside
-- Expansion/upsell revenue not captured in pipeline
-- Late-quarter inbound deals closing fast
-- Fix: Incentivize accurate forecasting (not just attainment), capture all revenue sources
-
-**High variance (sometimes over, sometimes under):**
-- Insufficient deal volume for statistical prediction
-- Lumpy deal sizes (one large deal swings everything)
-- Inconsistent stage definitions — deals at "Proposal" mean different things to different reps
-- Fix: Standardize stage definitions, increase pipeline volume, segment the forecast by deal size
+The direction of the miss points to the root cause: consistent over-forecasting (loose Commit criteria, optimistic close dates, weak qualification), consistent under-forecasting (sandbagging, uncaptured expansion, late inbound), or high variance (low deal volume, lumpy deal sizes, inconsistent stage definitions). For the full pattern-by-pattern diagnosis with fixes, see `references/forecast-accuracy-diagnosis.md`.
 
 ### Slippage Benchmarks (Ebsta/Pavilion 2025)
 
-```
-MARKET SLIPPAGE RATES:
-  36% of pipeline deals slip (improved from 44% prior year)
-  Top performers are 217% less likely to experience material slippage
-  76% of B-player deals lack critical milestone events (root cause of slippage)
-
-SLIPPAGE DIAGNOSTIC:
-  If slippage >40%: Process problem — stage exit criteria not enforced
-  If slippage 30-40%: Normal range — focus on the deals that slip repeatedly
-  If slippage <25%: Strong discipline — maintain and coach to sustain
-
-WHAT PREDICTS SLIPPAGE:
-  No critical event identified → 3x more likely to slip
-  Single-threaded (one contact) → 2.5x more likely to slip
-  No activity in 14+ days → deal is already dead, just not marked yet
-  Close date unchanged for 3+ weeks → likely to slip
-
-FORECASTING ADJUSTMENT:
-  Apply slippage haircut to Best Case and Upside categories:
-  Best Case adjusted = Best Case × (1 - your historical slip rate)
-  If 36% of Best Case deals slip, multiply Best Case by 0.64 for realistic forecast
-```
+In the current market, **36% of pipeline deals slip** — so apply a slippage haircut to Best Case and Upside (e.g., if 36% slip, multiply Best Case by 0.64). For the full diagnostic, slippage predictors, and adjustment formula, see `references/slippage-benchmarks.md`.
 
 ## Pipeline Coverage Analysis
 
-Pipeline coverage is the ratio of total qualified pipeline to revenue target. It's the single most important leading indicator of whether you'll hit plan.
+Pipeline coverage is the ratio of total qualified pipeline to revenue target — the single most important leading indicator of whether you'll hit plan.
 
 ```
 Pipeline Coverage = Total Active Pipeline Value ÷ Revenue Target
 
-Minimum thresholds:
-  3x  = baseline (you need 3x pipeline to close 1x revenue)
+Baseline thresholds:
+  3x  = minimum (you need 3x pipeline to close 1x revenue)
   3.5x = healthy
   4x+ = strong position
-
-By category:
-  Commit coverage:    0.9-1.1x target (if lower, you're at risk)
-  Commit + Best Case: 1.5-2x target (enough to absorb slippage)
-  Total pipeline:     3-4x target
 ```
 
-**Pipeline coverage by time remaining in period:**
-```
-Start of quarter:  3-4x coverage
-End of Month 1:    2.5-3x coverage
-End of Month 2:    1.5-2x coverage (if below 1.5x, activate contingency)
-Final 2 weeks:     Commit should cover 90%+ of target
-```
-
-**When coverage is insufficient:**
-```
-1. IMMEDIATE: Review Best Case deals — can any be accelerated to Commit?
-2. SHORT-TERM: Pull forward next-quarter pipeline that's further along than expected
-3. MEDIUM-TERM: Activate outbound blitz, marketing campaigns, partner channel
-4. STRATEGIC: Adjust expectations with leadership — don't hide the gap
-```
+For coverage by category, coverage by time remaining in the period, and the contingency playbook when coverage is insufficient, see `references/pipeline-coverage-model.md`.
 
 ## Pipeline Analytics Views That Feed Forecast Accuracy
 
-Four diagnostic views that turn pipeline data into forecast intelligence. Build these as saved views or dashboards alongside the forecast process.
-
-### View 1: Pipeline Waterfall
-
-Track how pipeline moves through the system each period:
-
-| Movement | What It Shows | Forecast Impact |
-|----------|--------------|-----------------|
-| **Created** | New pipeline added this period | Leading indicator — is next quarter's pipe building? |
-| **Moved In** | Deals pulled forward from future periods | Positive but watch for false acceleration |
-| **Moved Out** | Deals pushed to future periods (slippage) | #1 forecast accuracy killer |
-| **Won** | Deals closed this period | Actual vs forecast — the truth metric |
-| **Lost** | Deals closed-lost or disqualified | Healthy loss rate means qualification is working |
-
-**Weekly review question:** "Is the waterfall balanced? If Moved Out > Created, the pipeline is shrinking."
-
-### View 2: Forecast vs Actuals Tracking
-
-Compare forecast at each checkpoint against actual close:
-
-| Week of Quarter | Commit Forecast | Actual Close | Variance | Diagnosis |
-|----------------|----------------|-------------|----------|-----------|
-| Week 1 | €X | | | Starting position |
-| Week 4 | €Y | | | If Y < X: deals slipping early |
-| Week 8 | €Z | | | If Z < Y: pattern problem |
-| Week 13 | €Final | €Actual | ±% | Accuracy score |
-
-**Diagnosis patterns:**
-- Forecast shrinks steadily → over-commitment at start of quarter (tighten Commit criteria)
-- Forecast grows late → sandbagging or late-quarter inbound (capture earlier)
-- Wild swings → stage definitions don't mean anything (standardize)
-
-### View 3: At-Risk Opportunity Identification
-
-Six risk signals with threshold triggers:
-
-| Risk Signal | Threshold | Action When Triggered |
-|------------|-----------|----------------------|
-| No activity in 14+ days | 14 days since last logged activity | Flag deal owner — deal is likely dead |
-| Close date unchanged 3+ weeks | Same close date for 21+ days | Challenge close date in next forecast call |
-| Single-threaded | Only 1 contact on deal | Coach multi-threading immediately |
-| No next step scheduled | Next activity date is empty | Create task: "Set concrete next step within 48 hours" |
-| SPICED score ≤7 at Proposal+ stage | Score below threshold for stage | Send back to discovery — not qualified |
-| Deal health score ≤9 | Composite health below threshold | Manager intervention required |
-
-**Automation:** Build a "Deals at Risk" saved view combining these signals. Review at every forecast call.
-
-### View 4: Pipeline Health Snapshot
-
-Weekly diagnostic combining all analytics:
-
-| Metric | This Week | Last Week | Trend | Action |
-|--------|----------|----------|-------|--------|
-| Total active pipeline | | | | |
-| Coverage ratio (vs target) | | | | If <3x: activate contingency |
-| Deals created this week | | | | |
-| Deals moved out (slipped) | | | | If >15% of pipe: process review |
-| Average deal age (open) | | | | If rising: velocity problem |
-| At-risk deals (count) | | | | Each needs a documented plan |
-| Forecast confidence range | | | | Commit ± Best Case spread |
-
-**Purpose:** One view, five minutes, complete pipeline diagnostic. Use at the start of every forecast call.
-
-### Canon References for Pipeline Analytics
-
-Cross-references: full pipeline analytics views with implementation specs, and signal-trigger-action patterns for at-risk identification.
+Four diagnostic views turn pipeline data into forecast intelligence: (1) **Pipeline Waterfall** (created / moved-in / moved-out / won / lost), (2) **Forecast vs Actuals Tracking** (forecast at each weekly checkpoint vs. close), (3) **At-Risk Opportunity Identification** (six risk signals with thresholds), and (4) **Pipeline Health Snapshot** (a weekly five-minute diagnostic). For the full schemas, tables, and diagnosis patterns, see `references/pipeline-analytics-views.md`.
 
 ## Forecasting for Different Revenue Types
 
-### New Business
-- Most variable, least predictable
-- Requires category-based + stage-weighted methods
-- Pipeline coverage should be 3.5-4x due to lower close rates
-- Segment by deal size: SMB vs. Mid-Market vs. Enterprise
-- Apply longer-period trends (quarterly, not monthly) for accuracy
+- **New business:** Most variable; category-based + stage-weighted methods; coverage 3.5–4x; segment by deal size.
+- **Expansion:** More predictable; use account health and usage as leading indicators; coverage can be lower (2.5–3x); track trigger events.
+- **Renewal:** Most predictable; run-rate baseline at 90–95% gross retention; forecast the at-risk exceptions.
 
-### Expansion Revenue
-- More predictable than new business (existing relationships, known accounts)
-- Use account-level health scores and usage data as leading indicators
-- Pipeline coverage can be lower (2.5-3x) because conversion is higher
-- Track trigger events: contract anniversaries, usage thresholds, team growth
-
-### Renewal Revenue
-- Most predictable — use run-rate models as the baseline
-- Focus forecasting energy on at-risk accounts (low health score, support tickets, declining usage)
-- Assume 90-95% gross retention as the base; forecast the exceptions
-- Early warning: any account with a health score below threshold 90+ days before renewal
-
+For the full detail per revenue type, see `references/forecasting-revenue-types.md`.
 
 ---
 
 ## Pipeline Visibility & Reporting
 
-Pipeline visibility is the ability to see what's in your pipeline, trust that it's accurate, and act on it before it's too late. Most revenue teams have dashboards. Few have visibility. The difference: dashboards show numbers; visibility drives decisions.
+Pipeline visibility is the ability to see what's in your pipeline, trust that it's accurate, and act on it before it's too late. Most revenue teams have dashboards. Few have visibility. The difference: dashboards show numbers; visibility drives decisions. It rests on a 4-layer Visibility Stack — Structure, Reporting, Hygiene, Intelligence.
 
-### The Visibility Stack (4 Layers)
-
-- **Layer 1: Pipeline Structure** — Stage design with verifiable exit criteria (buyer actions, not seller activities). 5–8 stages max. Probabilities increase monotonically.
-- **Layer 2: Pipeline Reporting** — Reports and dashboards that show pipeline state. What most teams stop at.
-- **Layer 3: Pipeline Hygiene** — Automated systems that keep pipeline data clean, current, and trustworthy.
-- **Layer 4: Pipeline Intelligence** — Alerts and signals that surface what needs attention NOW, before humans notice.
-
-### Dashboard Architecture
-
-One dashboard per audience. Leading indicators first. Exceptions over summaries. Consistent time frames.
-
-**Executive Dashboard** (CRO/VP Sales/CEO, weekly — "Are we going to hit the number?")
-| Widget | Metric | Format |
-|--------|--------|--------|
-| 1 | Pipeline by Forecast Category (current period) | Stacked bar |
-| 2 | Pipeline Coverage Ratio (open pipeline ÷ remaining target) | Single number with RAG |
-| 3 | Win Rate Trend (rolling 3 months) | Line chart |
-| 4 | Average Deal Size Trend | Line chart |
-| 5 | Forecast vs Actual (current + prior 2 periods) | Bar chart |
-| 6 | Top 10 Deals (value, stage, next step, days in stage) | Table |
-
-RAG thresholds: Green ≥3.5x, Amber 2.5–3.4x, Red <2.5x. *Based on Clari 3.2× benchmark; Ebsta 2025 suggests up to 5.3× may be needed given declining win rates. Calibrate: quota ÷ win rate.*
-
-**Sales Manager Dashboard** (daily — "Which deals need my attention today?")
-Stage movement, stale deals (by threshold), activity per rep, speed-to-lead SLA, forecast accuracy by rep, pipeline created vs. target.
-
-**Individual Rep Dashboard** (daily — "What should I work on right now?")
-Pipeline by stage, deals closing this month/quarter, activities vs. target, overdue tasks, quota attainment.
-
-**RevOps Operational Dashboard** (weekly — "Is the system healthy?")
-Data quality score, stage conversion rates (funnel), pipeline velocity (days per stage), loss reason distribution, pipeline created vs. target, enrichment coverage.
-
-### Pipeline Hygiene Automation
-
-**Stale Deal Thresholds** (recommended by stage):
-| Stage | Stale After | Action |
-|-------|------------|--------|
-| Discovery | 7 days | Alert rep |
-| Qualification | 10 days | Alert rep + manager |
-| Solution Design | 14 days | Alert rep + manager |
-| Proposal | 7 days | Alert manager (high urgency) |
-| Negotiation | 5 days | Alert manager + VP |
-
-**Overdue Close Date Handling:** Daily job auto-pushes past close dates to end of current month, creates a task, and tracks `Close_Date_Push_Count`. Target: <5% of pipeline with overdue close dates.
-
-### Pipeline Quality Score
-
-Six dimensions based on Gong and Ebsta research (300+ signals, 655K+ analysed opportunities):
-
-| Dimension | What to Measure | Research Backing |
-|-----------|----------------|-----------------|
-| **Engagement / Activity Velocity** | Frequency and recency of buyer interactions | Gong core signal; Ebsta: interaction frequency, recency, type |
-| **Multi-Threading** | Contacts engaged per deal from different functions | Ebsta 2023: single-threaded ~8% win rate; 3+ contacts = 2.4× higher close rate |
-| **Decision-Maker Access** | Direct engagement with economic buyer | Ebsta 2025: early DM involvement = +55% win rate |
-| **Time in Stage / Deal Age** | Days in stage vs. historical average | Gong 2024–25: win rate drops 50% when deal pushed from 1 week to 1 month |
-| **Next Steps / Progression** | Clarity of agreed next action with date | Gong: clarity of next steps as core progression signal |
-| **Trend Direction** | Positive vs. negative engagement trajectory | Ebsta: engagement trend as forward indicator |
-
-*Operational template — adapt weights to your GTM process. Track trend over time, not just absolute score. Deals declining on 2+ dimensions: flag for immediate deal review.*
-
-**Big Deal Alerts:** Trigger when deal value exceeds threshold (e.g., >€50K mid-market; >€200K enterprise), advances to Qualification+, or close date moves into current quarter. Recipients: VP Sales, CRO, RevOps.
-
-### Pipeline Intelligence Signals
-
-| Signal | What It Indicates | Action |
-|--------|-------------------|--------|
-| No activity >7 days at Proposal+ | Deal at risk | Manager intervention |
-| Close date pushed 3+ times | Timeline not real | Honest conversation about buyer readiness |
-| Single-threaded (1 contact) | Fragile deal | Multi-threading campaign |
-| Amount decreased | Scope shrink or competitive pressure | Win strategy review |
-| New competitor mentioned in notes | Competitive threat | Competitive positioning resources |
-| Stage regression | Qualification lost | Re-qualify or close |
-| Champion went dark | Org change or lost interest | Executive sponsor outreach |
-| Activity spike from buyer | Evaluation intensifying | Accelerate access to resources |
-
-### Pipeline Movement Waterfall
-
-Track weekly changes to understand momentum:
-```
-Starting Pipeline: €4.2M
-  + Created:  +€800K
-  + Advanced: €1.1M moved forward
-  - Pushed:   -€300K pushed to next quarter
-  - Lost:     -€450K closed lost
-  - Won:      -€600K closed won
-= Ending Pipeline: €4.45M
-```
-
-This waterfall, reviewed weekly, is the single most powerful pipeline visibility tool.
-
-### Essential Reports Checklist
-
-| Report | Purpose |
-|--------|---------|
-| Pipeline by Stage | Pipeline health |
-| Pipeline by Close Date | Timing distribution |
-| Win Rate (Won ÷ Won + Lost) | Conversion performance |
-| Sales Cycle (avg days created to close) | Velocity |
-| Conversion Funnel (count by stage, cohort) | Drop-off analysis |
-| Stale Deals (no activity > threshold) | Hygiene |
-| Loss Analysis (by reason, last 90 days) | Pattern detection |
-| Pipeline Coverage (open ÷ remaining target) | Forecast risk |
-| Rep Scorecard (Rep × metrics matrix) | Individual performance |
-| Pipeline Created (by week) | Leading indicator |
-
-*References: Clari (3.2× pipeline coverage benchmark, 2024–25); Ebsta 2025 GTM Benchmarks (655K opportunities, $43B pipeline); Gong (close date push impact — win rate drops ~50% at 1 month vs. 1 week); Salesforce research: active pipeline health management = 18% higher win rates, 28% more accurate forecasts.*
+For the full visibility-and-reporting layer — dashboard architecture per audience (Executive/Manager/Rep/RevOps), pipeline hygiene automation and stale-deal thresholds, the six-dimension pipeline quality score (Gong/Ebsta research), big-deal alerts, pipeline intelligence signals, the pipeline movement waterfall, and the essential reports checklist — see `references/dashboard-architecture.md`.
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton / Aviv Canaani, Revenue Leadership Podcast, 2026)
+## Norton Framework Additions
 
-### Forecast Variance as System Health Signal
-
-Forecast variance isn't just an accuracy problem — it's a diagnostic signal for deeper system issues.
-
-**What Variance Tells You:**
-- ±10% variance → Healthy system, normal deal volatility
-- ±20% variance → Qualification inconsistency or ICP drift
-- ±30%+ variance → Methodology decay, data quality issues, or wrong ICP entirely
-
-**Quality-Velocity-Predictability Triangle:**
-Better ICP fit → shorter cycle time → more predictable forecast → better resource allocation → higher quality pipeline → (compounds)
-
-**Cycle Time as Primary Constraint Indicator:**
-Velocity bottlenecks (not volume gaps) often limit growth. If deals consistently stall at a specific stage, that's your system constraint — fix it before adding more pipeline.
-
-### Bottom-Up Capacity-Based Forecasting (Canaani, E64)
-
-An alternative to top-down target-based forecasting:
-
-**The model:**
-1. Know cost per meeting
-2. Know conversion rate at every stage
-3. Know sales cycle length (Datarails: 30-45 days)
-4. Know AE meeting capacity before quality drops
-5. Only hire new AEs when pipeline exists to fill their calendars
-
-**Datarails proof point:** Projected new ARR within 5% margin of error, three out of four quarters. This was achieved by knowing the real productivity numbers, not by top-down quota allocation.
-
-**Contrast with conventional approach:**
-- Conventional: Board target ÷ reps + stretch = quota → hope pipeline materialises
-- Capacity-based: Actual productivity data → bottoms-up capacity model → forecast based on what the system can actually produce
-
-**When to use:** Best suited for organisations with 4+ quarters of pipeline data, established conversion rates, and a mature enough inbound engine to have predictable meeting volume.
-
-**Add to accuracy benchmark:** Canaani's 5% margin (3/4 quarters) sits at the "Elite" level in the existing forecast accuracy benchmarks.
+Two additions from Kyle Norton / Aviv Canaani (Revenue Leadership Podcast, 2026): **forecast variance as a system-health signal** (±10% healthy, ±20% qualification/ICP drift, ±30%+ methodology decay) and **bottom-up capacity-based forecasting** (Canaani, E64 — Datarails projected new ARR within a 5% margin, 3 of 4 quarters, which sits at "Elite" in the accuracy benchmarks). For the full framework, the quality-velocity-predictability triangle, and the capacity model steps, see `references/norton-framework.md`.
 
 ## How to Use This Skill
 
@@ -573,85 +177,24 @@ An alternative to top-down target-based forecasting:
 
 ## Signal → Trigger → Action: Forecast Breach Rules
 
-These connect forecasting to the Operating Cadence. When a forecast signal fires, the cadence ensures someone acts — not next quarter, but this week. These rules plug into the revenue dashboard and weekly/monthly rituals.
+These connect forecasting to the Operating Cadence — when a forecast signal fires (coverage below 3x, Commit below 0.9x, accuracy trending >±20%, slippage >40%, etc.), the cadence ensures someone acts this week. For the full forecast-specific breach-rules table, the 4-severity escalation framework, the pipeline generation breach rules, and the revenue-dashboard forecast tile configuration, see `references/forecast-breach-rules.md`.
 
-### Forecast-Specific Breach Rules
+---
 
-| Signal | Trigger Threshold | Action | Forum | Owner |
-|--------|------------------|--------|-------|-------|
-| Pipeline coverage drops below 3x | Coverage < 3x for current quarter target | Activate pipeline generation contingency within 5 business days. Pull forward next-quarter pipeline. Review outbound, partner, and marketing channels. | Weekly revenue dashboard | CRO + CMO |
-| Commit coverage below 0.9x target | Commit < 90% of remaining quarter target | Inspect every Best Case deal for acceleration potential. Identify deals that can move to Commit with specific interventions. | Weekly Sales Pipeline Loop | VP Sales |
-| Forecast accuracy trending >±20% | 2 consecutive weeks where delta between forecast and pace exceeds 20% | Diagnose root cause: qualification drift, stage definition inconsistency, or rep sandbagging. Initiate A3 problem statement. | Weekly revenue dashboard | RevOps |
-| Best Case slippage rate >40% | More than 40% of Best Case deals slip in any 4-week period | Tighten Best Case criteria. Review whether Best Case deals meet at least 3 of 5 Commit validation checkboxes. Likely a qualification problem. | Monthly Strategy Review | VP Sales + RevOps |
-| Single rep variance >±30% for 2+ quarters | Individual rep forecast accuracy below ±30% consistently | Coaching intervention: is it optimism (always over), sandbagging (always under), or methodology gap? Different root causes, different fixes. | Manager 1:1 | Frontline Manager |
-| New pipeline creation below 80% of period target | Weekly pipeline creation pace tracking below 80% of what's needed | Gap alert to leadership. Diagnose: is it a generation problem (not enough activity) or a conversion problem (meetings happening but not converting)? | Weekly revenue dashboard | CMO + VP Sales |
-| Weighted pipeline diverges from category forecast by >25% | Stage-weighted pipeline total differs from Commit + Best Case total by >25% | The two methods are disagreeing. Likely cause: stage inflation (deals in later stages that haven't earned it). Run stage audit on deals contributing to the gap. | Weekly Sales Pipeline Loop | RevOps |
+## Reference Files
 
-### Forecast Breach Escalation Path
-
-Not all breaches are equal. Use this escalation framework:
-
-```
-SEVERITY 1 — INFORMATION (no action required yet)
-  Coverage between 2.5-3x with >6 weeks left in quarter
-  Single-week variance spike (noise, not signal)
-  One rep's forecast off in isolation
-  → Note in revenue dashboard. Monitor next week.
-
-SEVERITY 2 — WARNING (action required this week)
-  Coverage below 3x with <6 weeks left
-  Forecast accuracy trending >±15% for 2+ weeks
-  Best Case slippage rate climbing
-  → Assign investigation owner. Report back in next weekly ritual.
-
-SEVERITY 3 — BREACH (management intervention immediately)
-  Coverage below 2.5x with <4 weeks left
-  Commit coverage below 0.8x target
-  Forecast accuracy >±25% for 3+ weeks
-  → Escalate to CRO/CEO. Activate contingency playbook.
-  → Consider: adjust expectations with board proactively.
-
-SEVERITY 4 — CRITICAL (executive action)
-  Coverage below 2x with <3 weeks left
-  Quarter is materially at risk (>20% miss projected)
-  → Board-level communication required.
-  → Shift focus to: protect what's in Commit, manage the miss, build next quarter.
-```
-
-### Pipeline Generation Breach Rules
-
-Forecasting doesn't just measure the current quarter — it must also monitor next quarter's pipeline health:
-
-| Signal | Trigger | Action | Timeline |
-|--------|---------|--------|----------|
-| Next quarter pipeline < 2x target at quarter midpoint | Projected coverage gap | Activate outbound blitz + partner channel activation + marketing campaign acceleration | Within 1 week |
-| Pipeline creation rate declining month-over-month | 2+ months of declining new pipeline | Diagnose: is inbound drying up, outbound slowing, or conversion dropping? Different roots, different fixes | Within 2 weeks |
-| Pipeline age increasing (average days open rising) | Average deal age >1.5x segment benchmark for 2+ weeks | Pipeline deflation sprint — remove zombies to restore healthy metrics. See neon-deal-velocity-engineer. | Within 1 week |
-
-### Connecting Forecasting to the revenue dashboard
-
-The forecast is not a spreadsheet — it's a tile in the revenue dashboard with bands and breach rules:
-
-```
-FORECAST TILE CONFIGURATION:
-
-  Metric: Current quarter forecast vs. target
-  Green band: Commit ≥ 90% of target AND coverage ≥ 3x
-  Amber band: Commit 70-90% of target OR coverage 2.5-3x
-  Red band: Commit < 70% of target OR coverage < 2.5x
-
-  Secondary: Forecast accuracy trend (trailing 4-week average)
-  Green: ±10%
-  Amber: ±10-20%
-  Red: ±20%+
-
-  Leading indicator: Next quarter pipeline creation pace
-  Green: On track for 3x+ coverage
-  Amber: Tracking to 2-3x coverage
-  Red: Tracking to <2x coverage
-```
-
-When a tile turns red, it surfaces in the Weekly revenue dashboard ritual and triggers the corresponding breach action from the table above. The goal is: no surprises at quarter end. Every miss should be visible 6+ weeks in advance.
+| File | When to read | What's inside |
+|------|-------------|---------------|
+| `references/forecasting-methods.md` | Building or validating a forecast with Methods 2–4 | Full Commit checklist; stage-weighted, run-rate/trend, and bottoms-up capacity mechanics, formulas, limitations |
+| `references/forecast-cadence.md` | Setting up the forecast rhythm or running a forecast call | Weekly Mon–Thu rhythm; 5-step call structure; manager red flags |
+| `references/forecast-accuracy-diagnosis.md` | Diagnosing why the forecast is off | Over-/under-forecasting and high-variance patterns with fixes |
+| `references/slippage-benchmarks.md` | Applying a slippage haircut or diagnosing slip rate | Ebsta/Pavilion 2025 rates, predictors, adjustment formula |
+| `references/pipeline-coverage-model.md` | Coverage analysis and contingency planning | Coverage by category, by time-in-period, contingency playbook |
+| `references/pipeline-analytics-views.md` | Building forecast-accuracy dashboards/views | Waterfall, forecast-vs-actuals, at-risk, health-snapshot schemas |
+| `references/forecasting-revenue-types.md` | Forecasting new business / expansion / renewal | Method, coverage, and signals per revenue type |
+| `references/dashboard-architecture.md` | Pipeline visibility & reporting buildout | Visibility stack, per-audience dashboards, hygiene, quality score, intelligence signals, reports checklist |
+| `references/norton-framework.md` | Variance-as-system-signal or capacity-based forecasting | Norton/Canaani framework, QVP triangle, capacity model |
+| `references/forecast-breach-rules.md` | Wiring forecasting into the operating cadence | Breach-rules table, 4-severity escalation, generation rules, forecast tile config |
 
 ---
 

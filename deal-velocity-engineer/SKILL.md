@@ -47,61 +47,13 @@ Pipeline Velocity = (# Opportunities × Win Rate × Avg Deal Size) ÷ Sales Cycl
 
 ---
 
-## Sales Cycle Benchmarks by Segment
+## Benchmarks: Sales Cycle and Conversion
 
-Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cycle isn't slow — a 120-day SMB cycle is catastrophic.
+Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cycle isn't slow — a 120-day SMB cycle is catastrophic. And when a client says "our cycles are getting longer," they're not wrong (cycles are up 22% since 2022) — the question is whether they're longer than the market shift justifies.
 
-| Segment | ACV Range | Benchmark Cycle | Optimal Range | Red Flag |
-|---------|-----------|----------------|---------------|----------|
-| SMB | <€15K | 14-30 days | 20-40 days | >60 days |
-| Mid-Market | €15-75K | 60-90 days | 45-75 days | >120 days |
-| Enterprise | €75-250K | 90-150 days | 90-120 days | >180 days |
-| Strategic | >€250K | 120-180+ days | Depends on complexity | >270 days |
+Stage conversion rates are the system's vital signs. If conversion drops at a specific stage, that's the constraint.
 
-**Sources:** Digital Bloom 2025 B2B SaaS Funnel Benchmarks (aggregated); Gong Labs 2024 (69-day median at $97K ACV); Ebsta/Pavilion 2024-2025 (4.2M opportunities, $54B revenue, 530 companies).
-
-**Trend context (critical for client conversations):**
-- Sales cycles have **lengthened 22%** since 2022 due to budget scrutiny and committee buying (Digital Bloom 2025)
-- Average stakeholders per deal: **6.8** (up from 5.4 in 2020)
-- CFO involvement in software purchases increased **40%**
-- Security questionnaires add **2-4 weeks** to average cycle
-
-When a client says "our cycles are getting longer," they're not wrong — but the question is whether they're longer than the market shift justifies.
-
----
-
-## Stage Conversion Rate Benchmarks
-
-These are the system's vital signs. If conversion drops at a specific stage, that's the constraint.
-
-### Full-Funnel Conversion Rates
-
-| Stage Transition | Good | Great | Best-in-Class | Source |
-|-----------------|------|-------|---------------|--------|
-| Lead → MQL | 15-20% | 20-30% | 30%+ | Altior RevOps 2025 |
-| MQL → SQL | 30-40% | 40-50% | 50%+ | Pixelswithin 2026 |
-| SQL → Opportunity | 50-60% | 60-75% | 75%+ | Altior RevOps 2025 |
-| Opportunity → Closed-Won | 15-22% | 22-30% | 30%+ | Optifai 2024 (939 companies) |
-| Overall Lead → Customer | 2-3% | 3-5% | 5%+ | Industry composite |
-
-### Win Rate by Segment
-
-| Segment | Average Win Rate | Top Quartile | Source |
-|---------|-----------------|--------------|--------|
-| SMB | 30-39% | 45%+ | Digital Bloom 2025 |
-| Mid-Market | 22-30% | 35%+ | Optifai 2024 |
-| Enterprise | 18-25% | 31%+ | Digital Bloom 2025 |
-
-### Stage-Specific Win Probability
-
-| Stage | Historical Win Probability | Use For |
-|-------|--------------------------|---------|
-| Discovery | ~40% | Weighted pipeline calculation |
-| Solution Presented | ~55% | Forecast sanity check |
-| Proposal Sent | ~65% | Pipeline coverage math |
-| Negotiation | ~85% | Commit validation |
-
-**Source:** Optifai 2024 (939 companies, opportunity-to-closed analysis).
+For the Sales Cycle Benchmarks by Segment table and the market trend context, see `references/sales-cycle-benchmarks.md`. For the full-funnel conversion rates, win rates by segment, and stage-specific win probabilities (with sources), see `references/conversion-rate-benchmarks.md`.
 
 ---
 
@@ -171,49 +123,9 @@ Target hit. No extra pipeline needed.
 
 ### How to Deflate
 
-**Phase 1: Identify zombies (Week 1)**
+A zombie deal is any deal that meets **2+** of: no activity logged in 14+ days; close date pushed 2+ times; same stage for >2x average stage duration; no scheduled next step; single-threaded; past original close date by >30 days; no economic buyer at Proposal+ stage. The deflation play runs in three phases — Identify (Week 1), Triage into revive/push/close (Week 2), and Prevent via automated detection (ongoing). CLOSE is the right answer 60-70% of the time; most managers close too few.
 
-A zombie deal is any deal that meets 2+ of these criteria:
-
-```
-ZOMBIE CRITERIA:
-□ No activity logged in 14+ days
-□ Close date pushed 2+ times
-□ Same stage for >2x average stage duration
-□ No scheduled next step
-□ Single-threaded (only 1 contact)
-□ Past original close date by >30 days
-□ No economic buyer identified at Proposal+ stage
-```
-
-**Impact of zombies:**
-- When deals slip, win rates plummet **-67%** — particularly those delayed >8 weeks (Ebsta/Pavilion 2024)
-- **44% of all deals slipped** in 2023 (Ebsta 2024)
-- Only **17% of reps generate 81% of revenue** — suggesting the vast majority of pipeline is unproductive (Ebsta 2024)
-- "No decision" kills up to **60% of complex B2B deals** (Aviso 2024)
-
-**Phase 2: Triage (Week 2)**
-
-For each zombie deal, force one of three decisions:
-
-```
-TRIAGE DECISIONS:
-1. REVIVE — There's a real reason this deal can close. Define the specific action
-   and deadline. If the action doesn't happen by deadline, move to CLOSE.
-
-2. PUSH — The deal is real but timing has changed. Move to a future pipeline view
-   with a specific re-engage date. Remove from current quarter forecast entirely.
-
-3. CLOSE — Mark closed-lost. Free up rep time. Improve forecast accuracy.
-   This is the right answer 60-70% of the time. Most managers close too few.
-```
-
-**Phase 3: Prevent (Ongoing)**
-
-Install automated zombie detection:
-- Weekly flag: any deal matching 2+ zombie criteria
-- Monthly scrub: manager reviews all deals >1.5x average cycle length
-- Quarterly purge: any deal >2x average cycle with no activity → auto-close or escalate
+For the full zombie criteria checklist, impact stats (e.g. slipped deals lose **-67%** win rate), the three triage decision paths, and the prevention cadence, see `references/zombie-detection-and-triage.md`.
 
 ---
 
@@ -233,44 +145,7 @@ The #1 tactical fix for deal velocity. Most companies have pipeline stages but n
 
 ### Example Stage Gate Framework
 
-```
-STAGE 1: DISCOVERY (Entry: qualified lead accepted by rep)
-  EXIT CRITERIA:
-  □ SPICED summary completed (all fields, no gaps)
-  □ Pain quantified or quantification questions planned
-  □ 2+ stakeholders identified
-  □ Next meeting scheduled with specific agenda
-  □ ICP fit confirmed (T1 or T2 per ICP library)
-  GATE: If ICP fit is T3 or below → disqualify, don't advance
-
-STAGE 2: SOLUTION DESIGN (Entry: mutual problem agreement)
-  EXIT CRITERIA:
-  □ Business case outlined with customer input
-  □ Economic buyer identified (name + role)
-  □ Technical/functional requirements documented
-  □ Competition identified (including "do nothing")
-  □ Timeline and critical event confirmed
-  GATE: If no economic buyer identified → cannot advance to Proposal
-
-STAGE 3: PROPOSAL (Entry: customer agrees to receive proposal)
-  EXIT CRITERIA:
-  □ Proposal reviewed in a live meeting (not emailed blind)
-  □ Commercial terms discussed (not just presented)
-  □ Decision process confirmed (who, when, what steps)
-  □ Objections surfaced and addressed
-  □ Mutual action plan agreed with close date
-  GATE: If proposal emailed with no review meeting → stays in Solution Design
-
-STAGE 4: NEGOTIATION (Entry: verbal intent to proceed)
-  EXIT CRITERIA:
-  □ Commercial terms agreed (price, scope, timeline)
-  □ Procurement/legal process initiated
-  □ Contract redlines received or clean sign-off
-  □ Go-live date discussed
-  GATE: If no verbal intent → stays in Proposal
-
-STAGE 5: CLOSED-WON (Entry: signed contract + PO)
-```
+For a complete worked 5-stage example (Discovery → Solution Design → Proposal → Negotiation → Closed-Won) with exit criteria and gates for each stage, see `references/stage-gate-framework-example.md`. Keep the principles: criteria reflect buyer actions not seller activities, and cap at 3-5 per stage.
 
 ### Enforcement
 
@@ -361,32 +236,9 @@ A mutual action plan (MAP) is a shared document between seller and buyer that ou
 
 ### MAP Template
 
-```
-MUTUAL ACTION PLAN — [Customer Name] × [Your Company]
+MAPs lift win rates **26%**. The non-negotiable rules: the buyer owns more than 50% of the steps (it's their decision process), every step has a specific date and a named owner, and the MAP is reviewed on every call as a living document. If the buyer won't help build it, they're not serious about buying.
 
-OBJECTIVE: [Specific outcome with date]
-
-STEP    DATE       OWNER           ACTION                              STATUS
-────    ────       ─────           ──────                              ──────
-1       [date]     [Buyer name]    Review proposal with team           □
-2       [date]     [Seller name]   Deliver technical deep-dive         □
-3       [date]     [Buyer name]    Security questionnaire completed    □
-4       [date]     [Buyer name]    CFO budget approval                 □
-5       [date]     [Buyer name]    Legal review of contract            □
-6       [date]     [Seller name]   Final terms delivered               □
-7       [date]     [Both]          Contract signed                     □
-8       [date]     [CS + Buyer]    Onboarding kickoff                  □
-
-DECISION CRITERIA: [What matters to them]
-RISKS IDENTIFIED: [What could delay this]
-CONTINGENCY: [If step X is delayed, we will...]
-```
-
-**Rules:**
-- Buyer must own more steps than seller (it's their decision process)
-- Every step has a specific date and a named person
-- Review the MAP on every call — it's a living document
-- If the buyer won't participate in building the MAP, they're not serious about buying
+For the full fill-in MAP template (objective, dated step table, decision criteria, risks, contingency) and the complete rule set, see `references/mutual-action-plan-template.md`.
 
 ---
 
@@ -443,26 +295,9 @@ Ranked by evidence strength:
 
 ## The Top Performer Gap
 
-The performance distribution in B2B sales is extreme and widening:
+The performance distribution in B2B sales is extreme and widening — top performers out-earn the rest by **11x** (up from 8.9x). The key insight for velocity engineering: that gap is not talent, it's methodology adherence, deal discipline, and inspection rigour — all system-level fixes. Design the system to pull the middle 60% toward the top 20%.
 
-| Metric | Top Performers | Average Performers | Gap | Source |
-|--------|---------------|-------------------|-----|--------|
-| Performance gap (revenue) | Top 17% | Bottom 83% | **11x** (up from 8.9x) | Ebsta/Pavilion 2025 |
-| Deal volume | 164% more | Baseline | 2.6x | Ebsta/Pavilion 2025 |
-| Sales cycle | 42% shorter | Baseline | 1.7x | Ebsta/Pavilion 2025 |
-| Win rate | 43% higher | Baseline | 1.4x | Ebsta/Pavilion 2025 |
-| Methodology adherence | 588% more likely | Baseline | 6.9x | Ebsta/Pavilion 2024 |
-| Objection handling | 843% more likely | Baseline | 9.4x | Ebsta/Pavilion 2024 |
-
-**Sample:** 4.2M opportunities, 530 companies, $54B revenue, 1M+ hours of conversations.
-
-**What this means for velocity engineering:** The system should be designed to bring the middle 60% closer to the top 20%. The gap is not talent — it's methodology adherence, deal discipline, and inspection rigour. All of which are system-level fixes.
-
-**Quota attainment crisis (2024 context):**
-- 69% of sales reps falling short of quota (Salesforce State of Sales 2024)
-- Only 15% of teams had >50% of reps at 80%+ attainment (Ebsta 2024)
-- Average attainment: 43% (Ebsta 2024)
-- Reps spend only **28% of their week actually selling** — 72% on admin/other (Salesforce 2024)
+For the full top-performer-vs-average gap table (volume, cycle, win rate, methodology, objection handling, with sources) and the 2024 quota-attainment crisis stats, see `references/top-performer-gap-analysis.md`.
 
 ---
 
@@ -485,81 +320,13 @@ These plug into the operating cadence. When a signal fires, someone acts.
 
 ## 90-Day Deal Velocity Programme
 
-When a client's velocity is the binding constraint, here's how to structure the engagement:
+When a client's velocity is the binding constraint, structure the engagement in three phases:
 
-### Phase 1: Diagnose (Weeks 1-3)
+- **Phase 1 — Diagnose (Weeks 1-3):** extract data, find patterns, identify the ONE constraint. Output: Velocity Diagnostic Report.
+- **Phase 2 — Design (Weeks 4-6):** build stage gates, deal health model, MAP template, zombie detection. Output: Velocity System Blueprint.
+- **Phase 3 — Install and Measure (Weeks 7-12):** activate, iterate, embed into the operating cadence and report.
 
-**Week 1: Data extraction**
-- Pull trailing 12-month pipeline data by segment
-- Calculate current velocity scorecard (see diagnostic above)
-- Identify zombie deal percentage
-- Map current stage definitions and exit criteria (usually undocumented)
-
-**Week 2: Pattern analysis**
-- Calculate stage conversion rates and identify the steepest drop-off
-- Analyse slippage patterns (which stages, which reps, which segments)
-- Review multi-threading rates and deal health distribution
-- Identify top performer vs. average performer differences
-
-**Week 3: Constraint identification**
-- Apply the constraint identification table (which symptom pattern?)
-- Present diagnostic findings with benchmarks
-- Agree on the ONE constraint to fix first
-
-**Output:** Velocity Diagnostic Report with current scorecard, constraint identification, and 60-day action plan.
-
-### Phase 2: Design (Weeks 4-6)
-
-**Week 4: Stage gate design**
-- Define stage exit criteria (buyer actions, not seller activities)
-- Design deal health scoring model
-- Configure CRM validation rules
-
-**Week 5: Process and tools**
-- Build mutual action plan template
-- Design zombie detection automation
-- Configure deal health dashboard
-- Create pipeline deflation process
-
-**Week 6: Enablement**
-- Train managers on deal inspection (not status updates)
-- Train reps on stage exit criteria and MAP discipline
-- Create the velocity coaching playbook
-- Define compensation/inspection cadence alignment
-
-**Output:** Velocity System Blueprint with stage gates, deal health model, MAP template, and zombie detection.
-
-### Phase 3: Install and Measure (Weeks 7-12)
-
-**Weeks 7-8: Activate**
-- Launch new stage exit criteria
-- Run first pipeline deflation sprint (expect 20-30% pipeline reduction)
-- Start deal health scoring
-
-**Weeks 9-10: Iterate**
-- Review first velocity metrics post-launch
-- Calibrate deal health thresholds
-- Adjust stage exit criteria based on real usage
-- Coach managers on deal inspection quality
-
-**Weeks 11-12: Embed and report**
-- Install velocity review into operating cadence
-- Add velocity tile to revenue dashboard
-- First velocity improvement report with baseline comparison
-- Project 6-month velocity trajectory
-
-**Success metrics:**
-
-| Metric | Baseline (capture Week 1) | 90-Day Target | 6-Month Target |
-|--------|--------------------------|---------------|----------------|
-| Pipeline velocity (daily) | Current | +20-30% | +40-50% |
-| Win rate | Current | +3-5pp | +8-10pp |
-| Sales cycle length | Current | -10-15% | -20-30% |
-| Zombie deal % | Current | <10% | <5% |
-| Slippage rate | Current | -10pp | -15pp |
-| Multi-threading rate | Current | >70% | >80% |
-| Forecast accuracy | Current | ±15% | ±10% |
-| Stage exit criteria adherence | 0% (usually) | >60% | >85% |
+For the full week-by-week breakdown of each phase and the success-metrics table (90-day and 6-month targets), see `references/90-day-velocity-programme.md`.
 
 ---
 
@@ -584,6 +351,18 @@ Use the velocity scorecard to quantify the gap. Frame the cost: "Your pipeline v
 Forecast accuracy is a velocity output, not a separate problem. Fix stage definitions → enforce exit criteria → deflate zombies → velocity improves → forecast becomes reliable. See also revops-forecasting for forecast-specific methodology.
 
 ---
+
+## Reference Files
+
+| File | When to read | What's inside |
+|------|-------------|---------------|
+| `references/sales-cycle-benchmarks.md` | Diagnosing cycle length vs. segment | Benchmark cycle table by segment + 2022-onward market trend context |
+| `references/conversion-rate-benchmarks.md` | Finding the conversion constraint | Full-funnel conversion, win rate by segment, stage win probability |
+| `references/zombie-detection-and-triage.md` | Running a pipeline deflation sprint | Full zombie criteria, impact stats, 3 triage paths, prevention cadence |
+| `references/stage-gate-framework-example.md` | Designing stage exit criteria | Worked 5-stage framework with exit criteria + gates |
+| `references/mutual-action-plan-template.md` | Building a MAP with a buyer | Fill-in MAP template + the rule set |
+| `references/top-performer-gap-analysis.md` | Framing the performance-distribution case | Top vs. average gap table + 2024 quota-attainment crisis stats |
+| `references/90-day-velocity-programme.md` | Scoping a velocity engagement | Week-by-week 3-phase plan + success-metrics targets |
 
 ## Related Skills
 
