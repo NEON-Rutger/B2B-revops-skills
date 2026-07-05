@@ -6,6 +6,25 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v0.2.0] — 2026-07-05
+
+### Changed
+- Reduced token footprint of the 8 heaviest skills via progressive disclosure
+  (lean SKILL.md + on-demand references). sales-methodology, revops-forecasting,
+  revops-change-management, revops-tech-stack, cs-operations, deal-velocity-engineer,
+  expansion-revenue-architect, marketing-operations.
+
+### Added
+- 6 reference files completing the split: change-management (impact-analysis-templates,
+  kotter-adkar-detail, kyle-norton-frameworks, change-scenarios), sales-methodology
+  (benchmarks), revops-tech-stack (gtm-ai-catalog).
+- `.gitattributes` enforcing LF line endings to stop CRLF churn on Windows checkouts.
+
+### Notes
+- No skill content removed; detail relocated to references.
+
+---
+
 ## [v0.1.0] — 2026-04-02
 
 ### Added
@@ -54,12 +73,5 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## Upcoming
-
-### [v0.2.0] — planned May 2026
-
-- TBD based on community feedback and usage patterns
-
----
-
+[v0.2.0]: https://github.com/NEON-Rutger/B2B-revops-skills/releases/tag/v0.2.0
 [v0.1.0]: https://github.com/NEON-Rutger/B2B-revops-skills/releases/tag/v0.1.0
