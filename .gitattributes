@@ -1,0 +1,6 @@
+# Normalise line endings: store everything as LF in the repo.
+# Stops the CRLF churn that happens when the working copy lives on Windows.
+* text=auto eol=lf
+
+# Markdown is the whole repo; force LF explicitly.
+*.md text eol=lf
