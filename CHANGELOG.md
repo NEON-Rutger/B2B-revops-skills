@@ -6,6 +6,22 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v0.3.0] — 2026-07-14
+
+### Added
+- New skill: revops-revenue-planning. Annual/quarterly plan construction, top-down vs
+  bottoms-up reconciliation, stretch handling, plan versioning (plan of record vs working
+  plan), FP&A collaboration charter, reforecast triggers, 12-week planning calendar,
+  10-question diagnostic. Includes two generated workbook assets (capacity-model-calculator,
+  bottoms-up-planning-sheet; regenerate via scripts/generate_workbooks.py; 16 structure tests).
+- New skill: abm-engagement-scoring. Account-level engagement scoring, buying-group/DMU
+  coverage tracking, marketing-to-sales handover trigger doctrine, measurement dashboard
+  spec, 200-account worked example, sourced ABM benchmarks.
+- Benchmark files in both skills passed an adversarial source-verification pass: unverifiable
+  claims removed and registered; house operating defaults separated from sourced research.
+
+---
+
 ## [v0.2.0] — 2026-07-05
 
 ### Changed
