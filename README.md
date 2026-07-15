@@ -1,6 +1,8 @@
 # Neon RevOps, the open-source revenue operations layer for Claude
 
-28 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
+**Current release: v0.4.0 (2026-07-15), 34 skills.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+
+34 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
 **Built for:** B2B SaaS companies scaling from €5M to €150M+ ARR, where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
 
@@ -8,6 +10,7 @@
 - A diagnostics-first framework that finds the real constraint before recommending a fix
 - Implementation playbooks for HubSpot, Salesforce, pipeline architecture, and compensation design
 - ICP, positioning, and sales methodology skills that chain together into a complete GTM workflow
+- Every benchmark carries a named source and vintage, so you know which numbers are 2026 reality and which are pre-2024 folklore
 
 ---
 
@@ -29,53 +32,64 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 
 ## Skills
 
-### RevOps Core (12 skills)
+### RevOps Core (14 skills)
 
-| Skill | What it does |
-|---|---|
-| `revops-strategy` | Revenue operations strategy, pipeline architecture, strategic advisory |
-| `revops-diagnostic` | System diagnostics, constraint identification, root cause analysis |
-| `revops-metrics` | Revenue measurement, funnel math, unit economics, benchmarks |
-| `revops-forecasting` | Forecast methodology, accuracy measurement, pipeline analysis |
-| `revops-data-governance` | Data governance, quality operations, field management |
-| `revops-tech-stack` | Tech stack architecture, platform evaluation, capability mapping |
-| `revops-handoffs` | Revenue handoff design across the full bow-tie model |
-| `revops-change-management` | Change management for revenue operations adoption |
-| `revops-crisis` | Emergency response when multiple revenue systems break simultaneously |
-| `revops-org-chart` | RevOps team design, role structure, hiring sequencing by stage |
-| `revops-hubspot` | HubSpot implementation patterns for RevOps |
-| `revops-salesforce` | Salesforce implementation patterns for RevOps |
+| Skill | What it does | Since |
+|---|---|---|
+| `revops-strategy` | Revenue operations strategy, pipeline architecture, strategic advisory | v0.1.0 |
+| `revops-diagnostic` | System diagnostics, constraint identification, root cause analysis | v0.1.0 |
+| `revops-metrics` | Revenue measurement, funnel math, unit economics, benchmarks | v0.1.0 |
+| `revops-forecasting` | Forecast methodology, accuracy measurement, pipeline analysis | v0.1.0 |
+| `revops-revenue-planning` | Annual and quarterly plan construction, top-down vs bottoms-up reconciliation, reforecasting | v0.3.0 |
+| `revops-data-governance` | Data governance, quality operations, field management | v0.1.0 |
+| `revops-tech-stack` | Tech stack architecture, platform evaluation, capability mapping | v0.1.0 |
+| `revops-handoffs` | Revenue handoff design across the full bow-tie model | v0.1.0 |
+| `revops-change-management` | Change management for revenue operations adoption | v0.1.0 |
+| `revops-crisis` | Emergency response when multiple revenue systems break simultaneously | v0.1.0 |
+| `revops-org-chart` | RevOps team design, role structure, hiring sequencing by stage | v0.1.0 |
+| `revops-hubspot` | HubSpot implementation patterns for RevOps | v0.1.0 |
+| `revops-salesforce` | Salesforce implementation patterns for RevOps | v0.1.0 |
+| `crm-migration-consolidation` | CRM migration and post-merger instance consolidation: system of record, identity resolution, cutover | v0.4.0 |
 
-### GTM and Domain (6 skills)
+### GTM and Domain (7 skills)
 
-| Skill | What it does |
-|---|---|
-| `gtm-planning` | GTM motion selection, org design, territory and capacity planning |
-| `gtm-compensation` | Compensation plans, quota setting, OTE structures |
-| `marketing-operations` | Lead scoring, attribution, campaign tracking, MQL handoff |
-| `cs-operations` | Customer success operations, health scoring, renewal management |
-| `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling, multi-framework |
-| `partner-channel-operations` | Partner programme design, enablement, co-selling, deal registration |
+| Skill | What it does | Since |
+|---|---|---|
+| `gtm-planning` | GTM motion selection, org design, territory and capacity planning | v0.1.0 |
+| `gtm-compensation` | Compensation plans, quota setting, OTE structures | v0.1.0 |
+| `marketing-operations` | Lead scoring, attribution, campaign tracking, MQL handoff | v0.1.0 |
+| `cs-operations` | Customer success operations, health scoring, renewal management | v0.1.0 |
+| `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling, multi-framework | v0.1.0 |
+| `partner-channel-operations` | Partner programme design, enablement, co-selling, deal registration | v0.1.0 |
+| `abm-engagement-scoring` | Account-level engagement scoring, buying-group coverage, handover trigger doctrine | v0.3.0 |
 
-### Pipeline and Data (4 skills)
+### Pipeline and Data (5 skills)
 
-| Skill | What it does |
-|---|---|
-| `pipeline-visibility` | Pipeline reporting, dashboard design, hygiene, forecast reporting |
-| `lead-routing` | Lead assignment logic, round-robin, territory design, speed-to-lead |
-| `data-enrichment` | Enrichment strategy, provider evaluation, integration patterns |
-| `revenue-operating-cadence` | Meeting architecture, data pyramid, board reporting |
+| Skill | What it does | Since |
+|---|---|---|
+| `pipeline-visibility` | Pipeline reporting, dashboard design, hygiene, forecast reporting | v0.1.0 |
+| `lead-routing` | Lead assignment logic, round-robin, territory design, speed-to-lead | v0.1.0 |
+| `data-enrichment` | Enrichment strategy, provider evaluation, integration patterns | v0.1.0 |
+| `revenue-operating-cadence` | Meeting architecture, data pyramid, board reporting | v0.1.0 |
+| `gtm-data-architecture` | Warehouse-native GTM for operators: SQL fundamentals, dbt, reverse ETL, composable CDP | v0.4.0 |
+
+### Pricing and Deal Operations (2 skills)
+
+| Skill | What it does | Since |
+|---|---|---|
+| `pricing-monetisation-ops` | Usage and outcome pricing operations: metering, rating, invoicing, reconciliation, contract drift | v0.4.0 |
+| `deal-desk-operations` | Deal desk design: approval matrix, discount governance, credit and overage economics | v0.4.0 |
 
 ### ICP, Positioning, and Growth (6 skills)
 
-| Skill | What it does |
-|---|---|
-| `icp-builder` | Build and validate ICPs using the GAP method and SPICED framework |
-| `positioning-messaging-designer` | Positioning frameworks using Use Case Canvas and Opposites method |
-| `deal-velocity-engineer` | Sales cycle diagnostics, stage exit criteria, pipeline deflation |
-| `expansion-revenue-architect` | NRR/GRR systems, whitespace analysis, CS-Sales handback |
-| `partner-ecosystem-architect` | Ecosystem-led growth, nearbound methodology, partner strategy |
-| `operating-cadence-designer` | Operating cadence design, rituals, dashboards, escalation rules |
+| Skill | What it does | Since |
+|---|---|---|
+| `icp-builder` | Build and validate ICPs using the GAP method and SPICED framework | v0.1.0 |
+| `positioning-messaging-designer` | Positioning frameworks using Use Case Canvas and Opposites method | v0.1.0 |
+| `deal-velocity-engineer` | Sales cycle diagnostics, stage exit criteria, pipeline deflation | v0.1.0 |
+| `expansion-revenue-architect` | NRR/GRR systems, whitespace analysis, CS-Sales handback | v0.1.0 |
+| `partner-ecosystem-architect` | Ecosystem-led growth, nearbound methodology, partner strategy | v0.1.0 |
+| `operating-cadence-designer` | Operating cadence design, rituals, dashboards, escalation rules | v0.1.0 |
 
 ---
 
@@ -88,6 +102,21 @@ Skills chain naturally. Start with a diagnostic, then load the specialist.
 - **Deal flow:** `deal-velocity-engineer` → `pipeline-visibility` → `revops-forecasting`
 - **Partner motion:** `partner-ecosystem-architect` → `partner-channel-operations` → `revops-handoffs`
 - **Operating rhythm:** `operating-cadence-designer` → `revenue-operating-cadence` → `revops-metrics`
+- **Data foundation:** `gtm-data-architecture` → `revops-data-governance` → `pipeline-visibility`
+- **Monetisation:** `pricing-monetisation-ops` → `deal-desk-operations` → `gtm-compensation`
+- **Post-merger:** `crm-migration-consolidation` → `revops-data-governance` → `revops-hubspot` or `revops-salesforce`
+
+---
+
+## Versioning
+
+The library uses semantic versioning, tracked in [CHANGELOG.md](CHANGELOG.md):
+
+- **MINOR (v0.x.0):** new skills, or substantive new capability inside existing skills (new frameworks, new sections, benchmark refreshes that change recommendations).
+- **PATCH (v0.x.y):** corrections, sourcing fixes, typography, small clarifications. No new capability.
+- **MAJOR (vX.0.0):** renames, folder restructures, or removals that break an existing install.
+
+Release discipline: every release updates the CHANGELOG, the version line at the top of this README, the skill count, and the Since column for any new skill. Benchmarks inside skills carry their own source and vintage inline (for example "(Benchmarkit, 2026)"), so a skill's numbers are auditable independently of the library version.
 
 ---
 
