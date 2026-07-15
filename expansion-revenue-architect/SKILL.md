@@ -14,8 +14,7 @@ description: >
   see cs-operations. For pricing and consumption billing operations, see pricing-monetisation-ops. For handoffs, see revops-handoffs.
 metadata:
   version: 2.0.0
-status: seed
-
+status: stable
 ---
 
 # Expansion Revenue Architect

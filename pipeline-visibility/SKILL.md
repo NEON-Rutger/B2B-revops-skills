@@ -15,8 +15,7 @@ description: >
   pipeline VISIBILITY and REPORTING (CRM-agnostic). For CRM-specific
   implementation, see revops-hubspot or revops-salesforce. For forecast
   methodology, see revops-forecasting. For metrics, see revops-metrics.
-status: seed
-
+status: stable
 ---
 
 # Pipeline Visibility for B2B Revenue Operations

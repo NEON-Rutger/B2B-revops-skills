@@ -14,8 +14,7 @@ description: >
   BOUNDARY: Covers strategic FRAMING and pipeline architecture. For ICP building,
   see revops-icp-building. For CRM implementation, see revops-hubspot.
   For operating system design, see revops-operating-system.
-status: seed
-
+status: stable
 ---
 
 # RevOps Strategy

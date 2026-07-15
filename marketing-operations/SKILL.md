@@ -13,8 +13,7 @@ description: >
   marketing OPERATIONS (lead management, attribution, campaign ops).
   For HubSpot, see revops-hubspot. For funnel math, see revops-metrics. For ICP
   BUILDING methodology (GAP method, customer interviews), see icp-builder.
-status: seed
-
+status: stable
 ---
 
 # Marketing Operations

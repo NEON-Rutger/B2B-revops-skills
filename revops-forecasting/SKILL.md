@@ -15,8 +15,7 @@ description: >
   forecast methodology, accuracy, and pipeline visibility/reporting. For CRM-specific
   dashboard implementation, see revops-hubspot. For metrics and benchmarks, see
   revops-metrics.
-status: production
-
+status: stable
 ---
 
 # Revenue Forecasting

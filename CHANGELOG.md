@@ -6,6 +6,20 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.0.0], 2026-07-15
+
+### Declared stable
+- The library graduates to 1.0.0. The gate: a full adversarial red team of all skills against
+  the 2026 market (job-market capability taxonomy, live benchmark verification, platform
+  currency, EU regulation), every confirmed finding patched and independently verified, four
+  white-space skills added, all benchmarks source-and-vintage encoded, and a neutral-voice pass
+  so the skills read as tools rather than marketing.
+- All 34 skills set to status: stable in frontmatter (previously a mix of seed/production/active).
+- From here, semver applies with post-1.0 semantics: MAJOR for breaking renames or restructures,
+  MINOR for new skills or new capability, PATCH for corrections.
+
+---
+
 ## [v0.4.2], 2026-07-15
 
 ### Changed

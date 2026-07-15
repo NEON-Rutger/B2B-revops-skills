@@ -17,8 +17,7 @@ description: >
   see revops-hubspot. For handoff design across the revenue bow tie, see revops-handoffs. For
   broader PMI strategy, see revops-change-management. For data governance and master data
   management, see revops-data-governance. See also: revops-diagnostic, revops-tech-stack.
-status: seed
-
+status: stable
 ---
 
 # CRM Migration and Consolidation Strategy

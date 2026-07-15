@@ -15,8 +15,7 @@ description: >
   emergency response (what to fix FIRST when everything is broken). For detailed
   methodology after stabilisation, see revops-diagnostic and revops-four-capability-maturity-assessment.
   For specific domain fixes, see the relevant domain skill.
-status: seed
-
+status: stable
 ---
 
 # RevOps Crisis Triage & Emergency Response

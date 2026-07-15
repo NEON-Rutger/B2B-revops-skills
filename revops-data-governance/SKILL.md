@@ -13,8 +13,7 @@ description: >
   Fix data governance before building metrics or scaling.
   BOUNDARY: Covers data MODEL, QUALITY, and GOVERNANCE. For HubSpot setup, see
   revops-hubspot. For metrics, see revops-metrics.
-status: seed
-
+status: stable
 ---
 
 # Revenue Data Governance

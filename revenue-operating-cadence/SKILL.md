@@ -13,8 +13,7 @@ description: >
   activate this skill.
   BOUNDARY: Covers meeting structure and data inputs. For forecast methodology, see
   revops-forecasting. For metrics, see revops-metrics.
-status: seed
-
+status: stable
 ---
 
 # Revenue Operating Cadence Framework

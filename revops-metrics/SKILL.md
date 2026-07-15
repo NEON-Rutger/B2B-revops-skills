@@ -13,8 +13,7 @@ description: >
   conversion rate be," or "how healthy is this deal."
   BOUNDARY: This skill covers WHAT to measure. For forecasting, see revops-forecasting.
   For meeting cadence, see revenue-operating-cadence.
-status: production
-
+status: stable
 ---
 
 # Revenue Performance Metrics

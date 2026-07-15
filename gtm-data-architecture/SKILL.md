@@ -13,8 +13,7 @@ description: >
   for CRM data quality and governance; to revops-tech-stack for vendor selection frameworks;
   to gtm-planning for strategy implications. This skill addresses the data layer for a
   RevOps team scaling AI adoption.
-status: seed
-
+status: stable
 ---
 
 # GTM Data Architecture: Warehouse-Native Design Patterns

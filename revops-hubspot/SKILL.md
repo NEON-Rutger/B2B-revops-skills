@@ -17,8 +17,7 @@ description: >
   see icp-builder. For lead routing rules and assignment logic, see lead-routing
   (which defers to this skill for CRM-specific implementation). For reporting, dashboards,
   and pipeline visibility, see revops-pipeline-visibility.
-status: seed
-
+status: stable
 ---
 
 # RevOps HubSpot Implementation

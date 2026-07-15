@@ -11,8 +11,7 @@ description: >
   compensation. If someone says "how should I pay my reps" or "what's a fair OTE"
   or "our comp plan isn't working," activate this skill.
   BOUNDARY: Covers how to PAY people. For org design and capacity, see gtm-planning.
-status: seed
-
+status: stable
 ---
 
 # GTM Compensation Design

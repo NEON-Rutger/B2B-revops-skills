@@ -15,8 +15,7 @@ description: >
   properties), see partner-channel-operations. For handoffs see revops-handoffs.
 metadata:
   version: 2.0.0
-status: seed
-
+status: stable
 ---
 
 # Partner Ecosystem Architect

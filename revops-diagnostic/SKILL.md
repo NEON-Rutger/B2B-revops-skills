@@ -11,7 +11,7 @@ description: >
   leadership chaos. If someone says "we keep missing plan" or "everyone is busy but
   nothing moves," activate this skill. This is the diagnostic skill: find the real
   constraint before recommending what to fix.
-status: production
+status: stable
 BOUNDARY: >
   Use this skill for diagnostic work and system-level analysis. Handoff to
   revops-four-capability-maturity-assessment for detailed capability scoring,

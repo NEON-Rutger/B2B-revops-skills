@@ -14,8 +14,7 @@ description: >
   POSITIONING and MESSAGING frameworks. For ICP building (the step BEFORE), see
   icp-builder. For writing actual LinkedIn copy, see
   a LinkedIn posting skill. For proposals, see a proposal generator skill.
-status: seed
-
+status: stable
 ---
 
 # Positioning & Messaging Designer

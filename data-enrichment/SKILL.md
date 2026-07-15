@@ -16,8 +16,7 @@ description: >
   revops-hubspot or revops-salesforce. For data governance, see
   revops-data-governance. For lead scoring that uses enriched data, see
   marketing-operations.
-status: seed
-
+status: stable
 ---
 
 # B2B Data Enrichment for Revenue Operations

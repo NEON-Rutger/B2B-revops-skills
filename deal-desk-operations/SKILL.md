@@ -12,7 +12,7 @@ description: >
   trigger on "our reps have too much authority", "discounts are all over the
   place", "deals are stalled in approval", "we need guardrails on pricing",
   "custom pricing is a bottleneck", or "how do we control margin erosion".
-status: seed
+status: stable
 BOUNDARY: >
   Use this skill for deal governance, approval architecture, and operational
   design of the deal desk function. Handoff to sales-methodology for rep-facing

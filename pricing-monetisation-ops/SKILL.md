@@ -18,7 +18,7 @@ description: >
   "we need to move from per-seat to usage," "our billing system can't handle
   variable revenue," "revenue recognition is a nightmare," or "we're losing
   customers on bill shock."
-status: seed
+status: stable
 BOUNDARY: >
   This skill covers pricing operations, metering, billing architecture, contract
   management, and revenue reconciliation. Handoff to revops-forecasting for financial

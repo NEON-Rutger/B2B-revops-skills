@@ -14,8 +14,7 @@ description: >
   SLAs between bow-tie stages. For HubSpot implementation, also consult
   revops-hubspot. For CS operations, see cs-operations. For SPICED, see
   sales-methodology.
-status: seed
-
+status: stable
 ---
 
 # Revenue Handoff Operations: Full Bow-Tie Model

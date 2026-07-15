@@ -12,8 +12,7 @@ description: >
   client has Business Partners and is theorizing about adding an Architect role.
   Includes frameworks from RevOps Co-op, Revenue Wizards, Hyperscayle, Go Nimbly,
   Maxio, Leanlayer, Stage2 Capital, and a practice-based hiring guide.
-status: seed
-
+status: stable
 ---
 
 # RevOps Org Chart & Team Design

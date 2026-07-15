@@ -18,8 +18,7 @@ description: >
   see sales-methodology. For operating cadence see revenue-operating-cadence.
 metadata:
   version: 1.0.0
-status: active
-
+status: stable
 ---
 
 # Deal Velocity Engineer

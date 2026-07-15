@@ -14,8 +14,7 @@ description: >
   handover-to-sales triggers in ABM contexts. For lead-level scoring (fit + engagement
   dual-axis), see marketing-operations. For account selection and ICP methodology, see
   icp-builder. For sales speed-to-lead and routing, see lead-routing.
-status: seed
-
+status: stable
 ---
 
 # Account-Based Engagement Scoring and Buying Group Measurement

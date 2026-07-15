@@ -18,8 +18,7 @@ description: >
 metadata:
   version: 2.1.0
   spiced_depth: full
-status: seed
-
+status: stable
 ---
 
 # Sales Methodology Implementation

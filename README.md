@@ -1,6 +1,6 @@
 # Neon RevOps, the open-source revenue operations layer for Claude
 
-**Current release: v0.4.2 (2026-07-15), 34 skills.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.0.0 (2026-07-15), 34 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
 34 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
@@ -112,9 +112,9 @@ Skills chain naturally. Start with a diagnostic, then load the specialist.
 
 The library uses semantic versioning, tracked in [CHANGELOG.md](CHANGELOG.md):
 
-- **MINOR (v0.x.0):** new skills, or substantive new capability inside existing skills (new frameworks, new sections, benchmark refreshes that change recommendations).
-- **PATCH (v0.x.y):** corrections, sourcing fixes, typography, small clarifications. No new capability.
-- **MAJOR (vX.0.0):** renames, folder restructures, or removals that break an existing install.
+- **MINOR (v1.x.0):** new skills, or substantive new capability inside existing skills (new frameworks, new sections, benchmark refreshes that change recommendations).
+- **PATCH (v1.x.y):** corrections, sourcing fixes, typography, small clarifications. No new capability.
+- **MAJOR (v2.0.0):** renames, folder restructures, or removals that break an existing install.
 
 Release discipline: every release updates the CHANGELOG, the version line at the top of this README, the skill count, and the Since column for any new skill. Benchmarks inside skills carry their own source and vintage inline (for example "(Benchmarkit, 2026)"), so a skill's numbers are auditable independently of the library version.
 

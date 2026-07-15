@@ -16,8 +16,7 @@ description: >
   (CRM-agnostic). For CRM-specific implementation, see revops-hubspot or
   revops-salesforce. For enrichment that feeds routing, see data-enrichment.
   For lead scoring, see marketing-operations.
-status: seed
-
+status: stable
 ---
 
 # Lead Routing for B2B Revenue Operations

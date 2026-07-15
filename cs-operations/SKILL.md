@@ -15,8 +15,7 @@ description: >
   "renewal price increase resistance."
 metadata:
   version: 1.1.0
-status: seed
-
+status: stable
 ---
 
 # Customer Success Operations

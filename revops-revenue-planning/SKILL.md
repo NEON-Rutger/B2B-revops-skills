@@ -3,8 +3,7 @@ name: revops-revenue-planning
 aliases: [revops-revenue-planning, revenue planning, annual planning, plan reconciliation, top-down bottom-up]
 description: >
   Annual and quarterly revenue plan construction, top-down vs bottoms-up reconciliation, plan versioning, stretch goal handling, and FP&A-RevOps collaboration for B2B revenue teams. Use when the user mentions annual planning, revenue targets, capacity planning, planning calendar, stretch goals, plan versions, plan of record, reforecasting triggers, FP&A collaboration, or revenue reconciliation. Also trigger on "we need to build our plan", "our forecast and budget don't align", "how do we set targets", "what's our plan of record", "we got a stretch from finance", "when should we start planning", or "we need to reforecast". BOUNDARY: Covers plan construction, versioning, and reconciliation. For in-quarter/weekly forecasting mechanics, see revops-forecasting. For GTM structure and capacity mechanics, see gtm-planning. For compensation and quotas, see gtm-compensation.
-status: seed
-
+status: stable
 ---
 
 # Revenue Planning

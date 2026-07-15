@@ -13,8 +13,7 @@ description: >
   BOUNDARY: Covers team STRUCTURE, territories, and capacity. For comp plans and
   quotas, see gtm-compensation. For ICP BUILDING methodology (GAP method, interviews,
   thresholds), see icp-builder.
-status: seed
-
+status: stable
 ---
 
 # GTM Planning & Revenue Org Design

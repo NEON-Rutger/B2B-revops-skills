@@ -15,8 +15,7 @@ description: >
   scratch, refine with interviews, and plan expansion. BOUNDARY: For
   positioning/messaging (step AFTER ICP), see
   positioning-messaging-designer.
-status: seed
-
+status: stable
 ---
 
 # ICP Builder: Validate, Build & Expand

@@ -15,8 +15,7 @@ description: >
   'pipeline review,' 'QBR,' 'board meeting,' 'board deck,' 'monthly business
   review,' 'sales standup,' or 'deal review.' BOUNDARY: For the revenue
   dashboard build itself, see pipeline-visibility.
-status: seed
-
+status: stable
 ---
 
 # Operating Cadence Designer
