@@ -62,7 +62,7 @@ CONFLICT RESOLUTION:
 4. **Round-robin**: within a qualified pool, distribute evenly to prevent cherry-picking
 5. **Capacity cap**: prevent routing to reps above their daily/weekly lead cap
 
-Document routing rules in CRM as explicit automation, not as "the team knows." For operational depth on routing design, see [[lead-routing]].
+Document routing rules in CRM as explicit automation, not as "the team knows." For operational depth on routing design, see lead-routing.
 
 ## Lead Follow-Up Sequence
 
@@ -132,4 +132,4 @@ ABM/INBOUND REVENUE REPORTING:
 - **Account-level MQL:** at least one T1/T2 lead from a target account in active research
 - **Pipeline by ABM tier:** Tier 1 accounts should generate disproportionate pipeline relative to their count
 
-Report ABM inbound at the account level in the monthly Marketing review. Individual lead metrics miss the signal when multiple contacts from one account engage across different channels. For full pipeline reporting architecture, see [[pipeline-visibility]].
+Report ABM inbound at the account level in the monthly Marketing review. Individual lead metrics miss the signal when multiple contacts from one account engage across different channels. For full pipeline reporting architecture, see pipeline-visibility.

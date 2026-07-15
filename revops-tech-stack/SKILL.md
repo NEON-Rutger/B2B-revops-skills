@@ -494,7 +494,6 @@ Beyond the 15,000+ commercial martech products, companies increasingly build cus
 
 "Your competitors can buy the same products you can. Custom software captures what makes your company unique." (Brinker, 2026). When advising clients on build-vs-buy, frame custom development as a differentiation investment, not just a cost centre.
 
-See also: `Frameworks/Neon-Canon/neon-composable-martech-architecture.md` for full reference.
 
 
 ---

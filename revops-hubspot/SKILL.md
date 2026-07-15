@@ -14,7 +14,7 @@ description: >
   likely relevant even if they don't say "HubSpot" explicitly.
   BOUNDARY: This skill covers HubSpot-specific implementation. For strategic pipeline
   architecture and framework thinking, see revops-strategy. For ICP BUILDING methodology,
-  see neon-icp. For lead routing rules and assignment logic, see revops-lead-routing
+  see icp-builder. For lead routing rules and assignment logic, see lead-routing
   (which defers to this skill for CRM-specific implementation). For reporting, dashboards,
   and pipeline visibility, see revops-pipeline-visibility.
 status: seed

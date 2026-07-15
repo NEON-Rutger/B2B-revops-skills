@@ -6,6 +6,20 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v0.4.1], 2026-07-15
+
+### Changed
+- De-branding pass: this library is the generic layer, and 20 files carried private or
+  Neon-specific residue. Cross-references to private canon skills repointed to their public
+  equivalents (icp-builder, deal-velocity-engineer, expansion-revenue-architect,
+  revenue-operating-cadence, deal-desk-operations); wiki-link syntax converted to plain skill
+  references; retired internal offer names and personal references genericised; internal
+  research-sheet citations replaced with their underlying named sources; a private vault path
+  removed; the crm-migration-consolidation worked example de-identified to a generic
+  billing-platform scenario.
+
+---
+
 ## [v0.4.0], 2026-07-15
 
 ### Added

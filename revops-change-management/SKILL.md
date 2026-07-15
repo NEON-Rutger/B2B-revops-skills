@@ -11,7 +11,6 @@ description: >
   uses it," "how do we get buy-in," "people are pushing back," AI change management, FOBO, shadow
   AI, AI adoption, works council AI, AI governance framework, AI rollout, or fear of becoming
   obsolete. BOUNDARY: For HubSpot adoption, see revops-hubspot. For GTM org change, see gtm-planning.
-  For AI Readiness Day, see neon-ai-readiness-day.
 status: seed
 
 ---

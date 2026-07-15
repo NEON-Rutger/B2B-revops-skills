@@ -11,7 +11,7 @@ description: >
   design, or how to use agencies without creating dependency. Also trigger when a
   client has Business Partners and is theorizing about adding an Architect role.
   Includes frameworks from RevOps Co-op, Revenue Wizards, Hyperscayle, Go Nimbly,
-  Maxio, Leanlayer, Stage2 Capital, and Rutger's own hiring guide.
+  Maxio, Leanlayer, Stage2 Capital, and Neon Triforce's practice-based hiring guide.
 status: seed
 
 ---
@@ -318,7 +318,7 @@ Primary sources:
 - Maxio: team structures by size with OpenAI Systems/Strategic split
 - Stage2 Capital: hiring sequencing and RevOps Co-op endorsement
 - Leanlayer: team size calculator with ratio benchmarks
-- Rutger's Google Drive: "RevOps Team Roles and Hiring Guide" (4 org charts, 1-3 / 4-6 / 7-10 / 10+)
+- Neon Triforce practice-based hiring guide: role structures at 4 team sizes (1-3 / 4-6 / 7-10 / 10+)
 
 > Built by [Neon Triforce](https://neontriforce.com)
 

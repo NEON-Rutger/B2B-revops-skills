@@ -194,7 +194,7 @@ For the full framework, read `references/icp-building-reference.md` Section 6.
 
 ## Delivery Formats
 
-**Within a Focus Audit (1-2 days):** Quick validation (Mode 1) + gap identification. Flag whether full build needed.
+**Within a short diagnostic engagement (1-2 days):** Quick validation (Mode 1) + gap identification. Flag whether full build needed.
 
 **Within a 90-Day Programme (full build):** Complete GAP method over 2-3 weeks. Customer interviews weeks 2-4. Profile deliverables by week 6. Expansion if relevant.
 

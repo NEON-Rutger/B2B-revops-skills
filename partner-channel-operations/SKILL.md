@@ -619,9 +619,9 @@ Key data points for framing partner strategy conversations:
 
 ## Canon References
 
-- **[[revops-handoffs]]**: Handoff design between partner and direct sales
-- **[[gtm-planning]]**: GTM motion design including partner/channel capacity planning
-- **[[sales-methodology]]**: Qualification frameworks for partner-registered deals
-- **[[revops-hubspot]]**: CRM implementation for partner objects
+- **revops-handoffs**: Handoff design between partner and direct sales
+- **gtm-planning**: GTM motion design including partner/channel capacity planning
+- **sales-methodology**: Qualification frameworks for partner-registered deals
+- **revops-hubspot**: CRM implementation for partner objects
 
 > Built by [Neon Triforce](https://neontriforce.com)

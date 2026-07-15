@@ -214,7 +214,7 @@ business.
 
 **Direct CTAs**
 
--   Book a Focus Audit (primary: low friction, proves value fast)
+-   Book a short diagnostic engagement (primary: low friction, proves value fast)
 
 -   Take the Revenue Engine Checkup (10-minute diagnostic + 45-minute
     working session)

@@ -1,11 +1,11 @@
 # Pricing and Monetisation Operations: Sourced Benchmarks
 
-This file contains all quantitative claims made in the pricing-monetisation-ops skill, with full citations. Every number carries a source name, publication year, and where applicable, a URL. Numbers from the Primus 2026 Market Facts sheet are noted as such.
+This file contains all quantitative claims made in the pricing-monetisation-ops skill, with full citations. Every number carries a source name, publication year, and where applicable, a URL.
 
 ## Consumption Pricing Adoption
 
-- **77% of the largest software companies use consumption-based pricing** (Ledgerup, 2026; Primus 2026 Market Facts). This is the highest concentration of consumption adoption among mature SaaS players.
-- **Usage-based billing market size: $6.5B in 2026, projected to reach $15.3B by 2032** (Ledgerup, 2026; Primus 2026 Market Facts).
+- **77% of the largest software companies use consumption-based pricing** (Ledgerup, 2026). This is the highest concentration of consumption adoption among mature SaaS players.
+- **Usage-based billing market size: $6.5B in 2026, projected to reach $15.3B by 2032** (Ledgerup, 2026).
 - **41% of SaaS companies already have a usage-based component in their pricing; 17% testing one** (OpenView Partners, 2023-2025; web research).
 - **Consumption-based pricing at 35% of AI companies, with 37% of companies planning to change AI pricing model in next 12 months** (2026 State of B2B SaaS and AI Monetization Report, 2026; web research).
 - **Three out of five SaaS businesses bill customers based on usage** (OpenView Partners, cited 2023-2025; web research).
@@ -56,7 +56,7 @@ This file contains all quantitative claims made in the pricing-monetisation-ops 
 - **Contractual necessity covers most subscription billing** for collection of email, billing address, payment info, and usage data (GDPR for Subscription Services, 2026; web research).
 - **Schrems II rule: EU data transfers to US require supplementary safeguards** beyond standard Data Processing Agreements (Data Privacy in 2026, TJC Group; web research).
 - **Smart meter analogy**: consumption tracking data is potentially personal data if linked to individuals. Billing-only processing is lawful; re-purposing for profiling or marketing requires separate consent (GDPR for energy industry, Plan Be Eco; web research).
-- **EU AI Act**: Lead scoring and AI SDRs not yet explicitly high-risk; Commission guidance pending as of July 2026 (EU AI Act compliance, 2026; Primus 2026 Market Facts).
+- **EU AI Act**: Lead scoring and AI SDRs not yet explicitly high-risk; Commission guidance pending as of July 2026 (EU AI Act compliance, 2026).
 
 ## Contract Structure Complexity
 
@@ -91,7 +91,6 @@ This file contains all quantitative claims made in the pricing-monetisation-ops 
 | Ledgerup (Consumption Pricing Report) | 2026 | Vendor research | Market sizing, adoption rates |
 | Chargebee (State of Subscriptions) | 2025 | Industry survey | Hybrid pricing adoption, NRR trends |
 | OpenView Partners | 2023 to 2025 | Industry benchmark | Consumption adoption, expansion revenue |
-| Primus 2026 Market Facts | 2026 | Internal research | Authoritative baseline facts |
 | Zylo (SaaS Management Index) | 2026 | Industry survey | Bill shock, unexpected charges |
 | Zuora (Metered Billing Guide) | 2026 | Vendor expertise | Metering architecture, ASC 606 |
 | HubSpot (Breeze Agent) | April 2026 | Official announcement | Platform pricing model shift |

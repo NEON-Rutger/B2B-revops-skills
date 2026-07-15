@@ -62,7 +62,7 @@ Before any data moves, decide for each object which system wins. This decision c
 | **Account/Company** | Which CRM has the authoritative account hierarchy? Which owns the primary customer ID? Which system do customers reference in contracts? | Old CRM holds 8 years of hierarchy. New parent company policy requires single account ID. Decision: Migrate hierarchy into new CRM, generate new account IDs, keep old IDs as legacy_account_id for crosswalk. |
 | **Contact** | Where does the primary contact record live? Which CRM is the source of truth for contact-to-account association? Who owns dedupe? | Two instances have overlapping contact bases. Decision: New CRM is system of record. Dedupe first in old CRM, then migrate. |
 | **Deal/Opportunity** | Which CRM does revenue reporting feed from? Which stages drive forecast? Which system tracks multi-threaded deals? | Salesforce tracks complex enterprise deals better. New SMB pipeline lives in HubSpot. Decision: Salesforce is record for enterprise (>€50K), HubSpot for SMB. Deal associations link them. |
-| **Subscription/ARR** | Which system tracks active subscriptions? Where do renewals originate? Where is churn recorded? | Legacy Younium held subscription contracts, new CRM tracks usage. Decision: Younium is source of record for subscription status; CRM reflects current state only. |
+| **Subscription/ARR** | Which system tracks active subscriptions? Where do renewals originate? Where is churn recorded? | Legacy billing platform held subscription contracts, new CRM tracks usage. Decision: the billing platform is source of record for subscription status; CRM reflects current state only. |
 | **Activity** | Email, calls, notes: which system logs them? Which is authoritative? Which do you archive? | Old CRM has 5 years of email history via Gmail sync. New CRM will sync going forward. Decision: Archive old CRM read-only; Gmail sync to new CRM from cutover onward. |
 
 **Critical rule:** Every object must have an owner and a system. Ambiguity during the merge creates data chaos post-cutover.
@@ -225,11 +225,11 @@ Typical rebuild: 4 to 6 weeks for a mature instance (50+ automations).
 
 ## Integration Re-Pointing and Cutover Sync Risk
 
-Every integration (Younium, Outreach, intent data, enrichment, BI tool, finance connector) must be re-pointed to the target CRM. This creates risk: a misconfigured pointer syncs duplicates or loses records.
+Every integration (billing platform, sales engagement, intent data, enrichment, BI tool, finance connector) must be re-pointed to the target CRM. This creates risk: a misconfigured pointer syncs duplicates or loses records.
 
 ### Integration Audit
 
-Before cutover, list every system that touches your CRM: Outreach, Younium, Clay, Clearbit, Slack bots, finance ERP, BI platform, email sync (Gmail/Outlook), API-driven apps.
+Before cutover, list every system that touches your CRM: sales engagement (Outreach, Salesloft), billing (Chargebee, Younium, Maxio), enrichment (Clay, Clearbit), Slack bots, finance ERP, BI platform, email sync (Gmail/Outlook), API-driven apps.
 
 For each integration:
 - Does it create new records in the CRM? (Outreach creates tasks; intent data creates leads)
@@ -549,20 +549,20 @@ This saves 6+ months per acquisition by moving the heavy lifting (data model des
    - **Enterprise account (>€50K ACV):** Salesforce system of record. Parent's account managers own these.
    - **SMB account (<€50K ACV):** HubSpot system of record. Acquired co's sales team owns these.
    - **Shared account with both segments:** Salesforce holds parent's enterprise contact; HubSpot holds acquired co's SMB contact. Linked via stitching layer (see below).
-   - **Subscription/ARR:** Unified in Younium (subscription platform). Both CRMs reflect current state only.
+   - **Subscription/ARR:** Unified in the subscription billing platform. Both CRMs reflect current state only.
 
-3. **Identity stitching:** Warehouse layer (Fivetran → dbt → BI) pulls data from both CRMs + Younium. dbt model creates a single customer record by matching on domain + parent company name. BI dashboards read from the stitched layer, showing one revenue truth despite two CRM sources.
+3. **Identity stitching:** Warehouse layer (Fivetran → dbt → BI) pulls data from both CRMs plus the billing platform. dbt model creates a single customer record by matching on domain + parent company name. BI dashboards read from the stitched layer, showing one revenue truth despite two CRM sources.
 
 4. **Data flow:**
    - Salesforce → Fivetran → Warehouse (nightly)
    - HubSpot → Fivetran → Warehouse (nightly)
-   - Younium → Fivetran → Warehouse (nightly)
+   - Billing platform → Fivetran → Warehouse (nightly)
    - Warehouse → Looker / Power BI dashboards
 
 5. **Integrations:**
    - Outreach (enterprise sequences) → Salesforce
    - Lemlist (SMB outreach) → HubSpot
-   - Younium (subscriptions) → reads from both, writes to both
+   - Billing platform (subscriptions) → reads from both, writes to both
    - Slack notifications pull from warehouse (one source of truth)
 
 6. **Reporting:** Leadership sees one ARR dashboard (€5M total from both CRMs combined). Region/segment view shows split: Salesforce (€3.5M enterprise), HubSpot (€1.5M SMB).

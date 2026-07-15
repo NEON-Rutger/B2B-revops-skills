@@ -13,7 +13,7 @@ description: >
   BOUNDARY: Covers account-level engagement scoring, buying group measurement, and
   handover-to-sales triggers in ABM contexts. For lead-level scoring (fit + engagement
   dual-axis), see marketing-operations. For account selection and ICP methodology, see
-  neon-icp. For sales speed-to-lead and routing, see lead-routing.
+  icp-builder. For sales speed-to-lead and routing, see lead-routing.
 status: seed
 
 ---
@@ -577,7 +577,7 @@ These rules connect engagement scoring to the sales operating cadence. When an A
 
 ## Canon References
 
-Cross-references: marketing-operations (lead scoring dual-axis), neon-icp (account selection methodology), lead-routing (sales speed-to-lead), revops-metrics (KPI benchmarks), signal-trigger-action framework, and sales operating cadence.
+Cross-references: marketing-operations (lead scoring dual-axis), icp-builder (account selection methodology), lead-routing (sales speed-to-lead), revops-metrics (KPI benchmarks), signal-trigger-action framework, and sales operating cadence.
 
 > Built by [Neon Triforce](https://neontriforce.com)
 

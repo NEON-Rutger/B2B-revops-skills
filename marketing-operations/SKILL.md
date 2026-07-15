@@ -12,7 +12,7 @@ description: >
   leads are garbage" or "we can't attribute revenue to campaigns." BOUNDARY: Covers
   marketing OPERATIONS (lead management, attribution, campaign ops).
   For HubSpot, see revops-hubspot. For funnel math, see revops-metrics. For ICP
-  BUILDING methodology (GAP method, customer interviews), see neon-icp.
+  BUILDING methodology (GAP method, customer interviews), see icp-builder.
 status: seed
 
 ---
@@ -73,7 +73,7 @@ In practice, clients implementing this split report MQL acceptance improvements 
 
 When a client uses the SPICED qualification framework, replace the generic Fit Score with a SPICED ICP Fit Matrix: scoring two independent dimensions (Selection Fit: is this our ICP? / Urgency Fit: are they ready now?) to assign a qualification tier (T1/T2/T3). This produces more accurate MQL scoring because it uses the same language sales uses to qualify deals.
 
-For the full Selection Fit and Urgency Fit scoring tables, tier matrix, and quarterly calibration method, see `references/spiced-icp-fit-matrix.md`. See [[neon-spiced-icp-library-v1]] for the full ICP Fit Matrix framework and cluster-specific criteria.
+For the full Selection Fit and Urgency Fit scoring tables, tier matrix, and quarterly calibration method, see `references/spiced-icp-fit-matrix.md`. See icp-builder (references/spiced-icp-library-v1.md) for the full ICP Fit Matrix framework and cluster-specific criteria.
 
 ### Lead Scoring Versioning and Governance
 
@@ -243,7 +243,7 @@ For the implementation pattern, behaviour-based lead segmentation, and full SaaS
 
 The highest-signal data source (structured customer interviews) is almost never fed back into the marketing data model. Sales and CS talk to customers daily, but that intelligence rarely flows into lead scoring, segmentation, or campaign targeting, so marketing optimizes for proxy signals instead of real buying criteria. Structured interviews (8-12 sessions per quarter with current customers across different company sizes) yield verbatim language for ad copy, pain priorities that reset lead-scoring weights, and decision criteria that validate your engagement model; this is the highest-ROI activity in marketing operations (Neon practice-based).
 
-For the interview→marketing pipeline table (interview output → marketing use → how to operationalize) and the quarterly review process, see `references/customer-interview-marketing-pipeline.md`. See [[neon-icp-building-reference]] for the full customer interview methodology and GAP method.
+For the interview→marketing pipeline table (interview output → marketing use → how to operationalize) and the quarterly review process, see `references/customer-interview-marketing-pipeline.md`. See the icp-builder skill (references/icp-building-reference.md) for the full customer interview methodology and GAP method.
 
 ## 5. Marketing-Sales Alignment Operations
 
@@ -445,8 +445,8 @@ For the full flip mechanics, the supporting data citations, the channel quality 
 
 ## Canon References
 
-- **[[neon-spiced-icp-library-v1]]**: SPICED language library with ICP Fit Matrix framework and qualification tiers (T1/T2/T3)
-- **[[neon-icp-building-reference]]**: Full ICP building methodology including customer interview pipeline
-- **[[neon-common-pitfalls-by-capability]]**: Common pitfalls including gut-feel ICP that produces inaccurate lead scoring
+- **icp-builder (references/spiced-icp-library-v1.md)**: SPICED language library with ICP Fit Matrix framework and qualification tiers (T1/T2/T3)
+- **icp-builder (references/icp-building-reference.md)**: Full ICP building methodology including customer interview pipeline
+- **revops-diagnostic**: Constraint diagnosis, including the gut-feel ICP pattern that produces inaccurate lead scoring
 
 > Built by [Neon Triforce](https://neontriforce.com)

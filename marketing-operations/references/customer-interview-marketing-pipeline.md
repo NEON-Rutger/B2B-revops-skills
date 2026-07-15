@@ -19,9 +19,9 @@ Marketing operations teams typically rely on enrichment data and behavioural dat
 **The math:** 10 customer interviews, conducted with structured questioning depth, typically yield 40+ content assets AND validate/refine your lead scoring model (Neon practice-based; execution depth varies). This is the highest-ROI activity in marketing operations when run with rigorous methodology.
 
 **Process:**
-1. CS or Sales conducts structured interviews (see `neon-icp` skill for the 8-step process)
+1. CS or Sales conducts structured interviews (see `icp-builder` skill for the 8-step process)
 2. Interview outputs are tagged and stored in the SPICED library
 3. MarOps reviews quarterly: Which scoring criteria align with interview findings? Which don't?
 4. Adjust scoring weights based on what real customers say, not what you assumed
 
-See [[neon-icp-building-reference]] for the full customer interview methodology and GAP method.
+See the icp-builder skill (references/icp-building-reference.md) for the full customer interview methodology and GAP method.

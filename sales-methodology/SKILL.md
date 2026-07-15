@@ -14,7 +14,7 @@ description: >
   discount requests, or operationalizing any sales framework. Covers methodology
   selection, CRM implementation, and discount negotiation playbooks. BOUNDARY:
   For change management see revops-change-management. For ICP building see
-  neon-icp. For discount governance policy see pricing-strategy.
+  icp-builder. For discount governance policy see deal-desk-operations.
 metadata:
   version: 2.1.0
   spiced_depth: full
@@ -464,7 +464,7 @@ Customer interviews are the highest-leverage sales activity. One 45-minute inter
 
 **The math:** 10 interviews = 40+ content assets + validated ICP + refined SPICED language.
 
-For full ICP building methodology using interview data, see `neon-icp` skill.
+For full ICP building methodology using interview data, see `icp-builder` skill.
 
 ## Stakeholder / Champion Mapping
 
@@ -694,7 +694,7 @@ SPICED uncovers *why* a customer is buying. The Impact Journey maps *what happen
 | **Pain** | The gap between their current Impact Journey stage and where they need to be |
 | **Impact** | The specific business outcome they need; this becomes the Joint Impact Plan milestone |
 | **Critical Event** | The deadline by which they must reach that Impact; anchors the CET (see Critical Event Timeline section in neon-discovery-spiced) |
-| **Decision** | Mutual Commit; the moment the customer and Rutger formalise the Impact promise |
+| **Decision** | Mutual Commit; the moment the customer and the seller formalise the Impact promise |
 
 ### Pre-Mutual Commit: SPICED qualifies readiness
 

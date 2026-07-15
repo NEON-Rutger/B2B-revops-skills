@@ -12,7 +12,7 @@ description: >
   structure my sales team" or "our territories don't make sense," activate this skill.
   BOUNDARY: Covers team STRUCTURE, territories, and capacity. For comp plans and
   quotas, see gtm-compensation. For ICP BUILDING methodology (GAP method, interviews,
-  thresholds), see neon-icp.
+  thresholds), see icp-builder.
 status: seed
 
 ---
@@ -147,7 +147,7 @@ different buyer, different value prop, different expansion path.
 
 ### ICP (Ideal Customer Profile)
 
-For a complete ICP building methodology including the GAP method, customer count thresholds, ECP vs ICP distinction, and customer interviews, use the `neon-icp` skill.
+For a complete ICP building methodology including the GAP method, customer count thresholds, ECP vs ICP distinction, and customer interviews, use the `icp-builder` skill.
 
 **Quick reference for GTM planning purposes:**
 
@@ -182,7 +182,7 @@ Start with ONE focused ICP. Expand in phases:
 
 **The Goldilocks Zone:** Right-size ICP for your stage. Too big (enterprise-only) = 9-18 month cycles, too slow for validation. Too small (SMB-only) = high support cost per revenue dollar. Sweet spot: ACV matches motion, 2-4 month sales cycle, proof depth achievable with 5-10 case studies.
 
-For full ICP expansion methodology and customer count thresholds, see `neon-icp` skill.
+For full ICP expansion methodology and customer count thresholds, see `icp-builder` skill.
 
 ## Territory Design
 

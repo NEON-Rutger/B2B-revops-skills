@@ -84,7 +84,7 @@ Three levers exist to improve throughput (output per unit of GTM cost) in any mo
 | High Touch | Enhance (enterprise selling, multi-threading) | Enhance + Streamline (complex deals) | Enhance + Automate (CS at scale) |
 | Dedicated | Enhance (executive relationships) | Enhance + Streamline (account planning) | Enhance + Streamline |
 
-**AI as Automate lever:** AI agents (call prep, pipeline risk, CRM hygiene, renewal alerts) are predominantly Automate lever plays. They apply across all motions but deliver highest ROI in Medium Touch (volume high enough, ACV high enough to justify the integration investment). See neon-ai-readiness-day for use case scoring.
+**AI as Automate lever:** AI agents (call prep, pipeline risk, CRM hygiene, renewal alerts) are predominantly Automate lever plays. They apply across all motions but deliver highest ROI in Medium Touch (volume high enough, ACV high enough to justify the integration investment).
 
 ---
 

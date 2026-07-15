@@ -1,6 +1,6 @@
 # WbD Data Model Scaffold
 
-*Reference file for revops-metrics, neon-obeya-builder, neon-expansion-revenue-architect, cs-operations, neon-benchmark-reference, revops-handoffs.*
+*Reference file for revops-metrics, revenue-operating-cadence, expansion-revenue-architect, cs-operations, revops-handoffs.*
 
 ---
 

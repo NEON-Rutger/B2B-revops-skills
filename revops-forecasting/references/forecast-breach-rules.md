@@ -55,7 +55,7 @@ Forecasting doesn't just measure the current quarter; it must also monitor next 
 |--------|---------|--------|----------|
 | Next quarter pipeline < 2x target at quarter midpoint | Projected coverage gap | Activate outbound blitz + partner channel activation + marketing campaign acceleration | Within 1 week |
 | Pipeline creation rate declining month-over-month | 2+ months of declining new pipeline | Diagnose: is inbound drying up, outbound slowing, or conversion dropping? Different roots, different fixes | Within 2 weeks |
-| Pipeline age increasing (average days open rising) | Average deal age >1.5x segment benchmark for 2+ weeks | Pipeline deflation sprint: remove zombies to restore healthy metrics. See neon-deal-velocity-engineer. | Within 1 week |
+| Pipeline age increasing (average days open rising) | Average deal age >1.5x segment benchmark for 2+ weeks | Pipeline deflation sprint: remove zombies to restore healthy metrics. See deal-velocity-engineer. | Within 1 week |
 
 ## Connecting Forecasting to the revenue dashboard
 

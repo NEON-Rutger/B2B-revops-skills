@@ -670,7 +670,7 @@ For LTV/CAC/GM Payback/LTV:CAC calculations in client engagements, use the pre-b
 
 Structure: 1 sheet, 30 rows × 7 cols. Includes validation cells (`=if(E4=G4,"CORRECT","INCORRECT")`). Preserves all original formulas.
 
-Use in: Focus Audit baseline, programme ROI justification, benchmark comparisons.
+Use in: diagnostic baselines, programme ROI justification, benchmark comparisons.
 
 Original source: `Sources/Courses/CRO-School/Pavilion Unit Economics Worksheet.xlsx`
 Attribution: Adapted from Pavilion CRO School. Original author: Carter/Nalbandian/Dick.
