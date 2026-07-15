@@ -18,9 +18,9 @@ ZOMBIE CRITERIA:
 ```
 
 **Impact of zombies:**
-- When deals slip, win rates plummet **-67%** — particularly those delayed >8 weeks (Ebsta/Pavilion 2024)
+- When deals slip, win rates plummet **-67%** (particularly those delayed >8 weeks; Ebsta/Pavilion 2024)
 - **44% of all deals slipped** in 2023 (Ebsta 2024)
-- Only **17% of reps generate 81% of revenue** — suggesting the vast majority of pipeline is unproductive (Ebsta 2024)
+- Only **17% of reps generate 81% of revenue** (suggesting the vast majority of pipeline is unproductive; Ebsta 2024)
 - "No decision" kills up to **60% of complex B2B deals** (Aviso 2024)
 
 ## Phase 2: Triage (Week 2)
@@ -29,13 +29,13 @@ For each zombie deal, force one of three decisions:
 
 ```
 TRIAGE DECISIONS:
-1. REVIVE — There's a real reason this deal can close. Define the specific action
+1. REVIVE: There's a real reason this deal can close. Define the specific action
    and deadline. If the action doesn't happen by deadline, move to CLOSE.
 
-2. PUSH — The deal is real but timing has changed. Move to a future pipeline view
+2. PUSH: The deal is real but timing has changed. Move to a future pipeline view
    with a specific re-engage date. Remove from current quarter forecast entirely.
 
-3. CLOSE — Mark closed-lost. Free up rep time. Improve forecast accuracy.
+3. CLOSE: Mark closed-lost. Free up rep time. Improve forecast accuracy.
    This is the right answer 60-70% of the time. Most managers close too few.
 ```
 

@@ -25,11 +25,11 @@ Engagement tier:
 
 Behaviour tier:
 - Output Acceptance Rate: (outputs used as-is or refined / total outputs generated) × 100. Target: 65%+.
-- Time Saved per Function: hours/week recovered from task automation. Target: 5–8 hrs/FTE/week.
+- Time Saved per Function: hours/week recovered from task automation. Target: 5 to 8 hrs/FTE/week.
 
 Capability tier:
 - Proficiency Score: (skill self-assessment + error rate reduction) / 2. Target: 3.5+/5 by month 4.
-- Time-to-Value per Role: weeks to first meaningful productivity gain. Target: 3–4 weeks.
+- Time-to-Value per Role: weeks to first meaningful productivity gain. Target: 3 to 4 weeks.
 
 Governance tier:
 - Incident Rate: (data breaches, compliance violations) per 1,000 active users. Target: <1 per month.
@@ -38,15 +38,15 @@ Governance tier:
 
 **ROI measurement (3-tier model):**
 
-1. **Realized ROI** (months 1–3): Direct time savings and automation. Dollar value of hours freed. Easy to quantify. Usually overstated.
+1. **Realized ROI** (months 1 to 3): Direct time savings and automation. Dollar value of hours freed. Easy to quantify. Usually overstated.
 
-2. **Trending ROI** (months 3–9): Quality improvements (better proposals, higher qualification accuracy), faster decision cycles, reduced rework. Harder to quantify; requires baseline comparison.
+2. **Trending ROI** (months 3 to 9): Quality improvements (better proposals, higher qualification accuracy), faster decision cycles, reduced rework. Harder to quantify; requires baseline comparison.
 
-3. **Capability ROI** (months 6–18): Organizational learning, capability uplift, competitive advantage from AI fluency. Hardest to measure; most valuable long-term. Frame as "organizational option value"—you've built a team that can scale AI further.
+3. **Capability ROI** (months 6 to 18): Organizational learning, capability uplift, competitive advantage from AI fluency. Hardest to measure; most valuable long-term. Frame as "organizational option value" (you've built a team that can scale AI further).
 
 **Realistic expectations:**
-- Expect 3–6 month ROI horizon, not 6 weeks
+- Expect 3 to 6 month ROI horizon, not 6 weeks
 - First 6 weeks will show time investment (learning curve)
-- Weeks 6–12 show usage and early efficiency gains
-- Months 3–6 show behaviour change and quality improvements
+- Weeks 6 to 12 show usage and early efficiency gains
+- Months 3 to 6 show behaviour change and quality improvements
 - Month 6+ shows organizational capability gains

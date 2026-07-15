@@ -5,11 +5,10 @@ On-demand reference for the revops-change-management skill.
 Your team is already using AI. You just don't know about it.
 
 **The scale:**
-- 78–86% of employees use unapproved AI tools at work (Gartner, Deloitte)
-- 65% of shadow AI incidents result in PII exposure
-- 40% lead to IP theft or regulatory violation
-- Enterprises discover 200–300 AI tools in actual use vs. 5–10 sanctioned
-- Average shadow AI data breach cost: $4.2M
+- 88% of organisations report employees using unapproved AI tools at work (Gartner, 2026)
+- 65% of shadow AI incidents result in PII exposure (IBM, 2025)
+- Enterprises report discovering significantly more tools than sanctioned (risk varies by industry and governance maturity)
+- Average shadow AI data breach cost: 5.11M USD (IBM, 2025)
 
 **Why it matters:**
 Shadow AI is the opposite problem from resistance. It's silent adoption happening around your governance. By the time you discover it, habits are formed, data's been processed, and risk is crystallised.

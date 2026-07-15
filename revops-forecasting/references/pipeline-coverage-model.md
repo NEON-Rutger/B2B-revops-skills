@@ -28,8 +28,8 @@ Final 2 weeks:     Commit should cover 90%+ of target
 
 **When coverage is insufficient:**
 ```
-1. IMMEDIATE: Review Best Case deals — can any be accelerated to Commit?
+1. IMMEDIATE: Review Best Case deals; can any be accelerated to Commit?
 2. SHORT-TERM: Pull forward next-quarter pipeline that's further along than expected
 3. MEDIUM-TERM: Activate outbound blitz, marketing campaigns, partner channel
-4. STRATEGIC: Adjust expectations with leadership — don't hide the gap
+4. STRATEGIC: Adjust expectations with leadership; don't hide the gap
 ```

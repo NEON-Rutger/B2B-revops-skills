@@ -11,7 +11,7 @@ Complete SLA targets, research-backed benchmarks, metrics per handoff point, lea
 **MIT/InsideSales.com (Dr. James Oldroyd, 2007; 15,000+ leads across 6 companies)**:
 - 5-minute response: 21× more likely to qualify vs 30 minutes
 - 100× more likely to make contact vs 30 minutes
-- Optimal window: 1–5 minutes
+- Optimal window: 1-5 minutes
 
 **Velocify**: responding within 1 minute increases conversion by 391%.
 
@@ -29,17 +29,17 @@ Complete SLA targets, research-backed benchmarks, metrics per handoff point, lea
 | Paid advertising leads | < 3 minutes | Hottest, highest cost-per-lead |
 | Partner referrals | < 30 minutes | Warm but relationship-dependent |
 | Organic inbound (search) | < 10 minutes | Moderate intent |
-| Content downloads / webinars | 3–4 days (nurture first) | Low-to-mid intent; premature outreach damages trust |
+| Content downloads / webinars | 3-4 days (nurture first) | Low-to-mid intent; premature outreach damages trust |
 | Event / trade show leads | Same business day | Context fades quickly |
 
 ### Follow-Up Cadence
 
-5–10 contact attempts yield 90% of lead value. Recommended pattern:
+5-10 contact attempts yield 90% of lead value. Recommended pattern:
 - Attempt 1: within SLA (call + email)
 - Attempt 2: 4 hours later (different channel)
 - Attempt 3: next business day
-- Attempts 4–6: every 2 days
-- Attempts 7–10: weekly
+- Attempts 4-6: every 2 days
+- Attempts 7-10: weekly
 
 After 10 attempts with no response: return to marketing nurture with disposition noted.
 
@@ -51,17 +51,17 @@ After 10 attempts with no response: return to marketing nurture with disposition
 
 | Metric | Industry Average | Best-in-Class |
 |---|---|---|
-| MQL-to-SQL conversion | 15–21% | 39–40% (with behavioural scoring) |
-| SQL-to-Opportunity | 50–60% | 70%+ |
-| Lead scoring adoption | 44% of orgs | — |
-| ML scoring vs manual | — | 75% higher conversion with ML |
+| MQL-to-SQL conversion | 15-21% | 39-40% (with behavioural scoring) |
+| SQL-to-Opportunity | 50-60% | 70%+ |
+| Lead scoring adoption | 44% of orgs |, |
+| ML scoring vs manual |, | 75% higher conversion with ML |
 
 ### Scoring Model Dimensions
 
 | Dimension | Weight | Components |
 |---|---|---|
 | Firmographic fit | 40% | ICP match: industry, size, geography, title, tech stack |
-| Behavioural intent | 40% | Pricing page (+30–40), demo request (+50, auto-route), content (+15–20), email engagement (+5–10), decay (-10/14d inactivity) |
+| Behavioural intent | 40% | Pricing page (+30-40), demo request (+50, auto-route), content (+15-20), email engagement (+5-10), decay (-10/14d inactivity) |
 | Third-party intent | 20% | 6sense/Bombora/Breeze signals, anonymous research behaviour |
 
 Output quadrant: High Fit + High Intent = immediate sales. High Fit + Low Intent = nurture. Low Fit + High Intent = monitor. Low Fit + Low Intent = deprioritise.
@@ -86,7 +86,7 @@ Pragmatic approach: maintain sharp MQL definitions but layer in account-level en
 
 **Sales commits to**:
 - Respond within defined time windows (by lead type)
-- Minimum 5–10 follow-up attempts per lead
+- Minimum 5-10 follow-up attempts per lead
 - CRM disposition within 48 hours of last attempt
 - Feedback on lead quality (accept/reject with reason)
 
@@ -104,9 +104,9 @@ Pragmatic approach: maintain sharp MQL definitions but layer in account-level en
 
 | Milestone | Target | Measurement |
 |---|---|---|
-| Internal AE → CSM/Impl briefing | 24–48h post-signature | Timestamp delta: closed_won_date to briefing_date |
+| Internal AE → CSM/Impl briefing | 24-48h post-signature | Timestamp delta: closed_won_date to briefing_date |
 | Customer introduction email | Within first week | Workflow completion date |
-| Kickoff call scheduled | 48–72h post-signing | Calendar event creation date |
+| Kickoff call scheduled | 48-72h post-signing | Calendar event creation date |
 | First implementation meeting | 2 days (best) to 7 days (standard) | implementation_kickoff_date - closed_won_date |
 
 ### Handoff Information Completeness
@@ -125,12 +125,12 @@ Target: >90% of required fields populated. Measure via calculated property.
 
 ### Handoff Quality Score
 
-Receiving team (CSM/implementation lead) rates 1–5:
-1. Information completeness — were all fields populated and accurate?
-2. Promise alignment — do commitments match what was documented?
-3. Customer expectations — were expectations set realistically?
-4. Stakeholder access — can we reach the right people?
-5. Technical readiness — are requirements clear and feasible?
+Receiving team (CSM/implementation lead) rates 1-5:
+1. Information completeness, were all fields populated and accurate?
+2. Promise alignment, do commitments match what was documented?
+3. Customer expectations, were expectations set realistically?
+4. Stakeholder access, can we reach the right people?
+5. Technical readiness, are requirements clear and feasible?
 
 Target: ≥4.0 average. Review weekly. Trend quarterly.
 
@@ -140,7 +140,7 @@ Target: ≥4.0 average. Review weekly. Trend quarterly.
 
 | Metric | Target | Notes |
 |---|---|---|
-| Time to first value (TTFV) | Segment-dependent | Enterprise 30–90d, Mid-market 14–30d, SMB 1–7d |
+| Time to first value (TTFV) | Segment-dependent | Enterprise 30-90d, Mid-market 14-30d, SMB 1-7d |
 | Go-live rate (on time) | >85% within contracted timeframe | Track by segment and implementation complexity |
 | Onboarding completion | >95% | All training modules, configuration, data migration |
 | Implementation velocity | Trending down QoQ | Duration from kickoff to go-live |
@@ -149,11 +149,11 @@ Target: ≥4.0 average. Review weekly. Trend quarterly.
 ### Go-Live Readiness Criteria
 
 Five conditions, all must be true:
-1. **Tasks work** — critical processes complete end-to-end
-2. **People trained** — key users completed training, admin certified
-3. **Data migrated** — clean, validated, accessible
-4. **Support plan** — escalation paths, contact points, SLAs defined
-5. **Rollback plan** — contingency if go-live fails
+1. **Tasks work**, critical processes complete end-to-end
+2. **People trained**, key users completed training, admin certified
+3. **Data migrated**, clean, validated, accessible
+4. **Support plan**, escalation paths, contact points, SLAs defined
+5. **Rollback plan**, contingency if go-live fails
 
 ### Implementation Health Indicators
 
@@ -177,11 +177,11 @@ Health score below 30 correlates with ~7% churn risk. Above 50: <1% (HBR).
 | Expansion win rate (upsell) | >40% | Same DMU, shorter cycle |
 | Expansion win rate (warm cross-sell) | >30% | Partial DMU overlap |
 | Expansion win rate (new-DMU cross-sell) | >20% | Full discovery cycle |
-| NRR | 110–130%+ | Best-in-class |
-| GRR | 85–95% | Enterprise should be >95% |
-| Expansion as % of new ARR | 50–60% (top performers) | Track trend QoQ |
-| Expansion CAC vs new-logo CAC | 4–5× cheaper | $0.27 vs $1.16 per dollar ACV |
-| Probability of selling to existing customer | 60–70% | vs 5–20% for new prospects |
+| NRR | 110-130%+ | Best-in-class |
+| GRR | 85-95% | Enterprise should be >95% |
+| Expansion as % of new ARR | 50-60% (top performers) | Track trend QoQ |
+| Expansion CAC vs new-logo CAC | 4-5× cheaper | $0.27 vs $1.16 per dollar ACV |
+| Probability of selling to existing customer | 60-70% | vs 5-20% for new prospects |
 
 ### Expansion Economics
 
@@ -208,7 +208,7 @@ Every 1% increase in revenue retention increases company value by 12% after 5 ye
 Six dashboards monitor the full bow tie:
 
 ### Dashboard 1: Lifecycle Funnel Performance
-- Stage-to-stage conversion rates (VM1–VM8 / CR1–CR7)
+- Stage-to-stage conversion rates (VM1-VM8 / CR1-CR7)
 - Volume and time per stage
 - Cohort views by source, segment, motion
 
@@ -238,7 +238,7 @@ Six dashboards monitor the full bow tie:
 - Forecast accuracy trend
 
 ### Dashboard 6: Handoff Quality Monitor
-- Quality scores by transition point (1–5 scale)
+- Quality scores by transition point (1-5 scale)
 - SLA compliance heat map
 - Promise alignment rate
 - Leading indicator alerts (from table above)
@@ -260,12 +260,12 @@ Six dashboards monitor the full bow tie:
 ### EU-Specific Clusters
 
 Start with language-based routing:
-- **DACH** — German required, formal buying processes
-- **Nordics** — high digital fluency, English-friendly
-- **UK & Ireland** — closest to US patterns
-- **Western Europe** — French critical for France
-- **Southern Europe** — relationship-driven
-- **CEE** — emerging, cost-sensitive
+- **DACH**, German required, formal buying processes
+- **Nordics**, high digital fluency, English-friendly
+- **UK & Ireland**, closest to US patterns
+- **Western Europe**, French critical for France
+- **Southern Europe**, relationship-driven
+- **CEE**, emerging, cost-sensitive
 
 Route by language of form submission as first-pass filter.
 
@@ -287,8 +287,8 @@ Factor current pipeline load. Rep at 120% capacity shouldn't receive new leads. 
 
 ### Territory Design by ARR Stage
 
-- **€15M ARR** (5–15 AEs): simple geographic clusters, round-robin, generalist AEs
-- **€50M ARR** (30–60 AEs): weighted round-robin with territory rules, hunter/farmer split, cluster-based EU coverage
+- **€15M ARR** (5-15 AEs): simple geographic clusters, round-robin, generalist AEs
+- **€50M ARR** (30-60 AEs): weighted round-robin with territory rules, hunter/farmer split, cluster-based EU coverage
 - **€150M ARR** (100+ AEs): full matrix (segment × vertical × geography), capacity-based + AI-assisted routing, country-level local-language reps
 
 Apply the ±10% rule: no territory should have more than 10% higher or lower total workload than team average.

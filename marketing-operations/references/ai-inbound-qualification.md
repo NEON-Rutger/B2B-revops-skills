@@ -6,11 +6,11 @@ When AI is deployed for inbound lead qualification (via Qualified, Agentforce, o
 
 **AI qualification adds two new dimensions to scoring:**
 
-1. **Behavioural intent signals** — not just "downloaded a whitepaper" but "visited pricing page 3 times in 2 days, opened 4 emails, attended webinar, then hit the contact form." AI can score multi-touch behaviour patterns that humans miss.
+1. **Behavioural intent signals**: not just "downloaded a whitepaper" but "visited pricing page 3 times in 2 days, opened 4 emails, attended webinar, then hit the contact form." AI can score multi-touch behaviour patterns that humans miss.
 
-2. **Real-time qualification** — AI can run SPICED-style qualification questions via chat before a human gets involved. The lead arrives at the rep pre-qualified with Situation, Pain, and Impact already captured.
+2. **Real-time qualification**: AI can run SPICED-style qualification questions via chat before a human gets involved. The lead arrives at the rep pre-qualified with Situation, Pain, and Impact already captured.
 
-**SaaStr result:** 71% of October 2025 closed-won deals came from AI-qualified inbound. Historic baseline was 29-34%. The AI didn't just qualify faster — it qualified BETTER by catching signals humans overlooked.
+**SaaStr result:** 71% of October 2025 closed-won deals came from AI-qualified inbound. Historic baseline was 29-34%. The AI did not just qualify faster. It qualified BETTER by catching signals humans overlooked.
 
 **Implementation pattern:**
 - AI handles first response (speed-to-lead becomes instant)
@@ -20,7 +20,7 @@ When AI is deployed for inbound lead qualification (via Qualified, Agentforce, o
 - T2 leads entered into AI nurture sequence
 - T3 leads deprioritised or recycled
 
-**Lead segmentation for AI qualification** — segment by behaviour, not demographics:
+**Lead segmentation for AI qualification**: segment by behaviour, not demographics:
 - Website visitors (high-intent pages) → immediate AI engagement
 - Content downloaders → educational nurture sequence
 - Event registrants → event-specific follow-up sequence

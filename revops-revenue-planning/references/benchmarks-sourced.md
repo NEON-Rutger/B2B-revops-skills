@@ -42,7 +42,7 @@ Two classes of numbers, kept deliberately separate. **Part A** is sourced market
 
 - **Ebsta**, 2025 GTM Benchmarks Report (EUR 48 billion pipeline, 2,000 CROs); benchmarks.ebsta.com; report gated behind registration, figures from its published summaries.
 - **Gartner** forecast accuracy figure via **ORM Technologies** Forecast Accuracy Guide, 2025; orm-tech.com.
-- **Pavilion** Revenue Collective and CRO School Class 3/4 (Forecasting and Revenue Modeling); joinpavilion.com.
+- **Pavilion** Revenue Collective and CRO School (Forecasting and Revenue Modeling curriculum, 2026); joinpavilion.com/pavilion-university/cro-school.
 - **Salesforce** State of Sales (with Pavilion, quota attainment range); **Bridge Group** rep attainment research.
 - **Fincome**, How to Master Reforecasting in SaaS, 2025; fincome.co.
 - **Digital Bloom**, 2025 B2B SaaS Funnel Benchmarks; thedigitalbloom.com.

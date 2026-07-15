@@ -21,7 +21,7 @@ Kyle Norton runs a 100+ AI-infused sales team at Owner.com. His framework for wh
 - Next-day prep begins automatically
 - Stale deal alerts surfaced for tomorrow's action
 
-**The target:** reps spend 70-80% of their time on revenue-generating activities. Current industry average: 30-40%. The gap is filled by automating research, admin, and data entry — not by automating the human conversation.
+**The target:** reps spend 70-80% of their time on revenue-generating activities. Current industry average: 30-40%. The gap is filled by automating research, admin, and data entry, not by automating the human conversation.
 
 **Bridge to SPICED:** the AI handles data collection and preparation. The rep brings SPICED qualification skill, judgement, and human connection. AI can score deals on SPICED dimensions, but the rep runs the discovery.
 
@@ -62,12 +62,12 @@ In low-trust, noisy AI markets, stop claiming and start proving.
 
 **The approach:**
 1. When a prospect books a demo, build a custom AI agent using the prospect's public knowledge base within 24 hours
-2. Show the prospect how THEIR specific use case would work — not a generic demo environment
+2. Show the prospect how THEIR specific use case would work, not a generic demo environment
 3. Generic demos create generic trust. Custom proof creates specific confidence.
 
 **Extended "show me" philosophy:**
 - Tell prospects to become customers of your existing clients: "Go to [client] and buy something. See how they upsell you."
-- One prospect tested a client's experience, found issues — turned into a teaching moment about configuration choices
+- One prospect tested a client's experience, found issues, which turned into a teaching moment about configuration choices
 - Build time has collapsed with AI. What took weeks now takes hours.
 
 **When to deploy:**
@@ -79,7 +79,7 @@ In low-trust, noisy AI markets, stop claiming and start proving.
 
 ### Cognitive Atrophy Warning for AI-Assisted Methodology (Donovan, E61)
 
-One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcripts. The tool worked perfectly — but the AEs stopped thinking critically about their deals. They became passive consumers of AI-generated qualification.
+One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcripts. The tool worked perfectly. But the AEs stopped thinking critically about their deals. They became passive consumers of AI-generated qualification.
 
 **The principle:** AI that removes cognitive load can also remove cognitive development.
 
@@ -87,7 +87,7 @@ One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcrip
 - Use AI to SUGGEST methodology scores, not auto-populate them
 - Require reps to CONFIRM or OVERRIDE AI suggestions with their own reasoning
 - Build "why do you agree/disagree?" prompts into the workflow
-- Track override frequency — too few overrides means reps aren't thinking
+- Track override frequency; too few overrides means reps aren't thinking
 
 ### The Anti-Prospecting Thesis (Canaani, E64)
 
@@ -101,7 +101,7 @@ One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcrip
 **Why AEs are bad prospectors:**
 - Not getting the repetitions (BDRs do this full-time)
 - Don't actually want to do it (misaligned motivation)
-- BDRs are motivated differently — their #1 goal is to stop being a BDR
+- BDRs are motivated differently; their #1 goal is to stop being a BDR
 
 **Implication for methodology:** Methodology training should focus on CLOSING skills (discovery, qualification, negotiation), not prospecting skills. Invest prospecting methodology training in the BDR team, not the AE team.
 

@@ -16,7 +16,7 @@ On-demand reference for the revops-forecasting skill.
 - Track trigger events: contract anniversaries, usage thresholds, team growth
 
 ## Renewal Revenue
-- Most predictable — use run-rate models as the baseline
+- Most predictable; use run-rate models as the baseline
 - Focus forecasting energy on at-risk accounts (low health score, support tickets, declining usage)
-- Assume 90-95% gross retention as the base; forecast the exceptions
+- Assume 90-95% GRR as the base; forecast the exceptions (90-95% = 75th percentile performance; median 84%; align to your segment) (Optifai; The SaaS CFO, 2026)
 - Early warning: any account with a health score below threshold 90+ days before renewal

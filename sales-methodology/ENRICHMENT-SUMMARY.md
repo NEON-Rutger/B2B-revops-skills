@@ -44,7 +44,7 @@ This enriched version of `sales-methodology` skill adds comprehensive SPICED qua
 
 ### Reference Files Added
 
-- `references/spiced-icp-library.md` — Complete SPICED language library with canonical phrases for each customer cluster (PE, Large SaaS, Small SaaS), qualified tiers (T1/T2/T3), and expanded SPICED elements
+- `references/spiced-icp-library.md`. Complete SPICED language library with canonical phrases for each customer cluster (PE, Large SaaS, Small SaaS), qualified tiers (T1/T2/T3), and expanded SPICED elements
 
 ### Changes to Existing Content
 

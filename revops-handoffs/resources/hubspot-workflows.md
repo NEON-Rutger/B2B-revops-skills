@@ -13,9 +13,9 @@ Production-ready workflow patterns, pipeline configurations, property catalog, a
 | **Actions** | 1. Breeze AI "Summarise Contact" → populate `lead_summary` property |
 | | 2. If/then branch by territory: `company_country` or `form_language` for EU routing, `company_size` for segment, `industry` for vertical |
 | | 3. Rotate record to owner within matching territory |
-| | 4. Create high-priority task: "Follow up on MQL — [contact name]", due 5 minutes |
+| | 4. Create high-priority task: "Follow up on MQL, [contact name]", due 5 minutes |
 | | 5. Slack notification with contact details and AI summary |
-| | 6. 24h delay → check for logged activity (call, email, meeting — not notes/tasks) |
+| | 6. 24h delay → check for logged activity (call, email, meeting, not notes/tasks) |
 | | 7. If no activity: escalation task to manager + Slack alert |
 | | 8. 48h delay → if still no activity: auto-reassign to next rep in rotation |
 | **Properties set** | `mql_date`, `assigned_date`, `territory_assigned` |
@@ -50,7 +50,7 @@ Production-ready workflow patterns, pipeline configurations, property catalog, a
 | **Trigger** | Company property `expansion_signal` is set to any value |
 | **Signal values** | Upsell opportunity / Cross-sell opportunity / Usage limit approaching / New department interest / Customer request |
 | **Actions** | 1. Branch by signal → set `expansion_type` (Upsell / Cross-sell warm / Cross-sell new DMU) |
-| | 2. Create deal in Expansion Pipeline: name "[Company] — [type] — [date]" |
+| | 2. Create deal in Expansion Pipeline: name "[Company], [type], [date]" |
 | | 3. Deal owner: `account_executive` from company (or territory owner for new-DMU) |
 | | 4. Copy `arr_current`, `health_score`, `csm_owner` from company |
 | | 5. Task for AE: "Review expansion opportunity", due 48h |
@@ -93,7 +93,7 @@ HubSpot lacks native speed-to-lead reporting. Workaround:
 | **Trigger** | Contact has associated activity of type Call, Email (sent), or Meeting |
 | **Condition** | `first_connection_date` is unknown (fires once only) |
 | **Action** | Set `first_connection_date` = activity date |
-| **Notes** | Exclude notes and tasks — they don't represent actual contact |
+| **Notes** | Exclude notes and tasks, they don't represent actual contact |
 
 ### Report
 
@@ -142,13 +142,13 @@ Custom report: average `speed_to_lead_hours` by contact owner, lead source, date
 
 **Important**: HubSpot never moves lifecycle stages backward automatically. To handle churn or reactivation: workflow must **clear** the property first, then set the new value.
 
-Track "At Risk" as a company-level custom property, not a lifecycle stage — avoids breaking funnel reporting.
+Track "At Risk" as a company-level custom property, not a lifecycle stage, avoids breaking funnel reporting.
 
 ---
 
 ## 9. Property Catalog
 
-### Deal Properties — New Business Pipeline
+### Deal Properties, New Business Pipeline
 
 | Property | Type | Required At | Purpose |
 |---|---|---|---|
@@ -167,28 +167,28 @@ Track "At Risk" as a company-level custom property, not a lifecycle stage — av
 | `competing_solutions` | Multi-line text | Discovery Qualified | Competitive context |
 | `contract_start_date` | Date | Closed Won | Renewal pipeline automation |
 | `contract_end_date` | Date | Closed Won | Renewal pipeline automation |
-| `partner_sourced` | Checkbox | — | Triggers partner workflows |
+| `partner_sourced` | Checkbox |, | Triggers partner workflows |
 | `partner_company` | Company association | If partner_sourced | Partner identification |
 
-### Deal Properties — Expansion Pipeline
+### Deal Properties, Expansion Pipeline
 
 | Property | Type | Values | Purpose |
 |---|---|---|---|
 | `expansion_type` | Dropdown | Upsell / Cross-sell (warm) / Cross-sell (new DMU) | Drives stages, reporting, forecast |
 | `expansion_source` | Dropdown | CS-identified / Customer request / Marketing signal / Usage trigger | Attribution |
-| `arr_delta` | Currency | — | Incremental value |
+| `arr_delta` | Currency |, | Incremental value |
 | `cross_sell_intro_source` | Dropdown | Champion referral / Direct outreach / Marketing ABM | Path optimisation |
-| `new_dmu_department` | Single-line text | — | BU/department (new-DMU type) |
-| `new_dmu_budget_independent` | Checkbox | — | Independent budget? |
+| `new_dmu_department` | Single-line text |, | BU/department (new-DMU type) |
+| `new_dmu_budget_independent` | Checkbox |, | Independent budget? |
 
 Plus: reuse SPICED property group (same fields as new business).
 
-### Deal Properties — Renewal Pipeline
+### Deal Properties, Renewal Pipeline
 
 | Property | Type | Values | Purpose |
 |---|---|---|---|
 | `renewal_risk_level` | Dropdown | Low / Medium / High | At-risk flagging |
-| `renewal_proposal_sent_date` | Date | — | Velocity tracking |
+| `renewal_proposal_sent_date` | Date |, | Velocity tracking |
 | `renewal_outcome` | Dropdown | Renewed / Churned / Downgrade | Outcome categorisation |
 | `churn_reason` | Dropdown | Product gap / Price / Champion left / Competitor / Not adopted / Budget cut / Acquired | Churn analysis |
 
@@ -198,7 +198,7 @@ Plus: reuse SPICED property group (same fields as new business).
 |---|---|---|
 | `arr_current` | Currency | Total current ARR |
 | `customer_status` | Dropdown (Active / Churned / At Risk / Prospect) | Account status |
-| `health_score` | Number (0–100) | Composite health |
+| `health_score` | Number (0-100) | Composite health |
 | `csm_owner` | HubSpot user | CS assignment |
 | `account_executive` | HubSpot user | Sales assignment |
 | `nps_score` | Number | Latest NPS |

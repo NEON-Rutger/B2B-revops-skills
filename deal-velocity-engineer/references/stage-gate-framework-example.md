@@ -1,4 +1,4 @@
-# Stage Gate Framework — Example
+# Stage Gate Framework: Example
 
 On-demand reference for the deal-velocity-engineer skill.
 

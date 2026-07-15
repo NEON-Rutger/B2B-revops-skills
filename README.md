@@ -1,8 +1,8 @@
-# Neon RevOps — the open-source revenue operations layer for Claude
+# Neon RevOps, the open-source revenue operations layer for Claude
 
 28 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
-**Built for:** B2B SaaS companies scaling from €5M to €150M+ ARR — where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
+**Built for:** B2B SaaS companies scaling from €5M to €150M+ ARR, where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
 
 **What you get:**
 - A diagnostics-first framework that finds the real constraint before recommending a fix
@@ -54,7 +54,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `gtm-compensation` | Compensation plans, quota setting, OTE structures |
 | `marketing-operations` | Lead scoring, attribution, campaign tracking, MQL handoff |
 | `cs-operations` | Customer success operations, health scoring, renewal management |
-| `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling — multi-framework |
+| `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling, multi-framework |
 | `partner-channel-operations` | Partner programme design, enablement, co-selling, deal registration |
 
 ### Pipeline and Data (4 skills)
@@ -75,7 +75,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `deal-velocity-engineer` | Sales cycle diagnostics, stage exit criteria, pipeline deflation |
 | `expansion-revenue-architect` | NRR/GRR systems, whitespace analysis, CS-Sales handback |
 | `partner-ecosystem-architect` | Ecosystem-led growth, nearbound methodology, partner strategy |
-| `operating-cadence-designer` | Operating cadence design — rituals, dashboards, escalation rules |
+| `operating-cadence-designer` | Operating cadence design, rituals, dashboards, escalation rules |
 
 ---
 
@@ -93,13 +93,13 @@ Skills chain naturally. Start with a diagnostic, then load the specialist.
 
 ## What's not here
 
-These are the generic operational layer — the frameworks and methodology that any B2B revenue team can use.
+These are the generic operational layer, the frameworks and methodology that any B2B revenue team can use.
 
 The full delivery system (proprietary maturity model, diagnostic frameworks, and client-specific delivery skills used in live engagements) is used in private client work through [Neon Triforce](https://neontriforce.com). If your team needs implementation support rather than frameworks to self-serve, that's the conversation to have.
 
 ## When to hire us
 
-These skills give you the thinking. They won't run a discovery call, facilitate a workshop, or hold your leadership team accountable to a new operating cadence. If you're hitting those limits — or if the diagnostic keeps surfacing the same constraint and nothing changes — [get in touch](https://neontriforce.com).
+These skills give you the thinking. They won't run a discovery call, facilitate a workshop, or hold your leadership team accountable to a new operating cadence. If you're hitting those limits, or if the diagnostic keeps surfacing the same constraint and nothing changes, [get in touch](https://neontriforce.com).
 
 ---
 
@@ -113,7 +113,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
 
 ---
 

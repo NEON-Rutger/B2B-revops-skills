@@ -12,7 +12,7 @@ Account (company)
 ├── Case (support tickets)
 └── Activity (tasks, events, emails logged)
 
-Lead (separate object — unqualified prospects)
+Lead (separate object: unqualified prospects)
 └── Conversion → creates Account + Contact + Opportunity
 ```
 
@@ -63,6 +63,15 @@ Record Types allow different page layouts, picklist values, and process definiti
 
 ## Field Governance
 
+### Data Minimisation (GDPR Article 5(1)(c))
+
+Before creating a new field, audit the business case:
+- **Is this field necessary for a revenue decision?** (e.g. ICP_Fit_Score__c: yes; Marketing_Email_Clicks__c on Contact when not used for routing or scoring: no)
+- **Do we have retention policy for this field?** (e.g. monthly refresh for engagement scores; permanent for legal holds)
+- **Is access restricted?** (e.g. Enrich_Personal_Data__c should be hidden from sales reps if not needed for their workflow)
+
+Drop fields quarterly if they have not been referenced in a report, Flow, or validation rule in 12+ months. Data minimisation reduces audit scope and compliance risk (GDPR Article 5(1)(c) requirement).
+
 ### Naming Convention
 
 Standard: `[Category]_[Name]__c`
@@ -74,6 +83,15 @@ Standard: `[Category]_[Name]__c`
 | Ops_ | Ops_Routed_At__c, Ops_SLA_Status__c |
 | Enrich_ | Enrich_Source__c, Enrich_Date__c, Enrich_Status__c |
 | Score_ | Score_Lead__c, Score_Fit__c, Score_Engagement__c |
+
+### Audit Logging and GDPR Article 5(2) Accountability
+
+Salesforce Field-Level Audit Logging (available on Enterprise and Unlimited editions) records all read and write access to sensitive fields (email, phone, personal data), providing a first-party audit trail required by GDPR Article 5(2) (accountability). Configure audit logging on:
+- Contact.Email, Contact.Phone, Contact.PersonalData__c
+- Lead.Email, Lead.Phone
+- Account.Billing_Contact__c (if personal)
+
+Retention: 18 months minimum; export quarterly to an external archive (data lake) for multi-year compliance evidence.
 
 ### Required Fields by Stage
 

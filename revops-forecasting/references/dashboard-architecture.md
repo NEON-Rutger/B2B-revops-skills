@@ -1,4 +1,4 @@
-# Pipeline Visibility & Reporting — Dashboard Architecture
+# Pipeline Visibility and Reporting: Dashboard Architecture
 
 On-demand reference for the revops-forecasting skill.
 
@@ -6,16 +6,16 @@ Pipeline visibility is the ability to see what's in your pipeline, trust that it
 
 ## The Visibility Stack (4 Layers)
 
-- **Layer 1: Pipeline Structure** — Stage design with verifiable exit criteria (buyer actions, not seller activities). 5–8 stages max. Probabilities increase monotonically.
-- **Layer 2: Pipeline Reporting** — Reports and dashboards that show pipeline state. What most teams stop at.
-- **Layer 3: Pipeline Hygiene** — Automated systems that keep pipeline data clean, current, and trustworthy.
-- **Layer 4: Pipeline Intelligence** — Alerts and signals that surface what needs attention NOW, before humans notice.
+- **Layer 1: Pipeline Structure.** Stage design with verifiable exit criteria (buyer actions, not seller activities). 5-8 stages max. Probabilities increase monotonically.
+- **Layer 2: Pipeline Reporting.** Reports and dashboards that show pipeline state. What most teams stop at.
+- **Layer 3: Pipeline Hygiene.** Automated systems that keep pipeline data clean, current, and trustworthy.
+- **Layer 4: Pipeline Intelligence.** Alerts and signals that surface what needs attention NOW, before humans notice.
 
 ## Dashboard Architecture
 
 One dashboard per audience. Leading indicators first. Exceptions over summaries. Consistent time frames.
 
-**Executive Dashboard** (CRO/VP Sales/CEO, weekly — "Are we going to hit the number?")
+**Executive Dashboard** (CRO/VP Sales/CEO, weekly): "Are we going to hit the number?"
 | Widget | Metric | Format |
 |--------|--------|--------|
 | 1 | Pipeline by Forecast Category (current period) | Stacked bar |
@@ -25,15 +25,15 @@ One dashboard per audience. Leading indicators first. Exceptions over summaries.
 | 5 | Forecast vs Actual (current + prior 2 periods) | Bar chart |
 | 6 | Top 10 Deals (value, stage, next step, days in stage) | Table |
 
-RAG thresholds: Green ≥3.5x, Amber 2.5–3.4x, Red <2.5x. *Based on Clari 3.2× benchmark; Ebsta 2025 suggests up to 5.3× may be needed given declining win rates. Calibrate: quota ÷ win rate.*
+RAG thresholds: Green ≥3.5x, Amber 2.5-3.4x, Red <2.5x. *Based on Clari 3.2x benchmark; Ebsta 2025 suggests up to 5.3x may be needed given declining win rates. Calibrate: quota ÷ win rate.*
 
-**Sales Manager Dashboard** (daily — "Which deals need my attention today?")
-Stage movement, stale deals (by threshold), activity per rep, speed-to-lead SLA, forecast accuracy by rep, pipeline created vs. target.
+**Sales Manager Dashboard** (daily): "Which deals need my attention today?"
+Stage movement, stale deals (by threshold), activity per rep, speed-to-lead SLA, forecast accuracy by rep, pipeline created versus target.
 
-**Individual Rep Dashboard** (daily — "What should I work on right now?")
-Pipeline by stage, deals closing this month/quarter, activities vs. target, overdue tasks, quota attainment.
+**Individual Rep Dashboard** (daily): "What should I work on right now?"
+Pipeline by stage, deals closing this month/quarter, activities versus target, overdue tasks, quota attainment.
 
-**RevOps Operational Dashboard** (weekly — "Is the system healthy?")
+**RevOps Operational Dashboard** (weekly): "Is the system healthy?"
 Data quality score, stage conversion rates (funnel), pipeline velocity (days per stage), loss reason distribution, pipeline created vs. target, enrichment coverage.
 
 ## Pipeline Hygiene Automation
@@ -56,13 +56,13 @@ Six dimensions based on Gong and Ebsta research (300+ signals, 655K+ analysed op
 | Dimension | What to Measure | Research Backing |
 |-----------|----------------|-----------------|
 | **Engagement / Activity Velocity** | Frequency and recency of buyer interactions | Gong core signal; Ebsta: interaction frequency, recency, type |
-| **Multi-Threading** | Contacts engaged per deal from different functions | Ebsta 2023: single-threaded ~8% win rate; 3+ contacts = 2.4× higher close rate |
+| **Multi-Threading** | Contacts engaged per deal from different functions | Ebsta 2023: single-threaded ~8% win rate; 3+ contacts = 2.4x higher close rate |
 | **Decision-Maker Access** | Direct engagement with economic buyer | Ebsta 2025: early DM involvement = +55% win rate |
-| **Time in Stage / Deal Age** | Days in stage vs. historical average | Gong 2024–25: win rate drops 50% when deal pushed from 1 week to 1 month |
+| **Time in Stage / Deal Age** | Days in stage versus historical average | Gong 2024-25: win rate drops 50% when deal pushed from 1 week to 1 month |
 | **Next Steps / Progression** | Clarity of agreed next action with date | Gong: clarity of next steps as core progression signal |
 | **Trend Direction** | Positive vs. negative engagement trajectory | Ebsta: engagement trend as forward indicator |
 
-*Operational template — adapt weights to your GTM process. Track trend over time, not just absolute score. Deals declining on 2+ dimensions: flag for immediate deal review.*
+*Operational template: adapt weights to your GTM process. Track trend over time, not just absolute score. Deals declining on 2+ dimensions: flag for immediate deal review.*
 
 **Big Deal Alerts:** Trigger when deal value exceeds threshold (e.g., >€50K mid-market; >€200K enterprise), advances to Qualification+, or close date moves into current quarter. Recipients: VP Sales, CRO, RevOps.
 
@@ -109,4 +109,4 @@ This waterfall, reviewed weekly, is the single most powerful pipeline visibility
 | Rep Scorecard (Rep × metrics matrix) | Individual performance |
 | Pipeline Created (by week) | Leading indicator |
 
-*References: Clari (3.2× pipeline coverage benchmark, 2024–25); Ebsta 2025 GTM Benchmarks (655K opportunities, $43B pipeline); Gong (close date push impact — win rate drops ~50% at 1 month vs. 1 week); Salesforce research: active pipeline health management = 18% higher win rates, 28% more accurate forecasts.*
+*References: Clari (3.2x pipeline coverage benchmark, 2024-25); Ebsta 2025 GTM Benchmarks (655K opportunities, $43B pipeline); Gong (close date push impact: win rate drops ~50% at 1 month versus 1 week); Salesforce research: active pipeline health management = 18% higher win rates, 28% more accurate forecasts.*

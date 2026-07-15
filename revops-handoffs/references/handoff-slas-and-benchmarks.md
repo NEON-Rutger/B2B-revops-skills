@@ -16,7 +16,7 @@ Speed is the single most-studied handoff lever. Delay does not slow a deal. It k
 | Partner referral | Under 30 minutes | Warm but relationship-dependent |
 | Content or webinar | 3 to 4 days (nurture first) | Premature outreach damages trust |
 
-Reference reality to anchor the gap: average B2B first response is 42 hours, and 23% of leads never get a reply at all. Instant booking converts about 66.7% of qualified submissions against a roughly 30% industry average. A sub-5-minute response is a 32% close rate, about 2.6x higher than a 24-hour-plus response.
+Reference reality to anchor the gap (historical baseline, 2011): average B2B first response is 42 hours, and 23% of leads never get a reply at all. Modern context (2025): instant booking converts about 66.7% of qualified submissions against a roughly 30% industry average; a sub-5-minute response is a 32% close rate, about 2.6x higher than a 24-hour-plus response (Optifai Pipeline Study).
 
 ## 2. Metrics per handoff
 
@@ -67,11 +67,11 @@ Review the leading-indicator row weekly. Review the quality scorecard weekly. Re
 
 ## Sources
 
-- Dr James Oldroyd, MIT Sloan (2007), Lead Response Management study, 15,000-plus leads across 6 companies.
-- HBR (2011), "The Short Life of Online Sales Leads," 2,241 companies. Average B2B response 42 hours, 23% never responded.
+- Dr James Oldroyd, MIT Sloan (2007), Lead Response Management study, 15,000-plus leads across 6 companies. Foundational research, predates AI automation.
+- HBR (2011), "The Short Life of Online Sales Leads," 2,241 companies. Average B2B response 42 hours, 23% never responded. Historical baseline.
 - Chili Piper (2025) Benchmark Report, roughly 4M submissions. Instant booking 66.7% versus about 30% industry average.
-- LeanData (2025). Under-5-minute response equals 32% close rate, 2.6x higher than 24-hours-plus.
-- Rework (2025), "Deal Handoff Protocol." 45% implementation improvement, 35 to 40% churn reduction from standardised handoffs.
-- Forrester / SiriusDecisions Demand Waterfall. MQL to SQL 39 to 40% with scoring versus 15 to 21% without.
+- Optifai Pipeline Study (Q2 2025-Q1 2026, 939 companies). <5-minute response = 32% close rate, 2.6x higher than 24-hour-plus response.
+- Rework (2025), "Deal Handoff Protocol: Standardizing Post-Close Transitions." 45% implementation improvement, 35-40% churn reduction from standardised handoffs.
+- Forrester / SiriusDecisions Demand Waterfall. MQL to SQL 39-40% with scoring versus 15-21% without.
 
 Calibrate every target to the client's ACV, motion, and segment before quoting it as a commitment.

@@ -1,4 +1,4 @@
-# partner-ecosystem-architect — Reference Files
+# partner-ecosystem-architect Reference Files
 
 | File | Purpose |
 |---|---|

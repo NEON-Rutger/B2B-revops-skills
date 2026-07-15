@@ -291,7 +291,7 @@
 **Quota Setting:**
 - Bottom-up quota setting recommended (territory potential × achievement factor)
 - Annual quota set by Q4, communicated by Dec 15 for new fiscal year
-- Mid-year adjustments allowed (+/- 10%) only if market conditions warrant
+- Mid-year adjustments allowed (±10%) only if market conditions warrant
 
 **Regional Adjustments (Multiplicative):**
 - Amsterdam / Utrecht: Base +10-12%
@@ -300,7 +300,14 @@
 - Nordics: Base +5-10%
 - Rest of NL: Base -3% to -5%
 
+**Remote and Hybrid Compensation (2026 considerations):**
+- For fully remote GTM roles hired in any EU market, use the regional multiplier of the employee's tax residence, not your company's location
+- For hybrid roles: apply the regional multiplier of the office location where the rep spends most time (50%+ required)
+- Remote-first SDR roles (piloting AI agent management) may have lower quota requirements than office-based roles due to reduced overhead. Model headcount ROI carefully.
+- If a rep relocates mid-employment, adjust comp if the tax residence or office location changes materially (more than one tier in the regional adjustment table)
+
 **Plan Reviews:**
 - Annual compensation review: Q4 (October-November)
 - Market benchmarking: yearly against Radford, Mercer, or custom surveys
 - Individual adjustments: merit-based, no more than +8-10% annually to avoid compression
+- For multi-region teams: conduct separate benchmarking by region to ensure internal equity and stay competitive in each market

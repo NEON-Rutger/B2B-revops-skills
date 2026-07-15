@@ -2,7 +2,7 @@
 
 On-demand reference for the deal-velocity-engineer skill.
 
-Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cycle isn't slow — a 120-day SMB cycle is catastrophic.
+Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cycle isn't slow; a 120-day SMB cycle is catastrophic.
 
 | Segment | ACV Range | Benchmark Cycle | Optimal Range | Red Flag |
 |---------|-----------|----------------|---------------|----------|
@@ -11,7 +11,7 @@ Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cyc
 | Enterprise | €75-250K | 90-150 days | 90-120 days | >180 days |
 | Strategic | >€250K | 120-180+ days | Depends on complexity | >270 days |
 
-**Sources:** Digital Bloom 2025 B2B SaaS Funnel Benchmarks (aggregated); Gong Labs 2024 (69-day median at $97K ACV); Ebsta/Pavilion 2024-2025 (4.2M opportunities, $54B revenue, 530 companies).
+**Sources:** Digital Bloom 2025 B2B SaaS Funnel Benchmarks (aggregated); Gong Labs 2024 (69-day median at EUR97K ACV); Ebsta/Pavilion 2024-2025 (655,000 opportunities, USD54B revenue).
 
 **Trend context (critical for client conversations):**
 - Sales cycles have **lengthened 22%** since 2022 due to budget scrutiny and committee buying (Digital Bloom 2025)
@@ -19,4 +19,4 @@ Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cyc
 - CFO involvement in software purchases increased **40%**
 - Security questionnaires add **2-4 weeks** to average cycle
 
-When a client says "our cycles are getting longer," they're not wrong — but the question is whether they're longer than the market shift justifies.
+When a client says "our cycles are getting longer," they're not wrong. But the question is whether they're longer than the market shift justifies.

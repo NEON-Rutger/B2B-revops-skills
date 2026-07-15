@@ -1,12 +1,12 @@
-# End-to-End Inbound Process — Operational Detail
+# End-to-End Inbound Process: Operational Detail
 
 On-demand reference for the marketing-operations skill.
 
-**Source:** Adapted from Union Square Consulting's Inbound Pyramid. Neon applies this as the process layer beneath the scoring mechanics. The lead scoring and attribution sections of the skill cover the mechanics; this is the operational process — the step-by-step flow from first touch to qualified pipeline. The customer journey map and inbound conversion metrics by stage live in the skill body; the routing process, follow-up cadences, speed-to-lead SLAs, and ABM reporting depth live here.
+**Source:** Adapted from Union Square Consulting's Inbound Pyramid. Neon applies this as the process layer beneath the scoring mechanics. The lead scoring and attribution sections of the skill cover the mechanics; this is the operational process: the step-by-step flow from first touch to qualified pipeline. The customer journey map and inbound conversion metrics by stage live in the skill body; the routing process, follow-up cadences, speed-to-lead SLAs, and ABM reporting depth live here.
 
 ## Speed-to-Lead SLA
 
-Research consistently shows that response time is the single biggest lever in inbound conversion. After 5 minutes, contact rates drop by 10x. Response speed is the single highest-leverage lever for inbound conversion.
+Research consistently shows that response time is the single biggest lever in inbound conversion. After 5 minutes, contact rates drop by 10x (Neon practice-based; Blazeo formal 15-minute SLAs hit target 54.9% vs 29.5% without, 2026). Response speed is the single highest-leverage lever for inbound conversion.
 
 ```
 TIER     RESPONSE SLA     ESCALATION
@@ -24,7 +24,7 @@ MEASUREMENT:
   - Enforce: include in rep performance metrics
 ```
 
-Alternative SLA framing by fit × intent (report weekly; if T1 SLA miss rate > 10%, escalate immediately — this is a revenue leak, not a process problem):
+Alternative SLA framing by fit × intent (report weekly; if T1 SLA miss rate >10%, escalate immediately. This is a revenue leak, not a process problem):
 
 ```
 LEAD TYPE                     TARGET RESPONSE SLA     CHANNEL
@@ -56,13 +56,13 @@ CONFLICT RESOLUTION:
 ```
 
 **Routing logic hierarchy:**
-1. **Geography/territory** — route by region or country first
-2. **Account ownership** — if the lead's company has an existing CRM owner, route to that owner
-3. **Segment/tier** — route T1 leads to senior reps; T3 leads to SDRs or nurture
-4. **Round-robin** — within a qualified pool, distribute evenly to prevent cherry-picking
-5. **Capacity cap** — prevent routing to reps above their daily/weekly lead cap
+1. **Geography/territory**: route by region or country first
+2. **Account ownership**: if the lead's company has an existing CRM owner, route to that owner
+3. **Segment/tier**: route T1 leads to senior reps; T3 leads to SDRs or nurture
+4. **Round-robin**: within a qualified pool, distribute evenly to prevent cherry-picking
+5. **Capacity cap**: prevent routing to reps above their daily/weekly lead cap
 
-Document routing rules in CRM as explicit automation — not as "the team knows." For operational depth on routing design, see [[lead-routing]].
+Document routing rules in CRM as explicit automation, not as "the team knows." For operational depth on routing design, see [[lead-routing]].
 
 ## Lead Follow-Up Sequence
 
@@ -75,7 +75,7 @@ DAY 1:               Second phone attempt (different time of day)
 DAY 2:               Email with relevant case study or resource
 DAY 3:               Phone attempt #3 + LinkedIn connection request
 DAY 5:               Email with value-add (not "just checking in")
-DAY 7:               Final attempt email — "Should I close this out?"
+DAY 7:               Final attempt email: "Should I close this out?"
 DAY 10:              If no response → recycle to nurture. Set re-engagement trigger.
 
 RULES:
@@ -85,14 +85,14 @@ RULES:
   - If lead responds but isn't ready → set task for 30/60/90 day follow-up.
 ```
 
-Tier-specific inbound cadence variant (calibrate cadence length and steps against your industry and ACV — high-ACV B2B sales with longer cycles tolerate longer cadences):
+Tier-specific inbound cadence variant (calibrate cadence length and steps against your industry and ACV. High-ACV B2B sales with longer cycles tolerate longer cadences):
 
 ```
 T1 LEAD FOLLOW-UP (High Fit + High Intent)
 Day 0:   Phone call (within 5 min) + confirmation email
 Day 1:   Follow-up email with case study or relevant social proof
 Day 3:   Phone attempt + personalised value email (reference their use case)
-Day 5:   "Break-up" email — sets expectation this is final attempt
+Day 5:   "Break-up" email: sets expectation this is final attempt
 Day 7:   Move to nurture if no response
 
 T2 LEAD FOLLOW-UP

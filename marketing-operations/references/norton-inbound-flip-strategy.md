@@ -29,7 +29,7 @@ Don't rank channels by volume or CAC alone. Rank by:
 The channel that produces highest win rate at shortest cycle time with least AE effort = concentrate budget there.
 
 **Brand Protection as Architectural Choice (Canaani):**
-- VP of Brand has no number — no MQL targets, no pipeline attribution
+- VP of Brand has no number: no MQL targets, no pipeline attribution
 - "I want brand to do crazy fun stuff. I don't want them to think about MQLs."
 - Protect the creative function from the metrics machine → long-term work that makes everything easier
 

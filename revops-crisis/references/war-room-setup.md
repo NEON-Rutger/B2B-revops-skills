@@ -1,5 +1,5 @@
 # War Room Setup & Operations Guide
-**For: B2B scale-ups €15M–150M ARR**
+**For: B2B scale-ups EUR15M-EUR150M ARR**
 
 Operational checklist for activating and running an effective crisis war room.
 
@@ -25,21 +25,21 @@ Operational checklist for activating and running an effective crisis war room.
 ## PHYSICAL/VIRTUAL WAR ROOM SETUP
 
 ### Core Team (Non-Negotiable)
-- **CRO or VP Sales** — Decision authority; crisis owner
-- **RevOps Lead** — Data, analytics, reporting
-- **Finance/CFO** — Revenue verification, board communication
-- **Sales Manager(s)** — Territory intel, rep support
-- **Marketing Lead** (if pipeline-driven) — Demand gen support options
+- **CRO or VP Sales**: Decision authority; crisis owner
+- **RevOps Lead**: Data, analytics, reporting
+- **Finance/CFO**: Revenue verification, board communication
+- **Sales Manager(s)**: Territory intel, rep support
+- **Marketing Lead** (if pipeline-driven): Demand gen support options
 
 ### Extended Team (Add as Needed)
-- **Product Lead** (if churn/data crisis) — Customer needs, roadmap
-- **CS Lead** (if churn crisis) — Customer health, retention strategies
-- **IT/Systems Admin** (if data/system crisis) — Data integrity, backups
-- **CEO** (if forecast miss) — Board strategy, capital decisions
+- **Product Lead** (if churn/data crisis): Customer needs, roadmap
+- **CS Lead** (if churn crisis): Customer health, retention strategies
+- **IT/Systems Admin** (if data/system crisis): Data integrity, backups
+- **CEO** (if forecast miss): Board strategy, capital decisions
 
 ### Physical War Room Setup
 - **Location:** Dedicated space with large displays, whiteboard
-- **Duration:** 1–2 week daily standups; then 3x weekly
+- **Duration:** 1-2 weeks daily standups; then 3x weekly
 - **Technology:**
   - Laptop/desktop per core team member
   - Large screen(s) showing live dashboards
@@ -97,7 +97,7 @@ Operational checklist for activating and running an effective crisis war room.
 - **Forecast variance:** Current forecast vs. guidance
 - **Blockers identified:** Number of deals stuck; by reason
 
-### Daily (Weeks 1–2)
+### Daily (Weeks 1-2)
 - **Pipeline coverage:** Movement toward 2x
 - **New pipeline generated:** Outbound meetings set, partner pipeline activated
 - **Deal acceleration:** Deals moved up in timeline

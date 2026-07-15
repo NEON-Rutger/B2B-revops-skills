@@ -2,7 +2,7 @@
 
 On-demand reference for the marketing-operations skill.
 
-Marketing operations teams typically rely on enrichment data and behavioral data to score and segment leads. But the highest-signal data source — structured customer interviews — is almost never fed back into the marketing data model.
+Marketing operations teams typically rely on enrichment data and behavioural data to score and segment leads. But the highest-signal data source (structured customer interviews) is almost never fed back into the marketing data model.
 
 **The gap:** Sales and CS talk to customers daily. That intelligence rarely flows back into lead scoring, segmentation, or campaign targeting. The result: marketing optimizes for proxy signals instead of the real buying criteria.
 
@@ -16,7 +16,7 @@ Marketing operations teams typically rely on enrichment data and behavioral data
 | **Channel attribution** (how they found you) | Budget allocation | Compare self-reported to system-attributed; adjust channel mix |
 | **Objection patterns** (what almost stopped them) | Objection-handling content, FAQ pages | Create targeted content for top 3 objections |
 
-**The math:** 10 customer interviews produce 40+ content assets AND validate/refine your lead scoring model. This is the highest-ROI activity in marketing operations.
+**The math:** 10 customer interviews, conducted with structured questioning depth, typically yield 40+ content assets AND validate/refine your lead scoring model (Neon practice-based; execution depth varies). This is the highest-ROI activity in marketing operations when run with rigorous methodology.
 
 **Process:**
 1. CS or Sales conducts structured interviews (see `neon-icp` skill for the 8-step process)

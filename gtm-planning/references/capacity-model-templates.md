@@ -186,13 +186,13 @@ Cost:
 ```
 Hire Date | Month 1 | Month 2 | Month 3 | Month 4 | Full Run Rate
 Q1 Hire   | 20%     | 50%     | 80%     | 100%    | €400K (from M5)
-Q2 Hire   | —       | 20%     | 50%     | 80%     | €400K (from M8)
-Q3 Hire   | —       | —       | 20%     | 50%     | €400K (from M11)
+Q2 Hire   |, | 20%     | 50%     | 80%     | €400K (from M8)
+Q3 Hire   |, |, | 20%     | 50%     | €400K (from M11)
 
 Year 1 revenue by hire date (SMB €400K quota rep):
 Q1 Hire: €80K + €200K + €320K + €400K = €1,000K
-Q2 Hire: —   + €80K  + €200K + €320K = €600K
-Q3 Hire: —   + —     + €80K  + €200K = €280K
+Q2 Hire:, + €80K  + €200K + €320K = €600K
+Q3 Hire:, +, + €80K  + €200K = €280K
 Total new rep revenue Year 1: €1,880K (with 3 strategic hires)
 Full-year run rate Year 2: €3 × €400K = €1,200K in capacity
 ```

@@ -42,11 +42,12 @@ The reusable pattern behind most of the above, buildable without a specialist ve
 ```
 Deal stage change (trigger)
   → pull CRM data + call transcripts
-  → structured prompt to the model
+  → structured prompt with tool definitions (e.g. Claude structured outputs, function calling)
+  → model extracts and validates handoff context
   → output written back to CRM or workspace (handoff doc, brief, task)
 ```
 
-Works with GPT-4 or Claude, orchestrated through Zapier, Make, or n8n. This is the pattern to reach for when the client wants handoff automation without adding another point tool to the stack.
+Works with Claude (via structured outputs and tool-use for context extraction) or GPT-4, orchestrated through Zapier, Make, or n8n. Claude's native structured outputs reduce parsing errors and improve context-packet reliability. This is the pattern to reach for when the client wants handoff automation without adding another point tool to the stack.
 
 ## 6. GDPR and EU non-negotiables
 

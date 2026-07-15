@@ -1,4 +1,4 @@
-# WbD Impact Journey — CS Action Framework
+# WbD Impact Journey: CS Action Framework
 
 On-demand reference for the cs-operations skill.
 
@@ -8,11 +8,11 @@ The Impact Journey maps the post-Mutual Commit customer journey into structured 
 
 | Stage | What's happening | CS Action |
 |---|---|---|
-| Mutual Commit | Contract signed — ownership transfers from Sales to CS | O1. Handoff from Sales |
+| Mutual Commit | Contract signed. Ownership transfers from Sales to CS | O1. Handoff from Sales |
 | Onboarding | Setup, training, implementation begins | O2. Customer Kickoff; O3. Joint Impact Plan; O4. Achieve First Impact |
 | Adoption / Retention | Customer uses product, realises core value | A1. Drive Impact Process; A2. Impact Review; A3. Health Scoring; A4. Trigger Plays |
 | Renewal | Customer decides whether to continue | A5. Renewal using SPICED reassessment |
-| Expansion | Customer adds scope, users, or capabilities | E1–E5: Whitespace Planning → Expansion Execution |
+| Expansion | Customer adds scope, users, or capabilities | E1 to E5: Whitespace Planning → Expansion Execution |
 | Advocacy | Customer becomes promoter and reference | Implied: reference requests, case study participation |
 
 ## Health score interpretation by stage
@@ -34,4 +34,4 @@ The Impact Journey maps the post-Mutual Commit customer journey into structured 
 
 **Do not expand before First Impact (Stage O4).** Customers who are still in onboarding and asked about expansion create distrust. The signal to start expansion conversations: customer has achieved the core Impact documented in the Joint Impact Plan AND usage is spreading across the team (multiple stakeholders engaged).
 
-Customers achieving impact in a **single area only** are more at risk of churn than customers with **widespread stakeholder usage** — expand to cover multiple Impact areas wherever possible.
+Customers achieving impact in a **single area only** are more at risk of churn than customers with **widespread stakeholder usage**. Expand to cover multiple Impact areas wherever possible.

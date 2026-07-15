@@ -1,4 +1,4 @@
-# Stack by Stage — Tooling, Budget & Headcount
+# Stack by Stage. Tooling, Budget and Headcount
 
 On-demand reference for the revops-tech-stack skill.
 

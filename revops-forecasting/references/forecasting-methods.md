@@ -2,7 +2,7 @@
 
 On-demand reference for the revops-forecasting skill.
 
-This file holds the detailed mechanics of forecasting Methods 2–4 (the body keeps Method 1 in full plus one-line summaries of these), and the full Commit validation checklist.
+This file holds the detailed mechanics of forecasting Methods 2-4 (the body keeps Method 1 in full plus one-line summaries of these), and the full Commit validation checklist.
 
 ## Method 1: Commit Validation Rules (full checklist)
 
@@ -79,4 +79,4 @@ Then:
   Adjust for seasonality and historical attainment distribution
 ```
 
-**When to use:** For annual planning and capacity planning. This tells you what the team *should* produce given its size and historical productivity. If the bottoms-up model says €8M and the board wants €12M, you have a capacity gap — not a forecasting problem.
+**When to use:** For annual planning and capacity planning. This tells you what the team *should* produce given its size and historical productivity. If the bottoms-up model says €8M and the board wants €12M, you have a capacity gap, not a forecasting problem.

@@ -59,7 +59,7 @@ You oversee a portfolio of B2B SaaS / tech companies with wildly different GTM m
 You can't get a clean, comparable view across portcos. Data is terrible or inconsistent, reporting is biased, and strategy is often driven by HIPPOs and anecdotes instead of a shared revenue architecture.
 
 **I -- Impact**
-You can't judge GTM risk or capital efficiency with confidence. Rule of 40 and forecast durability are guesswork, value-creation becomes reactive firefighting, and your credibility with IC/LPs erodes when stories don't match outcomes.
+You can't judge GTM risk or capital efficiency with confidence. Rule of 40 (revenue growth rate plus free cash flow margin; best-in-class target 50%) and forecast durability are guesswork, value-creation becomes reactive firefighting, and your credibility with IC/LPs erodes when stories don't match outcomes (Aventis Advisors; Abacum, 2026).
 
 **C -- Critical Event**
 Several portcos have missed or sandbagged at the same time. You're rolling out Winning by Design / bowtie thinking and realise that without an execution layer (Rooms, cadence, definitions), it will become another deck.

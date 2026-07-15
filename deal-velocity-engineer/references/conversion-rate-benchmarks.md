@@ -31,4 +31,4 @@ These are the system's vital signs. If conversion drops at a specific stage, tha
 | Proposal Sent | ~65% | Pipeline coverage math |
 | Negotiation | ~85% | Commit validation |
 
-**Source:** Optifai 2024 (939 companies, opportunity-to-closed analysis).
+**Source:** Optifai 2024 (939 companies, opportunity-to-closed analysis; composite benchmark, no segment breakdown). Note: These are blended figures across all deal sizes. Adjust expectations downward for SMB/mid-market deals, upward for enterprise strategic deals.

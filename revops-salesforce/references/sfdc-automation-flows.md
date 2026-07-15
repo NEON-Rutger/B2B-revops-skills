@@ -1,6 +1,6 @@
 # Salesforce Automation & Flow Reference
 
-**As of January 2026**: Process Builder and Workflow Rules are deprecated. All automation must use Salesforce Flow.
+**Critical**: Process Builder and Workflow Rules ended support on 31 December 2025 (now passed). Salesforce ceased accepting new Process Builder creations in Spring 2025. Zero support exists for new issues in Process Builder as of July 2026. All automation must migrate to Salesforce Flow immediately; any remaining Process Builders are a technical debt liability and should be deactivated and replaced.
 
 ## Flow Types
 
@@ -90,7 +90,7 @@ Otherwise → Stay with Flow
 Running both Apex triggers AND flows on same object creates unpredictable execution order. Pick one.
 
 ### 2. DML in Loops
-The single greatest cause of governor limit failures. Always bulkify — process collections, not individual records.
+The single greatest cause of governor limit failures. Always bulkify: process collections, not individual records.
 
 ### 3. Recursive Flows
 After-Save flow updates a record, triggering another After-Save flow. Solutions:
@@ -111,7 +111,7 @@ Referencing record IDs, user IDs, or queue IDs directly. Use Custom Metadata Typ
 1. **Audit**: Document every Process Builder, Workflow Rule, and Apex trigger per object
 2. **Map execution order**: Understand current firing sequence
 3. **Consolidate**: Multiple PBs on same object → one After-Save Flow with Decision branches
-4. **Test in sandbox**: Flow execution order differs from PB — validate all rules
+4. **Test in sandbox**: Flow execution order differs from PB; validate all rules
 5. **Migrate in phases**: One object at a time, lowest-risk first
 6. **Deactivate, don't delete**: Keep old PBs inactive until new Flows validated
 
@@ -162,3 +162,17 @@ After-Save on Lead (create only, Async Path)
   → Map response → Lead fields
   → Trigger scoring recalculation
 ```
+
+### Post-Call Sentiment Analysis (Einstein Conversation Insights)
+```
+Scheduled Flow (daily at 08:00)
+  → Query Opportunities WHERE Stage ≥ Qualification
+    AND Sentiment_Score__c = null
+  → For each Opportunity with recorded calls:
+    → Read Einstein Conversation Insights generative summary
+    → Extract: Sentiment_Score__c, Objections_Found__c, Next_Steps__c
+    → Set Pipeline_Health__c = "At Risk" if objections >2
+    → Create Task for rep: "Address objections per call notes"
+```
+
+This pattern integrates Einstein Conversation Insights (Spring 2026+) for coaching and deal health. Alerts focus on objection density and stakeholder disagreement flagged by the AI.

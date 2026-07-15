@@ -19,7 +19,7 @@ These numbers are the core argument for why partner ecosystems matter. Use them 
 | Win rate multiplier (partner-involved) | **2.8x** higher | Introw, 2024 |
 | ELG deals more likely to close | **53%** more likely | Crossbeam State of Partner Ecosystem, 2023 (500+ GTM leaders) |
 
-**Key insight:** Win rate uplift scales with ecosystem maturity. The jump from 9.4% (1-5 partners) to 37.1% (50+ partners) demonstrates compounding returns from ecosystem investment. This is not a linear relationship — it's exponential.
+**Key insight:** Win rate uplift scales with ecosystem maturity. The jump from 9.4% (1-5 partners) to 37.1% (50+ partners) demonstrates compounding returns from ecosystem investment. This is not a linear relationship. It's exponential.
 
 ### Deal Size & Velocity
 
@@ -50,10 +50,10 @@ These numbers are the core argument for why partner ecosystems matter. Use them 
 | Metric | Value | Source |
 |--------|-------|--------|
 | Average B2B SaaS CAC (all channels) | **$1,200** | SaaS Hero, 2026 |
-| Partner/referral programme CAC | **~$150** | Genesys Growth, 2026 (lowest across all channels) |
-| CAC by stage — Early (<$5M ARR) | **$200-400** (8-12 month payback) | SaaS Hero, 2026 |
-| CAC by stage — Mid ($5-50M ARR) | **$300-600** (15-18 month payback) | SaaS Hero, 2026 |
-| CAC by stage — Enterprise (>$50M ARR) | **$500-800+** (20-24 month payback) | SaaS Hero, 2026 |
+| Partner/referral programme CAC | **~$150** | Genesys Growth, 2026 (lowest across all channels). Compare to average B2B SaaS CAC **$1,200** (SaaS Hero, 2026). |
+| CAC by stage: Early (<$5M ARR) | **$200-400** (8-12 month payback) | SaaS Hero, 2026 |
+| CAC by stage: Mid ($5-50M ARR) | **$300-600** (15-18 month payback) | SaaS Hero, 2026 |
+| CAC by stage: Enterprise (>$50M ARR) | **$500-800+** (20-24 month payback) | SaaS Hero, 2026 |
 | Partner programme LTV:CAC ratio | **3:1 or better** (vs 2.5:1 direct) | SaaS Hero, 2025 |
 | Creator partnerships vs traditional ads | **30-40% lower** cost per lead | Genesys Growth, 2026 |
 
@@ -70,12 +70,12 @@ These numbers are the core argument for why partner ecosystems matter. Use them 
 | Early programme (<18 months) | 5-10% | 5-15% | Crossbeam composite, 2023 |
 | Growth programme (18-36 months) | 15-25% | 15-25% | Crossbeam composite, 2023 |
 | Mature programme (36+ months) | 25-40%+ | 20-30% | Crossbeam composite, 2023 |
-| SMB companies (marketplace/resell) | 20-50% | — | Umbrex analysis, 2025 |
-| Mid-market | 25-45% | — | Umbrex analysis, 2025 |
-| Enterprise (mature co-sell) | 30-60% | — | Umbrex analysis, 2025 |
-| Overall partner-influenced ARR (2025 median) | — | 26-28% | SaaS Hero, 2025 |
-| HubSpot (partnership revenue, 2022) | **45%** | — | HubSpot annual report |
-| Salesforce (partner implementations) | **70%** of all implementations | — | Salesforce, 2024 |
+| SMB companies (marketplace/resell) | 20-50% | N/A | Umbrex analysis, 2025 |
+| Mid-market | 25-45% | N/A | Umbrex analysis, 2025 |
+| Enterprise (mature co-sell) | 30-60% | N/A | Umbrex analysis, 2025 |
+| Overall partner-influenced ARR (2025 median) | N/A | 26-28% | SaaS Hero, 2025 |
+| HubSpot (partnership revenue, 2022) | **45%** | N/A | HubSpot annual report |
+| Salesforce (partner implementations) | **70%** of all implementations | N/A | Salesforce, 2024 |
 
 ### Programme Activation & Scaling
 
@@ -125,7 +125,7 @@ The two largest account mapping platforms merged in an all-stock transaction:
 - **Leadership:** Bob Moore (Co-founder & CEO), Simon Bouchez (Co-founder & COO)
 - **Scale:** 25,000+ companies, 135 employees
 - **HQ:** Philadelphia (Crossbeam) + Paris (Reveal integration)
-- **Impact:** Creates single dominant platform for ecosystem intelligence. Reveal features integrating into Crossbeam over time (Reveal not immediately sunset).
+- **Impact:** Creates single dominant platform for AI-driven ecosystem intelligence. Reveal features integrating into Crossbeam over time (Reveal not immediately sunset).
 
 ### Nearbound Framework (Jared Fuller)
 
@@ -183,7 +183,7 @@ Jay McBain (Chief Analyst, Channels, Partnerships & Ecosystems at Omdia, formerl
 | **Impartner** | USA | End-to-end partner lifecycle (onboarding, deal reg, MDF, performance) | Enterprise with complex, distributed partner ecosystems | Enterprise ($20-50K+/yr) | B+ |
 | **Introw** | **Ghent, Belgium** | CRM-first partner management with AI automation | **EU-based**, SMB/Mid-Market, Salesforce/HubSpot native | SMB/Mid ($329-579+/mo) | **A+ (ISO27001, GDPR, EU data residency)** |
 | **Impact.com** | USA | Diverse partnership management (affiliates, influencers, B2B) | Enterprise e-commerce/DTC (less B2B SaaS optimised) | Enterprise ($10-30K/yr) | B+ |
-| **Allbound / Channelscaler** | USA | Partner enablement, content, deal registration | Mid-Market, merged with Channel Mechanics, strong governance | Mid-Market ($20-50K/yr) | B+ |
+| **Allbound / Channelscaler** | USA | Partner enablement, content, deal registration | Mid-Market, merged with Channel Mechanics 2024, rebranded May 2025, strong governance | Mid-Market ($20-50K/yr) | B+ |
 | **Channeltivity** | USA | PRM with high customisation, CRM integration | Mid-Market, 18+ years track record | Mid-Market ($1,899-2,199/mo) | B+ |
 | **Kiflo** | USA | Lightweight PRM for SMBs | Early-stage partner programmes, simple structure | SMB ($5-15K/yr) | B |
 | **Mindmatrix** | USA | PRM with marketing collateral, training, alliance management | Enterprise with diverse partner types | Enterprise (~$3,495/mo) | B+ |
@@ -201,7 +201,7 @@ Jay McBain (Chief Analyst, Channels, Partnerships & Ecosystems at Omdia, formerl
 
 | Tool | HQ | Primary Capability | Status | Pricing |
 |------|-----|-------------------|--------|---------|
-| **Seismic** (merged with Highspot) | USA | Sales enablement, content, coaching, analytics | Merger announced Feb 2026 | Enterprise ($100K+/yr) |
+| **Seismic** | USA | Sales enablement, content, coaching, analytics | Merger with Highspot announced Feb 2026 (not closed as of July 2026; both operate independently; Seismic is surviving brand post-close) | Enterprise ($100K+/yr) |
 | **HubSpot** (partner tools) | USA (EU data residency) | Built-in partner management within Sales/Marketing Hub | Native CRM | Tier-based ($45-3,200+/mo) |
 | **Salesforce PRM** (Partner Cloud) | USA (EU data residency) | Native CRM partner management | Enterprise-native | Enterprise ($165K+/yr) |
 
@@ -251,7 +251,7 @@ AI is reshaping partner management across four layers:
 - Identification of ideal partner-customer matches (replacing intuition with data)
 - Ecosystem complexity management (McBain's 7→17 partner prediction makes AI essential)
 
-**Critical stat:** 87% of revenue teams used AI in 2025, 96% expect to in 2026. AI in partner management is not a future trend — it's current reality.
+**Critical stat:** 87% of revenue teams used AI in 2025, 96% expect to in 2026. AI in partner management is not a future trend. It's current reality.
 
 ---
 
@@ -263,7 +263,7 @@ Track these for client conversations:
 |-------|------|--------|
 | Crossbeam + Reveal merger | June 2024 | Consolidates account mapping. Single dominant platform for ELG. |
 | Tackle.io acquired by AppDirect | Dec 2025 | Cloud marketplace management consolidating. |
-| Highspot + Seismic merger | Feb 2026 | Sales enablement (incl. partner enablement) consolidating. |
+| Highspot + Seismic merger announced | Feb 2026 | Sales enablement (incl. partner enablement) consolidating. Merger not yet closed as of July 2026; both platforms operate independently. Seismic is surviving brand post-close. |
 | AWS AI agents in Partner Central | 2026 | Hyperscalers embedding AI into partner co-selling workflows. |
 | Azure flat ~3% marketplace fee | 2025 | Dramatically improves partner economics on Azure marketplace. |
 | Alibaba Cloud "Co-Build, Co-Market, Co-Sell" | 2026 | $2M+ dedicated marketing funding for AI ISV partners. |
@@ -298,29 +298,29 @@ Use these to illustrate ecosystem value at scale:
 
 ### Primary Research (use for citation-quality claims)
 
-1. **Crossbeam State of Partner Ecosystem Report, 2023** — 500+ GTM leaders surveyed. Largest available ELG dataset. URL: insider.crossbeam.com
-2. **Crossbeam Partner Impact Analysis, 2024** — Continuous dataset across thousands of companies. Win rate, deal size, velocity metrics.
-3. **PartnerStack Research Lab, 2024** — $500M+ transaction data, 106K+ active partners. URL: partnerstack.com/resources/research-lab
-4. **Impartner/Forrester Total Economic Impact, 2024** — 296% ROI, enterprise-validated methodology.
-5. **Forrester State of Partner Ecosystems, 2025** — Market trends, indirect revenue growth expectations.
-6. **Clazar State of Cloud Marketplace, 2025** — Marketplace adoption and transaction data.
+1. **Crossbeam State of Partner Ecosystem Report, 2023**. 500+ GTM leaders surveyed. Largest available ELG dataset. URL: insider.crossbeam.com
+2. **Crossbeam Partner Impact Analysis, 2024**. Continuous dataset across thousands of companies. Win rate, deal size, velocity metrics.
+3. **PartnerStack Research Lab, 2024**. $500M+ transaction data, 106K+ active partners. URL: partnerstack.com/resources/research-lab
+4. **Impartner/Forrester Total Economic Impact, 2024**. 296% ROI, enterprise-validated methodology.
+5. **Forrester State of Partner Ecosystems, 2025**. Market trends, indirect revenue growth expectations.
+6. **Clazar State of Cloud Marketplace, 2025**. Marketplace adoption and transaction data.
 
 ### Analyst Sources
 
-7. **Jay McBain (Omdia/Canalys)** — Channel Index forecasts, partner-per-customer predictions, AI orchestration thesis.
-8. **IDC** — Salesforce ecosystem multiplier, marketplace penetration data.
-9. **Techaisle** — Channel & ecosystem predictions 2026-2028.
+7. **Jay McBain (Omdia/Canalys)**. Channel Index forecasts, partner-per-customer predictions, AI orchestration thesis.
+8. **IDC**. Salesforce ecosystem multiplier, marketplace penetration data.
+9. **Techaisle**. Channel & ecosystem predictions 2026-2028.
 
 ### Case Study Sources
 
-10. **Crossbeam case studies** — Vidyard (14x), Intercom (+30%), Fundraise Up (350% deals), Census (+34% ACV), LeanData (+40% AOV).
-11. **Shopify** — 32% merchant growth from app ecosystem, $1B+ partner revenue.
-12. **Salesforce** — $12.4B partner revenue FY2025, 70% partner-led implementations.
+10. **Crossbeam case studies**. Vidyard (14x), Intercom (+30%), Fundraise Up (350% deals), Census (+34% ACV), LeanData (+40% AOV).
+11. **Shopify**. 32% merchant growth from app ecosystem, $1B+ partner revenue.
+12. **Salesforce**. $12.4B partner revenue FY2025, 70% partner-led implementations.
 
 ### Tool & Market Data
 
-13. **SaaS Hero, 2026** — CAC benchmarks by stage, LTV:CAC ratios.
-14. **Genesys Growth, 2026** — Channel-specific CAC comparison.
-15. **Suger.io, 2025** — Cloud marketplace GMV projections.
-16. **Introw, 2024** — Win rate multiplier, deal cycle reduction, pipeline increase from account mapping.
-17. **AchieveUnite, 2026** — Partner ecosystem trend predictions.
+13. **SaaS Hero, 2026**. CAC benchmarks by stage, LTV:CAC ratios.
+14. **Genesys Growth, 2026**. Channel-specific CAC comparison.
+15. **Suger.io, 2025**. Cloud marketplace GMV projections.
+16. **Introw, 2024**. Win rate multiplier, deal cycle reduction, pipeline increase from account mapping.
+17. **AchieveUnite, 2026**. Partner ecosystem trend predictions.

@@ -8,19 +8,25 @@ Expansion signals and the CS-to-Sales ownership model live in the skill body. Th
 
 ```
 EXPANSION SCORING MODEL:
-  Score 0-100 based on:
-    Usage growth (30%)         — is usage increasing month-over-month?
-    Stakeholder breadth (25%)  — are new people engaging?
-    Feature depth (20%)        — are they using advanced features?
-    Health trajectory (15%)    — is health score trending up?
-    Contract headroom (10%)    — is there room to expand (seats, usage, products)?
+  Score 0-100 based on (Neon practice-based weights):
+    Usage growth (30%): is usage increasing month-over-month?
+    Stakeholder breadth (25%): are new people engaging?
+    Feature depth (20%): are they using advanced features?
+    Health trajectory (15%): is health score trending up?
+    Contract headroom (10%): is there room to expand (seats, usage, products)?
+
+  NOTE: Weights vary by business model (consumption-based expansion prioritises usage;
+  seat-based prioritises stakeholder breadth). Adjust weights quarterly based on your
+  expansion conversion rates.
 
 EXPANSION OWNERSHIP (by score):
   Score 0-40:   CSM monitors. No active sell.
   Score 41-70:  CSM plants seeds. Shares relevant content. Mentions capabilities.
   Score 71-100: CSM initiates expansion conversation. If deal > threshold → hand to AE.
 
-  Handoff threshold: Varies by org. Typical: expansion > 30% of current ACV → AE involved.
+  Handoff threshold: Varies by org. Recommended: expansion >30% of current ACV → Sales
+  involved (Neon practice-based). Adjust threshold based on your CSM capacity and
+  expansion deal-size distribution.
   Below threshold: CSM closes expansion directly (with approval).
 ```
 

@@ -37,9 +37,9 @@ Instead of a single "fit" number, score two independent dimensions:
 
 | Tier | Selection Fit | Urgency Fit | MQL Action |
 |------|-------------|-------------|------------|
-| **T1 — Perfect Fit** | ≥70 | ≥60 | Immediate routing to AE. Speed-to-lead <1 hour. |
-| **T2 — Good Fit** | ≥50 | ≥40 | Route to SDR for qualification call. Standard SLA. |
-| **T3 — Opportunistic** | ≥30 | ≥30 | Add to nurture sequence. Re-score monthly. |
+| **T1 (Perfect Fit)** | ≥70 | ≥60 | Immediate routing to AE. Speed-to-lead <1 hour. |
+| **T2 (Good Fit)** | ≥50 | ≥40 | Route to SDR for qualification call. Standard SLA. |
+| **T3 (Opportunistic)** | ≥30 | ≥30 | Add to nurture sequence. Re-score monthly. |
 | **Below threshold** | <30 | Any | Do not route. Passive nurture only. |
 
 **Why this is better than generic scoring:** Selection Fit uses ICP-specific criteria, not generic firmographics. Urgency Fit captures buying intent, not just engagement volume. The tier system (T1/T2/T3) aligns with how sales qualifies deals using SPICED. SDRs and AEs speak the same qualification language as marketing.

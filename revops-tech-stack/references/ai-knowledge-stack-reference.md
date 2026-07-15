@@ -1,5 +1,5 @@
-# AI Knowledge Stack — Quick Reference
-*Last updated: April 2026. Pricing and ratings current as of this date.*
+# AI Knowledge Stack. Quick Reference
+*Pricing data: April 2026. Vendor ratings: July 2026. Quarterly pricing refresh required.*
 
 ## What the knowledge layer does
 
@@ -71,24 +71,24 @@ GDPR personal data involved?
 
 ---
 
-## Top vendor ratings (G2 / Capterra)
+## Top vendor ratings (G2 / Capterra, as of July 2026)
 
 | Vendor | Rating | Reviews | Note |
 |--------|--------|---------|------|
-| Glean | 4.8/5 | 130+ | Gartner eMQ Emerging Leader |
-| Guru | 4.8/5 | 624 (Capterra) | #1 KM satisfaction |
+| Glean | 4.7/5 G2 | 162 (July 2026) | Gartner eMQ Emerging Leader |
+| Guru | 4.8/5 G2 / 4.7/5 Gartner | 639 Capterra (July 2026) | #1 KM satisfaction |
 | Dust.tt | 4.9/5 | 19 | Small sample, very positive |
 | Pinecone | 4.6/5 | 39 | #1 vector DB on G2 |
 | Weaviate | 4.8/5 | 30 | Best knowledge graphs |
-| Qdrant | ~12 reviews | — | EU sovereign option |
-| ChromaDB | Limited | — | Prototype only, not production |
+| Qdrant | ~12 reviews | N/A | EU sovereign option |
+| ChromaDB | Limited | N/A | Prototype only, not production |
 | Mem.ai | 1/5 | 2 | Avoid |
 
 ---
 
 ## Critical insight
 
-**Chunking quality > embedding model choice.** Semantic chunking: 0.79-0.82 faithfulness. Naive chunking: 0.47-0.51. A 60% improvement. Design chunking first, pick tools second.
+**Chunking quality > embedding model choice.** Semantic chunking outperforms naive chunking significantly (Neon practice-based). Design chunking first, pick tools second.
 
 ---
 

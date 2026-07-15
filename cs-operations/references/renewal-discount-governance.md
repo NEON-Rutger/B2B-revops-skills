@@ -4,7 +4,7 @@ On-demand reference for the cs-operations skill.
 
 ## The Discount Sunset Problem
 
-The #1 cause of contentious renewals: the initial deal had a discount that was never documented to expire. At renewal, the customer's anchor is what they paid — not what the product is worth. Every CSM dreads the conversation: "Why is my renewal 25% higher?"
+The #1 cause of contentious renewals: the initial deal had a discount that was never documented to expire. At renewal, the customer's anchor is what they paid, not what the product is worth. Every CSM dreads the conversation: "Why is my renewal 25% higher?"
 
 This is a governance failure, not a customer problem. The fix is structural.
 
@@ -20,7 +20,7 @@ This is a governance failure, not a customer problem. The fix is structural.
 
 **Step 2: Frame the step-up (T-60).** "Your initial agreement included a first-year pricing benefit as part of [commitment/early adoption]. The renewal reflects the full value of the platform, which has [added X features / expanded Y capabilities / supported Z% more users than originally scoped]."
 
-**Step 3: Offer graduated step-up if needed (T-30).** If the customer pushes back hard: 50% of the price increase in Year 1, full price Year 2. This is a save play, not a negotiation tactic — use only when the alternative is churn.
+**Step 3: Offer graduated step-up if needed (T-30).** If the customer pushes back hard: 50% of the price increase in Year 1, full price Year 2. This is a save play, not a negotiation tactic. Use only when the alternative is churn.
 
 ## Save Plays with Pricing Components
 

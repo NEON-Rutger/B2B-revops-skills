@@ -8,7 +8,7 @@ This is your operational blueprint. Use it to sequence your AI adoption.
 
 Each phase has gates (go/no-go decisions), specific activities, and success metrics.
 
-## Phase 1: Discover (Weeks 1–3)
+## Phase 1: Discover (Weeks 1 to 3)
 
 **Goal:** Identify which processes, decisions, and teams benefit most from AI. Build business case.
 
@@ -19,10 +19,10 @@ Each phase has gates (go/no-go decisions), specific activities, and success metr
 - Build financial case: time savings, quality improvements, cost avoidance
 - Check regulatory landscape (Works council notification if EU-based)
 
-**Duration:** 2–3 weeks
+**Duration:** 2 to 3 weeks
 
 **Success metrics:**
-- 3–5 priority processes identified
+- 3 to 5 priority processes identified
 - Business case quantified (conservative estimate OK here)
 - Regulatory blockers identified (early)
 - Executive alignment on first pilot
@@ -31,7 +31,7 @@ Each phase has gates (go/no-go decisions), specific activities, and success metr
 
 ---
 
-## Phase 2: Pilot (Weeks 4–8)
+## Phase 2: Pilot (Weeks 4 to 8)
 
 **Goal:** Test one AI application in a controlled environment with a small, engaged team. Prove concept. Learn what doesn't work.
 
@@ -59,7 +59,7 @@ Day 5-7: Build
   - Safety check: confirm no data leakage, no PII exposure, no bias amplification
 
 Day 8-10: Run
-  - Live pilot: 100–200 records through AI + human decision
+  - Live pilot: 100 to 200 records through AI + human decision
   - Log: inputs, AI output, human decision, time taken
   - Weekly standups: team feedback, quick fixes to parameters
   - Incident log: any errors, any weird outputs, any governance issues
@@ -82,7 +82,7 @@ Day 13-14: Document
 - **Consistency:** Same input yields same output. Target: 95%+ (identify edge cases).
 - **Speed:** Time per decision (AI vs. human). Target: 60%+ faster.
 - **Adoption:** Team using tool without prompting. Target: 80%+ of available opportunities used.
-- **Confidence:** Team trusts AI outputs (survey 1–5). Target: 3.5+.
+- **Confidence:** Team trusts AI outputs (survey 1 to 5). Target: 3.5+.
 
 **Kill criteria (when to stop an initiative):**
 - Accuracy <65% (tool not reliable enough)
@@ -100,9 +100,9 @@ Day 13-14: Document
 
 ---
 
-## Phase 3: Scale (Weeks 9–16)
+## Phase 3: Scale (Weeks 9 to 16)
 
-**Goal:** Expand from one team to 3–4 teams. Roll out with clear playbooks. Build confidence.
+**Goal:** Expand from one team to 3 to 4 teams. Roll out with clear playbooks. Build confidence.
 
 **Activities:**
 - Expand to adjacent teams (similar roles, similar processes)
@@ -111,10 +111,10 @@ Day 13-14: Document
 - Build skill: structured training, hands-on practice, certification (optional but effective)
 - Gather feedback: monthly pulse survey, open suggestion channel
 
-**Duration:** 6–8 weeks
+**Duration:** 6 to 8 weeks
 
 **Success metrics:**
-- 3–4 teams active, 60%+ usage rate
+- 3 to 4 teams active, 60%+ usage rate
 - Accuracy sustained (75%+) or improving
 - Incident rate <1 per 100 active users
 - Team confidence increasing (sentiment survey)
@@ -128,7 +128,7 @@ Day 13-14: Document
 
 ---
 
-## Phase 4: Embed (Weeks 17–26)
+## Phase 4: Embed (Weeks 17 to 26)
 
 **Goal:** Make AI usage standard operating procedure. Integrate into workflows, performance metrics, hiring.
 
@@ -139,7 +139,7 @@ Day 13-14: Document
 - Feedback loops: monthly review of outputs, retraining as needed
 - Build organizational muscle memory: "this is how we work now"
 
-**Duration:** 8–10 weeks
+**Duration:** 8 to 10 weeks
 
 **Success metrics:**
 - 80%+ usage rate sustained
@@ -156,7 +156,7 @@ Day 13-14: Document
 
 ---
 
-## Phase 5: Govern (Ongoing, starting week 26+)
+## Phase 5: Govern (Ongoing, starting week 26 and beyond)
 
 **Goal:** Ensure sustained use, manage risk, optimize continuously.
 
@@ -194,7 +194,7 @@ Agenda:
 Decision rights:
 - Quick fix (parameter tweak, training gap): PM decides, implements by Thursday
 - Larger issue (tool limitation, design change): escalate to steering, decide within 1 week
-- Kill decision: steering committee vote (Weeks 1–4 of pilot)
+- Kill decision: steering committee vote (Weeks 1 to 4 of pilot)
 
 OUTPUT:
 - 1-pager: adoption %, issues, next week's focus
@@ -203,8 +203,8 @@ OUTPUT:
 
 ---
 
-This framework takes 6–9 months from Discover to full Embed. That's realistic. GenAI adoption is not a 6-week sprint. It's a quarterly narrative.
+This framework takes 6 to 9 months from Discover to full Embed. That's realistic. GenAI adoption is not a 6-week sprint. It's a quarterly narrative.
 
-Your biggest risk isn't the technology. It's abandoning the change process too early when adoption looks slow (weeks 4–6 is always slow), or trying to move faster than your organization can absorb.
+Your biggest risk isn't the technology. It's abandoning the change process too early when adoption looks slow (weeks 4 to 6 is always slow), or trying to move faster than your organization can absorb.
 
 Move at the speed of trust-building, not the speed of the technology.

@@ -6,13 +6,13 @@ Different personas in the DMU care about different SPICED elements. Tailor your 
 
 **Chief Revenue Officer (Economic Buyer, Executive Sponsor)**
 - Cares most about: Impact (revenue upside, forecast accuracy, growth targets), Critical Event (board cycle, capital efficiency), Decision (process, speed to implement)
-- SPICED language: "You're aiming for 50% growth. Today your forecast is ±30%, which makes planning risky. If we get to ±10%, you can confidently hire and budget. Board meets in May — 12-week window to show improvement."
+- SPICED language: "You're aiming for 50% growth. Today your forecast is ±30%, which makes planning risky. If we get to ±10%, you can confidently hire and budget. Board meets in May (12-week window to show improvement)."
 - Key question: "If you could choose one thing to fix in your GTM in the next quarter, what would it be?"
 - Objection handler: Never lead with features. Lead with business outcomes. "This solves your forecast problem because we embed qualification discipline at each stage."
 
 **VP Sales (Champion, User Buyer)**
 - Cares most about: Situation (how it fits their team's workflow), Pain (rep experience, pipeline quality), Decision (ease of adoption, rep buy-in)
-- SPICED language: "Your reps are working low-quality pipeline because there's no shared qualification standard. SPICED gives them a framework that actually works — helps them disqualify faster and focus on winnable deals."
+- SPICED language: "Your reps are working low-quality pipeline because there's no shared qualification standard. SPICED gives them a framework that actually works. It helps them disqualify faster and focus on winnable deals."
 - Key question: "What does a bad rep experience look like in your current process? Where do reps get stuck?"
 - Objection handler: Address adoption head-on. "We know reps won't use a framework that feels like extra work. SPICED lives in your CRM; it's how deals move through stages. Reps adopt it because it makes their job easier, not harder."
 

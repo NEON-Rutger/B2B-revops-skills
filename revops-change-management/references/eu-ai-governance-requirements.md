@@ -23,26 +23,26 @@ These trigger mandatory consultation:
 - Compensation/commission calculation
 - Customer segmentation with employment implications
 
-**Planning timeline (must reserve 4–8 weeks before rollout):**
+**Planning timeline (must reserve 4 to 8 weeks before rollout):**
 
 ```
-Weeks 1–2: Works council notification
+Weeks 1 to 2: Works council notification
 - Formal written notice of AI introduction
 - Technical documentation: how the tool works, decision logic
 - Impact assessment: what jobs/roles affected, what data used
 
-Weeks 2–4: Consultation process
+Weeks 2 to 4: Consultation process
 - Works council meets, gathers employee input
 - External expert review (Germany, some others)
 - Negotiation of safeguards, audit rights, data handling
 
-Weeks 4–6: Remediation
+Weeks 4 to 6: Remediation
 - Adjust system based on feedback
 - Document agreed safeguards
 - Build monitoring/transparency mechanisms
 - Employee communication plan
 
-Weeks 6–8: Implementation
+Weeks 6 to 8: Implementation
 - Final approval sign-off
 - Deploy with agreed controls
 - Ongoing reporting to works council

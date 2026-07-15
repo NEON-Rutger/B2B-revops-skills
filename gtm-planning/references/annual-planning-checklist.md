@@ -158,10 +158,8 @@ Example: Hire 2 SMB AEs in Q1
 Rep Name          Account Count  Revenue Opp.  Tier Distribution    Health
 Sarah (AE MM)     28            €2.1M         2 Enterprise, 26 MM  Balanced
 Marcus (AE MM)    32            €1.8M         0 Enterprise, 32 MM  Growth
-Team Average      30            €2.0M         —                    —
-Variance          +/- 7%        +/- 10%       Unbalanced           —
-
-Action: Move 2 mid-market accounts from Marcus to bring balance within 5%
+Team Average      30            €2.0M,, 
+Variance          +/- 7%        +/- 10%       Unbalanced, Action: Move 2 mid-market accounts from Marcus to bring balance within 5%
 ```
 
 ### Handoff Timeline

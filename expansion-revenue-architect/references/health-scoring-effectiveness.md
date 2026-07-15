@@ -2,7 +2,7 @@
 
 On-demand reference for the expansion-revenue-architect skill.
 
-Does health scoring actually work? The data says yes — but only when done well.
+Does health scoring actually work? The data says yes, but only when done well.
 
 | Finding | Data Point | Source |
 |---------|-----------|--------|

@@ -32,10 +32,10 @@ Stakeholders        Contacts engaged      Org chart coverage     Relationship wh
 
 1. **Build the map** for each account in your high-touch and mid-touch segments
 2. **Score each dimension** (0-100 based on penetration)
-3. **Calculate total whitespace score** — average across 5 dimensions
+3. **Calculate total whitespace score**, average across 5 dimensions
 4. **Prioritise by**: whitespace score x health score x contract timing
-5. **Review in QBR** — present to customer as growth partnership, not sales pitch
-6. **Update quarterly** — whitespace changes as customers grow and your product evolves
+5. **Review in QBR**, present to customer as growth partnership, not sales pitch
+6. **Update quarterly**, whitespace changes as customers grow and your product evolves
 
 **Whitespace -> Expansion Pipeline conversion targets:**
 
@@ -45,7 +45,7 @@ Stakeholders        Contacts engaged      Org chart coverage     Relationship wh
 | Mid-touch (EUR10-50K) | Top 20% mapped | 25% become pipeline within 6 months | 40-50% |
 | Low-touch (<EUR10K) | Product-led signals only | 10% auto-convert via in-app | 30-40% |
 
-## The Expansion Scoring Model — Mechanics
+## The Expansion Scoring Model, Mechanics
 
 Not all expansion signals are equal. Score them systematically across five weighted components:
 

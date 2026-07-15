@@ -11,13 +11,13 @@ Every expansion motion (upsell, cross-sell, add-on) needs its own deal record in
 - Each has its own sales cycle, close date, ACV delta, and conversion rate
 - Mixing into new-business pipeline poisons both datasets
 - Can't read new-logo win rate or expansion velocity cleanly
-- In WbD terms: expansion is CR7 (Recurring Impact → Maximum Impact) and Δt7 (Time to Expand) — you need clean objects to measure both
+- In WbD terms: expansion is CR7 (Recurring Impact → Maximum Impact) and Δt7 (Time to Expand), you need clean objects to measure both
 
 ---
 
 ## 2. Three-Pipeline Architecture
 
-### Pipeline 1 — New Business (left side of bow tie)
+### Pipeline 1, New Business (left side of bow tie)
 
 Standard acquisition stages with SPICED gates:
 
@@ -32,14 +32,14 @@ Standard acquisition stages with SPICED gates:
 | Closed Won | 100% | Signed |
 | Closed Lost | 0% | Lost reason required |
 
-### Pipeline 2 — Expansion (right side of bow tie)
+### Pipeline 2, Expansion (right side of bow tie)
 
-Shorter stages — trust exists. But with type-conditional rigour:
+Shorter stages, trust exists. But with type-conditional rigour:
 
 | Stage | Probability | Gate |
 |---|---|---|
 | Expansion Identified | 10% | Signal documented, CSM confirms timing |
-| Discovery Qualified* | 20% | *Only for "Cross-sell (new DMU)" type — full SPICED required |
+| Discovery Qualified* | 20% | *Only for "Cross-sell (new DMU)" type, full SPICED required |
 | Solution Fit* | 40% | *Only for "Cross-sell (new DMU)" type |
 | Needs Assessment | 30%/60%** | Discovery done, SPICED updated for new pain |
 | Proposal Sent | 60%/70%** | Commercial terms shared |
@@ -50,13 +50,13 @@ Shorter stages — trust exists. But with type-conditional rigour:
 
 **Probability adjusts: upsells enter Needs Assessment at higher effective probability than new-DMU cross-sells. Use `expansion_type` filter in forecasting.
 
-### Pipeline 3 — Renewals (retention)
+### Pipeline 3, Renewals (retention)
 
 Auto-created by workflow on original Closed Won. Close date = contract end − 90 days.
 
 | Stage | Gate |
 |---|---|
-| Active Contract | 6–12 months out |
+| Active Contract | 6-12 months out |
 | Upcoming Renewal | <90 days, CSM preparing |
 | Renewal Proposal Sent | Terms shared |
 | Negotiation | Discussion active |
@@ -76,18 +76,18 @@ This is the most important design decision. Not all expansion is the same motion
 **Examples**: More seats, higher tier, additional capacity, premium features.
 **Sales cycle**: Short. Often a conversation, not a negotiation.
 **Pipeline path**: Identified → Proposal → Won (skip Needs Assessment if simple).
-**SPICED**: Refresh only — the original pain still applies, just more of it.
+**SPICED**: Refresh only, the original pain still applies, just more of it.
 **Win rate benchmark**: 50%+.
 **Velocity benchmark**: Days to weeks.
 
 ### Type 2: Cross-Sell (Warm)
 
-**DMU**: Partial overlap — existing champion introduces new stakeholder, but there's a new budget or decision process.
+**DMU**: Partial overlap, existing champion introduces new stakeholder, but there's a new budget or decision process.
 **Examples**: New product module for existing team, adjacent use case championed by same person but involving new approvers.
 **Sales cycle**: Moderate. Discovery needed on the new pain, but existing relationships accelerate.
 **Pipeline path**: Identified → Needs Assessment → Proposal → Negotiation → Won.
-**SPICED**: Partial refresh — Situation similar, Pain and Impact are new, Decision process may differ.
-**Win rate benchmark**: 30–40%.
+**SPICED**: Partial refresh, Situation similar, Pain and Impact are new, Decision process may differ.
+**Win rate benchmark**: 30-40%.
 **Velocity benchmark**: Weeks to low months.
 
 ### Type 3: Cross-Sell (New DMU)
@@ -97,8 +97,8 @@ This is the most important design decision. Not all expansion is the same motion
 **Sales cycle**: Full. This is a new-logo sale inside a known company. Trust is with the account, not the buying group.
 **Pipeline path**: Identified → Discovery Qualified → Solution Fit → Proposal → Negotiation → Won.
 **SPICED**: Full and new. Different Situation (department context), different Pain (they may not know BU-A uses the product), different Impact, different Critical Event, different Decision process.
-**Win rate benchmark**: 20–30%.
-**Velocity benchmark**: Months — comparable to new business.
+**Win rate benchmark**: 20-30%.
+**Velocity benchmark**: Months, comparable to new business.
 
 ### The Litmus Test
 
@@ -138,7 +138,7 @@ In HubSpot: the expansion deal associates to **different contacts** than the ori
 
 ### SPICED Is Mandatory and Full
 
-Not a refresh — a **new SPICED**:
+Not a refresh, a **new SPICED**:
 
 | Component | Original Deal | New-DMU Cross-Sell |
 |---|---|---|
@@ -212,11 +212,11 @@ This enables:
 ### Company Properties
 
 Aggregate fields on the Company record:
-- `arr_current` — total current ARR (sum of active deals)
-- `customer_status` — Active / Churned / At Risk
-- `expansion_pipeline_active` — Yes/No
-- `total_expansion_deals` — count
-- `first_expansion_date` — for Δt7 calculation
+- `arr_current`, total current ARR (sum of active deals)
+- `customer_status`, Active / Churned / At Risk
+- `expansion_pipeline_active`, Yes/No
+- `total_expansion_deals`, count
+- `first_expansion_date`, for Δt7 calculation
 
 ---
 
@@ -228,7 +228,7 @@ Aggregate fields on the Company record:
 |---|---|---|---|
 | `expansion_type` | Dropdown | Upsell / Cross-sell (warm) / Cross-sell (new DMU) | Drives stage requirements, reporting, forecast weighting |
 | `expansion_source` | Dropdown | CS-identified / Customer request / Marketing signal / Usage trigger | Attribution for expansion pipeline |
-| `arr_delta` | Currency | — | Incremental value (not total contract) |
+| `arr_delta` | Currency |, | Incremental value (not total contract) |
 | `associated_original_deal` | Deal association | Link to original deal | Lineage, Δt7 |
 | `csm_owner` | HubSpot user | Copied from company | Keeps CS visible even when AE runs commercial |
 
@@ -237,8 +237,8 @@ Aggregate fields on the Company record:
 | Property | Type | Values | Purpose |
 |---|---|---|---|
 | `cross_sell_intro_source` | Dropdown | Champion referral / Direct outreach / Marketing ABM | Path optimisation |
-| `new_dmu_department` | Text | — | Which department/BU (for new-DMU type) |
-| `new_dmu_budget_independent` | Checkbox | — | Whether BU-B has independent budget |
+| `new_dmu_department` | Text |, | Which department/BU (for new-DMU type) |
+| `new_dmu_budget_independent` | Checkbox |, | Whether BU-B has independent budget |
 
 ### SPICED Properties (Same as New Business)
 
@@ -246,7 +246,7 @@ Reuse the SPICED property group: `spiced_situation`, `spiced_pain`, `spiced_impa
 
 For upsells: SPICED refresh (existing fields updated).
 For warm cross-sell: partial new SPICED (some fields new, some refreshed).
-For new-DMU cross-sell: all fields must be new — gate advancement on completeness.
+For new-DMU cross-sell: all fields must be new, gate advancement on completeness.
 
 ---
 
@@ -263,7 +263,7 @@ CSMs should **not** create expansion deals manually. They flag signals; the syst
    - "Cross-sell opportunity" → `expansion_type` = Cross-sell (warm)
    - "New department interest" → `expansion_type` = Cross-sell (new DMU)
 3. Create deal in Expansion Pipeline
-   - Name: "[Company] — [expansion_type] — [date]"
+   - Name: "[Company], [expansion_type], [date]"
    - Owner: `account_executive` from company (or territory owner for new-DMU)
    - Copy: `arr_current`, `health_score`, `csm_owner` from company
 4. Create task for AE: "Review expansion opportunity", due 48h
@@ -289,7 +289,7 @@ With clean pipelines, type tagging, and associations, you can answer:
 | Question | How | Expected Insight |
 |---|---|---|
 | Win rate by expansion type? | Filter expansion pipeline by `expansion_type` | Upsell ~50%+, warm cross-sell ~30%, new-DMU ~20% |
-| Velocity by type? | Average days in pipeline by `expansion_type` | New-DMU is 2–3× longer than upsell |
+| Velocity by type? | Average days in pipeline by `expansion_type` | New-DMU is 2-3× longer than upsell |
 | Expansion pipeline by source? | Group by `expansion_source` | Is CS generating enough, or marketing doing heavy lifting? |
 | Best intro path for cross-sells? | Group by `cross_sell_intro_source` | Champion referral converts highest |
 | Time to first expansion (Δt7)? | `first_expansion_date` − original `closed_won_date` | By segment, by product, by implementation path |
@@ -306,7 +306,7 @@ With clean pipelines, type tagging, and associations, you can answer:
 | Expansion ACV | Commercial Owner | CS Role | Sales Involvement |
 |---|---|---|---|
 | < €10K | CSM | Owns end-to-end | None (unless escalated) |
-| €10K–50K | AM or AE | Provides context, stays in meetings | Runs commercial with CS support |
+| €10K-50K | AM or AE | Provides context, stays in meetings | Runs commercial with CS support |
 | > €50K | AE (full cycle) | Introduces, advisory | Full sales process |
 
 ### By Complexity

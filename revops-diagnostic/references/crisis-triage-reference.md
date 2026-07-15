@@ -1,4 +1,4 @@
-# Revenue Crisis Triage & Emergency Response — Reference
+# Revenue Crisis Triage & Emergency Response: Reference
 
 *Converted from revops-crisis skill. This content is now a reference for revops-diagnostic. When multiple systems break simultaneously, use this crisis triage framework before running standard diagnostics.*
 
@@ -11,13 +11,13 @@ A crisis is not "we missed a number." A crisis is when multiple system layers br
 ### Threshold Triggers (Any ONE = Crisis Mode)
 
 ```
-FORECAST:  ±30%+ variance for 2+ consecutive quarters
-WIN RATE:  Declined 5+ points over 3 quarters
-PIPELINE:  Coverage below 3x AND falling month-over-month
-RETENTION: NRR below 90% OR GRR below 80%
-DATA:      Critical deal fields <70% complete; CRM ≠ finance by >10%
-TRUST:     Sales blames marketing blames CS blames product (3+ parties)
-PEOPLE:    2+ top performers leaving in one quarter; open cynicism
+FORECAST:  ±30%+ variance for 2+ consecutive quarters (Neon practice-based)
+WIN RATE:  Declined 5+ points over 3 quarters (Neon practice-based)
+PIPELINE:  Coverage below 3x AND falling month-over-month (Neon practice-based)
+RETENTION: NRR below 90% (Neon practice-based)
+DATA:      Critical deal fields <70% complete; CRM ≠ finance by >10% (Neon practice-based)
+TRUST:     Sales blames marketing blames CS blames product (3+ parties) (Neon practice-based)
+PEOPLE:    2+ top performers leaving in one quarter; open cynicism (Neon practice-based)
 ```
 
 ### The Multi-System Failure Pattern
@@ -36,9 +36,9 @@ If you see data corruption + unclear process + silent wars between functions, yo
 
 ## The Emergency Triage Protocol (4 Weeks)
 
-### Week 1: DATA AUDIT — Can You Trust Your Data?
+### Week 1: DATA AUDIT. Can You Trust Your Data?
 
-**The Rule:** If data quality <70% on critical fields, STOP. Nothing else matters.
+**The Rule:** If data quality <70% on critical fields, STOP. Nothing else matters. (Neon practice-based threshold)
 
 ```
 EMERGENCY DATA AUDIT (sample 200 random open deals):
@@ -54,7 +54,7 @@ CRITICAL FIELDS                                   TARGET
 □ Customer name matches finance system?           99%+
 
 SCORING:
-<70% at target = DATA CRISIS. Run 5-day blitz before anything else.
+<70% at target = DATA CRISIS. Run 5-day blitz before anything else. (Neon practice-based threshold)
 70-85%         = ACCEPTABLE. Proceed with caveats on all forecasts.
 >85%           = GOOD. Proceed with confidence.
 ```
@@ -64,7 +64,7 @@ SCORING:
 - Day 2-3: RevOps + CRM admin run bulk updates on objective data. Pull in worst-data reps to update their own deals. Fix validation rules.
 - Day 4-5: Establish daily data standup (15 min). Weekly data audit report. Assign data owner per team.
 
-### Week 1-2: CASH DIAGNOSIS — What's the Immediate Revenue Risk?
+### Week 1-2: CASH DIAGNOSIS. What's the Immediate Revenue Risk?
 
 **The Rule:** In a crisis, protect cash first. Senior people on the top 10 at-risk deals.
 
@@ -84,15 +84,15 @@ THE 2-HOUR CASH DIAGNOSIS:
 15 minutes. Every day. CRO + VP Sales + VP CS + RevOps.
 One line per deal: status, next action, owner, date. This is a war room. Run for 60 days.
 
-### Week 2-3: ROOT CAUSE — Six Stages of Check in FAST Mode
+### Week 2-3: ROOT CAUSE. Six Stages of Check in FAST Mode
 
 Reference: For full methodology, see revops-diagnostic skill.
 
 ```
-DAY 1: PURPOSE    — Clear, agreed definition of success? Target conflict?
-DAY 2: DEMAND     — Real market demand? Right ICP? Problem still urgent?
-DAY 3: CAPABILITY — Skills, tools, structure match the motion we're running?
-DAY 4: FLOW       — Pick 20 random deals. Where do they stall? Bottleneck?
+DAY 1: PURPOSE    : Clear, agreed definition of success? Target conflict?
+DAY 2: DEMAND     : Real market demand? Right ICP? Problem still urgent?
+DAY 3: CAPABILITY : Skills, tools, structure match the motion we're running?
+DAY 4: FLOW       : Pick 20 random deals. Where do they stall? Bottleneck?
 DAY 5: SYSTEM CONDITIONS & THINKING
        Data trusted? Stage exit criteria defined? Leadership mental model
        matches reality?
@@ -173,7 +173,7 @@ Insight = 1:     Pull top 5 wins and 5 losses. Pattern-match.
 
 ```
 □ First structural change at 70%+ adoption
-□ Initiatives #2-3 in design (NOT launched yet — don't launch 3 at once)
+□ Initiatives #2-3 in design (NOT launched yet; don't launch 3 at once)
 □ Operating cadence established (reference revenue-cadence skill):
   Weekly ops review (30 min), monthly deep-dive (90 min), quarterly reset
 □ Forecast rebuilt with proper methodology (reference revops-forecasting)
@@ -186,7 +186,7 @@ Insight = 1:     Pull top 5 wins and 5 losses. Pattern-match.
 
 ## Four Crisis-Specific Playbooks
 
-### A: THE FORECAST CRISIS — "Missed 3 quarters in a row"
+### A: THE FORECAST CRISIS: "Missed 3 quarters in a row"
 
 ```
 ROOT CAUSE PATTERNS:
@@ -209,7 +209,7 @@ STRUCTURAL FIX (Week 3-8): reference revops-forecasting skill
 • Monthly accuracy measurement: target ±10% (takes 2-3 quarters)
 ```
 
-### B: THE PIPELINE CRISIS — "Coverage at 2.1x and falling"
+### B: THE PIPELINE CRISIS: "Coverage at 2.1x and falling"
 
 ```
 ROOT CAUSE PATTERNS:
@@ -234,7 +234,7 @@ STRUCTURAL FIX (Week 3-8): reference gtm-planning + revops-metrics skills
 • Quarterly pipeline planning: [target ÷ win rate × 1.3] = pipeline needed
 ```
 
-### C: THE CHURN CRISIS — "NRR crashed to 85%"
+### C: THE CHURN CRISIS: "NRR crashed to 85%"
 
 ```
 ROOT CAUSE PATTERNS:
@@ -262,7 +262,7 @@ STRUCTURAL FIX (Week 3-8): reference cs-operations skill
 • Expansion sourcing: monthly identification of growth signals
 ```
 
-### D: THE TRUST CRISIS — "Sales blames marketing, CS blames product"
+### D: THE TRUST CRISIS: "Sales blames marketing, CS blames product"
 
 ```
 ROOT CAUSE: No shared metrics, no shared cadence, no shared accountability.
@@ -290,15 +290,15 @@ STRUCTURAL FIX (Week 3-8): reference revenue-cadence skill
 ## What NOT To Do In A Crisis
 
 ```
-✗ Change comp plans mid-quarter — adds chaos on chaos. Lock it; announce next Q.
-✗ Fire the VP Sales immediately — 75% of the time it's a system problem.
+✗ Change comp plans mid-quarter: adds chaos on chaos. Lock it; announce next Q.
+✗ Fire the VP Sales immediately: 75% of the time it's a system problem.
   Do the diagnostic first. If it IS a person problem, you'll know in 2 weeks.
-✗ Buy a new tool — technology doesn't fix broken processes. Fix process first.
-✗ Launch 10 initiatives — scattered focus amplifies crisis. Fix ONE thing hard.
-✗ Hide numbers from the board — they'll find out. Show the bad numbers + the plan.
-✗ Blame external factors — "market is down" explains variance but doesn't fix revenue.
-✗ Skip the daily standup — it IS your information gathering. Commit for 60 days.
-✗ Fix data + process + people simultaneously — pick ONE. Usually: data first,
+✗ Buy a new tool: technology doesn't fix broken processes. Fix process first.
+✗ Launch 10 initiatives: scattered focus amplifies crisis. Fix ONE thing hard.
+✗ Hide numbers from the board: they'll find out. Show the bad numbers + the plan.
+✗ Blame external factors: "market is down" explains variance but doesn't fix revenue.
+✗ Skip the daily standup: it IS your information gathering. Commit for 60 days.
+✗ Fix data + process + people simultaneously: pick ONE. Usually: data first,
   then process (now you have clean data), then people (trust rebuilds when
   data + process work).
 ```

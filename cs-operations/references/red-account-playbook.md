@@ -2,12 +2,12 @@
 
 On-demand reference for the cs-operations skill.
 
-Signals aren't enough. Define the playbook triggers — what happens automatically when a customer turns Red.
+Signals aren't enough. Define the playbook triggers. What happens automatically when a customer turns Red.
 
 ## Immediate Actions (within 24 hours of Red flag)
 
 1. CSM notifies CS Lead
-2. CS Lead reviews health breakdown — which dimension is driving Red? (Usage? Engagement? NPS? Adoption?)
+2. CS Lead reviews health breakdown. Which dimension is driving Red? (Usage? Engagement? NPS? Adoption?)
 3. CS Lead and AE jointly decide: rescue mode or renewal risk conversation
 
 ## Rescue Mode (if > 90 days until renewal)
@@ -19,7 +19,7 @@ Signals aren't enough. Define the playbook triggers — what happens automatical
 
 ## Renewal Risk Mode (if < 90 days until renewal)
 
-- Activate the renewal process immediately — do not wait for the standard T-90 trigger
+- Activate the renewal process immediately. Do not wait for the standard T-90 trigger
 - Consider commercial options: downgrade path, implementation support extension, POC of new features
 
 ## Customer Health Monitoring Cadence

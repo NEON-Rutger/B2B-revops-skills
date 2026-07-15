@@ -12,7 +12,7 @@ The numbers that reveal whether the revenue system, not the individual rep, is h
 |---|---|---|---|
 | Quota attainment | 43 to 58% | 80%-plus | RepVue Cloud Sales Index (Q4 2024, 238 companies); Bridge Group SaaS AE Metrics |
 | OTE attainment | About 80% | About 138% | Owner.com (via Norton, E64) |
-| Rep time actually selling | 28% of the week | 60%-plus (inbound-fed) | Salesforce State of Sales |
+| Rep time actually selling | 28% (2024) | 40% (2026), 60%-plus (inbound-fed) | Salesforce State of Sales (2024 and 2026) |
 | Time to full rep productivity | 11.2 months | Compressing with AI enablement | Sales Management Association |
 | Revenue per AE versus competitors | 1x | 3 to 4x | Owner.com, Datarails (via Norton, E64) |
 

@@ -1,43 +1,43 @@
 # AI Tooling for Revenue Handoffs
 
-Production-ready tools for conversation intelligence, enrichment, predictive models, and handoff automation. Recommendations prioritise tools with native HubSpot integration, verifiable adoption (G2 reviews, recognisable customers), and pricing that fits EU B2B scale-ups at €15–150M ARR.
+Production-ready tools for conversation intelligence, enrichment, predictive models, and handoff automation. Recommendations prioritise tools with native HubSpot integration, verifiable adoption (G2 reviews, recognisable customers), and pricing that fits EU B2B scale-ups at €15 to 150M ARR.
 
 **Research note**: tool recommendations are validated against independent review platforms (G2, Capterra) and real integration documentation. Where a tool lacks independent validation, this is flagged explicitly.
 
 ---
 
-## 1. Conversation Intelligence — The Foundation Layer
+## 1. Conversation Intelligence: The Foundation Layer
 
 The handoff document problem is mostly a **CRM data completeness + conversation intelligence** problem, not a separate product category. Get call summaries into HubSpot automatically, enforce SPICED field completion on deal gates, and the handoff largely assembles itself.
 
-### Tier 1: Free / Budget (€0–25/user/month)
+### Tier 1: Free / Budget (€0 to 25 per user per month)
 
-#### Fathom — Recommended default for HubSpot-native teams
+#### Fathom. Recommended default for HubSpot-native teams
 
 | Attribute | Detail |
 |---|---|
 | **What it does** | Records, transcribes, summarises meetings. Auto-syncs to HubSpot. |
 | **HubSpot integration** | Native. Auto-syncs summaries, action items, deal insights to Contact, Company, Deal records. HubSpot cards show last 5 meetings with recording link and summary. Edits re-sync instantly. |
-| **Pricing** | Free: unlimited recordings + transcripts + AI summaries (solo). Premium: $19–20/user/month. Team: $19/user/month (CRM sync). Business: $25/user/month (CRM field sync, deal views, coaching, AI scorecards). |
+| **Pricing** | Free: unlimited recordings + transcripts + AI summaries (solo). Premium: $19 to 20 per user per month. Team: $19/user/month (CRM sync). Business: $25/user/month (CRM field sync, deal views, coaching, AI scorecards). |
 | **Templates** | 15+ including BANT, Sandler. Can be customised for SPICED-adjacent workflows. |
-| **Key differentiator** | Records natively — no visible bot joining the call. Clients don't see "Fathom Notetaker" in the participant list. Matters for client-facing calls. |
+| **Key differentiator** | Records natively; no visible bot joining the call. Clients don't see "Fathom Notetaker" in the participant list. Matters for client-facing calls. |
 | **Independent validation** | 4.7/5 on G2 (2,000+ reviews). 500,000+ users. HubSpot developer case study confirms native integration quality. CEO Richard White is a known entity (prev. UserVoice). |
-| **Limitations** | No mobile app. Free plan transcripts expire after 90 days. CRM sync requires Team plan or above (free plan limited to 3 users per domain). No conversation analytics (talk ratios, etc.) — it's a notetaker, not a coaching platform. |
+| **Limitations** | No mobile app. Free plan transcripts expire after 90 days. CRM sync requires Team plan or above (free plan limited to 3 users per domain). No conversation analytics (talk ratios, etc.); it's a notetaker, not a coaching platform. |
 | **Handoff use** | Call summaries auto-populate HubSpot deal records. Combined with SPICED stage gates, gives CS 80% of the context they need without manual data entry. |
 
-#### Fireflies.ai — Best for conversation analytics on a budget
+#### Fireflies.ai. Best for conversation analytics on a budget
 
 | Attribute | Detail |
 |---|---|
 | **What it does** | Records, transcribes, summarises. Adds conversation intelligence (talk-to-listen ratios, topic tracking, sentiment). |
 | **HubSpot integration** | Native. Syncs notes, summaries, action items to Contacts, Companies, Deals. Auto-creates contacts for unknown participants. Can map to specific deal pipeline and stage. |
-| **Pricing** | Free: 800 min storage, limited AI credits. Pro: $10/user/month (annual). Business: $19/user/month (annual) — needed for HubSpot integration + team analytics. Enterprise: $39/user/month. |
+| **Pricing** | Free: 800 min storage, limited AI credits. Pro: $10/user/month (annual). Business: $19/user/month (annual). Needed for HubSpot integration and team analytics. Enterprise: $39/user/month. |
 | **Key differentiator** | Conversation intelligence features (speaker analytics, topic detection, sentiment) at a fraction of Gong's price. 100+ language support. Recent Perplexity AI integration for in-meeting web search. |
 | **Independent validation** | 4.5/5 on G2 (500+ reviews). 1M+ companies claimed. $1B+ valuation (2025). |
-| **Limitations** | Visible bot joins calls (participant list shows "Fireflies.ai Notetaker"). HubSpot integration requires Business plan ($19/user). AI credit system can be confusing — advanced features consume credits that run out. Accuracy dips with strong accents or noisy calls. |
-| **Handoff use** | Same as Fathom for basic sync. Better than Fathom if you want analytics on how reps run discovery calls (talk ratio, question frequency) — useful for coaching and quality assurance. |
+| **Limitations** | Visible bot joins calls (participant list shows "Fireflies.ai Notetaker"). HubSpot integration requires Business plan ($19/user). AI credit system can be confusing; advanced features consume credits that run out. Accuracy dips with strong accents or noisy calls. |
+| **Handoff use** | Same as Fathom for basic sync. Better than Fathom if you want analytics on how reps run discovery calls (talk ratio, question frequency). Useful for coaching and quality assurance. |
 
-#### Fathom vs Fireflies — Decision Framework
+#### Fathom vs Fireflies. Decision Framework
 
 | Factor | Fathom | Fireflies |
 |---|---|---|
@@ -45,13 +45,13 @@ The handoff document problem is mostly a **CRM data completeness + conversation 
 | Conversation analytics / coaching | Basic only | Winner |
 | HubSpot native integration quality | Excellent (HubSpot case study) | Good (native) |
 | Free tier generosity | Winner (unlimited AI summaries) | 800 min storage, limited credits |
-| Team pricing for CRM sync | $19–25/user/month | $19/user/month (Business required) |
+| Team pricing for CRM sync | $19 to 25 per user per month | $19/user/month (Business required) |
 | Summary speed | ~30 seconds | 5+ minutes reported |
 | Multi-language | Good | 100+ languages |
 
 **Recommendation**: Fathom as default for sales-led HubSpot teams (no bot, faster summaries, tighter HubSpot integration). Fireflies if conversation analytics and coaching metrics are a priority.
 
-### Tier 2: Mid-Market (€40–80/user/month)
+### Tier 2: Mid-Market (€40 to 80 per user per month)
 
 #### Avoma
 
@@ -71,18 +71,18 @@ The handoff document problem is mostly a **CRM data completeness + conversation 
 | Attribute | Detail |
 |---|---|
 | **What it does** | Full revenue intelligence: conversation intelligence, deal intelligence, forecast AI, coaching, market intelligence. |
-| **Pricing** | ~$250/user/month + platform fee. Typically $50–100K/year minimum. |
+| **Pricing** | ~$250/user/month + platform fee. Typically $50-100K/year minimum. |
 | **HubSpot integration** | Native. Deep bi-directional sync. |
 | **Independent validation** | 4.8/5 on G2 (6,000+ reviews). Category leader. |
-| **AI Briefer** | Generates structured deal summaries from conversations, emails, CRM data. Not a standalone product — you're buying the full platform. |
+| **AI Briefer** | Generates structured deal summaries from conversations, emails, CRM data. Not a standalone product, you're buying the full platform. |
 | **When it makes sense** | €75M+ ARR, 50+ reps, need forecast intelligence + coaching platform + conversation analytics as unified system. |
-| **When it doesn't** | €15–50M ARR teams where it's over-engineered and over-priced. |
+| **When it doesn't** | €15-50M ARR teams where it's over-engineered and over-priced. |
 
 ---
 
 ## 2. LLM Middleware for Custom Handoff Documents
 
-For teams that want structured handoff documents on deal stage change — without buying a purpose-built tool. This is the highest-leverage, lowest-cost approach for most EU scale-ups.
+For teams that want structured handoff documents on deal stage change, without buying a purpose-built tool. This is the highest-leverage, lowest-cost approach for most EU scale-ups.
 
 ### Architecture
 
@@ -97,7 +97,7 @@ Deal stage change (HubSpot workflow)
 
 ### Cost
 
-~€0.10–0.50 per handoff document (LLM API cost). At 20 handoffs/month: €2–10/month — negligible.
+~€0.10 to 0.50 per handoff document (LLM API cost). At 20 handoffs per month: €2 to 10 per month. Negligible cost.
 
 ### Prompt Template
 
@@ -112,7 +112,7 @@ SPICED QUALIFICATION:
 - Situation: {spiced_situation}
 - Pain: {spiced_pain}
 - Impact: {spiced_impact}
-- Critical Event: {spiced_critical_event} — {spiced_critical_event_detail}
+- Critical Event: {spiced_critical_event}; {spiced_critical_event_detail}
 - Decision: {spiced_decision_criteria} | Process: {spiced_decision_process}
 
 STAKEHOLDERS: {stakeholders_list}
@@ -159,21 +159,21 @@ Generate a structured handoff document with these sections:
 | Tool | Capability | Pricing | G2 Rating | HubSpot |
 |---|---|---|---|---|
 | **HubSpot Breeze Intelligence** | Reverse-IP intent, enrichment from 200M+ profiles, form shortening | Included (credit-based) | Native | Native |
-| **Clay** | 150+ data providers, waterfall enrichment, GPT-4 integration | $149–$800/month | 4.9/5 (200+ reviews) | Via Zapier/native |
-| **ZoomInfo** | Contact/company data, org charts, technographics | $15–40K/year | 4.4/5 (8,000+ reviews) | Native |
+| **Clay** | 150+ data providers, waterfall enrichment, GPT-4 integration | $149 to 800 per month | 4.9/5 (200+ reviews) | Via Zapier/native |
+| **ZoomInfo** | Contact/company data, org charts, technographics | $15-40K/year | 4.4/5 (8,000+ reviews) | Native |
 
 ### Intent Data
 
 | Tool | Capability | Pricing | G2 Rating | Notes |
 |---|---|---|---|---|
 | **6sense** | Account-level intent, buying stage categorisation | Median $55K/year | 4.3/5 (800+ reviews) | EU deployment available. Overkill below €50M ARR. |
-| **Bombora** | B2B content consumption signals | $25–100K/year | 4.1/5 (150+ reviews) | Verify EU data residency. |
+| **Bombora** | B2B content consumption signals | $25K to 100K per year | 4.1/5 (150+ reviews) | Verify EU data residency. |
 
 ### Stack by ARR
 
-- **€15–30M ARR**: HubSpot Breeze Intelligence (included) + Clay for custom enrichment
-- **€30–75M ARR**: Add 6sense or Bombora if running ABM
-- **€75–150M ARR**: Full stack — 6sense + Clay + conversation intelligence
+- **€15 to 30M ARR** (5 to 20 reps): HubSpot Breeze Intelligence (included) + Clay for custom enrichment
+- **€30 to 75M ARR** (20 to 60 reps): Add 6sense or Bombora if running ABM
+- **€75 to 150M ARR** (60+ reps): Full stack. 6sense + Clay + conversation intelligence
 
 ---
 
@@ -185,7 +185,7 @@ Generate a structured handoff document with these sections:
 | **Salesloft** (incl. Drift) | Orchestration + chatbot | 4.5/5 (4,000+ reviews) | Enterprise | Teams already on Salesloft |
 | **HubSpot Breeze Customer Agent** | Website chatbot + qualification | Included (varies by tier) | Part of HubSpot | HubSpot-native teams |
 
-For most EU scale-ups at €15–50M ARR, HubSpot's Breeze Customer Agent is sufficient before investing in Qualified or Salesloft.
+For most EU scale-ups at €15 to 50M ARR, HubSpot's Breeze Customer Agent is sufficient before investing in Qualified or Salesloft.
 
 ---
 
@@ -241,32 +241,32 @@ Push product data to HubSpot company records nightly (activation, seats, WAU/MAU
 
 ## 8. Recommended Stack by Client ARR
 
-### €15–30M ARR (5–20 reps) — Start here
+### €15 to 30M ARR (5 to 20 reps). Start here
 
 | Layer | Tool | Cost |
 |---|---|---|
 | Conversation intelligence | Fathom Team | $19/user/month |
 | Enrichment | HubSpot Breeze Intelligence | Included |
-| Handoff automation | n8n/Make + Claude API | ~€10–20/month |
+| Handoff automation | n8n/Make + Claude API | ~€10 to 20 per month |
 | Churn/expansion | HubSpot native (product data push + calculated properties) | Included |
-| **Total per rep** | | **~€20–40/month** |
+| **Total per rep** | | **~€20 to 40 per month** |
 
-### €30–75M ARR (20–60 reps)
+### €30 to 75M ARR (20 to 60 reps)
 
 | Layer | Tool | Cost |
 |---|---|---|
-| Conversation intelligence | Fathom Business or Fireflies Business | $19–25/user/month |
-| Enrichment | Clay + Breeze Intelligence | $149–400/month (team) |
-| Intent data | 6sense (if ABM-mature) | ~$55K/year |
-| Handoff automation | n8n + Claude API | ~€20–50/month |
+| Conversation intelligence | Fathom Business or Fireflies Business | $19 to 25 per user per month |
+| Enrichment | Clay + Breeze Intelligence | $149 to 400 per month (team) |
+| Intent data | 6sense (if ABM-mature) | ~$55K per year |
+| Handoff automation | n8n + Claude API | ~€20 to 50 per month |
 | CS platform | Vitally or ChurnZero | Mid-market pricing |
 
-### €75–150M ARR (60+ reps)
+### €75 to 150M ARR (60+ reps)
 
 | Layer | Tool | Cost |
 |---|---|---|
-| Conversation intelligence | Gong or Avoma | $79–250/user/month |
+| Conversation intelligence | Gong or Avoma | $79 to 250 per user per month |
 | Enrichment | Clay + 6sense + ZoomInfo | Enterprise pricing |
 | CS platform | Gainsight or ChurnZero | Enterprise pricing |
 
-**Key insight**: at €15–75M ARR, Fathom + Breeze + LLM middleware covers 90% of the handoff automation need for under €40/user/month. Purpose-built handoff tools and enterprise platforms become relevant at scale, not as starting points.
+**Key insight**: at €15 to 75M ARR, Fathom + Breeze + LLM middleware covers 90% of the handoff automation need for under €40 per user per month. Purpose-built handoff tools and enterprise platforms become relevant at scale, not as starting points.

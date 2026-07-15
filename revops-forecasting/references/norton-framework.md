@@ -6,18 +6,18 @@ Source: Kyle Norton / Aviv Canaani, Revenue Leadership Podcast, 2026.
 
 ## Forecast Variance as System Health Signal
 
-Forecast variance isn't just an accuracy problem — it's a diagnostic signal for deeper system issues.
+Forecast variance isn't just an accuracy problem; it's a diagnostic signal for deeper system issues.
 
 **What Variance Tells You:**
-- ±10% variance → Healthy system, normal deal volatility
-- ±20% variance → Qualification inconsistency or ICP drift
-- ±30%+ variance → Methodology decay, data quality issues, or wrong ICP entirely
+- ±10% variance: Healthy system, normal deal volatility
+- ±20% variance: Qualification inconsistency or ICP drift
+- ±30%+ variance: Methodology decay, data quality issues, or wrong ICP entirely
 
 **Quality-Velocity-Predictability Triangle:**
 Better ICP fit → shorter cycle time → more predictable forecast → better resource allocation → higher quality pipeline → (compounds)
 
 **Cycle Time as Primary Constraint Indicator:**
-Velocity bottlenecks (not volume gaps) often limit growth. If deals consistently stall at a specific stage, that's your system constraint — fix it before adding more pipeline.
+Velocity bottlenecks (not volume gaps) often limit growth. If deals consistently stall at a specific stage, that's your system constraint; fix it before adding more pipeline.
 
 ## Bottom-Up Capacity-Based Forecasting (Canaani, E64)
 

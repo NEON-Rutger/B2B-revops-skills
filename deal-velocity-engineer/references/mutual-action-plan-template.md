@@ -3,7 +3,7 @@
 On-demand reference for the deal-velocity-engineer skill.
 
 ```
-MUTUAL ACTION PLAN — [Customer Name] × [Your Company]
+MUTUAL ACTION PLAN: [Customer Name] / [Your Company]
 
 OBJECTIVE: [Specific outcome with date]
 
@@ -26,5 +26,5 @@ CONTINGENCY: [If step X is delayed, we will...]
 **Rules:**
 - Buyer must own more steps than seller (it's their decision process)
 - Every step has a specific date and a named person
-- Review the MAP on every call — it's a living document
+- Review the MAP on every call; it's a living document
 - If the buyer won't participate in building the MAP, they're not serious about buying

@@ -1,5 +1,5 @@
 # RevOps Crisis Playbook Templates
-**For: B2B scale-ups €15M–150M ARR**
+**For: B2B scale-ups EUR15M-EUR150M ARR**
 
 Crisis response playbooks with structured timelines for rapid mitigation and recovery.
 
@@ -54,7 +54,7 @@ Crisis response playbooks with structured timelines for rapid mitigation and rec
 
 ### First Week: Acceleration and Contingency
 - **Commit deal deep-dives:** CRO personally involved in top 10 deals; customer calls
-- **Best Case conversion:** Identify 5–10 deals with acceleration potential; negotiate close dates
+- **Best Case conversion:** Identify 5-10 deals with acceleration potential; negotiate close dates
 - **Contingency pipeline:** Activate pipeline from Q+1; calculate realistic probability
 - **Win-back urgency:** Fast-track lost deals from last 60 days
 - **Customer upsell/expansion:** CS team identifies expansion revenue; accelerate closes
@@ -91,7 +91,7 @@ Crisis response playbooks with structured timelines for rapid mitigation and rec
 - **Executive check-ins:** CRO calls to top customers at risk; listen for product/support gaps
 - **Product review:** Product team reviews churn feedback; identify quick-fix vs. roadmap items
 - **Success plan adjustment:** CSM updates success plans for at-risk accounts; focus on value realization
-- **Win-back offers:** For recent churns, create targeted win-back incentive (25–50% for 3-month trial)
+- **Win-back offers:** For recent churns, create targeted win-back incentive (25-50% for 3-month trial)
 - **Engagement campaign:** Launch email/webinar campaign to re-engage low-usage segments
 - **Root cause categorization:** Group reasons (product gaps, support issues, budget cuts, competitive loss, internal change)
 

@@ -283,7 +283,7 @@ Mixing locked and flexible parameters is the primary cause of reforecasting chao
 - Below 2.5x: Critical; reforecast immediately
 - 2.5x to 3.0x: At-risk; escalate and plan pipeline generation response
 - 3.0x to 3.5x: Healthy baseline
-- 3.5x+: Strong (banding is a Neon house threshold derived from the sourced Ebsta slippage and close-rate data)
+- 3.5x+: Strong (banding is a Neon house threshold informed by Ebsta slippage data: 36% deals slip quarterly, 50% best-case close rate)
 
 **Forecast Accuracy Benchmarks (Monthly Actuals vs Month-Start Forecast):**
 - ±5%: Elite (only 7% of companies reach 90%+ accuracy; Gartner via ORM Technologies, 2025)
@@ -320,6 +320,26 @@ The strongest revenue organisations operate with joint FP&A and RevOps ownership
 **Reconciliation meeting (quarterly):** Full top-down vs bottoms-up recalibration. Both functions debate assumptions openly. Resolution via data, not politics.
 
 For the full collaboration charter (including conflict-resolution protocols, escalation triggers, and the meeting templates), see `references/fpa-revops-collaboration-charter.md`.
+
+## AI-Native Revenue Planning (2026)
+
+As of 2026, AI forecasting and deal scoring are table-stakes for mature RevOps practices. Organisations that embed AI into planning see variance reduction from 30-40% to under 10% (Forrester, 2026). Plan integration points:
+
+**AI Forecasting Platforms:**
+- Gong Forecast integrates CRM automation and AI deal-health assessment; feeds directly into plan variance triggers
+- Salesforce Agentforce Revenue Management (successor to CPQ) includes predictive forecasting and pipeline shaping
+- HubSpot Revenue Intelligence (native to Operations Hub) surfaces deal risk and close probability by deal stage
+- These platforms replace manual rep calibration; their outputs should inform your reforecasting triggers
+
+**Operational pattern:** Monthly forecast call structure changes when AI is active. Instead of rep-by-rep challenge, the agenda becomes: "Which deals flagged by AI need RevOps intervention?" AI surfaces outliers; humans diagnose and escalate. Expected outcome: 15-25% reduction in forecast surprise (deals slipping unexpectedly).
+
+**CRM Automation for Plan Execution:**
+- Reverse ETL platforms (Hightouch, Census) enable automated pipeline snapshots to feed your planning models. Example: Every morning at 05:00, deal stage, probability, close date, and deal age sync to a planning sheet. RevOps sees velocity drift within 24 hours, not 30 days later.
+- Automated trigger detection: Workflow rules flagging stale deals (>45 days in same stage), coverage drops (pipeline below 2.5x), close-rate signals (forecast variance >20% month-to-date). These fire immediate escalations to RevOps, shortening diagnostic cycle from 5 days to hours.
+
+**Planning for AI-Native Go-to-Market Models:**
+- AI SDRs (hybrid human-in-loop, production-ready in 2026: AiSDR, Artisan, Amplemarket) shift pipeline-generation assumptions. Cost per AI SDR: EUR 1-3K monthly vs EUR 7.5-10.8K human (2026; cost parity case-dependent on list quality and ICP fit). Traditional capacity models assume X SDR:AE ratios; hybrid models should cost-model both motions and assume AI SDRs at 15-35% of human salary cost. Update your headcount plan to reflect blended human and AI pipeline generation.
+- Agent-assisted reps (autonomous deal scoring, next-best-action recommendations) increase quota attainment in mid-market. Budget for sales enablement tools (Salesforce Data 360, HubSpot Segment Analytics) in your GTM efficiency line.
 
 ---
 
@@ -432,4 +452,4 @@ For revenue planning in client engagements:
 
 Use in: Annual planning kickoff, revenue-finance alignment sessions, board preparation, mid-year reforecasting.
 
-Attribution: Pavilion CRO School (CRO Class 3/4), FP&A Today podcast (FP&A best practices), Revenue Leadership Podcast (Shantanu Shekhar, Gong/Personio RevOps framework), Atscale practitioner input (Louis Fumey, 2026), Ebsta 2025 GTM Benchmarks Report.
+Attribution: Pavilion CRO School (Forecasting and Revenue Modeling curriculum), FP&A Today podcast (FP&A best practices), Revenue Leadership Podcast (Shantanu Shekhar, Gong/Personio RevOps framework), Atscale practitioner input (Louis Fumey, 2026), Ebsta 2025 GTM Benchmarks Report.

@@ -6,7 +6,40 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [v0.3.0] — 2026-07-14
+## [v0.4.0], 2026-07-15
+
+### Added
+- Four new skills from the 2026-07-15 red-team white-space analysis: crm-migration-consolidation
+  (CRM merge and post-merger integration with a PE lens: system-of-record per object, identity
+  resolution and survivorship, ID crosswalk, ten-step sequencing), pricing-monetisation-ops
+  (usage and outcome pricing operations: metering, rating, invoicing, collections, reconciliation,
+  contract term tracking and drift detection), deal-desk-operations (approval matrix, discount
+  governance, credit and overage economics, desk metrics), gtm-data-architecture (warehouse-native
+  GTM for operators: SQL fundamentals, dbt, reverse ETL with reconciliation cadence, composable CDP,
+  when not to go warehouse-native). Each ships with a sourced benchmarks reference.
+
+### Changed
+- All 30 existing skills patched against adversarially verified red-team findings:
+  - Benchmark encoding standard applied throughout: every number carries an inline source and
+    vintage or an explicit practice-based label; unverifiable claims removed. 2026 market shifts
+    propagated (median win rate 19% vs 29% in 2024, GRR median 84%, coverage as 1/win-rate,
+    Magic Number 1.37, Rule of 40 on FCF basis).
+  - 2026 platform currency: HubSpot Breeze agents and outcome-based pricing, Data Hub rebrand,
+    Salesforce Flow-only automation, Agentforce 360, Data 360, Foundations credit model.
+  - AI-native sections added where 2026 practice demands them (AI-assisted forecasting, churn
+    prediction and agentic CS tiers, LLM enrichment and waterfall design, predictive routing,
+    AI deal scoring).
+  - EU compliance guardrails added to data and outbound skills: legitimate interest assessments,
+    GDPR Article 14 source trails, Article 21 objection handling, Schrems II supplementary
+    safeguards, lawful-basis and vendor-DPA gates, data minimisation notes.
+  - Kyle Norton podcast citations resolved to full episode metadata with URLs; MEDDIC attribution
+    corrected to John McMahon and Dick Dunkel at PTC; typographic cleanup repo-wide.
+  - Missing revops-revenue-planning reference files created (planning assumptions, plan versioning
+    governance, reforecasting benchmarks).
+
+---
+
+## [v0.3.0], 2026-07-14
 
 ### Added
 - New skill: revops-revenue-planning. Annual/quarterly plan construction, top-down vs
@@ -22,7 +55,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [v0.2.0] — 2026-07-05
+## [v0.2.0], 2026-07-05
 
 ### Changed
 - Reduced token footprint of the 8 heaviest skills via progressive disclosure
@@ -41,45 +74,45 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [v0.1.0] — 2026-04-02
+## [v0.1.0], 2026-04-02
 
 ### Added
 
 **RevOps Core (12 skills)**
-- `revops-strategy` — revenue operations strategy and pipeline architecture
-- `revops-diagnostic` — system diagnostics and constraint identification
-- `revops-metrics` — revenue measurement, funnel math, unit economics
-- `revops-forecasting` — forecast methodology and pipeline analysis
-- `revops-data-governance` — data governance and field management
-- `revops-tech-stack` — tech stack architecture and platform evaluation
-- `revops-handoffs` — revenue handoff design across the bow-tie model
-- `revops-change-management` — change management for RevOps adoption
-- `revops-crisis` — emergency response for broken revenue systems
-- `revops-org-chart` — RevOps team design and hiring sequencing
-- `revops-hubspot` — HubSpot implementation patterns
-- `revops-salesforce` — Salesforce implementation patterns
+- `revops-strategy`, revenue operations strategy and pipeline architecture
+- `revops-diagnostic`, system diagnostics and constraint identification
+- `revops-metrics`, revenue measurement, funnel math, unit economics
+- `revops-forecasting`, forecast methodology and pipeline analysis
+- `revops-data-governance`, data governance and field management
+- `revops-tech-stack`, tech stack architecture and platform evaluation
+- `revops-handoffs`, revenue handoff design across the bow-tie model
+- `revops-change-management`, change management for RevOps adoption
+- `revops-crisis`, emergency response for broken revenue systems
+- `revops-org-chart`, RevOps team design and hiring sequencing
+- `revops-hubspot`, HubSpot implementation patterns
+- `revops-salesforce`, Salesforce implementation patterns
 
 **GTM and Domain (6 skills)**
-- `gtm-planning` — GTM motion selection, territory and capacity planning
-- `gtm-compensation` — compensation plans, quota setting, OTE structures
-- `marketing-operations` — lead scoring, attribution, campaign tracking
-- `cs-operations` — customer success operations and renewal management
-- `sales-methodology` — SPICED, MEDDIC, Challenger, SPIN, Gap Selling
-- `partner-channel-operations` — partner programme design and co-selling
+- `gtm-planning`, GTM motion selection, territory and capacity planning
+- `gtm-compensation`, compensation plans, quota setting, OTE structures
+- `marketing-operations`, lead scoring, attribution, campaign tracking
+- `cs-operations`, customer success operations and renewal management
+- `sales-methodology`, SPICED, MEDDIC, Challenger, SPIN, Gap Selling
+- `partner-channel-operations`, partner programme design and co-selling
 
 **Pipeline and Data (4 skills)**
-- `pipeline-visibility` — pipeline reporting and dashboard design
-- `lead-routing` — lead assignment logic and territory design
-- `data-enrichment` — enrichment strategy and provider evaluation
-- `revenue-operating-cadence` — meeting architecture and board reporting
+- `pipeline-visibility`, pipeline reporting and dashboard design
+- `lead-routing`, lead assignment logic and territory design
+- `data-enrichment`, enrichment strategy and provider evaluation
+- `revenue-operating-cadence`, meeting architecture and board reporting
 
 **ICP, Positioning, and Growth (6 skills)**
-- `icp-builder` — ICP development using the GAP method and SPICED framework
-- `positioning-messaging-designer` — positioning using Use Case Canvas and Opposites method
-- `deal-velocity-engineer` — sales cycle diagnostics and stage exit criteria
-- `expansion-revenue-architect` — NRR/GRR systems and whitespace analysis
-- `partner-ecosystem-architect` — ecosystem-led growth and nearbound methodology
-- `operating-cadence-designer` — operating cadence design with rituals and dashboards
+- `icp-builder`, ICP development using the GAP method and SPICED framework
+- `positioning-messaging-designer`, positioning using Use Case Canvas and Opposites method
+- `deal-velocity-engineer`, sales cycle diagnostics and stage exit criteria
+- `expansion-revenue-architect`, NRR/GRR systems and whitespace analysis
+- `partner-ecosystem-architect`, ecosystem-led growth and nearbound methodology
+- `operating-cadence-designer`, operating cadence design with rituals and dashboards
 
 ### Notes
 

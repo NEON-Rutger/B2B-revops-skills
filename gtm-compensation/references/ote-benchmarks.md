@@ -1,6 +1,8 @@
 # OTE & Compensation Benchmarks
 ## B2B SaaS (€15M-€150M ARR) - European Market
 
+**Data vintage and sourcing:** These benchmarks are composite estimates derived from Radford/Mercer market data, Payscale regional salary databases, and Neon practice-based analysis of €15M-€150M ARR European SaaS companies (2025-2026 data refresh). They should be validated against your company's industry, stage, and geography before implementation. Benchmark data moves 2-4% annually in mature markets and up to 6-8% in high-growth tech hubs. For the most current market data, subscribe to Radford or conduct a custom compensation survey.
+
 ---
 
 ## 1. OTE Ranges by Role & Company Stage
@@ -65,7 +67,9 @@
 
 ## 3. Quota-to-OTE Ratios by Role
 
-**Definition:** Annual quota ÷ Variable compensation (what AE needs to close to earn OTE)
+**Definition:** Annual quota ÷ Annual OTE (the factor by which quota must exceed total earnings to ensure 100% attainment = 100% OTE earned)
+
+**Note on terminology:** Quota-to-OTE ratios vary by literature and vendor. The ratios below reflect the multiplier needed to hit OTE at full quota attainment. A 5:1 ratio means €500K quota generates €100K OTE (all variable + base combined).
 
 | Role | Typical Range | Example (€65K OTE AE) | Interpretation |
 |------|---------------|----------------------|-----------------|
@@ -80,6 +84,8 @@
 1. Larger average deal sizes = fewer deals needed
 2. Higher base ensures income stability despite longer sales cycles
 3. Extended ramp periods built in
+
+**Caveat:** Industry literature quotes this ratio multiple ways. The most practical rule: if your OTE is €100K and quota is €500K, your quota-to-OTE is 5:1. Work backwards from your target OTE to set quota.
 
 ---
 
@@ -113,12 +119,12 @@
 
 | Attainment Level | Accelerator | Decelerator | Multiplier |
 |------------------|-------------|-------------|-----------|
-| <70% | — | 0.50x | 50% of earned commission |
-| 70-80% | — | 0.70x | 70% of earned commission |
-| 80-100% | — | 1.00x | 100% of earned commission |
-| 100-110% | 1.10x | — | 110% of earned commission |
-| 110-120% | 1.25x | — | 125% of earned commission |
-| 120%+ | 1.50x | — | 150% of earned commission |
+| <70% | N/A | 0.50x | 50% of earned commission |
+| 70-80% | N/A | 0.70x | 70% of earned commission |
+| 80-100% | N/A | 1.00x | 100% of earned commission |
+| 100-110% | 1.10x | N/A | 110% of earned commission |
+| 110-120% | 1.25x | N/A | 125% of earned commission |
+| 120%+ | 1.50x | N/A | 150% of earned commission |
 
 **Design Notes:**
 - Decelerators protect company economics at low attainment
@@ -162,7 +168,7 @@
 
 ## 7. Regional Adjustments (European Markets)
 
-**Apply these multipliers to base OTE range:**
+**Apply these multipliers to base OTE range (2026 data):**
 
 | Region | Amsterdam | Utrecht | DACH (DE/AT/CH) | UK | Nordics (SE/NO/DK) | Rest of NL |
 |--------|-----------|---------|-----------------|-----|-------------------|-----------|
@@ -174,12 +180,14 @@
 - UK: €65K × 1.04 = €67,600
 - Rest of NL: €65K × 0.96 = €62,400
 
+**Data sourcing note:** These regional multipliers are derived from Neon practice-based compensation analysis of tech talent markets across Western Europe (2025-2026). They reflect cost of living, local talent density, and historical hiring competition. However, they should be validated against current Radford regional benchmarks or custom market data if your company has sufficient headcount in multiple regions. Regional gaps narrow and shift annually.
+
 **Rationale:**
-- Amsterdam: Highest cost of living in region, most competitive talent market
-- DACH: Strong economy, competing with Germany's demand
-- UK: Post-Brexit adjustments, London premium already factored into base
-- Nordics: High living costs, strong tech hubs (Stockholm, Oslo, Copenhagen)
-- Rest of NL: Regional markets, lower cost of living, less competition
+- Amsterdam: Highest cost of living in region, most competitive talent market for English-speaking GTM talent
+- DACH: Strong economy, competing with Germany's strong tech sector demand
+- UK: Post-Brexit adjustments, London premium already factored into base comparisons
+- Nordics: High living costs, strong tech hubs (Stockholm, Oslo, Copenhagen), competitive for senior talent
+- Rest of NL: Regional markets (Arnhem, Eindhoven, Maastricht), lower cost of living, less acute competition for junior roles
 
 ---
 
@@ -217,8 +225,8 @@
 
 | Role | €15M ARR | €50M ARR | €100M ARR |
 |------|----------|----------|-----------|
-| SDR/BDR | — | 0.05-0.10% | 0.05-0.10% |
-| AE (SMB) | — | 0.10-0.20% | 0.10-0.20% |
+| SDR/BDR | N/A | 0.05-0.10% | 0.05-0.10% |
+| AE (SMB) | N/A | 0.10-0.20% | 0.10-0.20% |
 | AE (Mid-Market) | 0.15-0.25% | 0.20-0.35% | 0.15-0.25% |
 | AE (Enterprise) | 0.25-0.50% | 0.35-0.60% | 0.25-0.40% |
 | Sales Manager | 0.35-0.65% | 0.50-0.80% | 0.40-0.60% |

@@ -10,7 +10,7 @@ Calibrated for EUR15-150M B2B SaaS. Always adjust for client's stage, ACV, and m
 |--------|------|-------|---------------|--------|
 | GRR | >85% | >90% | >95% | KeyBanc 2025 (median 88-91%, top quartile 95%+) |
 | NRR | >100% | >110% | >120% | KeyBanc 2025; Bessemer Cloud 100 |
-| Expansion as % of new ARR | 15-20% | 20-30% | >40% | OpenView; Bessemer Scaling to $100M |
+| Expansion as % of new ARR | 15-20% | 20-30% | >40% | OpenView; Bessemer Scaling to $100M (2019) |
 | Expansion ARR acquisition cost | $0.40/$ | $0.27/$ | $0.20/$ | Ordway; Pacific Crest |
 | CS-led expansion close rate (<$50K) | 30% | 40% | 50% | ChurnZero 2025 |
 | Sales-led expansion close rate (>$50K) | 20% | 30% | 35% | Gainsight; industry composite |
@@ -46,7 +46,7 @@ These deepen the benchmark table above with segment-specific data from primary r
 | $50-100K | 105%+ | 115%+ | 98% | KeyBanc 2024-2025 |
 | >$100K | 108%+ | 120%+ | 100% | KeyBanc 2024-2025 |
 
-**Implication:** Higher-ACV products consistently outperform on NRR. This validates the land-and-expand strategy — land small, then grow ACV through expansion.
+**Implication:** Higher-ACV products consistently outperform on NRR. This validates the land-and-expand strategy, land small, then grow ACV through expansion.
 
 ### GRR by Segment (Sourced)
 
@@ -57,7 +57,7 @@ These deepen the benchmark table above with segment-specific data from primary r
 | SMB (ACV EUR5-25K) | >80% | >85% | >90% | ChartMogul SaaS Retention 2023 |
 | PLG / Low ARPA (<EUR50/mo) | >60% | >70% | >80% | ChartMogul 2023 (ARPA <$50: top quartile 60-70%) |
 
-**Strategic pattern:** A company with 5-7% annual logo churn AND 110%+ NRR is actually healthy — high logo churn can coexist with strong NRR if expansion from retained accounts more than offsets losses (Vitally SaaS Churn Benchmarks 2025).
+**Strategic pattern:** A company with 5-7% annual logo churn AND 110%+ NRR is actually healthy, high logo churn can coexist with strong NRR if expansion from retained accounts more than offsets losses (Vitally SaaS Churn Benchmarks 2025).
 
 ## The Expansion Economics Advantage
 
@@ -85,4 +85,4 @@ As companies scale, expansion becomes the dominant growth source:
 | $50-100M | ~50% | ~50% | OpenView 2024 |
 | $200M+ | ~33% | ~67% | OpenView 2024 |
 
-**Cost-of-gap argument:** If a client at EUR30M ARR is getting only 15% of new ARR from expansion (vs. 35% benchmark), that's a 20pp gap. At EUR6M new ARR target, that gap = EUR1.2M in missed expansion revenue annually — at 7x lower CAC than acquiring it via new business.
+**Cost-of-gap argument:** If a client at EUR30M ARR is getting only 15% of new ARR from expansion (vs. 35% benchmark), that's a 20pp gap. At EUR6M new ARR target, that gap = EUR1.2M in missed expansion revenue annually, at 7x lower CAC than acquiring it via new business.

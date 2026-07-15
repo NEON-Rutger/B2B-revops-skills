@@ -10,10 +10,10 @@ Track how pipeline moves through the system each period:
 
 | Movement | What It Shows | Forecast Impact |
 |----------|--------------|-----------------|
-| **Created** | New pipeline added this period | Leading indicator — is next quarter's pipe building? |
+| **Created** | New pipeline added this period | Leading indicator: is next quarter's pipe building? |
 | **Moved In** | Deals pulled forward from future periods | Positive but watch for false acceleration |
 | **Moved Out** | Deals pushed to future periods (slippage) | #1 forecast accuracy killer |
-| **Won** | Deals closed this period | Actual vs forecast — the truth metric |
+| **Won** | Deals closed this period | Actual versus forecast: the truth metric |
 | **Lost** | Deals closed-lost or disqualified | Healthy loss rate means qualification is working |
 
 **Weekly review question:** "Is the waterfall balanced? If Moved Out > Created, the pipeline is shrinking."
@@ -40,11 +40,11 @@ Six risk signals with threshold triggers:
 
 | Risk Signal | Threshold | Action When Triggered |
 |------------|-----------|----------------------|
-| No activity in 14+ days | 14 days since last logged activity | Flag deal owner — deal is likely dead |
+| No activity in 14+ days | 14 days since last logged activity | Flag deal owner: deal is likely dead |
 | Close date unchanged 3+ weeks | Same close date for 21+ days | Challenge close date in next forecast call |
 | Single-threaded | Only 1 contact on deal | Coach multi-threading immediately |
 | No next step scheduled | Next activity date is empty | Create task: "Set concrete next step within 48 hours" |
-| SPICED score ≤7 at Proposal+ stage | Score below threshold for stage | Send back to discovery — not qualified |
+| SPICED score ≤7 at Proposal+ stage | Score below threshold for stage | Send back to discovery: not qualified |
 | Deal health score ≤9 | Composite health below threshold | Manager intervention required |
 
 **Automation:** Build a "Deals at Risk" saved view combining these signals. Review at every forecast call.

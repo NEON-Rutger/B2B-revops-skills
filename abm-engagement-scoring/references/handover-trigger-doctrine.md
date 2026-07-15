@@ -227,7 +227,12 @@ PROACTIVE TALKING POINTS FOR AE:
   ☐ Opportunity record created? _____ (AE to create after first call)
 ☑ Activity history visible (email/call/meeting dates in CRM)
 ☑ Previous interactions logged (any prior sales touches? No n/a clean account)
+☑ EU compliance check (if account in EU): No Article 21 right-to-object recorded
+  (Verify: Contact has not exercised unconditional right to object to direct
+   marketing. If yes on record, do NOT hand to sales; remove from outreach list.)
 ```
+
+**DPIA Note (for large-scale engagement profiling and buying group mapping):** Under EU AI Act and GDPR Article 35, large-scale automated profiling of buying group members (especially when using automated role detection or stakeholder mapping) may trigger Data Protection Impact Assessment (DPIA) requirements. The DPIA is prudent but not automatically mandatory under current guidance (EDPB; as of June 2026). If your handover packet or engagement system performs algorithmic classification of contacts by role or buying intent, document the processing and maintain evidence of fairness testing.
 
 ### Section 9: Handover Metadata
 
@@ -481,6 +486,6 @@ ABM-sourced pipeline (YTD)          €2.4M   n/a
 Handover doctrine framework adapted from:
 - 6sense Account Qualification and Handover Model (2026)
 - Demandbase Account Progression Framework (2024)
-- Kristina Jaramillo Personal ABM Handoff Methodology (2024-2025)
+- Kristina Jaramillo Personal ABM Handoff Methodology (PersonalABM; 2024-2025)
 - Sales Enablement Society: Marketing-to-Sales Handoff Best Practices (2025)
 - Practitioner case studies from Neon Triforce ABM implementations (2025-2026)

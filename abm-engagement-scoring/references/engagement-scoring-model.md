@@ -278,9 +278,15 @@ After 1-2 months of scoring, validate by reverse-engineering from closed-won dea
 
 **Option 3a: 6sense, Demandbase, or RollWorks**
 
-These platforms ingest first-party signals (your CRM, website tracking, email, ad platform) and third-party signals (intent data, technographics, news) and calculate engagement scores automatically. They handle recency decay, buying stage classification, and handover recommendations.
+These platforms ingest first-party signals (your CRM, website tracking, email, ad platform) and third-party signals (intent data, technographics, news) and calculate engagement scores automatically. By 2026, all major platforms use AI or hybrid ML/AI approaches:
 
-**Advantage:** Pre-built buying-stage models, third-party intent integration, automated buying-group detection.
+- **6sense:** Predictive buying stage classification with ML-driven anomaly detection in buying group behaviour
+- **Demandbase:** Hybrid AI combining engagement signals with firmographic enrichment; automated stakeholder identification via AI
+- **RollWorks:** AI-driven account scoring and engagement recommendation engine
+
+Real-time engagement alerts are now standard (fire Slack alerts the moment an account reaches a threshold or critical event triggers). Weekly or monthly batch scoring is increasingly outdated for mature programmes; real-time systems enable faster sales response (within 24 hours of critical event).
+
+**Advantage:** Pre-built buying-stage models, third-party intent integration, automated buying-group detection, AI-driven anomaly detection, real-time alerting.
 **Cost:** Typically €50-200K+ annually depending on TAM size.
 **Setup time:** 4-8 weeks for integration and configuration.
 
@@ -329,6 +335,51 @@ Monthly calibration review        [Date]
 Full TAM rollout                  [Date]
 ```
 
+## AI/ML-Driven Engagement Scoring and Automated Buying Group Detection (2026 Adoption)
+
+By 2026, AI and ML approaches are mainstream in ABM platforms. Understanding automation capabilities is important for programme design.
+
+### Predictive Scoring vs. Rules-Based Scoring
+
+**Rules-based scoring** (the manual approach in this guide) uses fixed weights and decay rules. It works well for mature programmes with clear signal patterns.
+
+**ML-driven predictive scoring** learns weights from your closed-won and closed-lost deals. Instead of guessing that a demo request = 15 points, the model observes: "In your business, demo requests from accounts that closed won average 18 engagement signals by close date. Email replies average 3. Pricing page visits average 1.2." It then back-propagates and assigns weights based on actual outcome data.
+
+**6sense (Predictive Buying Stages):** Uses historical buying patterns to classify accounts as Research, Active Evaluation, or Procurement. For each stage, it recommends actions and predicts urgency.
+
+**Demandbase (Hybrid AI):** Combines explicit engagement signals (your first-party data) with implicit signals (firmographic changes, hiring patterns, news) to create engagement confidence scores. Recommends account-level next steps without requiring manual assessment.
+
+### Automated Buying Group Detection
+
+Platforms with AI can detect buying group composition without manual prospecting:
+
+- **Pattern recognition:** When 5 people from Finance and 3 from IT visit your website in a 2-week window, the AI infers they are a buying committee.
+- **Recommended next contacts:** "You have identified 2/5 required roles. Our model suggests you reach [name, title] at [account] (predicted 92% likelihood they are involved in buying decisions)."
+- **Stakeholder role classification:** AI infers role (Economic Buyer, Technical Buyer, etc.) based on title, department, engagement behaviour, and firmographic fit.
+
+**Confidence levels:** Automated detection is 70-85% accurate depending on data quality. Manual validation remains important for high-stakes handovers.
+
+### When to Use AI/ML vs. Rules-Based Scoring
+
+**Use rules-based (this guide's approach) if:**
+- You have <100 accounts (manual process is feasible)
+- You have <6 months of closed-deal history (ML model needs training data)
+- You need full transparency on scoring logic (rules-based is deterministic; ML is a black box)
+- Budget is limited (<€50K/year on platforms)
+
+**Use AI/ML platforms if:**
+- You have 200+ accounts and want real-time scoring
+- You have 18+ months of closed-deal history (sufficient training data)
+- You want predictive insights (which accounts will heat up, which are cooling)
+- Your team has bandwidth for platform implementation (4-8 weeks)
+- Budget allows €100K-200K annually
+
+### Hybrid Approach (Recommended for Growth)
+
+Start with rules-based scoring to establish discipline and transparency. After 6-12 months, layer in a second-opinion AI model to catch patterns your rules miss. Use both systems in parallel for 30-60 days before fully trusting the AI model.
+
+---
+
 ## Troubleshooting Common Scoring Issues
 
 **Issue: All accounts have low scores (0-30).**
@@ -357,4 +408,4 @@ Baseline signal weights and decay methodology adapted from:
 - Forrester B2B Buying Journey Research (2026)
 - Practitioner case studies from Neon Triforce client engagements (2025-2026)
 
-Configuration framework based on Kristina Jaramillo Personal ABM methodology and motion-based weighting patterns observed across 50-500 account TAM programmes.
+Configuration framework based on Kristina Jaramillo's Personal ABM methodology (PersonalABM; host of ABMDoneRight Podcast) and motion-based weighting patterns observed across 50-500 account TAM programmes.

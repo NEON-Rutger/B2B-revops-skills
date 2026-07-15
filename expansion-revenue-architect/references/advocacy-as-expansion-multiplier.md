@@ -2,7 +2,7 @@
 
 On-demand reference for the expansion-revenue-architect skill.
 
-Happy customers don't just retain — they compound growth through second-order revenue.
+Happy customers don't just retain, they compound growth through second-order revenue.
 
 | Impact | Data Point | Source |
 |--------|-----------|--------|

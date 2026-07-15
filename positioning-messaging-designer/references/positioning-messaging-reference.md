@@ -36,7 +36,7 @@ The missing piece: **Positioning + Messaging Framework**.
 
 ---
 
-## 1. Positioning — 12 Elements to Consider
+## 1. Positioning: 12 Elements to Consider
 
 Positioning is not a tagline. It's the structure that makes your solution visible in a crowded market.
 
@@ -66,7 +66,7 @@ These add specificity and defensibility.
 
 ---
 
-## 2. Functional Description Formula — 6 Types of Positioning
+## 2. Functional Description Formula: 6 Types of Positioning
 
 Use one of these as your single, repeatable positioning line. Buyers recognize it fast. It works across proposals, LinkedIn, and sales calls.
 
@@ -168,7 +168,7 @@ The canvas has two sides: **The OLD Way** (what they do now) and **The NEW Way**
 +-----------------------------------------------------------------------------+
 ```
 
-### Left Side — The Current Way (Their Reality)
+### Left Side: The Current Way (Their Reality)
 
 **Overarching Problem** (Big Picture Struggle)
 - The market-level pain, in their words
@@ -190,7 +190,7 @@ The canvas has two sides: **The OLD Way** (what they do now) and **The NEW Way**
 - This is the "C" in SPICED
 - Example: "Build campaigns from scratch each time, relying on individual expertise."
 
-### Center — The Job & Persona
+### Center: The Job & Persona
 
 **Use Case** (What they are trying to do)
 - The specific job or outcome
@@ -200,7 +200,7 @@ The canvas has two sides: **The OLD Way** (what they do now) and **The NEW Way**
 - Name, title, behaviors, context
 - Example: "Sarah, VP Marketing at a B2B SaaS company with $5-50M ARR"
 
-### Right Side — The New Way (Your Solution)
+### Right Side: The New Way (Your Solution)
 
 **New Way** (Product Capability)
 - Each capability is the OPPOSITE of a Current Way step
@@ -282,7 +282,7 @@ Your messaging appears in:
 
 ---
 
-## 6. Story Building — The Weekly GTM Sequence
+## 6. Story Building: The Weekly GTM Sequence
 
 A practical 3-day workflow to build positioning and messaging from real customer evidence.
 
@@ -332,7 +332,74 @@ A practical 3-day workflow to build positioning and messaging from real customer
 
 ---
 
-## 7. Usage Guide
+## 7. Worked Example: Filled Use Case Canvas
+
+### Context
+
+Company: RevOps Platform for Enterprise SaaS
+Customer SPICED context: Interviewed 5 customers at $50M+ ARR companies. Common theme: pipeline visibility and forecast accuracy degrading as they scale; current processes rely on Excel and manual reconciliation across 3+ CRMs.
+
+### Completed Canvas
+
+```
+OVERARCHING PROBLEM                          USE CASE
+"We can't forecast revenue anymore.          "Build a single source of truth for pipeline
+Our pipeline data lives in 3 systems         and revenue visibility that doesn't require
+and nobody trusts the numbers."              15 emails to close."
+
+PROBLEM (3 specific blockers)                PERSONA
+"Forecast is always wrong by                 Sarah, VP RevOps at $50M SaaS
+$2-5M; nobody knows which forecast           (5 years in role, 3 systems managed)
+to trust"                                    "I spend 20 hours a month on
+                                             reconciliation, not strategy"
+"Deals get stuck in the pipeline;
+we have no visibility into where             
+they're really at"
+
+"Every process change means 
+updates to Excel and scripts"
+
+
+LIMITATION OF CURRENT WAY                    NEW WAY
+"Reconciling pipeline takes 20 hours         "Get real-time visibility into pipeline
+a month; we're always 3 days behind          across all CRMs in one dashboard"
+on actuals"                                  
+                                             
+CURRENT WAY                                  PRODUCT FEATURE
+"Pull data from 3 CRMs, map deal             "Multi-CRM connector; automated
+stages, reconcile in Excel,                  reconciliation engine running 6x
+distribute to reps via email"                daily with conflict resolution"
+
+                                             BENEFIT
+                                             "Save 16 hours a month on
+                                             reconciliation; forecast accuracy
+                                             within 5%"
+
+                                             DESIRED OUTCOME
+                                             "Close deals faster because RevOps
+                                             catches stuck deals in the pipeline
+                                             within 24 hours"
+```
+
+### What This Canvas Produces
+
+**Positioning line (Problem/Outcome formula):**
+"We help VP RevOps at enterprise SaaS companies eliminate spreadsheet reconciliation so they can build accurate forecasts in under 5 minutes."
+
+**LinkedIn messaging (Old vs New):**
+"Most RevOps teams spend 20 hours a month reconciling pipeline data across 3 CRMs. They chase data instead of chasing revenue. We built RevOps Platform to give you real-time visibility instead. Same deal data, zero reconciliation."
+
+**Sales email opener:**
+"Sarah, I noticed Acme just launched 3 new products in parallel. I'd guess forecast accuracy is getting harder, not easier, especially when pipeline lives in both Salesforce and HubSpot. That's the exact problem we solve for VP RevOps at companies your size. Want to see how in 15 min?"
+
+**Website headline:**
+"Unified pipeline intelligence across your entire CRM stack: no reconciliation required."
+
+All of these speak the language of the customer's reality (SPICED left side) and contrast it directly with the new way. The canvas makes the messaging inevitable.
+
+---
+
+## 8. Usage Guide
 
 ### When to Use This Reference
 

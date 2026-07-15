@@ -2,7 +2,7 @@
 
 On-demand reference for the revops-handoffs skill. Read before designing an expansion or cross-sell pipeline.
 
-Expansion is the cheapest revenue you will ever book. It costs about $0.27 per $1 of ACV against $1.16 for new logos, and best-in-class companies source 50 to 60% of new ARR from the existing base. But most orgs jam every expansion into one pipeline and then wonder why their win-rate and velocity data is noise. The fix is to model three distinct types.
+Expansion is the cheapest revenue you will ever book. Historically, it costs about $0.27 per $1 ACV against $1.16 for new logos (Pacific Crest, 2016), and modern data shows best-in-class companies now source 50-60% of new ARR from the existing base (OpenView 2023, KeyBanc 2024), up from historical 35-40%. But most orgs jam every expansion into one pipeline and then wonder why their win-rate and velocity data is noise. The fix is to model three distinct types.
 
 ## 1. The three expansion types
 

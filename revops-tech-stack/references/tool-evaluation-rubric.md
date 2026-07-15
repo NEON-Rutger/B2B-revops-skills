@@ -1,4 +1,4 @@
-# Tool Evaluation Rubric — Scoring Weights
+# Tool Evaluation Rubric. Scoring Weights
 
 On-demand reference for the revops-tech-stack skill.
 

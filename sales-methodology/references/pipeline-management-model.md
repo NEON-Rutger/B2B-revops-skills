@@ -2,7 +2,7 @@
 
 On-demand reference for the sales-methodology skill.
 
-**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid. Neon applies this as the operational complement to SPICED — SPICED tells you how to run the conversation; this tells you how to run the pipeline. SPICED qualifies deals; this section operationalizes the full pipeline management model around SPICED — from stage entry criteria to inspection cadence to forecasting.
+**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid. Neon applies this as the operational complement to SPICED. SPICED tells you how to run the conversation; this tells you how to run the pipeline. SPICED qualifies deals; this section operationalizes the full pipeline management model around SPICED, from stage entry criteria to inspection cadence to forecasting.
 
 ## Stage Entry/Exit Criteria
 
@@ -52,14 +52,14 @@ Solution Presented  SPICED complete; solution scoped        Verbal acceptance of
 Evaluation          Proposal shared                         Legal/procurement engaged or decision
                                                             timeline confirmed within period
 
-Closed Won          Contract signed                         —
+Closed Won          Contract signed                         (Handoff to CS)
 Closed Lost         Decision made in favour of competitor   Loss reason documented in CRM
                     or status quo; or deal abandoned
 ```
 
 ## Required CRM Fields by Stage
 
-Every stage should mandate data capture before the deal advances. These are the minimum fields — adapt to your CRM workflow.
+Every stage should mandate data capture before the deal advances. These are the minimum fields; adapt to your CRM workflow.
 
 ```
 STAGE               REQUIRED CRM FIELDS
@@ -136,7 +136,7 @@ WEEKLY DEAL REVIEW (30 min per rep):
   Format: Rep walks through top 5 deals by expected close date
   Questions:
     1. What changed since last week?
-    2. What's the next concrete step? (Not "follow up" — specific action)
+    2. What's the next concrete step? (Not "follow up"; specific action)
     3. Is this deal on track for the forecast commit?
     4. What's blocking progress?
     5. Should we involve anyone else? (Champion coaching, exec sponsor)
@@ -144,7 +144,7 @@ WEEKLY DEAL REVIEW (30 min per rep):
   Manager actions:
     - Challenge: "What evidence do you have for that?" (test deal quality)
     - Coach: "Here's what I'd try next" (develop capability)
-    - Redirect: "This deal is stuck — let's deprioritise or kill it"
+    - Redirect: "This deal is stuck. Let's deprioritise or kill it."
 
 MONTHLY PIPELINE COUNCIL (60 min, cross-functional):
   Attendees: Sales leader, Marketing leader, CS leader, RevOps
@@ -207,12 +207,12 @@ Pipeline        Active opportunities, too early to forecast.   - In Discovery or
 
 ## Forecasting Methodology
 
-See the revops-forecasting skill for full forecasting depth and methodology. The Forecast Categories above are the sales methodology layer — what reps commit and why. The pipeline management context:
+See the revops-forecasting skill for full forecasting depth and methodology. The Forecast Categories above are the sales methodology layer. What reps commit and why. The pipeline management context:
 - Commit deals must have all SPICED elements captured and a clear path to signature
 - Best Case deals have a qualified champion but one or two open elements (e.g., procurement not yet engaged)
 - Upside deals have enough SPICED for a reasonable call but timeline or decision process is unclear
-- Pipeline deals are active but too early for the forecast — move to a category only when SPICED score ≥ 6
+- Pipeline deals are active but too early for the forecast. Move to a category only when SPICED score ≥ 6.
 
-**Coverage discipline:** If Commit + Best Case < quota, the team doesn't have a forecasting problem — they have a pipeline generation problem. Escalate there, not at forecast accuracy.
+**Coverage discipline:** If Commit + Best Case < quota, the team doesn't have a forecasting problem. They have a pipeline generation problem. Escalate there, not at forecast accuracy.
 
 For pipeline reporting architecture and dashboard design, see the pipeline-visibility skill.

@@ -9,9 +9,9 @@ MARKET SLIPPAGE RATES:
   76% of B-player deals lack critical milestone events (root cause of slippage)
 
 SLIPPAGE DIAGNOSTIC:
-  If slippage >40%: Process problem — stage exit criteria not enforced
-  If slippage 30-40%: Normal range — focus on the deals that slip repeatedly
-  If slippage <25%: Strong discipline — maintain and coach to sustain
+  If slippage >40%: Process problem; stage exit criteria not enforced
+  If slippage 30-40%: Normal range; focus on the deals that slip repeatedly
+  If slippage <25%: Strong discipline; maintain and coach to sustain
 
 WHAT PREDICTS SLIPPAGE:
   No critical event identified → 3x more likely to slip

@@ -1,4 +1,4 @@
-# Capability Catalog — Intelligence & Automation Layers
+# Capability Catalog. Intelligence and Automation Layers
 
 On-demand reference for the revops-tech-stack skill.
 
@@ -67,4 +67,9 @@ DATA OPERATIONS:
   Architecture rule: Data enrichment should be automated and
     triggered by events (new lead created, account updated).
     Manual enrichment doesn't scale.
+  EU Compliance note: Enriched contact data requires Article 14 GDPR
+    notification within one month of collection. Document data source
+    per contact. ePrivacy geography: Netherlands permits B2B enrichment
+    to corporate addresses; Germany and Austria require prior consent.
+    France intermediate. Route enrichment vendors accordingly.
 ```
