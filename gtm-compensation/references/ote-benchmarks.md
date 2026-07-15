@@ -1,7 +1,7 @@
 # OTE & Compensation Benchmarks
 ## B2B SaaS (€15M-€150M ARR) - European Market
 
-**Data vintage and sourcing:** These benchmarks are composite estimates derived from Radford/Mercer market data, Payscale regional salary databases, and Neon practice-based analysis of €15M-€150M ARR European SaaS companies (2025-2026 data refresh). They should be validated against your company's industry, stage, and geography before implementation. Benchmark data moves 2-4% annually in mature markets and up to 6-8% in high-growth tech hubs. For the most current market data, subscribe to Radford or conduct a custom compensation survey.
+**Data vintage and sourcing:** These benchmarks are composite estimates derived from Radford/Mercer market data, Payscale regional salary databases, and practice-based analysis of €15M-€150M ARR European SaaS companies (2025-2026 data refresh). They should be validated against your company's industry, stage, and geography before implementation. Benchmark data moves 2-4% annually in mature markets and up to 6-8% in high-growth tech hubs. For the most current market data, subscribe to Radford or conduct a custom compensation survey.
 
 ---
 
@@ -180,7 +180,7 @@
 - UK: €65K × 1.04 = €67,600
 - Rest of NL: €65K × 0.96 = €62,400
 
-**Data sourcing note:** These regional multipliers are derived from Neon practice-based compensation analysis of tech talent markets across Western Europe (2025-2026). They reflect cost of living, local talent density, and historical hiring competition. However, they should be validated against current Radford regional benchmarks or custom market data if your company has sufficient headcount in multiple regions. Regional gaps narrow and shift annually.
+**Data sourcing note:** These regional multipliers are derived from practice-based compensation analysis of tech talent markets across Western Europe (2025-2026). They reflect cost of living, local talent density, and historical hiring competition. However, they should be validated against current Radford regional benchmarks or custom market data if your company has sufficient headcount in multiple regions. Regional gaps narrow and shift annually.
 
 **Rationale:**
 - Amsterdam: Highest cost of living in region, most competitive talent market for English-speaking GTM talent

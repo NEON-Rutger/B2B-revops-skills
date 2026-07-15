@@ -389,7 +389,7 @@ Apply to every recurring decision that currently causes confusion.
 
 Before running a full IFA diagnostic or Six Stages check, use this 5-minute triage to identify the highest-impact area. This prevents the common trap of diagnosing everything when the priority is obvious.
 
-**Source:** Adapted from Union Square Consulting's GTM Efficiency Pyramid decision tree. Neon uses this as a fast-path before the deeper diagnostic methods.
+**Source:** Adapted from Union Square Consulting's GTM Efficiency Pyramid decision tree. Use this as a fast-path before the deeper diagnostic methods.
 
 ### The Triage Decision Tree
 
@@ -691,7 +691,7 @@ compliance and operational risk.
 ```
 
 **Constraint Diagnosis (AI-Native Context):**
-If a client is at Level 1 but competition is at Level 3, the constraint is almost always NOT AI adoption but the prerequisites: data quality <85% (Neon practice-based), no semantic layer, or governance gaps. Fix those first; AI adoption becomes the lever. If data + governance are solid and adoption still stalls, the constraint may be change management or skill gaps; budget for enablement alongside tooling.
+If a client is at Level 1 but competition is at Level 3, the constraint is almost always NOT AI adoption but the prerequisites: data quality <85% (practice-based), no semantic layer, or governance gaps. Fix those first; AI adoption becomes the lever. If data + governance are solid and adoption still stalls, the constraint may be change management or skill gaps; budget for enablement alongside tooling.
 
 **Regulatory Note (EU AI Act, 2026):**
 Lead scoring and AI routing are not yet explicitly high-risk (Annex III). However, they must comply with transparency requirements (Article 6): inform data subjects that automated decisions are being made about them, and provide meaningful human oversight for material decisions. Autonomous SDR agents are higher risk and require documented governance (Article 26(7)). Add a compliance check to any AI adoption roadmap before go-live.
@@ -700,7 +700,7 @@ Lead scoring and AI routing are not yet explicitly high-risk (Annex III). Howeve
 
 ## Canon Reference: Crisis Triage
 
-When multiple revenue systems break simultaneously (forecast variance >30%, pipeline below 3x AND falling, NRR below 90%, data quality <70% (Neon practice-based), or cross-functional trust collapse), switch to crisis mode before running standard diagnostics.
+When multiple revenue systems break simultaneously (forecast variance >30%, pipeline below 3x AND falling, NRR below 90%, data quality <70% (practice-based), or cross-functional trust collapse), switch to crisis mode before running standard diagnostics.
 
 **Reference:** `references/crisis-triage-reference.md` (converted from revops-crisis skill)
 

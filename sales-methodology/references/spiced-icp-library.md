@@ -36,7 +36,7 @@ Use this when you need a fast Situation/Pain paragraph for copy.
 
 **Critical framing note:** Pain and Impact each have two layers .  rational (what it costs the business) and emotional (what it costs the person). Both must be present to score ≥ 2 on SPICED. Rational pain can sit indefinitely. Emotional pain creates urgency. All Quick SPICED entries below are structured accordingly.
 
-### **1\. Generic Neon SPICED (baseline)**
+### **1\. Generic SPICED (baseline)**
 
 **S: Situation**  
  You’re a B2B SaaS / tech company with multiple GTM teams and tools. Growth is no longer “for free” and you’ve outgrown the operating model and dashboards that got you here.

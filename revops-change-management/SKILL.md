@@ -242,11 +242,11 @@ Read `references/change-scenarios.md` for detailed playbooks on: rolling out a n
 
 Seven books underpin the enablement methodology (Coyle's *The Talent Code* 2009, Knowles' *The Adult Learner* 1984, Bungay Stanier's *The Coaching Habit* 2015, Duke's *How to Decide* 2022 and *Thinking in Bets* 2018, Clear's *Atomic Habits* 2018, Holiday's *The Obstacle Is the Way* 2014). For the mapping of each book to a framework and how to weave them into client conversations and programme design, read `references/book-integration-guide.md`.
 
-## Neon Voice and Positioning
+## Voice and Positioning
 
 Always frame from the after-state: the leader who can roll out one change and have it stick permanently, not the leader who runs training events that die in a week.
 
-Link to Lean Revenue Factory: flow before volume, fix the system before adding new motions. One variable at a time IS lean thinking applied to change.
+Apply lean thinking: flow before volume, fix the system before adding new motions. One variable at a time IS lean thinking applied to change.
 
 The identity shift: from "we trained them" to "we changed how they operate." When a client says "we need to train the team on X," reframe: "Training is an input. Behaviour change is the output. Let's design for the output."
 

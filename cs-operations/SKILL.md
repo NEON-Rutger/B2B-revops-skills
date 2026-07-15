@@ -101,9 +101,9 @@ OUTCOMES (5%)
 ### Traffic Light System
 
 ```
-GREEN (80+):  Expand. Growth partner posture. 2-5% churn risk (Neon practice-based).
-YELLOW (40-79): Intervene. Increase touchpoints. 15-30% churn risk (Neon practice-based).
-RED (<40):    Save mode. Executive intervention. 60%+ churn risk (Neon practice-based).
+GREEN (80+):  Expand. Growth partner posture. 2-5% churn risk (practice-based).
+YELLOW (40-79): Intervene. Increase touchpoints. 15-30% churn risk (practice-based).
+RED (<40):    Save mode. Executive intervention. 60%+ churn risk (practice-based).
 ```
 
 ### Health Score Anti-Patterns
@@ -294,7 +294,7 @@ OPERATIONAL
   Health score distribution      >70% green (recommended)
   QBR completion (high-touch)    100% (recommended)
   Renewal on-time rate           >90% (recommended)
-  Save rate (red accounts)       >40% (Neon practice-based)
+  Save rate (red accounts)       >40% (practice-based)
 
 EFFICIENCY
   Accounts per CSM (by tier)     See coverage model (sourced, 2026)

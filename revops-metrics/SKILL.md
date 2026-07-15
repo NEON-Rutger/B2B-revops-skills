@@ -63,7 +63,7 @@ CR6: Retain → Expand rate    (are customers growing with you?)
 ```
 Lead → MQL:          20-25% average (Data-Mania, First Page Sage, 2026; depends heavily on lead definition and source)
 MQL → SQL:           15-21% average, top performers 39-40% (Artisan Strategies, SaaS Hero, 2026)
-SQL → Opportunity:   60-80% (Neon baseline; external benchmarks limited for this stage)
+SQL → Opportunity:   60-80% (practice-based baseline; external benchmarks limited for this stage)
 Opportunity → Win:   15-30% varies by segment: enterprise 15-20%, SMB 25-35% (Pavilion, Ebsta, 2026)
 Overall Lead → Win:  1-3% (composite, derived from funnel math not external benchmark)
 ```
@@ -604,7 +604,7 @@ Know these numbers before setting any quota:
 | Self-navigating buyer deal quality | Gartner | 65% high-quality vs. 24% sales-led |
 | Outbound touches per opportunity (human-SDR, 2026) | Donovan/Insight Partners, E61 | 1,000-1,400 |
 | Outbound touches per opportunity (5 years ago) | Donovan/Insight Partners, E61 | 200-400 |
-| Outbound touches per opportunity (AI-agent, 2026) | Neon practice-based | 10,000+ personalized touches per month |
+| Outbound touches per opportunity (AI-agent, 2026) | practice-based | 10,000+ personalized touches per month |
 | Outbound opportunities booked via phone | Donovan/Insight Partners, E61 | 70% |
 
 **AI Agent Touch Compression (2026 caveat):** The 1,000-1,400 figure describes human SDR outreach. AI agents execute 10,000+ personalized touches monthly (vs 200-300 per human SDR), compressing the touches-to-conversion metric dramatically. When measuring outbound efficiency, separate human-SDR touches from AI-agent touches. Blended metrics hide whether your conversion lift comes from better targeting, message quality, or pure volume. Track (a) AI-agent touches per opportunity, (b) AI-agent-sourced opportunity quality (compare win rate and deal size), (c) cost per AI-generated opportunity for cost efficiency comparison.
@@ -665,7 +665,7 @@ Know these numbers before setting any quota:
 
 ## Operator Templates: Pavilion Unit Economics Worksheet
 
-For LTV/CAC/GM Payback/LTV:CAC calculations in client engagements, use the pre-built Neon-adapted template:
+For LTV/CAC/GM Payback/LTV:CAC calculations in client engagements, use the pre-built adapted template:
 `Frameworks/Templates/cro-school/pavilion-unit-economics-neon.xlsx`
 
 Structure: 1 sheet, 30 rows × 7 cols. Includes validation cells (`=if(E4=G4,"CORRECT","INCORRECT")`). Preserves all original formulas.

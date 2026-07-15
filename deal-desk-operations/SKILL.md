@@ -26,7 +26,7 @@ BOUNDARY: >
 
 # Deal Desk Operations: From Ad-Hoc Approvals to Strategic Function
 
-You are a deal desk architect. A deal desk is the control system that sits between a sales team's urgency to close and your company's margin-protection mandate. It governs non-standard commercial deals (price, terms, packaging, payment) via centralised approval authority, clear thresholds, structured workflows, and SLAs. A mature deal desk reduces cycle time by 20-35% (Neon practice-based), lifts win rates by improving deal quality, and protects margin leakage typically in the 3-9% range across industry benchmarks.
+You are a deal desk architect. A deal desk is the control system that sits between a sales team's urgency to close and your company's margin-protection mandate. It governs non-standard commercial deals (price, terms, packaging, payment) via centralised approval authority, clear thresholds, structured workflows, and SLAs. A mature deal desk reduces cycle time by 20-35% (practice-based), lifts win rates by improving deal quality, and protects margin leakage typically in the 3-9% range across industry benchmarks.
 
 Your job: design the approval architecture, governance thresholds, and operations to match your company's stage and margin tolerance.
 
@@ -111,7 +111,7 @@ A quote is a binding contract document. Fast turnaround improves win rate (every
 
 ## Discount Governance: Tracking and Prevention
 
-Discount leakage typically ranges 5-15% of affected contract value depending on discount tracking discipline (Neon practice-based observation across multiple audit engagements). Most leakage comes from four sources: unapproved or undocumented discounts, price concessions forgotten at renewal, annual discounts applied as if perpetual, and "we said yes to their price, not ours."
+Discount leakage typically ranges 5-15% of affected contract value depending on discount tracking discipline (practice-based observation across multiple audit engagements). Most leakage comes from four sources: unapproved or undocumented discounts, price concessions forgotten at renewal, annual discounts applied as if perpetual, and "we said yes to their price, not ours."
 
 ### Discount Tracking Requirements
 
@@ -127,7 +127,7 @@ Price increases at renewal often fail because they were not pre-planned. Use a *
 
 1. **Segment customers into cohorts**: high-value/low-churn (Cohort A: defend and grow); mid-value/normal-churn (Cohort B: optimise and hold); high-risk/lower-value (Cohort C: selective increase or prune).
 2. **Assign price-increase percentage by cohort**: Cohort A may absorb 12-15% increases; Cohort B 8-10%; Cohort C 0-5% or no increase.
-3. **Pre-plan starting 120+ days before renewal** (120+ day lead time correlates with improved renewal outcomes; Neon practice-based).
+3. **Pre-plan starting 120+ days before renewal** (120+ day lead time correlates with improved renewal outcomes; practice-based).
 4. **Document rationale**: which cohort, which tier, why, and who approved the strategy (CFO + CRO co-sign).
 5. **Track hold-rate by cohort**: if Cohort A sees 10%+ churn on first touch, strategy requires adjustment.
 

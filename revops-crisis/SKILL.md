@@ -32,11 +32,11 @@ A crisis is not "we missed a number." A crisis is when multiple system layers br
 ### Threshold Triggers (Any ONE = Crisis Mode)
 
 ```
-FORECAST:  ±30%+ variance for 2+ consecutive quarters (Neon practice-based; calibrate per company stage)
+FORECAST:  ±30%+ variance for 2+ consecutive quarters (practice-based; calibrate per company stage)
 WIN RATE:  Declined 5+ points over 3 quarters (e.g. 24% to 19%, below median 19% in 2026; Optifai, Clari)
 PIPELINE:  Coverage below 2.8x AND falling month-over-month (below this, quota attainment falls to 52%; Clari, Fullcast, 2026)
 RETENTION: NRR below 90% OR GRR below 84% (GRR median 84% in 2026, 75th percentile 91%; Optifai, 2026)
-DATA:      Critical deal fields <70% complete (Neon practice-based); CRM does not equal finance by >10%
+DATA:      Critical deal fields <70% complete (practice-based); CRM does not equal finance by >10%
 TRUST:     Sales blames marketing blames CS blames product (3+ parties)
 PEOPLE:    2+ top performers leaving in one quarter; open cynicism
 ```
@@ -74,8 +74,8 @@ CRITICAL FIELDS                                   TARGET
 
 SCORING:
 <70% at target = DATA CRISIS. Run 5-day blitz before anything else.
-70-84%         = ACCEPTABLE. Proceed with caveats on all forecasts. Target is 85%+ for reliable GTM execution (Neon practice-based).
->85%           = GOOD. Proceed with confidence (data quality directly correlates with forecast accuracy; Neon practice-based).
+70-84%         = ACCEPTABLE. Proceed with caveats on all forecasts. Target is 85%+ for reliable GTM execution (practice-based).
+>85%           = GOOD. Proceed with confidence (data quality directly correlates with forecast accuracy; practice-based).
 ```
 
 **The 5-Day Data Blitz (if <70%):**
@@ -285,8 +285,8 @@ EMERGENCY FIX (Week 1-2):
 STRUCTURAL FIX (Week 3-8): reference gtm-planning plus revops-metrics skills
 • Pipeline generation plan with source owners and weekly accountability
 • ICP enforcement: score every lead, only greater than or equal to 60% accepted as SQL
-• Velocity targets by stage (Discovery 21-35 days, Proposal 14-21 days; Neon practice-based; adjust by stage funnel exit rates)
-• Quarterly pipeline planning: [target divided by win rate times 1.3; Neon practice-based] equals pipeline needed (coverage rule: reps at 3.2x+ weighted coverage hit quota 89% of the time; below 2.8x, 52%; Clari, Fullcast, 2026)
+• Velocity targets by stage (Discovery 21-35 days, Proposal 14-21 days; practice-based; adjust by stage funnel exit rates)
+• Quarterly pipeline planning: [target divided by win rate times 1.3; practice-based] equals pipeline needed (coverage rule: reps at 3.2x+ weighted coverage hit quota 89% of the time; below 2.8x, 52%; Clari, Fullcast, 2026)
 ```
 
 ### C: THE CHURN CRISIS . "NRR crashed to 85%"
@@ -307,7 +307,7 @@ EMERGENCY FIX (Week 1-2):
 • Quick fix based on pattern:
   CS under-resourced. Senior CSM on highest-risk accounts
   No health scoring. Build simple score this week (5-7 indicators)
-  Renewal process. Start renewals 120 days out, not 30 days (Neon practice-based)
+  Renewal process. Start renewals 120 days out, not 30 days (practice-based)
   Acquisition quality. Pre-flight check before deal close
 
 STRUCTURAL FIX (Week 3-8): reference cs-operations skill

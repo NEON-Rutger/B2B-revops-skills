@@ -52,4 +52,4 @@ These are the numbers behind the SPICED scoring gates. A deal that has skipped q
 2. Count stakeholders per open deal. Anything single-threaded at late stage is a red flag the benchmark quantifies at 0.2x.
 3. Watch days-since-inflection. A deal past 180 days is statistically closer to the 225-day lost-deal pattern than the 115-day winning one.
 
-**Source:** Ebsta + Pavilion B2B Sales Benchmark Report; figures reconciled to the Neon Fullcast/Pavilion 2026 benchmark canon.
+**Source:** Ebsta + Pavilion B2B Sales Benchmark Report; figures reconciled to the Fullcast/Pavilion 2026 benchmark set.

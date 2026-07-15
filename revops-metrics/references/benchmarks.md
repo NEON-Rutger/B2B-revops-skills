@@ -80,6 +80,6 @@ For AI-native products, shift the leading-indicator tile from pipeline velocity 
 
 ## Sources and caveat
 
-Compiled from Ebsta / Pavilion B2B Sales Benchmark analysis (win rate by stakeholder count, won-versus-lost cycle timing, momentum decay), the Fullcast 2026 GTM Benchmarks (seller performance, routing, comp, AI impact), and the Kyle Norton Revenue Leadership Podcast E60 to E64 (Owner.com, Datarails, Crescendo cases). Figures are reconciled to the Neon Fullcast/Pavilion 2026 benchmark canon.
+Compiled from Ebsta / Pavilion B2B Sales Benchmark analysis (win rate by stakeholder count, won-versus-lost cycle timing, momentum decay), the Fullcast 2026 GTM Benchmarks (seller performance, routing, comp, AI impact), and the Kyle Norton Revenue Leadership Podcast E60 to E64 (Owner.com, Datarails, Crescendo cases). Figures are reconciled to the Fullcast/Pavilion 2026 benchmark set.
 
 Caveat: Fullcast figures are self-reported from the vendor's own benchmark report; use directionally, not as independent third-party research. Where a client decision hinges on an exact published figure, verify against the primary Ebsta/Pavilion or Fullcast report before quoting it.

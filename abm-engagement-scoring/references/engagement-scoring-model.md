@@ -406,6 +406,6 @@ Baseline signal weights and decay methodology adapted from:
 - 6sense Predictive Buying Stages Model (2026)
 - Demandbase Engagement Minutes Framework (2024)
 - Forrester B2B Buying Journey Research (2026)
-- Practitioner case studies from Neon Triforce client engagements (2025-2026)
+- Practitioner case studies from client engagements (practice-based) (2025-2026)
 
 Configuration framework based on Kristina Jaramillo's Personal ABM methodology (PersonalABM; host of ABMDoneRight Podcast) and motion-based weighting patterns observed across 50-500 account TAM programmes.

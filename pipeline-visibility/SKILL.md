@@ -164,7 +164,7 @@ Pipeline rots silently. Deals go stale, close dates pass without update, amounts
 
 **Definition**: An opportunity with no logged activity for a configurable threshold.
 
-**Recommended starting thresholds by stage (Neon practice-based)**:
+**Recommended starting thresholds by stage (practice-based)**:
 
 | Stage | Stale After | Action |
 |-------|------------|--------|

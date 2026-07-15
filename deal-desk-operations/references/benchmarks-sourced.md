@@ -5,7 +5,7 @@ This file documents the source, vintage, and URL for every quantitative claim in
 ## Operational Performance Benchmarks
 
 **Deal desk impact on sales cycle reduction: 20-35%**
-- Source: Neon practice-based observation across multiple maturity assessments
+- Source: practice-based observation across multiple maturity assessments
 - Context: Cycle time improvements vary by baseline condition (ad-hoc orgs see larger gains) and implementation discipline. Range reflects conservative estimates from mature implementations moving from undisciplined to formalised approval authority.
 
 **Sales productivity improvement: 15-20%**
@@ -48,7 +48,7 @@ This file documents the source, vintage, and URL for every quantitative claim in
 - Context: Example: €10M ARR company leaking 4% (€400K) loses €2.8M in potential valuation at 7x multiple; justifies investment in deal-desk controls.
 
 **Discount leakage magnitude: 5-15% of affected contract value**
-- Source: Neon practice-based observation across audit engagements (2024-2026)
+- Source: practice-based observation across audit engagements (2024-2026)
 - Context: Authorised discounts, undocumented concessions, and discounts applied at renewal that were supposed to expire; variance reflects organisational discount tracking discipline. Tightly governed organisations trend 3-7%; ad-hoc discount cultures trend 12-15%.
 
 ## Discount Approval Authority Benchmarks
@@ -93,7 +93,7 @@ This file documents the source, vintage, and URL for every quantitative claim in
 ## Renewal Pricing Strategy
 
 **Renewal start lead time for successful negotiations: 120+ days pre-renewal optimal**
-- Source: Neon practice-based observation; aligns with broader SaaS renewal best practices
+- Source: practice-based observation; aligns with broader SaaS renewal best practices
 - Context: Customers respond more favourably to pricing proposals and negotiation initiation at 120+ days pre-renewal; shorter windows increase friction and churn risk on price-sensitive renewals.
 
 **SaaS price increase magnitude (2025-2026): 10-20% common**
@@ -125,11 +125,11 @@ This file documents the source, vintage, and URL for every quantitative claim in
 ## Market Adoption and Trends
 
 **Deal desk across B2B SaaS: ~50% of organisations >€50M ARR have formalised desk (2026)**
-- Source: Neon practice-based observation; no single source universally disagrees
+- Source: practice-based observation; no single source universally disagrees
 - Context: Adoption is higher at enterprise and mid-market (>€10M ARR); SMB adoption lagging; trend is upward as complexity increases.
 
 **Outcome-based pricing adoption: Emerging; <5% of SaaS deals currently**
-- Source: Neon practice-based; no published benchmark found
+- Source: practice-based; no published benchmark found
 - Context: High strategic value; requires sophisticated success measurement; growing in enterprise and managed services categories; rare in pure SaaS.
 
 ---

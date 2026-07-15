@@ -186,7 +186,7 @@ CUT (low fit, low value):
    shaped-like-the-business.
 
 4. INTEGRATION DEBT IS REAL: Every new tool adds integration
-   maintenance cost. Budget for integration work as a percentage of tool cost annually (Neon practice-based). If you can't integrate it
+   maintenance cost. Budget for integration work as a percentage of tool cost annually (practice-based). If you can't integrate it
    with your CRM, don't buy it.
 
 5. STAGE-APPROPRIATE COMPLEXITY: At €5M ARR, HubSpot Professional
@@ -207,7 +207,7 @@ CUT (low fit, low value):
 
 ### Stack by Stage
 
-Stack composition scales with stage: Startup (€0-5M ARR, <10 GTM) runs 3-5 tools at €5-15K/year; Scale-up (€5-25M, 10-50 GTM) runs 6-12 tools at €50-200K/year; Growth (€25-100M, 50-200 GTM) runs 12-20 tools at €300K-1M/year (Neon practice-based). Don't build a Growth stack at Startup scale. Note: HubSpot pricing shifted to seat-based + AI credits (€0.009/token, since March 2024) plus contact overage blocks; actual scale-up TCO typically exceeds per-seat pricing.
+Stack composition scales with stage: Startup (€0-5M ARR, <10 GTM) runs 3-5 tools at €5-15K/year; Scale-up (€5-25M, 10-50 GTM) runs 6-12 tools at €50-200K/year; Growth (€25-100M, 50-200 GTM) runs 12-20 tools at €300K-1M/year (practice-based). Don't build a Growth stack at Startup scale. Note: HubSpot pricing shifted to seat-based + AI credits (€0.009/token, since March 2024) plus contact overage blocks; actual scale-up TCO typically exceeds per-seat pricing.
 
 For the full per-stage tool lists (CRM, marketing, engagement, intelligence, integration, documents), tool counts, and budget ranges, see `references/stack-by-stage-reference.md`.
 
@@ -514,9 +514,9 @@ Four components required:
 
 ### Stack Options and Vendor Detail
 
-Two stack philosophies, each split into buy (managed platform) versus build (custom RAG). The **US stack** is speed-first and feature-rich (Glean/Guru/Notion to buy; LlamaIndex + Pinecone to build). The **EU stack** is compliance-first and sovereign (Langdock/Microsoft Copilot to buy; LlamaIndex + Qdrant EU + Mistral, self-hosted, to build). This is critical for Neon's Dutch/EU client base, since there is no EU-native equivalent of Glean. For Claude API users, Claude Projects (2025-2026) offers file-based RAG at low cost, though without live data connections; suitable for compliance-first stacks prioritising cost control. Tool choice is gated by a GDPR/regulated-industry/works-council compliance decision tree and scales by stage.
+Two stack philosophies, each split into buy (managed platform) versus build (custom RAG). The **US stack** is speed-first and feature-rich (Glean/Guru/Notion to buy; LlamaIndex + Pinecone to build). The **EU stack** is compliance-first and sovereign (Langdock/Microsoft Copilot to buy; LlamaIndex + Qdrant EU + Mistral, self-hosted, to build). This is critical for Dutch and EU teams, since there is no EU-native equivalent of Glean. For Claude API users, Claude Projects (2025-2026) offers file-based RAG at low cost, though without live data connections; suitable for compliance-first stacks prioritising cost control. Tool choice is gated by a GDPR/regulated-industry/works-council compliance decision tree and scales by stage.
 
-**Key technical insight.** Chunking quality constrains retrieval accuracy more than embedding model choice. Semantic chunking outperforms naive chunking significantly (Neon practice-based). Design the chunking strategy first; pick tools second.
+**Key technical insight.** Chunking quality constrains retrieval accuracy more than embedding model choice. Semantic chunking outperforms naive chunking significantly (practice-based). Design the chunking strategy first; pick tools second.
 
 For the full vendor/pricing matrix (US and EU, buy and build), the compliance decision tree, dual US/EU stage-appropriate recommendations, and the G2/Capterra/Gartner vendor summary, see `references/ai-knowledge-stack-vendor-matrix.md`. For the condensed quick-reference, see `references/ai-knowledge-stack-reference.md`.
 

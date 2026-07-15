@@ -483,7 +483,7 @@ Add this to the start of any cadence design engagement:
 | **Deal review frequency** | Ad-hoc or monthly | Weekly but inconsistent | Weekly, never missed, structured |
 | **Pre-meeting data** | None, people wing it | Some data pulled manually | Automated packet delivered 24h before |
 | **Decision logging** | No actions recorded | Actions noted but not tracked | Actions logged, owners named, reviewed next meeting |
-| **Forecast accuracy** | ±25%+ (Neon practice-based) | ±15-20% (Neon practice-based) | ±5-10% (Forrester, Optifai, 2026) |
+| **Forecast accuracy** | ±25%+ (practice-based) | ±15-20% (practice-based) | ±5-10% (Forrester, Optifai, 2026) |
 | **Cross-functional sync** | Marketing and Sales don't talk | Monthly alignment meeting | Bi-weekly funnel review with shared metrics |
 | **Coaching integration** | Coaching separate from reviews | Some coaching in reviews | Pipeline review is the coaching system |
 

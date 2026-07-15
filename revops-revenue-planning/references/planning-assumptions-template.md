@@ -26,7 +26,7 @@ Single source of truth for all planning assumptions. Completed jointly by Revenu
 | | Net New SDR Hires | +1 FTE | VP Sales | Approved headcount plan | HIGH | Start date: Jan; full productivity by month 4 |
 | | Quota Attainment Target | 70% | RevOps | Planned rep distribution across 100-120% band | MEDIUM | Historical: 52% at quota (2024), 46% (2025); plan assumes improvement via enablement |
 | | Rep Turnover | 10% annualised | VP Sales | Historical rep cohort data | MEDIUM | Budget for backfill hires; ramp lag reduces productivity |
-| **Churn & Downgrades** | Customer Churn (% ARR at risk) | 5% | VP CS | Renewal ARR minus at-risk list | MEDIUM | Ebsta 2026 mid-market: 1-3% monthly (12-36% annual); Neon conservative |
+| **Churn & Downgrades** | Customer Churn (% ARR at risk) | 5% | VP CS | Renewal ARR minus at-risk list | MEDIUM | Ebsta 2026 mid-market: 1-3% monthly (12-36% annual); conservative practice-based |
 | | Downgrade Rate (contract value reduction) | 8% | VP CS | Historical downgrades vs renewal base | MEDIUM | Customers reducing seats or downgrading tiers mid-contract |
 
 ---

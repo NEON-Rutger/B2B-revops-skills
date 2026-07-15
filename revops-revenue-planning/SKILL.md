@@ -283,11 +283,11 @@ Mixing locked and flexible parameters is the primary cause of reforecasting chao
 - Below 2.5x: Critical; reforecast immediately
 - 2.5x to 3.0x: At-risk; escalate and plan pipeline generation response
 - 3.0x to 3.5x: Healthy baseline
-- 3.5x+: Strong (banding is a Neon house threshold informed by Ebsta slippage data: 36% deals slip quarterly, 50% best-case close rate)
+- 3.5x+: Strong (banding is a practice-based threshold informed by Ebsta slippage data: 36% deals slip quarterly, 50% best-case close rate)
 
 **Forecast Accuracy Benchmarks (Monthly Actuals vs Month-Start Forecast):**
 - ±5%: Elite (only 7% of companies reach 90%+ accuracy; Gartner via ORM Technologies, 2025)
-- ±10%: Strong; ±15-20%: Normal; ±25%+: Process broken, structural fix required (Neon house banding, informed by the Ebsta 2025 accuracy distribution)
+- ±10%: Strong; ±15-20%: Normal; ±25%+: Process broken, structural fix required (practice-based banding, informed by the Ebsta 2025 accuracy distribution)
 
 **Quota Attainment Benchmarks (Rep-Level Performance):**
 - Healthy: 70-80% of reps hit quota (aspirational target)

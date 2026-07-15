@@ -2,7 +2,7 @@
 
 On-demand reference for the sales-methodology skill.
 
-**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid. Neon applies this as the operational complement to SPICED. SPICED tells you how to run the conversation; this tells you how to run the pipeline. SPICED qualifies deals; this section operationalizes the full pipeline management model around SPICED, from stage entry criteria to inspection cadence to forecasting.
+**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid. This skill applies it as the operational complement to SPICED. SPICED tells you how to run the conversation; this tells you how to run the pipeline. SPICED qualifies deals; this section operationalizes the full pipeline management model around SPICED, from stage entry criteria to inspection cadence to forecasting.
 
 ## Stage Entry/Exit Criteria
 

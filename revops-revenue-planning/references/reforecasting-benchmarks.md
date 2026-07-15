@@ -1,6 +1,6 @@
 # Reforecasting Benchmarks and Trigger Thresholds
 
-Reference data for planning benchmarks and when each metric triggers a reforecast. Benchmarks sourced from market research (with attribution) and Neon house operating defaults.
+Reference data for planning benchmarks and when each metric triggers a reforecast. Benchmarks sourced from market research (with attribution) and practice-based operating defaults.
 
 ---
 
@@ -16,7 +16,7 @@ Reference data for planning benchmarks and when each metric triggers a reforecas
 | **3.0x to 3.5x** | HEALTHY | Normal operating band. Standard monthly forecast review. Reforecast quarterly only. | RevOps (monthly check-in) | Monthly |
 | **3.5x+** | STRONG | Above-average coverage. May indicate sales cycle lengthening or pipeline bloat (old deals stagnating). Audit for stale deals (>45 days in same stage). | RevOps (diagnostic) | Monthly audit |
 
-**Source:** Coverage thresholds (Neon house operating default, informed by Ebsta 2025: 36% deals slip quarterly, 50% best-case close rate, yielding 3x as reliability floor). Market range 2.5-5x (Abacum, Runway, MetricGen 2025-2026).
+**Source:** Coverage thresholds (practice-based operating default, informed by Ebsta 2025: 36% deals slip quarterly, 50% best-case close rate, yielding 3x as reliability floor). Market range 2.5-5x (Abacum, Runway, MetricGen 2025-2026).
 
 ---
 
@@ -34,7 +34,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 
 **Context:** Only 7% of companies reach 90%+ forecast accuracy (Gartner via ORM Technologies 2025). Median is 75% (Ebsta 2025, EUR 48B pipeline, 2,000 CROs), meaning ±20-25% variance is common. However, variance >±20% for two consecutive months is a signal that something structural has changed (sales cycle lengthened, deal quality dropped, competitive pressure increased).
 
-**Neon operating practice:** Flag ±20% threshold if it repeats in Month 2. By Month 3 of consistent ±20%, a full reforecast is mandatory.
+**Operating practice:** Flag ±20% threshold if it repeats in Month 2. By Month 3 of consistent ±20%, a full reforecast is mandatory.
 
 ---
 
@@ -45,7 +45,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 | Attainment Rate | Status | Interpretation | Action |
 |---|---|---|---|
 | **>80%** | EXCELLENT | Most reps are hitting or exceeding quota. Quotas are realistic; team is performing. | No action; maintain momentum. |
-| **70-80%** | TARGET | Planned distribution (Neon target for well-designed quotas). Approximately 75% of reps hit quota; 15% exceed; 10% significantly miss. | Continue execution. Standard reforecasting. |
+| **70-80%** | TARGET | Planned distribution (practice-based target for well-designed quotas). Approximately 75% of reps hit quota; 15% exceed; 10% significantly miss. | Continue execution. Standard reforecasting. |
 | **60-70%** | RISK | Below target. Either quotas are too aggressive, or execution is slipping. Diagnostic needed. | Review prior-year attainment by rep to validate if quotas are realistic. If quotas were historically achievable, investigate execution gaps (deal velocity, win rate, pipeline). |
 | **<60%** | BROKEN | Quota-setting process is flawed. Fewer than 6 in 10 reps can attain. | Reforecast and rebase quotas. If most reps cannot hit, the plan is unrealistic. (Ebsta 2025: 46% of reps hit quota in 2025, down from 52% in 2024; median market is broken.) |
 
@@ -55,16 +55,16 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 
 ## Reforecasting Frequency Boundaries
 
-**Market practice and Neon default:**
+**Market practice and house default:**
 
 | Frequency | Recommended For | Risk |
 |---|---|---|
 | **Monthly** | High-volatility businesses (early-stage <EUR 5M ARR, or businesses with <30-day sales cycles). | High operational overhead; team suffers from reforecasting fatigue; plan loses meaning if revised every month. |
 | **Quarterly** | Standard for most growth-stage B2B SaaS (EUR 5-100M ARR). | Quarterly may be too infrequent if business environment shifts materially (competitive shock, macro downturn). Pair quarterly reforecasts with monthly trigger reviews. |
-| **Weekly operational, Monthly formal reforecast** | Current Neon operating standard. RevOps reviews pipeline, coverage, close rate, and key deals weekly. Formal forecast update (including FP&A review) happens monthly. Quarterly deep reforecasts (assumptions reset) happen Q1/Q2/Q3. | Sweet spot for most mid-market teams. Prevents total disconnect while avoiding reforecasting chaos. |
+| **Weekly operational, Monthly formal reforecast** | Current practitioner operating standard. RevOps reviews pipeline, coverage, close rate, and key deals weekly. Formal forecast update (including FP&A review) happens monthly. Quarterly deep reforecasts (assumptions reset) happen Q1/Q2/Q3. | Sweet spot for most mid-market teams. Prevents total disconnect while avoiding reforecasting chaos. |
 | **Continuous (ad-hoc)** | Crisis businesses or high-uncertainty environments (macro freeze, major customer loss). | Unsustainable. FP&A cannot model; board cannot plan; team loses autonomy. Use only during crisis windows (max 4-6 weeks). |
 
-**Neon practice:** Most clients run weekly forecast calls (30-60 min, RevOps + sales leads, focused on material changes). Monthly formal reforecasts (full review with FP&A, compare vs Plan of Record, document). Quarterly deep reforecasts (reset assumptions, compare to Bottoms-Up Original and Finance Stretch).
+**Practice default:** Most clients run weekly forecast calls (30-60 min, RevOps + sales leads, focused on material changes). Monthly formal reforecasts (full review with FP&A, compare vs Plan of Record, document). Quarterly deep reforecasts (reset assumptions, compare to Bottoms-Up Original and Finance Stretch).
 
 ---
 
@@ -77,7 +77,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 | **>130%** | Elite (top quartile) | Expansion revenue is powering growth. Scalable model. |
 | **110-130%** | Healthy (top 50%) | Strong expansion motions. Sustainable growth. |
 | **105-110%** | Acceptable (median-to-strong) | Churn and expansion roughly balanced. Plan assumes this band. |
-| **<105%** | AT-RISK (trigger reforecast) | Churn exceeding expansion. Unsustainable as-is. Investigate cohort churn and expansion rate. Reforecast renewal and expansion forecasts downward. (Ebsta 2025: median NRR 106%; Neon operating threshold 105%) |
+| **<105%** | AT-RISK (trigger reforecast) | Churn exceeding expansion. Unsustainable as-is. Investigate cohort churn and expansion rate. Reforecast renewal and expansion forecasts downward. (Ebsta 2025: median NRR 106%; practice-based operating threshold 105%) |
 
 **Reforecast trigger:** NRR below 105% for one quarter = diagnostic. Below 105% for two consecutive quarters = mandatory reforecast.
 
@@ -97,11 +97,11 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 | Payback | Status | Action |
 |---|---|---|
 | **<12 months** | Strong (median and better) | Acquisition efficiency is healthy. Scalable motion. Assume this in plan. |
-| **12-14 months** | Acceptable (Neon operating threshold) | Within tolerance. Plan conservatively; watch for drift. |
+| **12-14 months** | Acceptable (practice-based operating threshold) | Within tolerance. Plan conservatively; watch for drift. |
 | **14-18 months** | At-risk (trigger diagnostic) | Acquisition cost is rising or ACV is declining. Reforecast if trend continues. Diagnose: Is CAC up (ad costs rising)? Is ACV down (smaller deals)? |
 | **>18 months** | Broken | Acquisition efficiency is poor. Cannot scale. Reforecast downward and plan for CAC reduction or ACV increase. |
 
-**Source:** Median CAC payback 15-16 months (Drivetrain, Getaleph, Data-Mania 2026). Top quartile <12 months. Neon threshold 14 months because most clients operate below median.
+**Source:** Median CAC payback 15-16 months (Drivetrain, Getaleph, Data-Mania 2026). Top quartile <12 months. House threshold of 14 months because most clients operate below median.
 
 ---
 

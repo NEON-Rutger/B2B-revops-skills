@@ -72,7 +72,7 @@ Evangelist        → High NPS, active referrer, or case study participant
 
 - **Forward movement is the default.** Stages should progress forward in normal flow. HubSpot now allows backward transitions, but going backward (e.g. Customer to Lead) should be rare and deliberate; typically only for re-engagement of churned customers or data corrections.
 
-- **Healthy funnel benchmarks.** Use these ranges to diagnose broken funnels: 40% Subscriber to Lead conversion, 30% Lead to MQL, 20% MQL to SQL, 25-30% SQL to Opportunity (Neon practice-based). If your actual conversion is consistently lower, the stage definitions or qualification criteria need review. If higher, your upstream stages may be too lenient.
+- **Healthy funnel benchmarks.** Use these ranges to diagnose broken funnels: 40% Subscriber to Lead conversion, 30% Lead to MQL, 20% MQL to SQL, 25-30% SQL to Opportunity (practice-based). If your actual conversion is consistently lower, the stage definitions or qualification criteria need review. If higher, your upstream stages may be too lenient.
 
 - **Automate objective transitions.** When lead score crosses MQL threshold → set to MQL automatically. When a deal is created → set to Opportunity automatically. When a deal is won → set to Customer automatically.
 

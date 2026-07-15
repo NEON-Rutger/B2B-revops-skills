@@ -214,7 +214,7 @@ LLMs can synthesis qualitative research into positioning angles:
 - Load call transcripts or interview notes (anonymised SPICED data)
 - Ask the model to identify recurring phrases, pain patterns, and ideal outcomes
 - Extract direct customer language for the left side of the canvas
-- Reduces manual synthesis time significantly (Neon practice-based)
+- Reduces manual synthesis time significantly (practice-based)
 
 ---
 

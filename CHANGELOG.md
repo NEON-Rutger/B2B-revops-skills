@@ -6,6 +6,18 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v0.4.2], 2026-07-15
+
+### Changed
+- Neutral voice pass: 152 in-content brand mentions across 48 skill files reduced to zero.
+  House benchmark labels renamed from brand-prefixed to "(practice-based)"; house thresholds,
+  operating defaults and worked-example framing rewritten in neutral practitioner voice.
+  What deliberately remains: the one-line "Built by Neon Triforce" byline at the foot of each
+  skill and two source-attribution credits. Skills now read as generic tools; the branding
+  lives in the bylines and the README.
+
+---
+
 ## [v0.4.1], 2026-07-15
 
 ### Changed

@@ -1,6 +1,6 @@
 # Neon RevOps, the open-source revenue operations layer for Claude
 
-**Current release: v0.4.1 (2026-07-15), 34 skills.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v0.4.2 (2026-07-15), 34 skills.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
 34 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 

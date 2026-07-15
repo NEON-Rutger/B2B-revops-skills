@@ -11,13 +11,13 @@ A crisis is not "we missed a number." A crisis is when multiple system layers br
 ### Threshold Triggers (Any ONE = Crisis Mode)
 
 ```
-FORECAST:  ±30%+ variance for 2+ consecutive quarters (Neon practice-based)
-WIN RATE:  Declined 5+ points over 3 quarters (Neon practice-based)
-PIPELINE:  Coverage below 3x AND falling month-over-month (Neon practice-based)
-RETENTION: NRR below 90% (Neon practice-based)
-DATA:      Critical deal fields <70% complete; CRM ≠ finance by >10% (Neon practice-based)
-TRUST:     Sales blames marketing blames CS blames product (3+ parties) (Neon practice-based)
-PEOPLE:    2+ top performers leaving in one quarter; open cynicism (Neon practice-based)
+FORECAST:  ±30%+ variance for 2+ consecutive quarters (practice-based)
+WIN RATE:  Declined 5+ points over 3 quarters (practice-based)
+PIPELINE:  Coverage below 3x AND falling month-over-month (practice-based)
+RETENTION: NRR below 90% (practice-based)
+DATA:      Critical deal fields <70% complete; CRM ≠ finance by >10% (practice-based)
+TRUST:     Sales blames marketing blames CS blames product (3+ parties) (practice-based)
+PEOPLE:    2+ top performers leaving in one quarter; open cynicism (practice-based)
 ```
 
 ### The Multi-System Failure Pattern
@@ -38,7 +38,7 @@ If you see data corruption + unclear process + silent wars between functions, yo
 
 ### Week 1: DATA AUDIT. Can You Trust Your Data?
 
-**The Rule:** If data quality <70% on critical fields, STOP. Nothing else matters. (Neon practice-based threshold)
+**The Rule:** If data quality <70% on critical fields, STOP. Nothing else matters. (practice-based threshold)
 
 ```
 EMERGENCY DATA AUDIT (sample 200 random open deals):
@@ -54,7 +54,7 @@ CRITICAL FIELDS                                   TARGET
 □ Customer name matches finance system?           99%+
 
 SCORING:
-<70% at target = DATA CRISIS. Run 5-day blitz before anything else. (Neon practice-based threshold)
+<70% at target = DATA CRISIS. Run 5-day blitz before anything else. (practice-based threshold)
 70-85%         = ACCEPTABLE. Proceed with caveats on all forecasts.
 >85%           = GOOD. Proceed with confidence.
 ```

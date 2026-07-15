@@ -54,7 +54,7 @@ FIT SCORE (Account-Level, 0-100)            ENGAGEMENT SCORE (Behavior-Level, 0-
 MQL = Fit ≥40 AND Engagement ≥30
 
 This prevents routing "right customer, wrong time" and "active bad-fit" leads.
-In practice, clients implementing this split report MQL acceptance improvements of 5-15 percentage points; one €40M ARR platform reported 62% to 81% (Neon practice-based).
+In practice, clients implementing this split report MQL acceptance improvements of 5-15 percentage points; one €40M ARR platform reported 62% to 81% (practice-based).
 ```
 
 ### Lead Scoring Calibration Process (Quarterly)
@@ -151,7 +151,7 @@ RECYCLE (back to nurture):    Not disqualified, just "not now"
                               Mark "nurture hold"; re-engage 1-2 week cadence
                               Re-score after 60 days; re-activate if engagement returns
 
-Recycled leads show 8-15% reactivation rates within 6 months when re-engaged on trigger events (e.g. product update, budget cycle, Neon practice-based).
+Recycled leads show 8-15% reactivation rates within 6 months when re-engaged on trigger events (e.g. product update, budget cycle, practice-based).
 ```
 
 ## 2. Attribution Modeling
@@ -205,7 +205,7 @@ Every touch must trace back to a budget item.
 
 ### Common Attribution Pitfalls
 
-**Dark funnel:** Typical dark funnel is 25-45% of pipeline with no attributable source (Neon practice-based; direct, word-of-mouth, untracked). Drivers: poor UTM hygiene, offline word-of-mouth, self-directed research without tracked touchpoint. Solution: add "how did you hear about us?" to forms. Build qualitative dark funnel model based on 30-day backtest (trace closed opportunities and reconstruct source via shadow research or contact interview).
+**Dark funnel:** Typical dark funnel is 25-45% of pipeline with no attributable source (practice-based; direct, word-of-mouth, untracked). Drivers: poor UTM hygiene, offline word-of-mouth, self-directed research without tracked touchpoint. Solution: add "how did you hear about us?" to forms. Build qualitative dark funnel model based on 30-day backtest (trace closed opportunities and reconstruct source via shadow research or contact interview).
 
 **Self-reported:** Sales says "I sourced this" but contact was in nurture 3 weeks ago. Solution: run multi-touch on CRM data, don't trust source field alone.
 
@@ -229,7 +229,7 @@ For the full channel-mix table (typical pipeline %, time to mature, CAC efficien
 
 ### ICP-Fit Tracking for Inbound
 
-Track: "Of inbound leads, % that match ICP." If 68% of inbound are outside your ICP (wrong geography, wrong size), retarget keywords and channels. Improving ICP-fit targeting in keyword optimization can shift inbound-to-SAL rates by 10-20 percentage points (Neon practice-based).
+Track: "Of inbound leads, % that match ICP." If 68% of inbound are outside your ICP (wrong geography, wrong size), retarget keywords and channels. Improving ICP-fit targeting in keyword optimization can shift inbound-to-SAL rates by 10-20 percentage points (practice-based).
 
 ### AI-Assisted Inbound Qualification
 
@@ -241,7 +241,7 @@ For the implementation pattern, behaviour-based lead segmentation, and full SaaS
 
 ### Customer Interviews as a Marketing Data Source
 
-The highest-signal data source (structured customer interviews) is almost never fed back into the marketing data model. Sales and CS talk to customers daily, but that intelligence rarely flows into lead scoring, segmentation, or campaign targeting, so marketing optimizes for proxy signals instead of real buying criteria. Structured interviews (8-12 sessions per quarter with current customers across different company sizes) yield verbatim language for ad copy, pain priorities that reset lead-scoring weights, and decision criteria that validate your engagement model; this is the highest-ROI activity in marketing operations (Neon practice-based).
+The highest-signal data source (structured customer interviews) is almost never fed back into the marketing data model. Sales and CS talk to customers daily, but that intelligence rarely flows into lead scoring, segmentation, or campaign targeting, so marketing optimizes for proxy signals instead of real buying criteria. Structured interviews (8-12 sessions per quarter with current customers across different company sizes) yield verbatim language for ad copy, pain priorities that reset lead-scoring weights, and decision criteria that validate your engagement model; this is the highest-ROI activity in marketing operations (practice-based).
 
 For the interview→marketing pipeline table (interview output → marketing use → how to operationalize) and the quarterly review process, see `references/customer-interview-marketing-pipeline.md`. See the icp-builder skill (references/icp-building-reference.md) for the full customer interview methodology and GAP method.
 
@@ -316,7 +316,7 @@ For full stack evaluation, see **revops-tech-stack**.
 
 The lead scoring and attribution sections above cover the mechanics. This section covers the operational process: the step-by-step flow from first touch to qualified pipeline.
 
-**Source:** Adapted from Union Square Consulting's Inbound Pyramid. Neon applies this as the process layer beneath the scoring mechanics.
+**Source:** Adapted from Union Square Consulting's Inbound Pyramid. This skill applies it as the process layer beneath the scoring mechanics.
 
 ### Customer Journey Map (Prerequisite)
 
@@ -348,7 +348,7 @@ SQL               Discovery completed. Real        Convert to opportunity in CRM
 
 ### Operational Detail (SLA, Routing, Follow-Up, ABM)
 
-The speed-to-lead SLA (response targets and escalation by tier), lead routing rules and conflict resolution, the day-by-day follow-up cadence, and ABM account-level reporting are the operational layer beneath this process. As a baseline: response time is the single biggest lever in inbound conversion. After 5 minutes, contact rates drop by 10x (Neon practice-based; aligned with Blazeo 54.9% SLA hit rate on formal 15-minute SLAs vs 29.5% without, 2026); T1 MQLs target <5 minutes with escalation.
+The speed-to-lead SLA (response targets and escalation by tier), lead routing rules and conflict resolution, the day-by-day follow-up cadence, and ABM account-level reporting are the operational layer beneath this process. As a baseline: response time is the single biggest lever in inbound conversion. After 5 minutes, contact rates drop by 10x (practice-based; aligned with Blazeo 54.9% SLA hit rate on formal 15-minute SLAs vs 29.5% without, 2026); T1 MQLs target <5 minutes with escalation.
 
 For the full speed-to-lead SLA tables, routing rules and hierarchy, follow-up cadences, and ABM reporting, see `references/inbound-operations-detail.md`.
 

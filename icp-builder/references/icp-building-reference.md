@@ -32,7 +32,7 @@ Not all customer profiles are ICPs. Early customers often represent **initial tr
 
 **You need at least 8 comparable great customers to claim a real ICP.**
 
-Beyond that baseline, customer count thresholds vary by **motion type** (how you sell). The thresholds below reflect data quality and signal noise across selling motions (Neon practice-based):
+Beyond that baseline, customer count thresholds vary by **motion type** (how you sell). The thresholds below reflect data quality and signal noise across selling motions (practice-based):
 
 | Motion Type | Customer Count Threshold | Pattern Variability | Why This Number |
 |---|---|---|---|

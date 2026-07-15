@@ -120,7 +120,7 @@ TEXT (long):   Notes only. Rarely useful in reports; use timeline instead.
 
 ### Field Deprecation
 
-Recommended timeline (Neon practice-based); adjust based on team adoption and data volume:
+Recommended timeline (practice-based); adjust based on team adoption and data volume:
 
 ```
 1. ANNOUNCE (2 weeks): Notify all teams that use the field. Document replacement field.
@@ -146,7 +146,7 @@ Scale-ups accumulate 500+ fields, 200 of which nobody uses. Prevention: naming c
 
 ### Five Dimensions
 
-Recommended targets for B2B SaaS (€15M-150M ARR); adjust by your stage and risk tolerance (Neon practice-based):
+Recommended targets for B2B SaaS (€15M-150M ARR); adjust by your stage and risk tolerance (practice-based):
 
 ```
 COMPLETENESS:  Does the record have all required information?
@@ -175,7 +175,7 @@ Starting point: if your organisation is below 85% on any dimension, prioritise c
 
 ### Data Quality Score
 
-Recommended starting weights (Neon practice-based):
+Recommended starting weights (practice-based):
 
 ```
 DQ Score = (Completeness × 0.25) + (Accuracy × 0.25) + (Consistency × 0.25)
@@ -222,7 +222,7 @@ LLM-BASED QUALITY MONITORING (emerging, 2026):
   Pattern detection: LLM identifies suspicious records based on field patterns
   (e.g., "contact name contains only one letter", "title has 47 words", "industry unrecognised").
   Technique: fine-tune on your clean records, flag outliers for review.
-  Accuracy: 75% precision on data quality detection (Neon practice-based; emerging in vendor research 2026).
+  Accuracy: 75% precision on data quality detection (practice-based; emerging in vendor research 2026).
   Use case: catch unusual entries before they propagate. Not a replacement for rules.
 
 PREDICTIVE QUALITY SCORING (emerging):

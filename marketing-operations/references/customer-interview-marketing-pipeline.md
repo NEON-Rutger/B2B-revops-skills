@@ -16,7 +16,7 @@ Marketing operations teams typically rely on enrichment data and behavioural dat
 | **Channel attribution** (how they found you) | Budget allocation | Compare self-reported to system-attributed; adjust channel mix |
 | **Objection patterns** (what almost stopped them) | Objection-handling content, FAQ pages | Create targeted content for top 3 objections |
 
-**The math:** 10 customer interviews, conducted with structured questioning depth, typically yield 40+ content assets AND validate/refine your lead scoring model (Neon practice-based; execution depth varies). This is the highest-ROI activity in marketing operations when run with rigorous methodology.
+**The math:** 10 customer interviews, conducted with structured questioning depth, typically yield 40+ content assets AND validate/refine your lead scoring model (practice-based; execution depth varies). This is the highest-ROI activity in marketing operations when run with rigorous methodology.
 
 **Process:**
 1. CS or Sales conducts structured interviews (see `icp-builder` skill for the 8-step process)

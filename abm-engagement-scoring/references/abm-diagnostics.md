@@ -354,5 +354,5 @@ This diagnostic is adapted from:
 - MEDDIC Champion Validation Framework (Atlassian, 2025)
 - 6sense ABM Maturity Assessment (2026)
 - Demandbase Account Readiness Framework (2024)
-- Practitioner experiences from Neon Triforce ABM implementations (2025-2026)
+- Practitioner experiences from ABM implementations (practice-based) (2025-2026)
 - Measurement theatre patterns identified across 50+ corporate ABM programmes

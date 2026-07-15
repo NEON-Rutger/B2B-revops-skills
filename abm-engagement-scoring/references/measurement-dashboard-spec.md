@@ -480,4 +480,4 @@ Dashboard architecture and metric definitions adapted from:
 - Demandbase Dashboard and Reporting Best Practices (2024)
 - Forrester ABM Metrics and KPI Research (2026)
 - HubSpot ABM Measurement Guide (2025)
-- Practitioner implementation case studies from Neon Triforce (2025-2026)
+- Practitioner implementation case studies (practice-based) (2025-2026)

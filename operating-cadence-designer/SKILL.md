@@ -76,7 +76,7 @@ Every meeting must pass the 5P gate. This is the non-negotiable foundation. If a
    - Pre-reads sent at least one working day in advance for decision sessions.
    - Clear baseline so you can measure later if the decision worked.
 
-**5P gate rule:** If any P is missing or fuzzy, cancel the meeting or replace it with an async update. A healthy cadence has a non-zero cancel rate (5-15% typical; Neon practice-based).
+**5P gate rule:** If any P is missing or fuzzy, cancel the meeting or replace it with an async update. A healthy cadence has a non-zero cancel rate (5-15% typical; practice-based).
 
 ---
 
@@ -286,17 +286,17 @@ Track these metrics to see if the cadence itself is working:
 
 1. **Decision latency**: Time from insight (data signal) to logged decision, and from logged decision to live countermeasure. Target: <7 days for most decisions.
 
-2. **5P cancel rate**: Share of scheduled meetings that are cancelled because they lack Purpose, Product, People, Process, or Proof. A healthy cadence has 5-15% cancel rate (Neon practice-based). Zero cancel rate means the gate is not enforced; >20% means the calendar is overloaded.
+2. **5P cancel rate**: Share of scheduled meetings that are cancelled because they lack Purpose, Product, People, Process, or Proof. A healthy cadence has 5-15% cancel rate (practice-based). Zero cancel rate means the gate is not enforced; >20% means the calendar is overloaded.
 
-3. **SLO hit rate**: Share of weeks where key handover p95 SLOs (lead to first touch, MQL to SQL, etc.) are met. Target: >80% (Neon practice-based).
+3. **SLO hit rate**: Share of weeks where key handover p95 SLOs (lead to first touch, MQL to SQL, etc.) are met. Target: >80% (practice-based).
 
-4. **Freshness attainment**: Share of weekly Data Spine checks that pass (data is current, complete, accurate). Target: >95% (Neon practice-based).
+4. **Freshness attainment**: Share of weekly Data Spine checks that pass (data is current, complete, accurate). Target: >95% (practice-based).
 
-5. **Forecast accuracy**: Share of periods where actual revenue sits within forecast bands. Target: >70% (Neon practice-based).
+5. **Forecast accuracy**: Share of periods where actual revenue sits within forecast bands. Target: >70% (practice-based).
 
 6. **Kill rate**: Share of experiments killed by stop rule per quarter. Target: 20%+ per quarter. Kill rate <10% suggests experiments don't have real stop rules.
 
-7. **Coaching uptake**: Share of reps and teams that complete agreed coaching actions within the target timeframe. Target: >80% (Neon practice-based).
+7. **Coaching uptake**: Share of reps and teams that complete agreed coaching actions within the target timeframe. Target: >80% (practice-based).
 
 Review these KPIs monthly in the Strategy and Lever Review. Tune the cadence only in the Quarterly Reset.
 

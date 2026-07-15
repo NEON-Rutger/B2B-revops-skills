@@ -36,7 +36,7 @@ Total cost: $900-2,000/month + 2-4 weeks initial build + 2-4 hours/week maintena
 
 ## EU Stack. Compliance-First, Sovereign
 
-The EU stack addresses GDPR, data residency, and works council requirements. This is critical for Neon's Dutch/EU client base.
+The EU stack addresses GDPR, data residency, and works council requirements. This is critical for Dutch and EU teams.
 
 **Managed platform path (buy)**
 
@@ -95,7 +95,7 @@ Does client data include personal data under GDPR?
 
 **Chunking quality constrains retrieval accuracy more than embedding model choice.**
 
-Semantic chunking outperforms naive chunking significantly (Neon practice-based). A well-designed custom RAG with good chunking on a cheap embedding model will outperform an expensive managed platform with basic chunking. Design the chunking strategy first. Pick tools second.
+Semantic chunking outperforms naive chunking significantly (practice-based). A well-designed custom RAG with good chunking on a cheap embedding model will outperform an expensive managed platform with basic chunking. Design the chunking strategy first. Pick tools second.
 
 ## Vendor Summary (G2 / Capterra / Gartner, as of July 2026)
 

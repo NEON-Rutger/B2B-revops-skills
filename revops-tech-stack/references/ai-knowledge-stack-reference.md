@@ -88,7 +88,7 @@ GDPR personal data involved?
 
 ## Critical insight
 
-**Chunking quality > embedding model choice.** Semantic chunking outperforms naive chunking significantly (Neon practice-based). Design chunking first, pick tools second.
+**Chunking quality > embedding model choice.** Semantic chunking outperforms naive chunking significantly (practice-based). Design chunking first, pick tools second.
 
 ---
 

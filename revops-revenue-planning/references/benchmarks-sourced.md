@@ -1,6 +1,6 @@
 # Benchmarks and Operating Defaults
 
-Two classes of numbers, kept deliberately separate. **Part A** is sourced market research: every figure carries a named publisher and year, and figures that could not be verified against their source were removed at the 2026-07-14 verification pass. **Part B** is Neon's house operating defaults: practitioner heuristics we apply in engagements, labelled as exactly that. Never present a Part B number to a client as market research.
+Two classes of numbers, kept deliberately separate. **Part A** is sourced market research: every figure carries a named publisher and year, and figures that could not be verified against their source were removed at the 2026-07-14 verification pass. **Part B** is practice-based operating defaults: practitioner heuristics applied in engagements, labelled as exactly that. Never present a Part B number to a client as market research.
 
 ---
 
@@ -55,9 +55,9 @@ Removed at verification (2026-07-14), do not reintroduce without a checkable sou
 
 ---
 
-## Part B: House operating defaults (Neon practitioner doctrine, not market research)
+## Part B: House operating defaults (practitioner doctrine, not market research)
 
-These are the defaults Neon applies in engagements. They come from practitioner experience, the sibling skills (revops-forecasting, gtm-planning) and widely used SaaS operating conventions. Present them to clients as "our operating standard", never as a study result.
+These are the defaults applied in engagements. They come from practitioner experience, the sibling skills (revops-forecasting, gtm-planning) and widely used SaaS operating conventions. Present them to clients as "our operating standard", never as a study result.
 
 ### Coverage and trigger thresholds
 

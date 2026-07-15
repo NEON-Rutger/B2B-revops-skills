@@ -365,4 +365,4 @@ Use this checklist to verify each phase is complete before moving to the next.
 
 ---
 
-**Attribution:** Pavilion CRO School (planning calendar structure), Fincome (reforecasting cadence), FP&A Today podcast (planning timeline recommendations). The 12-week runway is a Neon house default, not a study result.
+**Attribution:** Pavilion CRO School (planning calendar structure), Fincome (reforecasting cadence), FP&A Today podcast (planning timeline recommendations). The 12-week runway is a house default, not a study result.

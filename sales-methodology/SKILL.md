@@ -183,7 +183,7 @@ Use these in deal reviews to probe for gaps:
 
 ### SPICED Qualification Scoring by Customer Cluster
 
-The Neon SPICED ICP Library defines three customer clusters with different SPICED language and qualification rhythms. Use this to route leads and tailor your discovery.
+The SPICED ICP Library defines three customer clusters with different SPICED language and qualification rhythms. Use this to route leads and tailor your discovery.
 
 **See `references/spiced-icp-library.md` for full canonical language by cluster. Quick reference:**
 
@@ -556,7 +556,7 @@ Track these to identify patterns: which reps discount most, which reason codes a
 
 Beyond discovery and qualification, the sales process needs an operational backbone; the management layer that ensures deals move through stages correctly and forecasting is reliable. SPICED tells you how to run the conversation; this tells you how to run the pipeline.
 
-**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid, applied by Neon as the operational complement to SPICED.
+**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid, applied here as the operational complement to SPICED.
 
 The model has five components:
 - **Stage entry/exit criteria**; every stage has explicit gates. The spine: Discovery exits at SPICED S+P ≥ 2 each with Pain validated; Qualification exits at SPICED total ≥ 8/15 with economic buyer + champion identified; Solution Design exits at solution presented and technical validation complete; Negotiation exits at verbal terms agreed and legal/procurement engaged; Closed Won exits at handoff to CS.

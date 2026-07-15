@@ -8,7 +8,7 @@ Expansion signals and the CS-to-Sales ownership model live in the skill body. Th
 
 ```
 EXPANSION SCORING MODEL:
-  Score 0-100 based on (Neon practice-based weights):
+  Score 0-100 based on (practice-based weights):
     Usage growth (30%): is usage increasing month-over-month?
     Stakeholder breadth (25%): are new people engaging?
     Feature depth (20%): are they using advanced features?
@@ -25,7 +25,7 @@ EXPANSION OWNERSHIP (by score):
   Score 71-100: CSM initiates expansion conversation. If deal > threshold → hand to AE.
 
   Handoff threshold: Varies by org. Recommended: expansion >30% of current ACV → Sales
-  involved (Neon practice-based). Adjust threshold based on your CSM capacity and
+  involved (practice-based). Adjust threshold based on your CSM capacity and
   expansion deal-size distribution.
   Below threshold: CSM closes expansion directly (with approval).
 ```

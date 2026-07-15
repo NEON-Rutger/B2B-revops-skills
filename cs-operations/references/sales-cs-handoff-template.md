@@ -50,4 +50,4 @@ HANDOFF QUALITY CHECK:
 - Agenda: review committed outcomes, introduce CS team, confirm implementation timeline
 - Transfer of relationship, not just account
 
-**Source:** Adapted from Union Square Consulting's Renewals + Expansion Pyramids. Neon applies this as the process layer beneath the health scoring framework.
+**Source:** Adapted from Union Square Consulting's Renewals + Expansion Pyramids. This skill applies it as the process layer beneath the health scoring framework.

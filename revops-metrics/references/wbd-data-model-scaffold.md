@@ -6,7 +6,7 @@
 
 ## Section 1: V/CR/Δt per Bowtie Stage
 
-Every bowtie stage maps to three measurement dimensions: **Volume Metric (VM)**, **Conversion Rate (CR)**, and **Velocity (Δt)**. Neon metric names are primary; WbD notation in parentheses.
+Every bowtie stage maps to three measurement dimensions: **Volume Metric (VM)**, **Conversion Rate (CR)**, and **Velocity (Δt)**. These metric names are primary; WbD notation in parentheses.
 
 ### Inside Sales Motion (MQL → SQL → SAL path)
 

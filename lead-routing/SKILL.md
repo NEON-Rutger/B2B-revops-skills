@@ -276,17 +276,17 @@ New Lead arrives
 ```
 <500 leads/month + simple territories?
   → Build with native CRM automation (free)
-  (Neon practice-based threshold)
+  (practice-based threshold)
 
 500-5,000 leads/month + moderate complexity?
   → Evaluate dedicated routing tool
   → Build if team has strong CRM admin
-  (Neon practice-based threshold)
+  (practice-based threshold)
 
 >5,000 leads/month OR complex territories?
   → Dedicated routing tool (LeanData, Chili Piper, Default)
   → ROI = speed-to-lead improvement × conversion lift × deal value
-  (Neon practice-based threshold)
+  (practice-based threshold)
 ```
 
 ---
@@ -373,7 +373,7 @@ Run quarterly:
 2. **Balance**: Is lead distribution even across reps in same segment? (±10% variance acceptable)
 3. **Speed**: What's median speed-to-lead? What's 90th percentile? (target: <5 min median for Tier 1)
 4. **SLA compliance**: % of leads touched within SLA? (target: >90%)
-5. **Reassignment rate**: How often are leads reassigned? (>15% suggests routing logic issues; Neon practice-based threshold)
+5. **Reassignment rate**: How often are leads reassigned? (>15% suggests routing logic issues; practice-based threshold)
 6. **Conversion by route**: Do different routing paths convert differently? (identify broken paths)
 7. **Queue health**: How many leads are sitting in queues right now? How long? (target: 0 leads >1 hour)
 8. **Availability coverage**: Are there time periods with no available reps? (follow-the-sun gaps)
@@ -404,7 +404,7 @@ Run quarterly:
 - Gradient Works (2026). Pipeline coverage thresholds: optimal coverage is 1 divided by win rate (e.g. 25% win rate needs 4x coverage).
 - Salesforce Agentforce (2026). Lead routing automation with Data 360; predictive assignment benchmark: 30% conversion lift vs traditional routing.
 - HubSpot (2026). Agentic Automation Builder; Breeze Lead Agent for predictive routing; outcome-based pricing.
-- Neon practice-based thresholds: Build vs Buy decision points (<500, 500-5000, >5000 leads/month); reassignment rate benchmark (>15%).
+- practice-based thresholds: Build vs Buy decision points (<500, 500-5000, >5000 leads/month); reassignment rate benchmark (>15%).
 - LeanData. Round-robin routing datasheet; account-based routing documentation; agent-driven routing playbooks.
 - Chili Piper. Lead-to-account matching; meeting routing documentation.
 

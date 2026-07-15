@@ -488,4 +488,4 @@ Handover doctrine framework adapted from:
 - Demandbase Account Progression Framework (2024)
 - Kristina Jaramillo Personal ABM Handoff Methodology (PersonalABM; 2024-2025)
 - Sales Enablement Society: Marketing-to-Sales Handoff Best Practices (2025)
-- Practitioner case studies from Neon Triforce ABM implementations (2025-2026)
+- Practitioner case studies from ABM implementations (practice-based) (2025-2026)

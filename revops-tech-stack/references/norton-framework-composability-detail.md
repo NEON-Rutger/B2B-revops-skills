@@ -47,5 +47,5 @@ As tools proliferate, orchestration becomes the competitive advantage.
 - Small team of experts owns AI transformation across the entire customer journey
 - Build, test, and deploy capabilities from the center out
 - Reps don't manage agents or run their own tools
-- Owner.com: multiple high-value AI implementations in production (Neon practice-based)
+- Owner.com: multiple high-value AI implementations in production (practice-based)
 - Example: 2-week build → BDR decision-maker connects up 85%

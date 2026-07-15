@@ -446,4 +446,4 @@ Buying group mapping framework adapted from:
 - Gartner B2B Buying Research (2023-2025)
 - Forrester Buying Groups Research (2026)
 - Demandbase Multi-Touch Buying Group Attribution (2024)
-- Practitioner case studies from Neon Triforce ABM engagements (2025-2026)
+- Practitioner case studies from ABM engagements (practice-based) (2025-2026)

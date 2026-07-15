@@ -2,11 +2,11 @@
 
 On-demand reference for the marketing-operations skill.
 
-**Source:** Adapted from Union Square Consulting's Inbound Pyramid. Neon applies this as the process layer beneath the scoring mechanics. The lead scoring and attribution sections of the skill cover the mechanics; this is the operational process: the step-by-step flow from first touch to qualified pipeline. The customer journey map and inbound conversion metrics by stage live in the skill body; the routing process, follow-up cadences, speed-to-lead SLAs, and ABM reporting depth live here.
+**Source:** Adapted from Union Square Consulting's Inbound Pyramid. This skill applies it as the process layer beneath the scoring mechanics. The lead scoring and attribution sections of the skill cover the mechanics; this is the operational process: the step-by-step flow from first touch to qualified pipeline. The customer journey map and inbound conversion metrics by stage live in the skill body; the routing process, follow-up cadences, speed-to-lead SLAs, and ABM reporting depth live here.
 
 ## Speed-to-Lead SLA
 
-Research consistently shows that response time is the single biggest lever in inbound conversion. After 5 minutes, contact rates drop by 10x (Neon practice-based; Blazeo formal 15-minute SLAs hit target 54.9% vs 29.5% without, 2026). Response speed is the single highest-leverage lever for inbound conversion.
+Research consistently shows that response time is the single biggest lever in inbound conversion. After 5 minutes, contact rates drop by 10x (practice-based; Blazeo formal 15-minute SLAs hit target 54.9% vs 29.5% without, 2026). Response speed is the single highest-leverage lever for inbound conversion.
 
 ```
 TIER     RESPONSE SLA     ESCALATION

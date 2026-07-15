@@ -123,7 +123,7 @@ By 2026, AI adoption fundamentally changes how each KPI tier operates. When buil
 
 **Tier 2 impact:** AI lead scoring (embedded in 73% of RevOps stacks by early 2026) replaces manual scoring but only works with clean data; real-time deal scoring enables autonomous routing. Lead routing with AI misfire rate under 10% requires 90%+ field population (2026 consensus). Predictive churn models (44% adoption, mostly SMB) surface at-risk accounts before renewal, enabling CS intervention. 
 
-**Tier 3 impact:** Real-time pipeline activation replaces batch-based workflows. Reverse ETL (Hightouch, Census; 250+ integrations each) pushes enriched CRM data back to marketing platforms, enabling dynamic segmentation and personalisation within sequences. Data-fabric architectures (zero-copy warehouse-native GTM, standard at scale) reduce operational complexity and integration overhead vs. traditional ETL plumbing (Neon practice-based).
+**Tier 3 impact:** Real-time pipeline activation replaces batch-based workflows. Reverse ETL (Hightouch, Census; 250+ integrations each) pushes enriched CRM data back to marketing platforms, enabling dynamic segmentation and personalisation within sequences. Data-fabric architectures (zero-copy warehouse-native GTM, standard at scale) reduce operational complexity and integration overhead vs. traditional ETL plumbing (practice-based).
 
 **Critical prerequisite:** 60% of AI projects are abandoned over non-agent-ready data (Gartner, 2026); 23% of organisations scaling agentic AI stall on data readiness (McKinsey, 2026). Before investing in AI capabilities, audit data completeness, lineage, and enrichment coverage. A data-ready organisation gets 3-4x faster ROI from AI than one starting from poor hygiene.
 
@@ -271,7 +271,7 @@ By 2026, the constraint has shifted from "which tools do we need" to "how does d
 
 **Real-time activation via Reverse ETL:** Platforms like Hightouch and Census (each 250+ integrations) enable you to sync enriched CRM or warehouse data back to marketing, sales enablement, and demand platforms in real time. This powers dynamic list segmentation, trigger-based campaigns, and personalised outreach without manual exports.
 
-**Composable architecture (zero-copy, warehouse-native GTM):** Data warehouse becomes the single source of truth. No more batch syncs between Salesforce and your marketing platform. Both systems query the warehouse; enrichments (intent, firmographic, technographic) live once and flow everywhere. Integration tax drops by an order of magnitude. Only companies with mature data ops can operate this model (Neon practice-based).
+**Composable architecture (zero-copy, warehouse-native GTM):** Data warehouse becomes the single source of truth. No more batch syncs between Salesforce and your marketing platform. Both systems query the warehouse; enrichments (intent, firmographic, technographic) live once and flow everywhere. Integration tax drops by an order of magnitude. Only companies with mature data ops can operate this model (practice-based).
 
 **Consolidated vs. consolidated:** Average B2B team runs 23 vendors; best-in-class targets 5-8 tools (saving 25-30% annually). When evaluating new tools, ask: Does this replace existing functionality? Does this enable real-time activation? Does this reduce total vendor headcount? If the answer to all three is no, it's debt, not capability.
 
