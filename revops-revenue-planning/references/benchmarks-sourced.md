@@ -1,6 +1,6 @@
 # Benchmarks and Operating Defaults
 
-Two classes of numbers, kept deliberately separate. **Part A** is sourced market research: every figure carries a named publisher and year, and figures that could not be verified against their source were removed at the 2026-07-14 verification pass. **Part B** is practice-based operating defaults: practitioner heuristics applied in engagements, labelled as exactly that. Never present a Part B number to a client as market research.
+Two classes of numbers, kept deliberately separate. **Part A** is sourced market research: every figure carries a named publisher and year, and figures that could not be verified against their source were removed at the 2026-07-14 verification pass. **Part B** is practice-based operating defaults: practitioner heuristics applied in planning, labeled as exactly that. Never present a Part B number to your executive team as market research.
 
 ---
 
@@ -9,7 +9,7 @@ Two classes of numbers, kept deliberately separate. **Part A** is sourced market
 ### Forecast accuracy
 
 - Only 7% of companies reach 90%+ forecast accuracy (Gartner, as cited by ORM Technologies, Forecast Accuracy Guide, 2025)
-- 80% of sales organisations do not exceed 75% forecast accuracy (Ebsta 2025 GTM Benchmarks Report)
+- 80% of sales organizations do not exceed 75% forecast accuracy (Ebsta 2025 GTM Benchmarks Report)
 - Median forecast accuracy: 75% (Ebsta 2025 GTM Benchmarks Report)
 - Companies with weekly pipeline velocity tracking report 87% forecast accuracy vs 52% for teams tracking irregularly (Digital Bloom, 2025 B2B SaaS Funnel Benchmarks; single agency study, treat as indicative)
 
@@ -57,7 +57,7 @@ Removed at verification (2026-07-14), do not reintroduce without a checkable sou
 
 ## Part B: House operating defaults (practitioner doctrine, not market research)
 
-These are the defaults applied in engagements. They come from practitioner experience, the sibling skills (revops-forecasting, gtm-planning) and widely used SaaS operating conventions. Present them to clients as "our operating standard", never as a study result.
+These are the defaults applied in planning. They come from practitioner experience, the sibling skills (revops-forecasting, gtm-planning) and widely used SaaS operating conventions. Present them to your leadership team as "our operating standard", never as a study result.
 
 ### Coverage and trigger thresholds
 
@@ -79,16 +79,16 @@ These are the defaults applied in engagements. They come from practitioner exper
 ### Efficiency ratio conventions
 
 - Magic Number (net new ARR divided by prior quarter GTM spend): below 0.75 inefficient, 0.75-1.0 good, above 1.0 excellent. Widely used SaaS convention; treat the banding as convention, not research.
-- GTM efficiency framing as popularised by SBI and the Pedowitz Group: each euro of GTM spend should produce a defensible multiple in revenue; when it does not, the plan has a structural problem, not a stretch problem.
+- GTM efficiency framing as popularized by SBI and the Pedowitz Group: each euro of GTM spend should produce a defensible multiple in revenue; when it does not, the plan has a structural problem, not a stretch problem.
 
 ### Stage-based defaults (capacity and structure)
 
-High-variance heuristics; always validate against the client's own cohort data before putting them in a plan.
+High-variance heuristics; always validate against your company's own cohort data before putting them in a plan.
 
 - EUR 1-5M ARR: founder or VP-led sales; forecast accuracy of 75%+ is achievable with basic discipline; AE ramp 6-9 months (SMB motion) to 9-12 (enterprise).
 - EUR 5-25M ARR: dedicated sales leadership, sales ops emerging; SDR:AE ratio 1:3 to 1:4; AE ramp 4-6 months in established motions.
 - EUR 25-100M ARR: formal RevOps and FP&A collaboration; one front-line manager per 6-8 AEs; one RevOps FTE per 50-75 GTM FTE; ramp 3-4 months in proven motions.
-- Per-rep bookings capacity varies too much by vertical, ACV and motion to carry a house default; build it bottoms-up from the client's own ramped-rep cohort (see references/bottoms-up-build-recipe.md).
+- Per-rep bookings capacity varies too much by vertical, ACV and motion to carry a house default; build it bottoms-up from your company's own ramped-rep cohort (see references/bottoms-up-build-recipe.md).
 
 ---
 

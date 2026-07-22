@@ -8,7 +8,7 @@ Kyle Norton runs a 100+ AI-infused sales team at Owner.com. His framework for wh
 
 **Morning (automated by AI):**
 - Pre-call research: AI prepares briefing packs for every scheduled meeting (company context, contact history, recent signals, recommended talk points)
-- Account prioritisation: AI scores today's pipeline by urgency and signal strength
+- Account prioritization: AI scores today's pipeline by urgency and signal strength
 - Admin clearance: CRM updates, activity logging, and data enrichment happen automatically overnight
 
 **Core hours (human-led, AI-supported):**
@@ -96,7 +96,7 @@ One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcrip
 **The reality:**
 - 80-90% of closed revenue comes from inbound (Canaani's data)
 - Salesforce State of Sales: reps spend only 28% of their week actually selling
-- Paying €250-300K OTE for prospecting = failure of resource allocation
+- Paying $250-300K OTE for prospecting = failure of resource allocation
 
 **Why AEs are bad prospectors:**
 - Not getting the repetitions (BDRs do this full-time)

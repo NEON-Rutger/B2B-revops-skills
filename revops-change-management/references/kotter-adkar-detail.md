@@ -1,6 +1,6 @@
 # Kotter and ADKAR: RevOps-Specific Application
 
-Two established change frameworks, applied to revenue operations. Kotter diagnoses change at the organisational level. ADKAR diagnoses it at the individual level. Use them together: Kotter to design the programme, ADKAR to debug why a specific person or team is stuck.
+Two established change frameworks, applied to revenue operations. Kotter diagnoses change at the organizational level. ADKAR diagnoses it at the individual level. Use them together: Kotter to design the program, ADKAR to debug why a specific person or team is stuck.
 
 ## Kotter's 8-Step Model, applied to RevOps
 
@@ -14,11 +14,11 @@ Two established change frameworks, applied to revenue operations. Kotter diagnos
 
 5. **Enable action by removing barriers.** Find the friction that makes the old way easier than the new way, and remove it. If the new process needs ten clicks and the old one needed two, you have not removed the barrier.
 
-6. **Generate short-term wins.** Engineer a visible win inside the first 30 days. A cleaner forecast, a faster handoff, a deal saved. Publicise it. Momentum is a resource you spend and replenish.
+6. **Generate short-term wins.** Engineer a visible win inside the first 30 days. A cleaner forecast, a faster handoff, a deal saved. Publicize it. Momentum is a resource you spend and replenish.
 
 7. **Sustain acceleration.** Do not declare victory at the first win. Most RevOps changes revert inside 60 days because the team eased off after the launch. Keep the energy system running (see kyle-norton-frameworks.md).
 
-8. **Institute change.** Bake the new behaviour into the operating cadence, onboarding, and comp. A change is only institutional when a new hire learns it as "how we do things" without being told it was ever a change.
+8. **Institute change.** Bake the new behavior into the operating cadence, onboarding, and comp. A change is only institutional when a new hire learns it as "how we do things" without being told it was ever a change.
 
 ## ADKAR: match the intervention to the barrier
 
@@ -42,7 +42,7 @@ Before launching any change, score five factors from 1 to 5 each:
 - **Change Fatigue**: how many changes has this team absorbed in the last two quarters?
 - **Trust Level**: do people believe leadership tells them the truth about change?
 - **Data Quality**: can the change be measured and reinforced with reliable numbers?
-- **Management Capability**: can frontline managers coach the new behaviour, not just announce it?
+- **Management Capability**: can frontline managers coach the new behavior, not just announce it?
 
 Total the score:
 

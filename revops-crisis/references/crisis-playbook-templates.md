@@ -192,7 +192,7 @@ Crisis response playbooks with structured timelines for rapid mitigation and rec
 |---|---|---|---|
 | Pipeline crisis (coverage <2x) | Q at risk | Mid-quarter | **YES** |
 | Forecast miss (>10% gap) | Q at risk | Mid-quarter | **YES** |
-| Churn spike (>threshold) | ARR bleed | Ongoing | Maybe (if >€100k/mo) |
+| Churn spike (>threshold) | ARR bleed | Ongoing | Maybe (if >$100k/mo) |
 | Rep attrition (>2 reps) | Territory coverage risk | Ongoing | Yes (if >3 reps) |
 | Data crisis (system failure) | Visibility lost | Urgent | **YES** |
 

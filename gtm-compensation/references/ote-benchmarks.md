@@ -1,47 +1,47 @@
 # OTE & Compensation Benchmarks
-## B2B SaaS (€15M-€150M ARR) - European Market
+## B2B SaaS ($15M-$150M ARR) - European Market
 
-**Data vintage and sourcing:** These benchmarks are composite estimates derived from Radford/Mercer market data, Payscale regional salary databases, and practice-based analysis of €15M-€150M ARR European SaaS companies (2025-2026 data refresh). They should be validated against your company's industry, stage, and geography before implementation. Benchmark data moves 2-4% annually in mature markets and up to 6-8% in high-growth tech hubs. For the most current market data, subscribe to Radford or conduct a custom compensation survey.
+**Data vintage and sourcing:** These benchmarks are composite estimates derived from Radford/Mercer market data, Payscale regional salary databases, and practice-based analysis of $15M-$150M ARR European SaaS companies (2025-2026 data refresh). They should be validated against your company's industry, stage, and geography before implementation. Benchmark data moves 2-4% annually in mature markets and up to 6-8% in high-growth tech hubs. For the most current market data, subscribe to Radford or conduct a custom compensation survey.
 
 ---
 
 ## 1. OTE Ranges by Role & Company Stage
 
-### **€15M-€50M ARR (Growth Stage)**
+### **$15M-$50M ARR (Growth Stage)**
 
 | Role | OTE Min | OTE Mid | OTE Max | Base % | Variable % |
 |------|---------|---------|---------|--------|-----------|
-| SDR/BDR | €28,000 | €35,000 | €42,000 | 70% | 30% |
-| AE (SMB) | €42,000 | €53,000 | €65,000 | 60% | 40% |
-| AE (Mid-Market) | €58,000 | €78,000 | €95,000 | 55% | 45% |
-| AE (Enterprise) | €90,000 | €125,000 | €150,000 | 50% | 50% |
-| CSM | €38,000 | €50,000 | €58,000 | 75% | 25% |
-| Sales Manager | €62,000 | €85,000 | €105,000 | 65% | 35% |
-| VP Sales | €110,000 | €165,000 | €220,000 | 55-60% | 25-30% + Equity |
+| SDR/BDR | $28,000 | $35,000 | $42,000 | 70% | 30% |
+| AE (SMB) | $42,000 | $53,000 | $65,000 | 60% | 40% |
+| AE (Mid-Market) | $58,000 | $78,000 | $95,000 | 55% | 45% |
+| AE (Enterprise) | $90,000 | $125,000 | $150,000 | 50% | 50% |
+| CSM | $38,000 | $50,000 | $58,000 | 75% | 25% |
+| Sales Manager | $62,000 | $85,000 | $105,000 | 65% | 35% |
+| VP Sales | $110,000 | $165,000 | $220,000 | 55-60% | 25-30% + Equity |
 
-### **€50M-€100M ARR (Scale Stage)**
-
-| Role | OTE Min | OTE Mid | OTE Max | Base % | Variable % |
-|------|---------|---------|---------|--------|-----------|
-| SDR/BDR | €32,000 | €40,000 | €48,000 | 70% | 30% |
-| AE (SMB) | €48,000 | €62,000 | €76,000 | 60% | 40% |
-| AE (Mid-Market) | €68,000 | €92,000 | €112,000 | 55% | 45% |
-| AE (Enterprise) | €105,000 | €148,000 | €185,000 | 50% | 50% |
-| CSM | €45,000 | €58,000 | €68,000 | 75% | 25% |
-| Sales Manager | €75,000 | €105,000 | €130,000 | 65% | 35% |
-| VP Sales | €140,000 | €205,000 | €280,000 | 55-60% | 25-30% + Equity |
-
-### **€100M-€150M ARR (Scale/Enterprise Stage)**
+### **$50M-$100M ARR (Scale Stage)**
 
 | Role | OTE Min | OTE Mid | OTE Max | Base % | Variable % |
 |------|---------|---------|---------|--------|-----------|
-| SDR/BDR | €36,000 | €45,000 | €54,000 | 70% | 30% |
-| AE (SMB) | €54,000 | €70,000 | €86,000 | 60% | 40% |
-| AE (Mid-Market) | €78,000 | €105,000 | €128,000 | 55% | 45% |
-| AE (Enterprise) | €125,000 | €175,000 | €225,000 | 50% | 50% |
-| CSM | €52,000 | €68,000 | €80,000 | 75% | 25% |
-| Sales Manager | €88,000 | €125,000 | €155,000 | 65% | 35% |
-| VP Sales | €175,000 | €250,000 | €330,000 | 55-60% | 25-30% + Equity |
+| SDR/BDR | $32,000 | $40,000 | $48,000 | 70% | 30% |
+| AE (SMB) | $48,000 | $62,000 | $76,000 | 60% | 40% |
+| AE (Mid-Market) | $68,000 | $92,000 | $112,000 | 55% | 45% |
+| AE (Enterprise) | $105,000 | $148,000 | $185,000 | 50% | 50% |
+| CSM | $45,000 | $58,000 | $68,000 | 75% | 25% |
+| Sales Manager | $75,000 | $105,000 | $130,000 | 65% | 35% |
+| VP Sales | $140,000 | $205,000 | $280,000 | 55-60% | 25-30% + Equity |
+
+### **$100M-$150M ARR (Scale/Enterprise Stage)**
+
+| Role | OTE Min | OTE Mid | OTE Max | Base % | Variable % |
+|------|---------|---------|---------|--------|-----------|
+| SDR/BDR | $36,000 | $45,000 | $54,000 | 70% | 30% |
+| AE (SMB) | $54,000 | $70,000 | $86,000 | 60% | 40% |
+| AE (Mid-Market) | $78,000 | $105,000 | $128,000 | 55% | 45% |
+| AE (Enterprise) | $125,000 | $175,000 | $225,000 | 50% | 50% |
+| CSM | $52,000 | $68,000 | $80,000 | 75% | 25% |
+| Sales Manager | $88,000 | $125,000 | $155,000 | 65% | 35% |
+| VP Sales | $175,000 | $250,000 | $330,000 | 55-60% | 25-30% + Equity |
 
 ---
 
@@ -69,23 +69,23 @@
 
 **Definition:** Annual quota ÷ Annual OTE (the factor by which quota must exceed total earnings to ensure 100% attainment = 100% OTE earned)
 
-**Note on terminology:** Quota-to-OTE ratios vary by literature and vendor. The ratios below reflect the multiplier needed to hit OTE at full quota attainment. A 5:1 ratio means €500K quota generates €100K OTE (all variable + base combined).
+**Note on terminology:** Quota-to-OTE ratios vary by literature and vendor. The ratios below reflect the multiplier needed to hit OTE at full quota attainment. A 5:1 ratio means $500K quota generates $100K OTE (all variable + base combined).
 
-| Role | Typical Range | Example (€65K OTE AE) | Interpretation |
+| Role | Typical Range | Example ($65K OTE AE) | Interpretation |
 |------|---------------|----------------------|-----------------|
-| SDR/BDR | 20:1 to 30:1 | €600K-€900K meetings booked value | Harder quota (lower personal deal value) |
-| AE (SMB) | 5.5:1 to 6.5:1 | €390K-€455K annual revenue | Moderate quota difficulty |
-| AE (Mid-Market) | 5:1 to 6:1 | €350K-€420K annual revenue | Moderate quota difficulty |
-| AE (Enterprise) | 4.5:1 to 5.5:1 | €315K-€385K annual revenue | Achievable quota (larger deals) |
-| CSM | 7:1 to 10:1 | €75K-€105K expansion revenue | Expansion-focused, lower risk |
-| Sales Manager | 4.5:1 to 5.5:1 | €110K-€130K team quota | Team leverage; lower personal close |
+| SDR/BDR | 20:1 to 30:1 | $600K-$900K meetings booked value | Harder quota (lower personal deal value) |
+| AE (SMB) | 5.5:1 to 6.5:1 | $390K-$455K annual revenue | Moderate quota difficulty |
+| AE (Mid-Market) | 5:1 to 6:1 | $350K-$420K annual revenue | Moderate quota difficulty |
+| AE (Enterprise) | 4.5:1 to 5.5:1 | $315K-$385K annual revenue | Achievable quota (larger deals) |
+| CSM | 7:1 to 10:1 | $75K-$105K expansion revenue | Expansion-focused, lower risk |
+| Sales Manager | 4.5:1 to 5.5:1 | $110K-$130K team quota | Team leverage; lower personal close |
 
 **Key Insight:** Higher OTE roles have lower quota-to-OTE ratios because:
 1. Larger average deal sizes = fewer deals needed
 2. Higher base ensures income stability despite longer sales cycles
 3. Extended ramp periods built in
 
-**Caveat:** Industry literature quotes this ratio multiple ways. The most practical rule: if your OTE is €100K and quota is €500K, your quota-to-OTE is 5:1. Work backwards from your target OTE to set quota.
+**Caveat:** Industry literature quotes this ratio multiple ways. The most practical rule: if your OTE is $100K and quota is $500K, your quota-to-OTE is 5:1. Work backwards from your target OTE to set quota.
 
 ---
 
@@ -95,16 +95,16 @@
 
 | Segment | SMB | Mid-Market | Enterprise |
 |---------|-----|-----------|-----------|
-| **SaaS Annual ACV** | €5K-€20K | €25K-€75K | €100K+ |
+| **SaaS Annual ACV** | $5K-$20K | $25K-$75K | $100K+ |
 | **Commission Rate** | 5.5-6.5% | 4.5-5.5% | 3.5-4.5% |
 | **Deal Volume Focus** | High | Medium | Low (high value) |
-| **Example Deal** | €15K = €825-€975 | €50K = €2,250-€2,750 | €200K = €7,000-€9,000 |
+| **Example Deal** | $15K = $825-$975 | $50K = $2,250-$2,750 | $200K = $7,000-$9,000 |
 
 **Multi-Year Deal Commission Uplift:**
 - 2-year deal: +0.25% commission
 - 3-year deal: +0.50% commission
 - 4-year deal: +0.75% commission
-- Example: €200K deal @ 4% base + 0.50% (3-yr) = 4.5% = €9,000
+- Example: $200K deal @ 4% base + 0.50% (3-yr) = 4.5% = $9,000
 
 **Expansion/Upsell Rates:**
 - SMB: 3% commission (lower deal friction)
@@ -144,19 +144,19 @@
 
 | Role | Months to Full Quota | Key Milestones | Draw/Guarantee |
 |------|----------------------|----------------|-----------------|
-| **SDR/BDR** | 2-3 months | 4-6 wks: training + mentoring, 8-10 wks: full utilization | €2K-€3K/mo |
-| **AE (SMB)** | 9-12 months | 3 mo: 40% quota, 6 mo: 60% quota, 10 mo: 100% | €1.5K-€2.5K/mo |
-| **AE (Mid-Market)** | 12-15 months | 4 mo: 35% quota, 8 mo: 60% quota, 13 mo: 100% | €2K-€3K/mo |
-| **AE (Enterprise)** | 15-24 months | 6 mo: 25% quota, 12 mo: 50% quota, 19 mo: 100% | €3K-€4K/mo |
-| **CSM** | 6-9 months | 3 mo: 5-6 accounts, 6 mo: 10-12 accounts, 9 mo: full book | €500-€1K/mo (if variable) |
-| **Sales Manager** | 3-6 months | 3 mo: team stabilization, 6 mo: team quota setting | €1.5K-€2.5K/mo |
+| **SDR/BDR** | 2-3 months | 4-6 wks: training + mentoring, 8-10 wks: full utilization | $2K-$3K/mo |
+| **AE (SMB)** | 9-12 months | 3 mo: 40% quota, 6 mo: 60% quota, 10 mo: 100% | $1.5K-$2.5K/mo |
+| **AE (Mid-Market)** | 12-15 months | 4 mo: 35% quota, 8 mo: 60% quota, 13 mo: 100% | $2K-$3K/mo |
+| **AE (Enterprise)** | 15-24 months | 6 mo: 25% quota, 12 mo: 50% quota, 19 mo: 100% | $3K-$4K/mo |
+| **CSM** | 6-9 months | 3 mo: 5-6 accounts, 6 mo: 10-12 accounts, 9 mo: full book | $500-$1K/mo (if variable) |
+| **Sales Manager** | 3-6 months | 3 mo: team stabilization, 6 mo: team quota setting | $1.5K-$2.5K/mo |
 
 **Draw Structure (most common):**
 - Draw = monthly guarantee paid upfront
 - Recovered from future commissions earned
 - Forfeited at termination (varies by jurisdiction; check local law)
-- Example: €2K/mo draw × 12 months = €24K to be recovered
-- If AE earns €40K commission annually, company nets €16K in year 1
+- Example: $2K/mo draw × 12 months = $24K to be recovered
+- If AE earns $40K commission annually, company nets $16K in year 1
 
 **Experienced Hire Ramp (50% faster):**
 - SDR: 4-6 weeks
@@ -174,11 +174,11 @@
 |--------|-----------|---------|-----------------|-----|-------------------|-----------|
 | **Adjustment** | +12% | +8% | +6% | +4% | +8% | -4% |
 
-**Example Application (€65K OTE AE-SMB base):**
-- Amsterdam: €65K × 1.12 = €72,800
-- DACH: €65K × 1.06 = €68,900
-- UK: €65K × 1.04 = €67,600
-- Rest of NL: €65K × 0.96 = €62,400
+**Example Application ($65K OTE AE-SMB base):**
+- Amsterdam: $65K × 1.12 = $72,800
+- DACH: $65K × 1.06 = $68,900
+- UK: $65K × 1.04 = $67,600
+- Rest of NL: $65K × 0.96 = $62,400
 
 **Data sourcing note:** These regional multipliers are derived from practice-based compensation analysis of tech talent markets across Western Europe (2025-2026). They reflect cost of living, local talent density, and historical hiring competition. However, they should be validated against current Radford regional benchmarks or custom market data if your company has sufficient headcount in multiple regions. Regional gaps narrow and shift annually.
 
@@ -195,35 +195,35 @@
 
 **Quarterly/Annual Attainment Bonuses (pool-based):**
 
-| Metric | €15M-€50M ARR | €50M-€100M ARR | €100M-€150M ARR |
+| Metric | $15M-$50M ARR | $50M-$100M ARR | $100M-$150M ARR |
 |--------|---------------|-----------------|-----------------|
 | Team quota 100%+ | +8% variable | +10% variable | +12% variable |
 | Team quota 110%+ | +12% variable | +15% variable | +18% variable |
-| Win rate maintained 25%+ | €500-€1K/qtr | €1K-€2K/qtr | €2K-€3K/qtr |
-| New logo deals | €300-€500/deal | €500-€1K/deal | €1K-€2K/deal |
+| Win rate maintained 25%+ | $500-$1K/qtr | $1K-$2K/qtr | $2K-$3K/qtr |
+| New logo deals | $300-$500/deal | $500-$1K/deal | $1K-$2K/deal |
 | Multi-year deals | +0.5% commission | +0.75% commission | +1% commission |
 
 **Individual SPIFs (Special Performance Incentive Funds):**
-- Product launch support: €500-€2K per participant
-- Competitive win: €200-€500
-- Reference customer win: €300-€1K
-- Expansion opportunity: €200-€800
+- Product launch support: $500-$2K per participant
+- Competitive win: $200-$500
+- Reference customer win: $300-$1K
+- Expansion opportunity: $200-$800
 
 ---
 
 ## 9. Benefits & Equity Benchmarks
 
-**Standard Benefits Packages (all roles €45K+ OTE):**
+**Standard Benefits Packages (all roles $45K+ OTE):**
 - Health insurance: Company covers 100%
 - Pension contribution: 5-8% employer match (depending on contract type)
 - 25 days vacation (Dutch standard minimum)
-- Home office budget: €500-€1,500 one-time
-- Professional development: €1,000-€3,000 annually
-- Mobile/equipment: €50-€100/month allowance
+- Home office budget: $500-$1,500 one-time
+- Professional development: $1,000-$3,000 annually
+- Mobile/equipment: $50-$100/month allowance
 
 **Equity Grants (typical ranges by stage):**
 
-| Role | €15M ARR | €50M ARR | €100M ARR |
+| Role | $15M ARR | $50M ARR | $100M ARR |
 |------|----------|----------|-----------|
 | SDR/BDR | N/A | 0.05-0.10% | 0.05-0.10% |
 | AE (SMB) | N/A | 0.10-0.20% | 0.10-0.20% |

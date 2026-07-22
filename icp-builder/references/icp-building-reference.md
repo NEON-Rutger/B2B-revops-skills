@@ -54,7 +54,7 @@ The way you build an ICP depends on how you go to market. Here are motion-specif
 
 | Motion | ICP Building Challenge | Strategic Response |
 |--------|---|---|
-| **No Touch / PLG** | Behavioral signals are sparse; no sales conversations to mine | Build behavioral ICP from product analytics. Use event tracking in Mixpanel, Amplitude, or Segment; analyse feature adoption depth, cohort retention curves, and expansion velocity. Hybrid PLG+sales-assist (sales-assisted PQLs 25-35% conversion, CAC payback under 12 months) outperforms pure self-serve on NRR (67% vs 58%) (OpenView Benchmarks, 2024-2025). ACV framework: self-serve under $10K; hybrid $10K-$25K; sales-led above $25K. |
+| **No Touch / PLG** | Behavioral signals are sparse; no sales conversations to mine | Build behavioral ICP from product analytics. Use event tracking in Mixpanel, Amplitude, or Segment; analyze feature adoption depth, cohort retention curves, and expansion velocity. Hybrid PLG+sales-assist (sales-assisted PQLs 25-35% conversion, CAC payback under 12 months) outperforms pure self-serve on NRR (67% vs 58%) (OpenView Benchmarks, 2024-2025). ACV framework: self-serve under $10K; hybrid $10K-$25K; sales-led above $25K. |
 | **Low Touch / 1-Stage** | Many tire-kickers; lightweight sales process means limited depth | Cluster by role, use case, retention curves. Identify micro-segments with 70%+ 12-mo retention. Double-down there. |
 | **Medium Touch / 2-Stage** | Balancing limited data against depth of signal | Blend 8-15 SPICED interviews with win/loss reviews. Surface patterns across competitive wins + expansion. |
 | **High Touch / Sales** | Few closed deals; each customer is precious data | Treat every deal as a test case. Iterate ICP quarterly. Build from pilot customers + expansion proof. |
@@ -92,9 +92,9 @@ The **GAP Method** is a structured 3-phase process for ICP creation:
    - Support tickets (feature requests, pain points)
    - Win/loss interviews with non-customers
 
-### Phase A: Analyse Across 8 Dimensions
+### Phase A: Analyze Across 8 Dimensions
 
-After gathering, systematically analyse patterns:
+After gathering, systematically analyze patterns:
 
 1. **Industry / Vertical** : Which verticals convert best? Which have highest LTV?
 2. **Company Size** : Employees? Revenue? ARR? Growth rate? What's the sweet spot for your motion?
@@ -232,7 +232,7 @@ LLM-assisted and AI-driven tools now complement traditional analysis. Key techni
 Run customer interview transcripts through Claude or similar LLM with a SPICED extraction prompt. LLM picks out Situation, Pain, Implementation, Critical Event, Decision lines faster than manual review. Works best when combined with domain context (your product, market).
 
 **Intent-Based Scoring**
-Intent data platforms (6sense, ZoomInfo, Demandbase) track in-market buying signals: job postings (hiring), tech stack changes, funding announcements, executive moves. Roughly 5% of TAM is in-market at any time (Gartner, cited 2026). Use intent signals to identify which ICP segments are in-market NOW, then prioritise outreach. Single vendors contacted first win roughly 80% of deals, so speed matters.
+Intent data platforms (6sense, ZoomInfo, Demandbase) track in-market buying signals: job postings (hiring), tech stack changes, funding announcements, executive moves. Roughly 5% of TAM is in-market at any time (Gartner, cited 2026). Use intent signals to identify which ICP segments are in-market NOW, then prioritize outreach. Single vendors contacted first win roughly 80% of deals, so speed matters.
 
 **AI-Assisted Account Clustering**
 Feed your best customer data (firmographic, technographic, SPICED language, revenue, retention) into an embedding model or clustering algorithm. LLM can surface micro-clusters (sub-ICPs) you might miss manually. Example: "Mid-market SaaS in EU" clusters into "Series B fintech in DE/AT" vs "Series B B2B SaaS in NL/BE" with different SPICED patterns.
@@ -324,7 +324,7 @@ Run the interview transcript through Claude or similar LLM. Use two prompts:
 > "Extract the 5-10 most quotable lines from this customer interview. Focus on lines that illustrate the Situation, Pain, Implementation, Critical Event, or Impact. Format as direct quotes with context."
 
 **Prompt 2 (SPICED Extraction):**
-> "Extract and summarise the SPICED framework from this transcript: Situation (their business context when they bought), Pain (specific problem they faced, quantified if possible), Implementation (how they rolled out the solution), Critical Event (what triggered the decision), Decision (why they chose us vs. alternatives). Format as bullet points under each letter."
+> "Extract and summarize the SPICED framework from this transcript: Situation (their business context when they bought), Pain (specific problem they faced, quantified if possible), Implementation (how they rolled out the solution), Critical Event (what triggered the decision), Decision (why they chose us vs. alternatives). Format as bullet points under each letter."
 
 Use the output for:
 - Website testimonials and social proof
@@ -476,7 +476,7 @@ This reference is designed as a **before & after** to your SPICED ICP library:
 2. **During:** Use the customer count thresholds (Section 1) to assess **ICP maturity** : if your customer count is below threshold for your motion, cap maturity at Level 2
 3. **Output:** Feed SPICED language into your SPICED ICP library
 4. **Next Step:** Use the positioning-messaging-reference to translate ICP into positioning and messaging
-5. **Expansion:** Use Section 6 (Expansion Strategy) when clients ask "where do we grow next?"
+5. **Expansion:** Use Section 6 (Expansion Strategy) when your team asks "where do we grow next?"
 
 ### Common Questions This Reference Answers
 

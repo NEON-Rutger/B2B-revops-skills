@@ -2,7 +2,7 @@
 
 On-demand reference for the cs-operations skill.
 
-Expansion signals and the CS-to-Sales ownership model live in the skill body. This reference holds the scoring model and whitespace analysis detail used to quantify and prioritise expansion plays.
+Expansion signals and the CS-to-Sales ownership model live in the skill body. This reference holds the scoring model and whitespace analysis detail used to quantify and prioritize expansion plays.
 
 ## Expansion Scoring Model
 
@@ -15,8 +15,8 @@ EXPANSION SCORING MODEL:
     Health trajectory (15%): is health score trending up?
     Contract headroom (10%): is there room to expand (seats, usage, products)?
 
-  NOTE: Weights vary by business model (consumption-based expansion prioritises usage;
-  seat-based prioritises stakeholder breadth). Adjust weights quarterly based on your
+  NOTE: Weights vary by business model (consumption-based expansion prioritizes usage;
+  seat-based prioritizes stakeholder breadth). Adjust weights quarterly based on your
   expansion conversion rates.
 
 EXPANSION OWNERSHIP (by score):
@@ -50,7 +50,7 @@ WHITESPACE ANALYSIS:
     Features adopted vs available      → feature whitespace
     Stakeholders engaged vs org chart  → relationship whitespace
 
-  Review in QBR. Update quarterly. Use to prioritise expansion plays.
+  Review in QBR. Update quarterly. Use to prioritize expansion plays.
 ```
 
 **Two dimensions to focus on:**
@@ -58,4 +58,4 @@ WHITESPACE ANALYSIS:
 1. **Stakeholder whitespace:** Which teams or business units could benefit from the product but aren't using it? Map against org chart.
 2. **Product whitespace:** Which features or modules is the customer licensed for but not using? Which complementary products are they not yet on?
 
-For full expansion architecture including NRR improvement methodology, see the expansion revenue architect skill. For handoff design and routing logic, see revops-handoffs skill.
+For full expansion architecture including NRR improvement methodology, see the expansion-revenue-architect skill. For handoff design and routing logic, see revops-handoffs skill.

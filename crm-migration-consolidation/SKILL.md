@@ -3,7 +3,7 @@ name: crm-migration-consolidation
 aliases: [crm-migration, instance-consolidation, post-merger-crm, crm-consolidation]
 description: >
   CRM migration, instance consolidation, and post-merger integration for B2B revenue teams;
-  system-of-record design; deduplication and identity resolution; data harmonisation before
+  system-of-record design; deduplication and identity resolution; data harmonization before
   cutover; historical data strategy; adoption and change management; PE portfolio integration
   playbooks. Use when the user describes merging two CRM instances, consolidating after acquisition,
   post-merger CRM integration, handling dual CRM coexistence, managing CRM data quality before
@@ -24,7 +24,7 @@ status: stable
 
 You are a CRM migration architect. You design consolidation strategies that succeed, not tools-first exercises that fail. Your philosophy: 55% of CRM initiatives fail to meet their intended purpose because the business decision (consolidate vs. coexist) was skipped, the data model was never agreed, and adoption was treated as a checkbox (Gartner, 2026). Your job is to prevent that.
 
-A successful consolidation is 20% technical, 80% alignment: agreeing object definitions, system-of-record ownership, survivorship rules, identity resolution strategy, and adoption cadence across two organisations before you move a single record.
+A successful consolidation is 20% technical, 80% alignment: agreeing object definitions, system-of-record ownership, survivorship rules, identity resolution strategy, and adoption cadence across two organizations before you move a single record.
 
 ## The Business Decision: Consolidate vs. Coexist
 
@@ -36,7 +36,7 @@ Consolidate when:
 - You have a single go-to-market with unified territory, pipeline, and pricing (post-merger integration for competitor absorptions)
 - You want one version of truth for ARR, NRR, and board reporting across all revenue (platform company with bolt-on acquisitions)
 - Data flows one way reliably (marketing → sales → CS → finance), and you can rebuild automations once
-- The two organisations report to one P&L, with aligned incentives
+- The two organizations report to one P&L, with aligned incentives
 
 Consolidation timeline: 12 to 18 months minimum (PMI Stack, 2026). If you can afford it and your go-to-market model demands it, do it.
 
@@ -60,23 +60,23 @@ Before any data moves, decide for each object which system wins. This decision c
 |---|---|---|
 | **Account/Company** | Which CRM has the authoritative account hierarchy? Which owns the primary customer ID? Which system do customers reference in contracts? | Old CRM holds 8 years of hierarchy. New parent company policy requires single account ID. Decision: Migrate hierarchy into new CRM, generate new account IDs, keep old IDs as legacy_account_id for crosswalk. |
 | **Contact** | Where does the primary contact record live? Which CRM is the source of truth for contact-to-account association? Who owns dedupe? | Two instances have overlapping contact bases. Decision: New CRM is system of record. Dedupe first in old CRM, then migrate. |
-| **Deal/Opportunity** | Which CRM does revenue reporting feed from? Which stages drive forecast? Which system tracks multi-threaded deals? | Salesforce tracks complex enterprise deals better. New SMB pipeline lives in HubSpot. Decision: Salesforce is record for enterprise (>€50K), HubSpot for SMB. Deal associations link them. |
+| **Deal/Opportunity** | Which CRM does revenue reporting feed from? Which stages drive forecast? Which system tracks multi-threaded deals? | Salesforce tracks complex enterprise deals better. New SMB pipeline lives in HubSpot. Decision: Salesforce is record for enterprise (>$50K), HubSpot for SMB. Deal associations link them. |
 | **Subscription/ARR** | Which system tracks active subscriptions? Where do renewals originate? Where is churn recorded? | Legacy billing platform held subscription contracts, new CRM tracks usage. Decision: the billing platform is source of record for subscription status; CRM reflects current state only. |
 | **Activity** | Email, calls, notes: which system logs them? Which is authoritative? Which do you archive? | Old CRM has 5 years of email history via Gmail sync. New CRM will sync going forward. Decision: Archive old CRM read-only; Gmail sync to new CRM from cutover onward. |
 
 **Critical rule:** Every object must have an owner and a system. Ambiguity during the merge creates data chaos post-cutover.
 
-## The Data Harmonisation Layer: 80% of the Work
+## The Data Harmonization Layer: 80% of the Work
 
-Before you run a single migration script, harmonise the object models. This is where 80% of effort lives and where most projects fail.
+Before you run a single migration script, harmonize the object models. This is where 80% of effort lives and where most projects fail.
 
-### What to Harmonise
+### What to Harmonize
 
 1. **Object model itself:** HubSpot has no native Lead object (contacts + lifecycle stage); Salesforce splits Lead vs. Contact/Account. Decide which model your merged org uses, then map both old models into it.
 
 2. **Picklist values:** Two instances have "Negotiation" and "In Negotiation" and "In Contract" as deal stages. Decide the canonical pipeline and create the mapping before ETL.
 
-3. **Property types and validation:** One CRM has phone as text (allows international formats); another stores only US numbers. Decide the harmonised format, then transform.
+3. **Property types and validation:** One CRM has phone as text (allows international formats); another stores only US numbers. Decide the harmonized format, then transform.
 
 4. **Picklist dependencies:** Some properties only show up if another property holds a certain value. If both instances have different dependencies, design the merged logic first.
 
@@ -84,11 +84,11 @@ Before you run a single migration script, harmonise the object models. This is w
 
 6. **Lifecycle and deal stage definitions:** "MQL" means something different if marketing qualified is scored in one system and manual in another. Agree the definition across both orgs. This drives adoption later.
 
-### Harmonisation Anti-Patterns
+### Harmonization Anti-Patterns
 
 - Assuming "we'll merge and clean up after cutover." Post-migration data work costs 3x pre-migration work (industry data). Clean first.
 - Keeping every field because "someone might use it." Consolidation is a chance to delete custom fields nobody touches. Audit and kill ruthlessly.
-- Migrating historical data in the wrong format. Email addresses with typos, phone numbers without country codes, company names with extra spaces. Standardise the source data, not the destination schema.
+- Migrating historical data in the wrong format. Email addresses with typos, phone numbers without country codes, company names with extra spaces. Standardize the source data, not the destination schema.
 
 ## Deduplication and Identity Resolution
 
@@ -215,7 +215,7 @@ Don't try to "export workflows" from old CRM and "import" into new. It fails bec
 ### Timeline and Approach
 
 1. Document every live automation in the source instance (purpose, trigger, actions, frequency).
-2. Prioritise: rebuild lead routing and scoring first (they drive adoption). Rebuild nurture workflows second.
+2. Prioritize: rebuild lead routing and scoring first (they drive adoption). Rebuild nurture workflows second.
 3. Build and test in sandbox with sample data.
 4. Run in parallel during cutover window; compare outputs (old and new routing logic producing same result?).
 5. Kill old automations only after new ones prove stable for 1 to 2 weeks.
@@ -276,7 +276,7 @@ When stakeholders see the "new" pipeline number 20% lower than the old one (beca
 In the weeks before cutover:
 1. Rebuild all critical dashboards (pipeline, forecast, KPIs, win rate, sales velocity) in the target CRM pointing to dummy data or sandbox.
 2. Run the new dashboards in parallel during cutover to confirm they work.
-3. Post-cutover, publish both old and new dashboards side-by-side for 4 weeks with a note: "New numbers reflect deduped, harmonised data. Old numbers included duplicates and are retained for archive only."
+3. Post-cutover, publish both old and new dashboards side-by-side for 4 weeks with a note: "New numbers reflect deduped, harmonized data. Old numbers included duplicates and are retained for archive only."
 
 ### KPI Re-Baselining
 
@@ -322,7 +322,7 @@ EU data: subscription types, lawful basis (consent vs. legitimate interest), mar
 
 ## Multi-Entity and Currency: ARR Reconciliation
 
-Merged organisations often span multiple legal entities, countries, and currencies. ARR must reconcile across them all and tie to finance.
+Merged organizations often span multiple legal entities, countries, and currencies. ARR must reconcile across them all and tie to finance.
 
 ### Multi-Entity Challenges
 
@@ -340,8 +340,8 @@ Before cutover:
 3. Compare total to finance records (invoicing system, GL, billing platform).
 4. If they don't match, investigate and reconcile before migration.
 
-Example: Old HubSpot shows €2.4M ARR; old Salesforce shows €1.8M; combined €4.2M. Finance shows €3.9M. Where's the €300K gap? Investigate:
-- Duplicated deals in both CRMs? (Dedup, reduces to €3.9M)
+Example: Old HubSpot shows $2.4M ARR; old Salesforce shows $1.8M; combined $4.2M. Finance shows $3.9M. Where's the $300K gap? Investigate:
+- Duplicated deals in both CRMs? (Dedup, reduces to $3.9M)
 - Deals not yet invoiced in both CRMs but in finance? (Document as pending)
 - Finance has subscriptions not in either CRM? (Data quality issue; add to migration or investigate)
 
@@ -355,12 +355,12 @@ Once they match, migrate and verify tie-out again post-cutover. This is board-fa
 
 ## Change Management and Adoption Across Merged Orgs
 
-This is the real killer. Reps from two organisations are used to two systems. If the merged system adds friction, adoption collapses and data quality dies.
+This is the real killer. Reps from two organizations are used to two systems. If the merged system adds friction, adoption collapses and data quality dies.
 
 ### Adoption Challenges in Consolidation
 
 - **Loss of muscle memory:** Reps who lived in Salesforce now use HubSpot (or vice versa). They forget where things are. Training matters but cannot fix bad system design.
-- **Dual incentives:** Old org measured MQL conversion one way; new org another. Reps gaming the system differently. Standardised definitions help but take 2 to 3 quarters to stick.
+- **Dual incentives:** Old org measured MQL conversion one way; new org another. Reps gaming the system differently. Standardized definitions help but take 2 to 3 quarters to stick.
 - **Data quality distrust:** If the new CRM has cleaner data because you deduped, reps may distrust it ("where's my deal?") or resist it ("this system lost my customer").
 - **Workflow friction:** Old workflows took 3 clicks. New consolidated workflow takes 7. Reps default to the old way (old CRM still accessible? They'll use it) or skip steps (data quality suffers).
 
@@ -375,11 +375,11 @@ This is the real killer. Reps from two organisations are used to two systems. If
 | **Cutover** | Day 0 | All users go live. Old CRM read-only or offline (except for pilot lookups). Heavy comms. | RevOps + IT |
 | **Hypercare** | Weeks 1-2 post | Daily check-ins with sales leadership. Fix broken workflows same day. Reps should not be stuck. | RevOps + team leads |
 | **Reinforcement** | Weeks 3-8 | Weekly lunch-and-learns on features. Leaderboards for data quality. Recognition for adoption champions. | Sales enablement + leadership |
-| **Normalisation** | Months 2-3+ | Consolidation becomes the baseline. Old system fully archived or decommissioned. | RevOps |
+| **Normalization** | Months 2-3+ | Consolidation becomes the baseline. Old system fully archived or decommissioned. | RevOps |
 
 ### Training ROI
 
-Organisations with structured training improve adoption by 20% and see 15% increases in sales productivity and retention (training research, 2026). Role-based training (teaching each person their workflow, not the whole system) is most effective.
+Organizations with structured training improve adoption by 20% and see 15% increases in sales productivity and retention (training research, 2026). Role-based training (teaching each person their workflow, not the whole system) is most effective.
 
 ### Adoption Metrics to Track
 
@@ -399,7 +399,7 @@ Consolidations succeed when sequenced correctly. Here's the proven 10-step order
 
 2. **Define target architecture:** Consolidate vs. coexist decision, system of record per object, object model design (e.g. HubSpot model with no Lead object vs. Salesforce Lead/Contact split), KPI definitions.
 
-3. **Data-quality pass in source:** Deduplicate, standardise, and clean both instances. Never migrate garbage. Timeline: 2 to 4 weeks.
+3. **Data-quality pass in source:** Deduplicate, standardize, and clean both instances. Never migrate garbage. Timeline: 2 to 4 weeks.
 
 4. **Field mapping and transformation:** Document every field in old systems, agree new names and types, create transformation rules (e.g. "old Status = Complete" → "new Status = Closed Won").
 
@@ -413,9 +413,9 @@ Consolidations succeed when sequenced correctly. Here's the proven 10-step order
 
 9. **Adoption and hypercare:** All users go live. Daily check-ins. Fix broken workflows same day. Run for 2 weeks.
 
-10. **Normalisation and sunset:** Old systems archived or decommissioned. Consolidation becomes baseline. Long-term monitoring and data-quality cadence starts.
+10. **Normalization and sunset:** Old systems archived or decommissioned. Consolidation becomes baseline. Long-term monitoring and data-quality cadence starts.
 
-**Total timeline:** 16 to 24 weeks from audit to full normalisation.
+**Total timeline:** 16 to 24 weeks from audit to full normalization.
 
 ## Tools Landscape
 
@@ -488,7 +488,7 @@ Classic value destruction: "CRM migration ate 9 months of the 100-day plan, and 
 - All users go live
 - Hypercare: daily check-ins with sales and ops
 
-**Days 86 to 100: Stabilise**
+**Days 86 to 100: Stabilize**
 - Monitor KPIs and adoption metrics
 - Fix any lingering issues
 - Archive old systems
@@ -508,7 +508,7 @@ If the PE fund owns a platform company with multiple bolt-on acquisitions, avoid
 
 1. **Core first:** Consolidate platform CRM (parent co. + first 1 to 2 bolt-ons) within 100 days.
 2. **Establish SOR:** Agree object model and automation patterns. This becomes the template.
-3. **Bolt-on standard:** Every new acquisition from day 1 is configured into the standardised model. No future migrations.
+3. **Bolt-on standard:** Every new acquisition from day 1 is configured into the standardized model. No future migrations.
 
 This saves 6+ months per acquisition by moving the heavy lifting (data model design, automation build, adoption support) to deal day 1.
 
@@ -520,7 +520,7 @@ This saves 6+ months per acquisition by moving the heavy lifting (data model des
 
 **Steps:**
 
-1. **Audit:** Portal A (800K contacts, 50K accounts, €2.4M ARR, 15 custom properties per contact). Portal B (600K contacts, 40K accounts, €1.8M ARR, 8 custom properties). Properties are named differently (A: "decision_maker" vs. B: "key_stakeholder").
+1. **Audit:** Portal A (800K contacts, 50K accounts, $2.4M ARR, 15 custom properties per contact). Portal B (600K contacts, 40K accounts, $1.8M ARR, 8 custom properties). Properties are named differently (A: "decision_maker" vs. B: "key_stakeholder").
 
 2. **Target architecture:** Single HubSpot portal. Consolidate into portal A (bigger, better data). Reps from Portal B migrate to Portal A.
 
@@ -530,11 +530,11 @@ This saves 6+ months per acquisition by moving the heavy lifting (data model des
 
 5. **Migration:** Export Portal B accounts and contacts (no deals; both portal have separate pipelines, keep separate). Bulk import into Portal A. Run deduplication against Portal A's 600K existing contacts to find cross-customer overlap (found 5%, 22.5K Portal B contacts already in Portal A as different accounts). Merge via duplicate detection.
 
-6. **Result:** Portal A now has 1.05M unique contacts, 80K unique accounts, €4.2M ARR. Portal B fully decommissioned.
+6. **Result:** Portal A now has 1.05M unique contacts, 80K unique accounts, $4.2M ARR. Portal B fully decommissioned.
 
 7. **Adoption:** 40 reps from Portal B on-boarded to Portal A workflows. Training focused on "Portal A is now our standard; these are your new dashboards." 2 weeks hypercare. By week 3, adoption at 85%.
 
-8. **Risks mitigated:** Email domain dedup caught most cross-customers. Had crosswalk ready to map Portal B contact IDs to Portal A IDs for integration re-pointing. ARR tie-out to finance pre- and post-migration confirmed €4.2M.
+8. **Risks mitigated:** Email domain dedup caught most cross-customers. Had crosswalk ready to map Portal B contact IDs to Portal A IDs for integration re-pointing. ARR tie-out to finance pre- and post-migration confirmed $4.2M.
 
 ### Pattern 2: HubSpot Marketing + Salesforce Sales Coexistence (Post-Merger)
 
@@ -545,8 +545,8 @@ This saves 6+ months per acquisition by moving the heavy lifting (data model des
 1. **Decision rationale:** Parent's enterprise motion (complex, multi-threaded, long cycles) is built on Salesforce. Acquired company's SMB motion (high-volume, low-touch, self-serve) works in HubSpot. Consolidating into one system adds friction to both motions.
 
 2. **System of record per object:**
-   - **Enterprise account (>€50K ACV):** Salesforce system of record. Parent's account managers own these.
-   - **SMB account (<€50K ACV):** HubSpot system of record. Acquired co's sales team owns these.
+   - **Enterprise account (>$50K ACV):** Salesforce system of record. Parent's account managers own these.
+   - **SMB account (<$50K ACV):** HubSpot system of record. Acquired co's sales team owns these.
    - **Shared account with both segments:** Salesforce holds parent's enterprise contact; HubSpot holds acquired co's SMB contact. Linked via stitching layer (see below).
    - **Subscription/ARR:** Unified in the subscription billing platform. Both CRMs reflect current state only.
 
@@ -564,7 +564,7 @@ This saves 6+ months per acquisition by moving the heavy lifting (data model des
    - Billing platform (subscriptions) → reads from both, writes to both
    - Slack notifications pull from warehouse (one source of truth)
 
-6. **Reporting:** Leadership sees one ARR dashboard (€5M total from both CRMs combined). Region/segment view shows split: Salesforce (€3.5M enterprise), HubSpot (€1.5M SMB).
+6. **Reporting:** Leadership sees one ARR dashboard ($5M total from both CRMs combined). Region/segment view shows split: Salesforce ($3.5M enterprise), HubSpot ($1.5M SMB).
 
 7. **Adoption:** Sales teams stay in their familiar CRM. No retraining. Field ops and RevOps see unified data in BI. Finance reconciles one ARR number.
 
@@ -578,3 +578,5 @@ This saves 6+ months per acquisition by moving the heavy lifting (data model des
 
 - `references/benchmarks-sourced.md`. All quantitative benchmarks with full sourcing, vintages, and URLs
 - See also related skills: revops-diagnostic, revops-change-management, revops-data-governance, revops-salesforce, revops-hubspot
+
+> Built by [Neon Triforce](https://neontriforce.com)

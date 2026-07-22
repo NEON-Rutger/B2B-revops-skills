@@ -72,7 +72,7 @@ SCORING:
 THE 2-HOUR CASH DIAGNOSIS:
 
 1. Pull all open deals closing in 30-60 days + renewals due in 30-90 days
-2. Stack rank by € amount
+2. Stack rank by $ amount
 3. Flag at-risk: no recent activity, no champion, competitive threat,
    economic buyer not engaged
 4. Top 10 at-risk = your downside exposure number for leadership
@@ -145,7 +145,7 @@ Insight = 1:     Pull top 5 wins and 5 losses. Pattern-match.
 
 ## The 30-60-90 Crisis Response Plan
 
-### Days 1-30: STABILISE
+### Days 1-30: STABILIZE
 
 ```
 □ Data quality audit complete; blitz if needed (target: 85%+)
@@ -162,7 +162,7 @@ Insight = 1:     Pull top 5 wins and 5 losses. Pattern-match.
 ```
 □ Full IFA diagnostic complete (reference revops-diagnostic)
 □ Capability maturity assessed (reference revops-four-capability-maturity-assessment)
-□ Fix roadmap drafted: 3 initiatives max, prioritised by constraint unlock
+□ Fix roadmap drafted: 3 initiatives max, prioritized by constraint unlock
 □ First major structural change: design complete, stakeholders mapped
 □ Change management started (reference revops-change-management)
 □ Weekly leadership update: "Here's what broke. Here's how we fix it."
@@ -174,7 +174,7 @@ Insight = 1:     Pull top 5 wins and 5 losses. Pattern-match.
 ```
 □ First structural change at 70%+ adoption
 □ Initiatives #2-3 in design (NOT launched yet; don't launch 3 at once)
-□ Operating cadence established (reference revenue-cadence skill):
+□ Operating cadence established (reference revenue-operating-cadence skill):
   Weekly ops review (30 min), monthly deep-dive (90 min), quarterly reset
 □ Forecast rebuilt with proper methodology (reference revops-forecasting)
 □ Metrics dashboard live and trusted (reference revops-metrics)
@@ -248,7 +248,7 @@ EMERGENCY FIX (Week 1-2):
 • Churn diagnosis: rate by cohort, timing, reason, segment
 • At-risk identification: all renewals due in 90 days, flag 2+ risk indicators
   (no activity 30d, usage declining, unresolved tickets, no contact 60d)
-• Executive save calls on >€50K ARR at-risk accounts (CRO/VP, not CSM)
+• Executive save calls on >$50K ARR at-risk accounts (CRO/VP, not CSM)
 • Quick fix based on pattern:
   CS under-resourced → Senior CSM on highest-risk accounts
   No health scoring → Build simple score this week (5-7 indicators)
@@ -266,7 +266,7 @@ STRUCTURAL FIX (Week 3-8): reference cs-operations skill
 
 ```
 ROOT CAUSE: No shared metrics, no shared cadence, no shared accountability.
-Functions optimise independently → metrics conflict → blame cycle.
+Functions optimize independently → metrics conflict → blame cycle.
 
 EMERGENCY FIX (Week 1-2):
 • ONE shared dashboard all functions see daily (ARR, pipeline, churn, CAC)
@@ -278,7 +278,7 @@ EMERGENCY FIX (Week 1-2):
   for you to trust this team?" Fix the specific gap, not the politics.
 • Quick win: Fix ONE handoff visibly (e.g., lead scoring with Sales input)
 
-STRUCTURAL FIX (Week 3-8): reference revenue-cadence skill
+STRUCTURAL FIX (Week 3-8): reference revenue-operating-cadence skill
 • Shared metrics dashboard (RevOps owns, all functions see)
 • Shared definitions document (one-pager per major concept)
 • Weekly governance meeting with decision log
@@ -319,4 +319,4 @@ STRUCTURAL FIX (Week 3-8): reference revenue-cadence skill
 
 **"Data is garbage":** Run the Data Quality Checklist first. Nothing else works until data is clean.
 
-**After Day 90:** Hand off to revops-diagnostic and revops-four-capability-maturity-assessment for the deeper work. Crisis mode is about stabilisation. Long-term improvement is a different skill set.
+**After Day 90:** Hand off to revops-diagnostic and revops-four-capability-maturity-assessment for the deeper work. Crisis mode is about stabilization. Long-term improvement is a different skill set.

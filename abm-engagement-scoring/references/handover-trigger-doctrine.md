@@ -98,7 +98,7 @@ Company Name:          Acme Corporation
 Industry:              Manufacturing
 Geography:             Netherlands (Amsterdam HQ)
 Employee Count:        2,500
-Estimated Revenue:     €150M+
+Estimated Revenue:     $150M+
 Founded:               2008
 Recent News:           Launched new product line Q2 2026
 
@@ -278,7 +278,7 @@ STEP 3: Create opportunity             Provide rejection reason code
         Assign AE                       (see table below)
         Log in CRM
         ↓
-STEP 4: AE reaches out within 3 days   Marketing analyses feedback
+STEP 4: AE reaches out within 3 days   Marketing analyzes feedback
         (typically within 48h)          Re-engages account or updates
         ↓                               criteria
 STEP 5: Log first AE activity
@@ -464,14 +464,14 @@ Accounts creating opportunities     12      9        ↑
 Opp conversion rate                 75%     75%      =
 Avg time to opp                     18d     22d      ↑ (faster)
 Accounts closing won (YTD)          2       n/a        (trailing)
-ABM-sourced pipeline (YTD)          €2.4M   n/a        
+ABM-sourced pipeline (YTD)          $2.4M   n/a        
 ```
 
 ### Feedback Loop Cadence
 
 **Monthly (Marketing Ops + Sales Leadership):**
 - Review handover acceptance rates
-- Analyse rejection reason codes
+- Analyze rejection reason codes
 - Adjust threshold if needed
 
 **Quarterly (Executive):

@@ -89,7 +89,7 @@ Disciplines: Revenue team's understanding of capacity and pipeline independent o
 - Document assumptions per segment (New Business, Expansion, Renewal)
 
 **Weeks 5-6: Overlay known pipeline**
-- Audit CRM for deals at or above threshold (e.g. >€50K ACV)
+- Audit CRM for deals at or above threshold (e.g. >$50K ACV)
 - Probability-weight each deal
 - Compare named pipeline against capacity model expectation
 - If named pipeline significantly exceeds or falls short of expectations, diagnose why
@@ -141,7 +141,7 @@ Discipline: Version control and audit trail. If you only keep the "final" plan, 
 - Create a "Plan Archive" folder with all prior years
 
 **Weeks 3-4: Lock each version after creation**
-- After bottoms-up is finalised, move to read-only or mark "Locked: do not modify"
+- After bottoms-up is finalized, move to read-only or mark "Locked: do not modify"
 - After reconciliation, mark FS and POR as locked
 - Only allow reforecasts to create new dated files
 
@@ -158,11 +158,11 @@ Discipline: Accountability for stretch goals. If Finance adds a stretch without 
 ### If you answer YES
 
 **Evidence of health:**
-- Stretch breakdown document exists: €8.5M POR = €7.8M BO + €0.5M Scenario A + €0.2M Scenario B
+- Stretch breakdown document exists: $8.5M POR = $7.8M BO + $0.5M Scenario A + $0.2M Scenario B
 - Each scenario has: name, owner, explicit assumptions, and dependencies
 - Examples:
-  - Scenario A: "Hire 2 AEs in Q1, achieve €850K quota each = +€350K" (Owner: VP Sales)
-  - Scenario B: "Improve expansion velocity 15% vs 12%, requires CS investment = +€200K" (Owner: VP CS)
+  - Scenario A: "Hire 2 AEs in Q1, achieve $850K quota each = +$350K" (Owner: VP Sales)
+  - Scenario B: "Improve expansion velocity 15% vs 12%, requires CS investment = +$200K" (Owner: VP CS)
 - Scenarios are tracked monthly: "Scenario A hiring on schedule (2 AEs hired Jan 1)"; "Scenario B CS playbook launched Feb 1"
 
 **What you still need to check:**
@@ -179,17 +179,17 @@ Discipline: Accountability for stretch goals. If Finance adds a stretch without 
 **Remediation (4 weeks to scenario discipline):**
 
 **Week 1: Identify the gap**
-- Bottoms-up: €7.8M
-- Top-down target: €8.5M
-- Gap: €0.7M
-- Question: "If we do nothing different, we produce €7.8M. What specific actions close the €0.7M gap?"
+- Bottoms-up: $7.8M
+- Top-down target: $8.5M
+- Gap: $0.7M
+- Question: "If we do nothing different, we produce $7.8M. What specific actions close the $0.7M gap?"
 
 **Week 2: Brainstorm scenarios (no filters)**
-- Hiring: "If we hire 2 AEs in Q1, add €350K"
-- Expansion: "If CS team improves retention and expansion, add €150K"
-- Pipeline: "If ABM campaign runs, add €100K in pipeline (Year 1 close rate TBD)"
-- Pricing: "If we raise prices 5%, add €390K"
-- New product: "If new product launches on schedule, add €200K"
+- Hiring: "If we hire 2 AEs in Q1, add $350K"
+- Expansion: "If CS team improves retention and expansion, add $150K"
+- Pipeline: "If ABM campaign runs, add $100K in pipeline (Year 1 close rate TBD)"
+- Pricing: "If we raise prices 5%, add $390K"
+- New product: "If new product launches on schedule, add $200K"
 - Other: "Churn reduction, partner channels, etc."
 
 **Week 3: Assign owners and validate**
@@ -203,7 +203,7 @@ Discipline: Accountability for stretch goals. If Finance adds a stretch without 
 - Required vs optional scenarios: Which scenarios must happen to hit plan?
 - Likely scenario combination: Most probable mix given constraints
 
-Example outcome: €8.5M plan = €7.8M BO + Hiring (€350K) + Expansion (€150K) + 50% of ABM upside (€50K). All scenarios are independent and execution is on different timelines.
+Example outcome: $8.5M plan = $7.8M BO + Hiring ($350K) + Expansion ($150K) + 50% of ABM upside ($50K). All scenarios are independent and execution is on different timelines.
 
 **Success metric:** By end of Year 1, every stretch in the plan has an owner and a documented scenario. Reps know "we're hitting plan if we hire on schedule, improve CS metrics, and start ABM". No mystery.
 
@@ -219,10 +219,10 @@ Discipline: Learning from variance. If you only compare forecast vs plan, you mi
 
 **Evidence of health:**
 - Monthly reforecast template includes three columns:
-  - Plan of Record (€8.5M)
-  - Bottoms-Up Original (€7.8M)
-  - Current Forecast (€7.9M)
-- Analysis: "Forecast is down €0.6M from POR. Versus BO, forecast is up €0.1M. Meaning: capacity is slightly better than expected, but we're down vs plan because of deal slippage or lower-than-expected pipeline generation."
+  - Plan of Record ($8.5M)
+  - Bottoms-Up Original ($7.8M)
+  - Current Forecast ($7.9M)
+- Analysis: "Forecast is down $0.6M from POR. Versus BO, forecast is up $0.1M. Meaning: capacity is slightly better than expected, but we're down vs plan because of deal slippage or lower-than-expected pipeline generation."
 
 **What you still need to check:**
 - Does the team actually use this comparison? (Healthy: monthly sync discusses "why forecast vs BO changed"; Unhealthy: team only stares at "we're down vs plan")
@@ -250,7 +250,7 @@ Discipline: Learning from variance. If you only compare forecast vs plan, you mi
 - Discuss interpretation: If forecast is between BO and POR, what explains the position?
   - Forecast closer to BO: Execution is lagging capacity (fix: improve conversion, deal velocity, pipeline generation)
   - Forecast closer to POR: Execution is tracking plan (status quo)
-  - Forecast above POR: Upside is real; upside scenarios are materialising (opportunity to stretch further)
+  - Forecast above POR: Upside is real; upside scenarios are materializing (opportunity to stretch further)
 
 **Success metric:** By end of Year 1, reforecasts include three-way comparison (BO, POR, Current). Team can articulate "we're down vs plan because pipeline generation missed, not because of productivity loss".
 
@@ -288,9 +288,9 @@ Discipline: Stability and accountability. If everything can change, the plan is 
 **Remediation (3 weeks to locked-parameter discipline):**
 
 **Week 1: Define locked parameters for your business**
-- Quota targets: Typically locked (rep behaviour anchors to quota; changing mid-year creates chaos)
+- Quota targets: Typically locked (rep behavior anchors to quota; changing mid-year creates chaos)
 - Headcount plan: Typically locked (hiring takes time; plan assumes certain hire dates and ramp curves)
-- Comp structure: Typically locked (changes mid-year are demoralising and legally complex)
+- Comp structure: Typically locked (changes mid-year are demoralizing and legally complex)
 - Strategic positioning: Typically locked (changing ICP mid-year cascades to every team)
 
 - **Exception**: If the business faces existential crisis (major customer churn, competitor disruption), reconsider locked parameters as a special gate
@@ -299,7 +299,7 @@ Discipline: Stability and accountability. If everything can change, the plan is 
 - Revenue target: Can reforecast down (or up) based on new data
 - Pipeline assumptions: Can adjust conversion rates and velocity if market conditions change
 - Stretch scenarios: Can reassign owners or extend timelines if dependencies slip
-- Reforecast cadence: Can shift from monthly to quarterly if business stabilises
+- Reforecast cadence: Can shift from monthly to quarterly if business stabilizes
 
 **Week 3: Publish "What Cannot Change" to the team**
 - Frame it as stability and clarity: "Here is what we are committing to; here is what we will adjust as we learn."
@@ -423,8 +423,8 @@ Discipline: Plan communication. A plan that only the leadership team knows is no
 ### If you answer YES
 
 **Evidence of health:**
-- Every sales manager can articulate: "Our team target is €X. Here is why. Here is how it breaks down by territory/segment."
-- Reps can answer: "What are we stretching on this year?" (Example: "We're investing in ABM; that's +€250K of uplift if it works")
+- Every sales manager can articulate: "Our team target is $X. Here is why. Here is how it breaks down by territory/segment."
+- Reps can answer: "What are we stretching on this year?" (Example: "We're investing in ABM; that's +$250K of uplift if it works")
 - Reps know: "Which customers are we trying to retain?" "Which segments are we pushing?" "What is our pipeline generation target?"
 
 **What you still need to check:**
@@ -440,9 +440,9 @@ Discipline: Plan communication. A plan that only the leadership team knows is no
 **Remediation (2 weeks to plan communication):**
 
 **Week 1: Create segment-specific plan comms**
-- For New Business team: "Plan is €X. Here is the breakdown by account tier and territory. Here is the pipeline we have today and what we need to generate."
-- For Expansion team: "Plan is €X. We are assuming 92% GRR and 12% net expansion. Here are the accounts and customers where we need to move the needle."
-- For Renewal team: "Plan is €X. We are assuming 97% GRR with 75% save rate on at-risk books. Here are the 10 highest-risk renewals."
+- For New Business team: "Plan is $X. Here is the breakdown by account tier and territory. Here is the pipeline we have today and what we need to generate."
+- For Expansion team: "Plan is $X. We are assuming 92% GRR and 12% net expansion. Here are the accounts and customers where we need to move the needle."
+- For Renewal team: "Plan is $X. We are assuming 97% GRR with 75% save rate on at-risk books. Here are the 10 highest-risk renewals."
 
 **Week 2: Present plan to revenue team**
 - VP Sales or VP CS presents bottoms-up build (data-driven, not aspirational)
@@ -462,9 +462,9 @@ Discipline: Root-cause learning. If you cannot diagnose plan misses, you will re
 ### If you answer YES
 
 **Evidence of health:**
-- Year-end variance analysis exists: "Projected €8.5M, closed €7.9M, miss of €0.6M"
+- Year-end variance analysis exists: "Projected $8.5M, closed $7.9M, miss of $0.6M"
 - Analysis traces miss to assumptions:
-  - "New Business pipeline was €4.8M; we expected 60% close, got 52%. Pipeline conversion was the miss, not headcount." (Implication: Next year, invest in pipeline generation earlier or improve qualification)
+  - "New Business pipeline was $4.8M; we expected 60% close, got 52%. Pipeline conversion was the miss, not headcount." (Implication: Next year, invest in pipeline generation earlier or improve qualification)
   - "Renewal GRR was 94%, not 97%. We lost 3 large accounts. Root cause analysis: CS team was under-resourced in Q2." (Implication: Next year, hire CS capacity earlier)
   - "Expansion grew 10%, not 12%. Customers did not adopt new product as expected." (Implication: Next year, assume 8-10% until product adoption improves)
 
@@ -493,14 +493,14 @@ Discipline: Root-cause learning. If you cannot diagnose plan misses, you will re
    - Create assumption-miss table:
 
 ```
-Assumption               Original    Actual    Variance    Impact (€)
+Assumption               Original    Actual    Variance    Impact ($)
 ---
-New Biz close rate       60%         52%       -8ppts      -€380K
-Expansion rate           12%         10%       -2ppts      -€180K
-Renewal GRR              97%         94%       -3ppts      -€69K
-New hires (FTE/ramp)     1.8 FTE     1.5 FTE   -0.3 FTE    -€255K
+New Biz close rate       60%         52%       -8ppts      -$380K
+Expansion rate           12%         10%       -2ppts      -$180K
+Renewal GRR              97%         94%       -3ppts      -$69K
+New hires (FTE/ramp)     1.8 FTE     1.5 FTE   -0.3 FTE    -$255K
 ---
-Total plan miss:                                            -€884K
+Total plan miss:                                            -$884K
 ```
 
 3. **Root-cause analysis (week 3)**

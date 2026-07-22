@@ -9,7 +9,7 @@ Usage metrics (% adoption, login frequency) lie. They tell you how often people 
 | Dimension | What it measures | Key metrics |
 |---|---|---|
 | **Engagement** | Frequency and consistency of use | Daily/weekly active users %, sessions per user, feature adoption rate |
-| **Behaviour** | How teams are actually interacting with outputs | Output acceptance rate, refinement/iteration rate, handoff patterns |
+| **Behavior** | How teams are actually interacting with outputs | Output acceptance rate, refinement/iteration rate, handoff patterns |
 | **Capability** | Confidence and skill in using the tool effectively | Proficiency self-assessment, error reduction rate, time-to-competence |
 | **Governance** | Oversight effectiveness and risk control | Incident reports, data handling compliance, audit pass rate |
 
@@ -23,7 +23,7 @@ Engagement tier:
 - Active AI Users %: (unique users/total eligible) × 100. Target: 70%+ by month 6.
 - AI Tool Engagement Rate: (weekly active sessions / total users) × 100. Target: 60%+ sustained.
 
-Behaviour tier:
+Behavior tier:
 - Output Acceptance Rate: (outputs used as-is or refined / total outputs generated) × 100. Target: 65%+.
 - Time Saved per Function: hours/week recovered from task automation. Target: 5 to 8 hrs/FTE/week.
 
@@ -48,5 +48,5 @@ Governance tier:
 - Expect 3 to 6 month ROI horizon, not 6 weeks
 - First 6 weeks will show time investment (learning curve)
 - Weeks 6 to 12 show usage and early efficiency gains
-- Months 3 to 6 show behaviour change and quality improvements
+- Months 3 to 6 show behavior change and quality improvements
 - Month 6+ shows organizational capability gains

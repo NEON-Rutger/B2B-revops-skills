@@ -2,7 +2,7 @@
 
 The full AI use case catalog by bowtie stage, with detailed requirements and KPIs per use case. The slim SKILL.md keeps the quick-reference table; this file holds the operational detail. Minimum AI maturity refers to the four-stage GTM AI maturity model (Stage 1 Ad-hoc, Stage 2 Programmatic, Stage 3 AI-Assisted, Stage 4 AI-Orchestrated).
 
-Before recommending any use case, run the AI Readiness Checklist: clean data in the relevant object, metrics baselined, a review protocol defined (who reviews, who overrides), and a weekly audit built into the operating cadence. If three or more prerequisites are missing, the client is not ready for AI in that area.
+Before recommending any use case, run the AI Readiness Checklist: clean data in the relevant object, metrics baselined, a review protocol defined (who reviews, who overrides), and a weekly audit built into the operating cadence. If three or more prerequisites are missing, you are not ready for AI in that area.
 
 ## Awareness
 
@@ -13,7 +13,7 @@ Before recommending any use case, run the AI Readiness Checklist: clean data in 
 - **Minimum maturity:** Stage 2+.
 
 ### Intent aggregation
-- **What it does:** consolidates first- and third-party intent signals to prioritise outreach.
+- **What it does:** consolidates first- and third-party intent signals to prioritize outreach.
 - **Requirements:** intent data sources connected; signal-to-action rules; a clear owner for acting on signals.
 - **KPIs:** response rate on intent-triggered outreach; pipeline sourced from intent signals.
 - **Minimum maturity:** Stage 2+.
@@ -32,8 +32,8 @@ Before recommending any use case, run the AI Readiness Checklist: clean data in 
 - **KPIs:** speed to lead; qualified-conversation rate; meetings booked from chat.
 - **Minimum maturity:** Stage 2+.
 
-### Email personalisation
-- **What it does:** drafts personalised outreach at scale from signals and context.
+### Email personalization
+- **What it does:** drafts personalized outreach at scale from signals and context.
 - **Requirements:** clean contact data; brand and voice guardrails; human-in-the-loop on send for early phases.
 - **KPIs:** positive reply rate; meetings booked per sender; time saved per rep.
 - **Minimum maturity:** Stage 2+.
@@ -47,7 +47,7 @@ Before recommending any use case, run the AI Readiness Checklist: clean data in 
 ## Selection
 
 ### Conversation intelligence
-- **What it does:** transcribes and analyses calls for risk signals, methodology adherence, and coaching targets.
+- **What it does:** transcribes and analyzes calls for risk signals, methodology adherence, and coaching targets.
 - **Requirements:** call recording in place; methodology defined (so the AI knows what good looks like); coaching cadence to act on output.
 - **KPIs:** methodology adherence; coaching actions taken; win-rate movement on coached skills.
 - **Minimum maturity:** Stage 2-3.
@@ -74,7 +74,7 @@ Before recommending any use case, run the AI Readiness Checklist: clean data in 
 
 ### CPQ
 - **What it does:** automates configure-price-quote to compress proposal time.
-- **Requirements:** product catalogue and pricing rules; approval workflow; integration to CRM.
+- **Requirements:** product catalog and pricing rules; approval workflow; integration to CRM.
 - **KPIs:** quote turnaround time; discount governance adherence; proposal-stage cycle time.
 - **Minimum maturity:** Stage 3+.
 
@@ -134,7 +134,7 @@ Before recommending any use case, run the AI Readiness Checklist: clean data in 
 
 ### Reference mining
 - **What it does:** identifies happy customers and advocacy and expansion candidates.
-- **Requirements:** health and advocacy data; an advocacy programme to feed; consent tracking.
+- **Requirements:** health and advocacy data; an advocacy program to feed; consent tracking.
 - **KPIs:** references generated; advocacy-sourced pipeline; expansion influenced by advocacy.
 - **Minimum maturity:** Stage 3+.
 

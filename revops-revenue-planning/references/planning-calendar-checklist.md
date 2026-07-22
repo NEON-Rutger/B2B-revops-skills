@@ -2,7 +2,7 @@
 
 ## Master Template: 12-Week Planning Cycle
 
-This template is for a calendar-year business (plan approved November, finalised December, in-market January). Adjust dates and phases for your fiscal year.
+This template is for a calendar-year business (plan approved November, finalized December, in-market January). Adjust dates and phases for your fiscal year.
 
 ### Phase 1: Data and Retrospective (Weeks 1-2)
 
@@ -47,7 +47,7 @@ This template is for a calendar-year business (plan approved November, finalised
 - [ ] Headcount plan locked: Current FTE + planned hires (with start dates)
 - [ ] Ramp curves applied: Each new hire's contribution modeled by month
 - [ ] Quota assignments verified: Is each rep's quota realistic based on prior productivity?
-- [ ] Productivity assumptions documented: Deal size, conversion rate, sales cycle, quota attainment %, utilisation %
+- [ ] Productivity assumptions documented: Deal size, conversion rate, sales cycle, quota attainment %, utilization %
 - [ ] Capacity model calculated: FTE × Ramp factor × Quota = Base capacity
 
 **Deliverables:**
@@ -102,7 +102,7 @@ This template is for a calendar-year business (plan approved November, finalised
 
 **Week 7: Gap Analysis and Reconciliation Meetings**
 
-- [ ] Gap quantified: "Bottoms-up is €7.8M. Top-down is €8.5M. Gap is €0.7M."
+- [ ] Gap quantified: "Bottoms-up is $7.8M. Top-down is $8.5M. Gap is $0.7M."
 - [ ] Scenario brainstorming: What specific actions close the gap? (Hiring, CS investment, ABM, pricing, churn reduction, etc.)
 - [ ] Scenario owners assigned: Each scenario has an explicit owner and assumptions
 - [ ] Scenarios ranked: Which are most likely? Which are required to hit plan? Which are aspirational?
@@ -117,7 +117,7 @@ This template is for a calendar-year business (plan approved November, finalised
 
 **Owner:** CFO + VP Sales + VP CS (joint meeting), RevOps (documents)
 
-**Week 8: Finalisation and Executive Alignment**
+**Week 8: Finalization and Executive Alignment**
 
 - [ ] Plan of Record drafted and circulated to CFO and VP Sales
 - [ ] Any last-minute assumption challenges resolved
@@ -126,18 +126,18 @@ This template is for a calendar-year business (plan approved November, finalised
 - [ ] Assumption sensitivity analysis completed (if top 3 assumptions miss, what is downside case?)
 
 **Deliverables:**
-- Finalised Plan of Record (locked, ready for board)
+- Finalized Plan of Record (locked, ready for board)
 - Board presentation materials (1-2 slides: plan + drivers)
 - Executive alignment sign-off (email confirmation)
 - Risk / downside case documented (what could go wrong?)
 
-**Owner:** CFO (leads finalisation), CEO (alignment), RevOps (documents)
+**Owner:** CFO (leads finalization), CEO (alignment), RevOps (documents)
 
 **Gate:** End of Week 8, Plan of Record is locked and ready for board approval.
 
 ---
 
-### Phase 4: Validation and Finalisation (Weeks 9-10)
+### Phase 4: Validation and Finalization (Weeks 9-10)
 
 **Timing:** Early October
 
@@ -200,7 +200,7 @@ This template is for a calendar-year business (plan approved November, finalised
 - [ ] Scenario communication: What are we stretching on? (so teams understand and can execute)
 - [ ] Reforecast trigger communication: When will the plan change? (sets expectations)
 - [ ] Quarterly OKR planning begins (tie individual/team goals to the plan)
-- [ ] Compensation structures finalised (quotas locked for the year)
+- [ ] Compensation structures finalized (quotas locked for the year)
 - [ ] Operating cadence established (weekly forecast calls, monthly reviews, quarterly reforecasts)
 
 **Deliverables:**
@@ -220,7 +220,7 @@ This template is for a calendar-year business (plan approved November, finalised
 
 - [ ] Quarterly planning: First-quarter goals and OKRs set (aligned to annual plan)
 - [ ] Territory planning: Sales territories designed (if not already done)
-- [ ] Quota finalisation: Individual rep quotas set (aligned to segment and territory targets)
+- [ ] Quota finalization: Individual rep quotas set (aligned to segment and territory targets)
 - [ ] Compensation communications: Reps understand how they are paid against the plan
 - [ ] Manager enablement: Sales managers trained on forecast discipline (how to run forecast calls, how to inspect deals)
 - [ ] Dashboard setup: Revenue dashboards built (tracking actual vs plan)
@@ -228,7 +228,7 @@ This template is for a calendar-year business (plan approved November, finalised
 
 ---
 
-## Fiscal Year Customisation Guide
+## Fiscal Year Customization Guide
 
 Use this guide to adjust the calendar for your specific fiscal year-end and board approval date.
 
@@ -250,7 +250,7 @@ From board approval date, work backwards:
 
 ```
 Board approval (locked date):          January 15
-Plan of Record finalisation:           January 10 (5 days buffer)
+Plan of Record finalization:           January 10 (5 days buffer)
 Executive alignment:                   January 3 (1 week for alignment)
 Reconciliation meeting:                December 15 (2 weeks for gap closure)
 Finance top-down share:                December 8 (1 week for review)
@@ -264,7 +264,7 @@ Planning kickoff:                      October 13
 
 Adjust phase lengths based on your business complexity:
 
-**Simple business (€5-15M ARR, 1 GTM motion, 1 product):**
+**Simple business ($5-15M ARR, 1 GTM motion, 1 product):**
 - Phase 1 (Data): 1 week (not 2)
 - Phase 2 (Bottoms-Up): 2 weeks (not 3)
 - Phase 3 (Reconciliation): 2 weeks (not 3)
@@ -272,7 +272,7 @@ Adjust phase lengths based on your business complexity:
 - Phase 5 (Board): 1 week
 - Total: 7-8 weeks (compress the 12-week template)
 
-**Complex business (€50M+ ARR, multiple motions, multiple products, multiple verticals):**
+**Complex business ($50M+ ARR, multiple motions, multiple products, multiple verticals):**
 - Phase 1 (Data): 3 weeks (complex data gathering)
 - Phase 2 (Bottoms-Up): 4 weeks (segment complexity)
 - Phase 3 (Reconciliation): 3 weeks (more scenarios, more debate)
@@ -288,7 +288,7 @@ Use this checklist to verify each phase is complete before moving to the next.
 
 ### Phase 1 Gate (Ready for Bottoms-Up?)
 - [ ] Prior-year revenue data (actual, by segment and customer) is locked in a shared location
-- [ ] Current-year variance (forecast vs actual, by month) is analysed and documented
+- [ ] Current-year variance (forecast vs actual, by month) is analyzed and documented
 - [ ] Customer cohort data (retention, churn, expansion by cohort) is available
 - [ ] Current pipeline snapshot (CRM export with coverage ratio, velocity, by stage) is documented
 - [ ] Sales team feedback (top challenges, opportunities) is collected from all managers

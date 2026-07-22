@@ -12,7 +12,7 @@ Not every contact role is equal. Define which roles MUST be visible to win. Role
 
 ### Generic Enterprise Software Model (5 Roles)
 
-Use this model if you are selling enterprise software (CRM, ERP, security, collaboration) to large organisations:
+Use this model if you are selling enterprise software (CRM, ERP, security, collaboration) to large organizations:
 
 ```
 ROLE                    DEFINITION                          AUTHORITY LEVEL
@@ -43,7 +43,7 @@ Procurement Lead        Contract negotiation, vendor         MEDIUM
 
 ### Mid-Market Software Model (3 Roles, Simplified)
 
-For mid-market or smaller deals (€50-200K ACV), reduce scope:
+For mid-market or smaller deals ($50-200K ACV), reduce scope:
 
 ```
 ROLE                    PRIORITY
@@ -53,7 +53,7 @@ Technical Buyer         REQUIRED (if technical product)
 End-User Champion       REQUIRED
 ```
 
-Procurement Lead may not be formalised; it often is the same person as Economic or Technical Buyer.
+Procurement Lead may not be formalized; it often is the same person as Economic or Technical Buyer.
 
 ### High-Touch / Regulated Industry Model (6+ Roles)
 
@@ -135,9 +135,9 @@ DEPTH SCORE: 6 / 8 contacts = 75%
 ```
 
 **Target depths vary by deal size:**
-- €50-200K: 1-2 per critical role (Economic, Technical, End-User) suffices
-- €200-500K: 2-3 per critical role recommended (reduces single-point-of-failure risk)
-- €500K+: 2-3 per critical role plus backup influencers
+- $50-200K: 1-2 per critical role (Economic, Technical, End-User) suffices
+- $200-500K: 2-3 per critical role recommended (reduces single-point-of-failure risk)
+- $500K+: 2-3 per critical role plus backup influencers
 
 ## Buying Group Tracker Template
 
@@ -181,7 +181,7 @@ Champion Identified: Mark Johnson (CTO, engagement score 85)
 Champion Validation:
   - Power / Influence: Yes (controls architecture budget, reports to CEO)
   - Willingness: Yes (invited us to demo, introduced VP Eng)
-  - Personal Win: Yes (problem aligns with team's OKR on infrastructure modernisation)
+  - Personal Win: Yes (problem aligns with team's OKR on infrastructure modernization)
 
 
 LAST UPDATE: 2026-07-14
@@ -207,7 +207,7 @@ ATTRIBUTE 1: POWER / INFLUENCE
 ──────────────────────────────────────────────────────────────
 Indicator         Yes                              No
 ─────────────────────────────────────────────────────────────
-Can mobilise       Controls budget. Can approve      Cannot approve
+Can mobilize       Controls budget. Can approve      Cannot approve
 resources?         within own authority. Can set    anything. Blocked by
                    meetings with peers.             gatekeepers.
 
@@ -303,7 +303,7 @@ Buying group completeness is a condition for sales handover, not optional. Defin
 
 ### Handover Gate Framework
 
-**Tier 1 Enterprise Accounts (€500K+ ACV):**
+**Tier 1 Enterprise Accounts ($500K+ ACV):**
 ```
 HANDOVER REQUIRES:
 ✓ Engagement Score >=120
@@ -318,7 +318,7 @@ HANDOVER RECOMMENDED BUT NOT REQUIRED:
 • Influencer/analyst identified
 ```
 
-**Tier 2 Mid-Market Accounts (€200-500K ACV):**
+**Tier 2 Mid-Market Accounts ($200-500K ACV):**
 ```
 HANDOVER REQUIRES:
 ✓ Engagement Score >=100
@@ -331,7 +331,7 @@ HANDOVER RECOMMENDED:
 • 2+ roles engaged
 ```
 
-**Tier 3 SMB Accounts (€50-200K ACV):**
+**Tier 3 SMB Accounts ($50-200K ACV):**
 ```
 HANDOVER REQUIRES:
 ✓ Engagement Score >=80
@@ -420,7 +420,7 @@ Platforms like 6sense, Demandbase, and RollWorks include built-in buying group d
 - Recommended next contacts to engage
 - Handover integration with CRM
 
-**Cost:** €50-200K annually depending on TAM size.
+**Cost:** $50-200K annually depending on TAM size.
 
 ## Troubleshooting Common Buying Group Mapping Gaps
 
@@ -431,7 +431,7 @@ Platforms like 6sense, Demandbase, and RollWorks include built-in buying group d
 - Action: Arm this champion to introduce you to the Economic Buyer. Provide them with a one-pager or talking points for internal sell. Ask: "Can you loop in your finance contact?" This converts internal champion into a referral source.
 
 **Issue: "Our buying group is complete but engagement scores are low."**
-- Action: You may have mapped the organisational structure but not the active buying process. Escalate engagement by sending a triggering email or content piece to the Economic Buyer directly. "I saw you reviewed our pricing page; happy to answer technical questions; CC'ing Mark (CTO) for his input."
+- Action: You may have mapped the organizational structure but not the active buying process. Escalate engagement by sending a triggering email or content piece to the Economic Buyer directly. "I saw you reviewed our pricing page; happy to answer technical questions; CC'ing Mark (CTO) for his input."
 
 **Issue: "We tried to contact a role but the person refused to engage."**
 - Action: They may not be the right person in that role. Try another contact in the same role. Or, they may have delegated. Ask the refusing contact: "Is there someone on your team who is more involved in this evaluation?" You have not found the right Economic Buyer yet.

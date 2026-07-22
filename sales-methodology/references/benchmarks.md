@@ -1,6 +1,6 @@
 # Sales Methodology Benchmark Data
 
-Benchmark data on discovery, multi-threading, qualification, and negotiation, drawn from the Ebsta and Pavilion B2B Sales Benchmark dataset (2025-2026 analysis). Use these to pressure-test a client's process discipline and to quantify the cost of skipping stages.
+Benchmark data on discovery, multi-threading, qualification, and negotiation, drawn from the Ebsta and Pavilion B2B Sales Benchmark dataset (2025-2026 analysis). Use these to pressure-test your process discipline and to quantify the cost of skipping stages.
 
 Headline finding: sales efficiency declined 28% year on year. Deal size fell 11.1%, win rates dropped 13.5%, and sales cycles lengthened 6.9%. Those three compound. The teams that held the line did it through execution discipline, not more activity.
 

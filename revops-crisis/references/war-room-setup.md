@@ -11,14 +11,14 @@ Operational checklist for activating and running an effective crisis war room.
 - Pipeline coverage drops below 2x coverage (Q at risk)
 - Forecast miss detected mid-quarter (>10% gap to guidance)
 - Revenue-critical system fails (CRM outage, forecasting system down)
-- Major customer churn event (>€250k/mo at risk)
+- Major customer churn event (>$250k/mo at risk)
 - Rep attrition crisis (>3 reps departing in 30 days)
 - Board-level notification required
 
 **Do NOT activate if:**
 - Single deal is lost (handle in regular weekly forecast)
 - Routine month-end reconciliation issues
-- Low-impact data quality issue (<€50k affected)
+- Low-impact data quality issue (<$50k affected)
 
 ---
 
@@ -133,7 +133,7 @@ Operational checklist for activating and running an effective crisis war room.
 
 ### CEO Escalation (When to Involve)
 - **Forecast miss** (>5% of annual guidance): Brief CEO immediately; daily updates
-- **Major customer churn** (>€500k): Executive-level save play required
+- **Major customer churn** (>$500k): Executive-level save play required
 - **Board notification required:** CEO + CFO decide timing and disclosure
 - **System/data crisis** (data integrity loss): CEO briefed same day; stakeholder comms
 
@@ -169,7 +169,7 @@ Operational checklist for activating and running an effective crisis war room.
 **Date:** [Date war room closed]
 **Crisis type:** [Pipeline / Forecast / Churn / Rep attrition / Data]
 **Duration:** [X days active]
-**Revenue impact prevented/recovered:** [€XXX]
+**Revenue impact prevented/recovered:** [$XXX]
 
 ### What We Did Right
 - [ ] Quick escalation and war room activation

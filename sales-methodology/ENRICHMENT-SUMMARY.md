@@ -13,12 +13,12 @@ This enriched version of `sales-methodology` skill adds comprehensive SPICED qua
    - Red flags and warning signs
 
 2. **SPICED Scoring in Practice: Real Deal Example**
-   - End-to-end worked example showing how to score a €80K deal
+   - End-to-end worked example showing how to score a $80K deal
    - Evidence mapping for each SPICED element
    - Coaching debrief showing how to identify gaps and next actions
 
 3. **Buying Committee Mapping: SPICED Language by Persona**
-   - SPICED language customised for each stakeholder role:
+   - SPICED language customized for each stakeholder role:
      - CRO (Executive Buyer)
      - VP Sales (Champion, User Buyer)
      - Sales Operations / Enablement (Technical Buyer)
@@ -57,7 +57,7 @@ All original content preserved and additive:
 ### Authorship & Style
 
 - Written in operator voice: system-first, concrete, no fluff
-- British spelling throughout (organisation, centre, realise, etc.)
+- American English spelling throughout (organization, center, realize, etc.)
 - Every concept grounded in CRM implementation, stage gates, and coaching prompts
 - Real-world examples throughout (Acme Corp deal, PE portfolio scenarios, etc.)
 

@@ -62,7 +62,7 @@ Within your first 90 days, calculate your own stage probabilities from closed op
 1. Query all deals closed in the past 12 months (Won and Lost)
 2. For each stage, calculate: Deals closed from this stage / Total deals that entered this stage
 3. Plot these as your probability curve; use these numbers instead of the common defaults above
-4. Update quarterly as your pipeline matures; probability movements signal changes in sales execution or buyer behaviour
+4. Update quarterly as your pipeline matures; probability movements signal changes in sales execution or buyer behavior
 
 ### Layer 2: Pipeline Reporting (What most teams stop at)
 Reports and dashboards that show pipeline state.
@@ -157,7 +157,7 @@ n> *Based on Clari's vetted pipeline benchmark of 3.2× (2024-2025) and the 3-5�
 
 ### The Hygiene Problem
 
-Pipeline rots silently. Deals go stale, close dates pass without update, amounts stay at placeholder values. Without automated hygiene, your "€5M pipeline" might be worth €2M in reality.
+Pipeline rots silently. Deals go stale, close dates pass without update, amounts stay at placeholder values. Without automated hygiene, your "$5M pipeline" might be worth $2M in reality.
 
 ### Stale Deal Detection
 
@@ -197,7 +197,7 @@ Deals with close dates in the past are the single biggest source of forecast err
 
 ### Pipeline Quality Score
 
-A composite deal health metric informed by Gong and Ebsta's published deal health research. Gong analyses 300+ signals (split ~50/50 between conversation intelligence and CRM/activity data). Ebsta's Deal Score (1-99) is based on 655K+ analysed opportunities.
+A composite deal health metric informed by Gong and Ebsta's published deal health research. Gong analyzes 300+ signals (split ~50/50 between conversation intelligence and CRM/activity data). Ebsta's Deal Score (1-99) is based on 655K+ analyzed opportunities.
 
 **Six core dimensions** (based on Gong and Ebsta research):
 
@@ -221,7 +221,7 @@ A composite deal health metric informed by Gong and Ebsta's published deal healt
 Automatically surface high-value deals that need executive attention:
 
 **Trigger conditions**:
-- Deal value exceeds configurable threshold (e.g., >€50K for mid-market; >€200K for enterprise)
+- Deal value exceeds configurable threshold (e.g., >$50K for mid-market; >$200K for enterprise)
 - Deal advances to Qualification or beyond
 - Deal value increases by >25%
 - Deal close date moves into current quarter
@@ -279,7 +279,7 @@ Move beyond descriptive reporting to predictive signals:
 | **Amount decreased** | Scope shrink or competitive pressure | Win strategy review |
 | **New competitor mentioned in notes** | Competitive threat | Competitive positioning resources |
 | **Stage regression** | Qualification lost | Re-qualify or close |
-| **Champion went dark** | Organisational change or lost interest | Executive sponsor outreach |
+| **Champion went dark** | Organizational change or lost interest | Executive sponsor outreach |
 | **Activity spike from buyer** | Evaluation intensifying | Accelerate; ensure access to resources |
 
 ### Pipeline Movement Analysis
@@ -298,13 +298,13 @@ Track weekly changes to pipeline to understand momentum:
 
 **Weekly pipeline waterfall**:
 ```
-Starting Pipeline: €4.2M
-  + Created:  +€800K
-  + Advanced: €1.1M moved forward
-  - Pushed:   -€300K pushed to next quarter
-  - Lost:     -€450K closed lost
-  - Won:      -€600K closed won
-= Ending Pipeline: €4.45M
+Starting Pipeline: $4.2M
+  + Created:  +$800K
+  + Advanced: $1.1M moved forward
+  - Pushed:   -$300K pushed to next quarter
+  - Lost:     -$450K closed lost
+  - Won:      -$600K closed won
+= Ending Pipeline: $4.45M
 ```
 
 This waterfall, reviewed weekly, is the single most powerful pipeline visibility tool.
@@ -341,11 +341,11 @@ Capture forecast snapshots at regular intervals:
 
 ### Beyond Point Accuracy: Probabilistic Forecasting
 
-Most forecasts report a single number ("We forecast €2.5M"). Probabilistic forecasting replaces that with a scenario:
+Most forecasts report a single number ("We forecast $2.5M"). Probabilistic forecasting replaces that with a scenario:
 
-- **Conservative case** (25th percentile): €1.8M (low-confidence deals only)
-- **Most likely** (50th percentile): €2.5M (base case)
-- **Upside case** (75th percentile): €3.2M (includes at-risk but likely deals)
+- **Conservative case** (25th percentile): $1.8M (low-confidence deals only)
+- **Most likely** (50th percentile): $2.5M (base case)
+- **Upside case** (75th percentile): $3.2M (includes at-risk but likely deals)
 
 Bayesian models combine historical conversion rates, deal stage, deal age, rep performance, and pipeline velocity to generate probability distributions per deal. Ensemble methods (combining AI forecasting with rep forecasts) now outperform either alone.
 
@@ -386,13 +386,13 @@ The minimum reporting set every B2B revenue team needs:
 ## References
 
 - **Pipeline coverage**: Clari, "Sales Pipeline Coverage Ratio" (2024-2025). 3.2× for vetted opportunities. Industry range: 3-5×.
-- **Deal slippage**: Ebsta 2025 GTM Benchmarks. 36% slippage rate (down from 44% in 2024). 655K opportunities, $43B pipeline analysed.
+- **Deal slippage**: Ebsta 2025 GTM Benchmarks. 36% slippage rate (down from 44% in 2024). 655K opportunities, $43B pipeline analyzed.
 - **Forecast accuracy tiers**: Fullcast, "Forecast Accuracy Benchmarks" (2024-2025). 80-85% acceptable; 85-95% good; 95%+ world-class.
 - **Forecast variance and AI adoption**: AI-driven forecasting now mainstream; teams using AI forecasting report variance reduction from 30-40% to under 10% (Forrester, 2026). Hybrid model standard: annual budget plus rolling 12-18 month driver-based forecast (Pigment, Sage, 2026).
 - **Close date push impact**: Deal extension beyond 50 days correlates with lower win rates; Ebsta 2025 GTM Benchmarks report deals closed within 50 days achieve 47% win rate vs 20% or lower when extended beyond 50 days.
 - **Deal health scoring approach**: Gong Deal Likelihood Score (300+ signals, dynamic weighting); Ebsta Deal Score (1-99, 7 published attributes across 655K+ opportunities).
-- **Ebsta 2023 B2B Benchmark Report**: Single-threaded deals ~8% win rate; 3+ contacts = 2.4× higher close rates (based on 655K+ analysed opportunities).
-- **Ebsta 2025 GTM Benchmarks**: Early decision-maker involvement: +55% win rates. Delayed deals extend cycle length materially. Top performers close 11× faster. A-players manage 164% more pipeline (655K opportunities analysed, $43B pipeline).
+- **Ebsta 2023 B2B Benchmark Report**: Single-threaded deals ~8% win rate; 3+ contacts = 2.4× higher close rates (based on 655K+ analyzed opportunities).
+- **Ebsta 2025 GTM Benchmarks**: Early decision-maker involvement: +55% win rates. Delayed deals extend cycle length materially. Top performers close 11× faster. A-players manage 164% more pipeline (655K opportunities analyzed, $43B pipeline).
 - **Pipeline health management**: Salesforce research: teams actively managing pipeline health metrics achieve 18% higher win rates and 28% more accurate forecasts.
 
 > Built by [Neon Triforce](https://neontriforce.com)

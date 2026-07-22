@@ -2,7 +2,7 @@
 
 On-demand reference for the revops-handoffs skill. Read before recommending AI tooling for handoff automation.
 
-AI removes the two things that break handoffs: research delay and context loss. The stack below is organised by job, not by vendor. Treat named tools as current examples, and treat every price as illustrative and subject to change. Verify pricing and data terms with the vendor before quoting them to a client.
+AI removes the two things that break handoffs: research delay and context loss. The stack below is organized by job, not by vendor. Treat named tools as current examples, and treat every price as illustrative and subject to change. Verify pricing and data terms with the vendor before implementing in your organization.
 
 ## 1. AI handoff document generation
 
@@ -47,19 +47,19 @@ Deal stage change (trigger)
   → output written back to CRM or workspace (handoff doc, brief, task)
 ```
 
-Works with Claude (via structured outputs and tool-use for context extraction) or GPT-4, orchestrated through Zapier, Make, or n8n. Claude's native structured outputs reduce parsing errors and improve context-packet reliability. This is the pattern to reach for when the client wants handoff automation without adding another point tool to the stack.
+Works with Claude (via structured outputs and tool-use for context extraction) or GPT-4, orchestrated through Zapier, Make, or n8n. Claude's native structured outputs reduce parsing errors and improve context-packet reliability. This is the pattern to reach for when you want handoff automation without adding another point tool to your stack.
 
 ## 6. GDPR and EU non-negotiables
 
-For EU clients these are gating requirements, not nice-to-haves. Get them wrong and the automation becomes a liability.
+For EU companies these are gating requirements, not nice-to-haves. Get them wrong and the automation becomes a liability.
 
 - **Data residency.** Know where the model processes and stores data, and keep EU data in-region where required.
 - **Model training opt-out.** Confirm customer data is not used to train the vendor's models.
 - **Consent management.** Enrichment and scoring must respect the lawful basis for processing each contact.
-- **EU Data Act switching requirements.** Ensure you can export and move data out of the tool, so the client is not locked in.
+- **EU Data Act switching requirements.** Ensure you can export and move data out of the tool, so you are not locked in.
 
 Raise these before the pilot, not after. An EU RevOps leader who discovers a data-residency problem in production will rip the tool out, and the handoff process with it.
 
 ## How to use this reference
 
-Map the tool category to the failing handoff: research delay at Marketing to Sales points to enrichment and scoring, lost commitments at Closed Won point to handoff-doc generation plus conversation intelligence, and a CS team that expands on hunches points to predictive models feeding the handback. When the client resists adding tools, propose the LLM middleware pattern over their existing stack instead.
+Map the tool category to the failing handoff: research delay at Marketing to Sales points to enrichment and scoring, lost commitments at Closed Won point to handoff-doc generation plus conversation intelligence, and a CS team that expands on hunches points to predictive models feeding the handback. If you're hesitant about adding tools, the LLM middleware pattern lets you operate over your existing stack instead.

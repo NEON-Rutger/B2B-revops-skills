@@ -37,10 +37,10 @@ Negotiation:     78%
 
 **Weighted pipeline = Σ (deal value × stage probability)**
 
-**When to use it:** As a sanity check against category-based forecasting. If your commit forecast is €1.2M but weighted pipeline says €800K, your commits include some deals that historically don't close from their current stage at the rate your reps expect.
+**When to use it:** As a sanity check against category-based forecasting. If your commit forecast is $1.2M but weighted pipeline says $800K, your commits include some deals that historically don't close from their current stage at the rate your reps expect.
 
 **Limitations:**
-- Treats all deals in a stage equally (a €500K enterprise deal and a €20K SMB deal at the same stage have different close probabilities)
+- Treats all deals in a stage equally (a $500K enterprise deal and a $20K SMB deal at the same stage have different close probabilities)
 - Doesn't account for deal age (a deal in Negotiation for 3 days is different from one there for 30 days)
 - Requires clean historical data and enough volume for statistical significance (minimum 50-100 closed deals per segment)
 
@@ -79,4 +79,4 @@ Then:
   Adjust for seasonality and historical attainment distribution
 ```
 
-**When to use:** For annual planning and capacity planning. This tells you what the team *should* produce given its size and historical productivity. If the bottoms-up model says €8M and the board wants €12M, you have a capacity gap, not a forecasting problem.
+**When to use:** For annual planning and capacity planning. This tells you what the team *should* produce given its size and historical productivity. If the bottoms-up model says $8M and the board wants $12M, you have a capacity gap, not a forecasting problem.

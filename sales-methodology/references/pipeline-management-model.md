@@ -84,7 +84,7 @@ DISCOVERY STOCKS:                    QUESTIONS TO ASK:
   Current tools/process              "What have you tried before?"
 
 QUALIFICATION STOCKS:                QUESTIONS TO ASK:
-  Impact quantified (€/time)         "What would solving this be worth?"
+  Impact quantified ($/time)         "What would solving this be worth?"
   Critical Event identified          "When does this need to be resolved?"
   Decision process mapped            "Walk me through how you'd make this decision"
   Champion validated                 "Who internally is pushing for this?"
@@ -123,7 +123,7 @@ Explicit "close out" rules prevent pipeline pollution and wasted forecast capaci
 - SPICED score < 4 after two discovery calls
 - No access to economic buyer after qualification stage
 - Critical Event keeps moving (no real urgency)
-- Champion leaves the organisation
+- Champion leaves the organization
 - Deal age > 2x average sales cycle with no stage progression
 - Customer requirements outside product capability
 
@@ -144,7 +144,7 @@ WEEKLY DEAL REVIEW (30 min per rep):
   Manager actions:
     - Challenge: "What evidence do you have for that?" (test deal quality)
     - Coach: "Here's what I'd try next" (develop capability)
-    - Redirect: "This deal is stuck. Let's deprioritise or kill it."
+    - Redirect: "This deal is stuck. Let's deprioritize or kill it."
 
 MONTHLY PIPELINE COUNCIL (60 min, cross-functional):
   Attendees: Sales leader, Marketing leader, CS leader, RevOps
@@ -159,7 +159,7 @@ DEAL KILL CRITERIA (when to walk away):
   - SPICED score < 4 after two discovery calls
   - No access to economic buyer after qualification stage
   - Critical Event keeps moving (no real urgency)
-  - Champion leaves the organisation
+  - Champion leaves the organization
   - Deal age > 2x average sales cycle with no stage progression
   - Customer requirements outside product capability
 ```

@@ -10,7 +10,7 @@ The Situation element is where you prove you understand the customer's baseline.
 
 - Team structure: How many GTM teams? (Marketing, SDR, AE, Expansion, CS, Enablement?) Who reports to whom? Is there a RevOps function?
 - Growth stage: Series/ARR band, months in business, historical growth rate, current growth target
-- Process maturity: Do they run standardised processes (sprints, OKRs, weekly cadence) or hero-led heroics?
+- Process maturity: Do they run standardized processes (sprints, OKRs, weekly cadence) or hero-led heroics?
 - Current tooling: CRM, MA, data stack, call recording, enablement tooling. Are these used or legacy?
 - Customer types: SMB, mid-market, enterprise? Product-led, sales-led, partner-led? Geographic spread?
 - Constraints: Capital, headcount, market saturation, regulatory, competitive pressure?
@@ -46,20 +46,20 @@ Pain cost = Impact * Frequency * Time period
 ```
 
 Examples:
-- "Pipeline leaks at qualification stage" → 40 deals/quarter × 25% leak rate × €50K ACV = €500K/quarter lost
-- "SDR:AE ratio is 1:4 but best-in-class is 1:8" → 4 extra SDRs × €120K fully-loaded = €480K/year cost
-- "Forecast is off by 30%; each miss costs 2 exec days in forensics" → 4 quarters × 2 days × €1K/day = €8K/year + reputational cost
-- "Sales cycle stretched from 90 to 120 days" → 30 extra days × 25 reps × €200/day pipeline drag = €150K opportunity cost
+- "Pipeline leaks at qualification stage" → 40 deals/quarter × 25% leak rate × $50K ACV = $500K/quarter lost
+- "SDR:AE ratio is 1:4 but best-in-class is 1:8" → 4 extra SDRs × $120K fully-loaded = $480K/year cost
+- "Forecast is off by 30%; each miss costs 2 exec days in forensics" → 4 quarters × 2 days × $1K/day = $8K/year + reputational cost
+- "Sales cycle stretched from 90 to 120 days" → 30 extra days × 25 reps × $200/day pipeline drag = $150K opportunity cost
 
 **Scoring rubric for Pain:**
 
 - **0 = Unknown:** Haven't talked about what's broken.
 - **1 = Identified:** They've mentioned a problem. "Our forecast is messy" or "reps aren't using CRM." But no quantification.
-- **2 = Validated:** You've quantified the pain. "You're losing 30% of qualified opportunities because reps don't have a standard qualification method. That's roughly 12 deals/quarter × €80K ACV = €960K/year."
-- **3 = Leveraged:** The customer is actively using this number in conversations internally. They reference the cost-of-inaction in their own justification for moving. You hear: "We need to close that €960K leak" instead of "maybe we should look at this."
+- **2 = Validated:** You've quantified the pain. "You're losing 30% of qualified opportunities because reps don't have a standard qualification method. That's roughly 12 deals/quarter × $80K ACV = $960K/year."
+- **3 = Leveraged:** The customer is actively using this number in conversations internally. They reference the cost-of-inaction in their own justification for moving. You hear: "We need to close that $960K leak" instead of "maybe we should look at this."
 
 **Example (T1; Perfect Fit):**
-"Biggest pain: they have 15-person AE team closing ~€60M ARR. Forecast is consistently off by 25-30% month-to-month because reps have no qualification discipline. No standard definition of 'qualified deal.' One rep uses gut feel, another uses BANT, another just works everything in the pipeline. This creates: (1) wasted AE time on poor-fit deals; (2) CFO trust erosion; (3) inability to make confident hiring/resource decisions. Quantified: 20% of AE time (~€200K) wasted on deals that will never close. Plus monthly exec reconciliation meetings (~€3K/month × 12 = €36K/year)."
+"Biggest pain: they have 15-person AE team closing ~$60M ARR. Forecast is consistently off by 25-30% month-to-month because reps have no qualification discipline. No standard definition of 'qualified deal.' One rep uses gut feel, another uses BANT, another just works everything in the pipeline. This creates: (1) wasted AE time on poor-fit deals; (2) CFO trust erosion; (3) inability to make confident hiring/resource decisions. Quantified: 20% of AE time (~$200K) wasted on deals that will never close. Plus monthly exec reconciliation meetings (~$3K/month × 12 = $36K/year)."
 
 ---
 
@@ -78,18 +78,18 @@ Impact is where pain becomes motive. It's the gap between current state (bad) an
 2. **Emotional outcomes (the human level):**
    - Rep confidence: "My reps will trust the pipeline again"
    - Leader credibility: "I'll be able to give the CFO a number and hit it"
-   - Organisational momentum: "This removes the biggest blocker to our 50% growth goal"
+   - Organizational momentum: "This removes the biggest blocker to our 50% growth goal"
    - Cultural signal: "We're becoming a data-driven, not opinion-driven, sales org"
 
 **Scoring rubric for Impact:**
 
 - **0 = Unknown:** Haven't discussed outcomes or upside.
 - **1 = Identified:** They've mentioned what success would look like. "We'd like forecast to be more accurate" or "better pipeline management." Vague, no numbers.
-- **2 = Validated:** You've modelled the impact together. "If you reduce your disqualification cycle by 2 weeks and focus AE time on T1/T2 deals only, your revenue per rep goes from €4M to €5M. At 15 reps, that's €15M incremental ARR." They see the logic.
+- **2 = Validated:** You've modeled the impact together. "If you reduce your disqualification cycle by 2 weeks and focus AE time on T1/T2 deals only, your revenue per rep goes from $4M to $5M. At 15 reps, that's $15M incremental ARR." They see the logic.
 - **3 = Leveraged:** They're using this impact statement in internal conversations. You hear: "If we get forecast accuracy to ±10%, we can budget properly and hit our 50% growth plan. That's worth the investment."
 
 **Example (T1; Perfect Fit):**
-"If they implement SPICED: (1) AE time on low-quality pipeline drops 20%, freeing ~€200K capacity. Redeployed to net new, that's ~€4M incremental ARR. (2) Forecast accuracy improves from ±30% to ±10%, which allows predictable headcount planning and eliminates monthly exec firefighting (€36K/year saved in meeting time, credibility, morale). (3) Reps have clear disqualification rules, so they feel less guilt killing deals early and more ownership of the pipeline they keep. (4) Board and CFO trust the GTM story, which opens door to bigger markets/budgets."
+"If they implement SPICED: (1) AE time on low-quality pipeline drops 20%, freeing ~$200K capacity. Redeployed to net new, that's ~$4M incremental ARR. (2) Forecast accuracy improves from ±30% to ±10%, which allows predictable headcount planning and eliminates monthly exec firefighting ($36K/year saved in meeting time, credibility, morale). (3) Reps have clear disqualification rules, so they feel less guilt killing deals early and more ownership of the pipeline they keep. (4) Board and CFO trust the GTM story, which opens door to bigger markets/budgets."
 
 ---
 
@@ -119,7 +119,7 @@ This is the #1 predictor of deal velocity. Deals without a critical event stall 
 - **3 = Leveraged:** They're managing their internal timeline to hit this deadline. They're prepping board materials, they've allocated budget this quarter, they're clearing calendar for evaluation. You're blocking in signature by their deadline, not theirs moving to yours.
 
 **Example (T1; Perfect Fit):**
-"Critical event: they hired a new CRO in Q4 (just joined 3 weeks ago). CRO has mandated a 100-day GTM transformation plan with SPICED qualification as pillar 1. They need to show forecast accuracy improvement by April board call (12-week window). If they hit that, CRO gets cover for his broader org redesign and next-phase investments. If they miss, the GTM initiative gets deprioritised and CRO's credibility erodes. This drives tight timeline, executive air cover, and willingness to move fast on implementation."
+"Critical event: they hired a new CRO in Q4 (just joined 3 weeks ago). CRO has mandated a 100-day GTM transformation plan with SPICED qualification as pillar 1. They need to show forecast accuracy improvement by April board call (12-week window). If they hit that, CRO gets cover for his broader org redesign and next-phase investments. If they miss, the GTM initiative gets deprioritized and CRO's credibility erodes. This drives tight timeline, executive air cover, and willingness to move fast on implementation."
 
 ---
 
@@ -198,7 +198,7 @@ Step 6: Signature + kickoff (final step)
 - **0 = Unknown:** Haven't talked about process, committee, or criteria. Single contact, no visibility beyond them.
 - **1 = Identified:** You know the champion and maybe the economic buyer. You have a rough idea of "it goes through legal" and "IT checks integration." But no detail. Process feels mysterious.
 - **2 = Validated:** You've mapped 5+ stakeholders, you know their individual criteria, you've walked the process steps, and you understand where deals get stuck. You could draw an org chart. You have 1:1 relationships with at least champion + economic buyer + technical buyer.
-- **3 = Leveraged:** You're actively managing the process. You have 1:1 conversations with each stakeholder aligned to their specific criteria. You're removing blockers proactively (e.g., "I know IT wants data residency in Germany; here's our data centre docs"). You're coaching the champion on how to sell the economic buyer. You know the exact date signature happens.
+- **3 = Leveraged:** You're actively managing the process. You have 1:1 conversations with each stakeholder aligned to their specific criteria. You're removing blockers proactively (e.g., "I know IT wants data residency in Germany; here's our data center docs"). You're coaching the champion on how to sell the economic buyer. You know the exact date signature happens.
 
 **Example (T1; Perfect Fit):**
 "Decision committee: (1) VP Sales (champion, wants rep adoption + proof of SPICED methodology). Met 3x; strong sponsor. (2) CRO (economic buyer, wants forecast accuracy ±10% + board visibility by May). Met 1x; needs 1:1 on ROI math. (3) Controller/CFO (evaluates ROI, contract terms, vendor risk). Has not met; this is the risk. (4) Head of IT/Security (integration + compliance). Met; confirmed no blockers; we pass security review. (5) Procurement (contract terms, vendor onboarding). Have standard agreement? Likely sticking point.

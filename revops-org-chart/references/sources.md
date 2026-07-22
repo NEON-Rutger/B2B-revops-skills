@@ -55,7 +55,7 @@ Level 1: Ad Hoc: No dedicated ops.
 Level 2: Functional: 1-2 analysts keeping things running.
 Level 3: Repeatable: RevOps Director + 3-4 analysts. Minimum cost ~$600K/year.
 Level 4: Scalable: VP RevOps + multiple Directors (Marketing Ops, Sales Ops, CS Ops, PM).
-Level 5: Optimized: Full mature organisation.
+Level 5: Optimized: Full mature organization.
 
 Most common under-investment: RevOps team itself.
 Most common over-investment: Systems and tools.
@@ -71,14 +71,6 @@ Key principle: Right-size the team with the complexity of the GTM motion, not AR
 **Functional Model:** Strategy, Tools/Data, Enablement, Insights teams; each serve all departments. Best for mature orgs. This is the Center of Excellence approach.
 
 **Flat Structure:** Minimal hierarchy, empowered ICs. Startups only. Does not scale.
-
----
-
-## 6. Winning by Design: Revenue Architecture (van der Kooij, 2024)
-**URL:** https://www.amazon.com/Revenue-Architecture-Jacco-van-Kooij/dp/B0CKZHVMDR
-**Format:** Textbook, 250+ diagrams
-
-S-curve Growth Model with breakpoints from $10M to $10B ARR. Three stages: Startup, Scaleup, Grownup. GTM Model determines optimal org design based on deals per year and ACV. Less prescriptive on RevOps role titles; broadest revenue architecture lens. Most relevant for scale-up stage framing.
 
 ---
 
@@ -100,9 +92,9 @@ VC-backed hiring guidance. Endorses RevOps Co-op evolutionary org chart as the g
 **URL:** https://www.leanlayer.com/team-size-calculator
 
 Interactive calculator for RevOps team sizing. Provides benchmarks from Insight Partners portfolio data:
-- €0-10M ARR: 49% of companies have RevOps; revenue:RevOps ratio = 11:1
-- €10-20M: 89% adoption; ratio = 12.9:1
-- €50-100M: 98% adoption; ratio = 15:1
+- $0-10M ARR: 49% of companies have RevOps; revenue:RevOps ratio = 11:1
+- $10-20M: 89% adoption; ratio = 12.9:1
+- $50-100M: 98% adoption; ratio = 15:1
 - AE:RevOps ratio scales from 4:1 (1-10 AEs) to 12.2:1 (100+ AEs)
 
 ---

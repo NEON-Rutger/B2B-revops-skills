@@ -19,7 +19,7 @@ status: published
 
 Most companies follow this broken path:
 - ICP → (skip) → Copy
-- Result: rewriting forever. Copy is decoration, not strategy.
+- Result: constant rewriting. Copy becomes decoration, not strategy.
 
 The missing piece: **Positioning + Messaging Framework**.
 

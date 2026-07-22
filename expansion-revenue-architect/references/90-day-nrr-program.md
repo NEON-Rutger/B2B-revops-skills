@@ -1,8 +1,8 @@
-# 90-Day NRR Improvement Programme
+# 90-Day NRR Improvement Program
 
 On-demand reference for the expansion-revenue-architect skill.
 
-This is the delivery format. When a client's NRR needs improving, here's how to structure the engagement:
+This is your approach structure. When your company's NRR needs improving, here's how to structure your diagnostic and implementation:
 
 ## Phase 1: Diagnose (Weeks 1-3)
 
@@ -13,10 +13,10 @@ This is the delivery format. When a client's NRR needs improving, here's how to 
 - Assess: is this a GRR problem or an expansion problem?
 
 **Week 2: System assessment**
-- Score expansion maturity using the expansion maturity framework
-- Assess health scoring quality (are scores calibrated against actual outcomes?)
-- Map current expansion ownership (who identifies, who closes, who gets credit?)
-- Review pricing architecture (is there a natural expansion path?)
+- Score your expansion maturity using the expansion maturity framework
+- Assess your health scoring quality (are scores calibrated against actual outcomes?)
+- Map your current expansion ownership (who identifies, who closes, who gets credit?)
+- Review your pricing architecture (is there a natural expansion path?)
 
 **Week 3: Whitespace and pipeline audit**
 - Run whitespace analysis on top 20 accounts
@@ -33,16 +33,16 @@ This is the delivery format. When a client's NRR needs improving, here's how to 
 - Set expansion scoring thresholds and automation triggers
 
 **Week 5: System build**
-- Configure expansion scoring in CRM/CS platform
-- Build expansion signals dashboard
+- Configure expansion scoring in your CRM/CS platform
+- Build your expansion signals dashboard
 - Set up automated alerts and dashboard integration
-- Create whitespace analysis template for QBRs
+- Create whitespace analysis template for your QBRs
 
 **Week 6: Enablement**
-- Train CSMs on expansion signal identification
-- Train Sales on expansion discovery (different from new business discovery)
-- Create expansion playbook (by segment, by expansion type)
-- Define compensation/credit model for expansion
+- Train your CSMs on expansion signal identification
+- Train your Sales team on expansion discovery (different from new business discovery)
+- Create your expansion playbook (by segment, by expansion type)
+- Define your compensation/credit model for expansion
 
 **Output:** Expansion System Blueprint with scoring model, signals, ownership, and playbooks.
 
@@ -60,9 +60,9 @@ This is the delivery format. When a client's NRR needs improving, here's how to 
 
 **Weeks 11-12: Embed and report**
 - First NRR leading indicator check (expansion pipeline created vs target)
-- Install expansion review into operating cadence
-- Add expansion tile to revenue dashboard
-- Report to leadership with baseline, progress, and 6-month projection
+- Install expansion review into your operating cadence
+- Add expansion tile to your revenue dashboard
+- Report to your leadership with baseline, progress, and 6-month projection
 
 **Success metrics:**
 

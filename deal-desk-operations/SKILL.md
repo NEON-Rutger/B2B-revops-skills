@@ -8,7 +8,7 @@ description: >
   governance, and maturity progression from ad-hoc approvals to strategic desk.
   Use when the user mentions deal desk, approval matrix, discount governance,
   quote SLAs, non-standard terms, pricing exceptions, deal desk ROI, approval
-  velocity, discount leakage, or centralising deal approval authority. Also
+  velocity, discount leakage, or centralizing deal approval authority. Also
   trigger on "our reps have too much authority", "discounts are all over the
   place", "deals are stalled in approval", "we need guardrails on pricing",
   "custom pricing is a bottleneck", or "how do we control margin erosion".
@@ -19,14 +19,14 @@ BOUNDARY: >
   discount negotiation playbooks, gtm-compensation for commission mechanics on
   discounted deals, revops-metrics for tracking deal desk performance, and
   revops-forecasting for deal-stage architecture. See also: revops-diagnostic
-  (system-level constraints), revops-handoffs (deal → partner/CS transition),
+  (system-level constraints), revops-handoffs (deal to partner/CS transition),
   and cs-operations (renewal governance at customer level).
 
 ---
 
 # Deal Desk Operations: From Ad-Hoc Approvals to Strategic Function
 
-You are a deal desk architect. A deal desk is the control system that sits between a sales team's urgency to close and your company's margin-protection mandate. It governs non-standard commercial deals (price, terms, packaging, payment) via centralised approval authority, clear thresholds, structured workflows, and SLAs. A mature deal desk reduces cycle time by 20-35% (practice-based), lifts win rates by improving deal quality, and protects margin leakage typically in the 3-9% range across industry benchmarks.
+You are a deal desk architect. A deal desk is the control system that sits between a sales team's urgency to close and your company's margin-protection mandate. It governs non-standard commercial deals (price, terms, packaging, payment) via centralized approval authority, clear thresholds, structured workflows, and SLAs. A mature deal desk reduces cycle time by 20-35% (practice-based), lifts win rates by improving deal quality, and protects margin leakage typically in the 3-9% range across industry benchmarks.
 
 Your job: design the approval architecture, governance thresholds, and operations to match your company's stage and margin tolerance.
 
@@ -38,7 +38,7 @@ A deal desk is not a day-one function. It emerges at these triggers:
 2. **Approval authority breaks**: Reps have too much discretion on pricing; discounts cluster wildly by region or rep tenure; "everyone just asks the CRO."
 3. **Margin erosion emerges**: Your CFO reports discount leakage tracking at 8-12% in affected contracts or revenue leakage hitting 3-5% of total ARR (LeaksShield, 2026).
 4. **Quote bottleneck forms**: Deals sit waiting for pricing approval or contract review; quote turnaround creeps beyond 24-48 hours (GoAutonomous, 2026).
-5. **Headcount or complexity crosses a threshold**: You have 15+ AEs, annual contracts exceed €50K ACV, or over 30% of deals involve custom terms.
+5. **Headcount or complexity crosses a threshold**: You have 15+ AEs, annual contracts exceed $50K ACV, or over 30% of deals involve custom terms.
 
 **Maturity trigger**: When formal processes replace ad-hoc approvals, your CEO asks "how much are we leaving on the table?" This is your signal.
 
@@ -59,12 +59,12 @@ The core tool is a two-dimensional matrix: discount depth on one axis, deal size
 
 ### Deal Size Conditional Overrides
 
-For enterprise deals (>€100K ACV or strategic accounts):
+For enterprise deals (>$100K ACV or strategic accounts):
 - Discount >15% always routes to VP, regardless of standard thresholds
 - >25% requires CRO visibility
 - Usage-based or outcome-based structures require deal-desk-led economics review before proposal
 
-For SMB deals (<€15K ACV):
+For SMB deals (<$15K ACV):
 - Escalation thresholds can be tighter (e.g., 15% to manager; 25% to VP)
 - Packaged responses (standard bundled discounts) may auto-approve below thresholds
 
@@ -95,7 +95,7 @@ A quote is a binding contract document. Fast turnaround improves win rate (every
 
 **Stage 2: Approval Routing (2-8 hours for standard, 4-24 for non-standard)**
 - Standard quotes: auto-approve if discount ≤10% and deal size within normal range. CPQ generates final document.
-- Non-standard: routes to appropriate approver per matrix above. Approver reviews: discount depth, strategic fit, precedent risk (is this the third €50K deal at 25% off for that vertical?), and implementation complexity (high complexity + deep discount = margin squeeze).
+- Non-standard: routes to appropriate approver per matrix above. Approver reviews: discount depth, strategic fit, precedent risk (is this the third $50K deal at 25% off for that vertical?), and implementation complexity (high complexity + deep discount = margin squeeze).
 - If legal review needed (new terms, security requirements, data residency): parallel legal track; SLA 24-48 hours; escalate on miss.
 
 **Stage 3: Delivery & Signature (8-24 hours)**
@@ -119,13 +119,13 @@ Every approved discount must include:
 - **Discount reason** (competitive, loss aversion, strategic, volume, loyalty)
 - **Expiry** (one-time for this deal, auto-renew, or expires at T date; most should expire)
 - **Precedent flag** (is this the first time we've offered X% to this industry/region/company size?)
-- **Renewal behaviour** (what happens at renewal? Standard price, renegotiate, holdover discount)
+- **Renewal behavior** (what happens at renewal? Standard price, renegotiate, holdover discount)
 
 ### Renewal Uplift Governance
 
 Price increases at renewal often fail because they were not pre-planned. Use a **renewal cohort strategy**:
 
-1. **Segment customers into cohorts**: high-value/low-churn (Cohort A: defend and grow); mid-value/normal-churn (Cohort B: optimise and hold); high-risk/lower-value (Cohort C: selective increase or prune).
+1. **Segment customers into cohorts**: high-value/low-churn (Cohort A: defend and grow); mid-value/normal-churn (Cohort B: optimize and hold); high-risk/lower-value (Cohort C: selective increase or prune).
 2. **Assign price-increase percentage by cohort**: Cohort A may absorb 12-15% increases; Cohort B 8-10%; Cohort C 0-5% or no increase.
 3. **Pre-plan starting 120+ days before renewal** (120+ day lead time correlates with improved renewal outcomes; practice-based).
 4. **Document rationale**: which cohort, which tier, why, and who approved the strategy (CFO + CRO co-sign).
@@ -154,7 +154,7 @@ Usage-based pricing is now standard in 38% of SaaS companies, heading to 70% by 
 **Deal-desk approval rule for usage-based**: All usage-based deals must include deal-desk economics review. Standard checks:
 - Does the minimum commit cover CAC + onboarding cost? (If not, this is a land-and-expand play; flag it as such.)
 - Are overages priced to maintain 70%+ gross margin? (If not, it's a strategic loss leader; requires CRO rationale.)
-- Has the customer's prior usage been modelled? (If customer's usage history is 2x the minimum commit, renegotiate.)
+- Has the customer's prior usage been modeled? (If customer's usage history is 2x the minimum commit, renegotiate.)
 
 ### Outcome-Based / Value-Based Deals
 
@@ -171,7 +171,7 @@ Deal desk approval for outcome-based: CRO + Finance + Sales Ops must jointly sig
 
 ### Multi-Year Contracts with Step-Ups
 
-A multi-year with step-up (Year 1 €50K, Year 2 €60K, Year 3 €72K) looks good upfront but creates renewal friction if the relationship deteriorates or the customer hits a hard cap on spending.
+A multi-year with step-up (Year 1 $50K, Year 2 $60K, Year 3 $72K) looks good upfront but creates renewal friction if the relationship deteriorates or the customer hits a hard cap on spending.
 
 **Governance rules:**
 - Step-ups must be tied to explicit usage or performance triggers, not arbitrary.
@@ -222,21 +222,21 @@ Most B2B SaaS companies land in one of three states:
 
 **Symptoms:** Wide discount variance by rep; high churn on discounted renewal cohorts; contracts stall in legal; "we don't know how much discount we actually gave them."
 
-**Upgrade trigger:** Hire first deal-desk lead or assign to RevOps. Document existing discounts (30-60 day audit). Install basic approval matrix (3 tiers: manager, VP, CRO). Implement Salesforce CPQ or HubSpot CPQ for quote templating. Target: 6-12 weeks to "formalized" state.
+**Upgrade trigger:** Hire first deal-desk lead or assign to RevOps. Document existing discounts (30-60 day audit). Install basic approval matrix (3 tiers: manager, VP, CRO). Implement Salesforce CPQ or HubSpot CPQ for quote templating. Target: 6-12 weeks to formalized state.
 
-### Level 2: Formalised (Basic Approval Matrix + SLAs)
+### Level 2: Formalized (Basic Approval Matrix + SLAs)
 
 **Characteristics:** Approval matrix is documented. Quote SLAs are set (e.g., 24-hour standard). Deal desk reviews most deals >20% discount. Legal has a named process.
 
-**Strengths:** Discount velocity improves; reps know the rules; margins stabilise.
+**Strengths:** Discount velocity improves; reps know the rules; margins stabilize.
 
-**Gaps:** Limited data on discount patterns; renewal pricing is still reactive; consumption and outcome-based deals are one-off adventures, not standardised.
+**Gaps:** Limited data on discount patterns; renewal pricing is still reactive; consumption and outcome-based deals are one-off adventures, not standardized.
 
-**Next moves:** Build a discount tracking dashboard. Implement cohort-based renewal strategy. Standardise consumption-deal templates. Measure all four quality metrics above. Engage Finance in monthly deal-desk governance review.
+**Next moves:** Build a discount tracking dashboard. Implement cohort-based renewal strategy. Standardize consumption-deal templates. Measure all four quality metrics above. Engage Finance in monthly deal-desk governance review.
 
 ### Level 3: Strategic (Integrated with Finance & Product)
 
-**Characteristics:** Deal desk is cross-functional: RevOps + Sales + Finance + Product. Usage-based and outcome-based deals have playbooks. Renewal strategy is planned 120+ days in advance. Deal desk reviews not just for approval but for pricing strategy insights (e.g., "our €50K-100K segment is seeing 30% discounts; raise list price for that tier").
+**Characteristics:** Deal desk is cross-functional: RevOps + Sales + Finance + Product. Usage-based and outcome-based deals have playbooks. Renewal strategy is planned 120+ days in advance. Deal desk reviews not just for approval but for pricing strategy insights (e.g., "our $50K-100K segment is seeing 30% discounts; raise list price for that tier").
 
 **Strengths:** Pricing strategy is proactive, not reactive. Margin management is predictable. Deal desk contributes to pricing strategy evolution.
 
@@ -269,7 +269,7 @@ Build this over 12-24 months as volume and complexity justify investment.
 
 ## Summary: Maturity Progression
 
-**Quarter 1:** Formalise approval matrix. Document existing discounts. Install CPQ if not in place.
+**Quarter 1:** Formalize approval matrix. Document existing discounts. Install CPQ if not in place.
 
 **Quarter 2:** Implement discount tracking and expiry enforcement. Start weekly velocity metrics.
 
@@ -284,3 +284,5 @@ Build this over 12-24 months as volume and complexity justify investment.
 ## References
 
 See `references/benchmarks-sourced.md` for full sourcing on all quantitative claims in this skill.
+
+> Built by [Neon Triforce](https://neontriforce.com)

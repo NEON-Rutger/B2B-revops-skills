@@ -1,10 +1,10 @@
-# Neon RevOps, the open-source revenue operations layer for Claude
+# RevOps Skills Library for Claude
 
 **Current release: v1.0.0 (2026-07-15), 34 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
 34 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
-**Built for:** B2B SaaS companies scaling from €5M to €150M+ ARR, where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
+**Built for:** B2B SaaS companies in the growth phase where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
 
 **What you get:**
 - A diagnostics-first framework that finds the real constraint before recommending a fix
@@ -17,13 +17,13 @@
 ## Quick install
 
 ```bash
-git clone https://github.com/NEON-Rutger/B2B-revops-skills.git
+git clone https://github.com/revops-skills/claude-revops-library.git
 
 # Copy individual skills
-cp -r B2B-revops-skills/revops-diagnostic/ your-project/.claude/skills/
+cp -r claude-revops-library/revops-diagnostic/ your-project/.claude/skills/
 
 # Or install everything
-cp -r B2B-revops-skills/*/ your-project/.claude/skills/
+cp -r claude-revops-library/*/ your-project/.claude/skills/
 ```
 
 Each skill is a folder containing a `SKILL.md` file (and optionally a `references/` directory). Place the folder in your project's `.claude/skills/` directory. Claude discovers and loads skills automatically when you open the project.
@@ -60,7 +60,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `marketing-operations` | Lead scoring, attribution, campaign tracking, MQL handoff | v0.1.0 |
 | `cs-operations` | Customer success operations, health scoring, renewal management | v0.1.0 |
 | `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling, multi-framework | v0.1.0 |
-| `partner-channel-operations` | Partner programme design, enablement, co-selling, deal registration | v0.1.0 |
+| `partner-channel-operations` | Partner program design, enablement, co-selling, deal registration | v0.1.0 |
 | `abm-engagement-scoring` | Account-level engagement scoring, buying-group coverage, handover trigger doctrine | v0.3.0 |
 
 ### Pipeline and Data (5 skills)
@@ -77,7 +77,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 
 | Skill | What it does | Since |
 |---|---|---|
-| `pricing-monetisation-ops` | Usage and outcome pricing operations: metering, rating, invoicing, reconciliation, contract drift | v0.4.0 |
+| `pricing-monetization-ops` | Usage and outcome pricing operations: metering, rating, invoicing, reconciliation, contract drift | v0.4.0 |
 | `deal-desk-operations` | Deal desk design: approval matrix, discount governance, credit and overage economics | v0.4.0 |
 
 ### ICP, Positioning, and Growth (6 skills)
@@ -103,7 +103,7 @@ Skills chain naturally. Start with a diagnostic, then load the specialist.
 - **Partner motion:** `partner-ecosystem-architect` → `partner-channel-operations` → `revops-handoffs`
 - **Operating rhythm:** `operating-cadence-designer` → `revenue-operating-cadence` → `revops-metrics`
 - **Data foundation:** `gtm-data-architecture` → `revops-data-governance` → `pipeline-visibility`
-- **Monetisation:** `pricing-monetisation-ops` → `deal-desk-operations` → `gtm-compensation`
+- **Monetization:** `pricing-monetization-ops` → `deal-desk-operations` → `gtm-compensation`
 - **Post-merger:** `crm-migration-consolidation` → `revops-data-governance` → `revops-hubspot` or `revops-salesforce`
 
 ---
@@ -122,13 +122,9 @@ Release discipline: every release updates the CHANGELOG, the version line at the
 
 ## What's not here
 
-These are the generic operational layer, the frameworks and methodology that any B2B revenue team can use.
+These are the generic operational layer: the frameworks and methodology that any B2B revenue team can use independently.
 
-The full delivery system (proprietary maturity model, diagnostic frameworks, and client-specific delivery skills used in live engagements) is used in private client work through [Neon Triforce](https://neontriforce.com). If your team needs implementation support rather than frameworks to self-serve, that's the conversation to have.
-
-## When to hire us
-
-These skills give you the thinking. They won't run a discovery call, facilitate a workshop, or hold your leadership team accountable to a new operating cadence. If you're hitting those limits, or if the diagnostic keeps surfacing the same constraint and nothing changes, [get in touch](https://neontriforce.com).
+These skills provide frameworks for self-serve implementation. They won't run a discovery call, facilitate a workshop, or hold your leadership team accountable to a new operating cadence. If you need implementation support beyond self-service skills, consider engaging a revenue operations consultant.
 
 ---
 
@@ -140,7 +136,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). The bar is intentionally high.
 
 See [CHANGELOG.md](CHANGELOG.md).
 
-## Licence
+## License
 
 MIT, see [LICENSE](LICENSE).
 

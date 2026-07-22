@@ -1,6 +1,6 @@
 # HubSpot Workflow Recipes - Ready-to-Implement
 
-Production-ready workflow patterns for B2B SaaS RevOps (€15M-150M ARR, Benelux region).
+Production-ready workflow patterns for B2B SaaS RevOps ($15M-150M ARR, Benelux region).
 
 ---
 
@@ -25,7 +25,7 @@ Production-ready workflow patterns for B2B SaaS RevOps (€15M-150M ARR, Benelux
 |-----------|---------|
 | **Trigger** | Contact property changed: `last_activity_date` occurs |
 | **Conditions** | • AND `lifecycleStage` = "MQL"<br>• AND `lead_status` = "Open" or "Working"<br>• AND `days_inactive` < 2 (recent activity)<br>• AND activity type = Email, Call, or Meeting Log |
-| **Actions** | 1. Set property: `lifecycleStage` → "SQL"<br>2. Set property: `lead_status` → "Contacted"<br>3. Increment: `num_contacted_notes`<br>4. Create opportunity (if not exists): Deal amount = €0 (TBD)<br>5. Notify: Slack alert to sales manager<br>6. Add note: "Promoted to SQL - [rep name] engaged on [date]" |
+| **Actions** | 1. Set property: `lifecycleStage` → "SQL"<br>2. Set property: `lead_status` → "Contacted"<br>3. Increment: `num_contacted_notes`<br>4. Create opportunity (if not exists): Deal amount = $0 (TBD)<br>5. Notify: Slack alert to sales manager<br>6. Add note: "Promoted to SQL - [rep name] engaged on [date]" |
 | **Notes** | • Sales qualifies MQL through conversation (MEDDIC/BANT check)<br>• Opportunity created at contact, not yet deal creation<br>• Sales rep populates deal amount, timeline, budget, champion<br>• Prevents spam/accidental promotions with conditions |
 
 ### Workflow: Auto-Opportunity Creation on Deal Qualification
@@ -61,7 +61,7 @@ Production-ready workflow patterns for B2B SaaS RevOps (€15M-150M ARR, Benelux
 | Component | Details |
 |-----------|---------|
 | **Trigger** | Contact property changed: `lifecycleStage` → "MQL" |
-| **Conditions** | • Contact owner = empty (unassigned)<br>• `company.industry` = target industries (SaaS, FinTech, MarTech, etc.)<br>• `arr_eur` between €15M-150M (ICP match) |
+| **Conditions** | • Contact owner = empty (unassigned)<br>• `company.industry` = target industries (SaaS, FinTech, MarTech, etc.)<br>• `arr_eur` between $15M-150M (ICP match) |
 | **Actions** | **Round-Robin Assignment:**<br>1. Get list of active AEs: [AE1, AE2, AE3, AE4]<br>2. Count open MQLs for each AE (must be < 20)<br>3. Assign to AE with lowest count<br>4. Set property: `owner` → Assigned AE<br>5. Set property: `owner_assigned_date` → Today<br>6. Create task: "Welcome call - Introduce yourself, 48 hour target"<br>7. Send Slack: Notify AE with MQL card<br>8. Send email: Auto-confirmation to contact (CRM automation)<br><br>**If all AEs at capacity:**<br>• Hold in queue (wait 24 hours)<br>• Retry assignment (workflow logic)<br>• If still no capacity: Notify sales manager |
 | **Notes** | • "Open" = currently has <20 active leads<br>• Capacity check prevents overloading<br>• Round-robin rotates per MQL received<br>• Manual override: sales manager can reassign |
 
@@ -98,9 +98,9 @@ Production-ready workflow patterns for B2B SaaS RevOps (€15M-150M ARR, Benelux
 | Component | Details |
 |-----------|---------|
 | **Trigger** | Workflow timer: Daily check |
-| **Conditions** | • Deal stage = "Qualification" OR "Proposal" OR "Contract"<br>• Days inactive > 7<br>• Deal amount ≥ €50k (escalate high-value only)<br>• Deal owner assigned |
+| **Conditions** | • Deal stage = "Qualification" OR "Proposal" OR "Contract"<br>• Days inactive > 7<br>• Deal amount ≥ $50k (escalate high-value only)<br>• Deal owner assigned |
 | **Actions** | 1. Create task: Deal owner → "Stalled deal - Check in with buyer" (due in 1 day)<br>2. Notify: Sales manager via Slack (escalation)<br>3. Alert email: "Deal [name] inactive 7+ days"<br>4. Add note: "Auto-escalated [date] - No activity since [last_date]"<br>5. Recommendation: Call/email buyer + check if still interested<br>6. If no response in 3 days: Move to "On Hold" pipeline OR close as "No Decision" |
-| **Notes** | • Only escalates significant deals (€50k+)<br>• Prevents deals from dying in pipeline<br>• Gives AE 3 days to respond before closure<br>• Customizable: Change threshold for your team |
+| **Notes** | • Only escalates significant deals ($50k+)<br>• Prevents deals from dying in pipeline<br>• Gives AE 3 days to respond before closure<br>• Customizable: Change threshold for your team |
 
 ---
 
@@ -124,7 +124,7 @@ Production-ready workflow patterns for B2B SaaS RevOps (€15M-150M ARR, Benelux
 | Component | Details |
 |-----------|---------|
 | **Trigger** | Workflow timer: Daily check |
-| **Conditions** | • Deal stage = "Qualification" OR "Proposal"<br>• `days_inactive` ≥ 14<br>• Deal amount ≥ €30k<br>• Deal not marked as "On Hold"<br>• Last contact was sales activity (call/meeting/email) |
+| **Conditions** | • Deal stage = "Qualification" OR "Proposal"<br>• `days_inactive` ≥ 14<br>• Deal amount ≥ $30k<br>• Deal not marked as "On Hold"<br>• Last contact was sales activity (call/meeting/email) |
 | **Actions** | **Day 14 (First Alert):**<br>1. Create task: AE → "Reach out to champion" (due in 1 day)<br>2. Send Slack: AE reminder<br>3. Suggest action: "Follow up on proposal" OR "Check on internal approval"<br><br>**Day 21 (Escalation):**<br>1. If no response: Create task<br>   - Task: Sales manager → "Discuss deal strategy" (due in 1 day)<br>2. Notify: Sales director<br>3. Recommendation: Likely stalled, consider "On Hold"<br><br>**Day 30 (Final):**<br>1. If still no activity:<br>   - Move to: `dealstage` = "On Hold" OR close as "No Decision"<br>   - Set property: `stalled_deal_date` = [date]<br>   - Create task: Follow-up in 60 days<br>2. Document: "Buyer not responsive; paused outreach" |
 | **Notes** | • Timings: 14, 21, 30 days (customize per company)<br>• Escalation ensures visibility<br>• "On Hold" vs "Closed Lost": Manager judgment call<br>• Can re-open deal if buyer reaches out |
 
@@ -141,7 +141,7 @@ Production-ready workflow patterns for B2B SaaS RevOps (€15M-150M ARR, Benelux
 | **Trigger** | Contact created |
 | **Conditions** | • Email domain exists<br>• Company property = empty OR domain doesn't match email<br>• NOT a bounced/invalid email<br>• `do_not_contact` = false |
 | **Actions** | 1. **Lookup & Auto-Populate:**<br>   - Use Clearbit by HubSpot (native: free basic enrichment with any paid seat), Breeze Intelligence (HubSpot's AI enrichment, Feb 2026), or Apollo/similar integration<br>   - Find company by email domain<br>   - Auto-populate: Company name, industry, size, location<br><br>2. **Enrich Contact:**<br>   - Find contact title, phone, LinkedIn URL<br>   - Auto-populate: Job title, phone number<br><br>3. **Create Contact Association:**<br>   - Link contact to company<br>   - If company doesn't exist in HubSpot: Create it<br><br>4. **Scoring:**<br>   - Calc fit_score based on new data<br>   - If score ≥ 60: Set as lead candidate<br><br>5. **QA:**<br>   - Create task: "Review auto-enriched data" (for BDR)<br>   - Flag high-confidence data vs. lower-confidence<br>   - Manual correction if needed<br>   - Set property: `data_enrichment_date` = Today |
-| **Notes** | • Clearbit by HubSpot (post-acquisition Nov 2023) offers free basic enrichment on all paid tiers, no separate cost<br>• Breeze Intelligence (Feb 2026 rebrand) provides AI-driven enrichment and recommendations<br>• For additional coverage or specialised verticals, supplement with Apollo or similar<br>• Only use high-confidence data (80%+ match)<br>• Flag lower-confidence fields for manual review<br>• Prevents bad data from skewing scoring<br>• Cost: Track enrichment API usage (Clearbit basic is free; premium/Breeze may incur credits) |
+| **Notes** | • Clearbit by HubSpot (post-acquisition Nov 2023) offers free basic enrichment on all paid tiers, no separate cost<br>• Breeze Intelligence (Feb 2026 rebrand) provides AI-driven enrichment and recommendations<br>• For additional coverage or specialized verticals, supplement with Apollo or similar<br>• Only use high-confidence data (80%+ match)<br>• Flag lower-confidence fields for manual review<br>• Prevents bad data from skewing scoring<br>• Cost: Track enrichment API usage (Clearbit basic is free; premium/Breeze may incur credits) |
 
 ### Workflow: Standardize Industry & Company Size
 
@@ -188,7 +188,7 @@ Production-ready workflow patterns for B2B SaaS RevOps (€15M-150M ARR, Benelux
 |-----------|---------|
 | **Trigger** | Deal property changed: `dealstage` → "Closed Won" |
 | **Conditions** | • Deal is new business (not renewal)<br>• Customer was land-and-expand strategy<br>• Deal closed in last 90 days |
-| **Actions** | 1. **Post-Sales Handoff:**<br>   - Send email: CSM + Account Manager (closed deal notification)<br>   - Create task: CSM → "Schedule onboarding" (due in 1 day)<br><br>2. **Monitor Usage (automated via integration, or manual):**<br>   - After 30 days: Check product usage metrics<br>   - IF high engagement (80%+ feature adoption): Flag expansion candidate<br>   - Recommend: Add users, upgrade tier, additional modules<br><br>3. **Create Expansion Opportunity:**<br>   - On day 45 post-close:<br>   - Create deal: `dealtype` = "Expansion"<br>   - Deal name: "[Customer] - Expansion: [Module/Tier]"<br>   - Amount: €0 initially (CSM to estimate)<br>   - Stage: "Proposal" (CSM identifies specific product fit)<br>   - Owner: CSM → present to customer → handoff to AE when ready to close<br><br>4. **Expansion Nurture:**<br>   - Create task: CSM → "Discuss expansion opportunity" (due in 60 days)<br>   - Suggest: New user seats, add-on modules, premium tier<br>   - Provide: ROI analysis based on usage |
+| **Actions** | 1. **Post-Sales Handoff:**<br>   - Send email: CSM + Account Manager (closed deal notification)<br>   - Create task: CSM → "Schedule onboarding" (due in 1 day)<br><br>2. **Monitor Usage (automated via integration, or manual):**<br>   - After 30 days: Check product usage metrics<br>   - IF high engagement (80%+ feature adoption): Flag expansion candidate<br>   - Recommend: Add users, upgrade tier, additional modules<br><br>3. **Create Expansion Opportunity:**<br>   - On day 45 post-close:<br>   - Create deal: `dealtype` = "Expansion"<br>   - Deal name: "[Customer] - Expansion: [Module/Tier]"<br>   - Amount: $0 initially (CSM to estimate)<br>   - Stage: "Proposal" (CSM identifies specific product fit)<br>   - Owner: CSM → present to customer → handoff to AE when ready to close<br><br>4. **Expansion Nurture:**<br>   - Create task: CSM → "Discuss expansion opportunity" (due in 60 days)<br>   - Suggest: New user seats, add-on modules, premium tier<br>   - Provide: ROI analysis based on usage |
 | **Notes** | • Expansion drives ARR growth post-land<br>• CSM + AE partnership: CSM identifies, AE closes<br>• Usage data integration critical (product analytics)<br>• Set ARR growth targets per renewal + expansion |
 
 ---

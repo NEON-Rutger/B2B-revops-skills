@@ -33,7 +33,7 @@ HubSpot has no native speed-to-lead measurement, so the `first_connection_date` 
 
 **Closed-Won handoff.** Trigger on deal stage equals Closed Won. Gate: block or flag if `handoff_completeness_score` is below threshold or `context_packet_url` is empty. Actions on pass: create the onboarding ticket, create the associated Renewal deal dated to the term, notify the implementation or CS owner.
 
-**Expansion signal.** Trigger on a company or usage property crossing a threshold (seat utilisation, feature adoption, headcount growth). Actions: auto-create an Expansion deal, set `expansion_type`, associate it to the original deal, assign per the ownership thresholds, and notify the CSM and AE.
+**Expansion signal.** Trigger on a company or usage property crossing a threshold (seat utilization, feature adoption, headcount growth). Actions: auto-create an Expansion deal, set `expansion_type`, associate it to the original deal, assign per the ownership thresholds, and notify the CSM and AE.
 
 **Renewal automation.** Date-triggered at T-90 on the Renewal deal. Actions: assign owner, attach the customer-specific ROI or QBR material, start the renewal ABM sequence.
 
@@ -52,10 +52,10 @@ Treat Breeze output as a first draft that a human confirms, never as an unreview
 - **Deal-to-deal associations** (needed for the expansion lineage and time-to-expansion measurement) require **Professional** or above.
 - **Calculated properties** (`speed_to_lead_hours`) require **Professional** or above.
 - **Advanced workflow branching and escalation** are smoothest on **Professional / Enterprise**.
-- On **Starter**, approximate with simpler date-stamp properties and manual review, and be honest with the client that the SLA enforcement will be partial.
+- On **Starter**, approximate with simpler date-stamp properties and manual review, and recognize that your SLA enforcement will be partial.
 
 ## How to use this reference
 
 Match the workflow to the presenting problem: unworked leads points to MQL routing plus the 24-hour escalation, "CS never knows what sales promised" points to the Closed-Won completeness gate plus context-packet property, and "nobody owns expansion" points to the expansion-signal workflow plus the ownership thresholds encoded in the routing.
 
-Confirm the client's HubSpot tier before promising any workflow that needs Professional-plus features.
+Confirm your HubSpot tier before implementing any workflow that requires Professional or above.

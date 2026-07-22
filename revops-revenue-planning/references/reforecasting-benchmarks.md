@@ -28,7 +28,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 |---|---|---|---|---|
 | **±5%** | ELITE | Forecast is highly accurate. Reps calibrated, pipeline healthy. | Continue current process. | Only if other triggers fire |
 | **±10%** | STRONG | Good discipline. Minor variance expected from deal timing. | Standard monthly review. | Only if other triggers fire |
-| **±15%** | NORMAL | Typical for most organisations. Sales cycles vary; some deals slip. | Expected variance. Monitor trends. | Only if threshold exceeded next month too |
+| **±15%** | NORMAL | Typical for most organizations. Sales cycles vary; some deals slip. | Expected variance. Monitor trends. | Only if threshold exceeded next month too |
 | **±20%** | WEAK SIGNAL | Forecast discipline is degrading. Either rep calibration is loose, or pipeline health is declining. | Diagnostic: Are reps sandbagging (under-forecasting) or over-forecasting? Are deals slipping? | Formal reforecast if persists 2+ months |
 | **>±25%** | BROKEN | Forecast process is broken. Either pipeline is unhealthy, reps are unaligned with forecast methodology, or both. | Emergency reforecast. Audit forecast categories and rep training. | YES, within 5 days |
 
@@ -64,7 +64,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 | **Weekly operational, Monthly formal reforecast** | Current practitioner operating standard. RevOps reviews pipeline, coverage, close rate, and key deals weekly. Formal forecast update (including FP&A review) happens monthly. Quarterly deep reforecasts (assumptions reset) happen Q1/Q2/Q3. | Sweet spot for most mid-market teams. Prevents total disconnect while avoiding reforecasting chaos. |
 | **Continuous (ad-hoc)** | Crisis businesses or high-uncertainty environments (macro freeze, major customer loss). | Unsustainable. FP&A cannot model; board cannot plan; team loses autonomy. Use only during crisis windows (max 4-6 weeks). |
 
-**Practice default:** Most clients run weekly forecast calls (30-60 min, RevOps + sales leads, focused on material changes). Monthly formal reforecasts (full review with FP&A, compare vs Plan of Record, document). Quarterly deep reforecasts (reset assumptions, compare to Bottoms-Up Original and Finance Stretch).
+**Practice default:** Most teams run weekly forecast calls (30-60 min, RevOps + sales leads, focused on material changes). Monthly formal reforecasts (full review with FP&A, compare vs Plan of Record, document). Quarterly deep reforecasts (reset assumptions, compare to Bottoms-Up Original and Finance Stretch).
 
 ---
 
@@ -101,7 +101,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 | **14-18 months** | At-risk (trigger diagnostic) | Acquisition cost is rising or ACV is declining. Reforecast if trend continues. Diagnose: Is CAC up (ad costs rising)? Is ACV down (smaller deals)? |
 | **>18 months** | Broken | Acquisition efficiency is poor. Cannot scale. Reforecast downward and plan for CAC reduction or ACV increase. |
 
-**Source:** Median CAC payback 15-16 months (Drivetrain, Getaleph, Data-Mania 2026). Top quartile <12 months. House threshold of 14 months because most clients operate below median.
+**Source:** Median CAC payback 15-16 months (Drivetrain, Getaleph, Data-Mania 2026). Top quartile <12 months. House threshold of 14 months because most companies at this stage operate below median.
 
 ---
 
@@ -137,7 +137,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 
 ## How to Use This Reference in Planning
 
-1. **Annual plan kickoff:** Share this table with Revenue and Finance. Agree on which benchmarks apply to your business (some clients operate outside these bands legitimately). Set thresholds for reforecasting triggers.
+1. **Annual plan kickoff:** Share this table with Revenue and Finance. Agree on which benchmarks apply to your business (some companies operate outside these bands legitimately). Set thresholds for reforecasting triggers.
 
 2. **Monthly operations:** RevOps reviews pipeline coverage, close rate, and forecast accuracy against these benchmarks. If a metric enters yellow or trigger band, escalate to VP Sales and FP&A.
 

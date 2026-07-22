@@ -2,4 +2,4 @@
 
 | File | Purpose |
 |---|---|
-| partner-ecosystem-benchmarks.md | Benchmark data for partner programme design |
+| partner-ecosystem-benchmarks.md | Benchmark data for partner program design |

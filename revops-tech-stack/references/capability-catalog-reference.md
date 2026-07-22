@@ -9,7 +9,7 @@ These are the per-capability details for the stage-dependent Intelligence Layer 
 Add these capabilities as the GTM matures and data volume justifies the investment.
 
 ```
-CONVERSATION INTELLIGENCE (€10M+ ARR or 10+ reps):
+CONVERSATION INTELLIGENCE ($10M+ ARR or 10+ reps):
   Capability: Turn sales conversations into coaching insights and
     deal intelligence
   Value: Manager leverage (coach 2x more reps without more meetings),
@@ -17,7 +17,7 @@ CONVERSATION INTELLIGENCE (€10M+ ARR or 10+ reps):
   Architecture rule: Must integrate with CRM to tag deals with
     conversation insights. Standalone recording has minimal value.
 
-BUYER INTENT & ENRICHMENT (€15M+ ARR or entering new segments):
+BUYER INTENT & ENRICHMENT ($15M+ ARR or entering new segments):
   Capability: Identify accounts showing buying signals before they
     enter your funnel; enrich contact/account data
   Value: Prioritize outbound, time campaigns, personalize outreach
@@ -33,7 +33,7 @@ CUSTOMER SUCCESS PLATFORM (when CS team > 3 people):
     and support systems. A CS platform with only CRM data
     produces surface-level health scores.
 
-REVENUE INTELLIGENCE / FORECASTING (€20M+ ARR):
+REVENUE INTELLIGENCE / FORECASTING ($20M+ ARR):
   Capability: AI-assisted forecasting, pipeline analytics, deal
     scoring, trend analysis
   Value: Forecast accuracy improvement, risk identification, pattern

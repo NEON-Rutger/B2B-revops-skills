@@ -10,7 +10,7 @@ Production-ready workflow patterns, pipeline configurations, property catalog, a
 |---|---|
 | **Trigger** | Lifecycle stage = MQL OR `hs_lead_score` crosses threshold (e.g., 70+) |
 | **Hand-raiser override** | If `form_submission_type` = "Demo Request" OR `pricing_page_visit` = Yes in last 24h → skip scoring, route immediately, 5-minute SLA |
-| **Actions** | 1. Breeze AI "Summarise Contact" → populate `lead_summary` property |
+| **Actions** | 1. Breeze AI "Summarize Contact" → populate `lead_summary` property |
 | | 2. If/then branch by territory: `company_country` or `form_language` for EU routing, `company_size` for segment, `industry` for vertical |
 | | 3. Rotate record to owner within matching territory |
 | | 4. Create high-priority task: "Follow up on MQL, [contact name]", due 5 minutes |
@@ -33,7 +33,7 @@ Production-ready workflow patterns, pipeline configurations, property catalog, a
 | | 2. Create renewal deal in Renewal Pipeline (close date = `contract_end_date` − 90 days) |
 | | 3. Update company: `customer_status` = Active, `arr_current` += deal amount, lifecycle = Customer |
 | | 4. Slack celebration with deal summary |
-| | 5. Welcome email from CSM to customer (template with personalisation tokens) |
+| | 5. Welcome email from CSM to customer (template with personalization tokens) |
 | | 6. Task for CSM: "Schedule kickoff with [company]", due 48h |
 | | 7. If `partner_sourced` = Yes → task for partner manager: "Notify partner of go-live timeline" |
 | **If INCOMPLETE** | 1. High-priority task for deal owner listing missing fields |
@@ -132,12 +132,12 @@ Custom report: average `speed_to_lead_hours` by contact owner, lead source, date
 | HubSpot Lifecycle Stage | Bow-Tie Position | Notes |
 |---|---|---|
 | Subscriber | Awareness | Top of funnel |
-| Lead | Interest | VM1/VM2 |
+| Lead | Interest | Early prospect engagement |
 | MQL | Handoff trigger | Marketing → Sales transition |
-| SQL | Sales-validated | VM3 |
-| Opportunity | Deal-associated | VM3/VM4 |
-| Customer | Closed Won | VM5+ |
-| Evangelist | Advocate | VM7/VM8 |
+| SQL | Sales-validated | Qualified opportunity |
+| Opportunity | Deal-associated | Active sales pipeline |
+| Customer | Closed Won | Implementation and onboarding phase |
+| Evangelist | Advocate | Expansion and renewal phase |
 | Custom: "Onboarding" | Between Customer and Evangelist | Add for right-side visibility |
 
 **Important**: HubSpot never moves lifecycle stages backward automatically. To handle churn or reactivation: workflow must **clear** the property first, then set the new value.
@@ -177,7 +177,7 @@ Track "At Risk" as a company-level custom property, not a lifecycle stage, avoid
 | `expansion_type` | Dropdown | Upsell / Cross-sell (warm) / Cross-sell (new DMU) | Drives stages, reporting, forecast |
 | `expansion_source` | Dropdown | CS-identified / Customer request / Marketing signal / Usage trigger | Attribution |
 | `arr_delta` | Currency |, | Incremental value |
-| `cross_sell_intro_source` | Dropdown | Champion referral / Direct outreach / Marketing ABM | Path optimisation |
+| `cross_sell_intro_source` | Dropdown | Champion referral / Direct outreach / Marketing ABM | Path optimization |
 | `new_dmu_department` | Single-line text |, | BU/department (new-DMU type) |
 | `new_dmu_budget_independent` | Checkbox |, | Independent budget? |
 
@@ -189,7 +189,7 @@ Plus: reuse SPICED property group (same fields as new business).
 |---|---|---|---|
 | `renewal_risk_level` | Dropdown | Low / Medium / High | At-risk flagging |
 | `renewal_proposal_sent_date` | Date |, | Velocity tracking |
-| `renewal_outcome` | Dropdown | Renewed / Churned / Downgrade | Outcome categorisation |
+| `renewal_outcome` | Dropdown | Renewed / Churned / Downgrade | Outcome categorization |
 | `churn_reason` | Dropdown | Product gap / Price / Champion left / Competitor / Not adopted / Budget cut / Acquired | Churn analysis |
 
 ### Company Properties
@@ -227,7 +227,7 @@ Plus: reuse SPICED property group (same fields as new business).
 ## 10. Breeze AI for Handoffs
 
 ### Breeze Copilot
-- Summarise contact and deal records for handoff context
+- Summarize contact and deal records for handoff context
 - Draft emails from meeting notes
 - Generate summaries within CRM records, browser extension, mobile
 

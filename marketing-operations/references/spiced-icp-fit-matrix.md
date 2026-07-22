@@ -2,7 +2,7 @@
 
 On-demand reference for the marketing-operations skill.
 
-When a client uses the SPICED qualification framework, replace the generic Fit Score with a SPICED ICP Fit Matrix. This produces more accurate MQL scoring because it uses the same language sales uses to qualify deals.
+When your organization uses the SPICED qualification framework, replace the generic Fit Score with a SPICED ICP Fit Matrix. This produces more accurate MQL scoring because it uses the same language sales uses to qualify deals.
 
 **The ICP Fit Matrix: Selection × Urgency**
 

@@ -10,10 +10,10 @@ Classify every change by impact before designing communication.
 - **Yellow** (medium impact): written plus video. Process tweak, new dashboard, updated SLA.
 - **Red** (high impact): minimum three touchpoints, written and video and live training. New methodology, comp change, territory redesign, tool migration.
 
-Most orgs default to Green for everything. That is why adoption fails. Force the classification before any communication ships.
+Most organizations default to Green for everything. That is why adoption fails. Force the classification before any communication ships.
 
 ### 2. Reverse Salient (coaching focus)
-Before coaching anything, find the single biggest bottleneck that, if improved, creates the most leverage. Sales is sequential: there is no point coaching objection handling if attention is not earned in the first five seconds. Start with data, pick one area, go deep, and resist layering on extra feedback.
+Before coaching anything, find the single biggest bottleneck that, if improved, creates the most leverage. Sales is sequential: there is no point coaching objection handling if attention is not earned in the first five seconds. Start with data, pick one area, go deep, and resist layering on additional feedback.
 
 ### 3. Coaching Mastery: five principles
 1. **Focus:** one critical skill at a time, identified via reverse salient.
@@ -22,16 +22,16 @@ Before coaching anything, find the single biggest bottleneck that, if improved, 
 4. **From a place of caring:** coaching only works when reps believe the coach wants them to win.
 5. **Great follow-up:** account for the forgetting curve. Reinforcement is not optional.
 
-### 4. Organisational Energy as Infrastructure
-Adoption does not coast on willpower. It needs sustained organisational energy: daily scores visible to reps, constant conversation about the one thing, public tracking of progress. Design the energy system, not just the content: visible scoreboards, daily standups referencing the one thing, a dedicated channel, manager 1:1s structured around it, public recognition. If the org is not talking about it daily, the change is already dying.
+### 4. Organizational Energy as Infrastructure
+Adoption does not coast on willpower. It needs sustained organizational energy: daily scores visible to reps, constant conversation about the one thing, public tracking of progress. Design the energy system, not just the content: visible scoreboards, daily standups referencing the one thing, a dedicated channel, manager 1:1s structured around it, public recognition. If the organization is not talking about it daily, the change is already dying.
 
 ### 5. Data-Led Diagnosis as Discipline
 Deconstruct the entire funnel monthly, not because something is broken, but as a standing discipline. Norton's team found a 15M-dollar win-rate opportunity through proactive diagnosis when win rates were already a healthy 38 percent. Build a monthly diagnosis rhythm into the operating cadence before anything breaks. The best coaching targets come from data, not intuition.
 
 ### 6. Systems Shift Narrative
 Change management is not just implementing a new process. It is shifting which self-reinforcing loop the system runs on.
-- **Decaying loop:** bad data, unreliable forecasts, gut-based coaching, inconsistent behaviour, worse data (accelerating decay).
-- **Compounding loop:** clean data, reliable forecasts, data-driven coaching, consistent behaviour, cleaner data (accelerating growth).
+- **Decaying loop:** bad data, unreliable forecasts, gut-based coaching, inconsistent behavior, worse data (accelerating decay).
+- **Compounding loop:** clean data, reliable forecasts, data-driven coaching, consistent behavior, cleaner data (accelerating growth).
 
 Name which loop the team is in, and frame the change as the switch from one to the other.
 
@@ -45,10 +45,10 @@ Productivity dips before it improves. Leaders must say, out loud and in advance:
 Without this narrative, executives reverse the change at exactly the moment it is about to work.
 
 ### 8. Path of Least Resistance Design
-The best change management makes the new behaviour the easy choice.
+The best change management makes the new behavior the easy choice.
 - Embed the new process in the tools (required CRM fields, automated prompts).
 - Remove friction from the desired actions.
-- Add friction to the old behaviours.
+- Add friction to the old behaviors.
 - Design the system so doing it right is easier than doing it wrong.
 
 ## The full coaching methodology
@@ -67,7 +67,7 @@ Questions-based coaching builds self-sufficiency. A working sequence:
 - "What did you notice in how the buyer responded?"
 - "What would you do differently if you ran it again?"
 - "What is the one change that would have the biggest effect?"
-- "How will you practise that before the next call?"
+- "How will you practice that before the next call?"
 
 The coach who supplies the answer creates dependency. The coach who draws it out creates a rep who can self-correct.
 

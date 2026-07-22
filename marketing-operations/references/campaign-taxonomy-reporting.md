@@ -23,8 +23,8 @@ This taxonomy flows through: MAP folders → CRM campaigns → attribution → b
 The one table that matters:
 
 ```
-Campaign Name | Spend | Leads | MQLs | SAL | SQL | Pipeline | Revenue | ROI
-EMAIL-Q1...   | €8K   | 450   | 180  | 135 | 98  | €2.1M    | €680K   | 8.5x
+Campaign Name | Spend  | Leads | MQLs | SAL | SQL | Pipeline | Revenue  | ROI
+EMAIL-Q1...   | $8K    | 450   | 180  | 135 | 98  | $2.1M    | $680K    | 8.5x
 ```
 
 Track four layers: Volume (reach) → Quality (MQL/SAL rates) → Pipeline (influenced) → Revenue (attributed). Campaigns can look good on volume but terrible on quality.

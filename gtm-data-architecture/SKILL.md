@@ -171,7 +171,7 @@ dbt (data build tool) is how revenue teams define customer metrics in a testable
 
 **Implementation:** Every reverse ETL pipeline has: a warehouse query (the source), a transformation (optional), a destination system (CRM, Slack, email), a sync schedule (usually hourly or event-triggered), and a reconciliation process (monthly audit: do the numbers in the warehouse match what landed in the destination?).
 
-**Scale:** By mid-2026, Hightouch had synced 7.3 trillion plus records and organisations are achieving 15-30% CAC reduction and 25-45% higher conversion rates from warehouse-computed lead scores and routing decisions (Hightouch, 2026).
+**Scale:** By mid-2026, Hightouch had synced 7.3 trillion plus records and organizations are achieving 15-30% CAC reduction and 25-45% higher conversion rates from warehouse-computed lead scores and routing decisions (Hightouch, 2026).
 
 ### Identity Resolution: The Foundation
 
@@ -181,7 +181,7 @@ Identity resolution is the process that matches customer signals across systems 
 
 **Probabilistic matching:** Machine learning. "This profile looks 93% like the same customer based on name, company, location, job title changes." Catches fuzzy matches but requires tuning.
 
-**By 2026, identity resolution is table stakes.** Every serious CDP includes it (CDP.com, 2026). The shift: from tracking individuals (third-party cookies are disappearing) to earning the right to recognise them (first-party data, consent, value exchange). Regulatory: GDPR Article 14 requires notification within one month if data is enriched from external sources; keep a per-contact source trail.
+**By 2026, identity resolution is table stakes.** Every serious CDP includes it (CDP.com, 2026). The shift: from tracking individuals (third-party cookies are disappearing) to earning the right to recognize them (first-party data, consent, value exchange). Regulatory: GDPR Article 14 requires notification within one month if data is enriched from external sources; keep a per-contact source trail.
 
 ### Unified Customer Intelligence: Single Health Score
 
@@ -247,7 +247,7 @@ Each component is a dbt model. Together they update the health score in real-tim
 - Sources: Everything; Salesforce, HubSpot, product analytics, billing, support, external intent data (ZoomInfo, LinkedIn), call recordings + transcripts
 - ELT: Fivetran + Airbyte + custom API connectors (streaming where possible, scheduled batch otherwise)
 - Warehouse: Snowflake or BigQuery (large warehouse for concurrent agent queries)
-- Semantic layer: dbt + dbt Semantic Layer (or Cube.js) for standardised metric definitions
+- Semantic layer: dbt + dbt Semantic Layer (or Cube.js) for standardized metric definitions
 - Transformation: dbt Core (self-managed) or dbt Cloud; models validated, tested, documented for explainability (EU AI Act Article 26(7) requires explainability for high-risk workplace AI)
 - Identity resolution: Composable approach (first-party + probabilistic enrichment via Hightouch or custom ML model)
 - Reverse ETL: Hightouch or Fivetran Activations (real-time sync for agent decisions, monthly reconciliation)
@@ -269,7 +269,7 @@ Warehouse-native architecture is powerful but not always the right answer. Stay 
 
 **High compliance burden, no data engineering:** Regulated industries (finance, healthcare) sometimes avoid cloud warehouses because of data residency rules. Data must stay on-prem. Cost of managing this usually exceeds warehouse-native benefits.
 
-**Real boundary:** Around 20 seats or sub-€1M ARR, warehouse-native ROI is often negative; around 100 seats or €5M ARR, staying CRM-native is intentionally slower.
+**Real boundary:** Around 20 seats or under $1M ARR, warehouse-native ROI is often negative; around 100 seats or $5M+ ARR, staying CRM-native is intentionally slower.
 
 ## Implementation Roadmap (6 to 12 Months)
 

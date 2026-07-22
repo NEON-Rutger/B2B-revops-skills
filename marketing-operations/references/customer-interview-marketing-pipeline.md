@@ -2,7 +2,7 @@
 
 On-demand reference for the marketing-operations skill.
 
-Marketing operations teams typically rely on enrichment data and behavioural data to score and segment leads. But the highest-signal data source (structured customer interviews) is almost never fed back into the marketing data model.
+Marketing operations teams typically rely on enrichment data and behavioral data to score and segment leads. But the highest-signal data source (structured customer interviews) is almost never fed back into the marketing data model.
 
 **The gap:** Sales and CS talk to customers daily. That intelligence rarely flows back into lead scoring, segmentation, or campaign targeting. The result: marketing optimizes for proxy signals instead of the real buying criteria.
 

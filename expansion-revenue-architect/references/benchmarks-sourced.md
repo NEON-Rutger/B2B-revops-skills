@@ -4,7 +4,7 @@ On-demand reference for the expansion-revenue-architect skill.
 
 ## Master Benchmark Table
 
-Calibrated for EUR15-150M B2B SaaS. Always adjust for client's stage, ACV, and motion type.
+Calibrated for $15-150M B2B SaaS. Always adjust for your stage, ACV, and motion type.
 
 | Metric | Good | Great | Best-in-class | Source |
 |--------|------|-------|---------------|--------|
@@ -52,10 +52,10 @@ These deepen the benchmark table above with segment-specific data from primary r
 
 | Segment | Good | Great | Best-in-Class | Source |
 |---------|------|-------|---------------|--------|
-| Enterprise (ACV >EUR100K) | >90% | >93% | >95% | Ordway Labs 2024; SaaS Capital 2023 |
-| Mid-Market (ACV EUR25-100K) | >88% | >91% | >94% | KeyBanc 2024-2025 |
-| SMB (ACV EUR5-25K) | >80% | >85% | >90% | ChartMogul SaaS Retention 2023 |
-| PLG / Low ARPA (<EUR50/mo) | >60% | >70% | >80% | ChartMogul 2023 (ARPA <$50: top quartile 60-70%) |
+| Enterprise (ACV >$100K) | >90% | >93% | >95% | Ordway Labs 2024; SaaS Capital 2023 |
+| Mid-Market (ACV $25-100K) | >88% | >91% | >94% | KeyBanc 2024-2025 |
+| SMB (ACV $5-25K) | >80% | >85% | >90% | ChartMogul SaaS Retention 2023 |
+| PLG / Low ARPA (<$50/mo) | >60% | >70% | >80% | ChartMogul 2023 (ARPA <$50: top quartile 60-70%) |
 
 **Strategic pattern:** A company with 5-7% annual logo churn AND 110%+ NRR is actually healthy, high logo churn can coexist with strong NRR if expansion from retained accounts more than offsets losses (Vitally SaaS Churn Benchmarks 2025).
 
@@ -85,4 +85,4 @@ As companies scale, expansion becomes the dominant growth source:
 | $50-100M | ~50% | ~50% | OpenView 2024 |
 | $200M+ | ~33% | ~67% | OpenView 2024 |
 
-**Cost-of-gap argument:** If a client at EUR30M ARR is getting only 15% of new ARR from expansion (vs. 35% benchmark), that's a 20pp gap. At EUR6M new ARR target, that gap = EUR1.2M in missed expansion revenue annually, at 7x lower CAC than acquiring it via new business.
+**Cost-of-gap argument:** If your company at $30M ARR is getting only 15% of new ARR from expansion (vs. 35% benchmark), that's a 20pp gap. At $6M new ARR target, that gap = $1.2M in missed expansion revenue annually, at 7x lower CAC than acquiring it via new business.

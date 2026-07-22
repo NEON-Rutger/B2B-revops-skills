@@ -5,15 +5,15 @@ On-demand reference for the revops-change-management skill.
 Your team is already using AI. You just don't know about it.
 
 **The scale:**
-- 88% of organisations report employees using unapproved AI tools at work (Gartner, 2026)
+- 88% of organizations report employees using unapproved AI tools at work (Gartner, 2026)
 - 65% of shadow AI incidents result in PII exposure (IBM, 2025)
 - Enterprises report discovering significantly more tools than sanctioned (risk varies by industry and governance maturity)
 - Average shadow AI data breach cost: 5.11M USD (IBM, 2025)
 
 **Why it matters:**
-Shadow AI is the opposite problem from resistance. It's silent adoption happening around your governance. By the time you discover it, habits are formed, data's been processed, and risk is crystallised.
+Shadow AI is the opposite problem from resistance. It's silent adoption happening around your governance. By the time you discover it, habits are formed, data's been processed, and risk is crystallized.
 
-**The change management response: Legalise, don't ban.**
+**The change management response: Legalize, don't ban.**
 
 Most organizations' first instinct: "Ban unapproved tools." This fails because:
 1. You can't enforce it (people work around it)
@@ -28,7 +28,7 @@ Instead: **Bring shadow AI into the light with governed usage.**
 Week 1: Discovery
 - Anonymous survey: What tools are you using? For what? With what data?
 - Shadow IT audit: network logs, SaaS spend, employee interviews
-- Risk categorisation: which tools pose PII risk, IP risk, accuracy risk
+- Risk categorization: which tools pose PII risk, IP risk, accuracy risk
 
 Week 2: Classification
 - Tier 1 (Sanctioned): official tools, fully managed, full support

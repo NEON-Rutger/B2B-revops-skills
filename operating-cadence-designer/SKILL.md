@@ -2,7 +2,7 @@
 name: operating-cadence-designer
 aliases: [operating-cadence-designer]
 description: >
-  Design and install the operating cadence for a client: the calendar that
+  Design and install the operating cadence for your organization: the calendar that
   makes the revenue operating system real. Connects the strategy scorecard (strategy),
   the revenue dashboard (visibility), and weekly/monthly rituals
   (execution). Use whenever the user mentions 'operating cadence,' 'cadence
@@ -22,7 +22,7 @@ status: stable
 
 ## Purpose
 
-This skill helps design and install the operating cadence for clients. The cadence is the calendar that makes the revenue operating system real. It connects strategy (strategy scorecard), visibility (revenue dashboard), and execution (weekly/monthly rituals).
+This skill helps design and install the operating cadence for your organization. The cadence is the calendar that makes the revenue operating system real. It connects strategy (strategy scorecard), visibility (revenue dashboard), and execution (weekly/monthly rituals).
 
 Without a cadence, leaders waste time in meetings that produce no decisions. With a cadence, every ritual has a clear purpose, owner, and output. This skill walks through the design and installation process.
 
@@ -33,17 +33,17 @@ Without a cadence, leaders waste time in meetings that produce no decisions. Wit
 Use this skill in three main situations:
 
 ### 1. No existing cadence
-Client has no consistent rhythm for revenue decisions. Meetings happen ad hoc. Leadership time is fragmented across email, Slack threads, and back-channel conversations. There is no single source of truth for the week's agenda or the month's priorities.
+Your organization has no consistent rhythm for revenue decisions. Meetings happen ad hoc. Leadership time is fragmented across email, Slack threads, and back-channel conversations. There is no single source of truth for the week's agenda or the month's priorities.
 
-**Design task:** Build a complete weekly, biweekly, monthly, and quarterly rhythm from scratch. Start with the simplest version (7 weekly rituals + 1 biweekly + 2 monthly + 1 quarterly) and adapt to client size and stage.
+**Design task:** Build a complete weekly, biweekly, monthly, and quarterly rhythm from scratch. Start with the simplest version (7 weekly rituals + 1 biweekly + 2 monthly + 1 quarterly) and adapt to your organization's size and stage.
 
 ### 2. Broken or inconsistent cadence
-Client has some rituals, but they're inconsistent: some happen on schedule, some get cancelled or rescheduled. No one knows which meetings are mandatory. There is no clear escalation path from a signal to a decision.
+Your organization has some rituals, but they're inconsistent: some happen on schedule, some get canceled or rescheduled. No one knows which meetings are mandatory. There is no clear escalation path from a signal to a decision.
 
 **Design task:** Audit existing rituals, apply the 5P gate, consolidate into a clean calendar, and install decision rules that tell people when to escalate.
 
 ### 3. Cadence exists but no decision rules
-Client has the calendar but no signal-based decision rules. Meetings happen, data is reviewed, nods happen, but nothing actually changes. Decision latency is long. Experiment kill rate is low. The cadence is status theatre, not a control system.
+Your organization has the calendar but no signal-based decision rules. Meetings happen, data is reviewed, nods happen, but nothing actually changes. Decision latency is long. Experiment kill rate is low. The cadence is status theater, not a control system.
 
 **Design task:** Install signal-based decision rules on top of the existing calendar. Define 8-12 key signals, set thresholds, route triggers to rituals, and train people on escalation.
 
@@ -51,14 +51,14 @@ Client has the calendar but no signal-based decision rules. Meetings happen, dat
 
 ## The 5P Standard
 
-Every meeting must pass the 5P gate. This is the non-negotiable foundation. If any P is missing or fuzzy, the meeting should be cancelled or rescheduled.
+Every meeting must pass the 5P gate. This is the non-negotiable foundation. If any P is missing or fuzzy, the meeting should be canceled or rescheduled.
 
 ### The 5Ps
 
 1. **Purpose**: One clear sentence: "By the end of this meeting, we will...". This must finish with a concrete outcome (decision, list, design, changed plan), not an activity (discuss, review, understand).
 
 2. **Product**: A tangible artifact that proves the meeting was worth the time.
-   - Examples: 3 decisions in the Decision Log with IDs and owners; prioritised problem list; A3 draft; updated experiment backlog; changed forecast or strategy scorecard tile.
+   - Examples: 3 decisions in the Decision Log with IDs and owners; prioritized problem list; A3 draft; updated experiment backlog; changed forecast or strategy scorecard tile.
    - Not: "discuss pipeline" or "update everyone" (these are verbs, not products).
 
 3. **People**: The smallest set of roles that can create the product and own the actions.
@@ -81,7 +81,7 @@ Every meeting must pass the 5P gate. This is the non-negotiable foundation. If a
 
 ## Cadence Design Workflow
 
-Follow this sequence when designing a cadence for a client:
+Follow this sequence when designing a cadence for your organization:
 
 ### Phase 1: Assess Current State (Week 1)
 
@@ -99,7 +99,7 @@ Follow this sequence when designing a cadence for a client:
 
 ### Phase 2: Design the Calendar (Week 2-3)
 
-Use the operating cadence template. Adapt the rhythm to client size and stage.
+Use the operating cadence template. Adapt the rhythm to your organization's size and stage.
 
 #### Weekly (7 rituals); 4.5 hours total
 
@@ -137,7 +137,7 @@ Use the operating cadence template. Adapt the rhythm to client size and stage.
 7. **AI and Automation Integration** (45 min, starting Week 3)
    - Owner: RevOps and Platform lead
    - Purpose: Embed AI into the revenue system at four levels: L1 (signal tagging and automation triggers), L2 (breach detection agents that alert decision-makers), L3 (experiment idea generation and analysis), L4 (autonomous agents making decisions within guardrails)
-   - Product: Prioritised automation experiments with cost-benefit, execution plan, and kill rules. Monthly AI rhythm advancement (L1 to L2, L2 to L3, etc.)
+   - Product: Prioritized automation experiments with cost-benefit, execution plan, and kill rules. Monthly AI rhythm advancement (L1 to L2, L2 to L3, etc.)
    - Integration: Connects to the Breach Huddle (L2 agents feed incident alerts) and Demo and Retro (L3 and L4 results reviewed monthly)
 
 #### Bi-weekly (1 ritual); 60 min
@@ -173,7 +173,7 @@ Use the operating cadence template. Adapt the rhythm to client size and stage.
 - Reduce, never add. If you're tempted to add a meeting, cancel an existing one first.
 - Schedule decision sessions early in the week. Leave space for countermeasures and follow-up.
 
-**Output:** Colour-coded calendar showing all rituals, owners, attendees, duration, and which revenue dashboard panels they use.
+**Output:** Color-coded calendar showing all rituals, owners, attendees, duration, and which revenue dashboard panels they use.
 
 ### Phase 3: Build Ritual Cards (Week 3-4)
 
@@ -186,7 +186,7 @@ For each ritual, create a one-pager (the "ritual card") that shows:
 - Cancel rule (when to cancel or shorten)
 - Pre-work and proof checklist
 
-Adapt owner names and timings to the client. Print and laminate them. Put them in the revenue dashboard room so facilitators can see the standard at a glance.
+Adapt owner names and timings to your organization. Print and laminate them. Put them in the revenue dashboard room so facilitators can see the standard at a glance.
 
 ### Phase 4: Install Signal-Based Decision Rules (Week 8-10)
 
@@ -208,7 +208,7 @@ Print the signal map and post it in the revenue dashboard room. No new meetings.
 
 ### Phase 5: Transfer Ownership (Week 11-12)
 
-In the final weeks of the 90-day programme, transfer operational ownership of the cadence to the client team. The Cadence Owner (usually the CRO or RevOps lead) becomes accountable for:
+In the final weeks of the 90-day program, transfer operational ownership of the cadence to your team. The Cadence Owner (usually the CRO or RevOps lead) becomes accountable for:
 
 - Keeping the calendar on track
 - Enforcing the 5P gate at the start of each meeting
@@ -220,9 +220,9 @@ Run a "Cadence Keeper" workshop where the Cadence Owner and RevOps lead practice
 
 ---
 
-## 90-Day Installation Programme
+## 90-Day Installation Program
 
-The cadence installs in a 12-week programme with clear phases and handoff points.
+The cadence installs in a 12-week program with clear phases and handoff points.
 
 ### Phase 1: Stand-up (Weeks 1-2)
 
@@ -239,43 +239,43 @@ The cadence installs in a 12-week programme with clear phases and handoff points
 
 ### Phase 2: Co-host (Weeks 3-6)
 
-**Goal:** Launch the cadence with the consultant as co-facilitator. Build the habit.
+**Goal:** Launch the cadence with you as implementation lead co-facilitator. Build the habit.
 
-- Run all 7 weekly rituals with the consultant co-hosting or observing
+- Run all 7 weekly rituals with you co-hosting or observing
 - Apply the 5P gate strictly. Cancel or shorten any meeting that fails.
 - Log all decisions and actions in the Decision Log
 - Build or update the revenue dashboard (if not already done)
 - Run the first Demo and Retro (biweekly)
 - Run the first Strategy and Lever Review (monthly)
-- Observe and coach the CRO on ownership
+- Coach the CRO on ownership
 
 **Output:** Live cadence with 4 weeks of decisions logged, habits forming, revenue dashboard live
 
 ### Phase 3: Hand-off (Weeks 7-10)
 
-**Goal:** The client team leads the cadence. The consultant coaches and observes.
+**Goal:** Your team leads the cadence. You coach and observe.
 
 - The CRO leads all weekly rituals
-- The consultant observes and coaches on facilitation, decision quality, and escalation
+- You observe and coach on facilitation, decision quality, and escalation
 - Install signal-based decision rules (Week 8-10)
 - Run Demo and Retro (biweekly)
 - Run Quarterly Reset if applicable
 - Coach the RevOps or Cadence Owner on decision logging and cadence health
 
-**Output:** Client team running cadence independently; decision latency improving; kill rate and 5P cancel rate visible
+**Output:** Your team running cadence independently; decision latency improving; kill rate and 5P cancel rate visible
 
 ### Phase 4: Certification (Weeks 11-12)
 
-**Goal:** Certify that the cadence is stable and the client team owns it.
+**Goal:** Certify that the cadence is stable and your team owns it.
 
-- Client team runs all rituals without the consultant present
-- The consultant spot-checks decisions and cadence health KPIs
+- Your team runs all rituals independently
+- You spot-check decisions and cadence health KPIs
 - Hold final "Cadence Keeper" workshop with CRO, RevOps, and CEO
 - Transfer the Cadence Owner role formally
 - Schedule quarterly cadence reviews (tuning only in Quarterly Reset)
-- Document any customisations or deviations from the standard
+- Document any customizations or deviations from the standard
 
-**Output:** Certified cadence; client team owns the calendar and decision log; cadence health KPIs in place
+**Output:** Certified cadence; your team owns the calendar and decision log; cadence health KPIs in place
 
 ---
 
@@ -285,7 +285,7 @@ Track these metrics to see if the cadence itself is working:
 
 1. **Decision latency**: Time from insight (data signal) to logged decision, and from logged decision to live countermeasure. Target: <7 days for most decisions.
 
-2. **5P cancel rate**: Share of scheduled meetings that are cancelled because they lack Purpose, Product, People, Process, or Proof. A healthy cadence has 5-15% cancel rate (practice-based). Zero cancel rate means the gate is not enforced; >20% means the calendar is overloaded.
+2. **5P cancel rate**: Share of scheduled meetings that are canceled because they lack Purpose, Product, People, Process, or Proof. A healthy cadence has 5-15% cancel rate (practice-based). Zero cancel rate means the gate is not enforced; >20% means the calendar is overloaded.
 
 3. **SLO hit rate**: Share of weeks where key handover p95 SLOs (lead to first touch, MQL to SQL, etc.) are met. Target: >80% (practice-based).
 
@@ -411,7 +411,7 @@ Board deck structure (8-10 slides): Executive Summary + Asks -> Revenue Performa
 | **Cadence without accountability** | Actions slip | Name the owner. Publish the due date. Review at next meeting. |
 | **Activity data not validated** | Everything above pyramid is garbage | Monthly CRM audit: who's logging? Are stage changes real? |
 
-### Norton Framework Additions
+### Norton Framework Additions (Kyle Norton, Revenue Leadership Podcast)
 
 **Closed-Loop Feedback System**
 Upward Flow: Activity -> Team Metrics -> Leadership Review -> Board.
@@ -438,7 +438,7 @@ Prerequisites: Directors/VPs must build predictable models with conversion rates
 
 Scoring: 24-30 = ready for AI investment. 15-23 = fix cadence first. <15 = cadence rebuild required.
 
-### The 10-Minute Board Defence
+### The 10-Minute Board Defense
 
 A structured alternative to the 40-slide board deck.
 
@@ -450,7 +450,7 @@ A structured alternative to the 40-slide board deck.
 5. **What's the risk?** Top 3 risks to hitting plan. Be specific.
 
 Anti-pattern: 40-slide deck -> 2 hours to prepare -> board skips to bad news -> trust erodes.
-The framework: 10-minute defence -> 30 minutes to prepare -> board gets answers immediately -> trust compounds.
+The framework: 10-minute defense -> 30 minutes to prepare -> board gets answers immediately -> trust compounds.
 
 ---
 
@@ -458,22 +458,21 @@ The framework: 10-minute defence -> 30 minutes to prepare -> board gets answers 
 
 **Voice rules:**
 - System first, blame never. The cadence is a tool, not a personality test.
-- Use British spelling (organisation, centre, realise).
 - Concrete over abstract. Always give examples. Never just say "good governance".
 - Name the roles (CRO, VP Sales, Head of CS) and the forums (revenue dashboard, Demo and Retro).
 
 **Boundary calls:**
 - For the revenue dashboard build itself (panels, dashboards, data integration), see pipeline-visibility.
 - Meeting architecture, ceremony agendas, and data pyramid are covered in the Revenue Cadence Reference section above.
-- For client diagnostic and maturity assessment, see revops-diagnostic.
+- For diagnostic and maturity assessment on your organization, see revops-diagnostic.
 
 ---
 
 ## Quick Reference: Ritual Triggers
 
-Use this table to match a client situation to the ritual they need:
+Use this table to match your organization's situation to the ritual you need:
 
-| Client situation | Ritual to run | Why |
+| Your situation | Ritual to run | Why |
 | --- | --- | --- |
 | No meetings at all | Start with Weekly Revenue Dashboard | This is the hub. Everything else feeds it. |
 | Meetings happen but no decisions are made | Run 5P audit on existing meetings | The gateway. If a meeting fails 5P, cancel it. |
@@ -481,7 +480,7 @@ Use this table to match a client situation to the ritual they need:
 | Experiments never get killed | Demo and Retro + Decision Log | Kill rate is a visible health metric. Celebrate kills. |
 | Strategy is unclear, disconnected from tactics | Strategy and Lever Review + strategy scorecard | This ritual connects the dots between quarterly strategy and weekly countermeasures. |
 | Data is always outdated by decision time | Data Spine and Definition Review | Make data freshness a first-class ritual. If data fails, it's an incident. |
-| Rituals keep getting cancelled or rescheduled | Reduce the calendar. Apply 5P strictly. | Keep only the rituals that produce decisions. |
+| Rituals keep getting canceled or rescheduled | Reduce the calendar. Apply 5P strictly. | Keep only the rituals that produce decisions. |
 
 ---
 

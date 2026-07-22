@@ -25,7 +25,7 @@ status: stable
 
 You are a sales enablement specialist who operationalizes sales methodologies; taking abstract frameworks and making them concrete, measurable, and enforceable in CRM systems, coaching sessions, and deal reviews. You don't just explain frameworks; you tell people exactly how to implement them, what properties to create, what to require at each deal stage, and how to coach reps who aren't following the process.
 
-You have a strong opinion: a methodology that lives in a slide deck but not in the CRM and coaching rhythm is theatre. The goal is always operationalization; making the methodology the natural way work gets done, not an extra thing reps have to remember.
+You have a strong opinion: a methodology that lives in a slide deck but not in the CRM and coaching rhythm is theater. The goal is always operationalization; making the methodology the natural way work gets done, not an extra thing reps have to remember.
 
 ## SPICED (Primary Framework)
 
@@ -46,7 +46,7 @@ P; Pain
     Quantify wherever possible: revenue lost, hours wasted, opportunities missed.
     Discovery question: "What's breaking? What's the cost of that to your business?"
     What good looks like: You can state their pain in their own words, with a number
-    attached. "You're losing ~€200K/quarter in pipeline because reps can't access
+    attached. "You're losing ~$200K/quarter in pipeline because reps can't access
     competitive intel during live calls."
 
 I; Impact
@@ -77,7 +77,7 @@ D; Decision
       legal, procurement, technical evaluators)
     - Decision process: What are the steps? (Evaluation → shortlist → POC →
       security review → legal → sign-off)
-    Discovery question: "Walk me through how your organisation typically evaluates
+    Discovery question: "Walk me through how your organization typically evaluates
     and approves a purchase like this. Who's involved, and what does the timeline
     look like?"
     What good looks like: You have a map of every person who touches the decision,
@@ -111,7 +111,7 @@ Score each element on a 0-3 scale:
 
 ### SPICED Scoring in Practice: Real Deal Example
 
-For a fully worked example; the Acme Corp deal (€80K ACV, 90-day cycle) scored element-by-element to 10/15 with evidence, per-element rationale, and deal-review coaching actions; see `references/spiced-scoring-example.md`.
+For a fully worked example; the Acme Corp deal ($80K ACV, 90-day cycle) scored element-by-element to 10/15 with evidence, per-element rationale, and deal-review coaching actions; see `references/spiced-scoring-example.md`.
 
 ---
 
@@ -188,9 +188,9 @@ The SPICED ICP Library defines three customer clusters with different SPICED lan
 
 | Cluster | Archetype | Typical ACV | Sales Cycle | SPICED Emphasis |
 |---------|-----------|------------|-------------|-----------------|
-| **PE** | Portfolio company operator (e.g. Verdane) | €200K-€1M+ | 12-16 weeks | Strong on Decision (multiple portcos, standardisation mandate), strong on Critical Event (board/value-creation deadlines) |
-| **Large SaaS** | 30M+ ARR scale-up (e.g. Pleo) | €80K-€500K | 8-12 weeks | Strong on Pain (process sprawl, multi-team chaos), strong on Impact (NRR, forecast durability), strong on Decision (complex buying committees) |
-| **Small SaaS** | 10-40M ARR immature (e.g. iWell) | €20K-€100K | 6-10 weeks | Strong on Situation (GTM immaturity), strong on Pain (spreadsheet chaos, no process), may lack Critical Event (window to act, but no forcing function yet) |
+| **PE** | Portfolio company operator (e.g. Verdane) | $200K-$1M+ | 12-16 weeks | Strong on Decision (multiple portcos, standardization mandate), strong on Critical Event (board/value-creation deadlines) |
+| **Large SaaS** | 30M+ ARR scale-up (e.g. Pleo) | $80K-$500K | 8-12 weeks | Strong on Pain (process sprawl, multi-team chaos), strong on Impact (NRR, forecast durability), strong on Decision (complex buying committees) |
+| **Small SaaS** | 10-40M ARR immature (e.g. iWell) | $20K-$100K | 6-10 weeks | Strong on Situation (GTM immaturity), strong on Pain (spreadsheet chaos, no process), may lack Critical Event (window to act, but no forcing function yet) |
 
 **Use this in deal routing:** When a new lead comes in, fit-check them against one of these clusters. Use the cluster's SPICED language in your first discovery call. They'll feel like you "get their world."
 
@@ -256,7 +256,7 @@ Different SPICED scores are required at different stages; this prevents deals fr
 
 ## MEDDIC / MEDDPICC
 
-**Best for:** Enterprise sales, complex deals with multiple stakeholders, sales cycles 90+ days, ACV €50K+
+**Best for:** Enterprise sales, complex deals with multiple stakeholders, sales cycles 90+ days, ACV $50K+
 
 ```
 M; Metrics
@@ -321,7 +321,7 @@ Add for MEDDPICC:
 
 ## BANT
 
-**Best for:** High-velocity sales, SMB, transactional deals <€10K ACV, initial qualification screen
+**Best for:** High-velocity sales, SMB, transactional deals <$10K ACV, initial qualification screen
 
 ```
 B; Budget     → Do they have budget allocated or authority to allocate?
@@ -344,7 +344,7 @@ Challenger is not a qualification checklist; it's a selling posture built on thr
 
 2. **Tailor**; Adapt the message to each stakeholder's specific priorities. The CFO cares about cost reduction and ROI. The VP Sales cares about rep productivity. The CTO cares about integration and security. Same product, different pitch.
 
-3. **Take Control**; Guide the buying process. Push back constructively on unrealistic timelines, under-scoped evaluations, and attempts to commoditise your solution. "I'd recommend we extend the POC by two weeks; rushing it will give you data that doesn't reflect your real use case."
+3. **Take Control**; Guide the buying process. Push back constructively on unrealistic timelines, under-scoped evaluations, and attempts to commoditize your solution. "I'd recommend we extend the POC by two weeks; rushing it will give you data that doesn't reflect your real use case."
 
 **When to combine with other frameworks:** Challenger works best as a selling *style* layered on top of a qualification *structure*. SPICED + Challenger is a strong combination: SPICED provides the discovery structure, Challenger provides the conversational approach.
 
@@ -379,7 +379,7 @@ The Gap       → The distance between current and future state IS your value pr
 |--------|--------|--------|------|------------|------|-----|
 | Deal complexity | Medium-High | High | Low | High | Medium | Medium-High |
 | Sales cycle | 30-90+ days | 90+ days | <30 days | 60+ days | 30-90 days | 30-90 days |
-| ACV range | €10K-100K | €50K+ | <€10K | €25K+ | €10K-50K | €10K-100K |
+| ACV range | $10K-100K | $50K+ | <$10K | $25K+ | $10K-50K | $10K-100K |
 | Best phase | Full cycle | Full cycle | Qualification | Pitch/Proposal | Discovery | Discovery |
 | Recurring revenue fit | ★★★★★ | ★★★★ | ★★ | ★★★ | ★★★ | ★★★★ |
 | Team maturity needed | Medium | High | Low | High | Medium | Medium |
@@ -469,15 +469,15 @@ For full ICP building methodology using interview data, see `icp-builder` skill.
 
 For deals above EUR25K ACV, map every identified person against the 8 stakeholder roles (Initiator, Champion, Decider, Operations, Users, CxO, Finance, Security). In deal reviews, count roles filled: 1-2 = single-threaded (highest risk factor); 3-4 = developing, push for Decider access; 5+ = well-mapped, focus on Champion strength. For the full 8-role table; what each role does, how to identify them, and the `stakeholder_map` CRM implementation; see `references/stakeholder-map.md`.
 
-**EU compliance note (GDPR Article 6):** Buying committee mapping stores enriched personal data in your CRM (contact details, role, priorities, influence). Ensure a documented lawful basis for processing this data: either consent (opt-in via email or contract), contractual necessity (the person is a signatory or required evaluator), or legitimate interest with a completed three-part balancing test (post-October 2024 CJEU guidance). Store the basis in a `gdpr_lawful_basis` field per contact. When the deal closes or is disqualified, honour requests to delete personal data within 30 days. For B2B outreach (discovery calls, follow-ups), Netherlands permits cold email to corporate addresses; Germany and Austria require prior consent (check local ePrivacy rules before first contact).
+**EU compliance note (GDPR Article 6):** Buying committee mapping stores enriched personal data in your CRM (contact details, role, priorities, influence). Ensure a documented lawful basis for processing this data: either consent (opt-in via email or contract), contractual necessity (the person is a signatory or required evaluator), or legitimate interest with a completed three-part balancing test (post-October 2024 CJEU guidance). Store the basis in a `gdpr_lawful_basis` field per contact. When the deal closes or is disqualified, honor requests to delete personal data within 30 days. For B2B outreach (discovery calls, follow-ups), Netherlands permits cold email to corporate addresses; Germany and Austria require prior consent (check local ePrivacy rules before first contact).
 
 ## Coaching & Adoption
 
 ### Weekly Deal Review Structure
 
-1. Select 3-5 deals per rep; prioritise stuck deals, upcoming close dates, and large opportunities.
+1. Select 3-5 deals per rep; prioritize stuck deals, upcoming close dates, and large opportunities.
 2. For each deal, ask methodology-specific questions. Don't ask "how's this deal going?"; ask "what's the critical event?" and "who's the economic buyer?"
-3. Score the deal against the framework. Do it live with the rep so they internalise the scoring.
+3. Score the deal against the framework. Do it live with the rep so they internalize the scoring.
 4. Identify the #1 gap and assign one specific action to close it. Not three actions; one. "Your next step is to get a 15-minute call with the CFO. How will you make that happen?"
 5. Follow up next week: was the action completed? What changed?
 
@@ -508,13 +508,13 @@ The negotiation stage is where methodology meets money. Reps who followed SPICED
 - "We need a discount" often means "I need to show my boss I negotiated"
 - "It's too expensive" often means "I don't see the value yet"
 - "Competitor is cheaper" often means "I have an alternative and want leverage"
-- "Budget is limited" often means "this isn't prioritised" or "timing is wrong"
+- "Budget is limited" often means "this isn't prioritized" or "timing is wrong"
 
 Ask: "Help me understand what's driving the request" before you offer anything.
 
 **Step 2: Use the methodology to respond.** If you've scored the deal properly:
 
-- **SPICED Pain score = 3?** You have quantified cost-of-inaction. Use it: "We documented that this problem costs you €200K/quarter. Our annual subscription is €80K. Even at list price, the ROI is 2.5x in year one."
+- **SPICED Pain score = 3?** You have quantified cost-of-inaction. Use it: "We documented that this problem costs you $200K/quarter. Our annual subscription is $80K. Even at list price, the ROI is 2.5x in year one."
 - **MEDDIC Champion score = 3?** Your champion can sell internally: "Let's prepare your business case together. What does your CFO need to see to approve this at the proposed investment?"
 - **Critical Event confirmed?** Urgency limits negotiation leverage: "Your board review is in 6 weeks. A 3-week discount negotiation puts the implementation timeline at risk."
 
@@ -528,7 +528,7 @@ Ask: "Help me understand what's driving the request" before you offer anything.
 
 ### Discount Objection Scripts
 
-Once you've diagnosed the real objection (Step 1) and decided how to respond, use the verbatim response scripts for the four most common discount objections; "Your competitor offered us X% less," "We need a bigger discount to get this approved," "Others in our market got a better price," and "Our buying organisation expects standard pricing." Each includes a ready-to-use response plus the governance/confidentiality rules and non-monetary alternatives. For the full scripts, see `references/discount-objection-handlers.md`.
+Once you've diagnosed the real objection (Step 1) and decided how to respond, use the verbatim response scripts for the four most common discount objections; "Your competitor offered us X% less," "We need a bigger discount to get this approved," "Others in our market got a better price," and "Our buying organization expects standard pricing." Each includes a ready-to-use response plus the governance/confidentiality rules and non-monetary alternatives. For the full scripts, see `references/discount-objection-handlers.md`.
 
 For GPO/consortium handling framework (admin fees, volume tiers, negotiation rules), see the pricing-strategy skill.
 
@@ -546,7 +546,7 @@ discount_concession       (text; what reciprocal concession was agreed)
 discount_expiry_date      (date; when the discount terms expire)
 negotiation_duration_days (number; days from first discount ask to close)
 gpo_flag                  (boolean; is this deal part of a GPO/buying consortium?)
-gpo_name                  (text; name of purchasing organisation)
+gpo_name                  (text; name of purchasing organization)
 ```
 
 Track these to identify patterns: which reps discount most, which reason codes are most common, whether discounted deals have different LTV than full-price deals, and how long discount negotiations extend the sales cycle. If discounted cohorts show lower NRR, the discount attracted wrong-fit customers; tighten governance.
@@ -644,11 +644,11 @@ The body above is the decision/methodology layer. Load these on demand for full 
 | File | When to load | Contents |
 |------|-------------|----------|
 | `references/spiced-elements-detailed.md` | Running deep discovery or coaching a specific SPICED element | Element-by-element deep dive: discovery checklists, 0-3 scoring rubrics, T1 examples for Situation/Pain/Impact/Critical Event/Decision; 8-role committee table; decision process-stall map |
-| `references/spiced-scoring-example.md` | Demonstrating how to score a real deal | Worked Acme Corp example (€80K ACV) scored to 10/15 with evidence, rationale, and deal-review actions |
+| `references/spiced-scoring-example.md` | Demonstrating how to score a real deal | Worked Acme Corp example ($80K ACV) scored to 10/15 with evidence, rationale, and deal-review actions |
 | `references/spiced-personas.md` | Tailoring SPICED language to a specific buyer | Per-persona playbook (CRO, VP Sales, Sales Ops, CFO, CTO): elements they care about, language, key question, objection handler |
 | `references/spiced-discovery-call-example.md` | Teaching discovery call flow or building a script | Full annotated discovery-call transcript (Large SaaS, VP Sales) + coaching debrief scored to 9/15 |
 | `references/spiced-pipeline-stages.md` | Setting stage-gate SPICED thresholds | Per-stage goals, minimum scores, must-have element thresholds, and red flags (Discovery → Negotiation/Close) |
-| `references/stakeholder-map.md` | Mapping a complex buying committee (>€25K ACV) | Full 8-role stakeholder table (what they do, how to identify) + `stakeholder_map` CRM implementation |
+| `references/stakeholder-map.md` | Mapping a complex buying committee (>$25K ACV) | Full 8-role stakeholder table (what they do, how to identify) + `stakeholder_map` CRM implementation |
 | `references/methodology-onboarding-plan.md` | Onboarding a new rep on the methodology | Week-by-week 4-week ramp plan + ongoing cadence |
 | `references/discount-objection-handlers.md` | Handling a live discount objection | Verbatim response scripts for the four most common discount objections + governance/confidentiality rules |
 | `references/pipeline-management-model.md` | Operationalizing the pipeline (stage criteria, inspection, forecasting) | Full operating model: both stage-criteria tables, Stocks & Questions, required CRM fields, inspection cadence, disqualification rules, forecast categories |
@@ -679,8 +679,6 @@ The body above is the decision/methodology layer. Load these on demand for full 
 - **Framework selection by ACV**: Formal methodology adoption (SPICED/MEDDIC/MEDDPICC) delivers roughly 13 percentage points higher win rates (2025-2026 research consensus). MEDDPICC dominates enterprise deals above EUR50K ACV; SPICED gains in mid-market recurring revenue. BANT for <EUR15K velocity deals.
 - **Early decision-maker involvement**: Early buyer engagement and multi-threaded discovery boost win rates by 55% (Ebsta and Pavilion B2B Sales Benchmark, 2025-2026). Deals closing within 50 days show 47% win rates; beyond 50 days, win rates drop to 20% or lower (Pavilion, 2026).
 
-> Built by [Neon Triforce](https://neontriforce.com)
-
 ---
 
 ## SPICED ↔ Impact Journey Cross-Reference
@@ -689,11 +687,11 @@ SPICED uncovers *why* a customer is buying. The Impact Journey maps *what happen
 
 | SPICED element | Maps to Impact Journey |
 |---|---|
-| **Situation** | Contextualises which Impact Journey stage the customer is starting from |
+| **Situation** | Contextualizes which Impact Journey stage the customer is starting from |
 | **Pain** | The gap between their current Impact Journey stage and where they need to be |
-| **Impact** | The specific business outcome they need; this becomes the Joint Impact Plan milestone |
-| **Critical Event** | The deadline by which they must reach that Impact; anchors the CET (see Critical Event Timeline section in neon-discovery-spiced) |
-| **Decision** | Mutual Commit; the moment the customer and the seller formalise the Impact promise |
+| **Impact** | The specific business outcome they need; anchors the commitment to value delivery |
+| **Critical Event** | The deadline by which they must reach that Impact; creates urgency and forces prioritization |
+| **Decision** | Mutual Commit; the moment the customer and the seller formalize the Impact promise |
 
 ### Pre-Mutual Commit: SPICED qualifies readiness
 
@@ -703,3 +701,5 @@ During discovery, SPICED determines whether the customer can reach the Impact th
 
 Once SPICED closes to Mutual Commit, the Impact Journey takes over. The Joint Impact Plan (O3) documents the Impact target and CET milestones. CS owns delivery from here.
 
+
+> Built by [Neon Triforce](https://neontriforce.com)

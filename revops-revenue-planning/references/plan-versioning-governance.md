@@ -36,7 +36,7 @@ Three versions of the annual revenue plan must coexist and be preserved. This go
 - Top-down revenue target (e.g. EUR 8.5M)
 - High-level drivers (20% YoY growth, 5% market expansion, 3% win-rate improvement)
 - Sensitivity analysis (what if growth is 15%? 25%?)
-- Headcount implications and cost modelling
+- Headcount implications and cost modeling
 - Cash flow impact and working-capital assumptions
 
 **File naming:** `annual-plan-2026-finance-stretch.md`
@@ -200,7 +200,7 @@ annual-plans/
 
 **Escalate to CEO immediately if:**
 - Reforecast identifies miss >15% vs Plan of Record
-- Scenario owners cannot deliver committed uplift (hiring delayed, CS expansion not materialising)
+- Scenario owners cannot deliver committed uplift (hiring delayed, CS expansion not materializing)
 - Material market or competitive change requiring plan pivot
 
 **Escalate to Board if:**

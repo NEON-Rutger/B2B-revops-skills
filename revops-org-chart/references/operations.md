@@ -5,7 +5,7 @@
 
 ## RevOps Function Charter (Template)
 
-Use this to formalise the RevOps mandate when transitioning from a CRM/automation team, or when RevOps has existed informally and needs authority to operate properly.
+Use this to formalize the RevOps mandate when transitioning from a CRM/automation team, or when RevOps has existed informally and needs authority to operate properly.
 
 **Section 1: Purpose**
 > [Team name] owns the operational infrastructure that revenue runs on: definitions, data model, systems, cadence, and change governance across [Sales / Marketing / CS / Finance]. Our job is to make the revenue engine steerable, not to report on it.
@@ -15,7 +15,7 @@ Use this to formalise the RevOps mandate when transitioning from a CRM/automatio
 | Domain | RevOps Owns Outright | Requires RevOps Sign-off | RevOps Advises |
 |---|---|---|---|
 | Data definitions | Stage names, metric codes, lifecycle status values | New custom properties, field additions | Naming conventions for local objects |
-| Systems | Integration architecture, automation framework, tool deprecation | New tool purchases >€X/year | Tool configuration within existing stack |
+| Systems | Integration architecture, automation framework, tool deprecation | New tool purchases >$X/year | Tool configuration within existing stack |
 | Process | Cadence structure, handoff SLAs, qualification criteria | Changes to pipeline stages, funnel definitions | Function-specific playbooks |
 | Reporting | Shared dashboards, metric cards | New board-level metrics | Function-level reports |
 
@@ -25,7 +25,7 @@ Use this to formalise the RevOps mandate when transitioning from a CRM/automatio
 - Standard changes: minimum 5 business days notice; stakeholder review for changes affecting >1 function.
 
 **Section 4: Backlog Authority**
-- RevOps maintains a visible, prioritised backlog. All requests enter the backlog.
+- RevOps maintains a visible, prioritized backlog. All requests enter the backlog.
 - RevOps triages by: revenue impact, urgency, implementation effort, dependency on other items.
 - Requests that don't meet the triage threshold are declined with a written reason and a suggested alternative or deferral timeline.
 - Backlog is reviewed weekly in the RevOps standup and shared with stakeholders monthly.
@@ -43,12 +43,12 @@ RevOps without triage becomes a ticket queue. The goal is not to do more; it's t
 
 ### Intake Categories
 
-**Category A: System Health (always prioritise)**
+**Category A: System Health (always prioritize)**
 - Data integrity issues (duplicates, broken syncs, stage mismatches)
 - Automation failures
 - Reporting broken or misleading
 
-**Category B: Revenue Impact (prioritise when clear line to outcome)**
+**Category B: Revenue Impact (prioritize when clear line to outcome)**
 - Changes that directly affect pipeline velocity, forecast accuracy, or NRR
 - New capabilities unlocking a GTM motion the team is blocked on
 - Examples: new lead routing logic, expansion trigger automation, forecast category update
@@ -89,10 +89,10 @@ ADVISORY ──────────── FRACTIONAL ───────�
 ### Advisory (including Fractional RevOps Architect)
 
 **Best for:**
-- Platform launches where architectural decisions need experienced oversight (e.g., deploying HubSpot + WbD bowtie across BUs)
+- Platform launches where architectural decisions need experienced oversight (e.g., deploying HubSpot + integrated pipeline architecture across business units)
 - Teams that are technically capable but architecturally junior; they can build, but they need someone to validate the design before they build in the wrong direction
 - Inflection points: new motion, new product, new region, significant re-architecture
-- Cost: typically €1,000-2,000/day or a fixed retainer for availability
+- Cost: typically $1,000-2,000/day or a fixed retainer for availability
 
 **How to use it well:**
 - Define specific decisions or deliverables the advisor is accountable for; not "general guidance"
@@ -104,9 +104,9 @@ ADVISORY ──────────── FRACTIONAL ───────�
 ### Fractional RevOps (general)
 
 **Best for:**
-- €5-30M ARR companies that need a RevOps Manager function but can't justify a full-time hire
+- $5-30M ARR companies that need a RevOps Manager function but can't justify a full-time hire
 - Specific functional gaps (e.g., Marketing Ops lead while searching for a FTE hire)
-- Post-engagement support after a 90-day programme install
+- Ongoing support after completing an initial implementation or architecture project
 
 **How to engage:**
 - Define deliverables and time allocation upfront (e.g., 2 days/week, 12 weeks)
@@ -116,7 +116,7 @@ ADVISORY ──────────── FRACTIONAL ───────�
 
 **The rule: drain them of expertise. Every agency engagement should end with more capability in-house than when it started.**
 
-Agencies provide two things: resources (headcount you don't have) and expertise (skills you don't have). Clients often get the resources but not the expertise transfer, because agencies have an incentive to keep you dependent.
+Agencies provide two things: resources (headcount you don't have) and expertise (skills you don't have). When your company hires an agency, you often get the resources but not the expertise transfer, because agencies have an incentive to keep you dependent.
 
 **How to use agencies without creating dependency:**
 
@@ -132,7 +132,7 @@ Agencies provide two things: resources (headcount you don't have) and expertise 
 
 **When agencies make sense:**
 - Short-term capacity gap (hiring is in progress; agency covers the interim)
-- Specialised technical work that the internal team won't need to maintain frequently (e.g., complex data warehouse build, one-time migration)
+- Specialized technical work that the internal team won't need to maintain frequently (e.g., complex data warehouse build, one-time migration)
 - Accelerating a launch where speed matters more than internal capability building
 
 **When agencies become a trap:**

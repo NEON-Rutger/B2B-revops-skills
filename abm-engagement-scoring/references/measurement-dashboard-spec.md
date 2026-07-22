@@ -6,7 +6,7 @@ ABM dashboards must clearly separate leading indicators (account progression, bu
 
 **Principle: Report only what drives decisions.**
 
-If a metric does not inform a go-no-go decision (handover yes/no, prioritise this account yes/no, resource reallocation yes/no), do not report it. Vanity metrics :  impressions, clicks, reaches :  trigger false confidence and waste board time.
+If a metric does not inform a go-no-go decision (handover yes/no, prioritize this account yes/no, resource reallocation yes/no), do not report it. Vanity metrics :  impressions, clicks, reaches :  trigger false confidence and waste board time.
 
 ## What NOT to Report (Vanity Metric Exclusion List)
 
@@ -107,7 +107,7 @@ Buying Group Coverage %             (Accounts with >=50%     Month-over-month %
 
 ### Lagging Indicators (Outcomes, Revenue Attribution)
 
-Lagging indicators answer: "Did the programme create revenue?"
+Lagging indicators answer: "Did the program create revenue?"
 
 ```
 METRIC                              CALCULATION             HEALTHY BENCHMARK
@@ -128,10 +128,10 @@ Opportunity-to-Close Rate           (Closed-won deals from   20-40% (depends on
 (ABM Attribution)                   handed accounts with     stage at handover)
                                     closed dates matching)
 
-ABM-Sourced Pipeline                Total pipeline value     €2-3M+ for €15M ARR
+ABM-Sourced Pipeline                Total pipeline value     $2-3M+ for $15M ARR
 (Open Opportunities)                tagged as ABM-sourced    company (baseline)
 
-ABM-Sourced Closed Revenue          Total closed-won revenue €1M+ YTD for €15M
+ABM-Sourced Closed Revenue          Total closed-won revenue $1M+ YTD for $15M
                                     from accounts handed via ARR company
                                     ABM (YTD)
 
@@ -143,8 +143,8 @@ Average Contract Value              Revenue from ABM opps /  +25-50% vs.
 (ABM vs. non-ABM)                   # of closed won opps vs. non-ABM baseline
                                     non-ABM average
 
-ABM Programme ROI                   (Revenue from ABM) /     3:1 minimum
-(Simplified)                        (ABM programme cost) OR  5-9:1 elite
+ABM Program ROI                   (Revenue from ABM) /     3:1 minimum
+(Simplified)                        (ABM program cost) OR  5-9:1 elite
                                     (Revenue - Cost) /
                                     Cost
 ```
@@ -167,16 +167,16 @@ Different audiences need different views. Design three separate dashboards.
 
 ```
 ╔════════════════════════════════════════════════════════════════╗
-║               ABM PROGRAMME :  EXECUTIVE DASHBOARD              ║
+║               ABM PROGRAM :  EXECUTIVE DASHBOARD              ║
 ║                    July 2026 | YTD Summary                     ║
 ╚════════════════════════════════════════════════════════════════╝
 
 ┌─ HEADLINE NUMBERS ───────────────────────────────────────────┐
-│ ABM Pipeline (Open)      €2.4M    ↑ 12% MoM       [Sparkline] │
-│ ABM Closed Revenue (YTD) €620K    ↑ 8% vs Q2      [Sparkline] │
-│ ABM Programme ROI        4.2:1    (healthy)                    │
+│ ABM Pipeline (Open)      $2.4M    ↑ 12% MoM       [Sparkline] │
+│ ABM Closed Revenue (YTD) $620K    ↑ 8% vs Q2      [Sparkline] │
+│ ABM Program ROI        4.2:1    (healthy)                    │
 │ Win Rate (ABM)           26%      ↑ 3% vs avg                 │
-│ Avg Deal Size (ABM)      €310K    ↑ €45K vs avg               │
+│ Avg Deal Size (ABM)      $310K    ↑ $45K vs avg               │
 └──────────────────────────────────────────────────────────────┘
 
 ┌─ ACCOUNT STAGE WATERFALL ────────────────────────────────────┐
@@ -204,15 +204,15 @@ Different audiences need different views. Design three separate dashboards.
 └──────────────────────────────────────────────────────────────┘
 
 ┌─ KPI STATUS ───────────────────────────────────────────────┐
-│ ✓ ABM pipeline target: €2.4M / €3.0M target = 80% (on track) │
+│ ✓ ABM pipeline target: $2.4M / $3.0M target = 80% (on track) │
 │ ✓ Handover SLA: 89% acceptance (target >=80%)                │
 │ ✓ Win rate: 26% (target >=20%)                               │
 │ ⚠ In-Market accounts: 20 / 25 target = 80% (slight lag)     │
-│ ✓ Revenue attribution: €620K YTD (tracking to €1.2M annual)  │
+│ ✓ Revenue attribution: $620K YTD (tracking to $1.2M annual)  │
 └──────────────────────────────────────────────────────────────┘
 
 ┌─ NARRATIVE ─────────────────────────────────────────────┐
-│ ABM programme generated €620K closed revenue YTD with 4.2:1 │
+│ ABM program generated $620K closed revenue YTD with 4.2:1 │
 │ ROI. Pipeline is tracking to target. Buying group coverage  │
 │ at 60% :  driving 75% handover conversion. Sales acceptance  │
 │ rate (89%) indicates strong handover discipline.            │
@@ -227,13 +227,13 @@ Different audiences need different views. Design three separate dashboards.
 
 **Time frame:** This week, last 4 weeks
 
-**Purpose:** Which accounts should sales prioritise? Which accounts are at risk of slipping?
+**Purpose:** Which accounts should sales prioritize? Which accounts are at risk of slipping?
 
 **Layout and Key Metrics:**
 
 ```
 ╔════════════════════════════════════════════════════════════════╗
-║           ABM PROGRAMME :  SALES LEADERSHIP DASHBOARD           ║
+║           ABM PROGRAM :  SALES LEADERSHIP DASHBOARD           ║
 ║                 Week of July 14-18 | This Month               ║
 ╚════════════════════════════════════════════════════════════════╝
 
@@ -285,9 +285,9 @@ Different audiences need different views. Design three separate dashboards.
 ┌─ OPPORTUNITIES CREATED FROM ABM THIS WEEK ─────────────────┐
 │ New opps created:  2                                         │
 │ - Acme Corp: $310K deal (Mark Johnson intro'd Economic)      │
-│ - Startup X: €85K deal (early-stage trial → paid pilot)     │
+│ - Startup X: $85K deal (early-stage trial → paid pilot)     │
 │                                                              │
-│ Total new opps this month (YTD): 5 opps = €750K pipeline   │
+│ Total new opps this month (YTD): 5 opps = $750K pipeline   │
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -305,7 +305,7 @@ Different audiences need different views. Design three separate dashboards.
 
 ```
 ╔════════════════════════════════════════════════════════════════╗
-║           ABM PROGRAMME :  MARKETING OPS DASHBOARD              ║
+║           ABM PROGRAM :  MARKETING OPS DASHBOARD              ║
 ║                    Daily / Weekly Update | July                ║
 ╚════════════════════════════════════════════════════════════════╝
 
@@ -435,7 +435,7 @@ Different audiences need different views. Design three separate dashboards.
 
 **Advantage:** Pre-built logic, third-party intent integration, buying group detection
 
-**Cost:** €50-200K+ annually
+**Cost:** $50-200K+ annually
 
 ## Dashboard Alert Thresholds
 

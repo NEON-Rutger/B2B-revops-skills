@@ -1,6 +1,6 @@
 # HubSpot Property Catalog - RevOps Reference
 
-Complete property inventory for B2B SaaS revenue operations (€15M-150M ARR).
+Complete property inventory for B2B SaaS revenue operations ($15M-150M ARR).
 
 ---
 
@@ -92,7 +92,7 @@ Complete property inventory for B2B SaaS revenue operations (€15M-150M ARR).
 | `name` | Text | - | Company creation | All reports |
 | `industry` | Enumeration | SaaS, FinTech, MarTech, HR Tech, Sales Tech, etc. | Company creation | Industry segment reports |
 | `numberofemployees` | Number | - | Company creation | Company size bucketing |
-| `annualrevenue` | Number | EUR (0-500M) | Company creation | ARR segmentation |
+| `annualrevenue` | Number | USD (0-500M) | Company creation | ARR segmentation |
 | `arr_eur` | Number | 0-500M | Company creation | Deal sizing, ICP fit |
 | `funding_stage` | Enumeration | Pre-seed, Seed, Series A, B, C, D+, Growth, Public | - | Investor profile reports |
 | `country` | Enumeration | Netherlands, Belgium, Germany, France, UK, etc. | Company creation | Geo segment reports |
@@ -122,7 +122,7 @@ Complete property inventory for B2B SaaS revenue operations (€15M-150M ARR).
 | `num_associated_deals` | Number | Auto-calculated | - | Pipeline density |
 | `num_open_deals` | Number | Auto-calculated | - | Opportunity tracking |
 | `num_won_deals` | Number | Auto-calculated | - | Customer status |
-| `total_revenue_eur_closed_won` | Number | EUR | Customer stage | Lifetime value |
+| `total_revenue_closed_won` | Number | USD | Customer stage | Lifetime value |
 | `upcoming_renewal_date` | Date | - | Customer stage | Renewal forecasting |
 | `account_owner_assigned_date` | Date | - | Customer stage | Account assignment timing |
 
@@ -130,7 +130,7 @@ Complete property inventory for B2B SaaS revenue operations (€15M-150M ARR).
 
 | Property Name (snake_case) | Type | Options/Values | Required at Stage | Reports |
 |---------------------------|------|-----------------|-------------------|---------|
-| `deal_size_avg_eur` | Number | EUR | - | Pipeline forecasting |
+| `deal_size_avg` | Number | USD | - | Pipeline forecasting |
 | `deal_size_max_eur` | Number | EUR | - | Upsell potential |
 | `deal_size_min_eur` | Number | EUR | - | Land strategy |
 | `sales_cycle_days_avg` | Number | Days | - | Forecasting accuracy |
@@ -271,10 +271,10 @@ Complete property inventory for B2B SaaS revenue operations (€15M-150M ARR).
 
 **Deals:** `dealname`, `dealstage`, `amount`, `closedate`, `dealtype`
 
-### Recommended (Scaling Stage - €15M-50M ARR)
+### Recommended (Scaling Stage - $15M-50M ARR)
 
 Add: `hs_lead_score`, `lead_status`, `hs_analytics_first_touch_converting_campaign`, `hs_analytics_last_touch_converting_campaign`, `health_score`, `days_in_stage`, `probability_percentage`, `reason_for_loss`
 
-### Advanced (Mature RevOps - €50M-150M+ ARR)
+### Advanced (Mature RevOps - $50M-150M+ ARR)
 
 Add all above plus: `fit_score`, `hs_lead_grade`, `intent_signals`, `buying_cycle_stage`, `contract_term_months`, `discount_percentage`, `win_probability_predicted`, `churn_risk_flag`, `expansion_potential_eur`, and custom objects.

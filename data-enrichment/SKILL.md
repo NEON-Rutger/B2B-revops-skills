@@ -25,11 +25,11 @@ Data enrichment is the process of appending third-party firmographic, technograp
 
 ## Why Enrichment Matters
 
-**The input problem**: Most web forms capture 3-5 fields (name, email, company, maybe title). That's not enough to score, route, segment, or personalise at scale.
+**The input problem**: Most web forms capture 3-5 fields (name, email, company, maybe title). That's not enough to score, route, segment, or personalize at scale.
 
 **What enrichment adds**:
 - Company size (employees, revenue) → feeds ICP scoring and routing
-- Industry/vertical → feeds territory assignment and content personalisation
+- Industry/vertical → feeds territory assignment and content personalization
 - Technologies used → feeds product fit scoring
 - Headquarters location → feeds territory routing
 - Funding stage/amount → feeds SaaS ICP signals
@@ -41,34 +41,34 @@ Data enrichment is the process of appending third-party firmographic, technograp
 
 | Provider | Database Size | Strength | Best For | Price Range |
 |----------|--------------|----------|----------|-------------|
-| **ZoomInfo** | 400M+ profiles (vendor-reported; includes partial records) | Largest B2B database; global coverage; identity resolution | Enterprise teams with budget; global targeting | €€€€ |
-| **Apollo.io** | 270M+ contacts (vendor-reported) | Database + enrichment + engagement combined | SMB/mid-market; teams wanting all-in-one platform | €€ |
-| **HubSpot Data Platform** | 200M+ contacts (vendor-reported; formerly Clearbit) | Real-time enrichment; technographics; HubSpot-native | HubSpot-native teams; tech companies. Note: Clearbit standalone discontinued 2024 | €€€ |
-| **Cognism** | 440M+ profiles (vendor-reported; includes partial records) | European data; GDPR compliant; mobile numbers | European-focused teams; GDPR-sensitive orgs | €€€ |
-| **Lusha** | 150M+ contacts (vendor-reported) | Quick contact enrichment; browser extension | Individual reps; quick lookups | € |
-| **Clay** | Aggregates 25+ sources | Orchestration layer; combines multiple providers | Teams wanting to layer/waterfall providers | €€ |
-| **6sense** | Intent + firmographic | Intent signals; account identification; predictive | ABM-heavy orgs; enterprise marketing | €€€€ |
-| **Demandbase** | Account-level intelligence | ABM platform; advertising + enrichment | Large marketing teams running ABM | €€€€ |
+| **ZoomInfo** | 400M+ profiles (vendor-reported; includes partial records) | Largest B2B database; global coverage; identity resolution | Enterprise teams with budget; global targeting | $$$$ |
+| **Apollo.io** | 270M+ contacts (vendor-reported) | Database + enrichment + engagement combined | SMB/mid-market; teams wanting all-in-one platform | $$ |
+| **HubSpot Data Platform** | 200M+ contacts (vendor-reported; formerly Clearbit) | Real-time enrichment; technographics; HubSpot-native | HubSpot-native teams; tech companies. Note: Clearbit standalone discontinued 2024 | $$$ |
+| **Cognism** | 440M+ profiles (vendor-reported; includes partial records) | European data; GDPR compliant; mobile numbers | European-focused teams; GDPR-sensitive orgs | $$$ |
+| **Lusha** | 150M+ contacts (vendor-reported) | Quick contact enrichment; browser extension | Individual reps; quick lookups | $ |
+| **Clay** | Aggregates 25+ sources | Orchestration layer; combines multiple providers | Teams wanting to layer/waterfall providers | $$ |
+| **6sense** | Intent + firmographic | Intent signals; account identification; predictive | ABM-heavy orgs; enterprise marketing | $$$$ |
+| **Demandbase** | Account-level intelligence | ABM platform; advertising + enrichment | Large marketing teams running ABM | $$$$ |
 
 ### Provider Selection Framework
 
 ```
 > *Operational template: example budget ranges. Actual costs depend on volume, provider mix, contract terms, and negotiated rates. Date-stamped Q1 2026.*
 
-Budget < €500/month?
+Budget < $500/month?
   → Apollo.io (best value all-in-one)
   → Lusha (if only need contact data)
 
-Budget €500-2,000/month?
+Budget $500-2,000/month?
   → Apollo.io or Cognism (depends on geography)
   → Clay (if you want to layer multiple sources)
 
-Budget €2,000-10,000/month?
+Budget $2,000-10,000/month?
   → ZoomInfo (broadest coverage)
   → HubSpot Data Platform (if HubSpot-native)
   → Cognism (if European focus)
 
-Budget >€10,000/month?
+Budget >$10,000/month?
   → ZoomInfo Enterprise
   → 6sense or Demandbase (if ABM is core motion)
   → Clay + multiple providers (custom orchestration)
@@ -116,7 +116,7 @@ Use Claude API or GPT-4 to scrape and parse company websites for data vendors ma
 - Key personnel (leadership pages)
 - Technology stack (from website headers, job postings)
 
-Orchestrate via n8n or Make: trigger on record creation, call Claude with a website URL, parse response, upsert to CRM. Cost: Claude API at roughly EUR 0.20-0.40 per enrichment call for full-page analysis (2026 pricing).
+Orchestrate via n8n or Make: trigger on record creation, call Claude with a website URL, parse response, upsert to CRM. Cost: Claude API at roughly $0.20-0.40 per enrichment call for full-page analysis (2026 pricing).
 
 **Pattern 2: Semantic Contact Matching**
 
@@ -208,10 +208,10 @@ For one-off research or account planning:
 | Data Point | Priority | Use Case |
 |-----------|----------|----------|
 | Company size (employees) | P1 | ICP scoring, routing, segmentation |
-| Industry / vertical | P1 | Routing, content personalisation |
+| Industry / vertical | P1 | Routing, content personalization |
 | Annual revenue | P1 | Tier assignment, pricing strategy |
 | Headquarters location | P1 | Territory routing |
-| Company description | P2 | Rep context, personalisation |
+| Company description | P2 | Rep context, personalization |
 | Technologies used | P2 | Product fit scoring |
 | Funding stage / last round | P2 | SaaS ICP signal |
 | Social profiles (LinkedIn) | P3 | Rep research, social selling |
@@ -231,7 +231,8 @@ Always track enrichment provenance:
 | Enrichment_Date__c | DateTime | When was enrichment last run |
 | Enrichment_Status__c | Picklist (Matched/Partial/No Match/Error) | Quality tracking |
 | Enrichment_Confidence__c | Number (0-100) | Provider confidence score |
-n> *Provider confidence scoring methodologies are proprietary. Treat confidence scores as relative indicators, not absolute measures of accuracy.*
+
+> *Provider confidence scoring methodologies are proprietary. Treat confidence scores as relative indicators, not absolute measures of accuracy.*
 
 ---
 
@@ -276,7 +277,7 @@ Build automated quality checks:
 ### Key Rules for European Data
 
 - **Legitimate interest**: Most B2B enrichment relies on legitimate interest basis (not consent). As of October 2024 (CJEU rulings), this requires a documented three-part balancing test: purpose necessity, and data subject rights impact.
-- **Data minimisation**: Only enrich fields you actually use for scoring/routing/personalisation
+- **Data minimization**: Only enrich fields you actually use for scoring/routing/personalization
 - **Right to erasure**: Must be able to delete enriched data on request
 - **Transparency**: Privacy policy must disclose use of third-party data providers
 - **Provider compliance**: Verify your enrichment provider is GDPR-compliant (Cognism is purpose-built for this; HubSpot Data Platform and others offer DPA templates)
@@ -285,7 +286,7 @@ Build automated quality checks:
 
 Before scaling enrichment on a legitimate interest basis, document a three-part balancing test in writing:
 
-1. **Purpose Test**: Define the legitimate business purpose (lead scoring, routing, personalisation, fraud prevention). Document why each enriched field is necessary for that purpose.
+1. **Purpose Test**: Define the legitimate business purpose (lead scoring, routing, personalization, fraud prevention). Document why each enriched field is necessary for that purpose.
 2. **Necessity Test**: Justify why the data is necessary. Can you achieve the purpose without enrichment? Why not? (Genuine commercial gain, operational efficiency, risk mitigation all count.)
 3. **Data Subject Rights Impact**: Assess the impact on data subjects. Is enrichment visible to them? Can they object easily? Are you processing sensitive categories (criminal history, health, financial)?
 
@@ -302,10 +303,10 @@ Implement this workflow:
    - Include enrichment source in the first email (transparency link in footer)
    - Send a separate notification email upfront (slower but explicit)
    - Use a preference center link where contacts can see what data you hold and its source
-3. **Right to Object**: Ensure every contact can easily object to further processing. Include an unsubscribe link and honour objections immediately (no delay).
+3. **Right to Object**: Ensure every contact can easily object to further processing. Include an unsubscribe link and honor objections immediately (no delay).
 4. **Documentation**: Log notification dates per contact in your CRM (custom field: "Article_14_Notified__c" with a date stamp). This proves compliance in an audit.
 
-Non-compliance risk: EUR 10M or 2% of global revenue in fines; this is typically escalated only in large-scale breaches, but still matters for reputational and legal risk.
+Non-compliance risk: $10M or 2% of global revenue in fines; this is typically escalated only in large-scale breaches, but still matters for reputational and legal risk.
 
 ### Practical Implementation Steps
 
@@ -329,7 +330,7 @@ Always build a failed-enrichment queue:
 - Partial matches: Accept what's available, flag incomplete fields
 - Provider downtime: Queue records for enrichment when service returns
 
-### Cost Optimisation
+### Cost Optimization
 
 - **Don't enrich everything**: Only enrich records that pass initial quality gates (valid email domain, not competitor, not personal email)
 - **Use credits wisely**: Batch enrichment is usually cheaper per record than real-time

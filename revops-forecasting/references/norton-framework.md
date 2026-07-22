@@ -33,9 +33,9 @@ An alternative to top-down target-based forecasting:
 **Datarails proof point:** Projected new ARR within 5% margin of error, three out of four quarters. This was achieved by knowing the real productivity numbers, not by top-down quota allocation.
 
 **Contrast with conventional approach:**
-- Conventional: Board target ÷ reps + stretch = quota → hope pipeline materialises
+- Conventional: Board target ÷ reps + stretch = quota → hope pipeline materializes
 - Capacity-based: Actual productivity data → bottoms-up capacity model → forecast based on what the system can actually produce
 
-**When to use:** Best suited for organisations with 4+ quarters of pipeline data, established conversion rates, and a mature enough inbound engine to have predictable meeting volume.
+**When to use:** Best suited for organizations with 4+ quarters of pipeline data, established conversion rates, and a mature enough inbound engine to have predictable meeting volume.
 
 **Add to accuracy benchmark:** Canaani's 5% margin (3/4 quarters) sits at the "Elite" level in the existing forecast accuracy benchmarks.

@@ -38,7 +38,7 @@ Lead routing determines which rep gets which lead, how fast, and with what conte
 | Average B2B response time: 42 hours; 23% never respond | HBR, 2011 (2,241 companies) |
 
 > *Conversion impact decays rapidly after the first 5 minutes but exact decay curves vary by industry, lead source, and deal size. The research consensus: respond to hand-raisers within 5-10 minutes; the difference between 10 minutes and 30 minutes matters more than the difference between 1 hour and 4 hours.*
-Every minute between form submission and rep response reduces conversion probability. Speed-to-lead is the most under-optimised metric in most B2B organisations.
+Every minute between form submission and rep response reduces conversion probability. Speed-to-lead is the most under-optimized metric in most B2B organizations.
 
 ---
 
@@ -197,7 +197,7 @@ Check quarterly:
 | **Tier 1 (Hot)** | High ICP fit + high engagement score; demo/pricing request | 5 minutes | 15 min: alert manager; 30 min: reassign |
 | **Tier 2 (Warm)** | Good ICP fit + moderate engagement; content download | 1 hour | 2 hours: alert manager; 4 hours: reassign |
 | **Tier 3 (Nurture)** | Low fit or low engagement | 24 hours | 48 hours: return to marketing; alert ops |
-n> *T1 (5-minute) threshold is research-backed: MIT (21× at 5 min), Justin Norris (10 min → 40% conversion lift), Chili Piper (instant booking → 66.7% conversion). T2 (1-hour) is backed by LeanData's MQL SLA recommendation. T3 (24-hour) represents common practitioner convention for lower-intent leads. All tiers should be calibrated to your team capacity and lead volume.*
+> *T1 (5-minute) threshold is research-backed: MIT (21× at 5 min), Justin Norris (10 min → 40% conversion lift), Chili Piper (instant booking → 66.7% conversion). T2 (1-hour) is backed by LeanData's MQL SLA recommendation. T3 (24-hour) represents common practitioner convention for lower-intent leads. All tiers should be calibrated to your team capacity and lead volume.*
 
 ### SLA Tracking Fields
 
@@ -267,7 +267,7 @@ New Lead arrives
 | **LeanData** (2025+) | Most mature Salesforce routing; predictive assignment with AI; visual flow builder | Salesforce-first orgs with complex routing and predictive scoring |
 | **HubSpot Agentic Automation** (2026) | Workflows plus agents; predictive routing patterns; Breeze lead agents | HubSpot-native orgs wanting agent-powered assignment |
 | **Chili Piper** (2025+) | Real-time booking + routing; instant scheduling; engagement-signal integration | Teams wanting form → meeting in one step with lead intel |
-| **Default** (2024+) | Modern routing + enrichment + scheduling; real-time capacity modelling | Mid-market teams wanting all-in-one with visibility |
+| **Default** (2024+) | Modern routing + enrichment + scheduling; real-time capacity modeling | Mid-market teams wanting all-in-one with visibility |
 | **RevenueHero** (2024+) | Affordable alternative to Chili Piper; essential routing patterns | Budget-conscious teams |
 
 ### Build vs Buy Decision
@@ -292,7 +292,7 @@ New Lead arrives
 
 ## Predictive Lead Routing: AI-Powered Assignment (2026)
 
-As of 2026, AI-driven routing is table stakes for high-volume teams. Only 11% of RevOps teams have fully implemented AI lead routing, but predictive assignment algorithms, real-time capacity modelling, and engagement-signal routing are now standard platform capabilities.
+As of 2026, AI-driven routing is table stakes for high-volume teams. Only 11% of RevOps teams have fully implemented AI lead routing, but predictive assignment algorithms, real-time capacity modeling, and engagement-signal routing are now standard platform capabilities.
 
 ### Core Patterns
 
@@ -308,7 +308,7 @@ Example: "Lead is a 150-person SaaS company in the financial services vertical. 
 
 Benefit: 30% conversion lift vs round-robin for high-volume teams (Salesforce Agentforce benchmark, 2026).
 
-**Pattern 2: Real-Time Capacity Modelling**
+**Pattern 2: Real-Time Capacity Modeling**
 
 Instead of static "leads per rep per day," AI models predict rep availability and deal-close probability in real time:
 - Current queue size and deal values

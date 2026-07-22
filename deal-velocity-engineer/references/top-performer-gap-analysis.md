@@ -15,7 +15,7 @@ The performance distribution in B2B sales is extreme and widening:
 
 **Sample:** 655,000 opportunities, USD54B revenue, 1M+ hours of conversations (Ebsta/Pavilion 2024-2025 dataset).
 
-**What this means for velocity engineering:** The system should be designed to bring the middle 60% closer to the top 20%. The gap is not talent; it's methodology adherence, deal discipline, and inspection rigour. All of which are system-level fixes.
+**What this means for velocity engineering:** The system should be designed to bring the middle 60% closer to the top 20%. The gap is not talent; it's methodology adherence, deal discipline, and inspection rigor. All of which are system-level fixes.
 
 **Quota attainment crisis (2024 context):**
 - 69% of sales reps falling short of quota (Salesforce State of Sales 2024)

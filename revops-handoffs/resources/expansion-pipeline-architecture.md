@@ -11,7 +11,7 @@ Every expansion motion (upsell, cross-sell, add-on) needs its own deal record in
 - Each has its own sales cycle, close date, ACV delta, and conversion rate
 - Mixing into new-business pipeline poisons both datasets
 - Can't read new-logo win rate or expansion velocity cleanly
-- In WbD terms: expansion is CR7 (Recurring Impact → Maximum Impact) and Δt7 (Time to Expand), you need clean objects to measure both
+- You need clean objects to measure when customers first expand (time-to-expansion metric) and whether expansion happens at all (expansion-pipeline sourcing)
 
 ---
 
@@ -34,7 +34,7 @@ Standard acquisition stages with SPICED gates:
 
 ### Pipeline 2, Expansion (right side of bow tie)
 
-Shorter stages, trust exists. But with type-conditional rigour:
+Shorter stages, trust exists. But with type-conditional rigor:
 
 | Stage | Probability | Gate |
 |---|---|---|
@@ -160,7 +160,7 @@ Three paths with different conversion profiles:
 | AE/CSM direct outreach | Using account knowledge and access | Moderate | Moderate |
 | Marketing ABM play | LinkedIn + email into new department | Lower (but scalable) | Slowest |
 
-Track in `cross_sell_intro_source` property to optimise over time.
+Track in `cross_sell_intro_source` property to optimize over time.
 
 ### Ownership May Differ
 
@@ -205,7 +205,7 @@ Use **deal-to-deal association** (Professional+) to link:
 - Multiple expansion deals → same original deal
 
 This enables:
-- Δt7 measurement: time from original Closed Won to first expansion
+- Time-to-expansion measurement: time from original Closed Won to first expansion
 - Full customer revenue lineage on a single view
 - Cohort analysis: which original deals generate the most expansion?
 
@@ -216,7 +216,7 @@ Aggregate fields on the Company record:
 - `customer_status`, Active / Churned / At Risk
 - `expansion_pipeline_active`, Yes/No
 - `total_expansion_deals`, count
-- `first_expansion_date`, for Δt7 calculation
+- `first_expansion_date`, for time-to-expansion calculation
 
 ---
 
@@ -229,14 +229,14 @@ Aggregate fields on the Company record:
 | `expansion_type` | Dropdown | Upsell / Cross-sell (warm) / Cross-sell (new DMU) | Drives stage requirements, reporting, forecast weighting |
 | `expansion_source` | Dropdown | CS-identified / Customer request / Marketing signal / Usage trigger | Attribution for expansion pipeline |
 | `arr_delta` | Currency |, | Incremental value (not total contract) |
-| `associated_original_deal` | Deal association | Link to original deal | Lineage, Δt7 |
+| `associated_original_deal` | Deal association | Link to original deal | Lineage, time-to-expansion tracking |
 | `csm_owner` | HubSpot user | Copied from company | Keeps CS visible even when AE runs commercial |
 
 ### Additional for Cross-Sells
 
 | Property | Type | Values | Purpose |
 |---|---|---|---|
-| `cross_sell_intro_source` | Dropdown | Champion referral / Direct outreach / Marketing ABM | Path optimisation |
+| `cross_sell_intro_source` | Dropdown | Champion referral / Direct outreach / Marketing ABM | Path optimization |
 | `new_dmu_department` | Text |, | Which department/BU (for new-DMU type) |
 | `new_dmu_budget_independent` | Checkbox |, | Whether BU-B has independent budget |
 
@@ -292,7 +292,7 @@ With clean pipelines, type tagging, and associations, you can answer:
 | Velocity by type? | Average days in pipeline by `expansion_type` | New-DMU is 2-3× longer than upsell |
 | Expansion pipeline by source? | Group by `expansion_source` | Is CS generating enough, or marketing doing heavy lifting? |
 | Best intro path for cross-sells? | Group by `cross_sell_intro_source` | Champion referral converts highest |
-| Time to first expansion (Δt7)? | `first_expansion_date` − original `closed_won_date` | By segment, by product, by implementation path |
+| Time to first expansion? | `first_expansion_date` − original `closed_won_date` | By segment, by product, by implementation path |
 | NRR decomposition? | GRR (renewal pipeline) + expansion rate − churn | Component-level view of retention health |
 | Forecast accuracy by type? | Predicted vs actual close by `expansion_type` | Weight new-DMU at lower probability |
 | Which original deals generate most expansion? | Deal-to-deal association + `arr_delta` | Cohort/segment analysis |
@@ -305,13 +305,13 @@ With clean pipelines, type tagging, and associations, you can answer:
 
 | Expansion ACV | Commercial Owner | CS Role | Sales Involvement |
 |---|---|---|---|
-| < €10K | CSM | Owns end-to-end | None (unless escalated) |
-| €10K-50K | AM or AE | Provides context, stays in meetings | Runs commercial with CS support |
-| > €50K | AE (full cycle) | Introduces, advisory | Full sales process |
+| < $10K | CSM | Owns end-to-end | None (unless escalated) |
+| $10K-50K | AM or AE | Provides context, stays in meetings | Runs commercial with CS support |
+| > $50K | AE (full cycle) | Introduces, advisory | Full sales process |
 
 ### By Complexity
 
-Even below €10K, if the expansion involves:
+Even below $10K, if the expansion involves:
 - New procurement process → involve AE
 - Multi-stakeholder sign-off → involve AE
 - Competitive evaluation → involve AE

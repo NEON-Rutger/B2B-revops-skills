@@ -56,7 +56,7 @@ From Sales:
    - **Fix**: Model existing customer growth separately; plan dedicated expansion resources
 
 ### Output
-- Revenue target by segment: **€_____**
+- Revenue target by segment: **$_____**
 - Market validation: Current share **___%**, target share **___%**
 - Capacity requirement: **___ AEs needed at 85% utilization**
 
@@ -88,11 +88,11 @@ Sales Managers         2        3       +1    Hire Q4
 Total Sales Headcount 12       18       +6
 
 Revenue Capacity:
-- Current team (8 AEs): €9.4M at 85% utilization
-- Year 1 additions (5 AEs at ramp): +€3.2M
-- Expected revenue: €12.6M
-- Target: €15M
-- Gap: €2.4M (address via productivity improvements or Q4 additions)
+- Current team (8 AEs): $9.4M at 85% utilization
+- Year 1 additions (5 AEs at ramp): +$3.2M
+- Expected revenue: $12.6M
+- Target: $15M
+- Gap: $2.4M (address via productivity improvements or Q4 additions)
 ```
 
 ### Key Inputs Needed
@@ -115,10 +115,10 @@ From Finance:
 New Rep Revenue Impact (Year 1) = Quota × (Ramp % × months ramping / 12)
 
 Example: Hire 2 SMB AEs in Q1
-- Each rep: €400K annual quota
+- Each rep: $400K annual quota
 - 3.5-month ramp: Months 1-3 at ramp rates, Month 4 at 100%
-- Year 1 impact: €400K × ((25% + 50% + 80% + 100%) / 4 / 12 months × 12) = €192K per rep
-- Total Year 1: €384K revenue from 2 new reps (not full €800K)
+- Year 1 impact: $400K × ((25% + 50% + 80% + 100%) / 4 / 12 months × 12) = $192K per rep
+- Total Year 1: $384K revenue from 2 new reps (not full $800K)
 ```
 
 ### Common Planning Mistakes
@@ -134,8 +134,8 @@ Example: Hire 2 SMB AEs in Q1
 ### Output
 - **Headcount plan**: ___ hires across ___ roles
 - **Quarterly hiring schedule**: Q1: ___, Q2: ___, Q3: ___, Q4: ___
-- **Fully loaded cost**: €___ per new rep (Year 1 blended)
-- **Capacity at hire completion**: €___ annual capacity
+- **Fully loaded cost**: $___ per new rep (Year 1 blended)
+- **Capacity at hire completion**: $___ annual capacity
 
 ---
 
@@ -156,9 +156,9 @@ Example: Hire 2 SMB AEs in Q1
 ### Territory Balance Template
 ```
 Rep Name          Account Count  Revenue Opp.  Tier Distribution    Health
-Sarah (AE MM)     28            €2.1M         2 Enterprise, 26 MM  Balanced
-Marcus (AE MM)    32            €1.8M         0 Enterprise, 32 MM  Growth
-Team Average      30            €2.0M,, 
+Sarah (AE MM)     28            $2.1M         2 Enterprise, 26 MM  Balanced
+Marcus (AE MM)    32            $1.8M         0 Enterprise, 32 MM  Growth
+Team Average      30            $2.0M,, 
 Variance          +/- 7%        +/- 10%       Unbalanced, Action: Move 2 mid-market accounts from Marcus to bring balance within 5%
 ```
 
@@ -182,7 +182,7 @@ Week 4 (Day 1 of FY): Reps assume full responsibility, transition complete
 
 ### Output
 - **Territory assignments**: Delivered to all reps
-- **Account balance metrics**: Opportunity range €___ - €___, variance **___%**
+- **Account balance metrics**: Opportunity range $___ - $___, variance **___%**
 - **New hire onboarding territory**: ___ accounts identified for ramping reps
 
 ---
@@ -204,38 +204,38 @@ Week 4 (Day 1 of FY): Reps assume full responsibility, transition complete
 ### Quota Setting Template
 ```
 Role: AE Mid-Market
-Territory Opportunity: €2.4M
+Territory Opportunity: $2.4M
 Historical attainment rate: 95%
-Quota = €2.4M × 95% = €2.28M individual quota
+Quota = $2.4M × 95% = $2.28M individual quota
 
 SMB Role Example:
-Territory Opportunity: €450K
+Territory Opportunity: $450K
 Attainment rate: 105% (quota-beating team)
-Quota = €450K × 100% = €450K quota (aggressive)
+Quota = $450K × 100% = $450K quota (aggressive)
 
 Ramp Quota Schedule:
-Month 1: €187.5K (25% of full quota)
-Month 2-3: €570K (50% of full quota across 2 months)
-Month 4-5: €950K (80% of full quota across 2 months)
-Month 6+: €1,140K (100% of full quota, full run-rate)
+Month 1: $187.5K (25% of full quota)
+Month 2-3: $570K (50% of full quota across 2 months)
+Month 4-5: $950K (80% of full quota across 2 months)
+Month 6+: $1,140K (100% of full quota, full run-rate)
 ```
 
 ### Compensation Structure Example (Mid-Market AE)
 ```
-Base Salary: €60,000
-Target Commission (at 100% quota): €150,000
-On-Target Earnings (OTE): €210,000
+Base Salary: $60,000
+Target Commission (at 100% quota): $150,000
+On-Target Earnings (OTE): $210,000
 
 Commission Structure:
-- 0-80% of quota: €0 commission (ramp period threshold)
+- 0-80% of quota: $0 commission (ramp period threshold)
 - 80-100% of quota: 15% of revenue
 - 100-120% of quota: 17.5% of revenue
 - 120%+ of quota: 20% of revenue (accelerator)
 
 Year 1 Expected Earnings (with ramp):
 - Months 1-3 (ramp): Variable by attainment during ramp
-- Months 4-12: €150K/12 × 9 months = €112.5K expected
-- Total Year 1 expected: €140K-165K (depending on ramp attainment)
+- Months 4-12: $150K/12 × 9 months = $112.5K expected
+- Total Year 1 expected: $140K-165K (depending on ramp attainment)
 ```
 
 ### Common Planning Mistakes
@@ -250,7 +250,7 @@ Year 1 Expected Earnings (with ramp):
 
 ### Output
 - **Individual quotas assigned**: All reps notified
-- **Team total quota**: **€_____** (aligned to revenue target)
+- **Team total quota**: **$_____** (aligned to revenue target)
 - **Comp plan finalized**: Salaries and commission structure approved by HR/Finance
 - **Quota attainment forecast**: Year 1 expected at **___%** attainment
 
@@ -296,8 +296,8 @@ Week 2-4: Activity ramping
 - AEs: 15+ meetings scheduled/week
 - All reps: 100% CRM compliance
 
-Target: €___/week revenue activities (pipeline building, not necessarily closes)
-Expected pipeline build: €____/month for first month
+Target: $___/week revenue activities (pipeline building, not necessarily closes)
+Expected pipeline build: $____/month for first month
 ```
 
 ### Common Planning Mistakes
@@ -314,7 +314,7 @@ Expected pipeline build: €____/month for first month
 - **Kickoff completed**: Date ________
 - **All reps have territories**: Assigned in CRM
 - **Comp plan understood**: Rep training completed
-- **Month 1 pipeline target**: **€_____** required build
+- **Month 1 pipeline target**: **$_____** required build
 
 ---
 

@@ -44,7 +44,7 @@ Total: $900-2,000/mo + 2-4 week build
 | Vector DB | Qdrant Cloud EU | EU cloud |
 | Embeddings | Mistral (EU) or local all-MiniLM | EU-native or on-premise |
 | LLM | Mistral Large or Claude via Langdock | EU |
-Total: €800-1,500/mo + 2-4 week build
+Total: $880-1,650/mo + 2-4 week build
 
 ---
 
@@ -63,11 +63,11 @@ GDPR personal data involved?
 
 | ARR | US | EU |
 |-----|----|----|
-| €1-5M | Notion AI | Notion + EU DPA |
-| €5-15M | Guru or Notion AI Agents | Langdock |
-| €15-50M | Glean or custom RAG (Pinecone) | Custom RAG (Qdrant EU) |
-| €50-100M | Glean + custom RAG | Copilot EU + custom RAG |
-| €100M+ | Glean Enterprise | Aleph Alpha or Copilot EU |
+| $1-5M | Notion AI | Notion + EU DPA |
+| $5-15M | Guru or Notion AI Agents | Langdock |
+| $15-50M | Glean or custom RAG (Pinecone) | Custom RAG (Qdrant EU) |
+| $50-100M | Glean + custom RAG | Copilot EU + custom RAG |
+| $100M+ | Glean Enterprise | Aleph Alpha or Copilot EU |
 
 ---
 
@@ -90,10 +90,3 @@ GDPR personal data involved?
 
 **Chunking quality > embedding model choice.** Semantic chunking outperforms naive chunking significantly (practice-based). Design chunking first, pick tools second.
 
----
-
-## Full vault docs
-
-- Full AI knowledge stack guide (US/EU reference)
-- 14-platform landscape analysis (2025-2026)
-- G2/Capterra review data (April 2026)

@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Neon RevOps are documented here.
+All notable changes to the RevOps Skills Library are documented here.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
@@ -36,10 +36,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 - De-branding pass: this library is the generic layer, and 20 files carried private or
-  Neon-specific residue. Cross-references to private canon skills repointed to their public
+  internal residue. Cross-references to private skills repointed to their public
   equivalents (icp-builder, deal-velocity-engineer, expansion-revenue-architect,
   revenue-operating-cadence, deal-desk-operations); wiki-link syntax converted to plain skill
-  references; retired internal offer names and personal references genericised; internal
+  references; retired internal offer names and personal references genericized; internal
   research-sheet citations replaced with their underlying named sources; a private vault path
   removed; the crm-migration-consolidation worked example de-identified to a generic
   billing-platform scenario.
@@ -51,7 +51,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - Four new skills from the 2026-07-15 red-team white-space analysis: crm-migration-consolidation
   (CRM merge and post-merger integration with a PE lens: system-of-record per object, identity
-  resolution and survivorship, ID crosswalk, ten-step sequencing), pricing-monetisation-ops
+  resolution and survivorship, ID crosswalk, ten-step sequencing), pricing-monetization-ops
   (usage and outcome pricing operations: metering, rating, invoicing, collections, reconciliation,
   contract term tracking and drift detection), deal-desk-operations (approval matrix, discount
   governance, credit and overage economics, desk metrics), gtm-data-architecture (warehouse-native
@@ -71,7 +71,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
     AI deal scoring).
   - EU compliance guardrails added to data and outbound skills: legitimate interest assessments,
     GDPR Article 14 source trails, Article 21 objection handling, Schrems II supplementary
-    safeguards, lawful-basis and vendor-DPA gates, data minimisation notes.
+    safeguards, lawful-basis and vendor-DPA gates, data minimization notes.
   - Kyle Norton podcast citations resolved to full episode metadata with URLs; MEDDIC attribution
     corrected to John McMahon and Dick Dunkel at PTC; typographic cleanup repo-wide.
   - Missing revops-revenue-planning reference files created (planning assumptions, plan versioning
@@ -138,7 +138,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `marketing-operations`, lead scoring, attribution, campaign tracking
 - `cs-operations`, customer success operations and renewal management
 - `sales-methodology`, SPICED, MEDDIC, Challenger, SPIN, Gap Selling
-- `partner-channel-operations`, partner programme design and co-selling
+- `partner-channel-operations`, partner program design and co-selling
 
 **Pipeline and Data (4 skills)**
 - `pipeline-visibility`, pipeline reporting and dashboard design
@@ -156,11 +156,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Notes
 
-- MIT licence
+- MIT license
 - Skills are standalone markdown files compatible with Claude Code `.claude/skills/` directory
 - Each skill chains naturally with related skills (see README for recommended workflows)
 
 ---
 
-[v0.2.0]: https://github.com/NEON-Rutger/B2B-revops-skills/releases/tag/v0.2.0
-[v0.1.0]: https://github.com/NEON-Rutger/B2B-revops-skills/releases/tag/v0.1.0
+[v0.2.0]: https://github.com/revops-skills/claude-revops-library/releases/tag/v0.2.0
+[v0.1.0]: https://github.com/revops-skills/claude-revops-library/releases/tag/v0.1.0

@@ -16,7 +16,7 @@ Use this as:
 
 * Reference for **discovery, qualification, and RevOps design** (fields, stages, dashboards).
 
-* Parking lot for **new SPICED snippets** you pull from transcripts and client work.
+* Parking lot for **new SPICED snippets** you pull from transcripts and your work.
 
 Clusters we care about right now:
 
@@ -42,7 +42,7 @@ Use this when you need a fast Situation/Pain paragraph for copy.
  You’re a B2B SaaS / tech company with multiple GTM teams and tools. Growth is no longer “for free” and you’ve outgrown the operating model and dashboards that got you here.
 
 **P: Pain**  
- *Rational:* Forecast calls feel like theatre, handoffs leak everywhere, CRM is a mess, and RevOps (if it exists) is a report factory drowning in random requests and meetings that don’t change behaviour.  
+ *Rational:* Forecast calls feel like theater, handoffs leak everywhere, CRM is a mess, and RevOps (if it exists) is a report factory drowning in random requests and meetings that don’t change behavior.  
  *Emotional:* The CRO walks into board meetings not fully trusting their own numbers. The RevOps lead is fielding tickets, not building systems. Leadership feels like they’re steering blind .  busy, but not in control.
 
 **I: Impact**  
@@ -60,7 +60,7 @@ Use this when you need a fast Situation/Pain paragraph for copy.
 ### **2\. PE / Value-Creation SPICED (Verdane-type)**
 
 **S: Situation**  
- You oversee a portfolio of B2B SaaS / tech companies with wildly different GTM maturity and data quality. Each portco reports differently, few truly run on bowtie/SPICED, and GTM is mostly sales-led and opportunistic.
+ You oversee a portfolio of B2B SaaS / tech companies with wildly different GTM maturity and data quality. Each portco reports differently, few have a standardized revenue qualification methodology (like SPICED), and GTM is mostly sales-led and opportunistic.
 
 **P: Pain**  
  *Rational:* You can’t get a clean, comparable view across portcos. Data is terrible or inconsistent, reporting is biased, and strategy is often driven by HIPPOs and anecdotes instead of a shared revenue architecture.  
@@ -71,10 +71,10 @@ Use this when you need a fast Situation/Pain paragraph for copy.
  *Emotional:* Portfolio reviews feel like damage control instead of value creation. The conversations with founders are harder when you can’t point to a shared operating model that actually worked. You came to create value, and too much of your time is spent interpreting bad data.
 
 **C: Critical Event**  
- Several portcos have missed or sandbagged at the same time. You’re rolling out Winning by Design / bowtie thinking and realise that without an execution layer (Rooms, cadence, definitions), it will become another deck.
+ Several portcos have missed or sandbagged at the same time. You’re ready to standardize around a repeatable revenue framework and realize that without an execution layer (governance cadence, shared definitions, operating rhythm), it will become another deck.
 
 **D: Decision**  
- You standardise on a portfolio revenue system pattern: minimum viable data spine and definitions, one Revenue Room and cadence per portco, tested on a few anchor companies, with RevOps and leadership owning the OS and you measuring success in cleaner bands and fewer GTM surprises.
+ You standardize on a portfolio revenue system pattern: minimum viable data model and definitions (shared metrics and qualification criteria), a governance cadence per portco (weekly/monthly reviews with standardized language), tested on a few anchor companies, with RevOps and leadership owning the operating system and you measuring success in cleaner forecast bands and fewer GTM surprises.
 
 ---
 
@@ -95,7 +95,7 @@ Use this when you need a fast Situation/Pain paragraph for copy.
  Leadership has raised the growth bar after a miss. Org and GTM structure have changed, roles and decision rights are in flux, and capital is more expensive: this is the moment to harden a performance OS without blowing up culture.
 
 **D: Decision**  
- You deliberately redesign the end-to-end journey, unify motions under one architecture (SPICED \+ bowtie), make HubSpot/SF the single commercial system of record, and pilot the OS on one motion/region to prove faster delta-t and healthier NRR before scaling.
+ You deliberately redesign the end-to-end journey, unify motions under one architecture (SPICED + shared metrics and stage gates), make HubSpot/SF the single commercial system of record, and pilot the operating system on one motion/region to prove faster sales cycles and healthier NRR before scaling.
 
 ---
 
@@ -130,7 +130,7 @@ Use this section when you’re designing discovery, copy, or system changes. Pic
 
 * Multiple GTM teams (marketing, SDR, AE, CS, partnerships) all touching the same customer journey.
 
-* Tooling is more advanced than the way people actually work: HubSpot/SF, enablement tools, note-takers, AI: but behaviour is still driven by legacy habits and hero reps.
+* Tooling is more advanced than the way people actually work: HubSpot/SF, enablement tools, note-takers, AI: but behavior is still driven by legacy habits and hero reps.
 
 * Growth used to come "for free" from product and market; now it requires deliberate design.
 
@@ -138,7 +138,7 @@ Use this section when you’re designing discovery, copy, or system changes. Pic
 
 * Portfolio of 10-50+ B2B SaaS / tech companies across Europe/US.
 
-* GTM maturity spectrum from "leads in spreadsheets" to "semi-mature bowtie", but no shared operating model.
+* GTM maturity spectrum from "leads in spreadsheets" to "semi-mature revenue system", but no shared operating model.
 
 * Different CRMs, different definitions, different rhythms; value-creation team must work through founders and their leadership teams.
 
@@ -146,7 +146,7 @@ Use this section when you’re designing discovery, copy, or system changes. Pic
 
 * 30-200M+ ARR, multiple products/modules (e.g. cards, reimbursements, AP, subscriptions).
 
-* Hybrid PLG \+ sales-led motions, often centralised SDR/AE hub plus local field roles.
+* Hybrid PLG \+ sales-led motions, often centralized SDR/AE hub plus local field roles.
 
 * Multiple regions at different maturity; some markets are saturated and slow, others are high growth but under-resourced.
 
@@ -176,17 +176,17 @@ The emotional layer is what creates urgency. A rational pain can be tolerated in
 
 **Generic: Rational Pain**
 
-* Forecast calls feel like theatre; numbers shift week to week with no clear explanation, and nobody in the room fully believes the number they’re defending.
+* Forecast calls feel like theater; numbers shift week to week with no clear explanation, and nobody in the room fully believes the number they’re defending.
 * Handoffs between teams leak at every stage: MQL→SQL, SQO→Closed, Closed→Onboarded, Onboarded→Active, Active→Expanding.
-* CRM is noisy or half-empty; leadership doesn’t trust it, reps don’t use it, and both are right to be sceptical.
+* CRM is noisy or half-empty; leadership doesn’t trust it, reps don’t use it, and both are right to be skeptical.
 * RevOps is trapped as a report factory and fire brigade rather than the architect of the revenue system.
 
 **Generic: Emotional Pain**
 
 * The CRO is the person who has to stand in front of the board with a number they can’t fully defend. That’s not a process problem .  that’s a personal exposure problem.
-* Forecast theatre means people have learned to manage expectations instead of managing the business. It’s politically corrosive and quietly demoralising.
+* Forecast theater means people have learned to manage expectations instead of managing the business. It’s politically corrosive and quietly demoralizing.
 * Senior leaders are spending their best hours reconciling dashboards instead of making decisions. They know it, and they resent it.
-* RevOps leaders feel caught: not senior enough to force behavioural change, too senior to keep accepting the status quo. They end up owning outcomes they don’t control.
+* RevOps leaders feel caught: not senior enough to force behavioral change, too senior to keep accepting the status quo. They end up owning outcomes they don’t control.
 
 ---
 
@@ -228,7 +228,7 @@ The emotional layer is what creates urgency. A rational pain can be tolerated in
 **Immature Scale-Up: Rational Pain**
 
 * CRM is a graveyard; key deals and contacts live in inboxes, personal spreadsheets, and WhatsApp threads.
-* No shared qualification method; everyone prioritises on gut feel and personal relationships.
+* No shared qualification method; everyone prioritizes on gut feel and personal relationships.
 * No codified ICP beyond rough heuristics ("they’re big and have budget"); no structured way to find in-market accounts or retrofit competitors’ unhappy customers.
 * Sales team already feels stretched on existing inbound; any uptick in top-of-funnel volume risks overwhelming capacity and collapsing conversion rates.
 * Marketing and sales have no SLA; leads fall into a void between handoff and follow-up.
@@ -237,17 +237,17 @@ The emotional layer is what creates urgency. A rational pain can be tolerated in
 
 * Founders and early salespeople know they’re running on instinct and hustle .  and they quietly know this stops working at some point. Naming it out loud feels like admitting failure.
 * There’s real anxiety about whether the next market will work, or whether the same five people will just be stretched thinner until someone quits or breaks.
-* When a deal is lost, the post-mortem is a conversation based on memory, not data. Nobody really knows why they win or lose. That uncertainty accumulates and becomes demoralising.
-* The leadership team that got the company to €15M feels the weight of needing to become a different kind of organisation, and not everyone is sure they know how, or whether they’ll still have a seat at the table when it does.
+* When a deal is lost, the post-mortem is a conversation based on memory, not data. Nobody really knows why they win or lose. That uncertainty accumulates and becomes demoralizing.
+* The leadership team that got the company to $15M feels the weight of needing to become a different kind of organization, and not everyone is sure they know how, or whether they’ll still have a seat at the table when it does.
 
-Add client-specific pains under each cluster as you hear them in transcripts.
+Add company-specific pains under each cluster as you hear them in transcripts.
 Quote exact phrases verbatim .  these are the words that go into copy and discovery questions:
-“forecast theatre”, “spreadsheet hell”, “data is a dumpster fire”, “I have to explain a miss I couldn’t predict”, “we’re always hiring instead of fixing”.
+“forecast theater”, “spreadsheet hell”, “data is a dumpster fire”, “I have to explain a miss I couldn’t predict”, “we’re always hiring instead of fixing”.
 
 ### **B3. I: Impact (expanded)**
 
 Impact describes the consequences of the pain: what solving it unlocks, and what staying stuck costs.
-**Rational impact** = business-level outcomes: pipeline recovered, CAC reduced, forecast accuracy improved, headcount avoided, NRR stabilised.
+**Rational impact** = business-level outcomes: pipeline recovered, CAC reduced, forecast accuracy improved, headcount avoided, NRR stabilized.
 **Emotional impact** = personal-level outcomes for the individual: recognition, relief, career safety, the ability to walk into a room with confidence again.
 Both matter. The rational case gets budget approval. The emotional case is why someone champions the project internally, pushes through internal resistance, and stays committed when it gets hard.
 
@@ -257,7 +257,7 @@ Both matter. The rational case gets budget approval. The emotional case is why s
 
 * Forecast accuracy moves from a ±30-40% guess to a credible band with clear confidence levels.
 * Pipeline leaks get mapped and fixed; recoverable revenue that was being silently lost becomes visible and actioned.
-* CAC payback stabilises; board conversations shift from “why is this getting worse” to “where should we invest next”.
+* CAC payback stabilizes; board conversations shift from “why is this getting worse” to “where should we invest next”.
 * Leadership time shifts from reconciliation to decision-making.
 
 **Generic: Emotional Impact**
@@ -285,15 +285,15 @@ Both matter. The rational case gets budget approval. The emotional case is why s
 
 **Large Scale-Up: Rational Impact**
 
-* Revenue stops leaking across the bowtie; left side and right side start reinforcing each other.
+* Revenue stops leaking across the pipeline; pipeline generation and pipeline conversion start reinforcing each other.
 * Cycle times shorten; cost-to-serve drops; each euro of new ARR is cheaper to acquire and retain than the last.
 * Forecast misses become recoverable exceptions instead of compounding crises.
-* The GTM system can actually capitalise on a strong product and strong market .  instead of undermining both.
+* The GTM system can actually capitalize on a strong product and strong market .  instead of undermining both.
 
 **Large Scale-Up: Emotional Impact**
 
 * The CRO stops spending their leadership capital on cross-functional arbitration and starts spending it on growth.
-* High performers who were quietly sceptical start believing the company can operate at the next level. Retention improves.
+* High performers who were quietly skeptical start believing the company can operate at the next level. Retention improves.
 * Leadership stops having two versions of reality .  the one they manage internally and the one they present externally. That psychological gap is eliminated.
 * The cost of inaction: talent that sees the dysfunction and stops believing in the fix walks out. The ones who stay get more cynical. Culture hardens around dysfunction.
 
@@ -310,7 +310,7 @@ Both matter. The rational case gets budget approval. The emotional case is why s
 
 * Founders and early commercial leaders stop feeling like they’re improvising. There’s a system they can trust and hand off to the next hire.
 * The next market bet is a calculated move, not a gamble. That confidence changes how they communicate it internally and to investors.
-* When a deal is lost, the post-mortem produces a learning, not a debate. That shift .  from memory to data .  is what makes a team feel like a real commercial organisation.
+* When a deal is lost, the post-mortem produces a learning, not a debate. That shift .  from memory to data .  is what makes a team feel like a real commercial organization.
 * The cost of inaction: the window for the new market closes while the team figures out the playbook. Competitors who moved earlier establish the narrative and the reference customers.
 
 Add concrete impact statements from transcripts as you hear them:
@@ -326,7 +326,7 @@ Add concrete impact statements from transcripts as you hear them:
 
 * Several portcos miss or sandbag in the same period.
 
-* Formal WbD / bowtie training is being rolled out; there is appetite for a consistent framework.
+* Formal revenue system training and standardization is being rolled out; there is appetite for a consistent framework.
 
 * New partners/LPs demand clearer GTM risk bands and efficiency narratives.
 
@@ -344,7 +344,7 @@ Add concrete impact statements from transcripts as you hear them:
 
 * Competitors stumble (bankruptcy, product issues), creating a short window to win their customers.
 
-* Investor or board pressure to professionalise GTM and clean up data before the next raise.
+* Investor or board pressure to professionalize GTM and clean up data before the next raise.
 
 Capture specific triggers here (e.g. "October miss put performance under the spotlight", "board asked us for forecast bands instead of a single number").
 
@@ -354,15 +354,15 @@ Capture specific triggers here (e.g. "October miss put performance under the spo
 
 **Generic D: Decision**
 
-* Treat revenue as a system, not a pipeline: install one revenue system (Room \+ One-Page Plan \+ cadence) with clear owners, definitions, and bands.
+* Treat revenue as a system, not a pipeline: install one revenue system (governance cadence + shared definitions + operating rhythm) with clear owners, measurable metrics, and forecast bands.
 
 **PE: Decision**
 
-* Standardise on a portfolio GTM pattern:
+* Standardize on a portfolio GTM pattern:
 
-  * Minimum viable data model and definitions (SPICED \+ bowtie).
+  * Minimum viable data model and definitions (SPICED + shared metrics).
 
-  * One Revenue Room and cadence per portco.
+  * One governance cadence and rhythm per portco (weekly/monthly reviews).
 
   * One way to talk about CAC/payback, NRR, and forecast bands.
 
@@ -370,11 +370,11 @@ Capture specific triggers here (e.g. "October miss put performance under the spo
 
 **Large Scale-Up: Decision**
 
-* Intentionally design the end-to-end journey and unify GTM motions under one architecture.
+* Intentionally design the end-to-end journey and unify GTM motions under one architecture (SPICED + shared metrics).
 
-* Establish a single Room where GTM and product leadership make decisions from the same view of risk and flow.
+* Establish a governance cadence where GTM and product leadership make decisions from the same view of risk, pipeline flow, and outcomes.
 
-* Use a One-Page Plan and cadence to turn strategy and experiments into weekly decisions.
+* Use an operating rhythm (weekly/monthly reviews) and a single source-of-truth dashboard to turn strategy and experiments into committed actions and decisions.
 
 **Immature Scale-Up: Decision**
 
@@ -422,7 +422,7 @@ See the ICP building methodology for how to produce these tiers.
 
 Use this as a **living document**. When you get transcripts or new insight:
 
-1. **Paste raw quotes** at the bottom under a heading like `New SPICED snippets: [Client/Prospect Name]`.
+1. **Paste raw quotes** at the bottom under a heading like `New SPICED snippets: [Prospect Name]`.
 
 2. Translate the best quotes into 1-2 line SPICED bullets under the correct cluster and letter.
 

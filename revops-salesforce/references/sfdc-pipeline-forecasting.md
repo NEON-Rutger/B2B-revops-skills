@@ -12,7 +12,7 @@
 
 ### Recommended B2B SaaS Stage Model
 
-> *Recommended benchmarks with client calibration. Replace with your historical stage-to-close conversion rates within 90 days of implementation. Baseline drawn from Clari (2024-2025) and industry consensus. Every organisation's deal progression differs materially; these are conversation starters, not mandates.*
+> *Recommended benchmarks for calibration. Replace with your historical stage-to-close conversion rates within 90 days of implementation. Baseline drawn from Clari (2024-2025) and industry consensus. Every organization's deal progression differs materially; these are conversation starters, not mandates.*
 
 | Stage | Probability | Forecast Category | Exit Criteria |
 |-------|------------|-------------------|---------------|
@@ -125,7 +125,7 @@ Salesforce's built-in enhanced pipeline view:
 
 ### Key CRM Analytics Dashboards
 
-1. **Pipeline Trending**: Weekly snapshot; visualise growth, conversion, leakage
+1. **Pipeline Trending**: Weekly snapshot; visualize growth, conversion, leakage
 2. **Cohort Performance**: Group deals by creation month; track conversion per cohort
 3. **Rep Performance Matrix**: Activity volume vs win rate scatter plot
 4. **Forecast Accuracy History**: Actual vs forecast by period; identify bias patterns
@@ -144,7 +144,7 @@ Forecast Accuracy = 1 - |Actual - Forecast| / Target
 | 50-69% | Poor | Process issue |
 | <50% | Broken | Fix data quality first |
 
-**Benchmark**: Best-in-class forecast accuracy is within 5% (top quartile of peer organisations). Median B2B SaaS forecast variance is 15-25% (Forrester, 2026). Teams using AI-driven forecasting report variance reduction from 30-40% to under 10% (Forrester, 2026).
+**Benchmark**: Best-in-class forecast accuracy is within 5% (top quartile of peer organizations). Median B2B SaaS forecast variance is 15-25% (Forrester, 2026). Teams using AI-driven forecasting report variance reduction from 30-40% to under 10% (Forrester, 2026).
 
 ### Snapshot Tracking
 

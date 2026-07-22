@@ -24,7 +24,7 @@ G2 ratings (July 2026): Glean 4.7/5 (162 reviews, Gartner Emerging Leader). Guru
 
 | Component | Recommended | Alternative | Price |
 |-----------|------------|-------------|-------|
-| Orchestration | LlamaIndex (retrieval-optimised) | LangChain (agent-optimised) | Free (open source) |
+| Orchestration | LlamaIndex (retrieval-optimized) | LangChain (agent-optimized) | Free (open source) |
 | Vector DB | Pinecone (managed) | Weaviate Cloud | Pinecone: $25-500/mo. Weaviate: $25-50/mo |
 | Embeddings | OpenAI text-embedding-3-small | N/A | $0.02/1M tokens |
 | Reranking | Cohere Rerank | LLM-based | $50-200/mo |
@@ -32,7 +32,7 @@ G2 ratings (July 2026): Glean 4.7/5 (162 reviews, Gartner Emerging Leader). Guru
 
 Total cost: $900-2,000/month + 2-4 weeks initial build + 2-4 hours/week maintenance.
 
-*When to pick this path:* Need proprietary retrieval logic. Engineering capacity available. Want to optimise chunking strategy for specific content. Data sensitivity requires full control.
+*When to pick this path:* Need proprietary retrieval logic. Engineering capacity available. Want to optimize chunking strategy for specific content. Data sensitivity requires full control.
 
 ## EU Stack. Compliance-First, Sovereign
 
@@ -42,8 +42,8 @@ The EU stack addresses GDPR, data residency, and works council requirements. Thi
 
 | Component | Recommended | Alternative | Price | Data residency |
 |-----------|------------|-------------|-------|---------------|
-| AI platform + knowledge folders | Langdock | N/A | €20/user/mo + usage | EU-hosted, GDPR-native |
-| Enterprise knowledge (M365 shops) | Microsoft Copilot + SharePoint | Google Vertex AI Search | Included in M365 | EU data centre available |
+| AI platform + knowledge folders | Langdock | N/A | $22/user/mo + usage | EU-hosted, GDPR-native |
+| Enterprise knowledge (M365 shops) | Microsoft Copilot + SharePoint | Google Vertex AI Search | Included in M365 | EU data center available |
 | Team knowledge base | Slite or Notion (with EU DPA) | Guru (with EU DPA) | $8-27/user/mo | US-hosted with DPA |
 
 *The honest gap:* There is no EU-native equivalent of Glean. Langdock comes closest for the AI layer but its semantic search is weaker than Glean's. For regulated industries (healthcare, finance, government), use the sovereign path below.
@@ -53,21 +53,21 @@ The EU stack addresses GDPR, data residency, and works council requirements. Thi
 | Component | Recommended | Alternative | Price | Data residency |
 |-----------|------------|-------------|-------|---------------|
 | Orchestration | LlamaIndex | LangChain | Free | Self-hosted (EU) |
-| Vector DB | Qdrant Cloud EU | Weaviate Cloud EU | Qdrant: €27-102/mo. Weaviate: €25-50/mo | EU cloud |
+| Vector DB | Qdrant Cloud EU | Weaviate Cloud EU | Qdrant: $30-112/mo. Weaviate: $27-55/mo | EU cloud |
 | Embeddings | Mistral embeddings (EU) | Local model (all-MiniLM) | Mistral: API pricing. Local: free | Mistral: EU. Local: on-premise |
 | Reranking | Jina Reranker (open source) | LLM-based | Free (self-hosted) | Self-hosted |
 | LLM | Mistral Large (EU) | Claude via Langdock (EU wrapper) | Per-token | EU-native |
 
-Total cost: €800-1,500/month + 2-4 weeks initial build + 2-4 hours/week maintenance.
+Total cost: $880-1,650/month + 2-4 weeks initial build + 2-4 hours/week maintenance.
 
 *When to pick this path:* Regulated industry. Data cannot leave EU borders. Legal/compliance team has specific data sovereignty requirements. Government or public sector contracts.
 
 ## Compliance Decision Tree
 
 ```
-Does client data include personal data under GDPR?
+Does your data include personal data under GDPR?
 ├── No → US stack is fine. Standard DPA with vendors.
-├── Yes → Is the client in a regulated industry?
+├── Yes → Is your organization in a regulated industry?
 │   ├── No → US tools with EU DPA acceptable for most use cases.
 │   │         Langdock as AI layer adds compliance comfort.
 │   │         Note: Schrems II requires supplementary safeguards and
@@ -85,11 +85,11 @@ Does client data include personal data under GDPR?
 
 | Stage | US recommendation | EU recommendation |
 |-------|-------------------|-------------------|
-| Seed/Build (€1-5M) | Notion + built-in AI | Notion with EU DPA, or manual |
-| Build/Scale (€5-15M) | Guru or Notion AI Agents | Langdock + Notion (EU DPA) |
-| Scale (€15-50M) | Custom RAG (LlamaIndex + Pinecone) or Glean | Custom RAG (LlamaIndex + Qdrant EU) or Langdock |
-| Expand (€50-100M) | Glean + custom RAG for proprietary data | Microsoft Copilot (EU DC) + custom RAG (Qdrant EU) |
-| Enterprise (€100M+) | Glean Enterprise | Aleph Alpha PhariaAI or Microsoft Copilot (EU DC) |
+| Seed/Build ($1-5M) | Notion + built-in AI | Notion with EU DPA, or manual |
+| Build/Scale ($5-15M) | Guru or Notion AI Agents | Langdock + Notion (EU DPA) |
+| Scale ($15-50M) | Custom RAG (LlamaIndex + Pinecone) or Glean | Custom RAG (LlamaIndex + Qdrant EU) or Langdock |
+| Expand ($50-100M) | Glean + custom RAG for proprietary data | Microsoft Copilot (EU DC) + custom RAG (Qdrant EU) |
+| Enterprise ($100M+) | Glean Enterprise | Aleph Alpha PhariaAI or Microsoft Copilot (EU DC) |
 
 ## Key Technical Insight
 
@@ -114,11 +114,6 @@ Semantic chunking outperforms naive chunking significantly (practice-based). A w
 
 *Gartner note:* No unified Magic Quadrant for knowledge management. Vendors appear across Insight Engines, KM Software, and Gen AI eMQ categories. Forrester Wave KM Q4 2024 names Atlassian (Confluence) as Leader.
 
-## Vault References
+## Related Resources
 
-For the full research behind these recommendations:
-- `Frameworks/AI-Use-Cases/ai-knowledge-stack-us-eu-reference.md`. Dual US/EU stack recommendation by stage
-- `Sources/Research/AI-Knowledge-Layer-Landscape-2025-2026.md`. Full vendor research (14 platforms, pricing, features, data residency)
-- `Sources/Research/AI-Knowledge-Layer-G2-Capterra-Reviews-2026-04-02.md`. Independent review platform data
-- Offering positioning reference (internal)
-- `references/ai-knowledge-stack-reference.md`. Condensed reference for skill use
+See `references/ai-knowledge-stack-reference.md` for the condensed quick-reference version.

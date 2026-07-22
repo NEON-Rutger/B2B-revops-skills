@@ -14,7 +14,6 @@ Every pull request must include:
    - A clear activation trigger (one sentence describing when Claude should load this skill)
    - A BOUNDARY statement that names at least two other skills it intentionally does not overlap with, and why
    - Concrete diagnostic questions or frameworks, not general advice
-   - British English throughout (organisation, colour, analyse, behaviour)
 
 2. **`references/` directory** (required if the skill cites external frameworks), One markdown file per framework or methodology cited, explaining what it is and how the skill uses it. Don't cite MEDDIC or SPICED without explaining how your skill interprets them.
 
@@ -25,15 +24,13 @@ Every pull request must include:
 - Skills that duplicate existing skills without a clear differentiation statement
 - Skills that give general advice without a diagnostic or implementation layer
 - Skills that require private data, proprietary frameworks, or external paid tools to function
-- Skills with Americanised spelling (realise → realize etc.)
-- AI tells: em-dashes used more than 4 times per skill, phrases like "game-changer", "dive deep", "leveraging synergies"
 
 ## Scope
 
-This repo covers the generic operational layer, frameworks any B2B revenue team can use. It is not the place for:
+This repo covers the generic operational layer: frameworks any B2B revenue team can use. It is not the place for:
 
 - Client-specific delivery skills
-- Skills requiring Neon Triforce IP or proprietary maturity models
+- Skills requiring proprietary maturity models or vendor-specific frameworks
 - Experimental or unvalidated frameworks
 
 ## Process
@@ -45,4 +42,4 @@ This repo covers the generic operational layer, frameworks any B2B revenue team 
 
 ## Questions
 
-Open a [Discussion](https://github.com/NEON-Rutger/B2B-revops-skills/discussions) before opening an issue for exploratory questions. Issues are for confirmed bugs or concrete skill proposals.
+Open a Discussion before opening an issue for exploratory questions. Issues are for confirmed bugs or concrete skill proposals.

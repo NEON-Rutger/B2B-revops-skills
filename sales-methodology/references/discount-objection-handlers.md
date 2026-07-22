@@ -22,10 +22,10 @@ Alternative: offer non-monetary concessions such as extended onboarding, additio
 
 Response: "Every customer's pricing reflects their specific commitment: term length, seat count, timing. I can't speak to other agreements, but I can build you a proposal that matches the value and commitment you're making. If you're looking for comparable economics, the path is typically [multi-year / volume commitment / prepay]."
 
-Never confirm or deny specific customer pricing. Confidentiality is non-negotiable and also your strongest defence.
+Never confirm or deny specific customer pricing. Confidentiality is non-negotiable and also your strongest defense.
 
-**"Our buying organisation expects standard pricing"**
+**"Our buying organization expects standard pricing"**
 
-Response: "We value your organisation's role. Let me understand: how many of your member companies are actively evaluating? What's the expected adoption timeline? We structure pricing based on actual committed volume rather than projected, which ensures every member gets fair terms tied to their specific configuration."
+Response: "We value your organization's role. Let me understand: how many of your member companies are actively evaluating? What's the expected adoption timeline? We structure pricing based on actual committed volume rather than projected, which ensures every member gets fair terms tied to their specific configuration."
 
 For GPO/consortium handling framework (admin fees, volume tiers, negotiation rules), see the pricing-strategy skill.

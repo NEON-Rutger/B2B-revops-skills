@@ -10,18 +10,18 @@ All figures in this reference carry explicit source attribution. Numbers without
 
 **Median buying committee size: 11 stakeholders**
 - Source: The Starr Conspiracy, B2B Buying Committee Benchmarks 2025, page 1
-- Sample: 200+ B2B tech companies, €100K+ ACV deals
+- Sample: 200+ B2B tech companies, $100K+ ACV deals
 - Confidence: High
 
 **Range: 5-16 stakeholders across up to 4 functions**
 - Source: Gartner B2B Buying Research, 2024
 - Confidence: High
 
-**Mega-deals (>€1M ACV): 14-23 stakeholders**
+**Mega-deals (>$1M ACV): 14-23 stakeholders**
 - Source: The Starr Conspiracy, 2024 Benchmarks (top 10% of deals)
 - Confidence: Medium (smaller sample)
 
-**Enterprise deals (>€100K ACV) require median 36 touchpoints to close**
+**Enterprise deals (>$100K ACV) require median 36 touchpoints to close**
 - Source: The Starr Conspiracy, 2024 Benchmarks, Deal Duration Study
 - Confidence: High
 - Note: "Touchpoints" include interactions across buying group (meetings, emails, content, demos across multiple stakeholders)
@@ -38,7 +38,7 @@ All figures in this reference carry explicit source attribution. Numbers without
 
 **67% of the purchasing journey occurs before sales engagement**
 - Source: Forrester, 2023 (cited in Starr Conspiracy, 2024; original Forrester report not directly accessible)
-- Confidence: Medium-High (Forrester source; widely cited; consistent with observed buyer behaviour)
+- Confidence: Medium-High (Forrester source; widely cited; consistent with observed buyer behavior)
 - Implication: Marketing's role in early-stage engagement is critical
 
 **Average 27 interactions across buying group members (entire cycle)**
@@ -76,7 +76,7 @@ All figures in this reference carry explicit source attribution. Numbers without
 
 ## Sales Cycle and Time-to-Close Benchmarks
 
-**Median average cycle: 11.5 months for deals >€100K ACV**
+**Median average cycle: 11.5 months for deals >$100K ACV**
 - Source: The Starr Conspiracy, 2024 Benchmarks
 - Confidence: High
 - Note: Includes all phases from first contact to close; global data
@@ -88,22 +88,22 @@ All figures in this reference carry explicit source attribution. Numbers without
 
 **ABM-influenced deals close 234% faster than non-ABM baseline**
 - Source: Forrester, 2026 ABM Research (cited by Demandbase, Motion ABX)
-- Confidence: Medium (Forrester source beyond verification window; based on early-adopter data; may not reflect average programmes)
+- Confidence: Medium (Forrester source beyond verification window; based on early-adopter data; may not reflect average programs)
 
-## ABM Programme Performance Benchmarks
+## ABM Program Performance Benchmarks
 
 ### Return on Investment
 
-**Top-performing ABM programmes: 7:1 ROI**
+**Top-performing ABM programs: 7:1 ROI**
 - Source: TOPO, 2024 ABM Research
 - Confidence: Low-Medium (TOPO source no longer accessible; top quartile only, not average; treat as directional)
 
-**Mature ABM programmes: 5-9x ROI**
+**Mature ABM programs: 5-9x ROI**
 - Source: Multiple sources (Demandbase, 6sense, ABMLA)
 - Coupled with: 200% larger deal sizes
 - Confidence: High (cross-validated)
 
-**Overall average across programmes: 3:1 ROI**
+**Overall average across programs: 3:1 ROI**
 - Source: Composite of Forrester, Demandbase, HubSpot research
 - Confidence: Medium (may vary by TAM model and maturity)
 
@@ -138,7 +138,7 @@ All figures in this reference carry explicit source attribution. Numbers without
 - Source: Multiple sources (Forrester 2026, Demandbase 2024)
 - Confidence: High
 
-### Programme Adoption and Maturity
+### Program Adoption and Maturity
 
 **76% of B2B companies have adopted or are testing ABM (2025)**
 - Source: Multiple sources cited in "30 Eye-Opening ABM Statistics" (source article not directly accessible)
@@ -151,7 +151,7 @@ All figures in this reference carry explicit source attribution. Numbers without
 - Confidence: High
 - Implication: Most ABM teams still carry demand-generation legacy metrics
 
-**Only 13% of ABM programmes report closed-won revenue to leadership**
+**Only 13% of ABM programs report closed-won revenue to leadership**
 - Source: 6sense, 2026 Research
 - Confidence: High
 - Red flag: Lack of revenue attribution closes ABM funding
@@ -165,11 +165,11 @@ All figures in this reference carry explicit source attribution. Numbers without
 
 ### ITSMA / Momentum Maturity Benchmarks
 
-**Only 17% of ABM programmes are fully embedded as foundational pillar**
+**Only 17% of ABM programs are fully embedded as foundational pillar**
 - Source: ITSMA / ABMLA, Moving to ABM Maturity Benchmark Report
 - Confidence: High
 
-**Positive correlation between ABM budget size and programme maturity**
+**Positive correlation between ABM budget size and program maturity**
 - Source: ITSMA, 2019-2024 benchmark reports
 - Confidence: High
 - Implication: Larger investment enables higher maturity
@@ -252,7 +252,7 @@ All figures in this reference carry explicit source attribution. Numbers without
 ## Slippage Benchmarks
 
 **Current market slippage rate: 36% of pipeline deals slip**
-- Source: Ebsta / Pavilion 2025 Pipeline Research (source organisations confirmed; full report not directly accessible)
+- Source: Ebsta / Pavilion 2025 Pipeline Research (source organizations confirmed; full report not directly accessible)
 - Confidence: Medium (widely cited benchmark; use for calibration only; validate against own forecast history)
 - Implication: Apply 0.64x multiplier to Best Case forecast; 36% of committed deals will slip to next period
 
@@ -271,7 +271,7 @@ These are demand-generation metrics; included for context when bridging from ABM
 - Source: Pavilion, Unit Economics standard
 - Confidence: High
 
-**Example:** A €15M ARR company with €6,421 CAC and €46,429 LTV achieves 7.23x LTV:CAC (healthy).
+**Example:** A $15M ARR company with $6,421 CAC and $46,429 LTV achieves 7.23x LTV:CAC (healthy).
 
 ## Practitioner Estimates (Flagged)
 
@@ -312,7 +312,7 @@ The following figures are based on practitioner case studies or extrapolated fro
 - Practitioner case studies cited in trade publications (limited samples; treat as directional)
 
 ### Low-Confidence / Practitioner-Estimated
-- Individual company case studies (small sample, not generalised)
+- Individual company case studies (small sample, not generalized)
 - Proprietary internal research without third-party audit
 - Ranges without source attribution
 
@@ -324,10 +324,10 @@ The following figures are based on practitioner case studies or extrapolated fro
 - Calibrating your engagement scoring model (comparison to industry norms)
 - Setting handover thresholds (what is healthy acceptance rate?)
 - Board presentations (providing industry context)
-- Diagnosing ABM programme health (are our conversion rates in-line?)
+- Diagnosing ABM program health (are our conversion rates in-line?)
 
 **Do NOT use for:**
-- Absolute performance targets (your programme is unique; benchmark is average)
+- Absolute performance targets (your program is unique; benchmark is average)
 - Forecasting your specific results (too many variables)
 - Rejecting your own data (collect 2-3 months of data before assuming benchmark is right)
 

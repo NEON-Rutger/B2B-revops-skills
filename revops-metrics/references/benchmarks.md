@@ -1,8 +1,8 @@
 # Revenue Metrics Benchmark Reference
 
-On-demand reference for the revops-metrics skill. Use these to calibrate dashboard thresholds and to quantify the gap when a client's number is off. Sibling file: the sales-methodology benchmarks reference covers stage-skip discipline and negotiation timing. This file covers seller performance, stakeholder coverage, cycle timing, pipeline composition, and AI impact, framed for dashboard calibration.
+On-demand reference for the revops-metrics skill. Use these to calibrate dashboard thresholds and to quantify the gap when your numbers are off. Sibling file: the sales-methodology benchmarks reference covers stage-skip discipline and negotiation timing. This file covers seller performance, stakeholder coverage, cycle timing, pipeline composition, and AI impact, framed for dashboard calibration.
 
-Every figure here is a starting point. Calibrate to the client's stage, ACV, motion, and market before quoting it as a target.
+Every figure here is a starting point. Calibrate to your company's stage, ACV, motion, and market before quoting it as a target.
 
 ## 1. Seller performance
 
@@ -45,7 +45,7 @@ Calibrate absolute cycle length by segment (SMB under 30 days, mid-market 60 to 
 
 ## 4. Pipeline composition
 
-Healthy composition at maturity (roughly €25M ARR and above):
+Healthy composition at maturity (roughly $25M ARR and above):
 
 | Component | Healthy range |
 |---|---|
@@ -54,11 +54,11 @@ Healthy composition at maturity (roughly €25M ARR and above):
 | GRR | Over 90% |
 | Pipeline coverage | 3.0x minimum, 3.5 to 4.0x healthy |
 
-If expansion is under 20% of new ARR, the client is leaving money on the table. If new business is over 70%, the client is dangerously acquisition-dependent. Above 5x coverage usually signals a qualification problem, not abundance.
+If expansion is under 20% of new ARR, you are leaving money on the table. If new business is over 70%, you are dangerously acquisition-dependent. Above 5x coverage usually signals a qualification problem, not abundance.
 
 ## 5. AI impact metrics
 
-Where AI is measurably moving GTM numbers, for calibrating AI-native and AI-enabled client dashboards.
+Where AI is measurably moving GTM numbers, for calibrating AI-native and AI-enabled company dashboards.
 
 | Metric | Value | Source |
 |---|---|---|
@@ -75,11 +75,11 @@ For AI-native products, shift the leading-indicator tile from pipeline velocity 
 ## How to use this reference
 
 1. Pull the relevant benchmark for the metric that is off.
-2. State the gap in the client's own numbers: "your win rate is 18% against a 25 to 35% benchmark for your segment; that is the gap we are closing."
+2. State the gap in your own numbers: "your win rate is 18% against a 25 to 35% benchmark for your segment; that is the gap we are closing."
 3. Use the gap to size the cost of inaction in the proposal.
 
 ## Sources and caveat
 
 Compiled from Ebsta / Pavilion B2B Sales Benchmark analysis (win rate by stakeholder count, won-versus-lost cycle timing, momentum decay), the Fullcast 2026 GTM Benchmarks (seller performance, routing, comp, AI impact), and the Kyle Norton Revenue Leadership Podcast E60 to E64 (Owner.com, Datarails, Crescendo cases). Figures are reconciled to the Fullcast/Pavilion 2026 benchmark set.
 
-Caveat: Fullcast figures are self-reported from the vendor's own benchmark report; use directionally, not as independent third-party research. Where a client decision hinges on an exact published figure, verify against the primary Ebsta/Pavilion or Fullcast report before quoting it.
+Caveat: Fullcast figures are self-reported from the vendor's own benchmark report; use directionally, not as independent third-party research. Where a decision hinges on an exact published figure, verify against the primary Ebsta/Pavilion or Fullcast report before quoting it.

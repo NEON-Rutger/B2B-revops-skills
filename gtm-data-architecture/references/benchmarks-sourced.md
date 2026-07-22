@@ -57,7 +57,7 @@ This document provides full sourcing for every quantitative benchmark referenced
 - Source: Precept AI (2026)
 
 **Cost of poor data quality**
-- "Gartner estimates that poor data hygiene costs organisations an average of $12.9 million per year."
+- "Gartner estimates that poor data hygiene costs organizations an average of $12.9 million per year."
 - Source: Gartner (cited 2026)
 
 **AI-ready data gap**
@@ -97,7 +97,7 @@ This document provides full sourcing for every quantitative benchmark referenced
 ## Business Impact: Speed-to-Lead Baseline
 
 **Handoff speed improvement**
-- "Standardised handoff protocols improve implementation success by ~45% and cut first-year churn by 35-40%."
+- "Standardized handoff protocols improve implementation success by ~45% and cut first-year churn by 35-40%."
 - Source: Rework (2025)
 
 **Deal cycle impact from AI adoption**
@@ -115,4 +115,4 @@ All numbers in this document:
 4. Note when a benchmark is based on self-reported vendor data vs third-party research.
 5. Include cautionary context where applicable (e.g., "self-reported" for vendor-sourced ROI).
 
-For client-facing use: cite the source and year inline. Example: "Hightouch synced 2.17 trillion records in 2026 (Hightouch, 2026)." This provides credibility and allows clients to verify.
+When presenting to stakeholders: cite the source and year inline. Example: "Hightouch synced 2.17 trillion records in 2026 (Hightouch, 2026)." This provides credibility and allows stakeholders to verify.

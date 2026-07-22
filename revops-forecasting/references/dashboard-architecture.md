@@ -51,7 +51,7 @@ Data quality score, stage conversion rates (funnel), pipeline velocity (days per
 
 ## Pipeline Quality Score
 
-Six dimensions based on Gong and Ebsta research (300+ signals, 655K+ analysed opportunities):
+Six dimensions based on Gong and Ebsta research (300+ signals, 655K+ analyzed opportunities):
 
 | Dimension | What to Measure | Research Backing |
 |-----------|----------------|-----------------|
@@ -64,7 +64,7 @@ Six dimensions based on Gong and Ebsta research (300+ signals, 655K+ analysed op
 
 *Operational template: adapt weights to your GTM process. Track trend over time, not just absolute score. Deals declining on 2+ dimensions: flag for immediate deal review.*
 
-**Big Deal Alerts:** Trigger when deal value exceeds threshold (e.g., >€50K mid-market; >€200K enterprise), advances to Qualification+, or close date moves into current quarter. Recipients: VP Sales, CRO, RevOps.
+**Big Deal Alerts:** Trigger when deal value exceeds threshold (e.g., >$50K mid-market; >$200K enterprise), advances to Qualification+, or close date moves into current quarter. Recipients: VP Sales, CRO, RevOps.
 
 ## Pipeline Intelligence Signals
 
@@ -83,13 +83,13 @@ Six dimensions based on Gong and Ebsta research (300+ signals, 655K+ analysed op
 
 Track weekly changes to understand momentum:
 ```
-Starting Pipeline: €4.2M
-  + Created:  +€800K
-  + Advanced: €1.1M moved forward
-  - Pushed:   -€300K pushed to next quarter
-  - Lost:     -€450K closed lost
-  - Won:      -€600K closed won
-= Ending Pipeline: €4.45M
+Starting Pipeline: $4.2M
+  + Created:  +$800K
+  + Advanced: $1.1M moved forward
+  - Pushed:   -$300K pushed to next quarter
+  - Lost:     -$450K closed lost
+  - Won:      -$600K closed won
+= Ending Pipeline: $4.45M
 ```
 
 This waterfall, reviewed weekly, is the single most powerful pipeline visibility tool.

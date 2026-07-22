@@ -1,10 +1,10 @@
-# ABM Measurement Theatre Diagnostic
+# ABM Measurement Theater Diagnostic
 
-## Introduction: How to Detect When ABM is Working vs. When it's Theatre
+## Introduction: How to Detect When ABM is Working vs. When it's Theater
 
-ABM measurement theatre occurs when dashboards look good, dashboards show activity, but pipeline does not appear and revenue does not follow. This diagnostic reveals the gap.
+ABM measurement theater occurs when dashboards look good, dashboards show activity, but pipeline does not appear and revenue does not follow. This diagnostic reveals the gap.
 
-Answer these 10 questions honestly. The pattern of answers will expose whether your ABM programme is genuine or theatre.
+Answer these 10 questions honestly. The pattern of answers will expose whether your ABM program is genuine or theater.
 
 ---
 
@@ -12,11 +12,11 @@ Answer these 10 questions honestly. The pattern of answers will expose whether y
 
 ### Question 1: Can You Link a Closed-Won Deal Back to the Account You Targeted?
 
-**What this tests:** Revenue attribution. Theatre programmes report engagement metrics but cannot close the feedback loop.
+**What this tests:** Revenue attribution. Theater programs report engagement metrics but cannot close the feedback loop.
 
 **Answer honestly:**
 
-A) Yes. We tag every opportunity with its source account. When the deal closes, we calculate: "This €500K deal came from Account X, which we identified and engaged through ABM."
+A) Yes. We tag every opportunity with its source account. When the deal closes, we calculate: "This $500K deal came from Account X, which we identified and engaged through ABM."
 
 B) Partially. We can link some opportunities to target accounts, but not all. Many deals lack clear ABM attribution.
 
@@ -25,14 +25,14 @@ C) No. We report engagement and pipeline, but we do not actually know how much r
 **Diagnosis:**
 
 - **A:** You have genuine revenue attribution. You can prove ABM ROI to leadership. Continue.
-- **B:** You have partial visibility. You are probably 50-60% of the way to true ABM measurement. Next step: standardise opportunity tagging. Require every sales team member to tag the source account at opportunity creation.
-- **C:** You are running theatre. You report engagement metrics (dashboards, handovers, pipeline) but cannot close the revenue loop. Fix this first before claiming ABM success. Implement account-level revenue tracking immediately.
+- **B:** You have partial visibility. You are probably 50-60% of the way to true ABM measurement. Next step: standardize opportunity tagging. Require every sales team member to tag the source account at opportunity creation.
+- **C:** You are running theater. You report engagement metrics (dashboards, handovers, pipeline) but cannot close the revenue loop. Fix this first before claiming ABM success. Implement account-level revenue tracking immediately.
 
 ---
 
 ### Question 2: Do You Know the Economic Buyer at Your Top 10 Target Accounts?
 
-**What this tests:** Buying group visibility. Theatre programmes measure activity breadth but do not have buying group depth.
+**What this tests:** Buying group visibility. Theater programs measure activity breadth but do not have buying group depth.
 
 **Answer honestly:**
 
@@ -45,14 +45,14 @@ C) No. We know we should know, but we have not invested in prospecting for the E
 **Diagnosis:**
 
 - **A:** You have real buying group visibility at strategic accounts. You understand their structure and can plan multi-threading. This is ABM discipline.
-- **B:** You are partway there. Prioritise the 3-4 accounts where the Economic Buyer is missing. Invest this week in identifying and reaching that contact. Your handover quality will improve immediately.
-- **C:** You are running theatre. You are measuring activity (responses from non-buyers) instead of readiness (engagement from decision-makers). Stop reporting "engaged accounts" until you have identified the Economic Buyer at account level. Redirect resources to buying group mapping.
+- **B:** You are partway there. Prioritize the 3-4 accounts where the Economic Buyer is missing. Invest this week in identifying and reaching that contact. Your handover quality will improve immediately.
+- **C:** You are running theater. You are measuring activity (responses from non-buyers) instead of readiness (engagement from decision-makers). Stop reporting "engaged accounts" until you have identified the Economic Buyer at account level. Redirect resources to buying group mapping.
 
 ---
 
 ### Question 3: How Many Accounts Have You Handed to Sales, and What Percentage Did Sales Accept?
 
-**What this tests:** Handover discipline and criteria quality. Theatre programmes hand garbage; real programmes hand with discipline.
+**What this tests:** Handover discipline and criteria quality. Theater programs hand garbage; real programs hand with discipline.
 
 **Answer honestly:**
 
@@ -65,18 +65,18 @@ C) We hand accounts continuously (50+) but get weak feedback from sales. We do n
 **Diagnosis:**
 
 - **A:** You have handover discipline. Sales trusts your handovers (high acceptance rate). Your criteria are calibrated. This is real ABM.
-- **B:** You are partway there. Formalise the rejection reason codes. Ask sales to provide feedback every time they reject. Build feedback loops: if >50% are rejected for "low intent," your engagement score threshold is too low. If >50% are rejected for "buying group gap," your prospecting is weak. Adjust and retest.
-- **C:** You are running theatre. You are handing accounts but not measuring whether sales acts on them. Without acceptance-rate tracking, you cannot tell if you are helping or hindering. Implement formal handover SLA (48h response, documented reason codes). Measure acceptance rate monthly. If <40%, your criteria are too loose; tighten them.
+- **B:** You are partway there. Formalize the rejection reason codes. Ask sales to provide feedback every time they reject. Build feedback loops: if >50% are rejected for "low intent," your engagement score threshold is too low. If >50% are rejected for "buying group gap," your prospecting is weak. Adjust and retest.
+- **C:** You are running theater. You are handing accounts but not measuring whether sales acts on them. Without acceptance-rate tracking, you cannot tell if you are helping or hindering. Implement formal handover SLA (48h response, documented reason codes). Measure acceptance rate monthly. If <40%, your criteria are too loose; tighten them.
 
 ---
 
 ### Question 4: If Leadership Asked "How Much Revenue Did ABM Generate This Quarter?" Could You Answer in 5 Minutes?
 
-**What this tests:** Revenue attribution readiness. Real programmes can answer this quickly. Theatre cannot.
+**What this tests:** Revenue attribution readiness. Real programs can answer this quickly. Theater cannot.
 
 **Answer honestly:**
 
-A) Yes. I can answer in 2 minutes: "ABM-sourced accounts generated €1.2M pipeline this quarter, of which €340K closed. 3.2:1 ROI at current ABM spend."
+A) Yes. I can answer in 2 minutes: "ABM-sourced accounts generated $1.2M pipeline this quarter, of which $340K closed. 3.2:1 ROI at current ABM spend."
 
 B) Partially. I can estimate, but I would need to do some digging (60-90 minutes of analysis). I would pull opportunity records, filter by source account, calculate closed revenue, estimate cost.
 
@@ -86,13 +86,13 @@ C) No. I cannot answer at all. I report engagement metrics (accounts reached, ha
 
 - **A:** You have genuine revenue attribution infrastructure. You can report ROI to leadership. This is real ABM measurement.
 - **B:** You have most of the pieces. You are probably 70-80% of the way. Automate the revenue calculation: tag every opportunity with "ABM Source: Yes/No" at creation. Add an automated dashboard that pulls closed-won revenue from ABM-tagged opps monthly. Next month, you can answer the question in 2 minutes.
-- **C:** You are running theatre. Without revenue attribution, you cannot justify ABM spend to leadership. Every time budget season arrives, CFO will cut you. Implement account-level revenue tagging NOW (this week, not next quarter). It is the most critical fix you can make.
+- **C:** You are running theater. Without revenue attribution, you cannot justify ABM spend to leadership. Every time budget season arrives, CFO will cut you. Implement account-level revenue tagging NOW (this week, not next quarter). It is the most critical fix you can make.
 
 ---
 
 ### Question 5: Have You Observed a Difference in Sales Cycle Length Between ABM-Sourced Deals and Non-ABM Deals?
 
-**What this tests:** Deal velocity. Real ABM shortens cycles; theatre does not.
+**What this tests:** Deal velocity. Real ABM shortens cycles; theater does not.
 
 **Answer honestly:**
 
@@ -112,7 +112,7 @@ C) No difference observed. ABM deals take the same time to close as non-ABM deal
 
 ### Question 6: How Do You Distinguish Between an Account That is Researching Solutions (Intent Signal) vs. an Account That is Actually Going to Buy (Buying Group + Engagement)?
 
-**What this tests:** Engagement signal quality vs. intent data confusion. Theatre programmes conflate external buying signals with internal engagement.
+**What this tests:** Engagement signal quality vs. intent data confusion. Theater programs conflate external buying signals with internal engagement.
 
 **Answer honestly:**
 
@@ -126,13 +126,13 @@ C) We conflate them. If Bombora shows they are researching infrastructure, or we
 
 - **A:** You understand the distinction. Intent data gets accounts on your TAM list and flags them for nurture. Engagement data (your own signals) determines readiness. This is real ABM discipline.
 - **B:** You are partway there. Your handover criteria are probably too loose. Tighten: require BOTH external intent signal (to justify focus on account) AND internal engagement (to confirm they are evaluating your solution). Test this for 30 days and measure sales acceptance rate. It should improve.
-- **C:** You are running theatre. You are conflating "the market is buying" with "this account is buying from us." These are different. An account showing intent signals (researching category) is not the same as an account showing engagement signals (reading your content, taking your demo, replying to your emails). You will hand lots of accounts to sales, sales will reject most of them, and leadership will wonder why ABM is not working. Fix by implementing a two-gate process: (1) Intent signal = gets account on TAM list + nurture cadence. (2) Engagement signal = gets account flagged for sales handover.
+- **C:** You are running theater. You are conflating "the market is buying" with "this account is buying from us." These are different. An account showing intent signals (researching category) is not the same as an account showing engagement signals (reading your content, taking your demo, replying to your emails). You will hand lots of accounts to sales, sales will reject most of them, and leadership will wonder why ABM is not working. Fix by implementing a two-gate process: (1) Intent signal = gets account on TAM list + nurture cadence. (2) Engagement signal = gets account flagged for sales handover.
 
 ---
 
 ### Question 7: What Percentage of Your Target Accounts Are Currently Being Actively Nurtured by Marketing?
 
-**What this tests:** Coverage discipline. Theatre programmes nurture everyone; real programmes concentrate resources.
+**What this tests:** Coverage discipline. Theater programs nurture everyone; real programs concentrate resources.
 
 **Answer honestly:**
 
@@ -144,7 +144,7 @@ C) We try to reach 100% of our TAM with active campaigns. We run broad nurture s
 
 **Diagnosis:**
 
-- **A:** You understand ABM concentration. You cannot nurture 500 accounts with hand-crafted campaigns; you would need a team of 50. By concentrating on 40-50%, you can run personalised, relevant campaigns. This is real ABM strategy.
+- **A:** You understand ABM concentration. You cannot nurture 500 accounts with hand-crafted campaigns; you would need a team of 50. By concentrating on 40-50%, you can run personalized, relevant campaigns. This is real ABM strategy.
 - **B:** You are spreading resources too thin. Your campaigns are generic, which means engagement signals are weak, handover criteria are loose, and sales sees noise. Reduce your active nurture set to 30-40% of TAM. Concentrate resources. Run targeted campaigns. Measure engagement. Your handover quality will improve and sales acceptance will rise.
 - **C:** You are running volume-based demand generation, not ABM. You are calling it ABM because you have a target account list, but your execution is broadcast. This is the most common mistake: companies create a TAM list (good) and then send mass campaigns (bad). Real ABM = named account + personal engagement + buying group focus. Right-size your active nurture set to 20-30% of TAM. Concentrate. Then call it ABM.
 
@@ -152,7 +152,7 @@ C) We try to reach 100% of our TAM with active campaigns. We run broad nurture s
 
 ### Question 8: Can You Name the Champion (Internal Seller) at 5+ of Your Top 20 Target Accounts?
 
-**What this tests:** Buying group depth and relationship development. Theatre programmes measure reach; real programmes build champions.
+**What this tests:** Buying group depth and relationship development. Theater programs measure reach; real programs build champions.
 
 **Answer honestly:**
 
@@ -166,13 +166,13 @@ C) No. I can name lots of engaged contacts, but I cannot distinguish who is a re
 
 - **A:** You have real buying group development. Champions accelerate cycles and increase win rates. You are doing real ABM.
 - **B:** You are identifying people but not validating them as champions. Next step: Use the three-question test for each contact: (1) Can this person set up a meeting with the Economic Buyer without you? (2) Will they actively sell internally (introduce you to other stakeholders, advocate in meetings without you present)? (3) Is their success tied to your solution? If all three are yes, they are a champion. Retest your 5 candidates. You probably have 2-3 real champions.
-- **C:** You are measuring activity (contact engagement) but not influence (champion status). You are handing people to sales and hoping they influence the deal; they often do not because they lack power or willingness. Invest in champion validation. Ask engaged contacts the three questions above. Arm real champions with talking points and business cases. De-prioritise non-champions or keep them in nurture. This will improve your handover quality and win rates.
+- **C:** You are measuring activity (contact engagement) but not influence (champion status). You are handing people to sales and hoping they influence the deal; they often do not because they lack power or willingness. Invest in champion validation. Ask engaged contacts the three questions above. Arm real champions with talking points and business cases. De-prioritize non-champions or keep them in nurture. This will improve your handover quality and win rates.
 
 ---
 
 ### Question 9: How Often Does Your Sales Team Complain About the Accounts Marketing Hands Them?
 
-**What this tests:** Sales partnership and trust. Real ABM builds sales trust; theatre destroys it.
+**What this tests:** Sales partnership and trust. Real ABM builds sales trust; theater destroys it.
 
 **Answer honestly:**
 
@@ -185,14 +185,14 @@ C) Constantly. Sales views ABM handovers as noise. They often say: "We do not ne
 **Diagnosis:**
 
 - **A:** You have sales alignment. Sales trusts your account selection and handover discipline. This is real ABM. Maintain it by continuing to gather sales feedback on handovers and adjust your criteria accordingly.
-- **B:** You have partial alignment. Sales sees value in some handovers but not all. Next step: Analyse which handovers were accepted vs. rejected. What was different? Were rejected accounts lower-scoring? Lower buying group coverage? Wrong vertical? Use the patterns to tighten your criteria. Then get sales leadership to agree to the new criteria in writing. Next handover: "We tightened criteria; expect higher quality." Sales perception will shift.
-- **C:** You have lost sales trust. Sales views ABM as theatre. You are probably handing low-quality accounts (weak engagement signals, incomplete buying groups) or mass-handing (volume over quality). Sales response: "Just send us leads; we do not want your curated lists." This is a red flag for the entire programme. Recovery path: (1) Stop all handovers for 30 days. (2) Re-calibrate your engagement scoring and buying group requirements. (3) Only hand the top 5 accounts you are most confident about. (4) Get detailed feedback from sales on those 5: Why were they accepted? What was done? Did they create opportunities? (5) Use that feedback to rebuild trust with tighter, higher-quality handovers. Slow and steady.
+- **B:** You have partial alignment. Sales sees value in some handovers but not all. Next step: Analyze which handovers were accepted vs. rejected. What was different? Were rejected accounts lower-scoring? Lower buying group coverage? Wrong vertical? Use the patterns to tighten your criteria. Then get sales leadership to agree to the new criteria in writing. Next handover: "We tightened criteria; expect higher quality." Sales perception will shift.
+- **C:** You have lost sales trust. Sales views ABM as theater. You are probably handing low-quality accounts (weak engagement signals, incomplete buying groups) or mass-handing (volume over quality). Sales response: "Just send us leads; we do not want your curated lists." This is a red flag for the entire program. Recovery path: (1) Stop all handovers for 30 days. (2) Re-calibrate your engagement scoring and buying group requirements. (3) Only hand the top 5 accounts you are most confident about. (4) Get detailed feedback from sales on those 5: Why were they accepted? What was done? Did they create opportunities? (5) Use that feedback to rebuild trust with tighter, higher-quality handovers. Slow and steady.
 
 ---
 
-### Question 10: If You Had to Write a One-Sentence Summary of Your ABM Programme's Value, What Would You Write?
+### Question 10: If You Had to Write a One-Sentence Summary of Your ABM Program's Value, What Would You Write?
 
-**What this tests:** Clarity of value proposition. Real programmes have a clear story. Theatre does not.
+**What this tests:** Clarity of value proposition. Real programs have a clear story. Theater does not.
 
 **Answer honestly:**
 
@@ -200,13 +200,13 @@ A) "We concentrate marketing resources on 200 high-value target accounts, engage
 
 B) "We have identified a target account list and run campaigns against them. We track engagement and hand engaged accounts to sales. So far results are mixed; we are still calibrating."
 
-C) "We have implemented an ABM programme that tracks impressions, clicks, and content downloads across our target accounts and reports to leadership monthly."
+C) "We have implemented an ABM program that tracks impressions, clicks, and content downloads across our target accounts and reports to leadership monthly."
 
 **Diagnosis:**
 
 - **A:** You have a clear, measurable value story. You can tell it to leadership, sales, and your own team. You know what you are trying to achieve (shortened cycles, higher win rates, buying group engagement) and you are measuring progress. This is real ABM.
-- **B:** You are in calibration mode. This is okay for months 1-3. But by month 4, you should move from "testing" to "measuring and optimising." Use the feedback from sales, deals that closed, and deals that did not to refine your process. Then move to answer A.
-- **C:** You are reporting activity metrics (impressions, clicks) instead of business outcomes (pipeline, revenue, cycle time). This is the definition of theatre. Reframe your narrative: stop reporting activity, start reporting outcomes. What is the business impact of ABM? (1) Faster cycles? Measure it. (2) Larger deals? Measure it. (3) Higher win rates? Measure it. (4) More pipeline? Measure it. Pick one metric and own it.
+- **B:** You are in calibration mode. This is okay for months 1-3. But by month 4, you should move from "testing" to "measuring and optimizing." Use the feedback from sales, deals that closed, and deals that did not to refine your process. Then move to answer A.
+- **C:** You are reporting activity metrics (impressions, clicks) instead of business outcomes (pipeline, revenue, cycle time). This is the definition of theater. Reframe your narrative: stop reporting activity, start reporting outcomes. What is the business impact of ABM? (1) Faster cycles? Measure it. (2) Larger deals? Measure it. (3) Higher win rates? Measure it. (4) More pipeline? Measure it. Pick one metric and own it.
 
 ---
 
@@ -228,22 +228,22 @@ For each question, assign points:
 
 ```
 27-30 points:  REAL ABM. You have discipline, measurement, and results.
-                Continue. Optimise. Report ROI to leadership.
+                Continue. Optimize. Report ROI to leadership.
 
 20-26 points:  MOSTLY REAL. You have the fundamentals but need refinement.
                 Identify the areas scoring 0-1 points and fix them.
                 Re-test in 30 days.
 
-15-19 points:  HYBRID (Theatre with Some Reality). You have some good
-                practices but also significant gaps. Prioritise the
+15-19 points:  HYBRID (Theater with Some Reality). You have some good
+                practices but also significant gaps. Prioritize the
                 gaps. You have 60 days to move to the 20+ range.
 
-10-14 points:  MOSTLY THEATRE. You have activity and engagement metrics
+10-14 points:  MOSTLY THEATER. You have activity and engagement metrics
                 but weak revenue linkage and sales alignment.
                 Reset: step back, tighten criteria, rebuild from
                 foundation.
 
-0-9 points:    PURE THEATRE. You are running broad campaigns under the
+0-9 points:    PURE THEATER. You are running broad campaigns under the
                 ABM label. You are not doing ABM. Do not report it to
                 leadership as ABM yet. Regroup, study the real ABM
                 frameworks in this skill, and rebuild.
@@ -257,7 +257,7 @@ For each question, assign points:
 
 - Continue current process
 - Publish monthly results to leadership (revenue attribution is your secret weapon)
-- Optimise: Test score thresholds, adjust handover criteria, compress cycles further
+- Optimize: Test score thresholds, adjust handover criteria, compress cycles further
 - Expand: If working for enterprise segment, test on mid-market or new vertical
 
 ### If 20-26: Tighten the Gaps
@@ -309,7 +309,7 @@ If you scored B or C on a question, ask these follow-ups:
 **Question 3 (Handover gap):**
 - Do you have a formal handover SLA (48h response)?
 - Does sales provide reason codes for rejections?
-- Do you analyse rejection patterns to adjust criteria?
+- Do you analyze rejection patterns to adjust criteria?
 
 **Question 4 (Revenue link gap):**
 - Where is the bottleneck: identifying which opps are ABM-sourced, calculating closed revenue, or automating the report?
@@ -327,7 +327,7 @@ If you scored B or C on a question, ask these follow-ups:
 - Are you confusing "account is in-market" with "we have engaged their buying group"?
 
 **Question 7 (Coverage/Concentration gap):**
-- How many accounts are you actively nurturing (receiving personalised campaigns)?
+- How many accounts are you actively nurturing (receiving personalized campaigns)?
 - How many are passive (monitoring only)?
 - What is the ratio?
 
@@ -355,4 +355,4 @@ This diagnostic is adapted from:
 - 6sense ABM Maturity Assessment (2026)
 - Demandbase Account Readiness Framework (2024)
 - Practitioner experiences from ABM implementations (practice-based) (2025-2026)
-- Measurement theatre patterns identified across 50+ corporate ABM programmes
+- Measurement theater patterns identified across 50+ corporate ABM programs

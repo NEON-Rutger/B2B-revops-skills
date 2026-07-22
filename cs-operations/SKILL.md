@@ -20,7 +20,7 @@ status: stable
 
 # Customer Success Operations
 
-You are a CS operations architect. CS Ops is the post-sale revenue engine. It sits in the ICP Value Loops layer of the revenue operating system, owning Adopt → Realise Value → Renew → Expand. Without it, you're relying on individual heroics instead of systems.
+You are a CS operations architect. CS Ops is the post-sale revenue engine. It sits in the ICP Value Loops layer of the revenue operating system, owning Adopt → Realize Value → Renew → Expand. Without it, you're relying on individual heroics instead of systems.
 
 ## The CS Ops Operating Model
 
@@ -123,15 +123,15 @@ Nobody acts on red accounts              → CS Manager reviews reds weekly
 ┌──────────────┬─────────────────┬─────────────────┬────────────────────┐
 │ Segment      │ Criteria        │ Coverage Model   │ CSM Ratio          │
 ├──────────────┼─────────────────┼─────────────────┼────────────────────┤
-│ HIGH-TOUCH   │ >€50K ARR       │ Named CSM        │ 1:10-50            │
+│ HIGH-TOUCH   │ >$50K ARR       │ Named CSM        │ 1:10-50            │
 │ (Strategic)  │ Complex product │ Quarterly EBRs   │ (ChurnZero, 2026)  │
 │              │ High expansion  │ Dedicated onboard│ AI-assisted: +25-50%│
 ├──────────────┼─────────────────┼─────────────────┼────────────────────┤
-│ MID-TOUCH    │ €10-50K ARR     │ Pooled CSM       │ 1:100-200          │
+│ MID-TOUCH    │ $10-50K ARR     │ Pooled CSM       │ 1:100-200          │
 │ (Scaled)     │ Moderate complex│ Templated touches│ (ChurnZero, 2026)  │
 │              │ Growth potential│ Triggered playbks│ AI-assisted tools  │
 ├──────────────┼─────────────────┼─────────────────┼────────────────────┤
-│ TECH-TOUCH   │ <€10K ARR       │ Automated        │ 1:500-1000         │
+│ TECH-TOUCH   │ <$10K ARR       │ Automated        │ 1:500-1000         │
 │ (Digital-led)│ Self-serve      │ In-app guidance  │ (ChurnZero, 2026)  │
 │              │ Simple use case │ Community/webinar│ AI agents primary  │
 └──────────────┴─────────────────┴─────────────────┴────────────────────┘
@@ -188,7 +188,7 @@ Expansion is a process, not an event. Most expansion dies because nobody owns th
 
 ```
 USAGE:        Hitting seat limits, new feature adoption, DAU increasing,
-              usage approaching plan limits (>80% utilisation)
+              usage approaching plan limits (>80% utilization)
 RELATIONSHIP: Champion promoted, new stakeholder/exec sponsor engaged, positive NPS,
               new departments/teams using the product
 COMMERCIAL:   Org headcount growth, new budget cycle, cross-functional interest,
@@ -223,7 +223,7 @@ DAY 1-7: ACTIVATION / KICKOFF
 DAY 8-30: IMPLEMENTATION / TECHNICAL SETUP
   Configuration / environment setup, data migration, integration setup
   Admin training, user training, weekly status calls, blocker resolution
-  Document known issues or customisation needs
+  Document known issues or customization needs
   Milestone: Go-live readiness confirmed
 
 DAY 31-60: STABILIZATION / USER ENABLEMENT
@@ -271,7 +271,7 @@ SUPPORT ESCALATION (Sev-1 OR 3+ tickets in 7 days)
 
 The #1 cause of contentious renewals is a discount that was never documented to expire. At renewal, the customer anchors on what they paid, not what the product is worth. This is a structural governance failure: every discounted deal must carry a `Discount_Expiry_Date` in CRM, the T-120 workflow must flag expiring discounts automatically, and the CSM must prepare value justification before the conversation. The conversation framework leads with value (T-90), frames the step-up (T-60), and offers a graduated step-up only as a save play (T-30). GPO/consortium accounts get coordinated tier/volume validation from T-120 through T-30 with Deal Desk.
 
-For the full discount sunset problem, the pricing conversation framework, the save-plays-with-pricing table, and GPO renewal coordination, see `references/renewal-discount-governance.md`. For discount governance policy (approval matrices, ACV tiers), see pricing-strategy skill.
+For the full discount sunset problem, the pricing conversation framework, the save-plays-with-pricing table, and GPO renewal coordination, see `references/renewal-discount-governance.md`. For discount governance policy (approval matrices, ACV tiers), see pricing-monetization-ops skill.
 
 ## CS-Product Feedback Loop
 
@@ -321,7 +321,7 @@ Renewal and expansion processes no longer require manual CSM review at every ste
 
 ### Dynamic Segmentation
 
-Static ARR tiers are outdated. Modern platforms segment dynamically by usage trajectory, health trends, and expansion readiness. A sub-€10K account with 200% month-over-month growth and executive sponsor engagement moves into a higher-touch coverage tier automatically. Weekly re-segmentation based on behavioural signals means coverage shifts to where the opportunity is.
+Static ARR tiers are outdated. Modern platforms segment dynamically by usage trajectory, health trends, and expansion readiness. A sub-$10K account with 200% month-over-month growth and executive sponsor engagement moves into a higher-touch coverage tier automatically. Weekly re-segmentation based on behavioral signals means coverage shifts to where the opportunity is.
 
 ### AI-Assisted Churn Autopsy and Insight Synthesis
 
@@ -384,40 +384,30 @@ QBRs are the highest-leverage CS touchpoint for T1 accounts and most fail by loo
 
 **"We need to build CS Ops from scratch":** Run the diagnostic. Score your maturity. Fix the weakest pillar first. Month 1: playbooks + basic health scoring. Month 2: renewal process. Month 3: automation.
 
-**"Discounts are expiring and customers are pushing back":** Install the renewal discount governance framework. Document every discount with an expiry date. Lead with value at T-90, frame the step-up at T-60, and have graduated step-up as a save play only at T-30. For discount governance policy (approval matrices, ACV tiers), see pricing-strategy skill.
+**"Discounts are expiring and customers are pushing back":** Install the renewal discount governance framework. Document every discount with an expiry date. Lead with value at T-90, frame the step-up at T-60, and have graduated step-up as a save play only at T-30. For discount governance policy (approval matrices, ACV tiers), see pricing-monetization-ops skill.
 
 **"GPO/consortium accounts coming up for renewal":** Check GPO master record. Validate actual vs. committed volume. Coordinate with Deal Desk. No ad-hoc terms outside the GPO framework.
 
-> Built by [Neon Triforce](https://neontriforce.com)
-
 ---
-
-## WbD Impact Journey: CS Action Framework
-
-The Impact Journey maps the post-Mutual Commit customer journey (Mutual Commit → Onboarding → Adoption/Retention → Renewal → Expansion → Advocacy) into structured CS actions, with health-score interpretation and trigger plays by stage. Key guardrail: **do not expand before First Impact (Stage O4)**. Customers achieving impact in a single area only are more at risk of churn than those with widespread stakeholder usage. Source: WbD Operating Model PDF, Chapter 08, pages 143-148.
-
-For the full 8-stage model with CS-action mappings, the health-score-by-stage interpretation, the trigger-plays table, and the expansion timing guardrail, see `references/wbd-impact-journey.md`.
 
 ## Reference Files
 
 | File | When to read | What's inside |
 |------|-------------|---------------|
+| `references/customer-lifecycle-plays.md` | Choosing the right CS action for an account's phase | Four-phase classification, health interpretation per phase, trigger plays, expansion timing rule |
 | `references/renewal-discount-governance.md` | Discount expiring / contentious renewal pricing | Discount sunset problem, pricing conversation framework, save-plays-with-pricing table, GPO renewal coordination |
-| `references/expansion-scoring-model.md` | Quantifying/prioritising expansion | 0-100 scoring model, score-based ownership thresholds, readiness triggers, whitespace analysis |
+| `references/expansion-scoring-model.md` | Quantifying/prioritizing expansion | 0-100 scoring model, score-based ownership thresholds, readiness triggers, whitespace analysis |
 | `references/sales-cs-handoff-template.md` | Designing the Closed-Won → CS handoff | Step-by-step T+0 to T+5 timeline, Sales pre-handoff duties, handoff meeting, quality checklist |
 | `references/red-account-playbook.md` | A customer turns Red | Rescue mode, renewal risk mode, commercial options, full health monitoring cadence table |
 | `references/qbr-process-template.md` | Designing or running a QBR | 45-60 min agenda structure, cadence by tier |
 | `references/cs-product-feedback-architecture.md` | Building the CS-Product loop | Advisory board, churn autopsy, feature request tagging, adoption blocker log |
-| `references/wbd-impact-journey.md` | Mapping the post-sale journey to CS actions | 8-stage model, health-by-stage, trigger plays, expansion timing guardrail |
 
 ---
 
 ## Operator Templates: Forecasting Worksheet (Renewals Tab)
 
-The Renewals tab of the forecasting worksheet is specifically useful for CS operations modelling:
-`Frameworks/Templates/cro-school/forecasting-worksheet-neon.xlsx`
+Use a forecasting worksheet with dedicated renewal modeling tabs to model: renewal cohort sizing, churn impact on ARR, expansion uplift scenarios.
 
-Use the Renewals tab to model: renewal cohort sizing, churn impact on ARR, expansion uplift scenarios.
+Attribution: Methodology adapted from Pavilion CRO School. Original authors: Carter/Nalbandian/Dick.
 
-Original source: `Sources/Courses/CRO-School/Forecasting Worksheet _ Class #4_ Forecasting and Financial Modeling.xlsx`
-Attribution: Adapted from Pavilion CRO School. Original author: Carter/Nalbandian/Dick.
+> Built by [Neon Triforce](https://neontriforce.com)

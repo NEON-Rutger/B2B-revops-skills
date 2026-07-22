@@ -63,14 +63,14 @@ Record Types allow different page layouts, picklist values, and process definiti
 
 ## Field Governance
 
-### Data Minimisation (GDPR Article 5(1)(c))
+### Data Minimization (GDPR Article 5(1)(c))
 
 Before creating a new field, audit the business case:
 - **Is this field necessary for a revenue decision?** (e.g. ICP_Fit_Score__c: yes; Marketing_Email_Clicks__c on Contact when not used for routing or scoring: no)
 - **Do we have retention policy for this field?** (e.g. monthly refresh for engagement scores; permanent for legal holds)
 - **Is access restricted?** (e.g. Enrich_Personal_Data__c should be hidden from sales reps if not needed for their workflow)
 
-Drop fields quarterly if they have not been referenced in a report, Flow, or validation rule in 12+ months. Data minimisation reduces audit scope and compliance risk (GDPR Article 5(1)(c) requirement).
+Drop fields quarterly if they have not been referenced in a report, Flow, or validation rule in 12+ months. Data minimization reduces audit scope and compliance risk (GDPR Article 5(1)(c) requirement).
 
 ### Naming Convention
 

@@ -2,7 +2,7 @@
 
 On-demand reference for the sales-methodology skill.
 
-For deals above €25K ACV, map every identified person against the 8 stakeholder roles:
+For deals above $25K ACV, map every identified person against the 8 stakeholder roles:
 
 | Role | What They Do | How to Identify |
 |------|-------------|----------------|

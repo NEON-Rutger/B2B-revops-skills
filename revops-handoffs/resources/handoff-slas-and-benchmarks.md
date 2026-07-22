@@ -17,7 +17,7 @@ Complete SLA targets, research-backed benchmarks, metrics per handoff point, lea
 
 **HBR (2,241 companies)**: average B2B response time is 42 hours. 23% of companies never responded at all.
 
-**Workato (2024, 114 B2B companies tested)**: only 1 company sent personalised email within 5 minutes. Average personalised response: 11 hours 54 minutes. Companies using routing tools: 3 hours 32 minutes.
+**Workato (2024, 114 B2B companies tested)**: only 1 company sent personalized email within 5 minutes. Average personalized response: 11 hours 54 minutes. Companies using routing tools: 3 hours 32 minutes.
 
 **Chili Piper (2025, 4M form submissions)**: instant booking converts 66.7% of qualified submissions to meetings vs ~30% industry average.
 
@@ -51,7 +51,7 @@ After 10 attempts with no response: return to marketing nurture with disposition
 
 | Metric | Industry Average | Best-in-Class |
 |---|---|---|
-| MQL-to-SQL conversion | 15-21% | 39-40% (with behavioural scoring) |
+| MQL-to-SQL conversion | 15-21% | 39-40% (with behavioral scoring) |
 | SQL-to-Opportunity | 50-60% | 70%+ |
 | Lead scoring adoption | 44% of orgs |, |
 | ML scoring vs manual |, | 75% higher conversion with ML |
@@ -61,16 +61,16 @@ After 10 attempts with no response: return to marketing nurture with disposition
 | Dimension | Weight | Components |
 |---|---|---|
 | Firmographic fit | 40% | ICP match: industry, size, geography, title, tech stack |
-| Behavioural intent | 40% | Pricing page (+30-40), demo request (+50, auto-route), content (+15-20), email engagement (+5-10), decay (-10/14d inactivity) |
-| Third-party intent | 20% | 6sense/Bombora/Breeze signals, anonymous research behaviour |
+| Behavioral intent | 40% | Pricing page (+30-40), demo request (+50, auto-route), content (+15-20), email engagement (+5-10), decay (-10/14d inactivity) |
+| Third-party intent | 20% | 6sense/Bombora/Breeze signals, anonymous research behavior |
 
-Output quadrant: High Fit + High Intent = immediate sales. High Fit + Low Intent = nurture. Low Fit + High Intent = monitor. Low Fit + Low Intent = deprioritise.
+Output quadrant: High Fit + High Intent = immediate sales. High Fit + Low Intent = nurture. Low Fit + High Intent = monitor. Low Fit + Low Intent = deprioritize.
 
 ### MQL vs Buying Group
 
 Forrester data: lead-centric MQL process has 99% failure rate from inquiry to close. <5% of MQLs convert to opportunities. 93% of B2B buyers participate in buying groups of 2+ people, generating 27 engagements on average.
 
-Pragmatic approach: maintain sharp MQL definitions but layer in account-level engagement signals and hand-raiser prioritisation. Full buying-group motions are operationally complex on HubSpot/Salesforce.
+Pragmatic approach: maintain sharp MQL definitions but layer in account-level engagement signals and hand-raiser prioritization. Full buying-group motions are operationally complex on HubSpot/Salesforce.
 
 ---
 
@@ -81,7 +81,7 @@ Pragmatic approach: maintain sharp MQL definitions but layer in account-level en
 **Marketing commits to**:
 - X qualified MQLs per month/quarter meeting agreed definitions
 - Pipeline contribution: typically 4× coverage for current quarter
-- Lead quality: defined firmographic and behavioural thresholds
+- Lead quality: defined firmographic and behavioral thresholds
 - Data completeness: minimum enrichment before handoff
 
 **Sales commits to**:
@@ -208,7 +208,7 @@ Every 1% increase in revenue retention increases company value by 12% after 5 ye
 Six dashboards monitor the full bow tie:
 
 ### Dashboard 1: Lifecycle Funnel Performance
-- Stage-to-stage conversion rates (VM1-VM8 / CR1-CR7)
+- Stage-to-stage conversion rates across the full funnel
 - Volume and time per stage
 - Cohort views by source, segment, motion
 
@@ -232,7 +232,7 @@ Six dashboards monitor the full bow tie:
 - TTFV by segment and implementation path
 
 ### Dashboard 5: Executive Bow-Tie Overview
-- Full-funnel VM/CR/Δt mapped to WbD framework
+- Full-funnel conversion and timing across all handoff points
 - NRR, GRR, CAC payback
 - Expansion vs new-logo ARR contribution
 - Forecast accuracy trend
@@ -287,8 +287,8 @@ Factor current pipeline load. Rep at 120% capacity shouldn't receive new leads. 
 
 ### Territory Design by ARR Stage
 
-- **€15M ARR** (5-15 AEs): simple geographic clusters, round-robin, generalist AEs
-- **€50M ARR** (30-60 AEs): weighted round-robin with territory rules, hunter/farmer split, cluster-based EU coverage
-- **€150M ARR** (100+ AEs): full matrix (segment × vertical × geography), capacity-based + AI-assisted routing, country-level local-language reps
+- **$15M ARR** (5-15 AEs): simple geographic clusters, round-robin, generalist AEs
+- **$50M ARR** (30-60 AEs): weighted round-robin with territory rules, hunter/farmer split, cluster-based EU coverage
+- **$150M ARR** (100+ AEs): full matrix (segment × vertical × geography), capacity-based + AI-assisted routing, country-level local-language reps
 
 Apply the ±10% rule: no territory should have more than 10% higher or lower total workload than team average.

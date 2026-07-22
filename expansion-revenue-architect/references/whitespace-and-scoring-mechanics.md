@@ -14,7 +14,7 @@ DIMENSION           CURRENT STATE         POTENTIAL              GAP
 Products            Which products        Which products fit     Product whitespace
                     purchased             their use case
 
-Seats/Users         Current licence       Total addressable      Seat whitespace
+Seats/Users         Current license       Total addressable      Seat whitespace
                     count                 users in the org
 
 Departments         Which BUs using       Which BUs could        Department whitespace
@@ -33,7 +33,7 @@ Stakeholders        Contacts engaged      Org chart coverage     Relationship wh
 1. **Build the map** for each account in your high-touch and mid-touch segments
 2. **Score each dimension** (0-100 based on penetration)
 3. **Calculate total whitespace score**, average across 5 dimensions
-4. **Prioritise by**: whitespace score x health score x contract timing
+4. **Prioritize by**: whitespace score x health score x contract timing
 5. **Review in QBR**, present to customer as growth partnership, not sales pitch
 6. **Update quarterly**, whitespace changes as customers grow and your product evolves
 
@@ -41,9 +41,9 @@ Stakeholders        Contacts engaged      Org chart coverage     Relationship wh
 
 | Segment | Whitespace identified | Target conversion to pipeline | Target close rate |
 |---------|----------------------|-------------------------------|-------------------|
-| High-touch (>EUR50K ARR) | 100% mapped | 40% become pipeline within 6 months | 50-60% |
-| Mid-touch (EUR10-50K) | Top 20% mapped | 25% become pipeline within 6 months | 40-50% |
-| Low-touch (<EUR10K) | Product-led signals only | 10% auto-convert via in-app | 30-40% |
+| High-touch (>$50K ARR) | 100% mapped | 40% become pipeline within 6 months | 50-60% |
+| Mid-touch ($10-50K) | Top 20% mapped | 25% become pipeline within 6 months | 40-50% |
+| Low-touch (<$10K) | Product-led signals only | 10% auto-convert via in-app | 30-40% |
 
 ## The Expansion Scoring Model, Mechanics
 

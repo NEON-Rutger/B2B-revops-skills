@@ -71,7 +71,7 @@ Review the leading-indicator row weekly. Review the quality scorecard weekly. Re
 - HBR (2011), "The Short Life of Online Sales Leads," 2,241 companies. Average B2B response 42 hours, 23% never responded. Historical baseline.
 - Chili Piper (2025) Benchmark Report, roughly 4M submissions. Instant booking 66.7% versus about 30% industry average.
 - Optifai Pipeline Study (Q2 2025-Q1 2026, 939 companies). <5-minute response = 32% close rate, 2.6x higher than 24-hour-plus response.
-- Rework (2025), "Deal Handoff Protocol: Standardizing Post-Close Transitions." 45% implementation improvement, 35-40% churn reduction from standardised handoffs.
+- Rework (2025), "Deal Handoff Protocol: Standardizing Post-Close Transitions." 45% implementation improvement, 35-40% churn reduction from standardized handoffs.
 - Forrester / SiriusDecisions Demand Waterfall. MQL to SQL 39-40% with scoring versus 15-21% without.
 
-Calibrate every target to the client's ACV, motion, and segment before quoting it as a commitment.
+Calibrate every target to your ACV, motion, and segment before committing to it in governance.

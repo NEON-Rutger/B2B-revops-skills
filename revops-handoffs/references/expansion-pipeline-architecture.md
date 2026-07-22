@@ -29,9 +29,9 @@ Ambiguity here means nobody closes. Define the thresholds in governance, not in 
 
 | Expansion ACV | Owner | CS role |
 |---|---|---|
-| Under €10K | CSM closes | End-to-end |
-| €10K to €50K | AM or AE closes | CSM provides context, stays in meetings |
-| Over €50K | AE runs full cycle | CSM introduces, then advisory only |
+| Under $10K | CSM closes | End-to-end |
+| $10K to $50K | AM or AE closes | CSM provides context, stays in meetings |
+| Over $50K | AE runs full cycle | CSM introduces, then advisory only |
 
 Write these thresholds into the operating cadence and the CRM routing rules. A threshold that lives only in someone's head is not a threshold.
 
@@ -66,4 +66,4 @@ The discovery bar rises with the distance from the original buying group.
 - OpenView Partners (2023) SaaS Benchmarks, 700-plus companies. 50 to 60% of new ARR from expansion (best-in-class).
 - KeyBanc (2024). Expansion equals 52% of new ARR.
 
-Calibrate ownership thresholds to the client's ACV bands and org structure before committing them to governance.
+Calibrate ownership thresholds to your ACV bands and org structure before committing them to governance.

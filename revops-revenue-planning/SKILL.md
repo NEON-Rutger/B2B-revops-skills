@@ -8,7 +8,7 @@ status: stable
 
 # Revenue Planning
 
-You are a revenue planning architect who has built annual and quarterly plans at B2B companies from €5M to €200M ARR. You know the gap between what salespeople tell you they can produce and what the board wants to see, and you know how to bridge that gap with rigour and transparency.
+This skill helps you build annual and quarterly revenue plans at your B2B company. You'll bridge the gap between what your sales team can realistically produce and what the board expects, with transparent, data-driven planning.
 
 Your philosophy: Revenue planning is not a board presentation exercise. It is a commitment contract between your revenue team, your finance team, and your market. The plan of record is the single source of truth. Everything else (working plans, scenarios, stretch analysis) serves that truth. A plan that sales owns and can defend is more valuable than a perfect plan that sales does not believe in.
 
@@ -28,11 +28,11 @@ Your philosophy: Revenue planning is not a board presentation exercise. It is a 
 
 ## Annual Planning Calendar
 
-Revenue planning is a backwards-timeline exercise. Fiscal close-out, budget finalisation, and board approval all anchor the schedule. Build backwards from there.
+Revenue planning is a backwards-timeline exercise. Fiscal close-out, budget finalization, and board approval all anchor the schedule. Build backwards from there.
 
 ### Planning Calendar Template (12-Week Cycle)
 
-For a calendar-year business (plan finalised Dec 31, approved Nov, in-market Jan 1):
+For a calendar-year business (plan finalized Dec 31, approved Nov, in-market Jan 1):
 
 ```
 PHASE 1: DATA & RETROSPECTIVE (Weeks 1-2, August)
@@ -49,22 +49,22 @@ PHASE 3: TOP-DOWN & RECONCILIATION (Weeks 6-8, mid-September)
   Week 7 (Sep 16-20):  Reconciliation meeting(s): gap analysis, named scenarios, stretch owners assigned
   Week 8 (Sep 23-27):  Revised plan incorporating scenarios; finance models impact (hiring, spend, working capital)
 
-PHASE 4: VALIDATION & FINALISATION (Weeks 9-10, early October)
+PHASE 4: VALIDATION & FINALIZATION (Weeks 9-10, early October)
   Week 9 (Sep 30-Oct 4):   Executive alignment; SPICED assumptions validated against pipeline
   Week 10 (Oct 7-11):      Plan of Record locked; FP&A sensitivity analysis; board narrative drafted
 
 PHASE 5: BOARD & APPROVAL (Weeks 11-12, mid-October)
-  Week 11 (Oct 14-18):     Board materials finalised; executive alignment on narrative
+  Week 11 (Oct 14-18):     Board materials finalized; executive alignment on narrative
   Week 12 (Oct 21-25):     Board presentation; plan approved; budget allocation to departments begins
 
-BUFFER: (Oct 28-Nov 1)     Post-approval implementation; sales enablement; quota setting; incentive finalisation
+BUFFER: (Oct 28-Nov 1)     Post-approval implementation; sales enablement; quota setting; incentive finalization
 ```
 
 **Key dates to set first:** Board approval date (locked), then work backwards. This calendar assumes 12 weeks. Compressed cycles (8-10 weeks) compress data gathering or validation; they should not compress reconciliation.
 
 For a fiscal-year business (e.g. April 1 start), shift the calendar backwards by the month delta (e.g. April plan = start 4 January, board approval early March).
 
-See `references/planning-calendar-checklist.md` for guardrails per phase and a template for customisation to your fiscal year.
+See `references/planning-calendar-checklist.md` for guardrails per phase and a template for customization to your fiscal year.
 
 ## The Bottoms-Up Build Process
 
@@ -77,10 +77,10 @@ Segment accounts by tier (SMB / Mid-Market / Enterprise) and revenue type (New B
 ```
 Segment          Current ARR    % of Total
 -------------------------------------------
-New Business     €2.5M           40%
-Expansion        €2.2M           35%
-Renewal          €1.3M           21%
-  Total          €6.0M          100%
+New Business     $2.5M           40%
+Expansion        $2.2M           35%
+Renewal          $1.3M           21%
+  Total          $6.0M          100%
 ```
 
 ### Step 2: Capacity Model (per gtm-planning reference)
@@ -93,8 +93,8 @@ Annual Bookings Target = (Available Full-Time Reps) × (Ramp Factor) × (Annual 
 EXAMPLE:
   7 FTE Account Executives
   Average ramp: 3 new hires × 80% (ramping) + 4 tenured × 100% = 6.4 effective FTE
-  Annual quota per AE: €850K
-  Annual bookings capacity = 6.4 × €850K = €5.44M
+  Annual quota per AE: $850K
+  Annual bookings capacity = 6.4 × $850K = $5.44M
 
 Adjust by:
   + Expansion ARR from existing customer base (typically 15-20% incremental)
@@ -106,16 +106,16 @@ For the full capacity-model calculator (including SDR ratios, territory balance,
 
 ### Step 3: Known Opportunity Pipeline Overlay
 
-Audit CRM for booked/named deals at or above threshold (e.g. >€50K ACV). These deals have confirmed timelines and advance/close probabilities higher than blended averages.
+Audit CRM for booked/named deals at or above threshold (e.g. >$50K ACV). These deals have confirmed timelines and advance/close probabilities higher than blended averages.
 
 ```
 Named Pipeline Analysis (next 6 months):
-  Deal A (SMB inbound):        €45K, 70% probability, Sep close
-  Deal B (Enterprise):         €180K, 50% probability, Oct close
-  Deal C (Expansion):          €120K, 85% probability, Aug close
+  Deal A (SMB inbound):        $45K, 70% probability, Sep close
+  Deal B (Enterprise):         $180K, 50% probability, Oct close
+  Deal C (Expansion):          $120K, 85% probability, Aug close
   ---
-  Total named pipeline:        €345K
-  Expected close (prob-weighted): €243K
+  Total named pipeline:        $345K
+  Expected close (prob-weighted): $243K
 ```
 
 Overlay this against bottoms-up. If named pipeline significantly exceeds capacity-model expectations, document the delta and source. If named pipeline falls short, that is your pipeline-generation gap for the year.
@@ -126,9 +126,9 @@ Build distinct assumptions per revenue type:
 
 **New Business:** Most variable. Bottoms-up = capacity model × historical attach rate per AE. Adjust for known customer losses (churn from prior year) and new market entries.
 
-**Expansion:** More predictable. Bottoms-up = current expansion ARR × (1 - churn rate) × (1 + expansion rate). Example: €2.2M expansion ARR × 92% retention × 1.12 growth = €2.87M.
+**Expansion:** More predictable. Bottoms-up = current expansion ARR × (1 - churn rate) × (1 + expansion rate). Example: $2.2M expansion ARR × 92% retention × 1.12 growth = $2.87M.
 
-**Renewal:** Most predictable. Bottoms-up = current renewal ARR × gross-retention rate. Example: €1.3M renewal ARR × 97% = €1.26M.
+**Renewal:** Most predictable. Bottoms-up = current renewal ARR × gross-retention rate. Example: $1.3M renewal ARR × 97% = $1.26M.
 
 Sum segment bottoms-up for company total.
 
@@ -141,7 +141,7 @@ Assumption                          Value       Source/Owner         Confidence
 ------------------------------------------------------------------------
 Renewal GRR                         97%         CS retention data     HIGH
 Expansion growth rate               12%         prior 3-year trend    MEDIUM
-New biz AE capacity                 €850K       quota × ramp model    MEDIUM
+New biz AE capacity                 $850K       quota × ramp model    MEDIUM
 SDR pipeline contribution           35%         current pipeline mix  MEDIUM
 Inbound:Outbound mix                40:60       sales sourcing audit  LOW
 New hires (net)                     2           hiring plan approved  HIGH
@@ -157,7 +157,7 @@ Finance typically builds a top-down target derived from company growth strategy,
 ### The Reconciliation Meeting Playbook
 
 **Pre-meeting (Finance prepares):**
-- Top-down target (e.g. "We need €8.5M in new bookings")
+- Top-down target (e.g. "We need $8.5M in new bookings")
 - High-level drivers ("20% YoY growth, 10% market expansion, 5% win-rate improvement")
 - Sensitivity analysis (what if growth is 15%? 25%?)
 
@@ -165,23 +165,23 @@ Finance typically builds a top-down target derived from company growth strategy,
 
 1. **Set the frame (5 min).** This is not a negotiation. This is a diagnostic. We have two independent analyses. Where they converge, we have high confidence. Where they diverge, something is true we need to learn.
 
-2. **Present bottoms-up (20 min).** Segment-by-segment breakdown. Capacity model with assumptions highlighted. Named pipeline overlay. Total: €7.8M.
+2. **Present bottoms-up (20 min).** Segment-by-segment breakdown. Capacity model with assumptions highlighted. Named pipeline overlay. Total: $7.8M.
 
-3. **Present top-down (10 min).** Strategic target. Drivers. Sensitivity. Total: €8.5M.
+3. **Present top-down (10 min).** Strategic target. Drivers. Sensitivity. Total: $8.5M.
 
-4. **Close the gap (40 min).** Gap = €700K (€8.5M - €7.8M). Work through scenarios:
-   - **Scenario A: Additional hiring.** If we hire 2 net new AEs in Q1 (6-month ramp), capacity adds ~€350K. Owner assigned.
-   - **Scenario B: Expansion acceleration.** If we invest €150K in customer success and expand faster, uplift +€250K. CS + GTM owners assigned.
-   - **Scenario C: Pipeline generation investment.** If we dedicate additional ABM spend, create +€100K in new-business pipeline. Marketing owner assigned.
-   - **Total uplift: €350K + €250K + €100K = €700K.** Closes gap.
+4. **Close the gap (40 min).** Gap = $700K ($8.5M - $7.8M). Work through scenarios:
+   - **Scenario A: Additional hiring.** If we hire 2 net new AEs in Q1 (6-month ramp), capacity adds ~$350K. Owner assigned.
+   - **Scenario B: Expansion acceleration.** If we invest $150K in customer success and expand faster, uplift +$250K. CS + GTM owners assigned.
+   - **Scenario C: Pipeline generation investment.** If we dedicate additional ABM spend, create +$100K in new-business pipeline. Marketing owner assigned.
+   - **Total uplift: $350K + $250K + $100K = $700K.** Closes gap.
 
-5. **Lock plan of record (10 min).** €8.5M plan now has:
-   - €7.8M base (bottoms-up capacity)
-   - €0.7M stretch (Scenario A/B/C with named owners and dependencies)
+5. **Lock plan of record (10 min).** $8.5M plan now has:
+   - $7.8M base (bottoms-up capacity)
+   - $0.7M stretch (Scenario A/B/C with named owners and dependencies)
 
-6. **Document scenarios and owners (5 min).** Creates accountability. If hiring slips, the plan adjusts. If CS expansion doesn't materialise, the plan adjusts.
+6. **Document scenarios and owners (5 min).** Creates accountability. If hiring slips, the plan adjusts. If CS expansion doesn't materialize, the plan adjusts.
 
-**Post-meeting:** Distribute Plan of Record to entire revenue organisation. Every rep, manager, and CFO knows the single agreed number.
+**Post-meeting:** Distribute Plan of Record to entire revenue organization. Every rep, manager, and CFO knows the single agreed number.
 
 For the full playbook (including conflict resolution patterns, what to do if the gap cannot close, and how to handle a stretch the team believes is unrealistic), see `references/reconciliation-playbook.md`.
 
@@ -211,10 +211,10 @@ Three versions must exist and persist:
 
 **Example comparison during M5 reforecast:**
 ```
-Plan of Record (POR):        €8.5M
-Bottoms-Up Original (BO):    €7.8M
-Current Forecast (M5):       €7.9M
-Variance from POR:           -€0.6M (down 7%)
+Plan of Record (POR):        $8.5M
+Bottoms-Up Original (BO):    $7.8M
+Current Forecast (M5):       $7.9M
+Variance from POR:           -$0.6M (down 7%)
 ```
 
 This structure enables learning: why is the forecast down? Did pipeline generation miss? Did deals slip? Did assumptions break?
@@ -251,7 +251,7 @@ A trigger fires when a business condition changes materially. At that point, the
 **Execution triggers:**
 - Actual revenue variance from plan exceeds 15% for two consecutive periods
 - Headcount hiring plan slips (capacity constrained)
-- Major customer churn event (€500K+ ARR loss)
+- Major customer churn event ($500K+ ARR loss)
 
 **External triggers:**
 - Competitor disruption affecting win rate
@@ -272,7 +272,7 @@ See `references/reforecasting-triggers.md` for the full matrix, examples, and th
 - Revenue target (adjusted up or down based on actual vs plan)
 - Pipeline assumptions (conversion rates, velocity, mix)
 - Stretch scenario owners (reassigned if dependencies shift)
-- Reforecast cadence itself (can adjust from monthly to quarterly if business stabilises)
+- Reforecast cadence itself (can adjust from monthly to quarterly if business stabilizes)
 
 Mixing locked and flexible parameters is the primary cause of reforecasting chaos.
 
@@ -291,27 +291,27 @@ Mixing locked and flexible parameters is the primary cause of reforecasting chao
 **Quota Attainment Benchmarks (Rep-Level Performance):**
 - Healthy: 70-80% of reps hit quota (aspirational target)
 - Median market: 46% of reps hit quota in 2025, down from 52% in 2024 (Ebsta 2025 GTM Benchmarks Report)
-- Signal: If below 50% organisation-wide, quota-setting process is flawed (Canaani, Revenue Leadership Podcast E64, 2026)
+- Signal: If below 50% organization-wide, quota-setting process is flawed (Canaani, Revenue Leadership Podcast E64, 2026)
 
 **Reforecasting Frequency Boundaries:**
 - Minimum: Quarterly (prevents total disconnect between plan and reality)
-- Maximum: Weekly (creates organisational paralysis; FP&A overhead becomes unsustainable)
+- Maximum: Weekly (creates organizational paralysis; FP&A overhead becomes unsustainable)
 - Standard: Monthly operational reviews + quarterly full reforecasts (Fincome, 2025)
 
 See `references/reforecasting-benchmarks.md` for the full matrix and when each trigger fires.
 
 ## FP&A and RevOps Collaboration Model
 
-The strongest revenue organisations operate with joint FP&A and RevOps ownership of the forecast and plan.
+The strongest revenue organizations operate with joint FP&A and RevOps ownership of the forecast and plan.
 
 **RevOps role:** Pipeline operator. Owns deal inspection, forecast categories, stage accuracy, pipeline health, sandbagging detection, and the weekly forecast call.
 
-**FP&A role:** Financial modeller. Owns cash implications, working capital, burn forecasts, expense budgets, and board narrative.
+**FP&A role:** Financial modeler. Owns cash implications, working capital, burn forecasts, expense budgets, and board narrative.
 
 **Joint decisions:**
 - Plan of Record: both sign off
 - Reforecasts: both validate triggers and scenarios
-- Stretch scenarios: RevOps owns feasibility, FP&A owns financial modelling
+- Stretch scenarios: RevOps owns feasibility, FP&A owns financial modeling
 - Headcount plan: RevOps owns capacity math, FP&A owns cost allocation
 
 **Weekly sync (30 min):** Any material forecast change or pipeline signal gets flagged immediately. Prevents surprise reforecasts. Builds trust.
@@ -322,7 +322,7 @@ For the full collaboration charter (including conflict-resolution protocols, esc
 
 ## AI-Native Revenue Planning (2026)
 
-As of 2026, AI forecasting and deal scoring are table-stakes for mature RevOps practices. Organisations that embed AI into planning see variance reduction from 30-40% to under 10% (Forrester, 2026). Plan integration points:
+As of 2026, AI forecasting and deal scoring are table-stakes for mature RevOps practices. Organizations that embed AI into planning see variance reduction from 30-40% to under 10% (Forrester, 2026). Plan integration points:
 
 **AI Forecasting Platforms:**
 - Gong Forecast integrates CRM automation and AI deal-health assessment; feeds directly into plan variance triggers
@@ -355,7 +355,7 @@ Walk through these 10 questions. If you answer "No" or "Unknown" to any, that fu
 3. **Do you preserve three versions of the plan: original bottoms-up, finance stretch, and plan of record?**
    - No = You cannot diagnose variance or learn from plan misses
 
-4. **Can you explain every €1 of stretch target with a named scenario, an owner, and explicit assumptions?**
+4. **Can you explain every $1 of stretch target with a named scenario, an owner, and explicit assumptions?**
    - No = The stretch is a wish, not a plan
 
 5. **Does every reforecast compare current projection against Plan of Record AND against the original bottoms-up?**
@@ -371,7 +371,7 @@ Walk through these 10 questions. If you answer "No" or "Unknown" to any, that fu
    - No = You reforecast reactively or continuously; no discipline
 
 9. **Do your reps know the plan of record and understand their segment targets and expansion opportunities?**
-   - No = The plan exists for the board, not to drive behaviour
+   - No = The plan exists for the board, not to drive behavior
 
 10. **When the plan misses, can you trace the miss to a specific assumption (retention, deal size, pipeline generation, productivity) rather than blaming execution or market?**
     - No = You are not learning from misses; next year's plan will repeat the errors
@@ -390,7 +390,7 @@ See `references/planning-diagnostic-full.md` for the detailed interpretation gui
 
 **"Finance gave us a stretch we don't believe in."** Run the diagnostic (Section 6). Work through the reconciliation playbook (Section 3). Make stretch scenarios explicit with owners and dependencies. If scenarios still don't close the gap, escalate: "The market will not support this plan unless we make these three bets. We own the first two. The third depends on product. What is product committing to?"
 
-**"We reforecast every month and it's chaos."** Lock the reforecasting cadence (quarterly minimum; monthly only for high-volatility businesses). Define triggers explicitly so reforecasts are data-driven, not reactive. Run the diagnostic to expose which functions are destabilising the process.
+**"We reforecast every month and it's chaos."** Lock the reforecasting cadence (quarterly minimum; monthly only for high-volatility businesses). Define triggers explicitly so reforecasts are data-driven, not reactive. Run the diagnostic to expose which functions are destabilizing the process.
 
 **"We don't know if we're on track."** Implement monthly forecast review against Plan of Record. Compare actual close rate to forecast. Track pipeline coverage week-to-week. Escalate on trigger (coverage drops below 2.5x, accuracy exceeds ±20%). This is what RevOps + FP&A sync owns.
 
@@ -400,7 +400,7 @@ See `references/planning-diagnostic-full.md` for the detailed interpretation gui
 
 | File | When to read | What's inside |
 |------|-------------|---------------|
-| `references/planning-calendar-checklist.md` | Designing planning timeline for your fiscal year | 12-week template, phase guardrails, customisation guide for different fiscal years |
+| `references/planning-calendar-checklist.md` | Designing planning timeline for your fiscal year | 12-week template, phase guardrails, customization guide for different fiscal years |
 | `references/bottoms-up-build-recipe.md` | Walking through bottoms-up build process | 5-step recipe with examples, capacity-model calculator, Pavilion worksheet mechanics, assumption documentation |
 | `references/reconciliation-playbook.md` | Running the top-down vs bottoms-up meeting | 5-step structure, conflict resolution, handling when gap will not close, stretch scenario assignment |
 | `references/plan-versioning-governance.md` | Setting up version control and governance | Three-version system, file-naming conventions, access controls, reforecast preservation |
@@ -415,15 +415,13 @@ See `references/planning-diagnostic-full.md` for the detailed interpretation gui
 
 ## Canon References
 
-Cross-references: revops-forecasting (in-quarter weekly forecasting, forecast methods, accuracy measurement), gtm-planning (capacity model, territory design, headcount scaling, productivity ramp), gtm-compensation (quota setting, comp structure, commission modelling), revops-metrics (KPI definitions, SaaS unit economics, benchmarks), signal-trigger-action framework (operating cadence), and planning-calendar skill (annual timeline coordination).
-
-> Built by [Neon Triforce](https://neontriforce.com)
+Cross-references: revops-forecasting (in-quarter weekly forecasting, forecast methods, accuracy measurement), gtm-planning (capacity model, territory design, headcount scaling, productivity ramp), gtm-compensation (quota setting, comp structure, commission modeling), revops-metrics (KPI definitions, SaaS unit economics, benchmarks), signal-trigger-action framework (operating cadence), and planning-calendar skill (annual timeline coordination).
 
 ---
 
 ## Operator Templates: Annual Planning Worksheets
 
-For revenue planning in client engagements:
+To implement your annual planning:
 
 **Capacity Model Calculator:**
 `assets/capacity-model-calculator.xlsx`
@@ -452,3 +450,5 @@ For revenue planning in client engagements:
 Use in: Annual planning kickoff, revenue-finance alignment sessions, board preparation, mid-year reforecasting.
 
 Attribution: Pavilion CRO School (Forecasting and Revenue Modeling curriculum), FP&A Today podcast (FP&A best practices), Revenue Leadership Podcast (Shantanu Shekhar, Gong/Personio RevOps framework), Atscale practitioner input (Louis Fumey, 2026), Ebsta 2025 GTM Benchmarks Report.
+
+> Built by [Neon Triforce](https://neontriforce.com)

@@ -54,7 +54,7 @@ RevOps and FP&A are equals in revenue planning. Neither function owns the foreca
 
 **What FP&A owns:**
 
-1. **Financial Modelling of Revenue Scenarios**
+1. **Financial Modeling of Revenue Scenarios**
    - Translating revenue forecast into P&L impact
    - Modeling headcount and expense implications
    - Calculating working-capital impact (if revenue is pushed into next period, cash implications)
@@ -79,7 +79,7 @@ RevOps and FP&A are equals in revenue planning. Neither function owns the foreca
 5. **Forecast Accuracy from a Financial Lens**
    - Variance analysis (how far off was the financial forecast)
    - Root-cause analysis (was it an operational miss or a financial assumption miss?)
-   - Budget impact (if we miss revenue by €X, what is the impact to expense budget?)
+   - Budget impact (if we miss revenue by $X, what is the impact to expense budget?)
 
 **What FP&A does NOT own:**
 - Deal inspection or forecast category accuracy (that is RevOps)
@@ -119,7 +119,7 @@ TIME    AGENDA ITEM                         OWNER       NOTES
 ----    --------                            ------      -----
 0-2m    Previous week summary               RevOps      "Coverage was 3.1x. Close rate was 62%."
 2-10m   Pipeline signals                    RevOps      Coverage trend, velocity, slippage rate, at-risk deals
-10-15m  Financial implications              FP&A        "If pipeline slips by 10%, cash impact is €X."
+10-15m  Financial implications              FP&A        "If pipeline slips by 10%, cash impact is $X."
 15-20m  Reforecast triggers                 RevOps      "Any triggers firing? Do we need to reforecast?"
 20-28m  Ad-hoc signals / escalations        Both        New competitive threat, customer churn, hiring slip?
 28-30m  Next week outlook + action items    Both        "We're monitoring coverage closely. Escalate if drops below 2.8x."
@@ -147,10 +147,10 @@ TIME    AGENDA ITEM                         OWNER       NOTES
 ```
 TIME    AGENDA ITEM                         NOTES
 ----    --------                            -----
-0-5m    Month-end close summary             "Closed €XXX. Plan was €YYY. Variance: Z%."
-5-10m   Forecast vs actual tracking         "Forecast at month-start was €YYY. Actual €XXX. Accuracy: Z%."
+0-5m    Month-end close summary             "Closed $XXX. Plan was $YYY. Variance: Z%."
+5-10m   Forecast vs actual tracking         "Forecast at month-start was $YYY. Actual $XXX. Accuracy: Z%."
 10-20m  Segment performance                 "New Biz: XXX. Expansion: YYY. Renewal: ZZZ."
-20-35m  Leading indicators for next month   "Pipeline coverage: 3.0x. Velocity: 35%/month. At-risk deals: €Z."
+20-35m  Leading indicators for next month   "Pipeline coverage: 3.0x. Velocity: 35%/month. At-risk deals: $Z."
 35-55m  Variance analysis (if applicable)   "Why did we miss? Was it conversion? Pipeline quality? Execution?"
 55-60m  Reforecast decision                 "Do we reforecast now, or wait for quarter-end?"
 ```
@@ -176,10 +176,10 @@ TIME (HOURS)   AGENDA ITEM                     OWNER       NOTES
 0-0.5m         Opening frame                   CEO         "Here is where we are. Here is what we learned last quarter."
 0.5-1.0        Bottoms-up segment analysis     RevOps      "New Biz forecast: XXX. Expansion: YYY. Renewal: ZZZ."
 1.0-1.5        Operational assumptions review  RevOps      "Win rate 38%. Sales cycle 60 days. Pipeline coverage 3.0x."
-1.5-2.0        Financial modeling              FP&A        "At €X revenue, headcount cost is €Y, cash impact is €Z."
-2.0-2.5        Variance analysis               Both        "We forecasted €8.5M YTD. We closed €7.9M. Root cause: sales cycle lengthened."
-2.5-3.0        Scenario development            Both        "If we invest in ABM, pipeline upside is +€Z. Cost is €C. Timeline is 90 days."
-3.0-3.5        Updated forecast + board comms  FP&A/CEO    "Revised forecast: €8.2M. Board message: we are X% of plan; here is why."
+1.5-2.0        Financial modeling              FP&A        "At $X revenue, headcount cost is $Y, cash impact is $Z."
+2.0-2.5        Variance analysis               Both        "We forecasted $8.5M YTD. We closed $7.9M. Root cause: sales cycle lengthened."
+2.5-3.0        Scenario development            Both        "If we invest in ABM, pipeline upside is +$Z. Cost is $C. Timeline is 90 days."
+3.0-3.5        Updated forecast + board comms  FP&A/CEO    "Revised forecast: $8.2M. Board message: we are X% of plan; here is why."
 3.5-4.0        Decisions + next steps          Both        "Plan of Record updated. Reforecast triggers recalibrated. Next sync: 2 weeks."
 ```
 
@@ -220,7 +220,7 @@ When RevOps and FP&A disagree on a forecast or assumption, use this protocol:
 
 ### Disagreement 2: Reforecast Triggers
 
-**Scenario:** RevOps says "Coverage dropped to 2.4x; trigger fires, we should reforecast." FP&A says "Let's wait until month-end to see if it stabilises."
+**Scenario:** RevOps says "Coverage dropped to 2.4x; trigger fires, we should reforecast." FP&A says "Let's wait until month-end to see if it stabilizes."
 
 **Step 1 (24 hours):** Acknowledge the signal. Both agree coverage dropped to 2.4x.
 
@@ -239,25 +239,25 @@ When RevOps and FP&A disagree on a forecast or assumption, use this protocol:
 
 ### Disagreement 3: Stretch Scenario Feasibility
 
-**Scenario:** Finance proposes "New ABM motion will generate €300K incremental pipeline." RevOps says "That assumes €50K CAC and 20% conversion. Our ABM runs at €75K CAC and 12% conversion today. €300K is fantasy."
+**Scenario:** Finance proposes "New ABM motion will generate $300K incremental pipeline." RevOps says "That assumes $50K CAC and 20% conversion. Our ABM runs at $75K CAC and 12% conversion today. $300K is fantasy."
 
-**Step 1 (24 hours):** Both agree on the gap. Finance says €300K is the target. RevOps says current ABM runs at lower efficiency.
+**Step 1 (24 hours):** Both agree on the gap. Finance says $300K is the target. RevOps says current ABM runs at lower efficiency.
 
 **Step 2:** Gather evidence
-- RevOps: "Here are our last 4 ABM campaigns. Avg cost per qualified deal: €75K. Conversion: 12%."
+- RevOps: "Here are our last 4 ABM campaigns. Avg cost per qualified deal: $75K. Conversion: 12%."
 - Finance: "Where is this data coming from? Is it properly attributed? Are we comparing apples-to-apples?"
 - RevOps: "HubSpot campaign tracking + closed-won attribution. It is reliable."
 
 **Step 3:** Scenario rebuild
-- Finance: "OK, if your €75K CAC and 12% conversion are right, let's model it:"
-  - To generate €300K pipeline at 12% conversion = €25M pipeline needed
-  - At €75K CAC = €1.875M ABM spend (we don't have that budget)
-- Finance proposes alternative: "What if we invest €300K in ABM? How much pipeline will we generate?"
-  - €300K spend / €75K per deal = 4 deals. At 12% conversion = 0.48 deals won. Say 1 deal = €85K revenue
-  - More realistic: €300K ABM spend = €85K incremental revenue in Year 1
+- Finance: "OK, if your $75K CAC and 12% conversion are right, let's model it:"
+  - To generate $300K pipeline at 12% conversion = $25M pipeline needed
+  - At $75K CAC = $1.875M ABM spend (we don't have that budget)
+- Finance proposes alternative: "What if we invest $300K in ABM? How much pipeline will we generate?"
+  - $300K spend / $75K per deal = 4 deals. At 12% conversion = 0.48 deals won. Say 1 deal = $85K revenue
+  - More realistic: $300K ABM spend = $85K incremental revenue in Year 1
 - RevOps: "Yes, that matches our historical productivity."
 
-**Outcome:** Stretch scenario is revised to realistic number (€85K) with realistic timeline (12+ months). Both functions agree on assumptions. Plan is updated to reflect this.
+**Outcome:** Stretch scenario is revised to realistic number ($85K) with realistic timeline (12+ months). Both functions agree on assumptions. Plan is updated to reflect this.
 
 ---
 
@@ -265,7 +265,7 @@ When RevOps and FP&A disagree on a forecast or assumption, use this protocol:
 
 Either RevOps or FP&A can escalate to CEO/CFO if:
 
-1. **Reforecast variance exceeds 10% of plan** (e.g. plan was €8.5M; forecast is €7.65M or €9.35M)
+1. **Reforecast variance exceeds 10% of plan** (e.g. plan was $8.5M; forecast is $7.65M or $9.35M)
 2. **Operational and financial views diverge** (e.g. RevOps says plan is achievable; FP&A's cash modeling says it is not)
 3. **Reforecasting triggers fire in rapid succession** (e.g. coverage drops + close rate drops + NRR drops within 5 days)
 4. **A major assumption becomes invalid** (e.g. key person leaves, major customer churn, market disruption)
@@ -282,7 +282,7 @@ Either RevOps or FP&A can escalate to CEO/CFO if:
 
 1. **Come with data, not opinions.** "I think close rate is soft" is not a signal. "Close rate was 65% last month, 58% this month" is a signal.
 
-2. **Separate the plan from the forecast.** Plan is locked (€8.5M POR). Forecast is current projection (€7.9M). Sync on forecast, not plan.
+2. **Separate the plan from the forecast.** Plan is locked ($8.5M POR). Forecast is current projection ($7.9M). Sync on forecast, not plan.
 
 3. **No surprises.** If either function learns something material (customer churn, competitor disruption, hiring delay), notify the other within 24 hours.
 

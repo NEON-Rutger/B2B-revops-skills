@@ -50,14 +50,14 @@ These numbers are the core argument for why partner ecosystems matter. Use them 
 | Metric | Value | Source |
 |--------|-------|--------|
 | Average B2B SaaS CAC (all channels) | **$1,200** | SaaS Hero, 2026 |
-| Partner/referral programme CAC | **~$150** | Genesys Growth, 2026 (lowest across all channels). Compare to average B2B SaaS CAC **$1,200** (SaaS Hero, 2026). |
+| Partner/referral program CAC | **~$150** | Genesys Growth, 2026 (lowest across all channels). Compare to average B2B SaaS CAC **$1,200** (SaaS Hero, 2026). |
 | CAC by stage: Early (<$5M ARR) | **$200-400** (8-12 month payback) | SaaS Hero, 2026 |
 | CAC by stage: Mid ($5-50M ARR) | **$300-600** (15-18 month payback) | SaaS Hero, 2026 |
 | CAC by stage: Enterprise (>$50M ARR) | **$500-800+** (20-24 month payback) | SaaS Hero, 2026 |
-| Partner programme LTV:CAC ratio | **3:1 or better** (vs 2.5:1 direct) | SaaS Hero, 2025 |
+| Partner program LTV:CAC ratio | **3:1 or better** (vs 2.5:1 direct) | SaaS Hero, 2025 |
 | Creator partnerships vs traditional ads | **30-40% lower** cost per lead | Genesys Growth, 2026 |
 
-**Use in proposals:** Partner-sourced deals at ~$150 CAC vs $1,200 average = 8x more efficient acquisition. Even accounting for programme costs, partner channels typically deliver 2-3x better unit economics.
+**Use in proposals:** Partner-sourced deals at ~$150 CAC vs $1,200 average = 8x more efficient acquisition. Even accounting for program costs, partner channels typically deliver 2-3x better unit economics.
 
 ---
 
@@ -65,11 +65,11 @@ These numbers are the core argument for why partner ecosystems matter. Use them 
 
 ### Partner-Sourced Revenue as % of Total
 
-| Company Stage / Programme Maturity | Partner-Sourced % | Partner-Influenced % | Source |
+| Company Stage / Program Maturity | Partner-Sourced % | Partner-Influenced % | Source |
 |-----------------------------------|-------------------|---------------------|--------|
-| Early programme (<18 months) | 5-10% | 5-15% | Crossbeam composite, 2023 |
-| Growth programme (18-36 months) | 15-25% | 15-25% | Crossbeam composite, 2023 |
-| Mature programme (36+ months) | 25-40%+ | 20-30% | Crossbeam composite, 2023 |
+| Early program (<18 months) | 5-10% | 5-15% | Crossbeam composite, 2023 |
+| Growth program (18-36 months) | 15-25% | 15-25% | Crossbeam composite, 2023 |
+| Mature program (36+ months) | 25-40%+ | 20-30% | Crossbeam composite, 2023 |
 | SMB companies (marketplace/resell) | 20-50% | N/A | Umbrex analysis, 2025 |
 | Mid-market | 25-45% | N/A | Umbrex analysis, 2025 |
 | Enterprise (mature co-sell) | 30-60% | N/A | Umbrex analysis, 2025 |
@@ -77,17 +77,17 @@ These numbers are the core argument for why partner ecosystems matter. Use them 
 | HubSpot (partnership revenue, 2022) | **45%** | N/A | HubSpot annual report |
 | Salesforce (partner implementations) | **70%** of all implementations | N/A | Salesforce, 2024 |
 
-### Programme Activation & Scaling
+### Program Activation & Scaling
 
 | Metric | Value | Source |
 |--------|-------|--------|
 | Partner activation rate target (90 days) | **>60%** | Crossbeam composite |
-| Mature programme activation | **75-85%** | Crossbeam composite |
+| Mature program activation | **75-85%** | Crossbeam composite |
 | Time to first partner deal (early) | **90-120 days** | Crossbeam composite |
 | Time to first partner deal (mature) | **30-60 days** | Crossbeam composite |
-| Programmes with <50 partners | **56%** of all affiliate/partner programmes | Rewardful, 2025 |
-| Programmes scaling beyond 1,000 partners | Only **10%** | Rewardful, 2025 |
-| Programme ROI (3-year, Forrester-validated) | **296%** | Impartner/Forrester TEI, 2024 |
+| Programs with <50 partners | **56%** of all affiliate/partner programs | Rewardful, 2025 |
+| Programs scaling beyond 1,000 partners | Only **10%** | Rewardful, 2025 |
+| Program ROI (3-year, Forrester-validated) | **296%** | Impartner/Forrester TEI, 2024 |
 | Partner-sourced deal increase (Forrester) | Up to **50%** more | Impartner/Forrester TEI, 2024 |
 
 ### Case Studies Worth Citing
@@ -110,7 +110,7 @@ These numbers are the core argument for why partner ecosystems matter. Use them 
 |--------|-------|--------|
 | SaaS leaders investing in ELG | **60%** | Pavilion poll, 2024 |
 | Companies planning >30% indirect revenue growth | **67%** | Forrester State of Partner Ecosystems, 2025 |
-| Organisations prioritising partnerships as growth strategy | **75%+** | SaaS Hero, 2025 |
+| Organizations prioritizing partnerships as growth strategy | **75%+** | SaaS Hero, 2025 |
 | Companies hitting/exceeding targets with ELG | **24% more likely** | Crossbeam, 2024 |
 | ELG lead quality vs traditional | **24% higher** | Crossbeam, 2024 |
 | Revenue teams using AI (2025) | **87%** | Highspot, 2025 |
@@ -129,7 +129,7 @@ The two largest account mapping platforms merged in an all-stock transaction:
 
 ### Nearbound Framework (Jared Fuller)
 
-Nearbound is positioned as "what comes after outbound and inbound." The framework operationalises partner intelligence across three GTM motions:
+Nearbound is positioned as "what comes after outbound and inbound." The framework operationalizes partner intelligence across three GTM motions:
 
 - **Nearbound Sales:** Using partner intel to warm accounts and accelerate active deals
 - **Nearbound Marketing:** Co-creating content with partners who share your ICP
@@ -154,7 +154,7 @@ Nearbound is positioned as "what comes after outbound and inbound." The framewor
 **Fee trends (2025-2026):**
 - AWS: Simplified tier structure, low-fee renewals
 - Microsoft Azure: Flat ~3% fee structure (dramatic improvement)
-- Google Cloud: 2025 incentive programmes reward migrations with lower fees
+- Google Cloud: 2025 incentive programs reward migrations with lower fees
 - Overall: Transparent, increasingly lower fees driven by hyperscaler competition
 
 ### Jay McBain / Analyst Predictions (2026)
@@ -168,7 +168,7 @@ Jay McBain (Chief Analyst, Channels, Partnerships & Ecosystems at Omdia, formerl
 | AI as ecosystem orchestrator | Ecosystems too complex for human management; AI becomes indispensable | McBain/Crossbeam interview |
 | Technology investment | **75%** of partner ecosystem marketing decision-makers increasing tech spend | Forrester Survey, 2026 |
 
-**McBain's thesis:** The shift from 7 to 17 partners per customer reflects modular products, embedded AI, and compliance localisation. Value is now delivered through ecosystems, not monoliths.
+**McBain's thesis:** The shift from 7 to 17 partners per customer reflects modular products, embedded AI, and compliance localization. Value is now delivered through ecosystems, not monoliths.
 
 ---
 
@@ -179,15 +179,15 @@ Jay McBain (Chief Analyst, Channels, Partnerships & Ecosystems at Omdia, formerl
 | Tool | HQ | Primary Capability | Best For | Pricing Tier | EU Compliance |
 |------|-----|-------------------|----------|-------------|---------------|
 | **Crossbeam** (incl. Reveal) | Philadelphia + Paris | Account mapping, overlap intelligence, ELG orchestration | Mid-Market/Enterprise ecosystem intelligence | Enterprise | A (Reveal had strong EU base; GDPR, SOC 2) |
-| **PartnerStack** | USA | Marketplace, partner management, payouts | B2B SaaS affiliate/referral/reseller programmes | Mid-Market ($15K+/yr) | B+ |
+| **PartnerStack** | USA | Marketplace, partner management, payouts | B2B SaaS affiliate/referral/reseller programs | Mid-Market ($15K+/yr) | B+ |
 | **Impartner** | USA | End-to-end partner lifecycle (onboarding, deal reg, MDF, performance) | Enterprise with complex, distributed partner ecosystems | Enterprise ($20-50K+/yr) | B+ |
 | **Introw** | **Ghent, Belgium** | CRM-first partner management with AI automation | **EU-based**, SMB/Mid-Market, Salesforce/HubSpot native | SMB/Mid ($329-579+/mo) | **A+ (ISO27001, GDPR, EU data residency)** |
-| **Impact.com** | USA | Diverse partnership management (affiliates, influencers, B2B) | Enterprise e-commerce/DTC (less B2B SaaS optimised) | Enterprise ($10-30K/yr) | B+ |
+| **Impact.com** | USA | Diverse partnership management (affiliates, influencers, B2B) | Enterprise e-commerce/DTC (less B2B SaaS optimized) | Enterprise ($10-30K/yr) | B+ |
 | **Allbound / Channelscaler** | USA | Partner enablement, content, deal registration | Mid-Market, merged with Channel Mechanics 2024, rebranded May 2025, strong governance | Mid-Market ($20-50K/yr) | B+ |
-| **Channeltivity** | USA | PRM with high customisation, CRM integration | Mid-Market, 18+ years track record | Mid-Market ($1,899-2,199/mo) | B+ |
-| **Kiflo** | USA | Lightweight PRM for SMBs | Early-stage partner programmes, simple structure | SMB ($5-15K/yr) | B |
+| **Channeltivity** | USA | PRM with high customization, CRM integration | Mid-Market, 18+ years track record | Mid-Market ($1,899-2,199/mo) | B+ |
+| **Kiflo** | USA | Lightweight PRM for SMBs | Early-stage partner programs, simple structure | SMB ($5-15K/yr) | B |
 | **Mindmatrix** | USA | PRM with marketing collateral, training, alliance management | Enterprise with diverse partner types | Enterprise (~$3,495/mo) | B+ |
-| **ZINFI** | USA | Enterprise PRM with channel automation | IDC MarketScape Leader 2025, large channel programmes | Enterprise | B+ |
+| **ZINFI** | USA | Enterprise PRM with channel automation | IDC MarketScape Leader 2025, large channel programs | Enterprise | B+ |
 
 ### Tier B: Cloud Marketplace & Co-Selling
 
@@ -218,11 +218,11 @@ Jay McBain (Chief Analyst, Channels, Partnerships & Ecosystems at Omdia, formerl
 
 | Stage | Recommended Stack | Why |
 |-------|------------------|-----|
-| <€5M ARR | No dedicated tooling. Track in CRM (HubSpot/Salesforce). | Too early. Don't over-invest. |
-| €5-15M ARR | **Kiflo** or **Introw** (EU) + CRM native | Simple PRM, low cost, enough structure for first 10 partners |
-| €15-50M ARR | **PartnerStack** or **Introw** + **Crossbeam** | Account mapping becomes essential. Need deal registration + attribution. |
-| €50-150M ARR | **Impartner** or **Channeltivity** + **Crossbeam** + cloud marketplace (if relevant) | Multi-tier programme needs. Co-selling operations at scale. |
-| >€150M ARR | **Impartner** or **Salesforce PRM** + **Crossbeam** + **Tackle.io/Clazar** + **Seismic** | Full ecosystem stack. Marketplace distribution. Partner enablement at scale. |
+| <$5M ARR | No dedicated tooling. Track in CRM (HubSpot/Salesforce). | Too early. Don't over-invest. |
+| $5-15M ARR | **Kiflo** or **Introw** (EU) + CRM native | Simple PRM, low cost, enough structure for first 10 partners |
+| $15-50M ARR | **PartnerStack** or **Introw** + **Crossbeam** | Account mapping becomes essential. Need deal registration + attribution. |
+| $50-150M ARR | **Impartner** or **Channeltivity** + **Crossbeam** + cloud marketplace (if relevant) | Multi-tier program needs. Co-selling operations at scale. |
+| >$150M ARR | **Impartner** or **Salesforce PRM** + **Crossbeam** + **Tackle.io/Clazar** + **Seismic** | Full ecosystem stack. Marketplace distribution. Partner enablement at scale. |
 
 ---
 
@@ -237,7 +237,7 @@ AI is reshaping partner management across four layers:
 
 ### Layer 2: Partner Performance Prediction
 - Proactive identification of which partners will hit targets
-- Replication of high-performing partner behaviours across the network
+- Replication of high-performing partner behaviors across the network
 - Analysis of ecosystem data to recommend next-best partner engagement
 
 ### Layer 3: Operational Automation
@@ -257,7 +257,7 @@ AI is reshaping partner management across four layers:
 
 ## 6. Major Market Moves (2024-2026)
 
-Track these for client conversations:
+Track these developments as they affect your partner ecosystem strategy and tool selection:
 
 | Event | Date | Impact |
 |-------|------|--------|

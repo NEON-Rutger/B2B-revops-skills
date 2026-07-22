@@ -1,6 +1,6 @@
 Brand Canvas
 
-*StoryBrand framework for messaging and positioning*
+*Customer story framework for messaging and positioning*
 
 1. The Character (The Customer)
 
@@ -146,7 +146,7 @@ business.
 -   Lean Black Belt trained: operational efficiency from heavy industry
     applied to SaaS
 
--   Winning by Design revenue architecture methodology
+-   Revenue system methodology based on industry best practices
 
 -   Focus: sustainable change, not quick wins. Implementing impact, not
     decks.
@@ -166,7 +166,7 @@ business.
 
 **Step 2: Install the Structure**
 
--   Build a One-Page Plan: goals, targets, programmes with clear owners
+-   Build a One-Page Plan: goals, targets, programs with clear owners
 
 -   Stand up a Revenue Room: single view of metrics, decisions, and
     experiments

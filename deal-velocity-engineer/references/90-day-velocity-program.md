@@ -1,8 +1,8 @@
-# 90-Day Deal Velocity Programme
+# 90-Day Deal Velocity Program
 
 On-demand reference for the deal-velocity-engineer skill.
 
-When a client's velocity is the binding constraint, here's how to structure the engagement:
+When velocity is your binding constraint, use this 90-day structure:
 
 ## Phase 1: Diagnose (Weeks 1-3)
 
@@ -14,7 +14,7 @@ When a client's velocity is the binding constraint, here's how to structure the 
 
 **Week 2: Pattern analysis**
 - Calculate stage conversion rates and identify the steepest drop-off
-- Analyse slippage patterns (which stages, which reps, which segments)
+- Analyze slippage patterns (which stages, which reps, which segments)
 - Review multi-threading rates and deal health distribution
 - Identify top performer vs. average performer differences
 

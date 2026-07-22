@@ -55,7 +55,7 @@ LinkedIn job change (CFO/CIO hired) 4 points    Monthly (70%)     Stakeholder ch
 ```
 SIGNAL TYPE                        BASE WEIGHT  RECENCY DECAY    NOTES
 ───────────────────────────────────────────────────────────────────────
-Ad impression (display, LinkedIn)  0.2 points   Weekly (40%)      Volume noise; minimise
+Ad impression (display, LinkedIn)  0.2 points   Weekly (40%)      Volume noise; minimize
 Ad click                           1 point      Weekly (50%)      Mild interest
 Landing page visit (post-ad)       2 points     Weekly (60%)      Engaged visitor
 Retargeting ad interaction         1 point      Weekly (55%)      Repeated interest
@@ -148,9 +148,9 @@ SCORE RANGE        ACCOUNT STAGE      INTERPRETATION & NEXT STEP
                                       group map in handover packet.
 ```
 
-## Stage Multipliers for Prioritisation
+## Stage Multipliers for Prioritization
 
-When prioritising which accounts to focus on, apply stage multipliers to the raw engagement score. This ensures you allocate resources to the most sales-ready accounts:
+When prioritizing which accounts to focus on, apply stage multipliers to the raw engagement score. This ensures you allocate resources to the most sales-ready accounts:
 
 ```
 STAGE              MULTIPLIER   RATIONALE
@@ -167,7 +167,7 @@ Handed-to-Sales    × 0.0        Out of marketing measurement
 - Account B: Raw score 110 (Hot stage) × 2.0 = 220 (priority index)
 - Account C: Raw score 140 (In-Market stage) × 2.0 = 280 (priority index)
 
-Rank accounts by priority index when assigning nurture resources or deciding which to prioritise for sales outreach support.
+Rank accounts by priority index when assigning nurture resources or deciding which to prioritize for sales outreach support.
 
 ## Configuring Engagement Scoring for Your TAM
 
@@ -192,19 +192,19 @@ Your baseline weights assume a 90-180 day buying cycle. If your product has a di
 
 ### Step 2: Adjust Weights for Your Deal Type
 
-**High-ticket enterprise (ACV >€500K):**
+**High-ticket enterprise (ACV >$500K):**
 - Meeting = 25 points (up from 20)
 - Demo request = 20 points (up from 15)
 - Email reply = 12 points (up from 10)
 - Website visit = 0.5 points (down from 1)
 - Rationale: High-touch requires explicit stakeholder interactions, not passive browsing
 
-**Mid-market (ACV €50-500K):**
+**Mid-market (ACV $50-500K):**
 - Use baseline weights as-is
 - Demo request = 15-18 points
 - Meeting = 18-20 points
 
-**Product-led growth (ACV <€50K):**
+**Product-led growth (ACV <$50K):**
 - Free trial signup = 15 points (up from 12)
 - Free trial login (weekly) = 4 points (up from 2)
 - Demo request = 10 points (down; less relevant)
@@ -262,7 +262,7 @@ After 1-2 months of scoring, validate by reverse-engineering from closed-won dea
 4. Recalculate total score
 5. Sort accounts by score; identify movers (up/down >50%)
 
-**Limitation:** Manual, labourious, error-prone at >100 accounts. Suitable for pilots or very small TAMs.
+**Limitation:** Manual, laborious, error-prone at >100 accounts. Suitable for pilots or very small TAMs.
 
 ### Option 2: Native Integration (Marketing Automation Platform)
 
@@ -274,27 +274,27 @@ After 1-2 months of scoring, validate by reverse-engineering from closed-won dea
 
 **Limitation:** Requires paid marketing automation; recency decay logic can be complex to implement.
 
-### Option 3: Third-Party ABM Platform (Recommended for Mature Programmes)
+### Option 3: Third-Party ABM Platform (Recommended for Mature Programs)
 
 **Option 3a: 6sense, Demandbase, or RollWorks**
 
 These platforms ingest first-party signals (your CRM, website tracking, email, ad platform) and third-party signals (intent data, technographics, news) and calculate engagement scores automatically. By 2026, all major platforms use AI or hybrid ML/AI approaches:
 
-- **6sense:** Predictive buying stage classification with ML-driven anomaly detection in buying group behaviour
+- **6sense:** Predictive buying stage classification with ML-driven anomaly detection in buying group behavior
 - **Demandbase:** Hybrid AI combining engagement signals with firmographic enrichment; automated stakeholder identification via AI
 - **RollWorks:** AI-driven account scoring and engagement recommendation engine
 
-Real-time engagement alerts are now standard (fire Slack alerts the moment an account reaches a threshold or critical event triggers). Weekly or monthly batch scoring is increasingly outdated for mature programmes; real-time systems enable faster sales response (within 24 hours of critical event).
+Real-time engagement alerts are now standard (fire Slack alerts the moment an account reaches a threshold or critical event triggers). Weekly or monthly batch scoring is increasingly outdated for mature programs; real-time systems enable faster sales response (within 24 hours of critical event).
 
 **Advantage:** Pre-built buying-stage models, third-party intent integration, automated buying-group detection, AI-driven anomaly detection, real-time alerting.
-**Cost:** Typically €50-200K+ annually depending on TAM size.
+**Cost:** Typically $50-200K+ annually depending on TAM size.
 **Setup time:** 4-8 weeks for integration and configuration.
 
 **Option 3b: Custom Integration (n8n or Zapier)**
 
 Build a workflow that pulls data from all signal sources daily, calculates engagement score using the formula above, and syncs back to your CRM. Use n8n for complex logic, Zapier for simpler integrations.
 
-**Advantage:** Custom logic, low cost (€100-500/month).
+**Advantage:** Custom logic, low cost ($100-500/month).
 **Disadvantage:** Requires technical setup; third-party intent data not included.
 
 ## Scoring Model Configuration Worksheet
@@ -304,7 +304,7 @@ CONFIGURATION ITEM               YOUR VALUE      NOTES
 ───────────────────────────────────────────────────────────────
 Buying Cycle Length              _____ days      30-60 / 90-180 / 180-360 / 360+
 Product Category                 __________      SaaS / Infrastructure / Services / PLG
-Average Deal Size (ACV)          €xxxxxx
+Average Deal Size (ACV)          $xxxxxx
 Sales Team Model                 __________      High-touch AE / BDR-driven / Self-serve
 Target TAM Size                  _____ accounts
 
@@ -337,11 +337,11 @@ Full TAM rollout                  [Date]
 
 ## AI/ML-Driven Engagement Scoring and Automated Buying Group Detection (2026 Adoption)
 
-By 2026, AI and ML approaches are mainstream in ABM platforms. Understanding automation capabilities is important for programme design.
+By 2026, AI and ML approaches are mainstream in ABM platforms. Understanding automation capabilities is important for program design.
 
 ### Predictive Scoring vs. Rules-Based Scoring
 
-**Rules-based scoring** (the manual approach in this guide) uses fixed weights and decay rules. It works well for mature programmes with clear signal patterns.
+**Rules-based scoring** (the manual approach in this guide) uses fixed weights and decay rules. It works well for mature programs with clear signal patterns.
 
 **ML-driven predictive scoring** learns weights from your closed-won and closed-lost deals. Instead of guessing that a demo request = 15 points, the model observes: "In your business, demo requests from accounts that closed won average 18 engagement signals by close date. Email replies average 3. Pricing page visits average 1.2." It then back-propagates and assigns weights based on actual outcome data.
 
@@ -355,7 +355,7 @@ Platforms with AI can detect buying group composition without manual prospecting
 
 - **Pattern recognition:** When 5 people from Finance and 3 from IT visit your website in a 2-week window, the AI infers they are a buying committee.
 - **Recommended next contacts:** "You have identified 2/5 required roles. Our model suggests you reach [name, title] at [account] (predicted 92% likelihood they are involved in buying decisions)."
-- **Stakeholder role classification:** AI infers role (Economic Buyer, Technical Buyer, etc.) based on title, department, engagement behaviour, and firmographic fit.
+- **Stakeholder role classification:** AI infers role (Economic Buyer, Technical Buyer, etc.) based on title, department, engagement behavior, and firmographic fit.
 
 **Confidence levels:** Automated detection is 70-85% accurate depending on data quality. Manual validation remains important for high-stakes handovers.
 
@@ -365,14 +365,14 @@ Platforms with AI can detect buying group composition without manual prospecting
 - You have <100 accounts (manual process is feasible)
 - You have <6 months of closed-deal history (ML model needs training data)
 - You need full transparency on scoring logic (rules-based is deterministic; ML is a black box)
-- Budget is limited (<€50K/year on platforms)
+- Budget is limited (<$50K/year on platforms)
 
 **Use AI/ML platforms if:**
 - You have 200+ accounts and want real-time scoring
 - You have 18+ months of closed-deal history (sufficient training data)
 - You want predictive insights (which accounts will heat up, which are cooling)
 - Your team has bandwidth for platform implementation (4-8 weeks)
-- Budget allows €100K-200K annually
+- Budget allows $100K-200K annually
 
 ### Hybrid Approach (Recommended for Growth)
 
@@ -406,6 +406,6 @@ Baseline signal weights and decay methodology adapted from:
 - 6sense Predictive Buying Stages Model (2026)
 - Demandbase Engagement Minutes Framework (2024)
 - Forrester B2B Buying Journey Research (2026)
-- Practitioner case studies from client engagements (practice-based) (2025-2026)
+- Practitioner case studies (practice-based) (2025-2026)
 
-Configuration framework based on Kristina Jaramillo's Personal ABM methodology (PersonalABM; host of ABMDoneRight Podcast) and motion-based weighting patterns observed across 50-500 account TAM programmes.
+Configuration framework based on Kristina Jaramillo's Personal ABM methodology (PersonalABM; host of ABMDoneRight Podcast) and motion-based weighting patterns observed across 50-500 account TAM programs.

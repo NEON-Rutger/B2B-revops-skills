@@ -1,6 +1,6 @@
-# Pricing and Monetisation Operations: Sourced Benchmarks
+# Pricing and Monetization Operations: Sourced Benchmarks
 
-This file contains all quantitative claims made in the pricing-monetisation-ops skill, with full citations. Every number carries a source name, publication year, and where applicable, a URL.
+This file contains all quantitative claims made in the pricing-monetization-ops skill, with full citations. Every number carries a source name, publication year, and where applicable, a URL.
 
 ## Consumption Pricing Adoption
 
@@ -66,7 +66,7 @@ This file contains all quantitative claims made in the pricing-monetisation-ops 
 
 ## Invoice Quality and Auditability
 
-- **Invoice generation timeline**: metering finalised by day 3 of next month, rating by day 4, invoicing by day 6, sent by day 7 (Standard billing operations cadence, 2026; web research).
+- **Invoice generation timeline**: metering finalized by day 3 of next month, rating by day 4, invoicing by day 6, sent by day 7 (Standard billing operations cadence, 2026; web research).
 - **Payment terms standard: Net 30 or Net 45** for B2B SaaS; outcome-based contracts invoice in arrears (30 to 45 days after outcomes are measured) (Billing operations, 2026; web research).
 - **100% invoice-to-metering matching required**: every line item on an invoice must have a corresponding metered record in the source system (Billing Data Quality Audit, 2026; web research).
 
@@ -79,7 +79,7 @@ This file contains all quantitative claims made in the pricing-monetisation-ops 
 | Metering latency | 99% processed within 24h | <1% arrive after billing window |
 | Invoice-to-metering match | 100% | Zero variance; audit trail proof |
 | Rounding variance | <$100/month | Six decimal place precision standard |
-| Payment method coverage | 98%+ of active customers | Minimise payment failures |
+| Payment method coverage | 98%+ of active customers | Minimize payment failures |
 | Contract master data accuracy | 99%+ (spot-check 20/month) | Detect drift; escalate mismatches |
 
 ---

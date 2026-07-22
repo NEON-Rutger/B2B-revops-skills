@@ -20,7 +20,7 @@ status: stable
 
 You are a data governance specialist who has cleaned up too many CRM disasters and now insists on prevention. Your philosophy: data architecture must follow the customer journey (bow tie), not the org chart and not the tool. Every object, property, and relationship should map to stages of the customer lifecycle.
 
-Most scale-ups (€15M-150M ARR) built revenue systems without building data governance first. Sales creates custom fields. Marketing connects enrichment vendors. CS runs manual updates. Finance syncs spreadsheets. The result: nobody knows what data is reliable, who owns it, or why numbers don't match between reports.
+Most scale-ups ($15M-150M ARR) built revenue systems without building data governance first. Sales creates custom fields. Marketing connects enrichment vendors. CS runs manual updates. Finance syncs spreadsheets. The result: nobody knows what data is reliable, who owns it, or why numbers don't match between reports.
 
 This skill is prevention, detection, and correction working together.
 
@@ -33,7 +33,7 @@ EARLY FUNNEL (Awareness → Consideration):
   Leads/Contacts:  Individual prospects. Properties: title, industry, company_size, lead_source
   Lead Sources:    Where they came from (form, event, referral)
 
-ORGANISATION LEVEL:
+ORGANIZATION LEVEL:
   Accounts:        Parent company record. Properties: revenue, industry, employee_count, country
   Hierarchy:       Parent-child for subsidiaries, divisions, acquisitions
   Status:          prospect | customer | churned | inactive
@@ -145,7 +145,7 @@ Scale-ups accumulate 500+ fields, 200 of which nobody uses. Prevention: naming c
 
 ### Five Dimensions
 
-Recommended targets for B2B SaaS (€15M-150M ARR); adjust by your stage and risk tolerance (practice-based):
+Recommended targets for B2B SaaS ($15M-150M ARR); adjust by your stage and risk tolerance (practice-based):
 
 ```
 COMPLETENESS:  Does the record have all required information?
@@ -170,7 +170,7 @@ UNIQUENESS:    No duplicates?
                duplicate accounts per domain; duplicates are high-risk)
 ```
 
-Starting point: if your organisation is below 85% on any dimension, prioritise completeness and consistency before accuracy or timeliness.
+Starting point: if your organization is below 85% on any dimension, prioritize completeness and consistency before accuracy or timeliness.
 
 ### Data Quality Score
 
@@ -183,7 +183,7 @@ DQ Score = (Completeness × 0.25) + (Accuracy × 0.25) + (Consistency × 0.25)
 
 Rationale: completeness, accuracy, and consistency carry equal weight because all three are prerequisite for trustworthy reporting. Timeliness and uniqueness prevent stale or duplicate data from corrupting decisions but require less weight since periodic refresh and deduplication can address them. Adjust weights to your business; if revenue accuracy depends heavily on timeliness (e.g., real-time deal velocity), increase timeliness weight.
 
-Track monthly. Recommended target: 85%+ across organisation. Starting point assumes B2B SaaS (€15M-150M ARR); mature data governance may sustain 90%+.
+Track monthly. Recommended target: 85%+ across organization. Starting point assumes B2B SaaS ($15M-150M ARR); mature data governance may sustain 90%+.
 ```
 
 ### Prevention-First Approach
@@ -201,7 +201,7 @@ REQUIRED FIELDS:    On Contact: email, first_name, last_name, account_id
 PICKLISTS > TEXT:   For ANY categorical data (stage, industry, deal_type).
                     Free text proliferates bad data.
 
-DEFAULT VALUES:     Currency = EUR. Stage = Prospect. Country = from account.
+DEFAULT VALUES:     Currency = USD. Stage = Prospect. Country = from account.
                     Reduce manual entry wherever possible.
 ```
 
@@ -214,12 +214,12 @@ AUTOMATED SCANS (weekly):
   Data drift (values changed without user action, e.g., stage changed but no activity log)
 
 ANOMALY ALERTS (real-time):
-  Close date in the past | Contact on 5+ accounts | ARR > €10M on single opportunity
+  Close date in the past | Contact on 5+ accounts | ARR > $10M on single opportunity
   Stage change without activity in 30 days | Deal velocity anomaly (closed in <3 days or >365 days)
 
 LLM-BASED QUALITY MONITORING (emerging, 2026):
   Pattern detection: LLM identifies suspicious records based on field patterns
-  (e.g., "contact name contains only one letter", "title has 47 words", "industry unrecognised").
+  (e.g., "contact name contains only one letter", "title has 47 words", "industry unrecognized").
   Technique: fine-tune on your clean records, flag outliers for review.
   Accuracy: 75% precision on data quality detection (practice-based; emerging in vendor research 2026).
   Use case: catch unusual entries before they propagate. Not a replacement for rules.
@@ -242,8 +242,8 @@ PERIODIC AUDITS (quarterly):
 ```
 DQ Tax = (Hours wasted × Hourly cost) + (Revenue impact of decisions on wrong data)
 
-Example: Sales ops 2hrs/week on dupes (€1,500/mo) + 20 reps × 0.5hr/week (€3,200/mo)
-= €4,700/month = €56,400/year. Show this to the CFO. Governance gets budget.
+Example: Sales ops 2hrs/week on dupes ($1,500/mo) + 20 reps × 0.5hr/week ($3,200/mo)
+= $4,700/month = $56,400/year. Show this to the CFO. Governance gets budget.
 ```
 
 ## 4. Deduplication & Record Management
@@ -309,14 +309,14 @@ CONFLICT RESOLUTION:
 ```
 POINT-TO-POINT:  Simple, 2-3 systems. Breaks down at 5+.
 
-HUB-AND-SPOKE:   CRM as central hub. All systems speak to CRM. Recommended for €15-80M.
+HUB-AND-SPOKE:   CRM as central hub. All systems speak to CRM. Recommended for $15-80M.
                  Risk: CRM becomes bottleneck; sync latency compounds.
 
 iPaaS:           Integration platform (Zapier, Make, n8n). For 5+ systems with
                  complex transforms. Operational burden: monitoring, error handling.
 
 EVENT-DRIVEN:    Real-time event streams (data warehouse streams, message queues).
-                 Emerging pattern for €100M+ or high-frequency sync requirements.
+                 Emerging pattern for $100M+ or high-frequency sync requirements.
                  Each system publishes events; consumers subscribe independently.
                  Benefit: decoupling, lower latency, easier to add new systems.
                  Operational burden: event schema governance, consumer failure handling.
@@ -324,13 +324,13 @@ EVENT-DRIVEN:    Real-time event streams (data warehouse streams, message queues
 DATA FABRIC:     Composable CDP or modern data platform (Hightouch, Census, CDP).
                  Zero-copy replication from warehouse to destination systems.
                  Benefit: single source of truth, no ETL reimplementation.
-                 For 2026: emerging as standard for €50M+ with data warehouse.
+                 For 2026: emerging as standard for $50M+ with data warehouse.
 
 COMPOSABLE CDP:  Modern CDPs (Attio, Clay, etc.) with multi-destination reverse ETL.
                  Warehouse-native with no-code sync. Hybrid human+AI enrichment.
 ```
 
-**2026 standard:** Size €50M+ or 5+ integrated systems with complex data flows? Evaluate data fabric or event-driven. Smaller organisations can sustain hub-and-spoke through €80M if iPaaS handles integration complexity.
+**2026 standard:** Size $50M+ or 5+ integrated systems with complex data flows? Evaluate data fabric or event-driven. Smaller organizations can sustain hub-and-spoke through $80M if iPaaS handles integration complexity.
 
 ### Integration Monitoring
 
@@ -376,13 +376,13 @@ UK retained most GDPR provisions but added transparency duty (inform subjects of
 Use consent management platforms (CMPs) for EU contacts to track consent basis per channel (email, phone, SMS). Consent is required for direct marketing in Germany, Austria (UWG s.7); cold email to corporate accounts is permitted in Netherlands (Telecommunications Act art. 11.7) and France under conditions. Implement immediate cessation workflow for Article 21 objections (no delay).
 
 **Enrichment Vendor Assessment:**
-Before engagement: ask vendor for DPA, SCCs, audit report (SOC2/ISO27001), data sources, and transfer mechanisms. Prioritise EU-based vendors for EU data. Document assessments in vendor risk register.
+Before engagement: ask vendor for DPA, SCCs, audit report (SOC2/ISO27001), data sources, and transfer mechanisms. Prioritize EU-based vendors for EU data. Document assessments in vendor risk register.
 
 ## 7. Definitions & Taxonomy
 
 ### The Shared Definitions Problem
 
-Sales says €2M pipeline. Marketing says 50 leads. Finance forecasts €1.8M. Nobody agrees what "pipeline," "lead," or "qualified" means.
+Sales says $2M pipeline. Marketing says 50 leads. Finance forecasts $1.8M. Nobody agrees what "pipeline," "lead," or "qualified" means.
 
 ### Definition Governance
 
@@ -396,7 +396,7 @@ Sales says €2M pipeline. Marketing says 50 leads. Finance forecasts €1.8M. N
 
 ### Stage Definitions Tied to Data
 
-Each stage requires specific data to exist; operationalise this:
+Each stage requires specific data to exist; operationalize this:
 
 ```
 PROSPECT:       account_name + contact_email + lead_source (can't advance without these)
@@ -454,7 +454,7 @@ LEVEL 3: PROACTIVE Council meets monthly. Prevention enforced (validation, pickl
                       Quality scoring automated. Standards documented. Dedup prevention built in.
                       "We know what good data looks like." Fix: 12-18 months for Level 4.
 
-LEVEL 4: OPTIMISED Automated enforcement. Self-healing data. Culture of ownership.
+LEVEL 4: OPTIMIZED Automated enforcement. Self-healing data. Culture of ownership.
                       Real-time monitoring. Predictive quality.
                       "Data quality is our competitive advantage."
 
@@ -494,7 +494,7 @@ When designing data governance, think beyond CRM hygiene. Modern data governance
 
 | Class | What it covers | Governance implications |
 |---|---|---|
-| **Customer Data** | Profiles, transactions, behavioural signals, support tickets, enrichment data | Identity resolution, consent management, decay monitoring |
+| **Customer Data** | Profiles, transactions, behavioral signals, support tickets, enrichment data | Identity resolution, consent management, decay monitoring |
 | **Company Data** | Operational data across departments: financials, pipeline, inventory, logistics | Cross-functional access policies, department data ownership |
 | **Content Data** | Creative assets with metadata: what it is, where it can be used, who approved it, how it performs | Content governance, brand compliance, performance tracking |
 | **Code Data** | AI models, prompts, agent configurations, automation rules; "software is data" | Version control, prompt governance, agent audit trails, agentic compliance |
@@ -502,21 +502,21 @@ When designing data governance, think beyond CRM hygiene. Modern data governance
 
 **Why this matters:** When everything is data (including the AI agents themselves and the governance rules they follow), data governance becomes the foundation of the entire operating system, not just a hygiene exercise. Brinker's thesis: "The martech stack doesn't sit on top of data. It is data."
 
-### Code Data Governance: Operationalising AI Agents (2026 Standard)
+### Code Data Governance: Operationalizing AI Agents (2026 Standard)
 
-By 2026, 61% of RevOps teams use AI in at least one workflow (Skaled, 2026); governance must address agent behaviour, not just model training. Key runtime controls:
+By 2026, 61% of RevOps teams use AI in at least one workflow (Skaled, 2026); governance must address agent behavior, not just model training. Key runtime controls:
 
 **Agent Audit Trails (Mandatory):**
-Every agent action must be logged: what data it read, what decision it made, what it wrote, timestamp, confidence score (if available). Log writes to immutable ledger (append-only). Enable 72-hour recall: "What did Agent X do on this record last week?" Required for: regulatory compliance (Article 21 objections, GDPR audit), incident investigation (data corruption), and audit defence.
+Every agent action must be logged: what data it read, what decision it made, what it wrote, timestamp, confidence score (if available). Log writes to immutable ledger (append-only). Enable 72-hour recall: "What did Agent X do on this record last week?" Required for: regulatory compliance (Article 21 objections, GDPR audit), incident investigation (data corruption), and audit defense.
 
 **Prompt Versioning & Control:**
-Treat prompts as code. Version control: prompt text, input validation rules, output validation rules, agent access boundaries. On prompt change: test against 100-record sample before go-live. Document: what changed and why. Escalation: if agent behaviour changes meaningfully, notify VP RevOps before rolling out.
+Treat prompts as code. Version control: prompt text, input validation rules, output validation rules, agent access boundaries. On prompt change: test against 100-record sample before go-live. Document: what changed and why. Escalation: if agent behavior changes meaningfully, notify VP RevOps before rolling out.
 
 **LLM Output Validation (OWASP Agent Top 10, 2025):**
 AI agents can hallucinate (invent data), confabulate (misunderstand), or take unintended actions. Guardrails per OWASP Agent Governance Toolkit (Microsoft, 2026):
 - No agent writes to immutable fields (account_name, created_date, revenue_closed_won)
 - All writes to mutable fields (stage, notes, scores) must pass validation: "Is this value in the allowed range?" / "Is this a typo?" / "Did something break upstream?"
-- Cost anomaly detection: if agent writes ARR > €10M on single deal, hold and escalate (48-hour review SLA)
+- Cost anomaly detection: if agent writes ARR > $10M on single deal, hold and escalate (48-hour review SLA)
 - Contact/account merges: agent cannot merge without human approval; only surfaces candidates
 
 **Escalation Rules:**
@@ -530,8 +530,8 @@ AI agents for revenue operations are not yet classified as "high-risk" by EU AI 
 
 ### The Semantic Layer as Governance Foundation
 
-A semantic layer provides consistent, business-friendly vocabulary across the organisation:
-- Standardised metric definitions (what "MQL," "pipeline," "customer" mean)
+A semantic layer provides consistent, business-friendly vocabulary across the organization:
+- Standardized metric definitions (what "MQL," "pipeline," "customer" mean)
 - Translation between technical schemas and business concepts
 - Shared calculations that every report, dashboard, and AI agent uses
 
@@ -549,6 +549,6 @@ A semantic layer provides consistent, business-friendly vocabulary across the or
 
 **"Integrations keep breaking":** Map system of record for every data point. Define sync direction. Set up monitoring. Most integration failures come from undefined ownership.
 
-**Cross-references:** For CRM property implementation, see **revops-hubspot**. For tech stack integration decisions, see **revops-tech-stack**. For data spine quality scoring, see **revops-four-capability-maturity-assessment**. For emergency data audit, see **revops-crisis**.
+**Cross-references:** For CRM property implementation, see **revops-hubspot**. For tech stack integration decisions, see **revops-tech-stack**. For emergency data audit, see **revops-crisis**.
 
 > Built by [Neon Triforce](https://neontriforce.com)

@@ -16,7 +16,7 @@ description: >
   architecture and framework thinking, see revops-strategy. For ICP BUILDING methodology,
   see icp-builder. For lead routing rules and assignment logic, see lead-routing
   (which defers to this skill for CRM-specific implementation). For reporting, dashboards,
-  and pipeline visibility, see revops-pipeline-visibility.
+  and pipeline visibility, see pipeline-visibility.
 status: stable
 ---
 
@@ -30,7 +30,7 @@ Your philosophy: HubSpot is only as good as the data model behind it. If the arc
 
 ## Architecture Principles
 
-These principles synthesise RevOps best practice across B2B SaaS, drawing on Winning by Design's SPICED framework, Pavilion GTM methodology, and practice-based learning from 50+ HubSpot implementations.
+These principles synthesize established RevOps best practices across B2B SaaS, drawing on industry-standard SPICED qualification methodology and practice-based learning from 50+ HubSpot implementations.
 
 1. **Design for reporting first.** Before creating a single property, ask: "What decisions does this team need to make, and what data do they need to make them?" Then work backward to the data model. If you can't explain which report a property feeds, don't create it.
 
@@ -205,7 +205,7 @@ Returned after 30+ days inactive: +15
 
 **MQL threshold:** Fit ≥ 25 AND Engagement ≥ 30. Both conditions must be met; a perfect-fit company that hasn't engaged isn't ready for sales, and a highly engaged contact at a non-ICP company wastes sales time.
 
-Note: workflow-recipes.md section 1 shows an alternative threshold (Fit ≥ 60 AND Engagement ≥ 40) for higher-confidence lead selection. Choose based on your team's risk tolerance: lower thresholds catch more leads (higher volume, more false positives), higher thresholds prioritise fit (lower volume, stronger leads). Calibrate quarterly using actual MQL-to-SQL and SQL-to-customer conversion data.
+Note: workflow-recipes.md section 1 shows an alternative threshold (Fit ≥ 60 AND Engagement ≥ 40) for higher-confidence lead selection. Choose based on your team's risk tolerance: lower thresholds catch more leads (higher volume, more false positives), higher thresholds prioritize fit (lower volume, stronger leads). Calibrate quarterly using actual MQL-to-SQL and SQL-to-customer conversion data.
 
 **Scoring decay:** Engagement scores should decay over time. A pricing page visit 6 months ago isn't relevant. Apply -5 points per 30 days of inactivity, with a floor of 0.
 
@@ -220,9 +220,9 @@ HubSpot offers two automation paradigms. Choose based on complexity and team cap
 **Breeze Agents (current, recommended for 2026+):** Agentic automation with AI orchestration. Three agent types available (HubSpot, 2026):
 - Breeze Prospecting Agent (lead qualification, engagement scoring, outreach recommendations): $1.00 per recommended lead
 - Breeze Customer Agent (renewal management, expansion identification, health monitoring): $0.50 per resolved conversation
-- Data Agent (data enrichment, standardisation, duplicate detection): Usage-based pricing
+- Data Agent (data enrichment, standardization, duplicate detection): Usage-based pricing
 
-Breeze Agents require Professional tier or above. They integrate natively with Slack, email, and workflows. Recommended for revenue teams over €15M ARR.
+Breeze Agents require Professional tier or above. They integrate natively with Slack, email, and workflows. Recommended for revenue teams over $15M ARR.
 
 For 2026 implementations, start with Workflow Builder for foundational automation (lifecycle stage transitions, lead routing), then layer Breeze Agents for judgment-heavy tasks (qualification scoring, renewal strategy, expansion identification).
 
@@ -282,7 +282,7 @@ ACTION:  Set email marketing status → Non-marketable
 
 HubSpot's native Contracts object (introduced Spring 2026) replaces manual deal-creation patterns for renewals. Benefits:
 
-- Auto-renewal quotes (generated from prior contract terms, customisable)
+- Auto-renewal quotes (generated from prior contract terms, customizable)
 - Auto-deal creation on quote acceptance
 - Native renewal date tracking (no manual property stamping)
 - Integrated e-signature workflow
@@ -290,7 +290,7 @@ HubSpot's native Contracts object (introduced Spring 2026) replaces manual deal-
 
 **Implementation:** If on Commerce Hub Pro or higher, migrate renewal workflows from manual deal creation to native Contracts. Reduces data entry friction and improves renewal accuracy.
 
-**For organisations without Commerce Hub:** Continue using the manual workflow pattern (described in workflow-recipes.md section 6). Create a renewal deal 60 days before contract end date, populate from prior contract record, and manage as normal sales pipeline.
+**For organizations without Commerce Hub:** Continue using the manual workflow pattern (described in workflow-recipes.md section 6). Create a renewal deal 60 days before contract end date, populate from prior contract record, and manage as normal sales pipeline.
 
 ## Reporting & Dashboards
 
@@ -368,7 +368,7 @@ Create a workflow: when `calc_deal_health_score` ≤ 9 AND deal is in active pip
 
 ### Reporting Principles
 
-- **Context, not just numbers.** "500 MQLs" is a data point. "500 MQLs, 23% converted to SQL (up from 18%), producing €1.2M in new pipeline" is insight.
+- **Context, not just numbers.** "500 MQLs" is a data point. "500 MQLs, 23% converted to SQL (up from 18%), producing $1.2M in new pipeline" is insight.
 - **Always show trend.** A metric without trend context is useless for decisions. Week-over-week for leading indicators, month-over-month for revenue metrics.
 - **Every dashboard answers one question.** If you can't articulate what decision the dashboard supports, it's decoration. Kill it.
 

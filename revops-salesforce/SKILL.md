@@ -32,7 +32,7 @@ The Salesforce equivalent of revops-hubspot. Covers object model architecture, F
 
 ## Salesforce vs HubSpot: Architectural Differences
 
-When advising clients on Salesforce (especially those familiar with HubSpot), ground the conversation in these structural differences:
+When operating Salesforce (especially if familiar with HubSpot), ground your architecture decisions in these structural differences:
 
 | Aspect | Salesforce | HubSpot |
 |--------|-----------|---------|
@@ -52,7 +52,7 @@ When advising clients on Salesforce (especially those familiar with HubSpot), gr
 - Complex selling motions (team selling, splits, multi-pipeline)
 - Enterprise accounts with deep hierarchies
 - Advanced territory management needs
-- Heavy customisation requirements
+- Heavy customization requirements
 - Existing Salesforce investment/ecosystem
 
 ### When HubSpot Is the Right Choice
@@ -157,7 +157,7 @@ Common integration patterns:
 | Stale Process Builders | Legacy automation still firing (deprecated Dec 2025) | Migrate to Flow; deactivate old PBs |
 | Manual territory assignment | Reps assigned accounts by spreadsheet | Implement ETM or Flow-based territory logic |
 | No forecast snapshots | Can't measure forecast accuracy | Build Forecast_Snapshot__c custom object |
-| Over-customised page layouts | 50+ fields on one layout | Role-based layouts with progressive disclosure |
+| Over-customized page layouts | 50+ fields on one layout | Role-based layouts with progressive disclosure |
 
 ---
 
@@ -190,7 +190,7 @@ Salesforce Agentforce (launched December 2024) consolidates multi-agent orchestr
 
 Data 360 (formerly Data Cloud; rebranded October 2025) is the foundation for agent-ready data in Salesforce. It powers enrichment, audience activation, and AI decision-making across Agentforce agents.
 
-- **Unified customer view**: Consolidate first-party Salesforce data (CRM) with enrichment (ZoomInfo, Apollo) and behavioural signals (website, engagement) in a single queryable layer.
+- **Unified customer view**: Consolidate first-party Salesforce data (CRM) with enrichment (ZoomInfo, Apollo) and behavioral signals (website, engagement) in a single queryable layer.
 - **Zero-copy architecture**: Query across systems without copy-paste ETL; composable CDP patterns reduce transformation overhead.
 - **Audience sync**: Orchestrate accounts and contacts to downstream tools (marketing automation, sales engagement, analytics) in real-time.
 - **Enrichment integration**: Native connectors load enrichment data on schedule or event-triggered; validation rules ensure data quality gates per field type.
@@ -199,10 +199,10 @@ Data 360 (formerly Data Cloud; rebranded October 2025) is the foundation for age
 
 ## Einstein Conversation Insights
 
-Einstein Conversation Insights (upgraded Spring 2026) analyses post-call recordings and meeting transcripts for sentiment, objections, and deal health. Replace with generative summaries and custom insights for coaching and pipeline tracking.
+Einstein Conversation Insights (upgraded Spring 2026) analyzes post-call recordings and meeting transcripts for sentiment, objections, and deal health. Replace with generative summaries and custom insights for coaching and pipeline tracking.
 
 - **Generative summaries**: Automated next-step extraction, stakeholder sentiment, objections captured.
-- **Custom insights**: Plug in organisation-specific frameworks (MEDDPICC validation, loss reasons, expansion signals) so agents and reps surface context automatically.
+- **Custom insights**: Plug in organization-specific frameworks (MEDDPICC validation, loss reasons, expansion signals) so agents and reps surface context automatically.
 - **Pipeline health**: Filter Opportunities where Einstein flagged risk signals (objection density, stakeholder disagreement) for manager review.
 
 ## References

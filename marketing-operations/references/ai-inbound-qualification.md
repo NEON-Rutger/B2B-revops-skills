@@ -6,7 +6,7 @@ When AI is deployed for inbound lead qualification (via Qualified, Agentforce, o
 
 **AI qualification adds two new dimensions to scoring:**
 
-1. **Behavioural intent signals**: not just "downloaded a whitepaper" but "visited pricing page 3 times in 2 days, opened 4 emails, attended webinar, then hit the contact form." AI can score multi-touch behaviour patterns that humans miss.
+1. **Behavioral intent signals**: not just "downloaded a whitepaper" but "visited pricing page 3 times in 2 days, opened 4 emails, attended webinar, then hit the contact form." AI can score multi-touch behavior patterns that humans miss.
 
 2. **Real-time qualification**: AI can run SPICED-style qualification questions via chat before a human gets involved. The lead arrives at the rep pre-qualified with Situation, Pain, and Impact already captured.
 
@@ -15,12 +15,12 @@ When AI is deployed for inbound lead qualification (via Qualified, Agentforce, o
 **Implementation pattern:**
 - AI handles first response (speed-to-lead becomes instant)
 - AI asks 3-5 qualification questions (mapped to SPICED or BANT)
-- AI scores based on responses + behavioural data + firmographic fit
+- AI scores based on responses + behavioral data + firmographic fit
 - T1 leads routed to rep immediately with AI-generated brief
 - T2 leads entered into AI nurture sequence
-- T3 leads deprioritised or recycled
+- T3 leads deprioritized or recycled
 
-**Lead segmentation for AI qualification**: segment by behaviour, not demographics:
+**Lead segmentation for AI qualification**: segment by behavior, not demographics:
 - Website visitors (high-intent pages) → immediate AI engagement
 - Content downloaders → educational nurture sequence
 - Event registrants → event-specific follow-up sequence

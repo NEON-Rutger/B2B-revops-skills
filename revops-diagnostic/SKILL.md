@@ -74,7 +74,7 @@ Enablement is the infrastructure the revenue engine runs on:
 
 ```
 PEOPLE & COACHING:    Capacity, roles, skills, onboarding, coaching rhythm,
-                      compensation (shapes behaviour), team structure
+                      compensation (shapes behavior), team structure
 
 PROCESSES:            Handovers, workflows, ICP targeting, qualification,
                       GTM methodology, content library
@@ -109,7 +109,7 @@ For HubSpot teams:
 - Do you have agentic automation (workflows plus agents in Agentic Automation Builder)?
 - Clearbit data layer connected for enrichment?
 
-If either platform is significantly outdated (Salesforce on Process Builder, HubSpot pre-Breeze) or Data Cloud / Data Hub not deployed, platform modernisation may be blocking your AI adoption strategy.
+If either platform is significantly outdated (Salesforce on Process Builder, HubSpot pre-Breeze) or Data Cloud / Data Hub not deployed, platform modernization may be blocking your AI adoption strategy.
 
 ### Layer 3: ICP Value Loops
 
@@ -118,7 +118,7 @@ If either platform is significantly outdated (Salesforce on Process Builder, Hub
 Two engines, one customer:
 ```
 Product Value Engine:  Design → Build → Measure → Learn
-Revenue Engine:        Market → Acquire → Adopt & Realise Value → Renew & Expand
+Revenue Engine:        Market → Acquire → Adopt & Realize Value → Renew & Expand
 ```
 
 The product engine builds what you sell. The revenue engine builds the relationship with who you sell it to. Both deliver value. Both learn.
@@ -255,9 +255,9 @@ Example: Executive goal = NRR from 98% to 110%
 
 SALES:      Does comp include retention quality? (not just new logo)
             Does quota include expansion targets? (not just new business)
-            Are AEs incentivised to multi-thread and ensure onboarding success?
+            Are AEs incentivized to multi-thread and ensure onboarding success?
 
-MARKETING:  Does marketing optimise for ICP-fit, not just lead volume?
+MARKETING:  Does marketing optimize for ICP-fit, not just lead volume?
             Is there a quality metric (SAL rate, pipeline influenced) in comp?
             Does attribution include expansion-influenced revenue?
 
@@ -275,7 +275,7 @@ REVOPS:     Does RevOps own the data spine that connects these metrics?
 
 MISALIGNMENT PATTERN: Sales comp = 100% new logo, CS comp = NPS only,
 Marketing comp = MQL volume → Nobody actually drives NRR.
-Behaviour = f(Metrics, Visibility, Frequency, Compensation).
+Behavior = f(Metrics, Visibility, Frequency, Compensation).
 If the metric isn't visible, reviewed regularly, and tied to comp, it won't move.
 ```
 
@@ -367,8 +367,8 @@ Example:
 Increase NRR from 98% to 110%
 → Implement expansion pipeline with QBR-triggered upsell process
 → Head of CS
-→ Expansion pipeline value per quarter (target: €500K by Q3)
-→ If expansion pipeline <€200K by end of Q2, escalate to CRO
+→ Expansion pipeline value per quarter (target: $500K by Q3)
+→ If expansion pipeline <$200K by end of Q2, escalate to CRO
 ```
 
 ### Decision Rights (DACI)
@@ -387,9 +387,7 @@ Apply to every recurring decision that currently causes confusion.
 
 ## Quick Triage (Before the Full Diagnostic)
 
-Before running a full IFA diagnostic or Six Stages check, use this 5-minute triage to identify the highest-impact area. This prevents the common trap of diagnosing everything when the priority is obvious.
-
-**Source:** Adapted from Union Square Consulting's GTM Efficiency Pyramid decision tree. Use this as a fast-path before the deeper diagnostic methods.
+Before running a full IFA diagnostic or Six Stages check, use this 5-minute triage to identify the highest-impact area. This prevents the common trap of diagnosing everything when the priority is obvious. Use this decision tree as a fast-path to pinpoint which revenue motion needs attention first.
 
 ### The Triage Decision Tree
 
@@ -457,7 +455,7 @@ Almost every revenue team says they need more pipeline. Push back. The diagnosti
 
 ### Per-Motion Layer Check
 
-For the prioritised motion, check which operational layer is the bottleneck:
+For the prioritized motion, check which operational layer is the bottleneck:
 
 ```
 FUNDAMENTALS broken?  → Process doesn't exist or isn't in the system.
@@ -522,9 +520,11 @@ This doesn't replace the full diagnostic; it accelerates it by pointing you at t
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton Revenue Leadership Podcast; E64 Aviv Canaani / Datarails, 4 Mar 2026)
+## Advanced Diagnostic Frameworks
 
-### Constraint-Based Diagnosis (Theory of Constraints for GTM)
+*Source: insights adapted from The Revenue Leadership Podcast (Kyle Norton; E64 with Aviv Canaani, Datarails; March 2026).*
+
+### Constraint-Based Diagnosis (Theory of Constraints for Revenue Operations)
 
 Find the ONE constraint limiting the system before recommending fixes.
 
@@ -567,7 +567,7 @@ Data quality → Forecasts → Coaching → Rep behavior → Data quality
 
 **Where the Loop Usually Breaks:**
 - Most common: Data quality → Forecast link (bad data = unreliable forecast = managers lose faith = coaching disconnects from reality)
-- Norton's fix: "Call a code red at the exec level. Force the data team to fix it."
+- Recommended fix: Declare a code red at the exec level when this link breaks. Allocate dedicated resources to restore data quality before attempting to rebuild the forecast model.
 
 
 ## How to Use This Skill
@@ -580,32 +580,32 @@ Data quality → Forecasts → Coaching → Rep behavior → Data quality
 
 **"Where should we invest next?":** Start with capability gaps. The gap between current state capabilities and what the growth goal requires IS the investment roadmap. Not "do more of what we're doing" but "build the capabilities that let us operate at the next level."
 
-**Client prep / discovery calls:** Use the diagnostic questions from IFA (Information, Focus, Action streams) as discovery questions. They reveal the system state faster than any other approach.
+**Prep for discovery calls:** Use the diagnostic questions from IFA (Information, Focus, Action streams) as discovery questions. They reveal the system state faster than any other approach.
 
 
 ---
 
-## Integration Architecture Assessment (Brinker/Databricks, 2026)
+## Integration Architecture Assessment
 
-When diagnosing revenue system constraints, assess integration architecture as a potential root cause. Integration complexity scales with fragmentation; moving from point-to-point to shared data substrates reduces maintenance burden by an order of magnitude.
+When diagnosing revenue system constraints, assess integration architecture as a potential root cause. Integration complexity scales with fragmentation; systems built on hub-and-spoke models reduce maintenance burden compared to point-to-point architectures.
 
 **Quick diagnostic questions:**
-1. How many systems maintain their own copy of customer data? (3 or more = likely data inconsistency; definitions drift across systems; Brinker/Databricks threshold)
-2. How many direct system-to-system integrations exist? (10 or more = brittle architecture; 25+ = critical maintenance burden requiring strategic architecture investment; Brinker/Databricks thresholds)
+1. How many systems maintain their own copy of customer data? (3 or more = likely data inconsistency; definitions drift across systems)
+2. How many direct system-to-system integrations exist? (10 or more = brittle architecture; 25+ = critical maintenance burden requiring strategic architecture investment)
 3. When a metric definition changes, how many places need updating? (More than 1 = no semantic layer; definitions live in code instead of a shared layer)
-4. Can an AI agent or new tool access customer data without a custom integration project? (If not = 2nd Age architecture; if yes = 3rd Age moving toward shared data substrate)
+4. Can a new tool or AI agent access customer data without a custom integration project? (If not = isolated application architecture; if yes = increasingly integrated data foundation)
 
-**Integration maturity staging (Brinker, 2026):**
+**Integration architecture maturity model:**
 
-| Stage | Architecture | Complexity | Diagnostic question |
+| Stage | Architecture Pattern | Characteristic | Diagnostic Question |
 |---|---|---|---|
-| 1st Age | Point-to-point integrations | O(n²) | "How many direct system-to-system connections do you maintain?" |
-| 2nd Age | Hub-and-spoke (CDP, iPaaS as hub) | O(n) | "Do you have a central integration hub? How many systems bypass it?" |
-| 3rd Age | Shared data substrate | O(log n) | "Do your applications operate on shared data, or maintain their own copies?" |
+| Point-to-Point | Direct connections between systems | High fragmentation; O(n²) connection cost | "How many direct system-to-system connections do you maintain?" |
+| Hub-and-Spoke | Central integration hub (CRM, CDP, iPaaS) | Reduced complexity; O(n) connection cost | "Do you have a central integration hub? How many systems bypass it?" |
+| Shared Data Layer | Applications operate on unified customer data | Minimal redundancy; new systems onboard without custom integrations | "Do your applications operate on shared data, or maintain their own copies?" |
 
-Most B2B scale-ups are in late 2nd Age: they have a hub (usually HubSpot or Salesforce) but still maintain dozens of point-to-point integrations around it. Moving toward shared data reduces integration burden by an order of magnitude.
+Most B2B scale-ups operate in hub-and-spoke mode: they have a central hub (usually HubSpot or Salesforce) but maintain dozens of point-to-point integrations around it. Moving toward a shared data layer reduces integration burden and accelerates new tool adoption.
 
-**Constraint diagnosis:** If the client describes integration as a top pain point, the constraint may be architectural, not operational. Fixing individual integrations is treating symptoms; moving toward a shared data foundation treats the cause.
+**Constraint diagnosis:** If integration is described as a top pain point, the constraint may be architectural, not operational. Fixing individual integrations treats symptoms; moving toward a shared data foundation treats the root cause.
 
 ---
 
@@ -674,12 +674,12 @@ Budget 8-12 weeks for governance layer.
 ```
 SIGNALS:
 - Deal progression, messaging, and nurture triggered by agents without human in loop
-- Multi-threaded outreach, meeting scheduling, content personalisation automated
+- Multi-threaded outreach, meeting scheduling, content personalization automated
 - Feedback from deal outcomes continuously trains models
 - Explainability and audit trails are standard
 
 DIAGNOSTIC QUESTIONS:
-□ Can your revenue engine generate, prioritise, and communicate with leads
+□ Can your revenue engine generate, prioritize, and communicate with leads
   without human intervention (except final decision gates)?
 □ Do agents make autonomous decisions on next-best action?
 □ Is your data quality sufficient for agents to operate reliably?
@@ -691,7 +691,7 @@ compliance and operational risk.
 ```
 
 **Constraint Diagnosis (AI-Native Context):**
-If a client is at Level 1 but competition is at Level 3, the constraint is almost always NOT AI adoption but the prerequisites: data quality <85% (practice-based), no semantic layer, or governance gaps. Fix those first; AI adoption becomes the lever. If data + governance are solid and adoption still stalls, the constraint may be change management or skill gaps; budget for enablement alongside tooling.
+If you are at Level 1 but your competition is at Level 3, the constraint is almost always NOT AI adoption but the prerequisites: data quality <85% (practice-based), no semantic layer, or governance gaps. Fix those first; AI adoption becomes the lever. If data + governance are solid and adoption still stalls, the constraint may be change management or skill gaps; budget for enablement alongside tooling.
 
 **Regulatory Note (EU AI Act, 2026):**
 Lead scoring and AI routing are not yet explicitly high-risk (Annex III). However, they must comply with transparency requirements (Article 6): inform data subjects that automated decisions are being made about them, and provide meaningful human oversight for material decisions. Autonomous SDR agents are higher risk and require documented governance (Article 26(7)). Add a compliance check to any AI adoption roadmap before go-live.
@@ -704,6 +704,6 @@ When multiple revenue systems break simultaneously (forecast variance >30%, pipe
 
 **Reference:** `references/crisis-triage-reference.md` (converted from revops-crisis skill)
 
-Contains: Crisis recognition thresholds, 4-week Emergency Triage Protocol, 30-60-90 response plan, and four crisis-specific playbooks (Forecast, Pipeline, Churn, Trust). Use it as the first-response framework, then hand off to this skill and revops-four-capability-maturity-assessment for deeper diagnostic work after stabilisation.
+Contains: Crisis recognition thresholds, 4-week Emergency Triage Protocol, 30-60-90 response plan, and four crisis-specific playbooks (Forecast, Pipeline, Churn, Trust). Use it as the first-response framework, then hand off to this skill and revops-four-capability-maturity-assessment for deeper diagnostic work after stabilization.
 
 > Built by [Neon Triforce](https://neontriforce.com)

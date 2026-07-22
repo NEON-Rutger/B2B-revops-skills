@@ -36,12 +36,12 @@ SOLUTION DESIGN / PROPOSAL (60-90 days):
   Must have:
     - Situation ≥ 2 (understand how to position solution)
     - Pain ≥ 2 (can quantify savings/upside against their cost)
-    - Impact ≥ 2 (they've modelled the business case)
+    - Impact ≥ 2 (they've modeled the business case)
     - Critical Event ≥ 1 (driven timeline for proposal delivery)
     - Decision ≥ 2 (know decision process, have champion, identified economic buyer)
   Red flags to delay proposal:
     - Decision score is 1 or 0 (haven't talked to economic buyer; proposing to wrong person)
-    - Impact score is 0 or 1 (haven't modelled upside; proposal will be about price)
+    - Impact score is 0 or 1 (haven't modeled upside; proposal will be about price)
     - Pain quantification is missing (can't tie ROI to specific problem)
 
 NEGOTIATION / CLOSE (90+ days):

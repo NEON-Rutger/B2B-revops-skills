@@ -15,7 +15,7 @@ Use this as:
 
 * Reference for **discovery, qualification, and RevOps design** (fields, stages, dashboards).
 
-* Parking lot for **new SPICED snippets** you pull from transcripts and client work.
+* Parking lot for **new SPICED snippets** you pull from transcripts and deal work.
 
 Clusters we care about right now:
 
@@ -37,7 +37,7 @@ Use this when you need a fast Situation/Pain paragraph for copy.
 You're a B2B SaaS / tech company with multiple GTM teams and tools. Growth is no longer "for free" and you've outgrown the operating model and dashboards that got you here.
 
 **P -- Pain**
-Forecast calls feel like theatre, handoffs leak everywhere, CRM is a mess, and RevOps (if it exists) is a report factory drowning in random requests and meetings that don't change behaviour.
+Forecast calls feel like theater, handoffs leak everywhere, CRM is a mess, and RevOps (if it exists) is a report factory drowning in random requests and meetings that don't change behavior.
 
 **I -- Impact**
 Growth becomes lumpy, CAC payback stretches, NRR bands wobble, and leadership wastes hours reconciling whose dashboard is right instead of pulling clear levers.
@@ -62,10 +62,10 @@ You can't get a clean, comparable view across portcos. Data is terrible or incon
 You can't judge GTM risk or capital efficiency with confidence. Rule of 40 (revenue growth rate plus free cash flow margin; best-in-class target 50%) and forecast durability are guesswork, value-creation becomes reactive firefighting, and your credibility with IC/LPs erodes when stories don't match outcomes (Aventis Advisors; Abacum, 2026).
 
 **C -- Critical Event**
-Several portcos have missed or sandbagged at the same time. You're rolling out Winning by Design / bowtie thinking and realise that without an execution layer (Rooms, cadence, definitions), it will become another deck.
+Several portcos have missed or sandbagged at the same time. You're rolling out revenue system methodology / bowtie thinking and realize that without an execution layer (Rooms, cadence, definitions), it will become another deck.
 
 **D -- Decision**
-You standardise on a portfolio revenue system pattern: minimum viable data spine and definitions, one Revenue Room and cadence per portco, tested on a few anchor companies, with RevOps and leadership owning the system and you measuring success in cleaner bands and fewer GTM surprises.
+You standardize on a portfolio revenue system pattern: minimum viable data spine and definitions, one Revenue Room and cadence per portco, tested on a few anchor companies, with RevOps and leadership owning the system and you measuring success in cleaner bands and fewer GTM surprises.
 
 ---
 
@@ -117,7 +117,7 @@ Use this section when you're designing discovery, copy, or system changes. Pick 
 
 * Multiple GTM teams (marketing, SDR, AE, CS, partnerships) all touching the same customer journey.
 
-* Tooling is more advanced than the way people actually work: HubSpot/SF, enablement tools, note-takers, AI -- but behaviour is still driven by legacy habits and hero reps.
+* Tooling is more advanced than the way people actually work: HubSpot/SF, enablement tools, note-takers, AI -- but behavior is still driven by legacy habits and hero reps.
 
 * Growth used to come "for free" from product and market; now it requires deliberate design.
 
@@ -133,7 +133,7 @@ Use this section when you're designing discovery, copy, or system changes. Pick 
 
 * 30-200M+ ARR, multiple products/modules (e.g. cards, reimbursements, AP, subscriptions).
 
-* Hybrid PLG + sales-led motions, often centralised SDR/AE hub plus local field roles.
+* Hybrid PLG + sales-led motions, often centralized SDR/AE hub plus local field roles.
 
 * Multiple regions at different maturity; some markets are saturated and slow, others are high growth but under-resourced.
 
@@ -156,7 +156,7 @@ Example: "Series B, 150 employees, selling to mid-market finance teams in 5 EU c
 
 **Generic P -- Pain**
 
-* Forecast calls feel like theatre; numbers change week to week with no clear explanation.
+* Forecast calls feel like theater; numbers change week to week with no clear explanation.
 
 * Handoffs between teams leak: MQL→SQL, SQO→Closed, Closed→Onboarded, Onboarded→Active, Active→Expanding.
 
@@ -170,7 +170,7 @@ Example: "Series B, 150 employees, selling to mid-market finance teams in 5 EU c
 
   * Leads and opportunities tracked in spreadsheets or manually-updated CRMs.
 
-  * Reps self-report lead source and are incentivised to claim everything.
+  * Reps self-report lead source and are incentivized to claim everything.
 
 * No standard funnel or bowtie definitions; each portco defines SQL, pipeline, and NRR differently.
 
@@ -214,7 +214,7 @@ Example: "Series B, 150 employees, selling to mid-market finance teams in 5 EU c
 
   * Any increase in top-of-funnel volume risks overwhelming them and lowering conversion.
 
-Add client-specific pains under each cluster as you hear them. Use bullets starting with the exact phrase they used ("forecast theatre", "spreadsheet hell", "data is a dumpster fire").
+Add segment-specific pains under each cluster as you hear them. Use bullets starting with the exact phrase they used ("forecast theater", "spreadsheet hell", "data is a dumpster fire").
 
 ---
 
@@ -252,7 +252,7 @@ Add client-specific pains under each cluster as you hear them. Use bullets start
 
 * Forecast misses accumulate; board confidence drops, internal narratives turn defensive.
 
-* Product and market opportunity are strong, but the GTM system can't fully capitalise on them.
+* Product and market opportunity are strong, but the GTM system can't fully capitalize on them.
 
 **Immature Scale-Up -- Impact**
 
@@ -278,7 +278,7 @@ Add concrete impact statements from transcripts: e.g. "we closed 5 big deals but
 
 * Several portcos miss or sandbag in the same period.
 
-* Formal WbD / bowtie training is being rolled out; there is appetite for a consistent framework.
+* Formal revenue system / bowtie training is being rolled out; there is appetite for a consistent framework.
 
 * New partners/LPs demand clearer GTM risk bands and efficiency narratives.
 
@@ -296,7 +296,7 @@ Add concrete impact statements from transcripts: e.g. "we closed 5 big deals but
 
 * Competitors stumble (bankruptcy, product issues), creating a short window to win their customers.
 
-* Investor or board pressure to professionalise GTM and clean up data before the next raise.
+* Investor or board pressure to professionalize GTM and clean up data before the next raise.
 
 Capture specific triggers here (e.g. "October miss put performance under the spotlight", "board asked us for forecast bands instead of a single number").
 
@@ -310,7 +310,7 @@ Capture specific triggers here (e.g. "October miss put performance under the spo
 
 **PE -- Decision**
 
-* Standardise on a portfolio GTM pattern:
+* Standardize on a portfolio GTM pattern:
 
   * Minimum viable data model and definitions (SPICED + bowtie).
 
@@ -374,7 +374,7 @@ See the ICP building reference for the full ICP building methodology that produc
 
 Use this as a **living document**. When you get transcripts or new insight:
 
-1. **Paste raw quotes** at the bottom under a heading like `New SPICED snippets -- [Client/Prospect Name]`.
+1. **Paste raw quotes** at the bottom under a heading like `New SPICED snippets -- [Prospect Name]`.
 
 2. Translate the best quotes into 1-2 line SPICED bullets under the correct cluster and letter.
 

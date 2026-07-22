@@ -31,8 +31,8 @@ THURSDAY: Executive forecast review (weekly or bi-weekly)
 **The structure:**
 ```
 1. START WITH THE NUMBER (2 minutes)
-   Manager states: "We're at €X Commit, €Y Best Case, against €Z target.
-   Gap to plan on Commit is €[Z-X]. Here's where I want to focus."
+   Manager states: "We're at $X Commit, $Y Best Case, against $Z target.
+   Gap to plan on Commit is $[Z-X]. Here's where I want to focus."
 
 2. INSPECT AT-RISK COMMITS (bulk of time)
    For each Commit deal the manager has questions about:

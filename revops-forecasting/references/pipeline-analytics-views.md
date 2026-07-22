@@ -24,10 +24,10 @@ Compare forecast at each checkpoint against actual close:
 
 | Week of Quarter | Commit Forecast | Actual Close | Variance | Diagnosis |
 |----------------|----------------|-------------|----------|-----------|
-| Week 1 | €X | | | Starting position |
-| Week 4 | €Y | | | If Y < X: deals slipping early |
-| Week 8 | €Z | | | If Z < Y: pattern problem |
-| Week 13 | €Final | €Actual | ±% | Accuracy score |
+| Week 1 | $X | | | Starting position |
+| Week 4 | $Y | | | If Y < X: deals slipping early |
+| Week 8 | $Z | | | If Z < Y: pattern problem |
+| Week 13 | $Final | $Actual | ±% | Accuracy score |
 
 **Diagnosis patterns:**
 - Forecast shrinks steadily → over-commitment at start of quarter (tighten Commit criteria)

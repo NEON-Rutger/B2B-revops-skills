@@ -10,7 +10,7 @@ Detailed playbooks for the four changes RevOps teams run most often. Each applie
 - **Classification:** Red. Written plan, video walkthrough from the CRO, and live Q and A per team.
 - **Sequence:** Context two to four weeks out (the why, in revenue terms). Vision one to two weeks out (what changes per role). Detail at launch (full mechanics, a personal earnings calculator). Feedback weeks one to four (office hours, a channel). Reinforcement months one to three.
 - **Transition:** a hold-harmless or minimum-commission guarantee for the first quarter. This costs money and saves your top performers.
-- **Watch for:** the plan that quietly rewards the old behaviour. Run the Behavioural System Audit before launch.
+- **Watch for:** the plan that quietly rewards the old behavior. Run the Behavioral System Audit before launch.
 
 ## Scenario 2: Migrating CRMs
 
@@ -34,12 +34,12 @@ Detailed playbooks for the four changes RevOps teams run most often. Each applie
 
 ## Scenario 4: Implementing a new sales methodology
 
-**Why it is hard:** it is a behaviour change, not a tooling change. The hardest kind to make stick because there is no system to force it.
+**Why it is hard:** it is a behavior change, not a tooling change. The hardest kind to make stick because there is no system to force it.
 
 - **Impact:** reps must replace ingrained discovery and qualification habits; managers must coach to the new standard, not just mandate it.
-- **Classification:** Red. Built as a full enablement programme, not a kickoff event.
-- **Sequence:** Diagnose (find the reverse salient: the one skill with the most leverage). Design (define the target behaviour as specific and observable). Execute over eight to ten weeks with deep-practice sessions and questions-based coaching. Embed by measuring behaviour change, not attendance.
-- **Transition:** embed the methodology in the CRM (stage exit criteria, required qualification fields) so the path of least resistance is the new behaviour.
+- **Classification:** Red. Built as a full enablement program, not a kickoff event.
+- **Sequence:** Diagnose (find the reverse salient: the one skill with the most leverage). Design (define the target behavior as specific and observable). Execute over eight to ten weeks with deep-practice sessions and questions-based coaching. Embed by measuring behavior change, not attendance.
+- **Transition:** embed the methodology in the CRM (stage exit criteria, required qualification fields) so the path of least resistance is the new behavior.
 - **Watch for:** the one-and-done training event. Methodology dies in a week without spaced reinforcement and a running energy system. Capture the playbook as permanent reference material so new hires learn it as standard.
 
 ## The common thread

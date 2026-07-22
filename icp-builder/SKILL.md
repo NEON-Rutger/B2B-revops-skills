@@ -2,15 +2,15 @@
 name: icp-builder
 aliases: [icp-builder]
 description: >
-  Build, validate, or expand a client's ICP (Ideal Customer Profile) using
+  Build, validate, or expand your ICP (Ideal Customer Profile) using
   the GAP method, SPICED framework, and customer interview pipeline.
-  Triggers on 'build their ICP,' 'check their ICP,' 'ICP validation,' 'ICP
-  quality,' 'they don't have an ICP,' 'ICP is too broad,' 'who should they
-  sell to,' 'segment their market,' 'ICP workshop,' 'customer interviews for
-  ICP,' 'GAP method,' 'ICP expansion,' 'Goldilocks zone,' 'tier their
-  customers,' 'A/B/C segmentation,' 'are they targeting the right customers,'
-  'segmentation check,' 'ICP review,' 'who are they actually selling to,' or
-  any client engagement where the ICP is missing, broken, or needs validation.
+  Triggers on 'build your ICP,' 'check your ICP,' 'ICP validation,' 'ICP
+  quality,' 'you don't have an ICP,' 'ICP is too broad,' 'who should we
+  sell to,' 'segment our market,' 'ICP workshop,' 'customer interviews for
+  ICP,' 'GAP method,' 'ICP expansion,' 'Goldilocks zone,' 'tier our
+  customers,' 'A/B/C segmentation,' 'are we targeting the right customers,'
+  'segmentation check,' 'ICP review,' 'who are we actually selling to,' or
+  any situation where your ICP is missing, broken, or needs validation.
   This skill covers the full ICP lifecycle: validate what exists, build from
   scratch, refine with interviews, and plan expansion. BOUNDARY: For
   positioning/messaging (step AFTER ICP), see
@@ -20,37 +20,37 @@ status: stable
 
 # ICP Builder: Validate, Build & Expand
 
-You are helping work with a client's ICP. This is one of the highest-leverage activities in a revenue engagement : when the ICP is wrong, everything downstream (positioning, messaging, territory design, pipeline quality, CS segmentation) breaks.
+You are helping develop your company's ICP. This is one of the highest-leverage activities in building a revenue engine: when the ICP is wrong, everything downstream (positioning, messaging, territory design, pipeline quality, CS segmentation) breaks.
 
-Your role is to guide the process, not lecture the client. You structure the work, prepare the materials, and synthesize the outputs.
+Your role is to guide the process, not lecture your team. You structure the work, prepare the materials, and synthesize the outputs.
 
 ---
 
 ## Mode Selection
 
-Every ICP engagement starts with the same question: **does the client already have an ICP?**
+Every ICP engagement starts with the same question: **does your company already have an ICP?**
 
-- **If YES** → Start with **Mode 1: Validate** to assess what they have. The validation tells you whether they need refinements or a full rebuild.
-- **If NO** → Go straight to **Mode 2: Build** : there's nothing to validate.
-- **If MATURE + SATURATING** → Use **Mode 3: Expand** : the ICP works but the market is tapped out.
+- **If YES** → Start with **Mode 1: Validate** to assess what you have. The validation tells you whether you need refinements or a full rebuild.
+- **If NO** → Go straight to **Mode 2: Build**: there's nothing to validate.
+- **If MATURE + SATURATING** → Use **Mode 3: Expand**: the ICP works but the market is tapped out.
 
-If an ICP definition, call notes, or transcript where a client describes their customers is shared, default to Mode 1 first.
+If an ICP definition, call notes, or transcript where someone describes your customers is shared, default to Mode 1 first.
 
 ---
 
 ## Mode 1: Validate an Existing ICP
 
-This is a quality check : take the client's existing ICP as input and produce a gap assessment with specific recommendations.
+This is a quality check: take your existing ICP as input and produce a gap assessment with specific recommendations.
 
 ### Input
 
-Accept any combination of: client's ICP document, verbal description from call notes, transcript, CRM deal distribution data, win/loss data, or notes from a diagnostic.
+Accept any combination of: your ICP document, verbal description from call notes, transcript, CRM deal distribution data, win/loss data, or notes from a diagnostic.
 
-If the client has no ICP at all, flag this immediately : that's the finding. Recommend Mode 2.
+If you have no ICP at all, flag this immediately: that's the finding. Recommend Mode 2.
 
 ### The Seven-Dimension Validation Framework
 
-Score the client's ICP across seven dimensions. Each gets a rating: **Strong / Adequate / Weak / Missing.**
+Score your ICP across seven dimensions. Each gets a rating: **Strong / Adequate / Weak / Missing.**
 
 **Dimension 1: Specificity** - Named firmographic criteria: industry, size by revenue and headcount, geography, tech stack, growth stage. Not "mid-market SaaS companies" but "B2B SaaS, EUR10-50M ARR, 100-500 employees, post-Series B, EU-based, using HubSpot or Salesforce." Red flags: "We sell to everyone," only one firmographic dimension, criteria describing 50,000+ companies.
 
@@ -67,7 +67,7 @@ Red flag: ICP defined in a strategy offsite without customer input, never valida
 
 **Dimension 5: Segmentation & Motions** : ICP broken into segments with different GTM motions, buying processes, DMUs, value props, and success metrics. Red flag: one definition for radically different customer types, same sales motion for EUR5K and EUR50K deals.
 
-**Dimension 6: CRM Operationalisation** : ICP criteria exist as filterable, reportable CRM fields. Lead scoring reflects ICP fit. Pipeline reports filterable by segment. Red flag: ICP lives in a slide deck but not in the CRM.
+**Dimension 6: CRM Operationalization** : ICP criteria exist as filterable, reportable CRM fields. Lead scoring reflects ICP fit. Pipeline reports filterable by segment. Red flag: ICP lives in a slide deck but not in the CRM.
 
 **Dimension 7: Feedback Loop** : ICP treated as living document with quarterly review cadence. Win/loss analysis by segment feeds back. CS health data informs definition. Red flag: defined once, never revisited.
 
@@ -77,7 +77,7 @@ Produce:
 
 **1. Summary Score Table** : All seven dimensions with rating and one-sentence finding.
 
-**2. The One Constraint** : The single dimension that, if fixed first, unlocks the most downstream value. Connect to the revenue system: a broken ICP sits at the centre of the customer value loops.
+**2. The One Constraint**: The single dimension that, if fixed first, unlocks the most downstream value. Connect to the revenue system: a broken ICP sits at the center of the customer value loops.
 
 **3. Three Recommendations** : Maximum three, in priority order. Each: what to do, why it matters, how long it takes, who owns it.
 
@@ -91,7 +91,7 @@ Produce:
 
 ### Step 0: Assess ICP Maturity
 
-Before building, determine where the client stands using customer count thresholds:
+Before building, determine where your company stands using customer count thresholds:
 
 | Motion Type | Customers Needed for Real ICP | Confidence |
 |---|---|---|
@@ -121,9 +121,9 @@ Collect from four sources:
 
 For detailed collection guidance, read `references/icp-building-reference.md` Section 3 (Phase G).
 
-### Step 2: Analyse Patterns (GAP Phase A)
+### Step 2: Analyze Patterns (GAP Phase A)
 
-Analyse across 8 dimensions: Industry/Vertical, Company Size, Tech Stack, Revenue Model, SPICED Patterns, Product Usage, Enrichment Signals, Pipeline Behaviour.
+Analyze across 8 dimensions: Industry/Vertical, Company Size, Tech Stack, Revenue Model, SPICED Patterns, Product Usage, Enrichment Signals, Pipeline Behavior.
 
 Key outputs: pattern map (what predicts success), segment clusters (micro-ICPs forming), confidence scores, data gaps.
 
@@ -149,7 +149,7 @@ For the complete interview guide, read `references/icp-building-reference.md` Se
 
 Synthesize into 4 deliverables:
 
-**Output 1: ICP Definition** : Firmographic + technographic + behavioural criteria. Include exclusions (who is NOT ICP). Specific enough for a rep to say "yes" or "no" in 30 seconds.
+**Output 1: ICP Definition**: Firmographic + technographic + behavioral criteria. Include exclusions (who is NOT ICP). Specific enough for a rep to say "yes" or "no" in 30 seconds.
 
 **Output 2: SPICED Tiers** : A/B/C segmentation:
 - **T1 (Perfect Fit):** All ICP criteria, high SPICED match. Win rate target: 60-80%.
@@ -165,7 +165,7 @@ For existing SPICED language patterns, read `references/spiced-icp-library-v1.md
 
 ### Step 5: Goldilocks Zone Check
 
-Before finalizing, validate ICP size matches client's stage:
+Before finalizing, validate ICP size matches your company's stage:
 - ACV sustainable with sales model? (>=20K for Medium Touch; >=50K for High Touch)
 - Deals closing in 2-4 months? (6+ months = ICP too big for stage)
 - 5+ reference customers? (Fewer = ICP too new for scale)
@@ -191,13 +191,13 @@ For the full framework, read `references/icp-building-reference.md` Section 6.
 
 ---
 
-## Delivery Formats
+## How to Pace the Work
 
-**Within a short diagnostic engagement (1-2 days):** Quick validation (Mode 1) + gap identification. Flag whether full build needed.
+**Quick check (1-2 days):** Run validation (Mode 1) against your existing customer data and flag the gaps. Enough to tell you whether a full build is worth the investment.
 
-**Within a 90-Day Programme (full build):** Complete GAP method over 2-3 weeks. Customer interviews weeks 2-4. Profile deliverables by week 6. Expansion if relevant.
+**Full build (4-6 weeks):** Complete GAP analysis in the first 2-3 weeks. Customer interviews in weeks 2-4. Finished profiles and tiering by week 6. Add expansion analysis if you're evaluating new segments.
 
-**Standalone ICP Workshop (half-day):** Compressed : gather data in advance, analyse together, build initial profiles. Follow up with interview pipeline recommendation.
+**Team working session (half-day):** Compressed version: gather the data in advance, analyze it together with sales and marketing in the room, and leave with initial profiles. Follow up with an interview pipeline to validate what the session produced.
 
 ---
 
@@ -211,10 +211,9 @@ Hand off to `positioning-messaging-designer` to translate ICP insights into posi
 
 ## Voice Rules
 
-- System first, blame never : "your ICP isn't broken because someone failed; it's broken because nobody installed a feedback loop"
-- Concrete over abstract : use specific examples of what good looks like
-- British spelling
-- Short, direct assessments : CROs don't have time for padding
+- System first, blame never: "your ICP isn't broken because someone failed; it's broken because nobody installed a feedback loop"
+- Concrete over abstract: use specific examples of what good looks like
+- Short, direct assessments: CROs don't have time for padding
 
 ---
 
@@ -225,7 +224,7 @@ Hand off to `positioning-messaging-designer` to translate ICP insights into posi
 | `references/icp-building-reference.md` | Always for Mode 2 : full methodology | GAP method, 8-dimension analysis, interview pipeline, expansion, Goldilocks zone, thresholds |
 | `references/spiced-icp-library-v1.md` | When building SPICED tiers or need language examples | Canonical SPICED language for ICP clusters |
 | `references/persona-dmu.md` | Mode 1 validation (pain clarity benchmark) | Full persona & DMU with Dreams/Problems/Headaches |
-| `references/brand-canvas.md` | When connecting ICP to brand narrative | Brand Canvas (StoryBrand framework) |
+| `references/brand-canvas.md` | When connecting ICP to brand narrative | Brand Canvas framework for customer storytelling |
 
 ## Related Skills
 
@@ -235,7 +234,7 @@ Hand off to `positioning-messaging-designer` to translate ICP insights into posi
 
 ## Cross-References
 
-- **positioning-messaging-designer** : The NEXT skill: ICP → Positioning → Messaging
-- **sales-methodology** : Discovery calls produce SPICED data that feeds ICP work
+- **positioning-messaging-designer**: The NEXT skill: ICP → Positioning → Messaging
+- **sales-methodology**: Discovery calls produce SPICED data that feeds ICP work
 
 > Built by [Neon Triforce](https://neontriforce.com)

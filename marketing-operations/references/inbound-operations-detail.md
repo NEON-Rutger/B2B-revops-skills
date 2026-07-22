@@ -69,7 +69,7 @@ Document routing rules in CRM as explicit automation, not as "the team knows." F
 Inbound leads are not self-converting. Even high-intent demo requests require structured follow-up.
 
 ```
-DAY 0 (within SLA):  Phone call attempt + personalised email
+DAY 0 (within SLA):  Phone call attempt + personalized email
                      Reference: specific content consumed, company context
 DAY 1:               Second phone attempt (different time of day)
 DAY 2:               Email with relevant case study or resource
@@ -80,7 +80,7 @@ DAY 10:              If no response → recycle to nurture. Set re-engagement tr
 
 RULES:
   - Never send "just following up" emails. Every touch adds value.
-  - Personalise first email based on lead source + content consumed.
+  - Personalize first email based on lead source + content consumed.
   - Log all attempts in CRM. No dark pipeline.
   - If lead responds but isn't ready → set task for 30/60/90 day follow-up.
 ```
@@ -91,7 +91,7 @@ Tier-specific inbound cadence variant (calibrate cadence length and steps agains
 T1 LEAD FOLLOW-UP (High Fit + High Intent)
 Day 0:   Phone call (within 5 min) + confirmation email
 Day 1:   Follow-up email with case study or relevant social proof
-Day 3:   Phone attempt + personalised value email (reference their use case)
+Day 3:   Phone attempt + personalized value email (reference their use case)
 Day 5:   "Break-up" email: sets expectation this is final attempt
 Day 7:   Move to nurture if no response
 
@@ -111,7 +111,7 @@ ACCOUNT COVERAGE REPORTING:
   - Account penetration depth (contacts engaged per account)
 
 ACCOUNT GENERATION REPORTING:
-  - New accounts entering pipeline from ABM programmes
+  - New accounts entering pipeline from ABM programs
   - ABM-sourced vs ABM-influenced pipeline split
   - Time from ABM activation to first meeting (by tier)
 
@@ -126,7 +126,7 @@ ABM/INBOUND REVENUE REPORTING:
   - LTV by acquisition motion (do ABM customers retain better?)
 ```
 
-**Account-level inbound reporting:** For accounts in your ABM programme, supplement lead-level reporting with account-level coverage and pipeline metrics. Key ABM inbound metrics:
+**Account-level inbound reporting:** For accounts in your ABM program, supplement lead-level reporting with account-level coverage and pipeline metrics. Key ABM inbound metrics:
 - **Coverage:** % of target accounts with at least one identified contact (by tier)
 - **Engagement:** % of target accounts with activity in last 30/60/90 days
 - **Account-level MQL:** at least one T1/T2 lead from a target account in active research

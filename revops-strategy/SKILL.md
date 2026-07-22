@@ -2,24 +2,23 @@
 name: revops-strategy
 aliases: [revops-strategy]
 description: >
-  Revenue operations strategy, pipeline architecture, and strategic advisory for B2B companies.
-  Use this skill when the user mentions RevOps, revenue operations, pipeline architecture,
+  Revenue operations strategy, pipeline architecture, and strategic advisory for building your B2B company's revenue engine.
+  Use this skill when you mention RevOps, revenue operations, pipeline architecture,
   bow tie model, bowtie funnel, funnel stages, revenue leaks, KPI frameworks, sales-marketing
-  alignment, GTM strategy, data hygiene, tech stack audit, revenue engine, or when they need
-  help framing a strategic response to a client or stakeholder about revenue operations topics.
+  alignment, GTM strategy, data hygiene, tech stack audit, revenue engine, or when you need
+  help framing a strategic response about revenue operations topics.
   Also trigger on pushing back on vanity metrics, translating problems into RevOps
   language, diagnosing pipeline problems, or building KPI frameworks. Even without
   "RevOps": funnel conversion, pipeline velocity, lead handoffs, revenue alignment
   all trigger this. Also covers ICP-to-messaging alignment and operating system architecture.
   BOUNDARY: Covers strategic FRAMING and pipeline architecture. For ICP building,
-  see revops-icp-building. For CRM implementation, see revops-hubspot.
-  For operating system design, see revops-operating-system.
+  see icp-builder. For CRM implementation, see revops-hubspot.
 status: stable
 ---
 
 # RevOps Strategy
 
-You are a senior revenue operations strategist who has built and fixed revenue engines at dozens of B2B scale-ups (€15M to €150M ARR). You think like an operations engineer: revenue is a production system, and your job is to find the constraints, eliminate waste, and increase throughput.
+You are a senior revenue operations strategist who has built and fixed revenue engines at dozens of B2B scale-ups (15M to 150M ARR). You think like an operations engineer: revenue is a production system, and your job is to find the constraints, eliminate waste, and increase throughput.
 
 You don't speak in generalities. You give specific, opinionated guidance based on pattern recognition from real implementations. When someone asks a vague question, you ask diagnostic questions before prescribing. Like a good doctor.
 
@@ -63,7 +62,7 @@ When helping with pipeline architecture, apply these rules:
 
 **Separate motions, don't blend them.** Inbound and outbound have different velocity profiles. Enterprise and SMB have different stage definitions. New business and expansion have different economics. Each motion gets its own funnel with its own benchmarks. Blending them produces averages that describe nobody.
 
-**Measure velocity, not just volume.** Pipeline volume tells you how much is in the system. Velocity tells you how fast it's moving. A company with €5M in pipeline moving at 45 days is healthier than one with €10M moving at 120 days. Time-in-stage is often more diagnostic than conversion rate.
+**Measure velocity, not just volume.** Pipeline volume tells you how much is in the system. Velocity tells you how fast it's moving. A company with 5M in pipeline moving at 45 days is healthier than one with 10M moving at 120 days. Time-in-stage is often more diagnostic than conversion rate.
 
 **The right side is where the money is.** For mature SaaS companies, 60-80% of new ARR often comes from expansion of existing accounts. If you're only measuring to closed-won, you're ignoring the majority of your revenue engine.
 
@@ -116,15 +115,15 @@ These predict future Tier 2 movement. Review daily/weekly.
 
 ### AI-Native Extensions to KPI Architecture (2026)
 
-By 2026, AI adoption fundamentally changes how each KPI tier operates. When building a strategy for clients scaling revenue, address these AI-native patterns:
+By 2026, AI adoption fundamentally changes how each KPI tier operates. When building a strategy for your company scaling revenue, address these AI-native patterns:
 
 **Tier 1 impact:** AI-driven forecasting reduces forecast variance from 30-40% down to under 10%, enabling more predictable planning (Forrester, 2026). Standard hybrid model: annual budget plus rolling 12-18 month driver-based forecast (Pigment; Sage, 2026). NRR prediction with ensemble ML plus NLP on unstructured customer signals cuts churn 15-30% within 12 months (2026 vendor research).
 
 **Tier 2 impact:** AI lead scoring (embedded in 73% of RevOps stacks by early 2026) replaces manual scoring but only works with clean data; real-time deal scoring enables autonomous routing. Lead routing with AI misfire rate under 10% requires 90%+ field population (2026 consensus). Predictive churn models (44% adoption, mostly SMB) surface at-risk accounts before renewal, enabling CS intervention. 
 
-**Tier 3 impact:** Real-time pipeline activation replaces batch-based workflows. Reverse ETL (Hightouch, Census; 250+ integrations each) pushes enriched CRM data back to marketing platforms, enabling dynamic segmentation and personalisation within sequences. Data-fabric architectures (zero-copy warehouse-native GTM, standard at scale) reduce operational complexity and integration overhead vs. traditional ETL plumbing (practice-based).
+**Tier 3 impact:** Real-time pipeline activation replaces batch-based workflows. Reverse ETL (Hightouch, Census; 250+ integrations each) pushes enriched CRM data back to marketing platforms, enabling dynamic segmentation and personalization within sequences. Data-fabric architectures (zero-copy warehouse-native GTM, standard at scale) reduce operational complexity and integration overhead vs. traditional ETL plumbing (practice-based).
 
-**Critical prerequisite:** 60% of AI projects are abandoned over non-agent-ready data (Gartner, 2026); 23% of organisations scaling agentic AI stall on data readiness (McKinsey, 2026). Before investing in AI capabilities, audit data completeness, lineage, and enrichment coverage. A data-ready organisation gets 3-4x faster ROI from AI than one starting from poor hygiene.
+**Critical prerequisite:** 60% of AI projects are abandoned over non-agent-ready data (Gartner, 2026); 23% of organizations scaling agentic AI stall on data readiness (McKinsey, 2026). Before investing in AI capabilities, audit data completeness, lineage, and enrichment coverage. A data-ready organization gets 3-4x faster ROI from AI than one starting from poor hygiene.
 
 ## Strategic Advisory: Reframing Conversations
 
@@ -138,30 +137,30 @@ When a stakeholder is fixated on a metric that doesn't connect to revenue:
 Response framework: "Your MQL-to-SQL conversion is [X]%. At that rate, doubling MQLs adds [Y] to pipeline but also doubles the load on your SDR team. Before we generate more, let's understand why [Z]% of current MQLs aren't converting. Is it a scoring problem (wrong leads getting the MQL label), a handoff problem (SDRs not following up fast enough), or a quality problem (the content attracting the wrong audience)? Each has a completely different fix."
 
 **"We hit our MQL target but pipeline is flat"**
-Response framework: "This tells you the MQL definition has drifted. The scoring model is probably giving points for behaviours that don't indicate buying intent. Pull the last 50 MQLs that didn't convert to SQL and look for patterns: same content downloads, same job titles, same company profile. That'll show you where the model is leaking."
+Response framework: "This tells you the MQL definition has drifted. The scoring model is probably giving points for behaviors that don't indicate buying intent. Pull the last 50 MQLs that didn't convert to SQL and look for patterns: same content downloads, same job titles, same company profile. That'll show you where the model is leaking."
 
 **"We need more leads"**
 Response framework: "You have [X] leads in your CRM that haven't been touched in 90+ days. Before pouring more in, let's answer two questions: Why aren't the existing ones being worked? And what's the conversion rate of the leads you do work? If you're converting 2% of inbound leads, adding more at the same quality is literally pouring water into a leaking bucket."
 
 **"Sales needs more tools / Let's buy [tool]"**
-Response framework: "Your team is using [X]% of your current stack's capabilities. Before adding another tool (which means another integration, another data silo, another vendor to manage, and another thing reps need to learn), let's audit utilisation. The cheapest, fastest tool to implement is the one you already own."
+Response framework: "Your team is using [X]% of your current stack's capabilities. Before adding another tool (which means another integration, another data silo, another vendor to manage, and another thing reps need to learn), let's audit utilization. The cheapest, fastest tool to implement is the one you already own."
 
 **"Our open rates are dropping"**
-Response framework: "Open rates are noise; they've been unreliable since privacy protections became standard (2021 onwards) and vary wildly by recipient type. The metrics that predict pipeline are reply rate, click-through rate, and meetings booked per sequence. Those drive behaviour change and revenue impact. Switch to those."
+Response framework: "Open rates are noise; they've been unreliable since privacy protections became standard (2021 onwards) and vary wildly by recipient type. The metrics that predict pipeline are reply rate, click-through rate, and meetings booked per sequence. Those drive behavior change and revenue impact. Switch to those."
 
-### Client Situation Response Framework
+### Situation Response Framework for Stakeholder Conversations
 
-When a user describes a tricky client/stakeholder conversation:
+When you describe a tricky internal conversation about revenue operations:
 
-1. **Identify the real problem.** Clients describe symptoms. Your job is to find the disease. "We need a new CRM" usually means "our data is broken and we blame the tool." "Marketing isn't generating enough pipeline" usually means "we don't have shared definitions of what a qualified lead looks like."
+1. **Identify the real problem.** Your team describes symptoms. Your job is to find the disease. "We need a new CRM" usually means "our data is broken and we blame the tool." "Marketing isn't generating enough pipeline" usually means "we don't have shared definitions of what a qualified lead looks like."
 
-2. **Validate their experience.** Don't dismiss what they're feeling. "I understand why you're frustrated. When pipeline is flat and the team is busy, it feels like effort isn't translating to results."
+2. **Validate the experience.** Don't dismiss what people are feeling. "I understand why the team is frustrated. When pipeline is flat and everyone is busy, it feels like effort isn't translating to results."
 
-3. **Reframe toward the system.** Connect their specific pain to the broader revenue system. "The issue isn't that marketing isn't generating leads; it's that we don't have visibility into what happens after handoff. If we can't trace a lead from first touch to closed-won, we can't tell what's working."
+3. **Reframe toward the system.** Connect the specific pain to the broader revenue system. "The issue isn't that marketing isn't generating leads; it's that we don't have visibility into what happens after handoff. If we can't trace a lead from first touch to closed-won, we can't tell what's working."
 
 4. **Propose a diagnostic before a solution.** "Before we change anything, let's pull the data. I want to see conversion rates by source, time-in-stage by segment, and the last 30 days of handoff data between marketing and sales. That'll tell us exactly where the leakage is."
 
-5. **Give a clear recommendation with revenue math.** "Based on the data, I'd focus on the MQL-to-SQL handoff. If we improve conversion from 8% to 12% (achievable with tighter scoring and an SLA), that's an additional €[X] in pipeline per quarter without spending a single euro on new lead gen."
+5. **Give a clear recommendation with revenue math.** "Based on the data, I'd focus on the MQL-to-SQL handoff. If we improve conversion from 8% to 12% (achievable with tighter scoring and an SLA), that's an additional [X] in pipeline per quarter without spending resources on new lead gen."
 
 ## Data Hygiene System
 
@@ -170,7 +169,7 @@ Data quality compounds in both directions. Good data gets better as it enriches 
 ### Prevention (Stop bad data from entering)
 - Enforce required fields at **stage transitions**, not at record creation. Requiring 10 fields at creation produces garbage data and rep resistance.
 - Use constrained field types (dropdown, multi-select) instead of free text for anything you'll filter, segment, or report on.
-- Standardise naming conventions for campaigns, sources, and stages. Document them. Enforce them through validation rules.
+- Standardize naming conventions for campaigns, sources, and stages. Document them. Enforce them through validation rules.
 - Gate automations behind data quality checks; don't let a workflow fire if critical fields are empty.
 
 ### Detection (Find bad data before it causes damage)
@@ -185,7 +184,7 @@ Data quality compounds in both directions. Good data gets better as it enriches 
 
 ## Upstream Strategy: ICP → Positioning → Messaging
 
-Pipeline architecture is only as good as the ICP it serves. Before designing stages, KPIs, or handoff protocols, validate that the client has a production-grade ICP; not just a guess.
+Pipeline architecture is only as good as the ICP it serves. Before designing stages, KPIs, or handoff protocols, ensure your company has a production-grade ICP; not just a guess.
 
 ### The Strategic Chain
 
@@ -200,7 +199,7 @@ Pipeline architecture is only as good as the ICP it serves. Before designing sta
 
 ### The Use Case Messaging Canvas
 
-When a client's messaging is inconsistent across channels, use the Use Case Messaging Canvas to structure it:
+When your company's messaging is inconsistent across channels, use the Use Case Messaging Canvas to structure it:
 
 - **Left side (Current Way):** Overarching problem, 3 specific pains (from customer interviews), limitation of current approach, what they actually do today
 - **Right side (New Way):** Product capability (opposite of limitation), feature (what powers it), benefit (solves a pain from left side), desired outcome
@@ -214,18 +213,18 @@ Flag ICP as a strategic prerequisite when you see:
 - Sales cycle length varies wildly (sign that some deals are ICP-fit and others aren't)
 - Win rate is below 30% overall (either ICP is wrong or messaging doesn't resonate)
 - Marketing and sales disagree on "who we sell to" (no shared ICP definition)
-- The client can't name 8 comparable great customers (still at ECP stage)
+- Your company can't name 8 comparable great customers (still at early-fit stage)
 
 **For full ICP building methodology**, use structured interview methods to understand customer profiles, build thresholds based on comparable customers, and define expansion strategy. For quick ICP validation, use the customer interviews and win/loss data approach.
 
 ### Related Resources for ICP + Positioning
 
-- **revops-icp-building**: Full ICP building methodology (structured interviews, thresholds, expansion)
-- **revops-messaging-framework**: The ICP to Positioning to Messaging to Copy chain, Use Case Canvas, Opposites method
+- **icp-builder**: Full ICP building methodology (structured interviews, thresholds, expansion)
+- **positioning-messaging-designer**: The ICP to Positioning to Messaging to Copy chain, Use Case Canvas, Opposites method
 
 ## Operating System Architecture
 
-RevOps doesn't exist in a vacuum; it sits within a broader operating system. When diagnosing a client's revenue engine, understanding which operating system layer holds the real constraint prevents solving the wrong problem.
+RevOps doesn't exist in a vacuum; it sits within a broader operating system. When diagnosing your revenue engine, understanding which operating system layer holds the real constraint prevents solving the wrong problem.
 
 ### The Three Layers
 
@@ -245,8 +244,7 @@ When a diagnostic reveals the constraint sits outside RevOps proper (e.g., in Go
 
 ### Related Resources for Operating System Design
 
-- **revops-operating-system**: Full operating system framework; three layers, diagnostic patterns.
-- **revops-metrics**: KPI frameworks and maturity benchmarks for contextualising organisation capability.
+- **revops-metrics**: KPI frameworks and maturity benchmarks for contextualizing organizational capability.
 
 ## Tech Stack Evaluation Framework
 
@@ -268,7 +266,7 @@ When assessing a revenue tech stack, use two lenses: the traditional operational
 
 By 2026, the constraint has shifted from "which tools do we need" to "how does data flow and activate in real time?" Traditional batch-based marketing automation is obsolete for growth companies.
 
-**Real-time activation via Reverse ETL:** Platforms like Hightouch and Census (each 250+ integrations) enable you to sync enriched CRM or warehouse data back to marketing, sales enablement, and demand platforms in real time. This powers dynamic list segmentation, trigger-based campaigns, and personalised outreach without manual exports.
+**Real-time activation via Reverse ETL:** Platforms like Hightouch and Census (each 250+ integrations) enable you to sync enriched CRM or warehouse data back to marketing, sales enablement, and demand platforms in real time. This powers dynamic list segmentation, trigger-based campaigns, and personalized outreach without manual exports.
 
 **Composable architecture (zero-copy, warehouse-native GTM):** Data warehouse becomes the single source of truth. No more batch syncs between Salesforce and your marketing platform. Both systems query the warehouse; enrichments (intent, firmographic, technographic) live once and flow everywhere. Integration tax drops by an order of magnitude. Only companies with mature data ops can operate this model (practice-based).
 
@@ -283,97 +281,85 @@ The bias should always be toward fewer, better-integrated tools with clear activ
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton, The Revenue Leadership Podcast)
+## Advanced Patterns: Constraint-Based Thinking and Revenue Compounding
 
-**Key episodes referenced:**
-- E64 (March 4, 2026): "My Team Drives 4x Revenue Per AE vs Competitors" (https://www.therevenueleadershippodcast.com/p/my-team-drives-4x-revenue-per-ae)
+*Source: insights adapted from The Revenue Leadership Podcast (Kyle Norton; 2026).*
 
-### Constraint-Based Pipeline Optimization (Norton Model)
+### Constraint-Based Pipeline Optimization
 
 Revenue is a production system. The job is to find the ONE binding constraint that limits throughput.
 
-**Theory of Constraints Applied to GTM:**
+**System Constraints Apply to GTM:**
 - The system can only grow as fast as its tightest bottleneck
 - Diagnosis first: Is it a capacity problem (not enough pipeline) or a productivity problem (pipeline isn't converting)?
 - Common constraints by stage:
-  - Early-stage = demand gen volume
-  - Growth = qualification rigor
-  - Scale = operational friction / data quality
+  - Early-stage = demand generation volume
+  - Growth = qualification rigor (are you working the right deals?)
+  - Scale = operational friction and data quality
 - Action principle: Fix the constraint before scaling anything else. Scaling a broken system just makes it break faster and more expensively.
 
 **Diagnostic Questions:**
-1. If we doubled pipeline volume tomorrow, would revenue double? (If no → the constraint is downstream)
-2. If we doubled AE headcount tomorrow, would revenue double? (If no → the constraint is pipeline quality, not capacity)
-3. Where do deals stall the longest? (That's your bottleneck)
+1. If you doubled pipeline volume tomorrow, would revenue double? (If no → the constraint is downstream, not volume)
+2. If you doubled AE headcount tomorrow, would revenue double? (If no → the constraint is pipeline quality or efficiency, not capacity)
+3. Where do deals stall the longest? (That time-in-stage location is your bottleneck)
 
 ### The Self-Reinforcing Revenue Flywheel
 
-Revenue systems are either compounding or decaying; there is no steady state.
+Revenue systems compound in one direction or decay in the other; there is no steady state.
 
 **The Data-Coaching Loop:**
-Better data quality → better forecasts → better coaching → better rep behavior → better data quality → (repeat)
+Better data quality → better forecasts → better coaching decisions → better rep behavior → better data capture → (repeat and accelerate)
 
-**AI Compounding Flywheel (Norton):**
-1. GTM AI Lead builds something → every sales rep 10% more efficient
-2. 10% more ARR per headcount
-3. Growing faster at same cost
-4. More capital to invest in product
-5. Product gets better → brand gets stronger
-6. Loop accelerates
+**Compounding Systems Flywheel:**
+1. Systematize a capability (e.g., lead routing, deal scoring, forecast accuracy)
+2. Operators get more productive per unit of resource
+3. Grow revenue faster at the same headcount cost
+4. Capital freed up allows reinvestment
+5. Better tooling and systems compound the advantage
+6. Loop accelerates quarter over quarter
 
-**Scale of Impact:**
-- Traditional automation: ~5% efficiency gains (industry baseline, Forrester benchmark)
-- AI-driven automation: substantive gains documented across call scoring, lead routing, and forecast accuracy; gains vary by maturity of data infrastructure (2026 practitioner evidence)
+**Scale of Improvement:**
+- Traditional manual processes: static baseline
+- Automation and process discipline: 5-15% efficiency gains typical
+- AI-driven systems with clean data: documented gains across lead scoring, pipeline prediction, and forecast accuracy; magnitude varies by data foundation maturity
 
-**Winner-Takes-All Dynamics (2026 Prediction):**
-Winners break away via compounding. Best talent flocks, ecosystem partners align, VC dollars flow in. The gulf between great companies and the rest widens dramatically. Exaggerated winner-takes-all outcomes across many categories.
+**Winner-Takes-All Dynamics in Modern RevOps:**
+Winners who systematize early break away via compounding. Best talent gravitates to winning revenue machines. Technology partners align with successful companies. The gulf between systematic operators and the rest widens dramatically.
 
-**Diagnostic question:** Is your revenue growth linear or compounding? If linear, your flywheel is broken.
+**Diagnostic question:** Is your revenue growth linear or compounding year-over-year? If linear, your operational flywheel is broken and needs redesign.
 
 ### Revenue Architecture vs. Sales Craft
 
-Two modes of revenue leadership; both matter, but they compound differently.
+Two dimensions of revenue leadership; both matter, but they compound differently.
 
-| Dimension | Sales Craft | Revenue Architecture |
+| Dimension | Individual Sales Craft | Revenue Architecture / Systems |
 |-----------|-------------|---------------------|
-| Focus | Individual deal execution | System design |
-| Question | "How do I coach this rep?" | "How does the system produce revenue?" |
-| Value curve | Constant (valuable 5 yrs ago, valuable now) | Compounding (AI gives more leverage every quarter) |
-| Scales via | Hiring more great reps | Building better systems |
-| Risk | Talent dependency | Complexity management |
+| Focus | Closing individual deals | Designing the system that produces deals |
+| Question | "How do I coach this rep?" | "How does the entire system produce revenue?" |
+| Value curve | Plateaus (same techniques as 5 years ago) | Compounds (systematic improvements + AI give more leverage each quarter) |
+| Scales via | Hiring more great reps | Building better systems that multiply rep productivity |
+| Risk | Talent dependency (loses rep, loses productivity) | Complexity (hard to maintain and improve systems at scale) |
 
-**The Anti-Prospecting Principle:**
-When you stop making closers do sourcers' jobs, closers close more. AEs who spend their time closing (not prospecting) produce 4x more revenue per head.
+**The Role Specialization Principle:**
+When you stop making closers do sourcers' jobs (and reverse), closers close significantly more. AEs spending time on closing rather than prospecting produce materially more revenue per head. Similarly, specialists in each motion outperform generalists who juggle multiple workflows.
 
-**The Systems CRO Mindset:**
-"How does the entire system produce revenue?" Not just managing reps but designing the machine that makes reps productive.
+**The Systems Operator Mindset:**
+"How does the entire system produce revenue?" This is the CRO/RevOps lens. Not just managing individual reps but designing the machine that makes all reps more productive, or the system that converts inbound to customers more efficiently.
 
-### Norton Framework Cross-References
+### Evolution of Stack Architecture
 
-| Framework | Primary Skill | Related Skills |
-|-----------|---------------|----------------|
-| Data Foundation for AI | revops-data-governance | revops-tech-stack |
-| Technical RevOps Leadership | revops-tech-stack | revops-org-chart |
-| Productivity-First Quota Setting | gtm-planning | revops-metrics, revops-forecasting |
-| Inbound Flip Strategy | marketing-operations | revops-handoffs |
-| Predictability Playbook | revops-forecasting | revops-metrics |
-| Compounding AI Flywheel | revops-diagnostic | revops-strategy |
-| Sales Engagement Composability | revops-tech-stack | revops-data-governance |
-| Revenue Architecture vs. Craft | sales-methodology | gtm-planning |
+As companies scale, their tech stack architecture evolves through predictable patterns.
 
+**Early Stage (Monolithic):**
+Single platform (Salesforce or HubSpot) handles most functions. Simple, integrated, but constrained by platform capability boundaries.
 
+**Growth Stage (Best-of-Breed):**
+Companies assemble a point-solution stack (marketing automation, sales engagement, forecast tool, CPQ, etc.). More specialized but creates integration complexity, data fragmentation, and operational overhead.
 
-### The "3rd Age of MarTech" Strategic Context (Scott Brinker, March 2026)
+**Scale Stage (Composable/Warehouse-Native):**
+Data warehouse becomes single source of truth. Both old and new systems query the warehouse. Reverse ETL pushes enrichments back out in real time. No more batch syncs. Integration tax drops by order of magnitude.
 
-When framing RevOps strategy for clients, use the Three Ages model to locate where they sit:
-
-- **1st Age clients** (rare now) still think in suites vs. best-of-breed. They need basic platform selection help.
-- **2nd Age clients** (most B2B scale-ups) have assembled a stack of boxes with integration pain. They need pipeline architecture that works across their existing tools.
-- **3rd Age thinking** is the aspiration: a composable canvas where data flows freely, capabilities compose dynamically, and the architecture enables agility instead of constraining it.
-
-**Strategic framing for discovery calls:** Your tech stack should enable, not constrain, revenue growth. Integration burden is real: every tool in the stack adds connection complexity, data synchronisation risk, and operational overhead. When systems share a common data foundation (single source of truth), the integration tax drops by an order of magnitude and those resources shift from plumbing to growth programmes.
-
-**Why this matters for RevOps:** Data governance is not a hygiene project; it's a strategic lever. Companies treating their data foundation as a competitive advantage attract better talent, execute faster, and scale revenue architecture patterns reliably.
+**Why this matters for strategy:** Your current stack architecture constrains what's possible. A fragmented best-of-breed stack drowns in integration work. A warehouse-native architecture frees resources to focus on growth. Understanding where your company sits in this evolution determines realistic priorities.
 
 ## How to Use This Skill
 
@@ -381,7 +367,7 @@ When framing RevOps strategy for clients, use the Three Ages model to locate whe
 
 **Architecture requests (pipeline, KPIs, stages):** Use the stage definition template and three-tier KPI framework. Be specific; fill in real numbers and real stage names, not placeholders.
 
-**Client/stakeholder communication:** Use the strategic advisory framework. Help them sound like the expert they are. Give them the exact words to use, not just the concepts.
+**Stakeholder communication:** Use the strategic advisory framework. Help your team sound like the experts they are. Give them the exact words to use, not just the concepts.
 
 **Metric and measurement questions:** Always push toward revenue-connected metrics. Challenge vanity metrics with the reframing scripts. Show the revenue math.
 

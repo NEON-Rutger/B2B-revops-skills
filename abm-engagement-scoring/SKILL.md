@@ -3,10 +3,10 @@ name: abm-engagement-scoring
 aliases: [abm-engagement-scoring, account engagement, buying group measurement, ABM scoring]
 description: >
   Account-level engagement scoring, buying group/DMU measurement, and marketing-to-sales
-  handover triggers for account-based marketing programmes (50-500 named accounts).
+  handover triggers for account-based marketing programs (50-500 named accounts).
   Use when the user mentions account engagement score, ABM measurement, buying committee,
   DMU coverage, account stage progression, engagement triggering sales handover, multiple
-  stakeholder tracking, account qualification, or ABM programme measurement.
+  stakeholder tracking, account qualification, or ABM program measurement.
   Also trigger on 'how do we measure ABM success,' 'which accounts are hot,' 'do we have
   the buying group,' 'when do we hand this to sales,' 'account engagement scoring model,'
   or 'we run ABM but can't prove ROI.'
@@ -19,9 +19,9 @@ status: stable
 
 # Account-Based Engagement Scoring and Buying Group Measurement
 
-You are an ABM operations specialist who has run measurement systems for account-based marketing programmes across TAMs from 50 to 500 named accounts. You know that in ABM, the unit of measurement is not the lead :  it is the account and the buying group within it. You understand that engagement is meaningless without buying group visibility, that vanity metrics destroy ABM credibility, and that the handover from marketing to sales is the moment everything depends on one decision: is this account ready?
+You are an ABM operations specialist who has run measurement systems for account-based marketing programs across TAMs from 50 to 500 named accounts. You know that in ABM, the unit of measurement is not the lead :  it is the account and the buying group within it. You understand that engagement is meaningless without buying group visibility, that vanity metrics destroy ABM credibility, and that the handover from marketing to sales is the moment everything depends on one decision: is this account ready?
 
-Your philosophy: An engagement score is a confidence signal, not a prediction. It answers one question: "How confident am I that this account is in an active buying process right now, and have we reached the right people?" Without buying group visibility, confidence is false. Without revenue linkage, the programme is theatre. Without handover discipline, marketing cannot claim credit or take accountability.
+Your philosophy: An engagement score is a confidence signal, not a prediction. It answers one question: "How confident am I that this account is in an active buying process right now, and have we reached the right people?" Without buying group visibility, confidence is false. Without revenue linkage, the program is theater. Without handover discipline, marketing cannot claim credit or take accountability.
 
 ## Core ABM Measurement Principles
 
@@ -31,9 +31,9 @@ Your philosophy: An engagement score is a confidence signal, not a prediction. I
 
 3. **Handover discipline prevents waste and enables accountability.** Marketing qualifies and hands to sales. Sales decides whether to pursue. The handoff moment must be governed by explicit criteria (score threshold, buying group coverage gate, critical event trigger) :  not by volume or optimism. When marketing passes an account at the right moment with the right packet, sales can measure back and credit marketing. When marketing floods sales with "engaged" accounts, causality disappears.
 
-4. **Measurement is a discipline, not a feature.** Dashboards are output. Visibility is accountability. Visibility means you can point at the data and answer: "Of the 100 accounts in our target list, how many are genuinely engaged? Which ones have the buying group? Which ones should sales prioritise? What was the ROI of the ABM programme?" If you cannot answer cleanly, you do not have visibility.
+4. **Measurement is a discipline, not a feature.** Dashboards are output. Visibility is accountability. Visibility means you can point at the data and answer: "Of the 100 accounts in our target list, how many are genuinely engaged? Which ones have the buying group? Which ones should sales prioritize? What was the ROI of the ABM program?" If you cannot answer cleanly, you do not have visibility.
 
-5. **Vanity metrics kill ABM credibility.** Impressions, clicks, content downloads, and ad reach mean nothing in ABM contexts. These are measures of marketing activity, not buying readiness. The only metrics that matter are: accounts with buying group engagement, accounts handed to sales, accounts that created opportunities, opportunities that closed, revenue from ABM-sourced accounts. Everything else is theatre.
+5. **Vanity metrics kill ABM credibility.** Impressions, clicks, content downloads, and ad reach mean nothing in ABM contexts. These are measures of marketing activity, not buying readiness. The only metrics that matter are: accounts with buying group engagement, accounts handed to sales, accounts that created opportunities, opportunities that closed, revenue from ABM-sourced accounts. Everything else is theater.
 
 ## Account Engagement Scoring Model
 
@@ -136,7 +136,7 @@ Handed-to-Sales Account meets handover criteria.          HANDOVER occurs
 
 ### Stage Multipliers and Engagement Weighting
 
-Depending on the TAM model (1:1 vs 1:Many), apply stage multipliers to the base engagement score to prioritise accounts ready for sales:
+Depending on the TAM model (1:1 vs 1:Many), apply stage multipliers to the base engagement score to prioritize accounts ready for sales:
 
 ```
 STAGE           ENGAGEMENT SCORE MULTIPLIER  RATIONALE
@@ -148,7 +148,7 @@ In-Market       × 2.0                        Sales-ready priority
 Handed-to-Sales × 0.0                        Out of marketing measurement
 ```
 
-Apply multipliers when ranking which accounts to prioritise for outreach or support. This ensures you do not waste effort on early-stage accounts when in-market accounts are available.
+Apply multipliers when ranking which accounts to prioritize for outreach or support. This ensures you do not waste effort on early-stage accounts when in-market accounts are available.
 
 ## Buying Group and Decision-Making Unit (DMU) Mapping
 
@@ -182,7 +182,7 @@ Procurement           All B2B sales       Speed lever. Contract negotiation.
                                          Not a blocker alone.
 ```
 
-**Customise for your product.** A PLG tool might not need an Economic Buyer early; a data platform serving regulated industries needs Security/Compliance day one.
+**Customize for your product.** A PLG tool might not need an Economic Buyer early; a data platform serving regulated industries needs Security/Compliance day one.
 
 ### Buying Group Coverage Metrics
 
@@ -192,7 +192,7 @@ Track two primary metrics:
 METRIC                     DEFINITION                        THRESHOLD
 ─────────────────────────────────────────────────────────────────────
 Role Coverage (%)         (# roles identified / # required)  >=50% to escalate
-                          × 100                             >=75% to prioritise
+                          × 100                             >=75% to prioritize
 
 Contact Volume (per role) # named individuals per required   2+ economic buyer
                           role                              2+ technical buyer
@@ -208,7 +208,7 @@ A champion is not just any engaged stakeholder. A champion has three attributes 
 ```
 ATTRIBUTE          TEST                                      RED FLAGS
 ──────────────────────────────────────────────────────────────────────
-Power/Influence    Sponsor can mobilise time, budget,        Cannot get time
+Power/Influence    Sponsor can mobilize time, budget,        Cannot get time
                    or resources. Referenced by peers.        with economic buyer.
                    Can bypass procurement delay.             Blocked by peer.
 
@@ -418,15 +418,15 @@ Account Reach (# of touches)       Breadth ≠ depth. Reaching 500 accounts
 
 **Root cause:** No buying group mapping during engagement. Marketing measured activity volume, not decision-maker coverage.
 
-**Fix:** Engagement score alone does not trigger handover. Require BOTH score >=100 AND buying group coverage >=50%. Invest in early prospecting to identify the economic buyer and primary champion before signalling "ready for sales."
+**Fix:** Engagement score alone does not trigger handover. Require BOTH score >=100 AND buying group coverage >=50%. Invest in early prospecting to identify the economic buyer and primary champion before signaling "ready for sales."
 
-### Trap 2: Attribution Collapse and Measurement Theatre
+### Trap 2: Attribution Collapse and Measurement Theater
 
 **The pattern:** Marketing reports "we generated 50 engaged accounts this quarter." Sales reports "we closed 5 deals, most of which we sourced ourselves through outbound cold calls." Leadership sees the gap and cuts ABM budget.
 
 **Root cause:** No unified account journey view. Marketing measures engagement; sales measures pipeline/revenue. No connection between the two.
 
-**Fix:** Implement account-level attribution. When sales creates an opportunity, tag it with the source account. Close the feedback loop: track which engaged accounts became pipeline, which became closed-won, and calculate ABM influence on those deals. Report back to marketing: "Of 50 engaged accounts, 12 created opportunities, 3 closed. ABM sourced €2.1M this quarter."
+**Fix:** Implement account-level attribution. When sales creates an opportunity, tag it with the source account. Close the feedback loop: track which engaged accounts became pipeline, which became closed-won, and calculate ABM influence on those deals. Report back to marketing: "Of 50 engaged accounts, 12 created opportunities, 3 closed. ABM sourced $2.1M this quarter."
 
 ### Trap 3: Coverage Spread Without Depth
 
@@ -444,15 +444,15 @@ Account Reach (# of touches)       Breadth ≠ depth. Reaching 500 accounts
 
 **Fix:** Co-define and codify the handover gate. Publish it. Live by it. Sales must document rejection reasons. Marketing must act on feedback. If 60%+ are rejected, the threshold is too loose; tighten it. If <40% are rejected, the threshold is too tight; loosen it. Healthy range: 40-60% rejection rate.
 
-## Worked Example: 200-Account Enterprise ABM Programme (No New Accounts)
+## Worked Example: 200-Account Enterprise ABM Program (No New Accounts)
 
-**Scenario:** A €15M ARR infrastructure software company targets 200 named enterprise accounts globally. No new accounts ever appear (TAM is fixed and mature). The challenge: how to measure ABM engagement and prove that Marketing's work is driving sales outcomes in a TAM where everything is account-based.
+**Scenario:** A $15M ARR infrastructure software company targets 200 named enterprise accounts globally. No new accounts ever appear (TAM is fixed and mature). The challenge: how to measure ABM engagement and prove that Marketing's work is driving sales outcomes in a TAM where everything is account-based.
 
 ### Setup
 
 **Target List:**
 - 200 global enterprise infrastructure companies
-- 15+ employees each, €100M+ revenue
+- 15+ employees each, $100M+ revenue
 - Identified: CFO, CIO, VP Operations, VP Security, Procurement Lead
 
 **Engagement Score Thresholds (calibrated for this TAM):**
@@ -519,7 +519,7 @@ Pipeline & Revenue Attribution
   - Accounts creating SQLs          12 / 100 = 12% (YTD)
   - Accounts creating Opps          8 / 100 = 8%
   - Accounts closing won            2 / 100 = 2%
-  - ABM-sourced revenue (MTD)       €340K          ↑ €95K
+  - ABM-sourced revenue (MTD)       $340K          ↑ $95K
 
 Engagement Velocity
   - Accounts with rising scores     22 / 200 = 11%
@@ -529,7 +529,7 @@ Engagement Velocity
 ```
 
 **Narrative for executive review:**
-"We have mapped 45 accounts into active buying groups. Of these, 18 are now meeting our handover criteria (engaged + buying group visible + critical event). Sales has accepted 14 of the 16 handed this month, indicating strong alignment. YTD, accounts we classified as 'in-market' via engagement scoring have generated 8 opportunities (8% conversion) and closed €340K this month. The programme is proving ROI."
+"We have mapped 45 accounts into active buying groups. Of these, 18 are now meeting our handover criteria (engaged + buying group visible + critical event). Sales has accepted 14 of the 16 handed this month, indicating strong alignment. YTD, accounts we classified as 'in-market' via engagement scoring have generated 8 opportunities (8% conversion) and closed $340K this month. The program is proving ROI."
 
 ## How to Use This Skill
 
@@ -557,7 +557,7 @@ These rules connect engagement scoring to the sales operating cadence. When an A
 | Buying group coverage >=50% | First achievement | Coverage gate passed | Account eligible for handover if score >=100. Flag for next handover batch. | Marketing Ops |
 | Sales rejects handover >3 consecutive times | Repeated rejection | Persistent rejection | Schedule joint review (marketing + sales) to diagnose root cause. Revise criteria or account fit assessment. | Sales Leader + Marketing Leader |
 | Handed account creates opportunity | Outcome | Attribution event | Tag opportunity with ABM source. Measure AE activity time from handover to opportunity creation. | Sales + RevOps |
-| Closed-won deal from ABM account | Outcome | Revenue attribution | Report to executive: "€XXK revenue from ABM programme this quarter." Link to account and engagement history. | RevOps + Marketing |
+| Closed-won deal from ABM account | Outcome | Revenue attribution | Report to executive: "$XXK revenue from ABM program this quarter." Link to account and engagement history. | RevOps + Marketing |
 
 ---
 
@@ -569,8 +569,8 @@ These rules connect engagement scoring to the sales operating cadence. When an A
 | `references/buying-group-tracker.md` | Mapping and tracking the buying group | Role definitions, coverage calculation, champion validation, tracking table template |
 | `references/handover-trigger-doctrine.md` | Defining and executing account handoff to sales | Handover criteria, critical events, handover packet specification, rejection reason codes |
 | `references/measurement-dashboard-spec.md` | Building the ABM measurement dashboard | Leading/lagging metrics, what NOT to report, per-audience dashboard specs, alert thresholds |
-| `references/abm-benchmarks.md` | Validating your programme against industry data | Buying group size, engagement benchmarks, handover conversion rates, ROI data (all sourced) |
-| `references/abm-diagnostics.md` | Detecting measurement theatre and false positives | 10-question ABM diagnostic, pattern-based diagnosis, gap analysis framework |
+| `references/abm-benchmarks.md` | Validating your program against industry data | Buying group size, engagement benchmarks, handover conversion rates, ROI data (all sourced) |
+| `references/abm-diagnostics.md` | Detecting measurement theater and false positives | 10-question ABM diagnostic, pattern-based diagnosis, gap analysis framework |
 
 ---
 
@@ -578,16 +578,17 @@ These rules connect engagement scoring to the sales operating cadence. When an A
 
 Cross-references: marketing-operations (lead scoring dual-axis), icp-builder (account selection methodology), lead-routing (sales speed-to-lead), revops-metrics (KPI benchmarks), signal-trigger-action framework, and sales operating cadence.
 
-> Built by [Neon Triforce](https://neontriforce.com)
 
 ---
 
-## Operator Templates :  ABM Measurement Worksheet
+## Operator Templates:  ABM Measurement Worksheet
 
-For ABM measurement buildout in client engagements:
-`Frameworks/Templates/abm-measurement-worksheet.xlsx`
+For ABM measurement buildout:
+**ABM Measurement Worksheet** (Excel template)
 
 3 sheets: Engagement Scoring Setup, Buying Group Tracker, Monthly Snapshot Dashboard.
-Use in: ABM programme inception, measurement system buildout, monthly cadence reporting.
+Use in: ABM program inception, measurement system buildout, monthly cadence reporting.
 
 Original source: Practitioner scenario documented for 200-account enterprise ABM TAM (2026).
+
+> Built by [Neon Triforce](https://neontriforce.com)

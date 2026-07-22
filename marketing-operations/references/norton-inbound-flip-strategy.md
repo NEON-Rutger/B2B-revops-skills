@@ -35,7 +35,7 @@ The channel that produces highest win rate at shortest cycle time with least AE 
 
 ## Outbound Channel Destruction Data (Donovan, E61)
 
-For client conversations about channel mix:
+For conversations about your channel mix strategy:
 
 | Metric | Then (5 years ago) | Now (2026) |
 |--------|-------------------|------------|

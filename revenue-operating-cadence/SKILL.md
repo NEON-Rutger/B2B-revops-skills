@@ -18,7 +18,7 @@ status: stable
 
 # Revenue Operating Cadence Framework
 
-The difference between scaling to €150M and stalling at €20M isn't forecasting accuracy; it's **operating rhythm**. Your cadence is the machine that turns strategy into deals into board updates. Get it wrong and you're firefighting every week. Get it right and revenue becomes predictable.
+The difference between scaling to $150M and stalling at $20M isn't forecasting accuracy; it's **operating rhythm**. Your cadence is the machine that turns strategy into deals into board updates. Get it wrong and you're firefighting every week. Get it right and revenue becomes predictable.
 
 ## The Core Principle: Data Pyramid
 
@@ -75,7 +75,7 @@ Before you schedule it, answer these:
 
 ```
 Rep 1: "AWS deal stuck on legal review. Need legal in Wed meeting."
-Rep 2: "Acme expanded scope, moving to €650k. Closes Friday."
+Rep 2: "Acme expanded scope, moving to $650k. Closes Friday."
 Rep 3: "Nordic Bank went dark for 3 days. Need help re-engaging."
 ```
 
@@ -180,7 +180,7 @@ Rep 3: "Nordic Bank went dark for 3 days. Need help re-engaging."
 - Finance (if available)
 
 **Pre-meeting deck (8-10 slides max):**
-1. Revenue vs. plan (€M, waterfall, growth %)
+1. Revenue vs. plan ($M, waterfall, growth %)
 2. Pipeline health (coverage, velocity, quality)
 3. Efficiency metrics (CAC, payback, LTV:CAC)
 4. Retention & expansion (NRR, GRR, churn)
@@ -263,10 +263,10 @@ SLIDE 4-5: Pipeline & Forecast
 └─ Confidence in this quarter's forecast
 
 SLIDE 6: Efficiency Metrics
-├─ CAC (€)
+├─ CAC ($)
 ├─ CAC Payback (months)
 ├─ LTV:CAC ratio
-├─ Burn multiple (spend per € ARR)
+├─ Burn multiple (spend per $ ARR)
 ├─ Rule of 40 (growth % + operating margin %)
 └─ Trends quarter-over-quarter
 
@@ -381,7 +381,7 @@ Top-performing revenue teams are moving beyond batch-based weekly reporting. The
 
 - **Salesforce Agentforce** (current 2026 standard) replaces Flow-based automation with agentic workflows. Workflow Rules and Process Builder reach end of support 31 December 2025. Data 360 (formerly Data Cloud) serves as the intelligence foundation; Intelligent Context reads unstructured content for deal coaching. Agentforce Revenue Management replaces CPQ as the forward path.
 
-- **Real-time signalling:** Reverse ETL platforms (Segment, Hightouch, Census at 250+ integrations each) sync Salesforce pipeline changes into Slack, email alerts, and BDR routing rules within minutes. No more "I didn't know we lost that deal until Tuesday."
+- **Real-time signaling:** Reverse ETL platforms (Segment, Hightouch, Census at 250+ integrations each) sync Salesforce pipeline changes into Slack, email alerts, and BDR routing rules within minutes. No more "I didn't know we lost that deal until Tuesday."
 
 **Cadence implication:** The weekly forecast meeting becomes the decision layer, not the data layer. The data is current. The meeting is about what we're going to DO about it.
 
@@ -448,7 +448,7 @@ The #1 differentiator between top performers and average performers using AI is 
 
 **Assessment question:** Before any AI investment conversation, ask: "How tight is your operating rhythm?" This should precede "Which AI tool should we buy?"
 
-**Diagnostic implication:** If a client's weekly deal reviews aren't disciplined, no AI tool will fix their forecast accuracy. Fix the cadence before investing in AI.
+**Diagnostic implication:** If your weekly deal reviews aren't disciplined, no AI tool will fix your forecast accuracy. Fix the cadence before investing in AI.
 
 **Source:** https://www.therevenueleadershippodcast.com/p/gtm-strategy-5-insights-from-500
 
@@ -463,7 +463,7 @@ A starting template for leaders who want to build predictable revenue operations
 4. Sales knows exactly how many meetings they're getting this quarter and what they need to convert
 
 **Canaani's evidence from Datarails (Owner.com podcast E64, March 2026):**
-- Sales cycle modelled and disciplined: 30-45 days
+- Sales cycle modeled and disciplined: 30-45 days
 - Every stage conversion rate tracked and used for planning
 - CRO approach: build the model bottom-up from actual productivity, not top-down from board targets
 
@@ -473,9 +473,9 @@ A starting template for leaders who want to build predictable revenue operations
 
 **Source:** https://www.therevenueleadershippodcast.com/p/my-team-drives-4x-revenue-per-ae
 
-### Operating Rhythm Assessment (new diagnostic tool)
+### Operating Rhythm Assessment
 
-Add this to the start of any cadence design engagement:
+Run this assessment at the start of your cadence design process:
 
 | Dimension | Score 1 (Weak) | Score 3 (Adequate) | Score 5 (Strong) |
 |-----------|---------------|-------------------|-----------------|
@@ -507,7 +507,7 @@ Add this to the start of any cadence design engagement:
 
 ---
 
-### The 10-Minute Board Defence
+### The 10-Minute Board Defense
 
 A structured alternative to the 40-slide board deck. Five questions, one page, ten minutes.
 
@@ -525,6 +525,6 @@ A structured alternative to the 40-slide board deck. Five questions, one page, t
 
 **Anti-pattern:** 40-slide deck → 2 hours to prepare → board skips to bad news → CRO defensive → ends with "send us the data" → trust erodes.
 
-**The framework:** 10-minute defence → 30 minutes to prepare → board gets answers immediately → CRO leads the conversation → ends with clear decisions → trust compounds.
+**The framework:** 10-minute defense → 30 minutes to prepare → board gets answers immediately → CRO leads the conversation → ends with clear decisions → trust compounds.
 
 > Built by [Neon Triforce](https://neontriforce.com)

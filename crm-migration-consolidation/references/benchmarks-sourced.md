@@ -20,14 +20,14 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 **Over 1 in 5 CRM migration projects finish in disappointment with resource wastage and frustration** (research consensus, 2025 to 2026).
 - Context: Approximately 20% of migrations are considered unsuccessful in retrospective surveys.
 - Source: CRM migration failure rate data (aggregated from Gartner, vendor research, practitioner surveys)
-- Application: Emphasise the cost of failure and ROI of careful planning.
+- Application: Emphasize the cost of failure and ROI of careful planning.
 
 ---
 
 ## Data Quality and Deduplication
 
 **30 to 50% of records in mid-market CRM migrations are duplicates, outdated, or incomplete before work begins.** (Gartner, 2026)
-- Context: "Mid-market" is defined as €10M to €100M revenue companies. This applies specifically to consolidation scenarios where two CRM instances overlap.
+- Context: "Mid-market" is defined as $10M to $100M revenue companies. This applies specifically to consolidation scenarios where two CRM instances overlap.
 - Source: "CRM Migration Project Plan" (SyncMatters); post-merger integration data; "CRM Data Migration Best Practices" (multiple vendors)
 - Application: Set expectation upfront with executive sponsors that deduplication work (2 to 4 weeks) is necessary and normal.
 
@@ -47,7 +47,7 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 - Application: Argue for ongoing dedup process post-migration, not one-time activity.
 
 **Pre-migration data work costs ~1/3 of post-migration cleanup costs.** (Industry practice, 2025 to 2026)
-- Context: Cleaning 10,000 duplicate records before migration costs ~€15K to €25K. Cleaning after cutover costs €45K to €75K because reps are using bad data, systems are live, and changes are riskier.
+- Context: Cleaning 10,000 duplicate records before migration costs ~$15K to $25K. Cleaning after cutover costs $45K to $75K because reps are using bad data, systems are live, and changes are riskier.
 - Source: "Preventing Data Loss in Your Salesforce to HubSpot Migration" (ProcessPro Consulting); cost-impact analysis across vendor guides
 - Application: Justify investment in pre-cutover data quality; it pays for itself 3x over.
 
@@ -61,7 +61,7 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 - Application: Set realistic expectations with PE boards and leadership; consolidation is not a 60-day project.
 
 **PMI activities span 12 to 36 months post-close**, from signing through post-close hypercare and into steady-state operations.
-- Context: This includes planning and design (pre-close), execution (0 to 6 months), stabilisation (6 to 12 months), and normalisation (12 to 36 months).
+- Context: This includes planning and design (pre-close), execution (0 to 6 months), stabilization (6 to 12 months), and normalization (12 to 36 months).
 - Source: "Post-Merger IT Integration" (Virto Commerce); "First 100 Days" playbooks (PMI Stack, Abacum)
 - Application: Frame CRM consolidation as a multi-quarter workstream, not a single project.
 
@@ -73,7 +73,7 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 - Application: Use depth model to scope effort and timelines; most CRM consolidations are "high-touch" (3 to 6 months).
 
 **Mid-market migration (1M to 5M records) timeline: 4 to 6 weeks data quality + deduplication, 2 to 3 weeks migration, 2 weeks validation and hypercare = 10 to 12 weeks total.** (SyncMatters, Insycle, practitioner data, 2026)
-- Context: 1M to 5M records is typical for a €10M to €100M revenue company. Larger datasets (10M+ records) extend to 16 to 20 weeks.
+- Context: 1M to 5M records is typical for a $10M to $100M revenue company. Larger datasets (10M+ records) extend to 16 to 20 weeks.
 - Source: "CRM Migration Project Plan" (SyncMatters); "CRM Migration Best Practices" (Insycle); "Insycle Data Quality and CRM Migration" (Insycle case studies, 2026)
 - Application: Provide granular timeline expectations to sponsor; deduplication is the longest phase.
 
@@ -101,9 +101,9 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 ## Post-Merger Integration and CRM-Specific Challenges
 
 **Duplicate customer records and inconsistent formats are the top CRM-specific challenge in post-merger integration.** (Industry research, 2026)
-- Context: A single client exists under different names, account IDs, or contact records in each CRM. Consolidation must resolve this before cutover.
+- Context: A single customer exists under different names, account IDs, or contact records in each CRM. Consolidation must resolve this before cutover.
 - Source: "Post-Merger CRM Integration in B2B" (Gainbox); "Best Post Merger Integration Process" (Dextra Labs)
-- Application: Emphasise identity resolution as the critical first step post-acquisition.
+- Application: Emphasize identity resolution as the critical first step post-acquisition.
 
 **Every Salesforce instance in production for >3 years has the same four data quality problems:**
 1. Duplicate contact records
@@ -147,12 +147,12 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 
 ## CRM Migration Tool Market (2026)
 
-**SyncMatters (formerly Trujay): 4,270+ successful migrations completed**, 25+ connectors, strong support. Cost: €2,500 to €5,500 per migration. Timeline: 2 weeks typical. (Vendor data, 2026)
+**SyncMatters (formerly Trujay): 4,270+ successful migrations completed**, 25+ connectors, strong support. Cost: $2,500 to $5,500 per migration. Timeline: 2 weeks typical. (Vendor data, 2026)
 - Context: One of the most frequently cited tools in migration guides and practitioner forums. High satisfaction scores (43/47 reviews five-star).
 - Source: "CRM Data Migration Solutions" (SyncMatters); "CRM Migration Project Plan" (SyncMatters case studies); software review sites (SoftwareAdvice, Serchen)
 - Application: Recommend for mid-market migrations when speed and hand-holding matter; cost is low enough to justify.
 
-**Insycle: Data quality, deduplication, mass updates, CRM-agnostic.** Cost: €2,500 to €5,000 per migration. Timeline: 2 to 3 weeks. (Vendor data, 2026)
+**Insycle: Data quality, deduplication, mass updates, CRM-agnostic.** Cost: $2,500 to $5,000 per migration. Timeline: 2 to 3 weeks. (Vendor data, 2026)
 - Context: Often paired with SyncMatters or Trujay in recommendations. Trusted for dedup before migration.
 - Source: "CRM Data Deduplication 2026" (DigitalApplied); migration vendor comparisons
 - Application: Recommend Insycle specifically for heavy dedup workloads.
@@ -161,7 +161,7 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 - Source: Salesforce documentation; practitioner guides
 - Application: Recommend for Salesforce-to-Salesforce if you have strong admin resources.
 
-**Warehouse + dbt (Fivetran + dbt + BI):** Most control, handles complex transformations, reusable for ongoing syncs. Cost: €1K to €10K setup; €500 to €2K/month ongoing. Timeline: 4 to 8 weeks. (Data stack pattern, 2026)
+**Warehouse + dbt (Fivetran + dbt + BI):** Most control, handles complex transformations, reusable for ongoing syncs. Cost: $1K to $10K setup; $500 to $2K/month ongoing. Timeline: 4 to 8 weeks. (Data stack pattern, 2026)
 - Context: Best for large enterprises or ongoing multi-system consolidation; overkill for one-off mid-market migrations.
 - Source: dbt documentation; ETL best practices; practitioner case studies
 - Application: Recommend for PE portfolio companies with multiple acquisitions (set up warehouse once, use forever).
@@ -175,7 +175,7 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 - Source: "CRM Adoption Challenges Guide 2026" (Gain); "How User Training Programs Enhance CRM Adoption" (FasterCapital); "Why CRM Adoption Fails" (HeyDAN)
 - Application: Make training a line item in the post-cutover plan; it directly impacts adoption outcomes.
 
-**Organisations with high CRM adoption experience 15% increase in sales productivity and 15% increase in customer retention** compared to low-adoption counterparts. (Adoption impact research, 2025 to 2026)
+**Organizations with high CRM adoption experience 15% increase in sales productivity and 15% increase in customer retention** compared to low-adoption counterparts. (Adoption impact research, 2025 to 2026)
 - Context: High adoption is defined as ≥80% daily active usage and timely data entry.
 - Source: "CRM User Adoption Strategies" (Rand Group); CRM adoption guides
 - Application: Frame adoption investment as directly tied to revenue and retention outcomes.
@@ -183,7 +183,7 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 **Data migration mistakes damage trust in the CRM through duplicate records, missing fields, and outdated data**, causing confusion and hesitation. (Post-migration adoption challenge, 2026)
 - Context: If reps see duplicates or missing data on day 1, they distrust the new system and revert to old workflows.
 - Source: "Why CRM Adoption Fails" (HeyDAN); "CRM Implementation Challenges" (Codeflix Global)
-- Application: Emphasise data quality as the foundation for adoption; clean data = reps trust the system.
+- Application: Emphasize data quality as the foundation for adoption; clean data = reps trust the system.
 
 **Data transfers successfully and integrations work, but adoption collapses because nobody addressed the human side.** (Post-migration failure pattern, 2026)
 - Context: This is the most common post-mortum finding: "Technology worked fine; nobody used it."
@@ -200,7 +200,7 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 - Application: Position CRM consolidation as 15 to 20 tasks within a 100-day plan, not the entire plan.
 
 **CRM/MAP migration eating 9 months is considered a classic value-destruction move in PE playbooks.** (PE operating practice, 2026)
-- Context: If CRM takes 9 months to consolidate, you've lost 12 to 18 weeks of the critical 100-day window for synergy capture. PE boards penalise this.
+- Context: If CRM takes 9 months to consolidate, you've lost 12 to 18 weeks of the critical 100-day window for synergy capture. PE boards penalize this.
 - Source: "PE Marketing: The 100-Day Plan After PE Investment" (First Lane); PE integration best practices
 - Application: Argue for speed (consolidate by day 60, not day 120); frame rapid consolidation as value creation.
 
@@ -221,10 +221,10 @@ All quantitative facts in this skill carry inline source attribution (Source, Ye
 **Contact counts will drop 20 to 40% post-consolidation due to deduplication.** (Post-migration outcome, 2026)
 - Context: If you had 1.2M contacts across two CRMs with 30% overlap, you'll drop to ~840K post-merge. This is expected and correct.
 - Source: "CRM Data Migration Best Practices" (multiple vendors); post-merger integration case studies
-- Application: Socialise this upfront with stakeholders; it's a success metric, not a failure.
+- Application: Socialize this upfront with stakeholders; it's a success metric, not a failure.
 
 **ARR must tie out to finance before and after cutover.** This is board-facing data; mismatches are crises. (Financial control best practice, 2026)
-- Context: If finance shows €3.9M ARR and the CRM shows €4.2M, the gap must be investigated and closed before migration.
+- Context: If finance shows $3.9M ARR and the CRM shows $4.2M, the gap must be investigated and closed before migration.
 - Source: "ERP and CRM Migration Planning" (Wezom); post-merger integration checklists
 - Application: Make ARR reconciliation a gating criterion for cutover approval.
 
