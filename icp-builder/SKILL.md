@@ -206,6 +206,15 @@ For the full framework, read `references/icp-building-reference.md` Section 6.
 
 Hand off to `positioning-messaging-designer` to translate ICP insights into positioning framework and messaging architecture. The SPICED language becomes the raw material for messaging.
 
+**ICP → Qualification Gates (pipeline enforcement)**
+
+Tiers say whether the account fits; gates say whether the deal is real. Once tiers exist, install the qualification-gate layer so the ICP governs pipeline movement instead of living in a slide (adapted from Douwe Wester's qualifying-system framework and Winning by Design's SPICED methodology). Gates, not fields: more CRM fields will not fix a forecast; minimum scores per stage will.
+
+1. **Score evidence quality per SPICED letter, 1 to 5:** 1 Unknown (not asked), 2 Weak (surface mention), 3 Confirmed (said and logged), 4 Quantified (numbers behind it), 5 Validated (third party or system data). The scale grades evidence, not rep enthusiasm.
+2. **Set per-stage minimums, per letter and in total.** With six letters (total out of 30): Inbound to Discovery 7, Discovery to Demo 14, Demo to Proposal 19, Proposal to Commit 23. One letter under its gate and the deal does not move. No rounding up. Go back, ask again, qualify or kill.
+3. **Install the critical-event forcing question:** "What breaks for this customer if they do nothing until next quarter?" No concrete answer scores Critical Event at 1, and the record is a conversation, not a deal.
+4. **Deploy in CRM:** letter scores as deal properties plus a computed deal-health field next to `icp_tier`; enforce via stage-transition validation or a weekly below-gate exception report. Expect two weeks of rep resistance, then adoption once the gate starts protecting calendars from deals that were never going to close.
+
 ---
 
 ## Voice Rules

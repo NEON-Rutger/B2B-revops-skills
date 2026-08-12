@@ -135,6 +135,27 @@ Categorize ICPs into fit tiers:
 
 **Use:** Marketing targets T1 + T2; Sales uses T3 as "if we close one, great; don't chase."
 
+#### Output 2b: Tier Validation via Journey Cycle Times
+
+A tier model is a hypothesis until cycle-time data proves it. The model only "works" when T1 accounts demonstrably move faster through the whole journey, not just the funnel top.
+
+Map five cycle times per tier, from CRM plus onboarding data:
+
+| Cycle | Measures | T1 should be |
+|---|---|---|
+| MQL to SQL | Time + conversion | Fastest, highest conversion |
+| SQL to Win | Time + win rate | Fastest, highest win rate |
+| Win to Onboard | Time to live | Smoothest, fewest escalations |
+| Time to first impact | First measurable value | Shortest |
+| Time to full impact | Full recurring value | Shortest, highest expansion |
+
+Reading the result:
+- **T1 wins every column:** the model is validated. Leave the weights alone.
+- **T1 loses a column to T2:** the weights are wrong for whatever that column measures. Adjust one weight, wait a quarter, re-measure. Never adjust on a single read.
+- **Tiers barely separate:** the criteria describe the market, not the ideal customer. Return to pattern analysis and find sharper discriminating attributes.
+
+Cadence is quarterly. Small-base rule: with 15 customers rather than 500 the model is more hypothesis than proof; that is fine. Start with 10 scored accounts, keep Tier 1 deliberately narrow (at early stage you need 50 Tier 1 accounts, not 5,000), and iterate every quarter. Different segments need different weight models: an attribute that predicts buying for one segment can mean nothing for another, and each weight set is validated separately against its own cycle times.
+
 #### Output 3: Buyer Personas
 Role-level profiles (not accounts) with goals, pains, decision criteria.
 
