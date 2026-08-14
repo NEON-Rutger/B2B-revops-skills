@@ -39,7 +39,8 @@ BANT (Budget, Authority, Need, Timing) is a four-dimension model, total 20, gate
 
 ## Benchmark provenance
 
-- B2B average win rate 19% for 2025, 29% for 2024: Ebsta x Pavilion B2B Sales Benchmarks (2025 edition).
+- B2B average win rate 19% for 2025, 29% for 2024: Ebsta x Pavilion GTM Benchmarks (2025 edition; 655K opportunities, $48B pipeline). Checked August 2026: no newer full-dataset edition has been published; 2026-dated industry pages still cite this dataset. Re-check when the 2026 edition lands.
+- Deals closing within ~50 days win at ~47% vs ~20% beyond; early economic-buyer involvement lifts win rates ~55%: same Ebsta x Pavilion 2025 dataset.
 - Closed-won deals show ~2x engaged buyer contacts vs closed-lost; 11-14 discovery questions correlate with peak win rates: Gong Labs published research (2017-2021 datasets, 1.8M+ opportunities analyzed).
 - Post-proposal win rates 31-50%: Norwest Venture Partners benchmark data (2024).
 

@@ -6,6 +6,30 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.3.0], 2026-08-14
+
+### Added
+- `qbr-ebr-builder`: customer-facing business reviews as a value instrument. QBR/EBR
+  split by audience, three-panel spine (look back in their numbers / current state
+  honestly / look forward jointly owned), segmentation with async-summary long tail,
+  attendance drift as a risk signal. Deliberately excludes vendor-marketing QBR
+  statistics; practice-based rules labeled as such.
+
+### Changed
+- `revops-forecasting`: new "Evidence-Based Forecast Inputs" subsection: four-source
+  deal reads (CRM claim, conversation evidence, product usage, signal memory),
+  evidence-wins-the-argument rule, bridge to deal-qualification-gates for Commit
+  validation and to renewal-save-motion for the renewal slice.
+- `closed-lost-revival`: lineage and attribution section added (champion-move-detection,
+  bridgebound-history-16, signal-to-campaign, Swan AI loss-categorization), including
+  the consume-verified-movers rule when champion-move-detection is installed.
+- `deal-qualification-gates`: added two verified stats from the Ebsta x Pavilion 2025
+  dataset (sub-50-day deals win ~47% vs ~20%; early economic-buyer involvement lifts
+  win rates ~55%) with an explicit note that this remains the latest full dataset as
+  of August 2026.
+
+---
+
 ## [v1.2.0], 2026-08-14
 
 ### Added

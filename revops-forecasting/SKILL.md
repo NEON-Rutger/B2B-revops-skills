@@ -166,6 +166,19 @@ Manual deal inspection remains essential. However, 2026 revenue teams now augmen
 - Deploy without clean CRM data. Garbage in, garbage out. Data quality is the first constraint.
 - Assume AI forecasting is fully autonomous. Ensemble ML plus human deal inspection (especially Commits) remains the gold standard.
 
+### Evidence-Based Forecast Inputs (the 2026 shift)
+
+The deeper change is not the ML layer; it is WHERE the forecast's raw inputs come from. The traditional forecast runs on rep-entered CRM fields, which makes the rep the primary sensing instrument, with all the optimism and memory decay that implies. Teams running agent-assisted GTM now compose each deal's forecast read from four sources, and treat the CRM field as the last of them, not the first:
+
+1. **The CRM record**: stage, amount, dates. The claim.
+2. **Conversation evidence**: call transcripts and email threads, read in full, not skimmed. What the buyer actually said about budget, timing, and process. Commitments and objections in their words.
+3. **Product usage**: for trials, pilots, and expansion, the engagement data is the value-realization signal; a Commit on a trial nobody logs into is not a Commit.
+4. **Signal and account memory**: buying-committee engagement outside the deal thread (exec visited the site, sponsor engaged content, champion went quiet), accumulated per account.
+
+Where a category (Commit/Best Case) disagrees with the evidence underneath it, the evidence wins the argument and the category owner owes an explanation, which is exactly the forecast-call conversation worth having. If you run evidence-gated qualification (see deal-qualification-gates), the per-deal evidence scores are the natural bridge: Commit validation stops being an assertion checklist and becomes a lookup ("Critical Event scored 4+, decision process scored 4+, or it is not Commit"). For the renewal slice of the forecast, the T-120 renewal clock and risk verdicts (see renewal-save-motion) replace the flat 90-95% run-rate assumption with named exceptions.
+
+Practice note (labeled as such, not a study): operators publishing their agent-composed forecast workflows in 2026 (among them Swan AI's VP of Autonomous GTM, publicly, July 2026) report the rep's role shifting from data entry to exception judgment: the agent assembles the four-source read, the human argues with it. The forecast call survives; the Friday CRM-update scramble does not.
+
 ## Pipeline Analytics Views That Feed Forecast Accuracy
 
 Four diagnostic views turn pipeline data into forecast intelligence: (1) **Pipeline Waterfall** (created / moved-in / moved-out / won / lost), (2) **Forecast vs Actuals Tracking** (forecast at each weekly checkpoint vs. close), (3) **At-Risk Opportunity Identification** (six risk signals with thresholds), and (4) **Pipeline Health Snapshot** (a weekly five-minute diagnostic). For the full schemas, tables, and diagnosis patterns, see `references/pipeline-analytics-views.md`.
