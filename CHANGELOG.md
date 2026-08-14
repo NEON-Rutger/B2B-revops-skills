@@ -6,6 +6,25 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.2.0], 2026-08-14
+
+### Added
+- `closed-lost-revival`: quarterly revival sweep over closed-lost deals, gone-quiet
+  proposals, champion job changes, and engaged-then-quiet threads. Three gated lanes,
+  a loss-pattern library, campaign compression (5-15 cap), and a human approval
+  contract. Fills a marketplace-wide gap: no closed-lost or win-back skill existed.
+- `deal-qualification-gates`: evidence-quality scoring (1-5 per qualification
+  dimension), per-stage minimum scores, the critical-event forcing question, and
+  qualify-or-kill reviews. Extends the gate layer added to icp-builder in the prior
+  commit into a full deal-level skill; SPICED default with MEDDICC/BANT mapping in
+  references.
+- `renewal-save-motion`: the defensive counterpart to expansion. Renewal clock from
+  T-120, five-way risk triage, ordered commercial levers (discount last), release-well
+  protocol, and save-rate scorekeeping by failure mode. Benchmarks source-and-vintage
+  encoded in references.
+
+---
+
 ## [v1.1.1], 2026-08-04
 
 ### Removed
