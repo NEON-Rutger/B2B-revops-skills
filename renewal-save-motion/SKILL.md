@@ -80,6 +80,8 @@ Some accounts should churn: wrong-fit customers bought in an over-eager quarter,
 - Concession cost per saved dollar, so finance can see that the service-injection lever beats the discount lever on evidence, not philosophy.
 - GRR quarterly against the 90% median / 95% top-quartile line (2025 surveys), segmented the way your board segments it.
 
+Benchmark provenance, vintages, and which rules are practice-based rather than studied: read `references/retention-benchmarks.md`.
+
 ## Diagnostic Questions
 
 1. List renewals due in the next 120 days. Who owns each one, by name, today?

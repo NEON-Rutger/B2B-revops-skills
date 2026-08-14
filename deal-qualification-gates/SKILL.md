@@ -64,7 +64,7 @@ Two enforcement rules:
 1. **No single dimension below its floor.** A deal can hit 19 total while Critical Event sits at 1; that deal does not move. Every dimension needs at least a 3 by proposal stage. One letter under its gate and the deal stays put. No rounding up. Go back, ask again, qualify or kill.
 2. **The critical-event forcing question:** "What breaks for this customer if they do nothing until next quarter?" No concrete answer scores Critical Event at 1, and the record is a conversation, not a deal. This single question deflates more zombie pipeline than any dashboard.
 
-Why the paranoia about evidence depth: Gong's analysis of 1.8M opportunities found closed-won deals carry roughly twice as many engaged buyer-side contacts as closed-lost ones, and its call research found reps asking 11-14 targeted discovery questions correlate with the highest win rates (Gong Labs, 2017-2021 datasets). Evidence quality is not bureaucracy; it is the observable difference between deals that close and deals that decay.
+Why the paranoia about evidence depth: Gong's analysis of 1.8M opportunities found closed-won deals carry roughly twice as many engaged buyer-side contacts as closed-lost ones, and its call research found reps asking 11-14 targeted discovery questions correlate with the highest win rates (Gong Labs, 2017-2021 datasets). Evidence quality is not bureaucracy; it is the observable difference between deals that close and deals that decay. Benchmark provenance and vintages: read `references/qualification-frameworks.md`.
 
 ---
 

@@ -138,6 +138,8 @@ Run these before the first sweep; they usually expose the opportunity in minutes
 
 ## Benchmarks Referenced
 
+Full provenance, vintages, and the list of practice-based rules: read `references/revival-benchmarks.md`.
+
 - Average B2B win rate 20-21%; 19% measured for 2025 (Ebsta x Pavilion benchmark, 2025; prior year 29%). The complement is the size of the closed-lost pool.
 - Post-proposal win rates 31-50% (Norwest, 2024): the case for the proposal-gone-quiet lane.
 - ~20% of champions change jobs per year (job-change vendor estimates, 2023-2026, consistent with Swan AI's published production rate, 2026).
