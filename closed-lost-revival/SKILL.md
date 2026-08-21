@@ -136,9 +136,6 @@ Run these before the first sweep; they usually expose the opportunity in minutes
 4. What are your top five loss reasons as WRITTEN IN THE CRM, and do you believe them? (Loss-reason fields are usually fiction; transcripts and email threads are the evidence.)
 5. When someone re-engages a dead account today, do they know the original objection, or are they opening cold with worse odds?
 
-## Lineage and Attribution
-
-This skill stands on published work by other operators, in the open-library spirit: Lane B's mover mechanics build on `ariel-cohen/champion-move-detection` (if you run that skill, feed its verified movers straight into this sweep instead of re-detecting); the reactivation trigger taxonomy draws on `alex-vacca/bridgebound-history-16`; the one-campaign-per-quarter compression pattern adapts `bojan-berisavljevic/signal-to-campaign`; and the loss-pattern library step follows the compounding-categorization approach Swan AI documented publicly (August 2026). The hard gates, the evidence-dated premise standard, the opener doctrine, and the one-knock NEXT-TOUCH discipline are the author's own operating practice. What this skill adds to the library is the piece none of those cover: a single gated system for the closed-lost and gone-quiet pool itself.
 
 ## Benchmarks Referenced
 

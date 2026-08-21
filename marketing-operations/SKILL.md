@@ -315,7 +315,7 @@ For full stack evaluation, see **revops-tech-stack**.
 
 The lead scoring and attribution sections above cover the mechanics. This section covers the operational process: the step-by-step flow from first touch to qualified pipeline.
 
-**Source:** Adapted from Union Square Consulting's Inbound Pyramid. This skill applies it as the process layer beneath the scoring mechanics.
+The Inbound Pyramid is the process layer beneath the scoring mechanics.
 
 ### Customer Journey Map (Prerequisite)
 
@@ -410,11 +410,11 @@ By month 4 you're at Level 2. Keep pushing to Level 3.
 
 ---
 
-## Norton Framework Additions (Source: Aviv Canaani, Revenue Leadership Podcast, Mar 2026)
+## Framework Additions
 
-The Norton "Inbound Flip" strategy engineers an inbound-dominant GTM motion that produces 4x revenue per AE: start with paid across LinkedIn/Google/counterintuitive channels, build an organic engine in parallel, lean into inbound when outbound drops, and use brand as air cover. Supporting data (HubSpot: inbound costs 61% less; 6sense: buyer initiates first contact 83% of the time), the win-rate-first channel quality ranking, the brand-protection-as-architecture principle, and the Donovan (E61) outbound channel destruction data all argue for shifting budget away from cold outbound email.
+The "Inbound Flip" strategy engineers an inbound-dominant GTM motion that produces 4x revenue per AE: start with paid across LinkedIn/Google/counterintuitive channels, build an organic engine in parallel, lean into inbound when outbound drops, and use brand as air cover. Supporting data (HubSpot: inbound costs 61% less; 6sense: buyer initiates first contact 83% of the time), the win-rate-first channel quality ranking, the brand-protection-as-architecture principle, and the outbound channel destruction data (The Revenue Leadership Podcast E61, 2026) all argue for shifting budget away from cold outbound email.
 
-For the full flip mechanics, the supporting data citations, the channel quality ranking, and the outbound channel destruction table, see `references/norton-inbound-flip-strategy.md`.
+For the full flip mechanics, the supporting data citations, the channel quality ranking, and the outbound channel destruction table, see `references/inbound-flip-strategy.md`.
 
 ## How to Use This Skill
 
@@ -438,7 +438,7 @@ For the full flip mechanics, the supporting data citations, the channel quality 
 | `references/ai-inbound-qualification.md` | When AI handles inbound qualification | Implementation pattern, behavior-based segmentation, full SaaStr case |
 | `references/customer-interview-marketing-pipeline.md` | Feeding interview data into MarOps | Interview→marketing pipeline table, quarterly review process |
 | `references/inbound-operations-detail.md` | Designing the inbound operational layer | Speed-to-lead SLAs, routing rules + hierarchy, follow-up cadences, ABM reporting |
-| `references/norton-inbound-flip-strategy.md` | Channel-mix and inbound-flip conversations | Flip mechanics, supporting data citations, channel quality ranking, outbound destruction data |
+| `references/inbound-flip-strategy.md` | Channel-mix and inbound-flip conversations | Flip mechanics, supporting data citations, channel quality ranking, outbound destruction data |
 
 ---
 

@@ -408,6 +408,4 @@ QBRs are the highest-leverage CS touchpoint for T1 accounts and most fail by loo
 
 Use a forecasting worksheet with dedicated renewal modeling tabs to model: renewal cohort sizing, churn impact on ARR, expansion uplift scenarios.
 
-Attribution: Methodology adapted from Pavilion CRO School. Original authors: Carter/Nalbandian/Dick.
-
 > Built by [Neon Triforce](https://neontriforce.com)

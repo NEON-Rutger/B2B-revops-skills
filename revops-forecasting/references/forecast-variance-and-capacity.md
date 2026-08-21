@@ -1,8 +1,6 @@
-# Norton Framework Additions
+# Forecast Variance and Capacity-Based Forecasting
 
 On-demand reference for the revops-forecasting skill.
-
-Source: Kyle Norton / Aviv Canaani, Revenue Leadership Podcast, 2026.
 
 ## Forecast Variance as System Health Signal
 
@@ -19,7 +17,7 @@ Better ICP fit → shorter cycle time → more predictable forecast → better r
 **Cycle Time as Primary Constraint Indicator:**
 Velocity bottlenecks (not volume gaps) often limit growth. If deals consistently stall at a specific stage, that's your system constraint; fix it before adding more pipeline.
 
-## Bottom-Up Capacity-Based Forecasting (Canaani, E64)
+## Bottom-Up Capacity-Based Forecasting
 
 An alternative to top-down target-based forecasting:
 
@@ -30,7 +28,7 @@ An alternative to top-down target-based forecasting:
 4. Know AE meeting capacity before quality drops
 5. Only hire new AEs when pipeline exists to fill their calendars
 
-**Datarails proof point:** Projected new ARR within 5% margin of error, three out of four quarters. This was achieved by knowing the real productivity numbers, not by top-down quota allocation.
+**Proof point (The Revenue Leadership Podcast E64, 2026):** Projected new ARR within 5% margin of error, three out of four quarters. This was achieved by knowing the real productivity numbers, not by top-down quota allocation.
 
 **Contrast with conventional approach:**
 - Conventional: Board target ÷ reps + stretch = quota → hope pipeline materializes
@@ -38,4 +36,4 @@ An alternative to top-down target-based forecasting:
 
 **When to use:** Best suited for organizations with 4+ quarters of pipeline data, established conversion rates, and a mature enough inbound engine to have predictable meeting volume.
 
-**Add to accuracy benchmark:** Canaani's 5% margin (3/4 quarters) sits at the "Elite" level in the existing forecast accuracy benchmarks.
+**Add to accuracy benchmark:** The 5% margin (3/4 quarters) sits at the "Elite" level in the existing forecast accuracy benchmarks.

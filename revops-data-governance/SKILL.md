@@ -464,9 +464,9 @@ TARGET: Level 3 within 12 months. Level 4 requires data engineering resource.
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton, Revenue Leadership Podcast, Jan 2026)
+## Framework Additions
 
-### Data Foundation for AI Readiness (Norton Model)
+### Data Foundation for AI Readiness
 
 AI is only as good as the data underpinning it. Most companies trying to bolt AI onto broken infrastructure are installing a turbocharger on a car with a cracked engine block.
 
@@ -488,7 +488,7 @@ Multiple integrated tools (composability) require stricter governance because sy
 
 
 
-### The Five Data Classes (Brinker/Databricks, March 2026)
+### The Five Data Classes
 
 When designing data governance, think beyond CRM hygiene. Modern data governance covers five interrelated classes of data:
 
@@ -500,7 +500,7 @@ When designing data governance, think beyond CRM hygiene. Modern data governance
 | **Code Data** | AI models, prompts, agent configurations, automation rules; "software is data" | Version control, prompt governance, agent audit trails, agentic compliance |
 | **Control Data** | Semantic layer definitions, business rules, governance policies, AI guardrails | Meta-governance: the rules that govern the rules |
 
-**Why this matters:** When everything is data (including the AI agents themselves and the governance rules they follow), data governance becomes the foundation of the entire operating system, not just a hygiene exercise. Brinker's thesis: "The martech stack doesn't sit on top of data. It is data."
+**Why this matters:** When everything is data (including the AI agents themselves and the governance rules they follow), data governance becomes the foundation of the entire operating system, not just a hygiene exercise. The thesis: the martech stack doesn't sit on top of data; it is data.
 
 ### Code Data Governance: Operationalizing AI Agents (2026 Standard)
 
@@ -535,7 +535,7 @@ A semantic layer provides consistent, business-friendly vocabulary across the or
 - Translation between technical schemas and business concepts
 - Shared calculations that every report, dashboard, and AI agent uses
 
-**Without a semantic layer:** "Every agent becomes its own island of interpretation, which is how you get three different dashboards showing three different pipeline numbers, or worse, three different agents taking three different actions based on contradictory assumptions." (Brinker, 2026)
+**Without a semantic layer:** every agent becomes its own island of interpretation, which is how you get three different dashboards showing three different pipeline numbers, or worse, three different agents taking three different actions on contradictory assumptions.
 
 **Practical implication for revenue dashboard:** The breach rules and tile definitions in the revenue dashboard ARE the semantic layer for revenue operations. They enforce shared meaning. When building the revenue dashboard, you're building the semantic layer.
 

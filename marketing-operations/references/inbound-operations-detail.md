@@ -2,7 +2,7 @@
 
 On-demand reference for the marketing-operations skill.
 
-**Source:** Adapted from Union Square Consulting's Inbound Pyramid. This skill applies it as the process layer beneath the scoring mechanics. The lead scoring and attribution sections of the skill cover the mechanics; this is the operational process: the step-by-step flow from first touch to qualified pipeline. The customer journey map and inbound conversion metrics by stage live in the skill body; the routing process, follow-up cadences, speed-to-lead SLAs, and ABM reporting depth live here.
+The Inbound Pyramid is the process layer beneath the scoring mechanics. The lead scoring and attribution sections of the skill cover the mechanics; this is the operational process: the step-by-step flow from first touch to qualified pipeline. The customer journey map and inbound conversion metrics by stage live in the skill body; the routing process, follow-up cadences, speed-to-lead SLAs, and ABM reporting depth live here.
 
 ## Speed-to-Lead SLA
 

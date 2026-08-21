@@ -201,7 +201,7 @@ Contact Volume (per role) # named individuals per required   2+ economic buyer
 
 **Example:** You target Enterprise deals. Required roles: Economic Buyer, Technical Buyer, End-User Champion, Security/Compliance. You have identified 3 Economic Buyer contacts, 0 Technical, 2 End-User, 1 Security. Coverage = 3/4 = 75% (meets threshold). However, the Technical gap is a blocker. Engagement continues until Marketing or Sales identifies a Technical contact. Then: email Technical contact introduction, track engagement, escalate to sales when they engage.
 
-### Champion Validation Framework (Adapted from MEDDIC)
+### Champion Validation Framework (MEDDIC-based)
 
 A champion is not just any engaged stakeholder. A champion has three attributes that predict influence in your favour:
 

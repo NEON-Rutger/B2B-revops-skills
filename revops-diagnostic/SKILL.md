@@ -522,8 +522,6 @@ This doesn't replace the full diagnostic; it accelerates it by pointing you at t
 
 ## Advanced Diagnostic Frameworks
 
-*Source: insights adapted from The Revenue Leadership Podcast (Kyle Norton; E64 with Aviv Canaani, Datarails; March 2026).*
-
 ### Constraint-Based Diagnosis (Theory of Constraints for Revenue Operations)
 
 Find the ONE constraint limiting the system before recommending fixes.

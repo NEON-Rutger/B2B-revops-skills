@@ -526,9 +526,9 @@ Cross-references: full pipeline analytics views with deal health dimensions, KPI
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton / Aviv Canaani, Revenue Leadership Podcast, 2026)
+## Framework Additions
 
-### Revenue Per AE Constraint Analysis (Norton/Canaani Model)
+### Revenue Per AE Constraint Analysis
 
 Revenue per AE is the constraining metric that reveals system health.
 
@@ -541,7 +541,7 @@ If revenue per AE is low, diagnose which input is the constraint:
 - **Slow deal velocity** → process friction, missing stakeholders, weak champion
 - **Low capacity utilization** → AEs spending time on non-selling activities (prospecting theater)
 
-**The Anti-Prospecting Thesis (Canaani):**
+**The Anti-Prospecting Thesis:**
 - Most AEs admit 80-90% of closed revenue comes from inbound
 - Salesforce State of Sales 2026: reps spend 40% of week actually selling (up from 28% in 2024)
 - $250-300K OTE spent on prospecting = failure of resource allocation dressed as culture
@@ -571,7 +571,7 @@ Predictability is built, not hoped for.
 - If Enterprise wins at 35% and Mid-Market wins at 12%, your Mid-Market ICP is wrong or methodology isn't adapted
 - Win rate segmented by lead source: inbound vs outbound reveals true channel quality
 
-**The Productivity-First Quota Test (Canaani Model):**
+**The Productivity-First Quota Test:**
 Know these numbers before setting any quota:
 1. Cost per meeting
 2. Conversion rate at every stage
@@ -579,9 +579,9 @@ Know these numbers before setting any quota:
 4. AE meeting capacity before quality drops
 5. Only hire new AEs when you have pipeline to fill their calendars
 
-> "I don't really care that much about the quota. I care about how much I think they actually can produce. Knowing the real productivity is what matters.": Aviv Canaani
+> Quota matters less than real productivity: knowing what a rep can actually produce is the number that matters.
 
-### New Benchmark Data (Kyle Norton Podcast, E60-E64, Jan-Mar 2026)
+### New Benchmark Data (The Revenue Leadership Podcast E60-E64, Jan-Mar 2026)
 
 **Quota & Productivity:**
 

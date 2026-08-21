@@ -313,4 +313,3 @@ Either RevOps or FP&A can escalate to CEO/CFO if:
 
 ---
 
-**Attribution:** RevOps Lab podcast #57 (Shantanu Shekhar, Gong/Personio), FP&A Today podcast (Aaron Sallade, Michelle Govindsamy, Zachary Rial), RevSearch (RevOps-FP&A partnership frameworks), Atscale practitioner input (Louis Fumey, 2026).

@@ -347,4 +347,3 @@ CFO, you own the board conversation. Revenue, you own the team execution. Questi
 
 ---
 
-**Attribution:** FP&A Today podcast (Aaron Sallade, Michelle Govindsamy, Zachary Rial), RevOps Lab podcast #57 (Shantanu Shekhar, Gong/Personio), Pavilion CRO School, Atscale practitioner input (Louis Fumey, 2026).

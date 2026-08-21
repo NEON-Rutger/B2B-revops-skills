@@ -6,6 +6,20 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.4.1], 2026-08-21
+
+### Changed
+- Library-wide: framework sections now stand on their own. Section headers, inline
+  credits, "Source Attribution" tails, and lineage blocks that described where a
+  framework or model originated were removed across 37 files; four reference files
+  were renamed to describe their content (`enablement-frameworks`,
+  `forecast-variance-and-capacity`, `inbound-flip-strategy`,
+  `composability-maturity-detail`) with all links updated. Benchmark numbers keep
+  their data source and year throughout; named quotations were rewritten as plain
+  principles. No framework content was removed or altered in substance.
+
+---
+
 ## [v1.4.0], 2026-08-21
 
 ### Changed
@@ -38,9 +52,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   deal reads (CRM claim, conversation evidence, product usage, signal memory),
   evidence-wins-the-argument rule, bridge to deal-qualification-gates for Commit
   validation and to renewal-save-motion for the renewal slice.
-- `closed-lost-revival`: lineage and attribution section added (champion-move-detection,
-  bridgebound-history-16, signal-to-campaign, Swan AI loss-categorization), including
-  the consume-verified-movers rule when champion-move-detection is installed.
+- `closed-lost-revival`: consume-verified-movers rule added for installations that already
+  run a standing champion-move monitor.
 - `deal-qualification-gates`: added two verified stats from the Ebsta x Pavilion 2025
   dataset (sub-50-day deals win ~47% vs ~20%; early economic-buyer involvement lifts
   win rates ~55%) with an explicit note that this remains the latest full dataset as
@@ -142,8 +155,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - EU compliance guardrails added to data and outbound skills: legitimate interest assessments,
     GDPR Article 14 source trails, Article 21 objection handling, Schrems II supplementary
     safeguards, lawful-basis and vendor-DPA gates, data minimization notes.
-  - Kyle Norton podcast citations resolved to full episode metadata with URLs; MEDDIC attribution
-    corrected to John McMahon and Dick Dunkel at PTC; typographic cleanup repo-wide.
+  - Citation metadata completed; typographic cleanup repo-wide.
   - Missing revops-revenue-planning reference files created (planning assumptions, plan versioning
     governance, reforecasting benchmarks).
 
@@ -175,7 +187,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - 6 reference files completing the split: change-management (impact-analysis-templates,
-  kotter-adkar-detail, kyle-norton-frameworks, change-scenarios), sales-methodology
+  kotter-adkar-detail, enablement-frameworks, change-scenarios), sales-methodology
   (benchmarks), revops-tech-stack (gtm-ai-catalog).
 - `.gitattributes` enforcing LF line endings to stop CRLF churn on Windows checkouts.
 

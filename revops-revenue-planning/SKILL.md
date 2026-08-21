@@ -291,7 +291,7 @@ Mixing locked and flexible parameters is the primary cause of reforecasting chao
 **Quota Attainment Benchmarks (Rep-Level Performance):**
 - Healthy: 70-80% of reps hit quota (aspirational target)
 - Median market: 46% of reps hit quota in 2025, down from 52% in 2024 (Ebsta 2025 GTM Benchmarks Report)
-- Signal: If below 50% organization-wide, quota-setting process is flawed (Canaani, Revenue Leadership Podcast E64, 2026)
+- Signal: If below 50% organization-wide, quota-setting process is flawed (The Revenue Leadership Podcast E64, 2026)
 
 **Reforecasting Frequency Boundaries:**
 - Minimum: Quarterly (prevents total disconnect between plan and reality)
@@ -449,6 +449,6 @@ To implement your annual planning:
 
 Use in: Annual planning kickoff, revenue-finance alignment sessions, board preparation, mid-year reforecasting.
 
-Attribution: Pavilion CRO School (Forecasting and Revenue Modeling curriculum), FP&A Today podcast (FP&A best practices), Revenue Leadership Podcast (Shantanu Shekhar, Gong/Personio RevOps framework), Atscale practitioner input (Louis Fumey, 2026), Ebsta 2025 GTM Benchmarks Report.
+Benchmark source: Ebsta 2025 GTM Benchmarks Report.
 
 > Built by [Neon Triforce](https://neontriforce.com)

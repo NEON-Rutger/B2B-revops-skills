@@ -397,15 +397,3 @@ Start with rules-based scoring to establish discipline and transparency. After 6
 **Issue: Salesforce says they never received account data.**
 - Possible cause: Integration is broken or not pushing data to CRM.
 - Fix: Audit integration logs. Ensure scoring platform is writing to account/contact records. Test one account manually.
-
----
-
-## Source Attribution
-
-Baseline signal weights and decay methodology adapted from:
-- 6sense Predictive Buying Stages Model (2026)
-- Demandbase Engagement Minutes Framework (2024)
-- Forrester B2B Buying Journey Research (2026)
-- Practitioner case studies (practice-based) (2025-2026)
-
-Configuration framework based on Kristina Jaramillo's Personal ABM methodology (PersonalABM; host of ABMDoneRight Podcast) and motion-based weighting patterns observed across 50-500 account TAM programs.

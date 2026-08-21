@@ -553,7 +553,7 @@ Track these to identify patterns: which reps discount most, which reason codes a
 
 Beyond discovery and qualification, the sales process needs an operational backbone; the management layer that ensures deals move through stages correctly and forecasting is reliable. SPICED tells you how to run the conversation; this tells you how to run the pipeline.
 
-**Source:** Adapted from Union Square Consulting's Pipeline Management Pyramid, applied here as the operational complement to SPICED.
+The Pipeline Management Pyramid is the operational complement to SPICED.
 
 The model has five components:
 - **Stage entry/exit criteria**; every stage has explicit gates. The spine: Discovery exits at SPICED S+P ≥ 2 each with Pain validated; Qualification exits at SPICED total ≥ 8/15 with economic buyer + champion identified; Solution Design exits at solution presented and technical validation complete; Negotiation exits at verbal terms agreed and legal/procurement engaged; Closed Won exits at handoff to CS.
@@ -576,7 +576,7 @@ For Ebsta/Pavilion 2025 benchmark data on discovery, multi-threading, qualificat
 
 The governing principle: build methodology as **architecture, not craft**; systems (CRM-embedded fields, stage gates, AI-assisted scoring, coaching cadence) that make average reps execute SPICED/MEDDIC consistently, rather than relying on individual talent. AI handles research, admin, and data prep so reps spend 70-80% of time selling; the rep still brings qualification judgement and runs the discovery. Two guardrails: use AI to *suggest* methodology scores (not auto-populate; confirm/override to avoid cognitive atrophy), and focus methodology training on closing skills, not prospecting (most revenue is inbound).
 
-For the full emerging-practices detail; Kyle Norton's AI-Augmented Sales Day, the Architecture vs. Craft framework, "Show, Don't Demo," the Cognitive Atrophy warning, and the Anti-Prospecting Thesis with supporting data and sources (Norton/Canaani, Revenue Leadership Podcast 2026; SaaStr AI Agent Playbook); see `references/emerging-practices.md`.
+For the full emerging-practices detail (the AI-Augmented Sales Day, the Architecture vs. Craft framework, "Show, Don't Demo," the Cognitive Atrophy warning, and the Anti-Prospecting Thesis with supporting data and sources), see `references/emerging-practices.md`.
 
 ### AI-Native SPICED Scoring Workflow (2026)
 

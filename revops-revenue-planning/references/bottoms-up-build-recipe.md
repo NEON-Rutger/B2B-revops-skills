@@ -308,7 +308,7 @@ Linked to: New Business capacity and pipeline coverage models
 
 ## Appendix: Pavilion Capacity Model (from CRO School Class 4)
 
-For a worked example from Pavilion CRO School (original source: Pavilion CRO School Forecasting Worksheet, Class 4), the model structure is:
+For a worked example, the model structure is:
 
 **Inputs:**
 - AE headcount by tier (Mid-Market vs Enterprise)
@@ -355,4 +355,3 @@ Annual contribution of this hire in first year = $600K (9 full months at quota +
 
 ---
 
-**Attribution:** Pavilion CRO School Class 4 (Forecasting and Financial Modeling), original authors Carter/Nalbandian/Dick. Practitioner input from Louis Fumey (Atscale, 2026).

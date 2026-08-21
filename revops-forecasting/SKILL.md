@@ -177,7 +177,7 @@ The deeper change is not the ML layer; it is WHERE the forecast's raw inputs com
 
 Where a category (Commit/Best Case) disagrees with the evidence underneath it, the evidence wins the argument and the category owner owes an explanation, which is exactly the forecast-call conversation worth having. If you run evidence-gated qualification (see deal-qualification-gates), the per-deal evidence scores are the natural bridge: Commit validation stops being an assertion checklist and becomes a lookup ("Critical Event scored 4+, decision process scored 4+, or it is not Commit"). For the renewal slice of the forecast, the T-120 renewal clock and risk verdicts (see renewal-save-motion) replace the flat 90-95% run-rate assumption with named exceptions.
 
-Practice note (labeled as such, not a study): operators publishing their agent-composed forecast workflows in 2026 (among them Swan AI's VP of Autonomous GTM, publicly, July 2026) report the rep's role shifting from data entry to exception judgment: the agent assembles the four-source read, the human argues with it. The forecast call survives; the Friday CRM-update scramble does not.
+Practice note (labeled as such, not a study): operators publishing their agent-composed forecast workflows in 2026 report the rep's role shifting from data entry to exception judgment: the agent assembles the four-source read, the human argues with it. The forecast call survives; the Friday CRM-update scramble does not.
 
 ## Pipeline Analytics Views That Feed Forecast Accuracy
 
@@ -201,9 +201,9 @@ For the full visibility-and-reporting layer: dashboard architecture per audience
 
 ---
 
-## Norton Framework Additions
+## Framework Additions
 
-Two additions from Kyle Norton and Aviv Canaani (Revenue Leadership Podcast, 2026): **forecast variance as a system-health signal** (±10% healthy, ±20% qualification/ICP drift, ±30%+ methodology decay) and **bottom-up capacity-based forecasting** (Canaani, E64: Datarails projected new ARR within a 5% margin, 3 of 4 quarters, which sits at "Elite" in the accuracy benchmarks). For the full framework, the quality-velocity-predictability triangle, and the capacity model steps, see `references/norton-framework.md`.
+Two additions: **forecast variance as a system-health signal** (±10% healthy, ±20% qualification/ICP drift, ±30%+ methodology decay) and **bottom-up capacity-based forecasting** (a documented CRO model projected new ARR within a 5% margin, 3 of 4 quarters, which sits at "Elite" in the accuracy benchmarks; The Revenue Leadership Podcast E64, 2026). For the full framework, the quality-velocity-predictability triangle, and the capacity model steps, see `references/forecast-variance-and-capacity.md`.
 
 ## How to Use This Skill
 
@@ -237,7 +237,7 @@ These connect forecasting to the Operating Cadence; when a forecast signal fires
 | `references/pipeline-analytics-views.md` | Building forecast-accuracy dashboards/views | Waterfall, forecast-vs-actuals, at-risk, health-snapshot schemas |
 | `references/forecasting-revenue-types.md` | Forecasting new business / expansion / renewal | Method, coverage, and signals per revenue type |
 | `references/dashboard-architecture.md` | Pipeline visibility & reporting buildout | Visibility stack, per-audience dashboards, hygiene, quality score, intelligence signals, reports checklist |
-| `references/norton-framework.md` | Variance-as-system-signal or capacity-based forecasting | Norton/Canaani framework, QVP triangle, capacity model |
+| `references/forecast-variance-and-capacity.md` | Variance-as-system-signal or capacity-based forecasting | Variance-as-signal framework, QVP triangle, capacity model |
 | `references/forecast-breach-rules.md` | Wiring forecasting into the operating cadence | Breach-rules table, 4-severity escalation, generation rules, forecast tile config |
 
 ---
@@ -258,7 +258,5 @@ Build a forecasting worksheet with 4 sheets: Assumptions (base metrics like win 
 The Renewals tab is especially useful for CS operations; it models the renewal cohort with churn rates and expansion tracking.
 
 Use in: Forecasting methodology buildout, board preparation, operating cadence design.
-
-Attribution: Concepts adapted from Pavilion CRO School methodology.
 
 > Built by [Neon Triforce](https://neontriforce.com)

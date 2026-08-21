@@ -434,15 +434,15 @@ Every meeting in the cadence should have a clear decision owner:
 **Coaching Integration.**
 Coaching doesn't happen separately; it happens during reviews. Pipeline review equals coaching moment. Forecast review equals strategic coaching moment. The cadence is the coaching system.
 
-### Discipline as AI Prerequisite (Jeremy Donovan, E61)
+### Discipline as AI Prerequisite
 
 The #1 differentiator between top performers and average performers using AI is NOT which tools they use. It's operating discipline.
 
 **Key finding:** Top vs. average performers adopt the same AI use cases in roughly the same order. Same tools, same use cases; the difference is operating discipline.
 
-**Donovan's one-play doctrine:** "If I could only run one play: incredibly disciplined weekly deal reviews." (The Revenue Leadership Podcast E61, January 2026)
+**The one-play doctrine:** if you could only run one play, run incredibly disciplined weekly deal reviews.
 
-**CRO screening insight:** Donovan, EVP Sales + CS at Insight Partners, screens CRO candidates for 500 B2B SaaS portfolio companies. #1 factor he looks for: operating rhythm. He back-channels former teams to find out what it was actually like to work for that person.
+**CRO screening insight:** investors who screen CRO candidates across hundreds of portfolio companies put operating rhythm first, and back-channel former teams to find out what it was actually like to work for that person.
 
 **Research backing:** K. Anders Ericsson's work on deliberate practice shows feedback-rich environments with tight iteration loops produce mastery faster than anything else. AI amplifies the feedback loop. But you need the loop first.
 
@@ -450,9 +450,7 @@ The #1 differentiator between top performers and average performers using AI is 
 
 **Diagnostic implication:** If your weekly deal reviews aren't disciplined, no AI tool will fix your forecast accuracy. Fix the cadence before investing in AI.
 
-**Source:** https://www.therevenueleadershippodcast.com/p/gtm-strategy-5-insights-from-500
-
-### The Predictability Playbook (Aviv Canaani, E64)
+### The Predictability Playbook
 
 A starting template for leaders who want to build predictable revenue operations.
 
@@ -462,7 +460,7 @@ A starting template for leaders who want to build predictable revenue operations
 3. RevOps owns instrumentation
 4. Sales knows exactly how many meetings they're getting this quarter and what they need to convert
 
-**Canaani's evidence from Datarails (Owner.com podcast E64, March 2026):**
+**Evidence (The Revenue Leadership Podcast E64, March 2026):**
 - Sales cycle modeled and disciplined: 30-45 days
 - Every stage conversion rate tracked and used for planning
 - CRO approach: build the model bottom-up from actual productivity, not top-down from board targets

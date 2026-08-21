@@ -1,10 +1,10 @@
-# Norton Framework. Composability Maturity and Sophistication Ladder Detail
+# Composability Maturity and Sophistication Ladder Detail
 
 On-demand reference for the revops-tech-stack skill.
 
-Source: Kyle Norton, Revenue Leadership Podcast, Jan 2026. The Norton composability principle lives in SKILL.md; this file holds the full maturity levels, sophistication ladder, and the centralized AI model detail.
+The composability principle lives in SKILL.md; this file holds the full maturity levels, sophistication ladder, and the centralized AI model detail.
 
-## Sales Engagement Platform Composability (Norton Model)
+## Sales Engagement Platform Composability
 
 Most sales engagement platforms are slapping AI into existing products and building closed ecosystems.
 
@@ -43,9 +43,9 @@ As tools proliferate, orchestration becomes the competitive advantage.
 
 **Key Insight.** Decentralized model (reps managing own AI tools) rarely gets past rung 2. Rungs 4 through 5 require infrastructure a single rep can't build.
 
-**Centralized AI Model (Norton/Owner.com):**
+**Centralized AI Model:**
 - Small team of experts owns AI transformation across the entire customer journey
 - Build, test, and deploy capabilities from the center out
 - Reps don't manage agents or run their own tools
-- Owner.com: multiple high-value AI implementations in production (practice-based)
+- Result: multiple high-value AI implementations in production (practice-based)
 - Example: 2-week build → BDR decision-maker connects up 85%

@@ -2,9 +2,9 @@
 
 On-demand reference for the sales-methodology skill.
 
-## The AI-Augmented Sales Day (Kyle Norton / Owner.com)
+## The AI-Augmented Sales Day
 
-Kyle Norton runs a 100+ AI-infused sales team at Owner.com. His framework for what a rep's day looks like when AI is properly embedded:
+What a rep's day looks like on a 100+ seat sales team with AI properly embedded:
 
 **Morning (automated by AI):**
 - Pre-call research: AI prepares briefing packs for every scheduled meeting (company context, contact history, recent signals, recommended talk points)
@@ -25,11 +25,11 @@ Kyle Norton runs a 100+ AI-infused sales team at Owner.com. His framework for wh
 
 **Bridge to SPICED:** the AI handles data collection and preparation. The rep brings SPICED qualification skill, judgement, and human connection. AI can score deals on SPICED dimensions, but the rep runs the discovery.
 
-Source: SaaStr AI Agent Playbook, Kyle Norton / Owner.com case study
+Source: SaaStr AI Agent Playbook (2025-2026)
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton / Aviv Canaani, Revenue Leadership Podcast, 2026)
+## Framework Additions
 
 ### Methodology as Architecture vs. Craft
 
@@ -56,7 +56,7 @@ High SPICED thresholds reduce proposal churn. Use methodology to DISQUALIFY fast
 **Self-Reinforcing Methodology Adoption Loop:**
 Better qualification → faster velocity → better results → higher rep trust → more adoption → better qualification → (repeat)
 
-### "Show, Don't Demo" Methodology (Donnelly, E62)
+### "Show, Don't Demo" Methodology
 
 In low-trust, noisy AI markets, stop claiming and start proving.
 
@@ -77,7 +77,7 @@ In low-trust, noisy AI markets, stop claiming and start proving.
 
 **CRM tracking:** Add a field `custom_proof_delivered` (Yes/No/Date) to track whether the "show, don't demo" approach was used and its impact on win rate.
 
-### Cognitive Atrophy Warning for AI-Assisted Methodology (Donovan, E61)
+### Cognitive Atrophy Warning for AI-Assisted Methodology
 
 One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcripts. The tool worked perfectly. But the AEs stopped thinking critically about their deals. They became passive consumers of AI-generated qualification.
 
@@ -89,12 +89,12 @@ One CRO removed an AI tool that auto-extracted MEDDIC fields from call transcrip
 - Build "why do you agree/disagree?" prompts into the workflow
 - Track override frequency; too few overrides means reps aren't thinking
 
-### The Anti-Prospecting Thesis (Canaani, E64)
+### The Anti-Prospecting Thesis
 
 **The myth:** "You're not a real AE if you don't prospect."
 
 **The reality:**
-- 80-90% of closed revenue comes from inbound (Canaani's data)
+- 80-90% of closed revenue comes from inbound (The Revenue Leadership Podcast E64, 2026)
 - Salesforce State of Sales: reps spend only 28% of their week actually selling
 - Paying $250-300K OTE for prospecting = failure of resource allocation
 

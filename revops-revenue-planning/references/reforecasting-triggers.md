@@ -180,4 +180,4 @@ A reforecasting trigger is a data-driven signal that business conditions have ch
 
 ---
 
-**Attribution:** Fincome (trigger-based reforecasting best practices, 2025), ORM Technologies (forecast accuracy variance thresholds), RevOps benchmarks consensus (unit-economics triggers), Ebsta 2025 GTM Benchmarks Report (NRR, pipeline coverage thresholds), revenue forecasting best practices (2025-2026).
+**Sources:** Ebsta 2025 GTM Benchmarks Report (NRR, pipeline coverage thresholds); ORM Technologies (forecast accuracy variance thresholds). Trigger design and unit-economics triggers are practice-based defaults.

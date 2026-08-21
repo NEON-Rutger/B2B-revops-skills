@@ -562,4 +562,3 @@ Do not wait. Pick one question where you scored NO. Remediation takes 2-4 weeks.
 
 ---
 
-**Attribution:** FP&A Today podcast (Aaron Sallade, Michelle Govindsamy, Zachary Rial), RevOps Lab podcast #57 (Shantanu Shekhar), Pavilion CRO School, Atscale practitioner input (Louis Fumey, 2026).

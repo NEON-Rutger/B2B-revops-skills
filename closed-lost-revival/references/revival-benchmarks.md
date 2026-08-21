@@ -1,9 +1,5 @@
 # Revival Benchmarks: Provenance and How the Skill Uses Them
 
-## Skill lineage (MIT-licensed sources)
-
-The skill's lineage section names its sources inside this library: ariel-cohen/champion-move-detection (Lane B mover mechanics), alex-vacca/bridgebound-history-16 (reactivation trigger taxonomy), bojan-berisavljevic/signal-to-campaign (campaign compression), and Swan AI's publicly documented loss-categorization approach (August 2026). Gates, premise standard, opener doctrine, and NEXT-TOUCH discipline are the author's operating practice.
-
 Every number in the skill carries a source and a vintage. Win rates moved sharply between 2024 and 2025, so vintage is load-bearing; recalibrate against current-year data where you have it.
 
 ## Win rates and the size of the closed-lost pool

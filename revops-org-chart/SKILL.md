@@ -309,14 +309,5 @@ Head of RevOps / Business Automation
 See `references/sources.md` for full source summaries and URLs.
 See `references/operations.md` for: RevOps charter template, backlog triage framework, fractional/agency/in-house tradeoffs.
 
-Primary sources:
-- RevOps Co-op: evolutionary org chart model (4 stages, explicit Architect roles)
-- Revenue Wizards: seven-tier FTE breakdown by company size
-- Hyperscayle: maturity-level visual org chart (5 levels, GTM complexity lens)
-- Go Nimbly: three structural models comparison
-- Maxio: team structures by size with OpenAI Systems/Strategic split
-- Stage2 Capital: hiring sequencing and RevOps Co-op endorsement
-- Leanlayer: team size calculator with ratio benchmarks
-- Practice-based hiring guide: role structures at 4 team sizes (1-3 / 4-6 / 7-10 / 10+)
 
 > Built by [Neon Triforce](https://neontriforce.com)

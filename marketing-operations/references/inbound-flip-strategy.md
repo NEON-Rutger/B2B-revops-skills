@@ -1,15 +1,13 @@
-# Norton "Inbound Flip" Strategy
+# The "Inbound Flip" Strategy
 
 On-demand reference for the marketing-operations skill.
 
-Source: Aviv Canaani, Revenue Leadership Podcast, Mar 2026.
-
-## Inbound Flip Strategy (Canaani Model)
+## Inbound Flip Strategy
 
 How to engineer an inbound-dominant GTM motion that produces 4x revenue per AE.
 
 **The Flip Mechanics:**
-1. Start with paid campaigns across LinkedIn, Google, and counterintuitive channels (Facebook/Instagram for B2B worked for Datarails)
+1. Start with paid campaigns across LinkedIn, Google, and counterintuitive channels (Facebook/Instagram have worked for B2B teams that tested them)
 2. Build organic engine in parallel: niche podcast, social content, brand presence
 3. When inbound holds and outbound drops (as happened in 2022 downturn), lean into inbound
 4. Brand as air cover: makes even cold outreach warmer
@@ -28,12 +26,12 @@ Don't rank channels by volume or CAC alone. Rank by:
 4. Deal size by channel
 The channel that produces highest win rate at shortest cycle time with least AE effort = concentrate budget there.
 
-**Brand Protection as Architectural Choice (Canaani):**
+**Brand Protection as Architectural Choice:**
 - VP of Brand has no number: no MQL targets, no pipeline attribution
 - "I want brand to do crazy fun stuff. I don't want them to think about MQLs."
 - Protect the creative function from the metrics machine → long-term work that makes everything easier
 
-## Outbound Channel Destruction Data (Donovan, E61)
+## Outbound Channel Destruction Data
 
 For conversations about your channel mix strategy:
 

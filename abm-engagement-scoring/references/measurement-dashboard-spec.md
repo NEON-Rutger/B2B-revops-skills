@@ -470,14 +470,3 @@ opportunity                          sourced, created        monitor to close
 Pipeline attribution                 Opp closed (won/lost),  Calculate ROI;
 (post-close)                         matched to ABM account  report to exec
 ```
-
----
-
-## Source Attribution
-
-Dashboard architecture and metric definitions adapted from:
-- 6sense Predictive Buyer Engagement Framework (2026)
-- Demandbase Dashboard and Reporting Best Practices (2024)
-- Forrester ABM Metrics and KPI Research (2026)
-- HubSpot ABM Measurement Guide (2025)
-- Practitioner implementation case studies (practice-based) (2025-2026)

@@ -74,7 +74,7 @@ All modern GTM data stacks follow this shape:
 └──────┘  └─────────┘
 ```
 
-This is 3rd Age data architecture (Brinker, 2026). The warehouse is the hub. Tools do NOT maintain copies. Tools query live (BI tools) or sync on-demand (reverse ETL for activation).
+This is third-age data architecture. The warehouse is the hub. Tools do NOT maintain copies. Tools query live (BI tools) or sync on-demand (reverse ETL for activation).
 
 ## Core Concepts (Defined for Operators)
 

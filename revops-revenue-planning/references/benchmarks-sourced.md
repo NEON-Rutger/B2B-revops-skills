@@ -48,9 +48,6 @@ Two classes of numbers, kept deliberately separate. **Part A** is sourced market
 - **Digital Bloom**, 2025 B2B SaaS Funnel Benchmarks; thedigitalbloom.com.
 - **Abacum** (abacum.ai), **Runway**, **MetricGen**: pipeline coverage guidance.
 - **Xactly**, 2026 State of Sales Compensation Report; xactlycorp.com (gated).
-- **Atscale** practitioner input: Louis Fumey, RevOps practice lead, 2026 (plan versioning and scenario ownership doctrine).
-- Podcast extractions: RevOps Lab episode 57 (Shantanu Shekhar, Personio); FP&A Today; Run Revenue Show (Clari). Frameworks only, no benchmark figures taken from audio.
-
 Removed at verification (2026-07-14), do not reintroduce without a checkable source: Clari Labs "87% of enterprises missed revenue targets"; all GrowthSpree figures (gated agency reports); Optifai sales cycle medians (source unreachable); "sales cycles lengthened 22% since 2022" (no attributable source).
 
 ---

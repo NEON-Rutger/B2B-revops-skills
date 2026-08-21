@@ -16,7 +16,7 @@ Two established change frameworks, applied to revenue operations. Kotter diagnos
 
 6. **Generate short-term wins.** Engineer a visible win inside the first 30 days. A cleaner forecast, a faster handoff, a deal saved. Publicize it. Momentum is a resource you spend and replenish.
 
-7. **Sustain acceleration.** Do not declare victory at the first win. Most RevOps changes revert inside 60 days because the team eased off after the launch. Keep the energy system running (see kyle-norton-frameworks.md).
+7. **Sustain acceleration.** Do not declare victory at the first win. Most RevOps changes revert inside 60 days because the team eased off after the launch. Keep the energy system running (see enablement-frameworks.md).
 
 8. **Institute change.** Bake the new behavior into the operating cadence, onboarding, and comp. A change is only institutional when a new hire learns it as "how we do things" without being told it was ever a change.
 

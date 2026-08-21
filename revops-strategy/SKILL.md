@@ -283,8 +283,6 @@ The bias should always be toward fewer, better-integrated tools with clear activ
 
 ## Advanced Patterns: Constraint-Based Thinking and Revenue Compounding
 
-*Source: insights adapted from The Revenue Leadership Podcast (Kyle Norton; 2026).*
-
 ### Constraint-Based Pipeline Optimization
 
 Revenue is a production system. The job is to find the ONE binding constraint that limits throughput.

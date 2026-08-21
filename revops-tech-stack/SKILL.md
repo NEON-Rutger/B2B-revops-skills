@@ -262,14 +262,14 @@ Before recommending any AI tool, validate:
 
 For the full AI use case catalog with detailed requirements and KPIs per use case, see `references/gtm-ai-catalog.md`.
 
-### The 90/10 Rule for AI Tool Investment (SaaStr / Kyle Norton)
+### The 90/10 Rule for AI Tool Investment
 
 Buy 90% of your AI stack. Only build the 10% where ALL three conditions are true:
 1. No vendor can do it well enough
 2. It's a P1 priority for the business
 3. It requires specific internal data or control that can't be outsourced
 
-Kyle Norton (Owner.com, 100+ AI-infused sales team) follows this rule. SaaStr follows it too. They run 20+ agents, almost all from commercial vendors.
+A 20-agent stack that follows this rule buys almost every agent from commercial vendors and builds only where it differentiates.
 
 **When to build (the 10%):**
 - Proprietary data models that use internal signals no vendor has access to
@@ -283,8 +283,6 @@ Kyle Norton (Owner.com, 100+ AI-infused sales team) follows this rule. SaaStr fo
 - Meeting scheduling and routing (Chili Piper, Default)
 - CRM automation and scoring (native HubSpot/Salesforce AI, Salesforce Agentforce)
 - GTM AI revenue intelligence (Clari, Aviso with native Claude/GPT integration)
-
-Source: SaaStr AI Agent Playbook, Part 13; Kyle Norton (Owner.com)
 
 ## Tool Evaluation Framework
 
@@ -330,9 +328,7 @@ The best AI vendors do 80% of the heavy lifting in the first 30-60 days. When ev
 - "It's easy, you can set it up in an afternoon"
 - No named person responsible for your success in the first quarter
 
-SaaStr's rule: if the vendor won't put skin in the game during onboarding, they don't believe their own product works out of the box. Because it doesn't. AI tools require configuration, training data, and iteration.
-
-Source: SaaStr AI Agent Playbook, Part 10
+The rule: if the vendor won't put skin in the game during onboarding, they don't believe their own product works out of the box. Because it doesn't. AI tools require configuration, training data, and iteration.
 
 ### Vendor AI Integration Trend (2026)
 
@@ -342,7 +338,7 @@ Revenue intelligence vendors (Clari, Aviso) have integrated Claude and GPT nativ
 
 Running 20+ AI agents is not orchestrated. It's duct tape.
 
-SaaStr's honest assessment of their 20-agent stack:
+One published 20-agent stack, honestly assessed:
 - Webhooks everywhere
 - Zapier as "MCP light" for inter-agent communication
 - No native orchestration platform that actually works
@@ -361,8 +357,6 @@ SaaStr's honest assessment of their 20-agent stack:
 2. Zapier/Make/n8n as the middleware layer (triggers, data routing)
 3. Individual agents operate in defined lanes (one motion per agent)
 4. Human reviews cross-agent decisions (agents don't overrule each other)
-
-Source: SaaStr AI Agent Playbook, Part 13
 
 ## Stack Audit Process
 
@@ -396,13 +390,13 @@ Source: SaaStr AI Agent Playbook, Part 13
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton, Revenue Leadership Podcast, Jan 2026)
+## Framework Additions
 
-### Sales Engagement Platform Composability & AI Orchestration (Norton Model)
+### Sales Engagement Platform Composability & AI Orchestration
 
 Most sales engagement platforms are slapping AI into closed ecosystems. Revenue leaders need the opposite: composability, an open API ecosystem, control over how the product works, bring-your-own-model with no token constraints, and the ability to build on top of tools rather than be trapped by them. This is the "Shopify model" for sales tech (simple out of the box, endlessly customizable, developer-centric). As tools proliferate, orchestration becomes the competitive advantage, and the centralized AI model (a small expert team owning AI transformation from the center out) outperforms reps managing their own tools.
 
-For the full Composability Maturity Levels (1 Monolithic → 5 AI-Native), the AI Sophistication Ladder (basic chat → full applications), evaluation questions, and the Norton/Owner.com centralized AI model detail, see `references/norton-framework-composability-detail.md`.
+For the full Composability Maturity Levels (1 Monolithic → 5 AI-Native), the AI Sophistication Ladder (basic chat → full applications), evaluation questions, and the centralized AI model detail, see `references/composability-maturity-detail.md`.
 
 ### Technical RevOps Competencies for Composable Stacks
 
@@ -447,7 +441,7 @@ RevOps needs to get more technical. You need people who can do more themselves r
 
 ---
 
-## Composable MarTech Architecture (Brinker/Databricks, March 2026)
+## Composable MarTech Architecture
 
 When assessing your tech stack, evaluate it against the Composable Canvas framework. This is the emerging architectural model for the "3rd Age of MarTech."
 
@@ -477,7 +471,7 @@ Use as a capability audit lens:
 
 ### Composability Decision Filter
 
-For every vendor evaluation or build-vs-buy decision, apply these four tests (Brinker, 2026):
+For every vendor evaluation or build-vs-buy decision, apply these four tests:
 
 1. **Openness:** Does it use open standards, open data formats, open APIs? Or does it create proprietary lock-in?
 2. **Adjacency:** Can it operate close to the data, or does it require moving/copying data elsewhere?
@@ -491,7 +485,7 @@ Beyond the 15,000+ commercial martech products, companies increasingly build cus
 - **Citizen-developed applications**. Marketing ops building custom dashboards, calculators, automations
 - **Agent-generated software**. AI creates code on-the-fly to accomplish specific tasks, then discards it
 
-"Your competitors can buy the same products you can. Custom software captures what makes your company unique." (Brinker, 2026). When evaluating build-vs-buy decisions, frame custom development as a differentiation investment, not just a cost center.
+Your competitors can buy the same products you can; custom software is where what makes your company unique gets captured. When evaluating build-vs-buy decisions, frame custom development as a differentiation investment, not just a cost center.
 
 
 
@@ -526,7 +520,7 @@ For the full vendor/pricing matrix (US and EU, buy and build), the compliance de
 | `references/capability-catalog-reference.md` | Designing/auditing the Intelligence or Automation layer | Per-capability detail (capability, value, ARR/headcount triggers, architecture rule, tool choices) for conversation intelligence, intent/enrichment, CS platform, revenue intelligence, iPaaS, document/CPQ, data ops |
 | `references/stack-by-stage-reference.md` | Sizing a stack to company stage | Full Startup / Scale-up / Growth tool lists, tool counts, budget ranges |
 | `references/tool-evaluation-rubric.md` | Scoring a specific tool purchase | Weighted scoring dimensions (Capability Fit 40 / Integration 25 / TCO 20 / Vendor Viability 15) with questions |
-| `references/norton-framework-composability-detail.md` | Assessing composability/orchestration maturity | Composability Maturity Levels (1-5), AI Sophistication Ladder, evaluation questions, Norton/Owner.com centralized AI model |
+| `references/composability-maturity-detail.md` | Assessing composability/orchestration maturity | Composability Maturity Levels (1-5), AI Sophistication Ladder, evaluation questions, centralized AI model |
 | `references/ai-knowledge-stack-vendor-matrix.md` | Recommending a knowledge/RAG stack | Full US & EU vendor/pricing matrix (buy & build), compliance decision tree, dual stage recommendations, vendor review summary |
 | `references/ai-knowledge-stack-reference.md` | Quick knowledge-stack lookup | Condensed AI knowledge stack reference |
 | `references/gtm-ai-catalog.md` | Full AI use-case catalog by bowtie stage | Detailed requirements and KPIs per use case |

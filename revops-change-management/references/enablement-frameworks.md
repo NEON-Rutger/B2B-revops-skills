@@ -1,6 +1,6 @@
-# Kyle Norton's Enablement Frameworks
+# Enablement Frameworks
 
-Source: Kyle Norton, CRO at Owner.com, Revenue Leadership Podcast, 2026. Eight frameworks that together form a complete enablement architecture, plus the full coaching methodology. The slim SKILL.md keeps the summaries; this file holds the operational detail.
+Eight frameworks that together form a complete enablement architecture, plus the full coaching methodology. The slim SKILL.md keeps the summaries; this file holds the operational detail.
 
 ## The eight frameworks
 
@@ -26,7 +26,7 @@ Before coaching anything, find the single biggest bottleneck that, if improved, 
 Adoption does not coast on willpower. It needs sustained organizational energy: daily scores visible to reps, constant conversation about the one thing, public tracking of progress. Design the energy system, not just the content: visible scoreboards, daily standups referencing the one thing, a dedicated channel, manager 1:1s structured around it, public recognition. If the organization is not talking about it daily, the change is already dying.
 
 ### 5. Data-Led Diagnosis as Discipline
-Deconstruct the entire funnel monthly, not because something is broken, but as a standing discipline. Norton's team found a 15M-dollar win-rate opportunity through proactive diagnosis when win rates were already a healthy 38 percent. Build a monthly diagnosis rhythm into the operating cadence before anything breaks. The best coaching targets come from data, not intuition.
+Deconstruct the entire funnel monthly, not because something is broken, but as a standing discipline. Proactive diagnosis has surfaced eight-figure win-rate opportunities in funnels whose win rates already sat at a healthy 38 percent. Build a monthly diagnosis rhythm into the operating cadence before anything breaks. The best coaching targets come from data, not intuition.
 
 ### 6. Systems Shift Narrative
 Change management is not just implementing a new process. It is shifting which self-reinforcing loop the system runs on.

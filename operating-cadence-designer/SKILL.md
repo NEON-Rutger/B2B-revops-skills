@@ -411,7 +411,7 @@ Board deck structure (8-10 slides): Executive Summary + Asks -> Revenue Performa
 | **Cadence without accountability** | Actions slip | Name the owner. Publish the due date. Review at next meeting. |
 | **Activity data not validated** | Everything above pyramid is garbage | Monthly CRM audit: who's logging? Are stage changes real? |
 
-### Norton Framework Additions (Kyle Norton, Revenue Leadership Podcast)
+### Framework Additions
 
 **Closed-Loop Feedback System**
 Upward Flow: Activity -> Team Metrics -> Leadership Review -> Board.
@@ -420,10 +420,10 @@ Downward Flow: Board decisions -> Strategy adjustments -> Manager coaching prior
 Decision authority: Daily (rep self-manages) -> Weekly pipeline (manager) -> Weekly forecast (director) -> Monthly (VP) -> Quarterly (CRO/Board). Coaching doesn't happen separately; it happens DURING reviews. The cadence IS the coaching system.
 
 **Discipline as AI Prerequisite**
-The #1 differentiator between top performers and average performers using AI is NOT which tools they use. It's operating discipline. Jeremy Donovan (Insight Partners) on The Revenue Leadership Podcast, E61: "If I could only run one play: incredibly disciplined weekly deal reviews." Before any AI investment conversation, ask: "How tight is your operating rhythm?" (The Revenue Leadership Podcast, Kyle Norton; Episode 61, "GTM Strategy: 5 Insights from 500 B2B SaaS Orgs"; January 30, 2026).
+The #1 differentiator between top performers and average performers using AI is NOT which tools they use. It's operating discipline. If you could only run one play, run incredibly disciplined weekly deal reviews. Before any AI investment conversation, ask: "How tight is your operating rhythm?".
 
 **The Predictability Playbook**
-Prerequisites: Directors/VPs must build predictable models with conversion rates, capacity constraints, and cost per output. Growth owns top-of-funnel math. RevOps owns instrumentation. Sales knows exactly how many meetings they're getting and what they need to convert. Aviv Canaani (Datarails CRO) on The Revenue Leadership Podcast, E64: "The real productivity is what matters." (The Revenue Leadership Podcast, Kyle Norton; Episode 64, "My Team Drives 4x Revenue Per AE vs Competitors"; March 4, 2026).
+Prerequisites: Directors/VPs must build predictable models with conversion rates, capacity constraints, and cost per output. Growth owns top-of-funnel math. RevOps owns instrumentation. Sales knows exactly how many meetings they're getting and what they need to convert. Real productivity is what matters, not the quota..
 
 **Operating Rhythm Assessment**
 

@@ -435,15 +435,3 @@ Platforms like 6sense, Demandbase, and RollWorks include built-in buying group d
 
 **Issue: "We tried to contact a role but the person refused to engage."**
 - Action: They may not be the right person in that role. Try another contact in the same role. Or, they may have delegated. Ask the refusing contact: "Is there someone on your team who is more involved in this evaluation?" You have not found the right Economic Buyer yet.
-
----
-
-## Source Attribution
-
-Buying group mapping framework adapted from:
-- MEDDIC Champion Definition (Atlassian, 2025)
-- The Starr Conspiracy B2B Buying Committee Benchmarks (2024)
-- Gartner B2B Buying Research (2023-2025)
-- Forrester Buying Groups Research (2026)
-- Demandbase Multi-Touch Buying Group Attribution (2024)
-- Practitioner case studies from ABM engagements (practice-based) (2025-2026)

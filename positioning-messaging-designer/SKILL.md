@@ -153,7 +153,7 @@ Positioning is not validated by opinion. Test it against real market signals:
 
 **Immediate signals (Week 1-2):**
 - BDR call-opening rate: Do prospects engage when the new positioning is used? Track by message version.
-- Sales call discovery time: How quickly do prospects "get it"? Target: under 3 minutes to clear understanding (Donnelly diagnostic). Longer discovery time signals positioning needs tightening.
+- Sales call discovery time: How quickly do prospects "get it"? Target: under 3 minutes to clear understanding. Longer discovery time signals positioning needs tightening.
 - Win/loss analysis: Are you winning against the right competitors? Positioning should make your competitive set clear.
 
 **Medium-term signals (Month 1-3):**
@@ -257,13 +257,11 @@ For the weekly GTM sequence (Tuesday/Wednesday/Thursday workflow), read `referen
 
 ---
 
-## Norton Framework Additions (Source: The Revenue Leadership Podcast with Kyle Norton, E62, Feb 4 2026)
+## Framework Additions
 
-**Full citation:** Michelle Donnelly (CRO, Crescendo). "CRO Life: from a $20B Exit, to a Hyper-Growth AI Org." The Revenue Leadership Podcast with Kyle Norton, Episode 62, February 4 2026. https://www.therevenueleadershippodcast.com/p/cro-life-from-a-20b-exit-to-a-hyper
+### Radical Clarity in Noisy Markets
 
-### Radical Clarity in Noisy Markets (Donnelly, E62)
-
-**The 30-Second Clarity Test:** "If you can't understand who we are in 30 seconds, we have hashtag failed." Use this as a validation gate before finalizing any positioning work.
+**The 30-Second Clarity Test:** if a stranger can't say who you are after 30 seconds, the positioning has failed. Use this as a validation gate before finalizing any positioning work.
 
 **How to apply:**
 1. Read the positioning line to someone unfamiliar with the company
@@ -272,17 +270,17 @@ For the weekly GTM sequence (Tuesday/Wednesday/Thursday workflow), read `referen
 4. If they can → test with 5 more people to confirm
 
 **Time-to-aha as diagnostic metric:**
-- Crescendo's previous state: 20 minutes for customers to get the aha moment
+- Before-state to diagnose: 20 minutes for customers to get the aha moment
 - Target: much faster (ideally within 30 seconds of reading/hearing the positioning)
 - Track this during sales calls: how long before the prospect "gets it"?
 
-### Iterative Refinement Process (Donnelly, E62)
+### Iterative Refinement Process
 
-Positioning is not a one-shot exercise. Crescendo went through five pitch decks in six months.
+Positioning is not a one-shot exercise. Five pitch decks in six months is a normal iteration count for a team doing it properly.
 
 **Validation velocity:**
 - Test messaging with BDRs doing 400 calls/day = real-world message validation at speed
-- Run past existing customers (Crescendo learned their pricing was too complex from customer feedback)
+- Run past existing customers (pricing complexity is the classic thing they surface first)
 - Outside consultants (mixed results: internal iteration often more effective)
 - Real-time positioning workshops with the sales team
 
@@ -292,7 +290,7 @@ Positioning is not a one-shot exercise. Crescendo went through five pitch decks 
 3. Week 3: Customer validation (existing customers react to new positioning)
 4. Week 4: Iterate and lock: or start another cycle
 
-### Three-Priority Clarity (Donnelly, E62)
+### Three-Priority Clarity
 
 An organizational messaging clarity test: can everyone in the org repeat the three things they're doing this quarter?
 

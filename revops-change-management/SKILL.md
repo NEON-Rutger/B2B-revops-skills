@@ -22,7 +22,7 @@ Your philosophy: RevOps changes fail not because the strategy is wrong, but beca
 
 **The identity shift you're designing for:** from "we trained them" to "we changed how they operate."
 
-**Primary sources:** Kyle Norton, CRO at Owner.com (GTM Science Podcast, February 2026; Coaching Mastery article, October 2024; Frontline Revenue Leadership Framework, April 2025). Supporting: Kotter (8-Step Model, 1996), Prosci ADKAR (originated 2003), and seven foundational books on behavior change and coaching.
+**Foundations:** Kotter's 8-Step Model (1996) and Prosci ADKAR (2003) for the change spine, plus the behavior-change and coaching literature for the enablement layer.
 
 ## Skill Architecture
 
@@ -77,7 +77,7 @@ Map stakeholders by influence and impact, then design your approach for each gro
 
 Communication is not a single announcement. It's an architecture designed in two layers:
 
-**Layer 1: Traffic Light Classification (from Kyle Norton)**
+**Layer 1: Traffic Light Classification**
 
 Classify every change by impact before designing communication:
 
@@ -129,7 +129,7 @@ Before launching any change, score five factors (1-5 each): Leadership Alignment
 
 Part 1 designs the change. Part 2 makes it permanent. This is where most organizations fail; they plan well but treat enablement as a training event instead of a behavior change program.
 
-**Primary source:** Kyle Norton, CRO at Owner.com. Eight frameworks that form a complete enablement architecture. Read `references/kyle-norton-frameworks.md` for full operational detail on each.
+Eight frameworks form a complete enablement architecture. Read `references/enablement-frameworks.md` for full operational detail on each.
 
 ### One Variable at a Time (Change Philosophy)
 
@@ -169,7 +169,7 @@ Start with data. Pick one area. Go deep. Resist the temptation to layer on addit
 4. **From a place of caring:** coaching works only when reps believe the coach wants them to win
 5. **Great follow-up:** account for the forgetting curve. Reinforcement is not optional.
 
-Read `references/kyle-norton-frameworks.md` for the full coaching methodology including session structure, questioning sequences, and deep practice design.
+Read `references/enablement-frameworks.md` for the full coaching methodology including session structure, questioning sequences, and deep practice design.
 
 ### Organizational Energy as Infrastructure
 
@@ -252,9 +252,9 @@ The identity shift: from "we trained them" to "we changed how they operate." Whe
 
 ---
 
-## Norton Framework Additions (Source: Kyle Norton, Revenue Leadership Podcast, 2026)
+## Framework Additions
 
-### Systems Shift Narrative (Norton Framing)
+### Systems Shift Narrative
 
 Change management isn't just implementing a new process; it's shifting which self-reinforcing loop the system runs on.
 
@@ -401,7 +401,7 @@ For the complete playbook (every phase's activities, durations, success metrics,
 | `references/impact-analysis-templates.md` | Planning any revenue change | Five-dimension impact mapping exercise; behavioral system audit; ripple-effect identification |
 | `references/change-scenarios.md` | Running specific RevOps changes | Detailed playbooks for comp plans, CRM migrations, territory changes, methodology rollouts |
 | `references/kotter-adkar-detail.md` | Diagnosing where change is stuck | Kotter's 8-step organizational model + ADKAR individual-level framework; change readiness assessment |
-| `references/kyle-norton-frameworks.md` | Designing enablement that sticks | Eight frameworks: Traffic Light classification, Reverse Salient, Coaching Mastery, Organizational Energy, Data-Led Diagnosis, Systems Shift, Productivity Dip Communication, Path of Least Resistance |
+| `references/enablement-frameworks.md` | Designing enablement that sticks | Eight frameworks: Traffic Light classification, Reverse Salient, Coaching Mastery, Organizational Energy, Data-Led Diagnosis, Systems Shift, Productivity Dip Communication, Path of Least Resistance |
 | `references/book-integration-guide.md` | Weaving the seven foundational books into program design | Seven books mapped to enablement frameworks |
 | `references/ai-expectation-setting.md` | Setting leadership expectations before any AI agent deployment | Five myths-vs-reality table; SaaStr operator numbers ($500K stack to $2.4M closed-won) |
 | `references/shadow-ai-governance-sprint.md` | Discovering or governing unsanctioned AI tool use | Scale data; 4-week sprint (Discovery, Classification, Transition, Govern); four-tier tool classification |

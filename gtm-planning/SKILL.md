@@ -386,11 +386,9 @@ Payback Period:  CAC ÷ (ARR × Gross Margin) (Source: Drivetrain; Getaleph; Dat
 
 ---
 
-## Norton Framework Additions
+## Framework Additions
 
-(Source: Kyle Norton and Aviv Canaani on The Revenue Leadership Podcast; Canaani episode E64, March 4, 2026; https://www.therevenueleadershippodcast.com/p/my-team-drives-4x-revenue-per-ae)
-
-### Revenue Per AE Optimization (Norton/Canaani Model)
+### Revenue Per AE Optimization
 
 AE productivity is the variable that moves revenue; not headcount.
 
@@ -420,7 +418,7 @@ The model:
 5. High OTE attainment → becomes a recruiting weapon
 6. RepVue ranks companies on inbound lead flow; reps research this before accepting offers
 
-**Owner.com Proof Point** (Kyle Norton and Aviv Canaani, The Revenue Leadership Podcast E64 "My Team Drives 4x Revenue Per AE vs Competitors", March 4, 2026, https://www.therevenueleadershippodcast.com/p/my-team-drives-4x-revenue-per-ae):
+**Proof point** (The Revenue Leadership Podcast E64, March 2026):
 - Per-rep productivity: 3-4x competitors
 - OTE attainment: ~138%
 - ~80% reps hit target
@@ -428,17 +426,17 @@ The model:
 
 ### Talent Density Over Headcount
 
-(Source: Michelle Donnelly, The Revenue Leadership Podcast E62 "CRO Life: from a $20B Exit, to a Hyper-Growth AI Org", February 4, 2026, https://www.therevenueleadershippodcast.com/p/cro-life-from-a-20b-exit-to-a-hyper)
+(The Revenue Leadership Podcast E62, February 2026)
 
 Reed Hastings/Netflix principle: after dot-com layoffs, remaining employees became more engaged and productive. Small team of high performers outperforms larger team of average hires.
 
-**McKinsey productivity data** (as discussed by Michelle Donnelly on The Revenue Leadership Podcast E62, February 4, 2026):
+**McKinsey productivity data** (via The Revenue Leadership Podcast E62, February 2026):
 - High performers: 400% more productive than average
 - In complex roles (software dev, enterprise sales): 800% more productive
 - Netflix benchmark: ~$3M revenue per employee; 2x Google, 10x Disney
 
 **Three dimensions of talent density:**
-1. **Hiring grinders with proven resilience**: Donnelly hires athletes (crew, swimming, sports that "just suck")
+1. **Hiring grinders with proven resilience**: hire former competitive athletes (crew, swimming, sports that "just suck")
 2. **Clear focus**: three priorities maximum, not five. Everyone in the org can repeat on a call what the three things are this quarter.
 3. **AI to compress ramp time**: not reduce headcount, but accelerate new hire productivity
 
@@ -446,12 +444,12 @@ Reed Hastings/Netflix principle: after dot-com layoffs, remaining employees beca
 
 ### Ramp Compression with AI
 
-(Source: Michelle Donnelly, The Revenue Leadership Podcast E62 "CRO Life: from a $20B Exit, to a Hyper-Growth AI Org", February 4, 2026)
+(The Revenue Leadership Podcast E62, February 2026)
 
 **Industry baseline:** 11.2 months to full rep productivity (Sales Management Association)
 
-**Donnelly's target:** 5 months → 3 months using AI-assisted onboarding:
-- AI assistant (Crescendo's Harmony) for competitor intel, lookalike customers, full knowledge base
+**Target:** 5 months → 3 months using AI-assisted onboarding:
+- AI assistant for competitor intel, lookalike customers, full knowledge base
 - New reps query the AI instead of waiting for tribal knowledge transfer
 - Ramp compression accelerates the talent density advantage
 
@@ -472,7 +470,7 @@ Modern AI sales platforms are reshaping team structure and territory models. Key
 
 ### Role Redesign for the AI Era
 
-(Source: Jeremy Donovan, The Revenue Leadership Podcast E61 "GTM Strategy: 5 Insights from 500 B2B SaaS Orgs", January 30, 2026, https://www.therevenueleadershippodcast.com/p/gtm-strategy-5-insights-from-500)
+(The Revenue Leadership Podcast E61, January 2026)
 
 The bigger productivity unlock is rethinking role structure, not optimizing existing roles.
 
@@ -493,7 +491,7 @@ The bigger productivity unlock is rethinking role structure, not optimizing exis
 
 ### Quota Attainment Benchmarks
 
-(Source: Aviv Canaani, The Revenue Leadership Podcast E64 "My Team Drives 4x Revenue Per AE vs Competitors", March 4, 2026)
+(The Revenue Leadership Podcast E64, March 2026)
 
 Industry data that reframes quota-setting as a system problem:
 
@@ -503,7 +501,7 @@ Industry data that reframes quota-setting as a system problem:
 | Bridge Group SaaS AE Metrics Report | Reps hitting quota | ~58% |
 | Locke & Latham Goal-Setting Theory | Threshold | Goals beyond ability → disengagement |
 
-**Reframe:** When only 43% of reps hit quota, that's not a performance problem; it's a target-setting problem. Productivity-first quota setting (in the Norton Framework section above) is the corrective.
+**Reframe:** When only 43% of reps hit quota, that's not a performance problem; it's a target-setting problem. Productivity-first quota setting (in the Framework Additions section above) is the corrective.
 
 
 ## How to Use This Skill
