@@ -17,8 +17,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   rule, enrich including the website-quality signal, score before activation, select
   tiers against capacity, activate known-fit only, validate via cycle times, quarterly
   keep-alive). New validation red flags: CRM-only evidence base as survivorship bias,
-  and the score-0-100-or-it's-an-opinion test on CRM operationalization. Skill
-  description and reference index updated to match.
+  and the score-0-100-or-it's-an-opinion test on CRM operationalization. New
+  "What good looks like" section; technographic example made vendor-free; gate
+  layer refers to SPICED generically. Skill description and reference index
+  updated to match.
 
 ---
 
