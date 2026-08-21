@@ -84,6 +84,7 @@ The **GAP Method** is a structured 3-phase process for ICP creation:
    - Firmographic: company size, revenue, funding, hiring
    - Technographic: software stack, cloud adoption, legacy systems
    - Intent signals: website visitor behavior, job postings, news mentions
+   - Website quality: does the company run a real, maintained website? Site depth and freshness predict buying behavior; a company with a real site behaves differently from one without. Free signal, widely ignored.
    - Source: Clearbit, ZoomInfo, Apollo, 6sense, etc.
 
 4. **Conversation Data**
@@ -127,13 +128,44 @@ A firmographic + technographic + behavioral criteria list.
 #### Output 2: SPICED Tiers
 Categorize ICPs into fit tiers:
 
-| Tier | Definition | Sales Effort | Win Rate | Example |
-|---|---|---|---|---|
-| **T1: Perfect Fit** | Hits all ICP criteria; high SPICED match | Low | 60-80% | Mid-market SaaS, multi-cloud, growth-stage |
-| **T2: Good Fit** | Hits 70% of ICP criteria; some SPICED variance | Medium | 30-50% | Enterprise SaaS, single-cloud, slower-moving |
-| **T3: Opportunistic** | Hits 40-70% of ICP criteria; niche fit | High | 10-30% | SMB, specific vertical, high-touch champion |
+| Tier | Definition | Fit Score | Sales Effort | Win Rate | Example |
+|---|---|---|---|---|---|
+| **T1: Perfect Fit** | Hits all ICP criteria; high SPICED match | 80-100 | Low | 60-80% | Mid-market SaaS, multi-cloud, growth-stage |
+| **T2: Good Fit** | Hits most ICP criteria; some SPICED variance | 50-79 | Medium | 30-50% | Enterprise SaaS, single-cloud, slower-moving |
+| **T3: Opportunistic** | Partial criteria match; niche fit | Below 50 | High | 10-30% | SMB, specific vertical, high-touch champion |
 
-**Use:** Marketing targets T1 + T2; Sales uses T3 as "if we close one, great; don't chase."
+**Use:** Marketing targets T1 + T2; Sales uses T3 as "if we close one, great; don't chase." Tier assignment comes from the fit scoring model below, never from feel.
+
+#### Output 2a: The Fit Scoring Model (0-100)
+
+The test of an ICP is blunt: can you score any company 0-100 on fit, from data alone, without a meeting? If you can't, you have an opinion, not an ICP. Opinions get expensive: wrong-fit customers close at worse margins and then drag the roadmap toward requests your real ICP never asked for. Tiers assigned by feel drift with whoever assigned them; tiers assigned by a scored model can be audited, automated, and improved.
+
+Build the model in four steps:
+
+**1. Scorecard your best customers.** Take your top 20 accounts by behavior, not by logo size. Rate each 1-5 on five dimensions: revenue quality, sales velocity, time to impact, product depth (how much of the product they actually use), and ease of working together. Multiply the five ratings instead of averaging them: a 5/4/5/4/5 account scores 2,000 while a 4/3/4/3/4 account scores 576. Multiplication separates what averaging hides. Sort. The top 20% is your working definition of ideal; everything else in the model derives from it.
+
+**2. Extract 5-8 discriminating attributes.** Run the 8-dimension pattern analysis (Phase A) over that top 20% and keep only the attributes that separate them from the rest of your customer base. An attribute the whole market shares describes the market, not your ideal customer. Group the survivors under the three pillars: firmographic (who they are on paper), technographic (what they run), signals (what happened before they bought).
+
+**3. Weight out of 100.** Not every attribute matters equally. Example distribution:
+
+| Pillar | Attribute | Weight |
+|---|---|---|
+| Firmographic | Industry match | 25 |
+| Firmographic | Employee range | 15 |
+| Firmographic | Revenue range | 10 |
+| Firmographic | Geography | 5 |
+| Technographic | Tech stack match | 15 |
+| Technographic | Website / digital maturity | 5 |
+| Signals | Hiring in relevant roles | 10 |
+| Signals | Funding or growth event | 5 |
+| Signals | System or leadership change | 10 |
+
+The weights are hypotheses, tuned quarterly through the cycle-time validation below (Output 2b). Two rules:
+
+- **One weight model per segment.** An attribute that predicts buying in one segment can mean nothing in another: a review-site rating predicts behavior for an independent restaurant and says nothing about a PE-backed chain. Radically different customer types get separate weight sets, each validated against its own cycle times.
+- **Scoreable from data you can actually get.** Any criterion that needs a discovery call to evaluate belongs in the qualification-gate layer, not in the fit score. The fit score runs on enrichment data at list scale.
+
+**4. Band into tiers.** T1 = 80 and up, T2 = 50-79, T3 = below 50. The bands feed the tier table above and the CRM: store the score as a field next to `icp_tier` and let lead scoring read from it (Section 8).
 
 #### Output 2b: Tier Validation via Journey Cycle Times
 
@@ -465,6 +497,32 @@ When below $350K ARR, sell slightly smaller companies than you'd ideally want. W
 
 ---
 
+## 7.5. TAM List Production: From ICP to Working Market List
+
+A CRM is an archive of whoever already found you: inbound, referrals, the conference scan from three years ago. It is not the market. An ICP that only ever filters the CRM degenerates into a ranking of whoever showed up, and the scoring model never touches the companies that never contacted you. The TAM list is the inversion: every company in your universe that could match the ICP, enriched, scored, tiered, and maintained. Most "pipeline problems" diagnosed as volume problems (fill the funnel, book more meetings, raise activity) are list problems wearing a disguise.
+
+Seven steps, run as a standing loop:
+
+**1. Define the universe.** Industry, company size, geography. Stop there; everything else comes later from enrichment and scoring. Pick the source that matches where your buyers show up: buyers who sit behind a desk live in LinkedIn Sales Navigator; restaurants, contractors, and local businesses live in Google Maps, chamber-of-commerce registries, and trade directories. Rule of thumb: one well-chosen source covers roughly 60% of the universe, a second takes you to roughly 80%. Chasing the last 20% costs weeks for marginal names. Stop at 80 and move.
+
+**2. Enrich.** Company names without contact data are a directory, not a working list. Bulk-enrich emails, phone numbers, and domains (Apollo, Clay, Clearbit, Databar-class tools), then capture website quality (see Phase G): a company with a real, maintained site behaves differently from one without, and it costs nothing to check.
+
+**3. Score.** Apply the 0-100 fit model (Output 2a) to the whole list before anyone touches it. A big unscored list invites blasting, and blasting teaches you nothing except your unsubscribe rate.
+
+**4. Select tiers to activate.** Pick Tier 1 plus as much of Tier 2 as this quarter's actual campaign capacity can work. Focus beats coverage; the rest of the list is patient.
+
+**5. Activate known-fit only.** Whatever the channel mix (search, social, email, phone, direct mail), every unit of spend goes to companies you already know fit. Activation mechanics belong to the campaign and outbound skills; the list's job is to make sure they aim at scored targets.
+
+**6. Validate.** Per-tier journey cycle times (Output 2b). If Tier 1 does not move faster and retain better than Tier 2, fix the weights, not the list size.
+
+**7. Keep the list alive.** Quarterly, always running: re-enrich (emails bounce, people move), re-score on new signals (hiring, funding, system change), add newly founded or newly qualifying companies from feeds and directories, remove dead ones (closed, merged, inactive). A TAM list nobody refreshes converges back into a directory.
+
+**The funnel shape to expect:** a defined universe of, say, 100,000 companies typically enriches down to roughly 60,000 alive and reachable, scores down to a five-figure group above the floor, and yields a four-figure Tier 1 (illustrative shape, not a benchmark). If Tier 1 comes out at 40% of the universe, the model is describing the market instead of discriminating within it: go back to Output 2a step 2 and find sharper attributes.
+
+**The first step takes an hour, not a month:** pick one source and export every company in your geography matching industry and size. Don't enrich, don't score, just capture it. That raw export is TAM v1, and every later step operates on it.
+
+---
+
 ## 8. Platform Implementation: ICP in CRM & Automation
 
 Once you have defined your ICP, encode it operationally in your CRM and enable automation.
@@ -508,10 +566,12 @@ This reference is designed as a **before & after** to your SPICED ICP library:
 | "What's the quickest way to extract ICP from customers?" | Section 5: Customer Interview Pipeline |
 | "We're in Low Touch / Product-Led; how do we do ICP?" | Section 2: Motion-Specific Tactics |
 | "Are we targeting the right company size?" | Section 7: Goldilocks Zone |
+| "How do we score companies 0-100 on fit?" | Section 3, Phase P, Output 2a: Fit Scoring Model |
+| "How do we turn the ICP into a target list?" | Section 7.5: TAM List Production |
 | "We're saturating the current ICP; where do we expand?" | Section 6: Expansion Strategy |
 
 ---
 
-**Version:** 1.0
-**Last Updated:** 2026-03-06
+**Version:** 1.2
+**Last Updated:** 2026-08-21
 **Review Cadence:** Quarterly (after expansion trigger assessments)

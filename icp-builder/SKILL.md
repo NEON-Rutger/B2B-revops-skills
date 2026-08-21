@@ -9,10 +9,13 @@ description: >
   sell to,' 'segment our market,' 'ICP workshop,' 'customer interviews for
   ICP,' 'GAP method,' 'ICP expansion,' 'Goldilocks zone,' 'tier our
   customers,' 'A/B/C segmentation,' 'are we targeting the right customers,'
-  'segmentation check,' 'ICP review,' 'who are we actually selling to,' or
-  any situation where your ICP is missing, broken, or needs validation.
-  This skill covers the full ICP lifecycle: validate what exists, build from
-  scratch, refine with interviews, and plan expansion. BOUNDARY: For
+  'segmentation check,' 'ICP review,' 'who are we actually selling to,'
+  'score our accounts,' 'ICP scoring,' 'fit score,' 'TAM list,' 'target
+  list,' 'build our market list,' or any situation where your ICP is
+  missing, broken, or needs validation. This skill covers the full ICP
+  lifecycle: validate what exists, build from scratch, score every company
+  0-100 on fit, produce and maintain the TAM list, refine with interviews,
+  and plan expansion. BOUNDARY: For
   positioning/messaging (step AFTER ICP), see
   positioning-messaging-designer.
 status: stable
@@ -63,11 +66,11 @@ Score your ICP across seven dimensions. Each gets a rating: **Strong / Adequate 
 - 8-30: Real ICP emerging, motion-specific confidence varies
 - 30-50: Patterns validatable across segments
 - 50+: High-confidence, scalable ICP
-Red flag: ICP defined in a strategy offsite without customer input, never validated against win/loss data.
+Red flag: ICP defined in a strategy offsite without customer input, never validated against win/loss data. Second red flag: the evidence base is CRM-only. A CRM is an archive of whoever found you (inbound, referrals, event scans), not a sample of the market; an ICP derived purely from it inherits that survivorship bias.
 
 **Dimension 5: Segmentation & Motions** : ICP broken into segments with different GTM motions, buying processes, DMUs, value props, and success metrics. Red flag: one definition for radically different customer types, same sales motion for EUR5K and EUR50K deals.
 
-**Dimension 6: CRM Operationalization** : ICP criteria exist as filterable, reportable CRM fields. Lead scoring reflects ICP fit. Pipeline reports filterable by segment. Red flag: ICP lives in a slide deck but not in the CRM.
+**Dimension 6: CRM Operationalization** : ICP criteria exist as filterable, reportable CRM fields. Lead scoring reflects ICP fit. Pipeline reports filterable by segment. The blunt test: can the team score any company 0-100 on fit from data alone, without a meeting? If not, the ICP is an opinion, however well-documented. Red flag: ICP lives in a slide deck but not in the CRM; tiers assigned by feel.
 
 **Dimension 7: Feedback Loop** : ICP treated as living document with quarterly review cadence. Win/loss analysis by segment feeds back. CS health data informs definition. Red flag: defined once, never revisited.
 
@@ -151,10 +154,12 @@ Synthesize into 4 deliverables:
 
 **Output 1: ICP Definition**: Firmographic + technographic + behavioral criteria. Include exclusions (who is NOT ICP). Specific enough for a rep to say "yes" or "no" in 30 seconds.
 
-**Output 2: SPICED Tiers** : A/B/C segmentation:
-- **T1 (Perfect Fit):** All ICP criteria, high SPICED match. Win rate target: 60-80%.
-- **T2 (Good Fit):** 70% of criteria. Win rate target: 30-50%.
-- **T3 (Opportunistic):** 40-70%. Win rate target: 10-30%. Don't chase.
+**Output 2: SPICED Tiers** : A/B/C segmentation driven by the 0-100 fit scoring model (5-8 weighted attributes across the firmographic, technographic, and signal pillars; one weight set per segment). Tiers come from score bands, never from feel:
+- **T1 (Perfect Fit):** Score 80-100. All ICP criteria, high SPICED match. Win rate target: 60-80%.
+- **T2 (Good Fit):** Score 50-79. Most criteria. Win rate target: 30-50%.
+- **T3 (Opportunistic):** Score below 50. Win rate target: 10-30%. Don't chase.
+
+For the model build (best-customer scorecard, attribute extraction, weighting, banding), read `references/icp-building-reference.md` Section 3, Phase P, Output 2a. Validate tiers with journey cycle times (Output 2b) every quarter.
 
 **Output 3: Buyer Personas** : Role-level profiles with goals, pains, decision criteria, buying committee, proof needed. Tied to SPICED.
 
@@ -172,6 +177,12 @@ Before finalizing, validate ICP size matches your company's stage:
 - 100+ addressable targets? (Fewer = TAM too small)
 
 For the full Goldilocks framework, read `references/icp-building-reference.md` Section 7.
+
+### Step 6: Produce the TAM List
+
+An ICP that only ever filters inbound is an opinion about whoever showed up. Convert it into a working market list: define the universe (industry, size, geography) from the source that matches where your buyers show up, enrich in bulk (contact data plus the free website-quality signal), score every company 0-100, select tiers to activate against real campaign capacity, and keep the list alive quarterly (re-enrich, re-score on new signals, add new companies, remove dead ones).
+
+For the full seven-step loop and the funnel shape to expect, read `references/icp-building-reference.md` Section 7.5.
 
 ---
 
@@ -208,7 +219,7 @@ Hand off to `positioning-messaging-designer` to translate ICP insights into posi
 
 **ICP → Qualification Gates (pipeline enforcement)**
 
-Tiers say whether the account fits; gates say whether the deal is real. Once tiers exist, install the qualification-gate layer so the ICP governs pipeline movement instead of living in a slide (adapted from Douwe Wester's qualifying-system framework and Winning by Design's SPICED methodology). Gates, not fields: more CRM fields will not fix a forecast; minimum scores per stage will.
+Tiers say whether the account fits; gates say whether the deal is real. Once tiers exist, install the qualification-gate layer so the ICP governs pipeline movement instead of living in a slide (built on Winning by Design's SPICED methodology). Gates, not fields: more CRM fields will not fix a forecast; minimum scores per stage will.
 
 1. **Score evidence quality per SPICED letter, 1 to 5:** 1 Unknown (not asked), 2 Weak (surface mention), 3 Confirmed (said and logged), 4 Quantified (numbers behind it), 5 Validated (third party or system data). The scale grades evidence, not rep enthusiasm.
 2. **Set per-stage minimums, per letter and in total.** With six letters (total out of 30): Inbound to Discovery 7, Discovery to Demo 14, Demo to Proposal 19, Proposal to Commit 23. One letter under its gate and the deal does not move. No rounding up. Go back, ask again, qualify or kill.
@@ -229,7 +240,7 @@ Tiers say whether the account fits; gates say whether the deal is real. Once tie
 
 | File | When to read | What's inside |
 |------|-------------|---------------|
-| `references/icp-building-reference.md` | Always for Mode 2 : full methodology | GAP method, 8-dimension analysis, interview pipeline, expansion, Goldilocks zone, thresholds |
+| `references/icp-building-reference.md` | Always for Mode 2 : full methodology | GAP method, 8-dimension analysis, fit scoring model (0-100, Output 2a), cycle-time tier validation (Output 2b), interview pipeline, expansion, Goldilocks zone, TAM list production (Section 7.5), thresholds |
 
 ## Related Skills
 

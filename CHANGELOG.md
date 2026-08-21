@@ -6,6 +6,22 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.4.0], 2026-08-21
+
+### Changed
+- `icp-builder`: fit scoring model added as Output 2a (best-customer scorecard with
+  multiplied 1-5 ratings, 5-8 discriminating attributes across the three pillars,
+  weights out of 100 with per-segment weight sets, tier bands 80/50); tier table now
+  carries fit-score bands and feeds from the model, never from feel. New Section 7.5
+  TAM List Production: seven-step standing loop (define universe with source-coverage
+  rule, enrich including the website-quality signal, score before activation, select
+  tiers against capacity, activate known-fit only, validate via cycle times, quarterly
+  keep-alive). New validation red flags: CRM-only evidence base as survivorship bias,
+  and the score-0-100-or-it's-an-opinion test on CRM operationalization. Skill
+  description and reference index updated to match.
+
+---
+
 ## [v1.3.0], 2026-08-14
 
 ### Added
