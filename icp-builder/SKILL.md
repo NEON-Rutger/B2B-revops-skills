@@ -55,7 +55,7 @@ If you have no ICP at all, flag this immediately: that's the finding. Recommend 
 
 Score your ICP across seven dimensions. Each gets a rating: **Strong / Adequate / Weak / Missing.**
 
-**Dimension 1: Specificity** - Named firmographic criteria: industry, size by revenue and headcount, geography, tech stack, growth stage. Not "mid-market SaaS companies" but "B2B SaaS, EUR10-50M ARR, 100-500 employees, post-Series B, EU-based, using HubSpot or Salesforce." Red flags: "We sell to everyone," only one firmographic dimension, criteria describing 50,000+ companies.
+**Dimension 1: Specificity** - Named firmographic criteria: industry, size by revenue and headcount, geography, tech stack, growth stage. Not "mid-market SaaS companies" but "B2B SaaS, EUR10-50M ARR, 100-500 employees, post-Series B, EU-based, running a mid-market CRM and a subscription billing platform." Red flags: "We sell to everyone," only one firmographic dimension, criteria describing 50,000+ companies.
 
 **Dimension 2: Pain Clarity** - Specific problems in customer language, not vendor language. External problems (business issues), internal problems (how it feels), philosophical problems (why it feels wrong). Mapped by persona. Red flag: pain described as "they need better visibility" instead of "I can't answer simple revenue questions without pulling three spreadsheets."
 
@@ -225,6 +225,19 @@ Tiers say whether the account fits; gates say whether the deal is real. Once tie
 2. **Set per-stage minimums, per letter and in total.** With six letters (total out of 30): Inbound to Discovery 7, Discovery to Demo 14, Demo to Proposal 19, Proposal to Commit 23. One letter under its gate and the deal does not move. No rounding up. Go back, ask again, qualify or kill.
 3. **Install the critical-event forcing question:** "What breaks for this customer if they do nothing until next quarter?" No concrete answer scores Critical Event at 1, and the record is a conversation, not a deal.
 4. **Deploy in CRM:** letter scores as deal properties plus a computed deal-health field next to `icp_tier`; enforce via stage-transition validation or a weekly below-gate exception report. Expect two weeks of rep resistance, then adoption once the gate starts protecting calendars from deals that were never going to close.
+
+---
+
+## What good looks like
+
+- Any company in the universe can be scored 0-100 from enrichment data alone. Nobody needs a meeting to place it in a tier.
+- The model uses 5-8 attributes that separate your top 20% of customers from the rest, with one weight set per segment. A criterion that needs a discovery call lives in qualification, not in the fit score.
+- Tier 1 is narrow: a four-figure list from a six-figure universe, and 50 accounts rather than 5,000 at early stage. A Tier 1 that covers 40% of the universe describes the market, not your ideal customer.
+- Tier 1 beats Tier 2 on all five journey cycle times (MQL to SQL, SQL to Win, Win to Onboard, time to first impact, time to full impact). When it loses a column, one weight changes and the model gets a quarter to prove it.
+- The score is a CRM field that lead scoring, routing, and pipeline reports read from. A rep can say yes or no to an account in 30 seconds.
+- The evidence base includes the companies that never contacted you. A CRM-only ICP is a record of who found you.
+- The TAM list is refreshed quarterly: re-enriched, re-scored on new signals, topped up with new companies, purged of dead ones.
+- Below the customer-count threshold for your motion, the output is labeled an Early Customer Profile and iterated quarterly. Calling it an ICP is the first lie the forecast tells.
 
 ---
 
