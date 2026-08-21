@@ -219,7 +219,7 @@ Hand off to `positioning-messaging-designer` to translate ICP insights into posi
 
 **ICP → Qualification Gates (pipeline enforcement)**
 
-Tiers say whether the account fits; gates say whether the deal is real. Once tiers exist, install the qualification-gate layer so the ICP governs pipeline movement instead of living in a slide (built on Winning by Design's SPICED methodology). Gates, not fields: more CRM fields will not fix a forecast; minimum scores per stage will.
+Tiers say whether the account fits; gates say whether the deal is real. Once tiers exist, install the qualification-gate layer so the ICP governs pipeline movement instead of living in a slide (built on the SPICED qualification framework). Gates, not fields: more CRM fields will not fix a forecast; minimum scores per stage will.
 
 1. **Score evidence quality per SPICED letter, 1 to 5:** 1 Unknown (not asked), 2 Weak (surface mention), 3 Confirmed (said and logged), 4 Quantified (numbers behind it), 5 Validated (third party or system data). The scale grades evidence, not rep enthusiasm.
 2. **Set per-stage minimums, per letter and in total.** With six letters (total out of 30): Inbound to Discovery 7, Discovery to Demo 14, Demo to Proposal 19, Proposal to Commit 23. One letter under its gate and the deal does not move. No rounding up. Go back, ask again, qualify or kill.
