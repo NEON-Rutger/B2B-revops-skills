@@ -257,7 +257,7 @@ Each component is a dbt model. Together they update the health score in real-tim
 
 **Effort:** 16 to 24 weeks to design and deploy; ongoing: 1 to 2 data engineers, 1 to 2 analytics engineers, 1 data governance lead, 1 RevOps architect.
 
-**Pitfall:** Jumping to agentic without fixing Patterns 1 and 2 first. Agents amplify bad data (Gartner, 2026). Build governance, identity, and unification layers before adding AI.
+**Pitfall:** Jumping to agentic without fixing Patterns 1 and 2 first. Agents amplify bad data: Gartner predicts 60% of AI projects will be abandoned through 2026 for lack of AI-ready data (Gartner, February 2025). Build governance, identity, and unification layers before adding AI.
 
 ## When NOT to Go Warehouse-Native
 

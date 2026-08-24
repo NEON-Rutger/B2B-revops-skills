@@ -54,7 +54,7 @@ The way you build an ICP depends on how you go to market. Here are motion-specif
 
 | Motion | ICP Building Challenge | Strategic Response |
 |--------|---|---|
-| **No Touch / PLG** | Behavioral signals are sparse; no sales conversations to mine | Build behavioral ICP from product analytics. Use event tracking in Mixpanel, Amplitude, or Segment; analyze feature adoption depth, cohort retention curves, and expansion velocity. Hybrid PLG+sales-assist (sales-assisted PQLs 25-35% conversion, CAC payback under 12 months) outperforms pure self-serve on NRR (67% vs 58%) (OpenView Benchmarks, 2024-2025). ACV framework: self-serve under $10K; hybrid $10K-$25K; sales-led above $25K. |
+| **No Touch / PLG** | Behavioral signals are sparse; no sales conversations to mine | Build behavioral ICP from product analytics. Use whatever product analytics you already run; analyze feature adoption depth, cohort retention curves, and expansion velocity. A hybrid motion (self-serve with sales assist on product-qualified accounts) typically retains and expands better than pure self-serve, so treat the PQL threshold as the real ICP boundary: below it the product sells itself, above it a human should. Where that line sits is a function of your ACV and cost to serve, not a published number. |
 | **Low Touch / 1-Stage** | Many tire-kickers; lightweight sales process means limited depth | Cluster by role, use case, retention curves. Identify micro-segments with 70%+ 12-mo retention. Double-down there. |
 | **Medium Touch / 2-Stage** | Balancing limited data against depth of signal | Blend 8-15 SPICED interviews with win/loss reviews. Surface patterns across competitive wins + expansion. |
 | **High Touch / Sales** | Few closed deals; each customer is precious data | Treat every deal as a test case. Iterate ICP quarterly. Build from pilot customers + expansion proof. |
@@ -285,7 +285,7 @@ LLM-assisted and AI-driven tools now complement traditional analysis. Key techni
 Run customer interview transcripts through Claude or similar LLM with a SPICED extraction prompt. LLM picks out Situation, Pain, Implementation, Critical Event, Decision lines faster than manual review. Works best when combined with domain context (your product, market).
 
 **Intent-Based Scoring**
-Intent data platforms (6sense, ZoomInfo, Demandbase) track in-market buying signals: job postings (hiring), tech stack changes, funding announcements, executive moves. Roughly 5% of TAM is in-market at any time (Gartner, cited 2026). Use intent signals to identify which ICP segments are in-market NOW, then prioritize outreach. Single vendors contacted first win roughly 80% of deals, so speed matters.
+Intent data platforms (6sense, ZoomInfo, Demandbase) track in-market buying signals: job postings (hiring), tech stack changes, funding announcements, executive moves. Roughly 5% of your TAM is in-market in any given quarter (the 95:5 rule; Ehrenberg-Bass Institute, 2021). Use intent signals to identify which ICP segments are in-market NOW, then prioritize outreach. Buyers typically settle on a favored vendor before first contact, and that favorite wins roughly 80% of the time (6sense Buyer Experience Report, 2024), so speed to in-market accounts matters.
 
 **AI-Assisted Account Clustering**
 Feed your best customer data (firmographic, technographic, SPICED language, revenue, retention) into an embedding model or clustering algorithm. LLM can surface micro-clusters (sub-ICPs) you might miss manually. Example: "Mid-market SaaS in EU" clusters into "Series B fintech in DE/AT" vs "Series B B2B SaaS in NL/BE" with different SPICED patterns.
@@ -293,7 +293,7 @@ Feed your best customer data (firmographic, technographic, SPICED language, reve
 **Generative Agents for Candidate Evaluation**
 AI agents can screen and score inbound leads or prospect lists against ICP criteria at scale. Ensure training data is clean (small sample of known good/bad ICPs) and review agent decisions on high-value prospects before routing.
 
-**Critical caution:** AI-driven ICP building is a tool, not a replacement. Validate AI output against real customer data and sales experience. 60% of AI projects fail when deployed against non-agent-ready data (Gartner, 2026); data quality is prerequisite.
+**Critical caution:** AI-driven ICP building is a tool, not a replacement. Validate AI output against real customer data and sales experience. Gartner predicts 60% of AI projects will be abandoned through 2026 for lack of AI-ready data (Gartner, February 2025); data quality is prerequisite.
 
 ---
 
@@ -532,18 +532,18 @@ Once you have defined your ICP, encode it operationally in your CRM and enable a
 - Use Data 360 (formerly Data Cloud; released 2024) to unify customer data and create a unified profile per account
 - Deploy Agentforce agents (General purpose or role-specific) to score leads and accounts against ICP criteria at scale
 - Agentforce can read unstructured data (emails, Slack, call notes) via Intelligent Context and surface ICP fit signals automatically
-- Recommended architecture: Agentforce Revenue Management (end-of-sale on CPQ means this is the forward path) for deal scoring and orchestration
-- Workflow automation: Flow (Process Builder and Workflow Rules reached end of support 31 December 2025; Flow is the only path forward)
+- Build deal scoring and orchestration on the platform's current agent and revenue-management layer rather than a legacy CPQ path
+- Use the platform's current workflow-automation engine; older rules-based builders are being retired
 
 **HubSpot + Breeze:**
 - Encode ICP criteria as Lead Scoring (standard or custom) and Account Scoring properties
-- Breeze Prospecting Agent ($1.00 per recommended lead) can score inbound leads and prospects against ICP fit
-- Breeze Customer Agent ($0.50 per resolved conversation) supports customer interviews and can help extract SPICED language from transcripts when configured with domain knowledge
-- Operations Hub (rebranded to Data Hub in October 2025) provides data management, automation, and governance
+- The prospecting agent can score inbound leads and prospects against ICP fit; these agents are consumption-priced, so check the current per-unit rate before turning them loose on a large list
+- The customer-facing agent supports customer interviews and can extract SPICED language from transcripts when configured with domain knowledge
+- The data-operations hub provides data management, automation, and governance
 - Recommend Agentic Automation Builder (workflows + agents together) as the architecture for ICP-powered routing and nurture
 
 **Common pattern (both platforms):**
-Define ICP as a scoring model, then use platform agents or automation to route prospects and leads based on fit. Quality data is prerequisite: 60% of AI projects abandoned over non-agent-ready data (Gartner, 2026).
+Define ICP as a scoring model, then use platform agents or automation to route prospects and leads based on fit. Quality data is the prerequisite: agent-driven routing fails on incomplete records long before it fails on scoring logic.
 
 ---
 

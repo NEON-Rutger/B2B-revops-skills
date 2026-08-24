@@ -409,7 +409,7 @@ This is where operating discipline meets AI. One section on discipline isn't eno
 
 - **Churn prediction at the customer level:** Combine AI-scored churn risk (NLP on support tickets + usage signals + champion email frequency) with revenue data. The monthly business review now flags "top 5 expansion opportunities" and "top 10 churn risks" in the same dashboard, not separately.
 
-**Operational prerequisite:** Data quality gates. Gartner reports 60% of AI projects abandoned over non-agent-ready data (2026). If your CRM stage-change timestamps are garbage or your call recordings aren't tagged, AI adds no value. The discipline comes first.
+**Operational prerequisite:** Data quality gates. Gartner predicts 60% of AI projects will be abandoned through 2026 for lack of AI-ready data (Gartner, February 2025). If your CRM stage-change timestamps are garbage or your call recordings aren't tagged, AI adds no value. The discipline comes first.
 
 ---
 

@@ -268,11 +268,11 @@ UBP is the strongest structural lever for NRR. The data supports prioritizing pr
 
 | Metric | UBP Companies | Traditional Pricing | Source |
 |--------|--------------|-------------------|--------|
-| Average NRR | **137%** | ~110% | OpenView Usage-Based Pricing Trends |
-| YoY revenue growth | **29.9%** | 21.7% | OpenView; Zuora data |
+| Average NRR | **137%** | ~110% | OpenView Usage-Based Pricing Trends (through 2023) |
+| YoY revenue growth | **29.9%** | 21.7% | OpenView (through 2023); Zuora data |
 | Expansion mechanism | Automatic (usage growth) | Manual (CSM-led) | m3ter 2026 |
 
-**~60% of SaaS companies** now use or are testing usage-based pricing (OpenView, 2024). The shift is structural, not a trend.
+**~60% of SaaS companies** now use or are testing usage-based pricing (OpenView SaaS Benchmarks, 2023). The shift is structural, not a trend.
 
 **When to recommend UBP to your business:**
 - They have a clear value metric that scales with customer success

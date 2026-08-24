@@ -69,7 +69,7 @@ RevOps typically inherits three new accountability areas:
 Owns: AI model prompts for customer-facing agents (lead scoring, routing, forecasting), fine-tuning triggers, failure modes. Unlike a general AI/ML hire, this is tactical RevOps-specific work (not data science). Sits in the Systems team. Often fractional at first.
 
 **2. AI Governance / Agent Oversight Lead** ($75M+ ARR or multi-agent orchestration)
-Owns: data readiness for agents (60% of AI projects abandoned over non-agent-ready data; Gartner, 2026), model monitoring, impact tracking, compliance (EU AI Act, GDPR for enrichment agents). Bridges RevOps and Legal/Compliance. Executive-facing.
+Owns: data readiness for agents (Gartner, February 2025: 60% of AI projects predicted abandoned through 2026 for lack of AI-ready data), model monitoring, impact tracking, compliance (EU AI Act, GDPR for enrichment agents). Bridges RevOps and Legal/Compliance. Executive-facing.
 
 **3. Agentic Process Owner** (Any stage)
 Owns: which processes qualify for agent automation, pilot runways, change management when agents replace manual work. Usually embedded in Business Partner role or Analyst. Does not require coding; requires process discipline.

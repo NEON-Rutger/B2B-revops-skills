@@ -6,9 +6,9 @@ This file contains all quantitative claims made in the pricing-monetization-ops 
 
 - **77% of the largest software companies use consumption-based pricing** (Ledgerup, 2026). This is the highest concentration of consumption adoption among mature SaaS players.
 - **Usage-based billing market size: $6.5B in 2026, projected to reach $15.3B by 2032** (Ledgerup, 2026).
-- **41% of SaaS companies already have a usage-based component in their pricing; 17% testing one** (OpenView Partners, 2023-2025; web research).
+- **41% of SaaS companies already have a usage-based component in their pricing; 17% testing one** (OpenView Partners, 2023 final edition; web research).
 - **Consumption-based pricing at 35% of AI companies, with 37% of companies planning to change AI pricing model in next 12 months** (2026 State of B2B SaaS and AI Monetization Report, 2026; web research).
-- **Three out of five SaaS businesses bill customers based on usage** (OpenView Partners, cited 2023-2025; web research).
+- **Three out of five SaaS businesses bill customers based on usage** (OpenView Partners, cited 2023; web research).
 
 ## Hybrid Pricing Models
 
@@ -44,7 +44,7 @@ This file contains all quantitative claims made in the pricing-monetization-ops 
 
 - **Parallel billing approach (safest): run both seat and usage models simultaneously until all annual contracts renew. Timeline: 12 to 24 months** (SaaS pricing migration guidance, 2026; web research).
 - **Revenue impact on pricing migration: expect 5 to 15% short-term dip during usage discovery period, recovery by month 6** (Migration best practices, 2026; web research).
-- **Usage pricing NRR above 120% vs 100 to 105% for seat-based SaaS** (OpenView / KeyBanc / multiple sources, 2024-2026; web research). This represents a 15 to 20 percentage point gap.
+- **Usage pricing NRR above 120% vs 100 to 105% for seat-based SaaS** (KeyBanc 2024-2026 and OpenView through 2023, with the benchmark series continued by High Alpha; web research). This represents a 15 to 20 percentage point gap.
 
 ## Collections and Payment
 
@@ -90,7 +90,7 @@ This file contains all quantitative claims made in the pricing-monetization-ops 
 |---|---|---|---|
 | Ledgerup (Consumption Pricing Report) | 2026 | Vendor research | Market sizing, adoption rates |
 | Chargebee (State of Subscriptions) | 2025 | Industry survey | Hybrid pricing adoption, NRR trends |
-| OpenView Partners | 2023 to 2025 | Industry benchmark | Consumption adoption, expansion revenue |
+| OpenView Partners | through 2023 (series continued by High Alpha from 2024) | Industry benchmark | Consumption adoption, expansion revenue |
 | Zylo (SaaS Management Index) | 2026 | Industry survey | Bill shock, unexpected charges |
 | Zuora (Metered Billing Guide) | 2026 | Vendor expertise | Metering architecture, ASC 606 |
 | HubSpot (Breeze Agent) | April 2026 | Official announcement | Platform pricing model shift |

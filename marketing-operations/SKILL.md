@@ -306,7 +306,7 @@ MAP (HubSpot, Marketo, Klaviyo) is the engine: lead creation, scoring, email, ro
 
 **Enrichment strategy post-cookie-deprecation:** Third-party enrichment (ZoomInfo, Apollo) now costs ~20% more to deliver equivalent match rates and data freshness (McKinsey, 2026). Build zero-party data capture (ask on forms: company size, team size, budget, use case) as primary. Enrichment as fallback when form data missing. Enrich only MQLs (not all leads) to manage cost. For data failures (no match on 10-15% of leads): expect this, route to SDR for phone validation instead of abandoning leads.
 
-Add intent data when: you have mature ABM and need to prioritize accounts showing buying signals (only 5% of TAM in-market at any time; first vendor contacted wins ~80% of deals, Gartner 2026). Most scale-ups don't need paid intent data yet.
+Add intent data when: you have mature ABM and need to prioritize accounts showing buying signals (only ~5% of TAM is in-market in a given quarter, per the 95:5 rule, Ehrenberg-Bass Institute, 2021; buyers' pre-contact favorite vendor wins roughly 80% of the time, 6sense Buyer Experience Report, 2024). Most scale-ups don't need paid intent data yet.
 
 For full stack evaluation, see **revops-tech-stack**.
 

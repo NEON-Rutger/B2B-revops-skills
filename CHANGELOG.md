@@ -6,6 +6,21 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.4.2], 2026-08-24
+
+### Fixed
+- Citation corrections after external review of the ICP scoring update: the in-market
+  share stat re-attributed from Gartner to its actual source (the 95:5 rule,
+  Ehrenberg-Bass Institute, 2021); the first-vendor-wins figure now cited to the
+  6sense Buyer Experience Report (2024); the Gartner AI-project figure restated as
+  the prediction it is (February 2025, horizon 2026) in six skills; phantom
+  "OpenView 2024/2024-2025" vintages corrected in the expansion and pricing skills
+  (OpenView's final edition is 2023; High Alpha continues the series); an
+  unverifiable PLG NRR comparison replaced with the underlying judgment; icp-builder's
+  platform section de-priced (per-unit agent rates and end-of-support dates removed).
+
+---
+
 ## [v1.4.1], 2026-08-21
 
 ### Changed

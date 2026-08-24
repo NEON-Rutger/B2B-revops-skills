@@ -78,11 +78,11 @@ As companies scale, expansion becomes the dominant growth source:
 
 | ARR Stage | % from New Business | % from Expansion | Source |
 |-----------|-------------------|-----------------|--------|
-| <$1M | 90% | 10% | OpenView 2024 |
-| $2-5M | 70-80% | 20-30% | OpenView 2024 |
-| $5-20M | 60-70% | 30-40% | OpenView 2024 |
+| <$1M | 90% | 10% | OpenView-era SaaS Benchmarks (2023 or earlier; series now High Alpha) |
+| $2-5M | 70-80% | 20-30% | OpenView-era SaaS Benchmarks (2023 or earlier; series now High Alpha) |
+| $5-20M | 60-70% | 30-40% | OpenView-era SaaS Benchmarks (2023 or earlier; series now High Alpha) |
 | $20-50M | ~65% | ~35% | Ordway Labs 2024 |
-| $50-100M | ~50% | ~50% | OpenView 2024 |
-| $200M+ | ~33% | ~67% | OpenView 2024 |
+| $50-100M | ~50% | ~50% | OpenView-era SaaS Benchmarks (2023 or earlier; series now High Alpha) |
+| $200M+ | ~33% | ~67% | OpenView-era SaaS Benchmarks (2023 or earlier; series now High Alpha) |
 
 **Cost-of-gap argument:** If your company at $30M ARR is getting only 15% of new ARR from expansion (vs. 35% benchmark), that's a 20pp gap. At $6M new ARR target, that gap = $1.2M in missed expansion revenue annually, at 7x lower CAC than acquiring it via new business.

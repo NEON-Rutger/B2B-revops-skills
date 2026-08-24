@@ -123,7 +123,7 @@ By 2026, AI adoption fundamentally changes how each KPI tier operates. When buil
 
 **Tier 3 impact:** Real-time pipeline activation replaces batch-based workflows. Reverse ETL (Hightouch, Census; 250+ integrations each) pushes enriched CRM data back to marketing platforms, enabling dynamic segmentation and personalization within sequences. Data-fabric architectures (zero-copy warehouse-native GTM, standard at scale) reduce operational complexity and integration overhead vs. traditional ETL plumbing (practice-based).
 
-**Critical prerequisite:** 60% of AI projects are abandoned over non-agent-ready data (Gartner, 2026); 23% of organizations scaling agentic AI stall on data readiness (McKinsey, 2026). Before investing in AI capabilities, audit data completeness, lineage, and enrichment coverage. A data-ready organization gets 3-4x faster ROI from AI than one starting from poor hygiene.
+**Critical prerequisite:** Gartner predicts 60% of AI projects will be abandoned through 2026 for lack of AI-ready data (Gartner, February 2025); 23% of organizations scaling agentic AI stall on data readiness (McKinsey, 2026). Before investing in AI capabilities, audit data completeness, lineage, and enrichment coverage. A data-ready organization gets 3-4x faster ROI from AI than one starting from poor hygiene.
 
 ## Strategic Advisory: Reframing Conversations
 
@@ -272,7 +272,7 @@ By 2026, the constraint has shifted from "which tools do we need" to "how does d
 
 **Consolidated vs. consolidated:** Average B2B team runs 23 vendors; best-in-class targets 5-8 tools (saving 25-30% annually). When evaluating new tools, ask: Does this replace existing functionality? Does this enable real-time activation? Does this reduce total vendor headcount? If the answer to all three is no, it's debt, not capability.
 
-**Data trust as a strategic blocker:** 1 in 4 GTM leaders distrust real-time CRM data; 1 in 2 in enterprise; 60% of AI projects fail over data readiness (Gartner, 2026). Before scaling the stack or adopting AI, fix data quality and governance. A poor data foundation makes every additional tool worse.
+**Data trust as a strategic blocker:** 1 in 4 GTM leaders distrust real-time CRM data; 1 in 2 in enterprise; Gartner predicts 60% of AI projects abandoned through 2026 for lack of AI-ready data (Gartner, February 2025). Before scaling the stack or adopting AI, fix data quality and governance. A poor data foundation makes every additional tool worse.
 
 ### Consolidation Bias
 
