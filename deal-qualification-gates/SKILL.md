@@ -46,7 +46,7 @@ The jump that matters is 2 to 3: from "the rep believes it" to "the buyer said i
 
 ## The Dimensions
 
-Default lens is SPICED (Winning by Design), scored across six letters: Situation, Pain, Impact, Critical Event, Decision (criteria), Decision (process). Total out of 30. If your team runs MEDDICC or BANT, keep the scale and gates identical and swap the dimensions; the mapping table lives in `references/qualification-frameworks.md`. The framework is the vocabulary; the gates are the system.
+Default lens is SPICED, scored across six letters: Situation, Pain, Impact, Critical Event, Decision (criteria), Decision (process). Total out of 30. If your team runs MEDDICC or BANT, keep the scale and gates identical and swap the dimensions; the mapping table lives in `references/qualification-frameworks.md`. The framework is the vocabulary; the gates are the system.
 
 ## The Stage Gates
 
