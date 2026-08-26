@@ -4,7 +4,7 @@ The gate system (1-5 evidence scores, per-stage minimums, qualify-or-kill) is fr
 
 ## SPICED (default lens)
 
-SPICED is Winning by Design's diagnostic framework: Situation, Pain, Impact, Critical Event, Decision. This skill scores it across six dimensions by splitting Decision into its two working parts, giving a 30-point model:
+SPICED stands for Situation, Pain, Impact, Critical Event, Decision. This skill scores it across six dimensions by splitting Decision into its two working parts, giving a 30-point model:
 
 | Dimension | The question the evidence must answer |
 |---|---|
