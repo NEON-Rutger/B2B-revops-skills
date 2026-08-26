@@ -6,6 +6,14 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.4.3], 2026-08-26
+
+### Changed
+- `deal-qualification-gates`: SPICED referred to generically in the skill body and the
+  frameworks reference (vendor-name-free public copy).
+
+---
+
 ## [v1.4.2], 2026-08-24
 
 ### Fixed
