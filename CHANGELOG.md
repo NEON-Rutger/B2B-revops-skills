@@ -6,6 +6,38 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.5.0], 2026-09-01
+
+### Added
+- `trial-poc-conversion`: evaluations that end in a decision. Motion picker with
+  per-motion benchmark ranges, the four-part entry gate (success criteria, then-what,
+  committee, clock), activation-first design, midpoint readout, disciplined endings,
+  and zombie-trial hygiene. a16z Enterprise Survey (2026) buyer-expectation data;
+  trial aggregation ranges flagged as blog-tier with direction-only reliance.
+- `win-loss-program`: two evidence lanes over decided deals: transcript/thread mining
+  on every decision, buyer interviews on a sample, both outcomes. Neutral-interviewer
+  rule, decision-driver taxonomy with weighted multi-cause coding, quarterly
+  quote-anchored readout, outputs routed to revival, enablement, battlecards, and
+  qualification gates.
+- `onboarding-activation`: the signature-to-first-value system. Activation as one
+  observable event, the handoff artifact that carries why-they-bought across the
+  signature, evidence-gated 30-60-90 arc, three stall signals with named responses,
+  graduation with an agreed value baseline feeding qbr-ebr-builder.
+- `sales-ramp-enablement`: ramp as an instrumented system. Ramp math into
+  capacity/forecast (ramped-equivalents), evidence-gated certification arc with a
+  three-outcome gate rule, enablement measured by cohort leading indicators, manager
+  cadence minimums. Bridge Group (2023) anchor; unverifiable ramp multipliers
+  excluded.
+- `procurement-navigation`: from 'you're selected' to signature. Early gauntlet
+  mapping with the champion, the standing artifact pack, parallel-by-design mutual
+  close plans, Commit-grade status only with enumerated steps, concessions traded
+  never given. Ebsta x Pavilion (2025) cycle-length data as the stakes.
+
+### Fixed
+- The four v1.2.0/v1.3.0 skills were missing the library byline; added.
+
+---
+
 ## [v1.4.4], 2026-09-01
 
 ### Fixed

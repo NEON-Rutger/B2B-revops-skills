@@ -145,3 +145,5 @@ Full provenance, vintages, and the list of practice-based rules: read `reference
 - Post-proposal win rates 31-50% (Norwest, 2024): the case for the proposal-gone-quiet lane.
 - ~20% of champions change jobs per year (job-change vendor estimates, 2023-2026, consistent with Swan AI's published production rate, 2026).
 - $250K pipeline in 7 days from 566 closed-lost deals once loss categorization was added (Swan AI, public post, August 2026). A practitioner anecdote, not a controlled benchmark; treat as an existence proof.
+
+> Built by [Neon Triforce](https://neontriforce.com)

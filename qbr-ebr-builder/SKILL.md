@@ -104,3 +104,5 @@ A review is upstream instrumentation for the rest of the post-sale system. Every
 ## Benchmarks and Provenance
 
 GRR median ~90% / top quartile 95%+ (industry surveys, 2025; provenance detail shared with renewal-save-motion's `references/retention-benchmarks.md`). The 90-120 day EBR-before-renewal anchor, the three-panel spine, and the segmentation tiers are practice-based operating rules, labeled as such; validate against your own renewal cohort once two quarters of review discipline exist. Full notes: `references/business-review-practices.md`.
+
+> Built by [Neon Triforce](https://neontriforce.com)

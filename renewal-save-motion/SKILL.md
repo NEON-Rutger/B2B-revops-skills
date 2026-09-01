@@ -89,3 +89,5 @@ Benchmark provenance, vintages, and which rules are practice-based rather than s
 3. What percentage of at-risk saves in the last year used a discount as the first lever, and what did those accounts do at the following renewal?
 4. When a champion leaves a customer account, what happens automatically today? Anything?
 5. Can your team produce a value recap in the customer's own numbers for your top ten accounts within one day? If not, the value-gap save play has no ammunition.
+
+> Built by [Neon Triforce](https://neontriforce.com)

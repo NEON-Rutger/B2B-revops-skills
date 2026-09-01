@@ -89,3 +89,5 @@ Week 4: first qualify-or-kill review over the flagged backlog. Expect to kill 15
 3. When did a deal in this pipeline last move BACKWARD a stage? If the answer is never, stages are being used as a ratchet, and the forecast inherits the fiction.
 4. How many deals older than 2x your median cycle time sit in the pipeline, and what evidence score do they carry?
 5. Who is allowed to kill a deal, and when did that last happen without a manager forcing it?
+
+> Built by [Neon Triforce](https://neontriforce.com)
