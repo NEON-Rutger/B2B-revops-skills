@@ -1,8 +1,8 @@
 # RevOps Skills Library for Claude
 
-**Current release: v1.4.4 (2026-09-01), 38 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.5.0 (2026-09-01), 43 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
-38 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
+43 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
 **Built for:** B2B SaaS companies in the growth phase where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
 
@@ -82,6 +82,16 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `pricing-monetization-ops` | Usage and outcome pricing operations: metering, rating, invoicing, reconciliation, contract drift | v0.4.0 |
 | `deal-desk-operations` | Deal desk design: approval matrix, discount governance, credit and overage economics | v0.4.0 |
 
+### Deal Execution and Post-Sale (5 skills)
+
+| Skill | What it does | Since |
+|---|---|---|
+| `trial-poc-conversion` | Trials, POCs, and pilots that end in a decision: entry gate, activation-first design, conversion clock | v1.5.0 |
+| `procurement-navigation` | From 'you're selected' to signature: gauntlet mapping, artifact pack, mutual close plan | v1.5.0 |
+| `win-loss-program` | Why deals are really won or lost: transcript mining on every decision, buyer interviews on a sample | v1.5.0 |
+| `onboarding-activation` | Signature to first realized value: handoff artifact, evidence-gated 30-60-90, stall detection, value baseline | v1.5.0 |
+| `sales-ramp-enablement` | Rep ramp as an instrumented system: ramped-equivalent capacity math, certification gates, cohort indicators | v1.5.0 |
+
 ### ICP, Positioning, and Growth (8 skills)
 
 | Skill | What it does | Since |
@@ -113,6 +123,10 @@ Skills chain naturally. Start with a diagnostic, then load the specialist.
 - **Renewal defense:** `renewal-save-motion` → `expansion-revenue-architect` → `cs-operations`
 - **Win-back:** `closed-lost-revival` → `icp-builder` → `sales-methodology`
 - **Customer reviews:** `qbr-ebr-builder` → `cs-operations` → `revenue-operating-cadence`
+- **Evaluation to close:** `deal-qualification-gates` → `trial-poc-conversion` → `procurement-navigation`
+- **Land to renew:** `onboarding-activation` → `qbr-ebr-builder` → `renewal-save-motion`
+- **Learn from decisions:** `win-loss-program` → `closed-lost-revival` → `deal-qualification-gates`
+- **Ramp the team:** `sales-ramp-enablement` → `sales-methodology` → `gtm-compensation`
 
 ---
 
