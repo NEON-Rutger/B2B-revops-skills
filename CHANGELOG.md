@@ -6,6 +6,18 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.4.4], 2026-09-01
+
+### Fixed
+- README was out of sync with the library: the skill count, both category tables, and the
+  "how they work together" chains had never been updated for the four skills that shipped
+  in v1.2.0 and v1.3.0 (`closed-lost-revival`, `deal-qualification-gates`,
+  `renewal-save-motion`, `qbr-ebr-builder`). Corrected skill count 34 → 38, added the
+  missing rows with their `Since` versions, and added four chain entries. No skill content
+  changed.
+
+---
+
 ## [v1.4.3], 2026-08-26
 
 ### Changed

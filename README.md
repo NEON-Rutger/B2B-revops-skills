@@ -1,8 +1,8 @@
 # RevOps Skills Library for Claude
 
-**Current release: v1.0.0 (2026-07-15), 34 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.4.4 (2026-09-01), 38 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
-34 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
+38 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
 **Built for:** B2B SaaS companies in the growth phase where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
 
@@ -51,7 +51,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `revops-salesforce` | Salesforce implementation patterns for RevOps | v0.1.0 |
 | `crm-migration-consolidation` | CRM migration and post-merger instance consolidation: system of record, identity resolution, cutover | v0.4.0 |
 
-### GTM and Domain (7 skills)
+### GTM and Domain (9 skills)
 
 | Skill | What it does | Since |
 |---|---|---|
@@ -62,6 +62,8 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling, multi-framework | v0.1.0 |
 | `partner-channel-operations` | Partner program design, enablement, co-selling, deal registration | v0.1.0 |
 | `abm-engagement-scoring` | Account-level engagement scoring, buying-group coverage, handover trigger doctrine | v0.3.0 |
+| `closed-lost-revival` | Quarterly revival sweep over closed-lost deals, gone-quiet proposals, and champion job changes | v1.2.0 |
+| `qbr-ebr-builder` | Customer-facing business reviews (QBR/EBR) built around a value recap in the customer's own numbers | v1.3.0 |
 
 ### Pipeline and Data (5 skills)
 
@@ -80,7 +82,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `pricing-monetization-ops` | Usage and outcome pricing operations: metering, rating, invoicing, reconciliation, contract drift | v0.4.0 |
 | `deal-desk-operations` | Deal desk design: approval matrix, discount governance, credit and overage economics | v0.4.0 |
 
-### ICP, Positioning, and Growth (6 skills)
+### ICP, Positioning, and Growth (8 skills)
 
 | Skill | What it does | Since |
 |---|---|---|
@@ -90,6 +92,8 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `expansion-revenue-architect` | NRR/GRR systems, whitespace analysis, CS-Sales handback | v0.1.0 |
 | `partner-ecosystem-architect` | Ecosystem-led growth, nearbound methodology, partner strategy | v0.1.0 |
 | `operating-cadence-designer` | Operating cadence design, rituals, dashboards, escalation rules | v0.1.0 |
+| `deal-qualification-gates` | Evidence-quality scoring per deal (1-5 per dimension), per-stage minimums, qualify-or-kill reviews | v1.2.0 |
+| `renewal-save-motion` | Defensive counterpart to expansion: T-120 renewal clock, risk triage, ordered save levers | v1.2.0 |
 
 ---
 
@@ -105,6 +109,10 @@ Skills chain naturally. Start with a diagnostic, then load the specialist.
 - **Data foundation:** `gtm-data-architecture` → `revops-data-governance` → `pipeline-visibility`
 - **Monetization:** `pricing-monetization-ops` → `deal-desk-operations` → `gtm-compensation`
 - **Post-merger:** `crm-migration-consolidation` → `revops-data-governance` → `revops-hubspot` or `revops-salesforce`
+- **Pipeline hygiene:** `deal-qualification-gates` → `deal-velocity-engineer` → `revops-forecasting`
+- **Renewal defense:** `renewal-save-motion` → `expansion-revenue-architect` → `cs-operations`
+- **Win-back:** `closed-lost-revival` → `icp-builder` → `sales-methodology`
+- **Customer reviews:** `qbr-ebr-builder` → `cs-operations` → `revenue-operating-cadence`
 
 ---
 
