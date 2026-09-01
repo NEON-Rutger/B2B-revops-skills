@@ -279,5 +279,5 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-[v0.2.0]: https://github.com/revops-skills/claude-revops-library/releases/tag/v0.2.0
-[v0.1.0]: https://github.com/revops-skills/claude-revops-library/releases/tag/v0.1.0
+[v0.2.0]: https://github.com/NEON-Rutger/B2B-revops-skills/releases/tag/v0.2.0
+[v0.1.0]: https://github.com/NEON-Rutger/B2B-revops-skills/releases/tag/v0.1.0

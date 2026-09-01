@@ -17,13 +17,13 @@
 ## Quick install
 
 ```bash
-git clone https://github.com/revops-skills/claude-revops-library.git
+git clone https://github.com/NEON-Rutger/B2B-revops-skills.git
 
 # Copy individual skills
-cp -r claude-revops-library/revops-diagnostic/ your-project/.claude/skills/
+cp -r B2B-revops-skills/revops-diagnostic/ your-project/.claude/skills/
 
 # Or install everything
-cp -r claude-revops-library/*/ your-project/.claude/skills/
+cp -r B2B-revops-skills/*/ your-project/.claude/skills/
 ```
 
 Each skill is a folder containing a `SKILL.md` file (and optionally a `references/` directory). Place the folder in your project's `.claude/skills/` directory. Claude discovers and loads skills automatically when you open the project.
