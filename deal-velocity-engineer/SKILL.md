@@ -393,6 +393,52 @@ For the full week-by-week breakdown of each phase and the success-metrics table 
 
 ---
 
+## Call Diagnosis: Evidence-Bound PULL Analysis
+
+Use this section to diagnose whether a sales call produced real buyer demand (Project, Unavoidable, List of options with Limitations) and whether the seller surfaced it effectively. Every claim is backed by a quote from the transcript; the output is repeatable and defensible.
+
+### Why PULL Matters for Velocity
+
+PULL is the demand-side engine of deal velocity. Deals without PULL stall. Deals with clear PULL move predictably. If your reps can't diagnose PULL on a call, they can't close predictably, and your velocity system breaks downstream.
+
+**The PULL framework (Rob Snyder source):**
+- **Project (P):** Actionable work the buyer is trying to accomplish
+- **Unavoidable (U):** Why they would be weird to NOT do it right now
+- **List of Options + Limitations (L+L):** What they've tried, why each failed
+- **Integrated:** All four components cohere around ONE situation. Disconnect = no PULL.
+
+### Diagnosis Steps
+
+1. **Extract all projects mentioned** in the call, in buyer's voice
+2. **Select the likely PULL project** (which forced the conversation?)
+3. **Map the full PULL:** Does P, U, L+L cohere around one situation?
+4. **Assess seller performance:** Did they test for PULL or just listen?
+5. **Check pitch fit:** Does the seller's solution directly address the PULL?
+6. **Flag red flags:** Multiple PULL candidates? Missing U? Over-pitch?
+
+For the full rubric, worked examples, and evidence checklist, see `references/pull-call-diagnosis.md`.
+
+### The Diagnostic Template
+
+| Component | From Call (quote) | Present? |
+|---|---|---|
+| **P: Project** | "We need to consolidate three CRMs into one" | YES |
+| **U: Unavoidable** | "Board asked in the meeting why we can't forecast. CEO doesn't trust the number." | YES |
+| **L: List** | "Tool X doesn't integrate with system Y. Spreadsheet is manual and breaks when teams forget to update." | YES |
+| **L: Limitations** | Tool = no integration. Spreadsheet = manual + breaks. Status quo = same problem. | YES |
+
+**Verdict:** PULL is visible. All four components cohere. Seller tested for PULL (asked "why," "when," "what have you tried"). Pitch was surgical: "Integration + automation" directly resolves stated limitations.
+
+### Red Flags
+
+- **No PULL found:** Buyer expressed interest, not forced action. Conversation stays exploratory.
+- **Multiple PULL candidates:** Three equally urgent projects. Which is real? Usually: one is real, two are nice-to-haves.
+- **U missing:** Project is clear but no forcing event. Buyer could delay indefinitely. ("Maybe Q2.")
+- **Seller over-pitched:** Described capabilities buyer never asked for. (Seller fishing, not diagnosing.)
+- **Seller avoided objections:** Buyer said "Your tool doesn't integrate." Seller changed subject. (Deal will stall on re-evaluation.)
+
+---
+
 ## How to Use This Skill
 
 **"Your pipeline is huge but you keep missing target"**

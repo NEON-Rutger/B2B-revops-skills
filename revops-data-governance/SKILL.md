@@ -275,6 +275,96 @@ On contact creation: form triggers lookup by email. If exists, "This contact alr
 
 Parent = ultimate legal entity. Child = subsidiary/division. On M&A: create new parent, move old to child. On acquisition: don't delete; create parent relationship instead. Every contact maps to exactly one primary account.
 
+## 4b. Identity Resolution Gate (Before Record Creation)
+
+Before creating any contact or account, run an identity resolution gate. The output is one of four decisions: Link (merge into existing), Create (new record), Review (human judgment required), or Reject (insufficient identity evidence).
+
+### The Four Decision Gate
+
+1. **LINK** — Strong evidence that the new data belongs on an existing record. Merge or link with audit trail preserved.
+2. **CREATE** — No credible existing record found after all strong keys are searched. Create new record with provenance documented.
+3. **REVIEW** — Multiple candidates exist or important evidence conflicts. Escalate to human; they determine survivor and action.
+4. **REJECT** — Input lacks minimum identity evidence (e.g., contact with no email AND no phone; account with no domain AND no legal entity). Do not create.
+
+### Search Strategy
+
+For **accounts:** search by verified domain, verified legal entity, and account relationships (parent/child, merged entities). If the domain exists in your system, you have an account. Normalise domain names and company names before comparing (remove URL protocols, standardise whitespace, strip legal suffixes for account names).
+
+For **contacts:** search by verified email first (corporate email only; consumer domains like Gmail are not account identity). Then search by account + full name. Then by phone number. Each search runs independently so a formatting error in one field does not hide a record.
+
+### Evidence-Based Match Rubric
+
+Use `references/identity-resolution-rubric.md` to score each candidate. Accounts are scored on domain, legal entity, and account hierarchy. Contacts are scored on email, LinkedIn identity, name + account, and phone. Scores above a threshold (40+ for accounts; 50+ for contacts) clear for automatic linking. Scores below require review or create.
+
+**Conflict rule:** If verified values contradict (two legal entities on the same domain, two emails for one contact on the same account), escalate to REVIEW even if the score is high. False links are costlier than false creates.
+
+### Before Creating, Re-Resolve
+
+After planning the create action, re-search immediately. Another workflow may have created the record while you were planning. If a new candidate appears after re-search, invalidate the create decision and resolve again. This prevents race-condition duplicates.
+
+### What Gets Logged
+
+Every identity decision — link, create, review, reject — gets logged with: the search keys used, search population (active records? archived? merged entities?), candidates found, matching evidence, and the decision. For CREATE decisions: log provenance (source system, date, who initiated). For LINK/REJECT decisions: log the reasoning. Enable lookup: "Why did we create this record?" or "Why did we link these two?"
+
+---
+
+## 4c. Outbound Readiness Gate (Before Launching a Campaign)
+
+Before launching outbound from CRM segments, run a five-gate readiness check. Any hard conflict stops the affected record.
+
+### The Five Gates
+
+1. **Identity:** Account domains resolve without material duplicate risk. Contacts tie to a single account.
+2. **Ownership:** Every target has one accountable owner or a routing rule exists.
+3. **Reachability:** Email, phone, or LinkedIn details are verified enough for the planned action.
+4. **Context:** Customers, active deals, recent touches, and legal suppressions are visible and respected.
+5. **Fit:** Every target traces to the campaign's ICP and inclusion reason.
+
+### Execution Sequence
+
+**Step 1: Materialize the audience.** Run the exact CRM segment filters. Don't substitute an overall CRM health score; inspect the actual slice. Count: accounts, contacts, contacts per account, contacts with email, ownerless records, duplicates, suppressed records, active opportunities, customers.
+
+**Step 2: Run the five gates.** For each gate:
+- Define the check (e.g., "Identity = no account has 2+ contacts with the same email domain").
+- Run the check on the audience segment.
+- Flag failures and count them by severity.
+
+**Step 3: Remediate in dependency order.**
+- **Identity first:** Resolve account duplicates before targeting contacts, because duplicates split activity and ownership.
+- **Ownership second:** Assign owners before drafting so replies and tasks have a destination.
+- **Reachability third:** Refresh contact details after the target population is stable.
+- **Suppress:** Apply active customers, active opportunities, and legal suppressions.
+- **Fit:** Audit a sample that the ICP inclusion reason is real (not just "not disqualified").
+
+**Step 4: Rebuild and approve.** After remediation, regenerate the audience from source filters (not editing the export). Re-run all five gates. Reconcile why records entered or left. Require an explicit launch decision.
+
+### Worked Cleanup Sequencing Example
+
+Account "Acme Corp" has two records: Acme_ID_001 (created 2024-03-15, 12 contacts) and Acme_ID_002 (created 2024-07-20, 2 contacts). Both active, no parent/subsidiary relationship documented.
+
+**Step 1: Resolve identity**
+- Search by domain (acme.com): both point to it. Duplicate detected.
+- Link: Survivor = Acme_ID_001 (older, more complete contact base).
+- Merge Acme_ID_002 into Acme_ID_001. Preserve all contacts and activities from Acme_ID_002.
+- Log: "Merged Acme_ID_002 into Acme_ID_001 on 2026-09-01; 2 orphan contacts relinked."
+
+**Step 2: Resolve ownership**
+- Acme_ID_001 has no owner assigned. Check activities: last touch was from AE Sarah Chen on 2026-08-28.
+- Route: Assign Sarah as owner. Log: "Assigned Sarah Chen as owner; last active 2026-08-28."
+
+**Step 3: Refresh reachability**
+- 12 contacts, but 3 have no email. Enrichment lookup: 2 of 3 have emails in vendor database.
+- Fill blanks: add emails from enrichment. 1 contact (founder, no email published) remains blank; flag for manual entry or skip.
+- Log: "Enriched emails for 2/3 missing contacts; 1 remains blank."
+
+**Step 4: Apply suppressions**
+- Acme_ID_001 = current customer (closed-won deal 2024-06-01, active subscription).
+- Suppress: Remove from outbound campaign. Note: "Active customer; route to CSM for expansion motion."
+
+**Result:** Acme is clean (1 account, 1 owner, reachable contacts), but ineligible for the cold outbound campaign because they are already a customer. Route to expansion instead. No record is wasted; it's just routed correctly.
+
+---
+
 ## 5. Integration Data Flows
 
 ### System of Record Decisions

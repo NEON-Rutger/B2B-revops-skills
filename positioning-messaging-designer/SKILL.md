@@ -49,6 +49,18 @@ Skip a step and everything downstream breaks. This skill covers the middle two.
 
 ---
 
+## Step 0: Interview First
+
+Before building the Use Case Canvas or positioning line, interview the founder in their own words. This step surfaces what they actually think is broken, why, and their fix — the raw material you will reframe into positioning. Without this intake, positioning becomes fiction.
+
+**The interview:** Run the founder interview intake (see `references/founder-interview-intake.md`). Capture 3-5 pain triads (what is broken, why, what the fix is), one triad per pain point. Work through their exact phrasing without paraphrasing into marketing language. This usually takes 30-45 minutes.
+
+**Diagnosis:** Identify which language is shared with every competitor (banned from final positioning) and which language is distinctive to their worldview (keep it). Extract 5-8 category language candidates directly from their answers to use in later reframing.
+
+**Next:** With the interview complete and language captured, move to Part 1 positioning work. If your positioning line does not trace back to something they said in the interview, rewrite it.
+
+---
+
 ## Part 1: Positioning: The 12 Elements
 
 Positioning answers: "Why should I choose you over the alternative?" It's not a tagline. It's the structure that makes the solution visible in a crowded market.

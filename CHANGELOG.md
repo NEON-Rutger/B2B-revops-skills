@@ -6,6 +6,28 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.5.3], 2026-09-01
+
+### Added
+- `positioning-messaging-designer`: Step 0 interview-first gate added before positioning
+  canvas work. Founder interview template moves to new reference file
+  `references/founder-interview-intake.md` with structured triads (brokenness, why,
+  fix) and interchangeability diagnosis. Prevents fiction-based positioning by
+  grounding the canvas in founder language.
+- `revops-data-governance`: Identity resolution gate (section 4b) added before record
+  creation, with four-decision rubric (Link/Create/Review/Reject) and evidence-based
+  match scoring. New reference file `references/identity-resolution-rubric.md` carries
+  account and contact matching scores and conflict rules. Outbound readiness gate
+  (section 4c) with five gates (identity, ownership, reachability, context, fit) and
+  worked cleanup sequencing example (identity fixes first, then ownership, then pipeline).
+- `deal-velocity-engineer`: Call diagnosis section added for evidence-bound PULL analysis
+  (Project, Unavoidable, List of options, Limitations). New reference file
+  `references/pull-call-diagnosis.md` carries diagnostic template, worked example,
+  and red-flag detection rules. Every claim backed by transcript quote; seller
+  performance assessment (testing vs listening); pitch fit validation.
+
+---
+
 ## [v1.5.2], 2026-09-01
 
 ### Changed
