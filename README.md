@@ -1,8 +1,8 @@
 # RevOps Skills Library for Claude
 
-**Current release: v1.5.0 (2026-09-01), 43 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.6.0 (2026-09-01), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
-43 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
+45 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
 **Built for:** B2B SaaS companies in the growth phase where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
 
@@ -32,13 +32,14 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 
 ## Skills
 
-### RevOps Core (14 skills)
+### RevOps Core (15 skills)
 
 | Skill | What it does | Since |
 |---|---|---|
 | `revops-strategy` | Revenue operations strategy, pipeline architecture, strategic advisory | v0.1.0 |
 | `revops-diagnostic` | System diagnostics, constraint identification, root cause analysis | v0.1.0 |
 | `revops-metrics` | Revenue measurement, funnel math, unit economics, benchmarks | v0.1.0 |
+| `saas-pnl-reading` | Reading and interrogating SaaS financial statements: classification choices, ARR vs revenue vs cash, add-backs, red flags, finance translation | v1.6.0 |
 | `revops-forecasting` | Forecast methodology, accuracy measurement, pipeline analysis | v0.1.0 |
 | `revops-revenue-planning` | Annual and quarterly plan construction, top-down vs bottoms-up reconciliation, reforecasting | v0.3.0 |
 | `revops-data-governance` | Data governance, quality operations, field management | v0.1.0 |
@@ -51,12 +52,13 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `revops-salesforce` | Salesforce implementation patterns for RevOps | v0.1.0 |
 | `crm-migration-consolidation` | CRM migration and post-merger instance consolidation: system of record, identity resolution, cutover | v0.4.0 |
 
-### GTM and Domain (9 skills)
+### GTM and Domain (10 skills)
 
 | Skill | What it does | Since |
 |---|---|---|
 | `gtm-planning` | GTM motion selection, org design, territory and capacity planning | v0.1.0 |
 | `gtm-compensation` | Compensation plans, quota setting, OTE structures | v0.1.0 |
+| `comp-plan-architecture` | The system around comp: crediting rules, governance, harmonization, European legal constraints, commission capitalization, SPM tooling | v1.6.0 |
 | `marketing-operations` | Lead scoring, attribution, campaign tracking, MQL handoff | v0.1.0 |
 | `cs-operations` | Customer success operations, health scoring, renewal management | v0.1.0 |
 | `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling, multi-framework | v0.1.0 |
@@ -127,6 +129,8 @@ Skills chain naturally. Start with a diagnostic, then load the specialist.
 - **Land to renew:** `onboarding-activation` → `qbr-ebr-builder` → `renewal-save-motion`
 - **Learn from decisions:** `win-loss-program` → `closed-lost-revival` → `deal-qualification-gates`
 - **Ramp the team:** `sales-ramp-enablement` → `sales-methodology` → `gtm-compensation`
+- **Comp as a system:** `gtm-compensation` → `comp-plan-architecture` → `deal-desk-operations`
+- **Talk to finance:** `revops-metrics` → `saas-pnl-reading` → `revops-forecasting`
 
 ---
 

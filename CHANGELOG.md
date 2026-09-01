@@ -6,6 +6,33 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.6.0], 2026-09-01
+
+### Added
+- `comp-plan-architecture`: the system around compensation, complementing
+  gtm-compensation's plan mechanics. Sequencing law (comp is settled last),
+  crediting and attribution rulebook with the three failure modes, comp governance
+  (committee, dispute SLA, the five documents), post-merger harmonization with CCOS
+  as the reconciliation currency, European legal constraints on changing variable
+  pay across nine jurisdictions (NL, DE with confirmed BAG 1 ABR 57/82, FR with
+  confirmed Cass. soc. 7 Jan 2026 n° 24-18.742, UK fire-and-rehire Code 2024, IE,
+  ES art. 41 ET, IT CCNL layers, SE MBL, DK notice rule), IFRS 15 / ASC 606
+  commission capitalization as a design constraint, and SPM tooling selection with
+  vendor-advocacy figures labeled as such.
+- `saas-pnl-reading`: financial statements for commercial operators. The three
+  statements and which one to believe, fast triage, P&L anatomy with the
+  classification-flattery table, ARR bridge vs recognized revenue vs billings vs
+  cash including cash flow statement structure, EBITDA add-backs and which to
+  challenge, board pack red-flag catalogue (presentation, accounting, business,
+  governance), and the two-way RevOps-finance translation table. Deliberately
+  carries no benchmark norms; defers to revops-metrics.
+
+Both adapted from privately built and fresh-agent-reviewed originals: US spelling,
+canon references replaced with in-library siblings, all legal and accounting
+findings from the review round already applied.
+
+---
+
 ## [v1.5.3], 2026-09-01
 
 ### Added
