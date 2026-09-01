@@ -6,6 +6,22 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.5.2], 2026-09-01
+
+### Changed
+- Listing repositioning across 10 skills (abm-engagement-scoring, cs-operations,
+  data-enrichment, deal-desk-operations, deal-velocity-engineer,
+  pricing-monetization-ops, revops-data-governance, revops-forecasting,
+  revops-handoffs, revops-hubspot): descriptions rewritten pain-first with one
+  quotable rule per skill and a compact trigger-phrase tail, replacing the
+  keyword-wall openers. Vendor tool names removed from descriptions. Stray
+  top-level BOUNDARY frontmatter keys removed (deal-desk-operations,
+  pricing-monetization-ops). A What good looks like section added to each of
+  the 10 skills. pricing-monetization-ops marketplace category moves from
+  Pricing to RevOps.
+
+---
+
 ## [v1.5.1], 2026-09-01
 
 ### Changed
