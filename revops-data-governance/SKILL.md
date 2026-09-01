@@ -281,10 +281,10 @@ Before creating any contact or account, run an identity resolution gate. The out
 
 ### The Four Decision Gate
 
-1. **LINK** — Strong evidence that the new data belongs on an existing record. Merge or link with audit trail preserved.
-2. **CREATE** — No credible existing record found after all strong keys are searched. Create new record with provenance documented.
-3. **REVIEW** — Multiple candidates exist or important evidence conflicts. Escalate to human; they determine survivor and action.
-4. **REJECT** — Input lacks minimum identity evidence (e.g., contact with no email AND no phone; account with no domain AND no legal entity). Do not create.
+1. **LINK**: Strong evidence that the new data belongs on an existing record. Merge or link with audit trail preserved.
+2. **CREATE**: No credible existing record found after all strong keys are searched. Create new record with provenance documented.
+3. **REVIEW**: Multiple candidates exist or important evidence conflicts. Escalate to human; they determine survivor and action.
+4. **REJECT**: Input lacks minimum identity evidence (e.g., contact with no email AND no phone; account with no domain AND no legal entity). Do not create.
 
 ### Search Strategy
 
@@ -304,7 +304,7 @@ After planning the create action, re-search immediately. Another workflow may ha
 
 ### What Gets Logged
 
-Every identity decision — link, create, review, reject — gets logged with: the search keys used, search population (active records? archived? merged entities?), candidates found, matching evidence, and the decision. For CREATE decisions: log provenance (source system, date, who initiated). For LINK/REJECT decisions: log the reasoning. Enable lookup: "Why did we create this record?" or "Why did we link these two?"
+Every identity decision (link, create, review, reject) gets logged with: the search keys used, search population (active records? archived? merged entities?), candidates found, matching evidence, and the decision. For CREATE decisions: log provenance (source system, date, who initiated). For LINK/REJECT decisions: log the reasoning. Enable lookup: "Why did we create this record?" or "Why did we link these two?"
 
 ---
 

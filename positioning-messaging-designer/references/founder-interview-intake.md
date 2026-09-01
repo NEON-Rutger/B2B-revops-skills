@@ -4,7 +4,7 @@ Run this interview BEFORE any positioning canvas work. The output is raw materia
 
 ## Interview Structure
 
-Work through one pain point at a time. For each pain, ask the three triads below and wait for complete answers. Push for depth — the specific thing, with examples, not a headline.
+Work through one pain point at a time. For each pain, ask the three triads below and wait for complete answers. Push for depth: the specific thing, with examples, not a headline.
 
 ### Triad 1: The Brokenness
 

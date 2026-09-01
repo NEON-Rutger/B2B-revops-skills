@@ -51,7 +51,7 @@ Skip a step and everything downstream breaks. This skill covers the middle two.
 
 ## Step 0: Interview First
 
-Before building the Use Case Canvas or positioning line, interview the founder in their own words. This step surfaces what they actually think is broken, why, and their fix — the raw material you will reframe into positioning. Without this intake, positioning becomes fiction.
+Before building the Use Case Canvas or positioning line, interview the founder in their own words. This step surfaces what they actually think is broken, why, and their fix: the raw material you will reframe into positioning. Without this intake, positioning becomes fiction.
 
 **The interview:** Run the founder interview intake (see `references/founder-interview-intake.md`). Capture 3-5 pain triads (what is broken, why, what the fix is), one triad per pain point. Work through their exact phrasing without paraphrasing into marketing language. This usually takes 30-45 minutes.
 
