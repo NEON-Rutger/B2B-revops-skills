@@ -16,5 +16,6 @@ Vendor-published claims of the form "win-loss programs lift win rates by X%" cir
 - Weighted multi-driver coding over single-cause fields.
 - The both-outcomes sampling rule, and win interviews as the differentiator truth source.
 - The quarterly cross-functional readout with quote-anchored findings.
+- The customer arena lane: format lineage is the lean service-management klantarena (group session, customers talking, cross-functional team listening); composition (5-8, mixed including a skeptic, segment-pure), the listening rule, the chronological journey spine, the product-or-process double tag, and the 1-2 per segment per year cadence are practice-based operating rules from running these sessions in B2B settings.
 
 After two quarters, the program generates its own evidence: compare interviewed-cohort loss causes against CRM fields for the same deals and keep the divergence table as your local proof.

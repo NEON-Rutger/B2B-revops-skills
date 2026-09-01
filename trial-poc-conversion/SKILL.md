@@ -36,6 +36,8 @@ Benchmark ranges differ so much by motion that comparing across them is the most
 | Opt-out trial (card required) | 35-55% | ~44% |
 | Sales-assisted trial / POC | 35-70% | ~55% |
 
+(Ranges are self-reported industry aggregations, not audited surveys; treat the between-motion differences as reliable and the exact figures as indicative. Your own motion's two-quarter cohort beats this table.)
+
 Three consequences:
 1. Pick the motion per segment, not per company: self-serve for low-ACV velocity, sales-assisted POC where ACV justifies the human cost, card-required where you deliberately want fewer, hotter evaluations.
 2. Benchmark against your own motion's range. A 20% conversion is strong for opt-in and a crisis for sales-assisted.
@@ -48,7 +50,7 @@ Before anyone gets a POC, four things exist in writing. If the buyer will not co
 1. **Success criteria, 2-3, measurable, theirs.** "See if we like it" is not a criterion. "Cut manual triage time on X by half, measured on their own queue" is. Criteria come from the pain evidence gathered in qualification; an evaluation cannot prove value that discovery never quantified.
 2. **The then-what.** What happens when criteria are met: commercial terms pre-agreed, signature path named, start date pencilled. An evaluation without a pre-agreed consequence is an aquarium visit.
 3. **Named owners on both sides** and the buyer's evaluation committee: who judges, against what, on which date. A POC judged by one enthusiast converts into nothing; the economic buyer sees the readout or the readout is rehearsal.
-4. **The clock.** 14 days for self-serve, 30 for sales-assisted as defaults; extensions are earned by activity, never granted by silence. Expiry with no decision is a decision, and it gets logged as one (see the zombie rules below).
+4. **The clock.** 14 days for self-serve, 30 for sales-assisted as defaults; extensions are earned by activity, never granted by silence (practice-based default; replace with your own cohort data after two quarters). Expiry with no decision is a decision, and it gets logged as one (see the zombie rules below).
 
 ## Design for Activation, Not Exploration
 

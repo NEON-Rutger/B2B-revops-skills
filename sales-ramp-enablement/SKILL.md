@@ -23,7 +23,7 @@ status: stable
 
 # Sales Ramp and Enablement: Productivity by Design, Not by Osmosis
 
-Ramp is the most expensive unmanaged period in a GTM budget. SDRs average around 3.1 months to productivity (The Bridge Group SDR Metrics, 2023), and reported AE ramps have stretched toward 5-6 months on average, with enterprise motions running far longer (industry aggregations, 2025-2026; blog-tier, direction reliable). Multiply the months by loaded cost and missed quota coverage and a single slow ramp costs more than the enablement program that would have prevented it. Yet most companies run ramp as scheduled exposure: a training week, a shadowing rotation, a quota that switches on at a date the calendar picked.
+Ramp is the most expensive unmanaged period in a GTM budget. SDRs average around 3.1 months to productivity, from the one surveyed-methodology source in this space (The Bridge Group SDR Metrics, 2023). AE figures are softer: 2025-2026 industry compilations, published without unified methodology, put average AE ramp toward 5-6 months with enterprise motions far longer; trust the segmentation shape and the lengthening trend, not the exact numbers. Multiply the months by loaded cost and missed quota coverage and a single slow ramp costs more than the enablement program that would have prevented it. Yet most companies run ramp as scheduled exposure: a training week, a shadowing rotation, a quota that switches on at a date the calendar picked.
 
 The core rule: **ramp is graduated by evidence, not elapsed time.** Every element below either defines the evidence or wires the consequences.
 

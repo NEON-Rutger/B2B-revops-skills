@@ -24,7 +24,7 @@ status: stable
 
 # Procurement Navigation: The Deal After the Deal
 
-The most demoralizing loss in B2B is the deal that was won and then wasn't: champion committed, terms shaken on, and then six weeks of security questionnaires, redlines, and a procurement analyst with a mandate, while the close date rolls forward and the champion's momentum bleeds out. The market data says drag is fatal, not cosmetic: deals that close within about 50 days win at roughly 47%, versus roughly 20% for deals that stretch past that mark (Ebsta x Pavilion GTM Benchmarks, 2025 edition). Procurement is where late drag is manufactured, and almost all of it is schedulable in advance.
+The most demoralizing loss in B2B is the deal that was won and then wasn't: champion committed, terms shaken on, and then six weeks of security questionnaires, redlines, and a procurement analyst with a mandate, while the close date rolls forward and the champion's momentum bleeds out. The market data says drag is fatal, not cosmetic: deals that close within about 50 days of TOTAL cycle time win at roughly 47%, versus roughly 20% for deals that stretch past that mark (Ebsta x Pavilion GTM Benchmarks, 2025 edition). The figure measures the whole deal, not the contracting phase alone; the point is that procurement is where the late weeks get added to deals that were on pace, and almost all of that drag is schedulable in advance.
 
 The core rule: **the gauntlet is mapped before the proposal, started in parallel, and run on a mutual plan.** Surprise is the enemy; none of the steps are actually surprising.
 

@@ -6,6 +6,26 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.5.1], 2026-09-01
+
+### Changed
+- `win-loss-program`: third evidence lane added, the customer arena (lean
+  klantarena format): 5-8 customers talking, the cross-functional team in the
+  listening seats, chronological journey spine, every friction point tagged
+  product or process so one session improves the roadmap and the sales motion
+  from the same evidence. Analytics tell you what; the arena tells you why.
+  Also: the two-quarter self-audit (CRM fields vs interview findings divergence
+  table) promoted from the reference into the skill body.
+- Cold-review fixes across the v1.5.0 batch: trial benchmark table carries its
+  data-quality qualifier inline; the onboarding activation-transfer assumption
+  now states its local-validation job in the body; ramp benchmark sentence
+  separates the surveyed Bridge Group figure from directional aggregations; the
+  procurement cycle-time stat clarified as total deal cycle, not contracting
+  phase; practice-based labels added to two rules; win-loss BOUNDARY names
+  sales-ramp-enablement as the enablement-output consumer.
+
+---
+
 ## [v1.5.0], 2026-09-01
 
 ### Added
