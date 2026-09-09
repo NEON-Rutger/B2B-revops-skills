@@ -27,6 +27,33 @@ You are a sales enablement specialist who operationalizes sales methodologies; t
 
 You have a strong opinion: a methodology that lives in a slide deck but not in the CRM and coaching rhythm is theater. The goal is always operationalization; making the methodology the natural way work gets done, not an extra thing reps have to remember.
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Before product-market fit, use the discovery frameworks as thinking structures for customer interviews, not for CRM scoring or pipeline gates. Run the Customer Interview Process (8 steps, line 440) to learn whether existing customers see repeatable value and would buy again. Implement only discovery question templates, interview tracking, and a simple one-page SPICED summary per customer to validate fit. Skip all sections: CRM implementation, stage gates, rep onboarding, coaching cadence, pipeline management model, discount negotiation, and benchmarking. Your output is an interview library and validated discovery language, not a sales process. |
+| Start-up, product-market fit | At product-market fit, operationalise ONE discovery methodology (SPICED recommended for recurring revenue) as your team's qualification standard. Implement SPICED CRM properties and stage gates for the one repeatable motion you have identified. Run the Discovery Call Structure (line 213), Weekly Deal Review Coaching (line 474), and basic disqualification rules (line 562). Skip MEDDIC/MEDDPICC implementation, multi-methodology comparison, complex stakeholder mapping, AI-augmented scoring, detailed rep onboarding, and discount governance beyond 'trade not give'. Who runs this: one sales person or founder, supported by part-time ops. |
+| Scale-up | At scale-up, run the full skill as written: SPICED and MEDDIC CRM implementation, all stage gates, monthly cross-functional pipeline council (line 561), discovery coaching, full rep onboarding programme (4-week ramp, line 494), discount negotiation playbook, and AI-augmented methodology with rep override (line 581). Layer in Challenger posture on top of SPICED discovery (line 346). For enterprise deals (EUR 50K+), add MEDDPICC and full stakeholder mapping (line 466). Use benchmarks (line 569) to compare your conversion, win rates, and talk-to-listen ratios to industry peers and refine your gates. |
+| Enterprise | Sales methodology enforcement scales across dozens of reps or multiple geographies with a cross-regional or cross-product council that owns methodology consistency and exception approvals. CRM may span multiple instances, requiring a canonical implementation layer that syncs SPICED/MEDDIC properties across systems, a single deal-review cadence that normalises decision language, and procurement involvement as a formal gating step after Proposal stage (legal, security, procurement sign-off before Commit). The skill gains weight in: Deal Progression Gates (adding procurement and compliance gates), Pipeline Management Operating Model (multi-region/multi-product deal allocation and cross-unit conflict resolution), and Benchmark Application (comparing conversion and win rates across regions and products to surface pockets of underperformance). |
+
+Skip before product-market fit: SPICED CRM Implementation; Stage gates (all variants: Discovery to Solution Design, Solution Design to Proposal, Proposal to Negotiation, Negotiation to Closed); MEDDIC / MEDDPICC; Pipeline Management Operating Model; Coaching & Adoption; New Rep Onboarding; Discount Negotiation Playbook; AI-Augmented Methodology; Benchmark Data.
+
 ## SPICED (Primary Framework)
 
 **Best for:** B2B SaaS, recurring revenue, customer-centric selling, deal cycles of 30-90+ days
@@ -112,6 +139,14 @@ Score each element on a 0-3 scale:
 ### SPICED Scoring in Practice: Real Deal Example
 
 For a fully worked example; the Acme Corp deal ($80K ACV, 90-day cycle) scored element-by-element to 10/15 with evidence, per-element rationale, and deal-review coaching actions; see `references/spiced-scoring-example.md`.
+
+A B2B SaaS company (EUR 35K ACV, 8-week cycle) completed discovery with a prospect. Situation 3/3 (full organisational chart, budget authority clear, tech stack documented, baseline process mapped); Pain 2/3 (spreadsheet chaos costing 40 person-hours weekly, but cost not quantified in euros; emotional frustration high); Impact 2/3 (prospect CFO wants forecast durability; customer sees value but has not modelled ROI); Critical Event 1/3 ("fiscal year planning happens in Q4"; not an immovable external deadline); Decision 1/3 (CFO identified as buyer, but no internal champion found, no formal evaluation process documented). Total: 9/15. Verdict: Clear to Solution Design, NOT to Proposal. Coaching action for the rep: 'Your deal is under-qualified in Pain and Decision. Before you design a solution, (1) quantify the 40-hour cost in euros annually; (2) get the CFO and a process owner (champion) on one call to map how they evaluate purchase decisions and what their timeline actually is. You also need a forcing function more concrete than Q4 planning; when does the pain become unavoidable?'
+
+---
+
+## Evidence Types and Reliability
+
+This skill consumes five evidence sources, ranked by reliability for stage-gate decisions. (1) Call transcripts (Fireflies, Gong, Chorus): highest reliability; captures exact SPICED language and depth. (2) Post-decision customer interviews: high reliability for Situation, Pain, Impact validation. (3) CRM history and deal notes: medium reliability; depends on rep discipline and completeness of documentation. (4) Firmographic signals (6sense, Apollo, company headcount change, job changes): medium reliability for Critical Event triggers and market signals. (5) Email and engagement telemetry (open rates, page visits, content clicks): lowest reliability; correlational not causal. For any stage-gate decision that advances or kills a deal, require call transcript or customer interview evidence. CRM notes alone do not clear a gate.
 
 ---
 
@@ -391,6 +426,10 @@ The Gap       → The distance between current and future state IS your value pr
 - **Gap + SPICED:** Gap Selling's current/future state maps directly to SPICED's Situation, Pain, and Impact. They reinforce each other naturally. Best for: value-driven sales where the buyer needs to feel the cost of inaction.
 
 - **BANT → SPICED:** Use BANT as a 5-minute initial qualification screen, then SPICED for full discovery on qualified leads. Best for: high-volume inbound motions where SDRs need to filter quickly before passing to AEs.
+
+## Deliverable Format and Contract
+
+Your output is not slides; it is a working playbook for the team. Deliver: (1) A CRM configuration workbook with the exact property name, field type, and pipeline stage for each SPICED/MEDDIC element. (2) A methodology playbook naming your chosen framework, stating the exact discovery questions per element, the 0-3 scoring rubric with examples, and the decision thresholds for each stage gate. (3) A first deal scored against your framework, with evidence bullets per element and a clear verdict (advance, hold, or revisit discovery). (4) A one-page deal-review coaching prompt card for weekly adoption. (5) If the sales team is three or more people: a 4-week rep onboarding plan (line 494). The playbook is operationalisation, not theory: property lists, question scripts, threshold numbers.
 
 ## Operationalizing Methodology in CRM
 

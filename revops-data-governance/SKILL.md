@@ -22,6 +22,33 @@ Most scale-ups ($15M-150M ARR) built revenue systems without building data gover
 
 This skill is prevention, detection, and correction working together.
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Pre-product-market fit companies need data hygiene, not governance structure. Run Section 4b (Identity Resolution Gate) to prevent duplicate accounts and contacts at creation; skip field naming conventions and formal approval workflows. Focus on the minimal question: do you know the company's domain and the contact's email? Use a manual deduplication sweep against your existing accounts and contacts, then build an identity-resolution gate before any new contact or account record is created. Skip the council, maturity levels, and enrichment governance; you will add those when you have the team and a repeatable motion. |
+| Start-up, product-market fit | Product-market fit (not yet scale-up) companies have one segment winning repeatably but still run most things by hand. Run Sections 2 (naming conventions for readability, not approval workflow), 3 (quality dimensions and detection systems), 4b (identity resolution), and 4c (outbound readiness gates). Build a simple data dictionary naming only required fields (account, contact, opportunity basics, stage, close date). Assign one person as data steward, not a council. Skip formal field-creation governance and multi-person councils; your constraint is adoption velocity, not complexity. |
+| Scale-up | Scale-up companies run the full skill: all eight sections. Data governance is now an operating function with owned roles, a council cadence (monthly quality review, quarterly approvals), and operational prevention (validation rules, picklists, required fields). Execute the maturity progression towards Level 3 (monthly council, automated detection, standards enforcement). Integrate enrichment vendors with clear data transfer rules. Implement the identity-resolution gate and outbound readiness gates as mandatory workflows before any campaign launches. |
+| Enterprise | Same as scale-up plus multi-instance data governance (federation across regions or business units), regulated data handling with audit trails for compliance requirements, finance-owned data standards for revenue recognition and consolidation, and cross-entity reconciliation workflows. Governance escalates to CFO or compliance office for approval on sensitive data flows. |
+
+Skip before product-market fit: Section 2: Property/Field Governance; Section 8: Data Governance Operating Model; Enrichment Strategy; Integration monitoring; Custom object decisions.
+
 ## 1. Data Model Design
 
 ### Object Architecture (Mapped to Bow Tie)
@@ -169,6 +196,8 @@ UNIQUENESS:    No duplicates?
 ```
 
 Starting point: if your organization is below 85% on any dimension, prioritize completeness and consistency before accuracy or timeliness.
+
+Quality scoring consumes CRM field data (entered by sales reps, marketers, and CS team; accuracy varies by field and team discipline; treat with suspicion until validated), automated scans (high reliability for exact matches, medium for fuzzy matches), enrichment vendor data (documented accuracy, but verify with sample audits), call transcripts (high reliability for fact extraction; requires human review for interpretation), and periodic audits (high reliability if the audit sample is random and large enough). Do not treat CRM text fields and enrichment data as equally reliable; use the five-dimension framework to surface confidence gaps.
 
 ### Data Quality Score
 
@@ -638,6 +667,12 @@ A semantic layer provides consistent, business-friendly vocabulary across the or
 **"Integrations keep breaking":** Map system of record for every data point. Define sync direction. Set up monitoring. Most integration failures come from undefined ownership.
 
 **Cross-references:** For CRM property implementation, see **revops-hubspot**. For tech stack integration decisions, see **revops-tech-stack**. For emergency data audit, see **revops-crisis**.
+
+The skill produces four deliverables for the leadership and operations team: a data dictionary (one document per object, defining fields, data types, owners, and use cases; updated quarterly), a field-governance process (defined approval workflow and SLA for new fields; documented deprecation timeline), a quality scorecard (monthly DQ score across five dimensions with baseline and 12-month targets), and an outbound readiness checklist (five-gate audit applied before every campaign launch). Frame the final scorecard and targets without reference to maturity levels or framework names.
+
+## When Not to Use This Skill
+
+This skill assumes you have a functional CRM. If you are still using spreadsheets, email, and manual record-keeping with no CRM in place, call revops-tech-stack to establish a CRM first. If your CRM is fundamentally broken (inoperable, vendor sunset, or incompatible with your workflow), see revops-crisis before attempting data governance. Governance on the wrong tool wastes the effort.
 
 ## What good looks like
 

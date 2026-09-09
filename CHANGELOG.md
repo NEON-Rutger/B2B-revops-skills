@@ -6,6 +6,27 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.7.0], 2026-09-09
+
+### Added
+- `STAGE-GUIDE.md`: the shared four-situation definition (start-up before
+  product-market fit, start-up with product-market fit, scale-up, enterprise), the
+  yes or no questions that sort a company into one, and a map of which of the
+  16 patched skills to run at each stage with a one-line "use it when".
+
+### Changed
+- Stage check section in 16 skills, inserted after the opening section: `cs-operations`, `deal-qualification-gates`, `expansion-revenue-architect`, `gtm-planning`, `onboarding-activation`, `partner-channel-operations`, `pipeline-visibility`, `pricing-monetization-ops`, `renewal-save-motion`, `revops-data-governance`, `revops-metrics`, `revops-revenue-planning`, `revops-strategy`, `sales-methodology`, `trial-poc-conversion`, `win-loss-program`.
+  Each carries the shared four-situation block plus a skill-specific table (what
+  to run, what to skip, what changes at enterprise) and a skip list for companies
+  before product-market fit. The full skill still applies to scale-ups and
+  enterprises; the change is that the skill now says so, and says what the
+  minimum version is for a start-up instead of assuming a repeatable motion.
+- Generic guardrails added where the stage check alone was not enough:
+  `pricing-monetization-ops` (evidence-label, when-not-to-use, worked-example); `renewal-save-motion` (gate-as-stop-rule); `revops-data-governance` (when-not-to-use, evidence-label, output-contract); `revops-metrics` (evidence-label, output-contract, when-not-to-use); `revops-revenue-planning` (output-contract, evidence-label, when-not-to-use); `revops-strategy` (output-contract, evidence-label, when-not-to-use); `sales-methodology` (evidence-label, output-contract, worked-example); `trial-poc-conversion` (output-contract); `win-loss-program` (evidence-label, worked-example, when-not-to-use). Kinds: gate-as-stop-rule (an existing threshold becomes a stop
+  rule), output-contract (what the deliverable must contain), worked-example,
+  evidence-label (which evidence type each section consumes), when-not-to-use
+  (sibling skill to use instead).
+
 ## [v1.6.1], 2026-09-07
 
 ### Changed

@@ -26,6 +26,33 @@ The difference: dashboards show numbers; visibility drives decisions.
 
 ---
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Do not build dashboards or automation yet. Instead, run a quarterly manual pipeline review: list all open opportunities, document which have activity in the past fortnight, and ask each owner 'Will this close in the next 60 days?' Store results in a shared spreadsheet. Capture close dates and loss reasons after each outcome. Skip all dashboard sections, pipeline hygiene automation, pipeline intelligence, and AI patterns. Focus only on understanding which deals close, why, and whether existing customers would buy again. |
+| Start-up, product-market fit | Build a single-page sales manager dashboard showing pipeline by stage and stale deals only. Implement stale-deal detection on your Qualification stage; start with a 10-14-day threshold and calibrate to your historical cycle time within 30 days (the skill's recommended ranges at lines 166-174 are practice-based, not prescriptive). Run weekly manual pipeline reviews with your sales manager; document stage, close date, next step, and activity per deal. Calculate your historical stage-to-close conversion rates from closed deals in the past 12 months. Skip executive dashboard, pipeline intelligence, big deal alerts, and forecast accuracy reporting. Run Layer 1 (stage design from your data), basic Layer 2 (manager dashboard only), basic Layer 3 (stale-deal detection only), and Layer 4 (weekly signal review in meetings). |
+| Scale-up | Run the full skill as written. All four visibility layers, all dashboard audiences, complete hygiene automation (stale deals, overdue close dates, pipeline quality scoring), pipeline intelligence signals, forecast accuracy tracking, and AI-powered patterns. Layer in AI-Powered Deal Scoring (Section: AI and Automation Patterns) in month 2 once hygiene is stable. Adopt async Slack-native deal review (Pattern 3, same section) to replace synchronous weekly calls. Calibrate all thresholds to your historical win rate and sales cycle length, not to published benchmarks. |
+| Enterprise | Enterprise organisations operate multiple business units, regions or product lines with separate P&L ownership, and pipeline visibility scales to a federated architecture. Each business unit runs the full skill with its own stage definitions (unit A: 5-stage B2B model, unit B: 8-stage enterprise model; both report their historical conversion rates). Deploy a consolidated executive dashboard (one layer above unit dashboards) showing pipeline by business unit, cross-unit pipeline coverage ratio (aggregate pipeline against aggregate bookings target), win rate variance across units (flags execution inconsistency), and big-deal escalation matrix (enterprise deals over threshold route through group CFO or steering committee). Implement formal deal quality governance: enterprise deals undergo an additional review gate (legal, finance, product) before deal registration; board-level deals are approved by CRO and CFO before commit. |
+
+Skip before product-market fit: Dashboard Architecture; Pipeline Hygiene Automation; Pipeline Intelligence; AI and Automation Patterns; Forecast Accuracy Reporting.
+
 ## The Visibility Stack
 
 Pipeline visibility has four layers. Most teams only build the first two and wonder why their forecast is wrong.

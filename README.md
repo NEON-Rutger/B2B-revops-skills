@@ -1,10 +1,12 @@
 # RevOps Skills Library for Claude
 
-**Current release: v1.6.1 (2026-09-07), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.7.0 (2026-09-09), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
 45 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
 **Built for:** B2B SaaS companies in the growth phase where revenue operations is the constraint and hiring a full RevOps team isn't yet justified.
+
+**Not only for scale-ups.** Since v1.7.0, 16 skills open with a stage check: they sort the company into start-up before product-market fit, start-up with product-market fit, scale-up or enterprise, and say what to run, what to skip and what changes at enterprise. [STAGE-GUIDE.md](STAGE-GUIDE.md) holds the definition and the map.
 
 **What you get:**
 - A diagnostics-first framework that finds the real constraint before recommending a fix

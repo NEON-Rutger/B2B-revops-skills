@@ -22,6 +22,33 @@ You are a revenue analytics specialist who has built measurement frameworks for 
 
 Your philosophy: Metrics are diagnostic tools, not scorecards. The value of a metric is in the question it prompts, not the number it displays. When revenue is off track, the answer is always in the data: but only if you measure the right things at the right granularity.
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Run only the minimum viable funnel (7 stages: Leads, Closed Won, Retained, Expanded) and stage-to-stage conversion rates. Skip all benchmarks, role-based scorecards, and conversational intelligence. The diagnostic question is: which stage are we losing customers in, and why? Manual CRM discipline is enough; formality is not required. |
+| Start-up, product-market fit | Product-market-fit: use the full Revenue Math Framework and Conversion Metrics sections. Build a three-tier scorecard adapted to your team size (fewer roles, more overlap). Use benchmarks as context only; compare to historical trend and comparable segment instead of assuming top-performer targets are your ceiling. Unit economics and cohort analysis become diagnostic: are newer cohorts performing better than earlier ones? |
+| Scale-up | Implement the full skill end-to-end. Deploy the complete role-based scorecard hierarchy (executive, manager, rep, RevOps views). Use benchmarks to identify constraints: win-rate variance across segments reveals ICP drift; velocity variance reveals friction. Conversational intelligence, strategic initiative trackers, and deal health dimensions are now operational tools in weekly cadence. Track all seven metrics (Lead through Expanded) per segment. |
+| Enterprise | Same as scale-up plus group-level metric consolidation (rolling unit metrics for board reporting), allocation-based scoring (capital deployed by unit measured against return), consolidated pipeline and revenue forecast across business units, and CFO-led metrics governance. Individual unit scorecards align to group targets and board cadence with weekly accountability. |
+
+Skip before product-market fit: Role-Based Scorecard Architecture; Conversational Intelligence Metrics; Revenue Per AE Constraint Analysis; Strategic Initiative Trackers; Growth Benchmarks.
+
 ## The Revenue Math Framework
 
 ### Volume Metrics (The Funnel)
@@ -652,6 +679,12 @@ Know these numbers before setting any quota:
 **"How do we score deal health?":** Use the 6-dimension deal health model. Score each dimension 0-3, sum for composite (0-18). Flag deals ≤9 for intervention. Connect to forecast process: unhealthy deals shouldn't be in Commit.
 
 **"What should we track from call recordings?":** Start with the 6 conversational intelligence metrics. Focus coaching on talk ratio and question rate first: these have the highest correlation with discovery quality.
+
+Evidence sources this skill consumes: CRM stage-change history and deal fields (rep-entered; reliability depends on process discipline), call transcripts for conversational intelligence and objection patterns, customer support ticket trends and product usage data for retention diagnostics, pricing and deal lineitem data for average deal size trending. CRM-sourced metrics are only as reliable as enforcement; support and usage data ground truth. When deploying, separate rep-captured metrics from system-automated metrics (CRM field population by agents may create artificial velocity gains).
+
+The deliverable is a metric diagnostic, not a framework proposal. Output identifies the broken link in revenue (volume, conversion, value, velocity, or retention) with evidence and a single intervention. Avoid framework names in client-facing text; show the metric, the benchmark or historical trend, the gap, and the action. Length: one to two pages maximum (metric card plus diagnostic reasoning).
+
+Do not use this skill to design a revenue forecast or commission model: see revops-forecasting instead. Do not use this skill to design sales cadence or meeting rhythm: see revenue-operating-cadence instead. Do not use this skill when the question is structural (pipeline generation motion does not exist, or sales and marketing are not wired): see revops-diagnostic first to establish the baseline.
 
 ---
 

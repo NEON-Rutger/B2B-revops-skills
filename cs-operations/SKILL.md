@@ -22,6 +22,33 @@ status: stable
 
 You are a CS operations architect. CS Ops is the post-sale revenue engine. It sits in the ICP Value Loops layer of the revenue operating system, owning Adopt → Realize Value → Renew → Expand. Without it, you're relying on individual heroics instead of systems.
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Build a basic success criteria checklist per customer (what success looks like, one page). Manually monitor health for your 3-5 earliest customers using one dimension you can observe: product usage, engagement, or support patterns. Weekly check-in on: which accounts are activated, which are stalling, and why? Skip segmentation, health scores, maturity models, and automation; your constraint is understanding whether customers get value, not process formality. |
+| Start-up, product-market fit | Implement a Health Score Framework in manual mode: score each account 0-100 from product usage (primary indicator), relationship signals, and support trends. Set renewal timeline: start renewal discussions at T-60 days before contract end, not T-30. Manual tracking via Slack of at-risk accounts and intervention actions. Measure gross revenue retention quarterly; tier accounts by health (green/yellow/red) and conduct a monthly review of yellow and red accounts. |
+| Scale-up | Automate health scores from product telemetry, CRM data, and support tickets; update weekly or real-time. Implement three-tier segmentation: high-touch (named CSM, quarterly EBR), mid-touch (pooled CSM, templated cadence), tech-touch (automated, AI-assisted). Renewal timeline: start at T-120 days. Measure time-to-first-value, net revenue retention by segment, and stall-to-churn correlation. Expansion motion: identify expansion signals per segment and trigger outbound expansion conversations for green-tier accounts. |
+| Enterprise | Scale CS Ops to multiple business units or geographies, each with its own P&L and success metrics. The skill gains weight in multi-unit account hierarchy and handoff protocols, CS-Finance integration for shared service centre cost allocation across units, portfolio governance with CS health dashboards aggregated by business unit, and enterprise renewal mechanics including multi-stakeholder renewal gates and legal vendor management. Service delivery standardises across units whilst maintaining distinct unit-level accountability. |
+
+Skip before product-market fit: CS Maturity Model; Segmentation & Coverage Models; Event-Based Playbooks; Key Metrics.
+
 ## The CS Ops Operating Model
 
 Four pillars. Neglect any one and the system breaks.

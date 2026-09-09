@@ -26,6 +26,35 @@ Your philosophy: Revenue planning is not a board presentation exercise. It is a 
 
 6. **FP&A and RevOps are joint decision-makers, not separate processes.** RevOps owns pipeline reality and call quality. FP&A owns financial implications. A forecast that doesn't reconcile across both functions gets revised, not approved.
 
+Evidence types this skill consumes: CRM deal history (stage, close date, deal size) at scale-up stage; customer interviews and retention data (monthly cohort survival) at PMF stage; sales rep estimates of capacity and win rate (confidence scoring required); finance top-down targets; customer feedback on expansion themes. Reliability: CRM history is high-confidence if deals are aged >30 days; rep estimates are medium-confidence without validation against actuals; customer feedback is high-confidence only when unsolicited.
+
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Pre-PMF is customer-discovery mode, not planning mode. Skip the full skill. Instead, interview your five to ten earliest customers on willingness to repurchase at 1.5x and 2x current price, and ask which features would unlock expansion within their business. Document retention (month-over-month survival) and the unit of expansion (per-seat, per-org, per-department). A three-month survival rate above 80% and two or more customers asking for expansion features signals PMF. Do NOT run capacity models, reconciliation meetings, or annual planning cycles; those formalise a motion that does not yet exist. |
+| Start-up, product-market fit | Product-market fit with one proven motion means your bottoms-up plan is real. Use the Bottoms-Up Build Process. Skip the reconciliation meeting because you do not have a formal finance function. Build three versions of the plan (baseline capacity, conservative, optimistic scenario) and share with your one sales owner or founder. Run the 10-question diagnostic to identify which planning disciplines are missing, then prioritise the three that matter most (typically: locked capacity model, version control, and monthly reforecasts on trigger). |
+| Scale-up | Run the full skill as written: the 12-week planning calendar backwards from board approval, bottoms-up build with capacity model and segment assumptions, top-down reconciliation meeting with finance, plan versioning (three versions locked), and disciplined reforecasting on explicit triggers. Embed AI forecasting into your monthly forecast call to reduce surprise and variance. |
+| Enterprise | Multi-unit and multi-region planning requires consolidation layers above each unit's bottoms-up plan. Finance owns the consolidated target; RevOps orchestrates the reconciliation across regions, products, or business units with formal governance gates (steering committee, works council) at each rollup. Planning cycles extend to 18 months, locking quarterly targets while maintaining scenario flexibility for annual board reviews. The skill gains weight in: Plan Versioning and Governance (managing three versions across multiple instances or CRM systems), Reforecasting Governance (formal approval processes for out-of-plan changes, cross-unit impact analysis), and Finance Collaboration (ASC 606 compliance, multi-currency conversion, inter-company elimination). |
+
+Skip before product-market fit: Annual Planning Calendar; The Bottoms-Up Build Process; Top-Down Forecasting and Reconciliation; Plan Versioning and Governance; Reforecasting: Triggers, Cadence, and Constraints; Benchmarks: When to Trigger a Full Reforecast.
+
 ## Annual Planning Calendar
 
 Revenue planning is a backwards-timeline exercise. Fiscal close-out, budget finalization, and board approval all anchor the schedule. Build backwards from there.
@@ -382,6 +411,12 @@ See `references/planning-diagnostic-full.md` for the detailed interpretation gui
 
 ---
 
+## When NOT to Use This Skill
+
+Do not use this skill to set quotas for individual reps; see gtm-compensation. Do not use for in-month or week-to-week forecast accuracy; see revops-forecasting. Do not use to diagnose why a plan missed; run the diagnostic tool instead after the fiscal year closes.
+
+---
+
 ## How to Use This Skill
 
 **"We need to build our annual plan from scratch."** Start with the planning calendar (backwards from board approval date). Then run the bottoms-up build (Sections 2.1-2.4). Overlay capacity model from gtm-planning. Then reconcile against top-down target using the playbook. End with Plan of Record and three versions locked.
@@ -393,6 +428,8 @@ See `references/planning-diagnostic-full.md` for the detailed interpretation gui
 **"We reforecast every month and it's chaos."** Lock the reforecasting cadence (quarterly minimum; monthly only for high-volatility businesses). Define triggers explicitly so reforecasts are data-driven, not reactive. Run the diagnostic to expose which functions are destabilizing the process.
 
 **"We don't know if we're on track."** Implement monthly forecast review against Plan of Record. Compare actual close rate to forecast. Track pipeline coverage week-to-week. Escalate on trigger (coverage drops below 2.5x, accuracy exceeds ±20%). This is what RevOps + FP&A sync owns.
+
+Deliverables per stage: Pre-PMF produces one-page customer retention assessment and expansion themes. PMF produces bottoms-up plan (one sheet per revenue type), three plan scenarios, and a monthly reforecast cadence schedule. Scale-up produces Plan of Record (locked, board-signed), three versioned documents (bottoms-up original, finance stretch, plan of record), and quarterly reforecasts compared against baseline.
 
 ---
 

@@ -8,6 +8,33 @@ status: stable
 
 # Partner & Channel Operations
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Partner programmes at scale will hide whether partners actually help you win. Skip the full operating model. Instead, recruit one or two trusted partners with existing relationships or relevant expertise, and ask them to help close your next 3-5 deals. Measure whether deals involving them close faster, at higher value, and with lower risk. Iterate on that signal before building tiers, CRM fields, or formal deal registration. This skill's governance layer (tiering, certification, health scoring, dashboards, vendor stack) is not executable at this stage. |
+| Start-up, product-market fit | Product-market fit with one repeatable motion: run the full skill. Start by defining your Ideal Partner Profile and three-tier structure (T1 = 3-5 strategic, T2 = 10-20 growth, T3 = unlimited referral). Implement deal registration with conflict rules in your CRM, build lightweight enablement (product training, battlecards, playbook), and run basic partner reviews quarterly for T1 only. Do not invest in account mapping technology, predictive scoring, or partner portals until partner revenue is stable and exceeds 15% of total pipeline. |
+| Scale-up | Apply the full skill without modification. Implement the complete five-component operating model: tiering by performance, formal certification and onboarding, deal registration with SLAs and conflict resolution, partner health scoring with quarterly reviews, and a technology stack (partner portal, Crossbeam or Introw for account mapping, a PRM if over GBP15M ARR). Track both partner-sourced and partner-influenced deals separately. Measure programme ROI: partner-attributed revenue minus programme cost divided by programme cost. |
+| Enterprise | Enterprise organisations operate partner ecosystems at scale across multiple regions, business units, and product lines, requiring formal governance and multi-tier partner hierarchies. Extend tiering to include partner-of-partners (partner resellers selling through partner integrators); implement a partner compliance framework (contract terms standardised globally but with regional amendments, SLA gates for each tier with escalation to partner steering). Install a partner performance council (quarterly; partner directors from each business unit, CFO, general counsel; approves tier promotions, resolves cross-unit partner conflicts, reviews partner contribution to enterprise P&L). Deploy a unified partner CRM view (federated from each business unit's instance, or a dedicated partner platform if multiple CRM vendors exist across units) so partner contribution is visible at the enterprise level. |
+
+Skip before product-market fit: Tiering Structure; Deal Registration; Partner Health Scoring; Partner Review Cadence; Maturity Model: Partner Operations; Partner Technology Stack.
+
 ## The Partner Operating Model
 
 Partner-driven revenue is becoming table stakes in B2B SaaS. The data is clear: partner-involved deals close 46% faster and are 53% more likely to close (Crossbeam State of Partner Ecosystem, 2023; 500+ GTM leaders), producing 32-60% larger deal sizes (Introw, 2024; Crossbeam case studies). Mature programs source 25-40%+ of total revenue, and partner-involved accounts are 58% less likely to churn (Crossbeam, 2023). But most partner programs fail. Not because of bad partners, but because of bad operations.

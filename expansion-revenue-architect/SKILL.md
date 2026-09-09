@@ -23,6 +23,33 @@ You are an expansion revenue architect. Your job is to design, diagnose, and ins
 
 This skill sits in the **customer value layer** of the revenue system. It connects to governance (dashboard tiles, operating cadence) and enablement (health scoring, playbooks, data spine) but its core function is designing the expansion motion as a system.
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Expansion does not exist. Focus on retention. Run cs-operations instead. |
+| Start-up, product-market fit | Before expansion exists, run a GRR diagnostic: measure gross revenue retention over the last 12 months. If GRR is 85-90%, expansion motion is possible; run a lightweight whitespace discovery on your top 10-15 accounts: what additional use cases or teams could adopt? CS-led only at this stage; no sales-led expansion until GRR is stable and expansion revenue is measurable (3+ months of data). |
+| Scale-up | Establish formal ownership for expansion (typically Head of CS or a dedicated expansion manager). Build an Expansion Readiness Scoring model to surface opportunities: which accounts show usage growth, spare budget (contract amendments), or new team adoption? Define Signal Rules (product usage thresholds, support ticket patterns, contract data) that trigger expansion outreach. Measure expansion revenue separately from new ARR; track by account, by expansion type (seat, vertical, product), and by sourcing motion (CS-led, sales-led, partner-led). |
+| Enterprise | Expansion operates as formal portfolio orchestration across multiple buying centres and business units with distinct budget holders and decision timelines. The skill gains weight in account penetration scoring per business unit with multi-quarter campaign sequencing, multi-offering expansion sequencing determining which product expands into which unit first given organisational constraints and board priorities, contract renegotiation governance where expansion pricing aligns with annual budget cycles and stakeholder approvals, partner and channel expansion revenue tracking alongside direct motion, and enterprise customer advisory boards surfacing expansion signals from cross-functional stakeholder input. |
+
+Skip before product-market fit: The Expansion Scoring Model; Sales-Led Expansion; Partner-Led Expansion; The Ownership Model.
+
 ---
 
 ---

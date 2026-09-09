@@ -32,6 +32,37 @@ Expansion gets the attention because it is offense. But a dollar of churn cancel
 
 ---
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Run monthly check-ins only. Document whether value persists, whether they would stay, and what causes departure. Skip the renewal clock and triage logic. Focus on understanding customer satisfaction at a basic level without formal processes. |
+| Start-up, product-market fit | Run failure-mode triage on risk signals. Test commercial levers in priority order. Log account name, mode, lever used, outcome, and time to resolution. Skip the T-120 renewal timeline; your constraint is understanding which accounts are at risk. |
+| Scale-up | Run full skill. Assign a named owner. CRM tracks renewal dates and health scores. Segment by failure mode; measure save rate per mode. Execute the commercial levers in sequence and track which ones work for your customer base. |
+| Enterprise | Same as scale-up plus account governance model for multi-region or multi-product customers, with cross-functional account teams and renewal ownership matrices tied to regional or divisional profit and loss. Steering committee escalation protocol for strategic at-risk accounts, and formal executive sponsor re-engagement for accounts above renewal value thresholds. |
+
+Skip before product-market fit: The Renewal Clock; Scorekeeping; Diagnostic Questions.
+
+## Entry condition
+
+If no account is flagged, stop. This skill saves a flagged account. Use customer-health-audit first if you need to identify at-risk accounts.
+
 ## The Renewal Clock
 
 Every renewal runs the same clock, regardless of health. Healthy accounts move through it in minutes per checkpoint; flagged accounts trigger the save motion.

@@ -30,6 +30,35 @@ This skill installs that second axis: an evidence-quality score per qualificatio
 
 ---
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Score evidence quality only for the conversations you are already having. Run the Evidence-Quality Scale on your last 5-10 customer conversations to identify which dimensions you never ask about. This diagnostic serves your pre-PMF question: do existing customers perceive value and would they buy again? Skip all stage gates, deployment, and rollout sections until you have a repeatable motion. |
+| Start-up, product-market fit | Install evidence-quality scoring on a single winning motion with one stage gate (typically Discovery to Demo). Score every deal on SPICED dimensions 1-5 as evidence lands from calls and conversations, not from memory. Build a one-page weekly exception report: which deals above this one gate sit below the minimum evidence threshold (14 total for Demo stage). Run weekly qualify-or-kill reviews on those flagged deals with one verdict per deal (re-qualify, downgrade, or kill). |
+| Scale-up | Implement the full skill end-to-end. Install all four stage gates (Inbound to Discovery, Discovery to Demo, Demo to Proposal, Proposal to Commit). Score all six SPICED dimensions on all deals. Build a weekly below-gate exception report and attend a weekly qualify-or-kill review with sales leadership. Automate scoring where your CRM or conversation intelligence tool can extract dimension evidence from call transcripts. Expect to kill 15-30% of your existing pipeline in the first rollout; that trade is the entire point. |
+| Enterprise | Qualification gates expand from individual deal truth-telling to cross-unit pipeline governance and regulatory audit trails. The skill gains weight in multi-unit pipeline consolidation and duplicate detection to prevent the same prospect appearing in multiple units' pipelines, legal and compliance gates including procurement checkpoints and security review evidence scoring, deal desk operations where discount approvals require qualification evidence, and revenue recognition gating for ASC 606 compliance. Forecasting accuracy ties directly to evidence-quality maturity across all units. |
+
+Skip before product-market fit: The Stage Gates; Deployment; Rollout Order; Diagnostic Questions.
+
+---
+
 ## The Evidence-Quality Scale
 
 Score every qualification dimension 1 to 5. The scale grades evidence, never rep enthusiasm:

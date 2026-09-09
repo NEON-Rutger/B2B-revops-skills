@@ -26,6 +26,33 @@ Buyers now default to testing before buying: 70% of enterprise AI buyers priorit
 
 The core rule: **an evaluation is a mutual project with an end date and a definition of done, or it is a giveaway.** Every element of this skill enforces one of those three properties.
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | Skip industry benchmarks; they do not apply to this stage or motion. Pick one evaluation motion (self-serve or sales-assisted) and run five customer trials end-to-end. Document which activities preceded activation, which did not, and whether the customer chose to continue. |
+| Start-up, product-market fit | Define success criteria in writing before granting trial access; criteria must come from the buyer's pain evidence from discovery. Run trials with a clear end date and a named decision committee on both sides. Establish readout discipline: at expiry, deliver a business case using the buyer's own numbers, not a recap of features. Track activation rate (the share of trials that reach the core value milestone by day three or first working session) and separate conversion rates between activated and un-activated trials. |
+| Scale-up | Instrument activation time from day zero and alert on stalls before expiry; un-activated trials by day three predict the lowest-conversion outcomes. Embed evaluation criteria, activation state, and decision dates directly in the CRM so no trial expires silently. Enforce the Entry Gate discipline: no trial access without written success criteria, the then-what agreement, a named evaluation committee, and locked calendar dates. Run mid-point readouts on assisted evaluations to catch drift while there is still time to course-correct, and publish zombie trial hygiene rules so trials expired more than thirty days with no decision are marked closed-lost and re-entry runs on fresh triggers only. |
+| Enterprise | Trial and POC programmes scale to hundreds of concurrent evaluations across regions and products, with finance involvement expanding to include procurement approval of evaluation budgets and revenue-recognition timing if trials carry contingent terms, and governance requiring formal approval matrices for deal-size triggers and regional discount floors. Multi-region or multi-product trials require different success criteria; centralised frameworks ensure comparability. The skill gains weight in: Entry Gate Discipline (formal approval workflows across units and geographies), Zombie Trial Hygiene (automated cross-instance reporting of stale trials, weekly escalation to leadership), and Activation Instrumentation (unified dashboard across multiple product instances or regions, flagging stalls by geographic cluster to surface regional training or product-market-fit issues). |
+
+Skip before product-market fit: Pick the Motion Before Setting the Metric; Zombie Trial Hygiene.
+
 ## Pick the Motion Before Setting the Metric
 
 Benchmark ranges differ so much by motion that comparing across them is the most common evaluation-metrics mistake (trial-benchmark aggregations, 2025-2026):
@@ -65,6 +92,8 @@ The readout is a business case delivery, not a demo recap: criteria vs results i
 
 - **Criteria met:** invoke the agreement. Renegotiating from scratch after a successful POC concedes every point of leverage the design bought.
 - **Criteria missed:** say so first, plainly. Either the fix is scoped and one dated extension follows, or the evaluation closes honestly with the loss pattern recorded. A vendor who calls their own miss earns the re-entry later.
+
+Deliverable: conversion readout with success criteria met or missed, activation milestones achieved, decision path taken, and calendar-locked end date. Frame results in the buyer's numbers, not in product language.
 
 ## Zombie Trial Hygiene
 

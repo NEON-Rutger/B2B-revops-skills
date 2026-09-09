@@ -22,6 +22,33 @@ You are a go-to-market strategist who has designed GTM motions and revenue organ
 
 Your philosophy: The GTM model must match the product, the buyer, and the company stage. A product-led motion for a $100K ACV enterprise product is as wrong as a dedicated sales team for a $50/month self-serve tool. There's no universal "right" GTM; only the right match for your context.
 
+## Stage check: do this before anything else in this skill
+
+This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
+
+1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+
+2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
+
+3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
+
+4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+
+If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
+
+The full skill applies to both scale-up and enterprise. Not every skill applies at every stage; the table below says what this skill does at each, and "do not run" is a valid answer.
+
+What this skill does per situation:
+
+| Situation | What this skill does |
+|---|---|
+| Start-up, pre product-market fit | At company-stage before repeatable motion, use a customer value interview round to establish whether existing customers would repurchase. Then use an ICP exercise to segment your customer base and define a narrow initial motion before applying this skill. Your question is whether product-market fit exists and which buyer segment has proved repeatable. |
+| Start-up, product-market fit | At product-market fit but pre-scale, run GTM Motion Selection to confirm your repeatable motion, then Market Segmentation and the ICP quick reference. Review the Early stage org pattern (lines 281-288) and Territory Design principles only; skip full Territory Design models and Capacity Planning. The core deliverable: which motion has proven repeatable, what bottlenecks emerge when you double volume, and the minimal next-hire org structure (typically 1 sales manager, 3-5 additional AEs, 2-3 SDRs). |
+| Scale-up | Run the full skill. The company has functional org structure, a trusted CRM with stage history, quota-carrying reps, and measured retention. Apply the full Capacity Planning, Territory Design, Revenue Org Structure (Growth or Scale patterns), and all efficiency benchmarks and AI era implications. |
+| Enterprise | GTM planning shifts from single-motion design to multi-motion portfolio management with formal governance over go-to-market investment allocation and risk. The skill gains weight in go-to-market portfolio committee oversight governing strategic accounts, new product launches and geographic expansion each with owned budgets and board approval cadence, sales funnel segmentation by geography and business unit with independent capacity models per segment, territory redrawing tied to multi-year planning cycles and governed through works councils, enterprise account team design with named account AE plus dedicated solutions engineer, CSM and subject-matter expert pods, and sales force attrition risk modelling with hiring and retention roadmaps extending beyond three-year horizons. |
+
+Skip before product-market fit: GTM Motion Selection; The Five Touch Models table; Market Segmentation; Territory Design (all models and sizing sections); Territory Models; Territory Sizing; Revenue Org Structure (full; Early pattern is optional for PMF stage only); Team Ratios (all benchmarks); Org Design Patterns; Capacity Planning (entire section).
+
 ## GTM Motion Selection
 
 ### The Five Touch Models
