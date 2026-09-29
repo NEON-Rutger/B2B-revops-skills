@@ -282,7 +282,7 @@ For the full weekly breakdown and the success-metrics table (90-day and 6-month 
 
 ## Benchmarks
 
-Calibrated for $15-150M B2B SaaS. Always adjust for your stage, ACV, and motion type. The headline thresholds: **NRR >110%** (great) / **>120%** (best-in-class), **GRR >90%** (great) / **>95%** (best-in-class), and **expansion as 20-30%+ of new ARR**.
+Calibrated for $15-150M B2B SaaS. Always adjust for your stage, ACV, and motion type. The headline thresholds: **NRR >110%** (great) / **>120%** (best-in-class), **GRR >90%** (great) / **>95%** (best-in-class), and **expansion as 20-30%+ of new ARR**. Market reference for these lines: median NRR 101% to 102% with top quartile about 110%, median GRR 84% to 91% with top quartile about 91% (Benchmarkit 2026; SaaS Capital 2025), so "great" here already means top quartile.
 
 For the full sourced benchmark set (master benchmarks, NRR by company stage, NRR by ACV band, GRR by segment, the expansion economics advantage of CAC/payback/close-rate/cycle, and expansion-revenue share by ARR stage) see `references/benchmarks-sourced.md`.
 
@@ -294,11 +294,11 @@ UBP is the strongest structural lever for NRR. The data supports prioritizing pr
 
 | Metric | UBP Companies | Traditional Pricing | Source |
 |--------|--------------|-------------------|--------|
-| Average NRR | **137%** | ~110% | OpenView Usage-Based Pricing Trends (through 2023) |
-| YoY revenue growth | **29.9%** | 21.7% | OpenView (through 2023); Zuora data |
-| Expansion mechanism | Automatic (usage growth) | Manual (CSM-led) | m3ter 2026 |
+| Average NRR | **137%** | ~110% | OpenView Usage-Based Pricing Trends (through 2023; series discontinued, older than 2025, directional only) |
+| YoY revenue growth | **29.9%** | 21.7% | OpenView (through 2023; older than 2025); Zuora data |
+| Expansion mechanism | Automatic (usage growth) | Manual (CSM-led) | m3ter 2026 (vendor) |
 
-**~60% of SaaS companies** now use or are testing usage-based pricing (OpenView SaaS Benchmarks, 2023). The shift is structural, not a trend.
+Usage components are now mainstream: 42% of AI and software companies report consumption-based pricing and 23% outcome-based (ICONIQ State of AI 2026, survey), and hybrid is the most common primary model at 37%, up from 25% (Growth Unhinged 2026 pricing survey, n=230). The shift is structural, not a trend.
 
 **When to recommend UBP to your business:**
 - They have a clear value metric that scales with customer success

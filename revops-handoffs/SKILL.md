@@ -124,7 +124,7 @@ Don't wait for steady-state. Track: milestone completion rate, stakeholder engag
 
 ## 4. CS to Sales (Expansion)
 
-Expansion costs $0.27/$1 ACV vs $1.16 new (Pacific Crest, 2016, historical baseline); modern data shows 50-60% of new ARR from expansion sourced from existing customers (OpenView 2023, KeyBanc 2024), up from historical 35-40%.
+Expansion costs $0.27/$1 ACV vs $1.16 new (Pacific Crest, 2016, historical baseline); expansion's share of revenue rises with scale: about 23% at $1-5M ARR, 34% at $5-20M, 40% at $20-50M, and it overtakes new-customer revenue above $50M (High Alpha 2025 SaaS Benchmarks, 800+ companies; https://www.highalpha.com/blog/how-expansion-revenue-drives-sustainable-saas-growth).
 
 ### Three Expansion Types: Critical
 

@@ -13,7 +13,7 @@ The performance distribution in B2B sales is extreme and widening:
 | Methodology adherence | 588% more likely | Baseline | 6.9x | Ebsta/Pavilion 2024 |
 | Objection handling | 843% more likely | Baseline | 9.4x | Ebsta/Pavilion 2024 |
 
-**Sample:** 655,000 opportunities, USD54B revenue, 1M+ hours of conversations (Ebsta/Pavilion 2024-2025 dataset).
+**Samples:** the 2025 rows come from the Ebsta x Pavilion 2025 GTM Benchmarks (about 655,000 opportunities, $48B pipeline; https://www.joinpavilion.com/resource/2025-gtm-benchmarks-ebsta-pavilion). The 588% and 843% rows come from the Ebsta x Pavilion 2024 B2B Sales Benchmarks (4.2M opportunities, $54B revenue, 530 companies, 1M+ hours of conversations; https://www.ebsta.com/ebsta-pavilion-b2b-sales-benchmarks-2024/), older than 2025 and kept because no newer edition repeats these measures. Last verified: 2026-09.
 
 **What this means for velocity engineering:** The system should be designed to bring the middle 60% closer to the top 20%. The gap is not talent; it's methodology adherence, deal discipline, and inspection rigor. All of which are system-level fixes.
 

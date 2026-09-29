@@ -134,9 +134,9 @@ The #1 tactical fix for deal velocity. Most companies have pipeline stages but n
 
 **Principle:** Stage advancement must reflect **buyer actions**, not seller activities. "I sent the proposal" is a seller action. "They scheduled a review meeting with the CFO" is a buyer action.
 
-**Top performer data (Ebsta/Pavilion 2024, 655,000 opportunities):**
+**Top performer data (Ebsta x Pavilion 2024 B2B Sales Benchmarks, 4.2M opportunities, $54B revenue, 530 companies):**
 - Top performers are **588% more likely** to follow sales methodology effectively
-- Top performers are **241% more likely** to have economic buyer engaged before "solution presented" stage
+- Top performers are **241% more likely** to have economic buyer engaged before "solution presented" stage (not re-verified at the 2026-09 pass)
 - Top performers are **843% more likely** to overcome objections
 - Successful deals average **9 contacts engaged** at solution presented stage vs. far fewer in lost deals
 
@@ -217,7 +217,7 @@ Single-threaded deals are the biggest preventable risk in B2B sales.
 - Large strategic deals average **17 contacts** engaged (Gong 2024)
 - Multi-threading boosts win rates by **130%** for deals over $50K (Gong 2024)
 - **58% win rate** when 4+ contacts are involved (Gong 2024)
-- Single-threaded deals are **2.5x more likely to slip** (Ebsta/Pavilion 2024)
+- Closed-won deals carry roughly **2x more buyer contacts** than lost deals, and low performers' deals are **217% more likely to slip** at late stage (Ebsta x Pavilion 2025). Treat single-threading as the leading slip risk.
 
 ### Multi-Threading Score
 
@@ -251,7 +251,7 @@ A mutual action plan (MAP) is a shared document between seller and buyer that ou
 
 - Teams using MAPs see **26% higher win rates** (Outreach 2024)
 - MAPs combat the **"no decision" outcome that kills 60% of complex deals** (Aviso 2024)
-- Early economic buyer engagement (which MAPs facilitate) boosts win rates by **55%** (Ebsta/Pavilion 2024)
+- Early economic buyer engagement (which MAPs facilitate) boosts win rates by **55%** (Ebsta x Pavilion 2025)
 
 ### MAP Template
 
@@ -267,7 +267,7 @@ Ranked by evidence strength:
 
 ### Tactic 1: Early Economic Buyer Engagement
 
-**Evidence:** Early EB engagement boosts win rates by **55%**. Delayed EB engagement reduces win rates by **113%** (Ebsta/Pavilion 2024). Top performers are **241% more likely** to have EB engaged before solution presentation.
+**Evidence:** Early EB engagement boosts win rates by **55%**. Delayed EB engagement reduces win rates by **113%** (Ebsta x Pavilion 2025). Top performers are **241% more likely** to have EB engaged before solution presentation (Ebsta x Pavilion 2024; not re-verified at the 2026-09 pass).
 
 **How to implement:**
 - Stage 2 exit criteria requires EB identified (name + role)
@@ -445,7 +445,7 @@ For the full rubric, worked examples, and evidence checklist, see `references/pu
 Classic deflation case. Run the zombie diagnostic first. You'll probably find 30-40% of pipeline is dead. Deflate, then fix conversion on the remaining clean pipeline.
 
 **"Deals keep slipping to next quarter"**
-Slippage is always a stage exit criteria problem. Check: are deals advancing based on buyer actions or seller hope? Install stage gates with CRM enforcement. Also check multi-threading. Single-threaded deals are 2.5x more likely to slip.
+Slippage is always a stage exit criteria problem. Check: are deals advancing based on buyer actions or seller hope? Install stage gates with CRM enforcement. Also check multi-threading: single-threaded deals are the leading slip risk, and low performers' deals are 217% more likely to slip late-stage (Ebsta x Pavilion 2025).
 
 **"Win rates are low but reps say deals are progressing"**
 Methodology adherence gap. Top performers are 588% more likely to follow methodology. Score methodology adherence per deal and inspect in pipeline reviews. The cure is deal inspection, not pep talks.
