@@ -26,13 +26,12 @@ The core challenge: **Consumption pricing is only as good as your metering, bill
 
 This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
 
-1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+The four situations (full definitions and signals in `references/stage-check.md`):
 
-2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
-
-3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
-
-4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+1. Start-up, pre product-market fit: fewer than roughly 30 comparable customers, wins from the founders' network, no measured win rate, cycle time or retention, nobody on quota. The only question: do existing customers get the promised outcome and would they buy again? Run the minimum version, or do not run it.
+2. Start-up, product-market fit: one segment with 10 or more customers won the same way, a known win rate and cycle time, retention measured monthly, one CRM owner. Run the skill for that one motion; thresholds are guidance, not rules.
+3. Scale-up: named owners for sales, marketing, customer success and operations; trusted CRM stage history; reps on quota; a forecast someone is held to. Run the full skill.
+4. Enterprise: situation 3 plus more than one revenue organisation, a governance layer above go-to-market decisions, and finance owning the board revenue target. Run the full skill with the enterprise deltas in the table.
 
 If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
 
@@ -475,7 +474,7 @@ Existing customer (renewing in August):
 - Low-usage customers (who are price-sensitive) see a smaller increase or none.
 - Requires cohort analysis and segmentation in the billing system.
 
-**Gotcha:** Communicate price increases 60+ days before execution. Surprise increases drive churn. In one study, proactive communication reduced churn from a 15% impact to 5%.
+**Gotcha:** Communicate price increases 60+ days before execution. Surprise increases drive churn. Proactive communication reduces price-increase churn (practice-based; no traceable study quantifies the effect).
 
 ## Operational Playbook 3: Data Quality and Billing-Grade Standards
 
@@ -591,12 +590,12 @@ Do not use this skill if: (1) the customer's contract is pure flat-fee annual wi
 
 ## References
 
-- Ledgerup (2026). Consumption Pricing Adoption Report: 77% of largest software companies using consumption-based pricing. Market sizing: $6.5B in 2026, projected $15.3B by 2032.
-- Chargebee (2025). State of Subscriptions: 43% of companies using hybrid pricing models today; projected 61% by end of 2026.
+- Metronome (2025). State of Usage-Based Pricing 2025 Report (vendor research): 77% of the largest software companies have some form of usage-based pricing.
+- Ledgerup (2026), relaying third-party market research (forecast): usage-based billing software market about $6.5B, projected $15.3B by 2032.
+- Growth Unhinged (2026). The 2026 State of B2B SaaS and AI Monetization Report (survey, n=230): hybrid is the most common primary pricing model at 37%, up from 25% a year earlier.
 - Zuora (2026). Metered Billing Guide: Architecture and implementation patterns for usage tracking and deduplication.
-- Gartner (2026). Revenue Ops Platform Landscape: CPQ consolidation trends and ASC 606 compliance requirements.
-- HubSpot (April 2026). Breeze Agent pricing shift: $0.50 per resolved conversation (Customer Agent), $1.00 per recommended lead (Prospecting Agent).
-- Zylo (2026). SaaS Management Index: 78% of IT leaders experienced unexpected consumption or AI charges in the past year.
+- HubSpot (April 2026). Breeze Agent pricing shift: about $0.50 per resolved conversation (Customer Agent), $1.00 per recommended lead (Prospecting Agent).
+- Zylo (2026). SaaS Management Index: 78% of IT leaders reported unexpected charges tied to consumption or AI pricing in the past 12 months.
 - Normative estimates on revenue recognition complexity: Based on practice patterns across 5,000+ consumption contracts per customer. Re-estimation required monthly for ASC 606 compliance.
 
 See also: `references/benchmarks-sourced.md` for detailed sourcing on all quantitative claims.

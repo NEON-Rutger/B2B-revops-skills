@@ -1,9 +1,11 @@
 # Ramp Benchmarks: Provenance and How the Skill Uses Them
 
+Last verified: 2026-09. Figures older than 2025 are kept only where no newer edition exists and are marked as such.
+
 ## Externally sourced
 
-- SDR ramp ~3.1 months average: The Bridge Group SDR Metrics report (2023). The most methodologically solid number in this space (surveyed SDR organizations, published methodology). Their reports also document the structured-vs-unstructured onboarding gap.
-- AE ramp averages stretching toward 5-6 months blended, 3-4 months SMB, 4-6 mid-market, 9-15 enterprise, with the average lengthening since 2020: industry aggregations published 2025-2026. Blog-tier compilations without unified methodology; the skill uses the segmentation shape and the lengthening direction, not the precise figures.
+- SDR ramp ~3.1 months average: The Bridge Group SDR Metrics report (2023; survey; older than 2025, no newer edition could be confirmed in the 2026-09 pass, so re-check before quoting externally). The most methodologically solid number in this space (surveyed SDR organizations, published methodology). Their reports also document the structured-vs-unstructured onboarding gap.
+- AE ramp averages stretching toward 5-6 months blended, 3-4 months SMB, 4-6 mid-market, 9-15 enterprise, with the average lengthening since 2020: industry aggregations published 2025-2026 (aggregator blogs, not primary research). Blog-tier compilations without unified methodology; the skill uses the segmentation shape and the lengthening direction, not the precise figures.
 
 ## Deliberately excluded
 

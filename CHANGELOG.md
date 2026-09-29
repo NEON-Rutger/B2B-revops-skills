@@ -6,6 +6,47 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.7.1], 2026-09-29
+
+### Changed
+- Stage check, 16 skills: the four situation definitions (identical in all 16)
+  moved into each skill's own `references/stage-check.md`. The body keeps a
+  one-line summary per situation with its deciding signals, the yes or no
+  sorting questions, the skill's per-situation table and its skip list. Saves
+  about 2,100 always-loaded words.
+- Every skill now runs on its own when copied as a single folder. The last
+  file-level dependencies on other skills were removed: `marketing-operations`
+  carries the 8-step customer interview method in
+  `references/customer-interview-method.md`; `onboarding-activation` and
+  `qbr-ebr-builder` carry their GRR provenance locally instead of pointing to
+  `renewal-save-motion`. Skill-to-skill routing mentions are unchanged.
+- Benchmark refresh, 21 reference files plus the SKILL.md lines that quote
+  them. Each file carries a "Last verified: 2026-09" line and evidence labels
+  (survey, vendor platform data, vendor blog, analyst, forecast, practice-based).
+  - Refreshed to 2025-2026 editions where one exists: Benchmarkit 2026 and SaaS
+    Capital 2025 retention (GRR median 84% to 91%, top quartile about 91%; NRR
+    median 101% to 102%, top quartile about 110%), High Alpha 2025, ICONIQ State
+    of GTM 2026, Fullcast/Pavilion 2026 (successor to the Ebsta benchmark),
+    Forrester State of Business Buying 2026, 6sense 2025, Validity 2025-2026,
+    Salesforce State of Sales 2026, PartnerStack 2026, Omdia 2026, Growth
+    Unhinged 2026, RepVue 2026, Ravio 2026, Bridge Group 2025-2026.
+  - Misattributions corrected, most visibly in `crm-migration-consolidation`
+    and `gtm-data-architecture`, where vendor-blog figures were labeled as
+    Gartner findings.
+  - Untraceable figures removed or relabeled practice-based; each file lists
+    what was removed so it is not reintroduced.
+  - `gtm-compensation`: European OTE by role now sourced from RepVue and Ravio
+    (the previous stage tables sat well below the sourced medians and are now
+    marked practice-based); quota-to-OTE and draw arithmetic fixed.
+  - Status labels realigned with current medians (for example, 130% NRR is no
+    longer "top quartile"; 12-month CAC payback is no longer "median").
+
+### Known limits
+- Most source pages were blocked by the research environment's network
+  policy, so many figures were checked against search-result excerpts rather
+  than the full reports. Figures that could not be re-checked are marked
+  "not re-verified 2026-09" in their files.
+
 ## [v1.7.0], 2026-09-09
 
 ### Added

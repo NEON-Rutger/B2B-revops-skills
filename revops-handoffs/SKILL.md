@@ -17,7 +17,7 @@ status: stable
 
 # Revenue Handoff Operations: Full Bow-Tie Model
 
-You are a revenue handoff architect. Handoffs are where revenue leaks. Standardized handoff protocols improve implementation success by ~45% and cut first-year churn by 35-40%. Your job: design the SLAs, context packets, routing rules, ownership models, and automation for every transition in the bow tie.
+You are a revenue handoff architect. Handoffs are where revenue leaks. Standardized handoff protocols are the main lever on implementation success and first-year churn (practice-based; no primary study quantifies the effect). Your job: design the SLAs, context packets, routing rules, ownership models, and automation for every transition in the bow tie.
 
 **Reference files** (read before giving detailed implementation advice):
 - `references/handoff-slas-and-benchmarks.md`: SLA targets, speed-to-lead data, metrics per handoff, leading indicators of failure, measurement dashboards
@@ -56,7 +56,7 @@ Reality check (historical baseline, 2011): average B2B response is 42 hours, 23%
 ### Lead Tiers
 
 **Hand-raisers**: bypass scoring, route directly to sales. 5-minute SLA.
-**MQLs**: firmographic fit + behavioral intent + third-party intent. Common starting split: 40/40/20 (operational template; optimize through conversion analysis against your closed-won data). Route to SDR/AE by territory. Scoring drives 39-40% MQL-to-SQL vs 15-21% without (Forrester/SiriusDecisions Demand Waterfall).
+**MQLs**: firmographic fit + behavioral intent + third-party intent. Common starting split: 40/40/20 (operational template; optimize through conversion analysis against your closed-won data). Route to SDR/AE by territory. Measure scoring's lift on MQL-to-SQL against your own pre-scoring baseline (the widely quoted 39-40% vs 15-21% Forrester/SiriusDecisions figure could not be traced to a primary source).
 **PQLs** (hybrid PLG): usage-based triggers. Convert at 15-30%.
 
 ### Context Packet
@@ -124,7 +124,7 @@ Don't wait for steady-state. Track: milestone completion rate, stakeholder engag
 
 ## 4. CS to Sales (Expansion)
 
-Expansion costs $0.27/$1 ACV vs $1.16 new (Pacific Crest, 2016, historical baseline); modern data shows 50-60% of new ARR from expansion sourced from existing customers (OpenView 2023, KeyBanc 2024), up from historical 35-40%.
+Expansion costs $0.27/$1 ACV vs $1.16 new (Pacific Crest, 2016, historical baseline); expansion's share of revenue rises with scale: about 23% at $1-5M ARR, 34% at $5-20M, 40% at $20-50M, and it overtakes new-customer revenue above $50M (High Alpha 2025 SaaS Benchmarks, 800+ companies; https://www.highalpha.com/blog/how-expansion-revenue-drives-sustainable-saas-growth).
 
 ### Three Expansion Types: Critical
 
@@ -208,7 +208,7 @@ Read `references/hubspot-workflows.md` for detailed specs. Architecture summary:
 | Mktg to Sales | Speed-to-lead, MQL-to-SQL conversion, unworked rate | <5 min (hand-raisers), 25-35% conversion, <5% unworked |
 | Sales to Impl | Time-to-kickoff, info completeness, quality score | <7 days, >90%, ≥4.0/5 |
 | Impl to CS | TTFV, go-live rate, onboarding churn | Segment-dependent, >85%, <3% |
-| CS to Sales | Expansion pipeline from CS, handoff time, expansion win rate, NRR | Growing QoQ, <48h, >40% upsell / >20% new-DMU, 110-130%+ |
+| CS to Sales | Expansion pipeline from CS, handoff time, expansion win rate, NRR | Growing QoQ, <48h, >40% upsell / >20% new-DMU, 110-130%+ (110% = top quartile, Benchmarkit 2026) |
 
 ### Leading Indicators of Failure
 
@@ -242,8 +242,6 @@ Receiving team rates each handoff 1-5 across: information completeness, promise 
 - Pacific Crest / David Skok & Matrix Partners (2016). SaaS Survey: expansion costs $0.27 per $1 ACV vs $1.16 new logos.
 - OpenView Partners (2023). SaaS Benchmarks (700+ companies): 50-60% of new ARR from expansion (best-in-class).
 - KeyBanc (2024). Expansion = 52% of new ARR.
-- Rework (2025). "Deal Handoff Protocol: Standardizing Post-Close Transitions." 45% implementation improvement, 35-40% churn reduction.
-- Forrester/SiriusDecisions. Demand Waterfall: MQL→SQL 39-40% with scoring vs 15-21% without.
 
 ## What good looks like
 

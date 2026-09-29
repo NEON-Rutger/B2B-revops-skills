@@ -32,13 +32,12 @@ Evidence types this skill consumes: CRM deal history (stage, close date, deal si
 
 This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
 
-1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+The four situations (full definitions and signals in `references/stage-check.md`):
 
-2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
-
-3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
-
-4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+1. Start-up, pre product-market fit: fewer than roughly 30 comparable customers, wins from the founders' network, no measured win rate, cycle time or retention, nobody on quota. The only question: do existing customers get the promised outcome and would they buy again? Run the minimum version, or do not run it.
+2. Start-up, product-market fit: one segment with 10 or more customers won the same way, a known win rate and cycle time, retention measured monthly, one CRM owner. Run the skill for that one motion; thresholds are guidance, not rules.
+3. Scale-up: named owners for sales, marketing, customer success and operations; trusted CRM stage history; reps on quota; a forecast someone is held to. Run the full skill.
+4. Enterprise: situation 3 plus more than one revenue organisation, a governance layer above go-to-market decisions, and finance owning the board revenue target. Run the full skill with the enterprise deltas in the table.
 
 If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
 
@@ -311,15 +310,15 @@ Mixing locked and flexible parameters is the primary cause of reforecasting chao
 - Below 2.5x: Critical; reforecast immediately
 - 2.5x to 3.0x: At-risk; escalate and plan pipeline generation response
 - 3.0x to 3.5x: Healthy baseline
-- 3.5x+: Strong (banding is a practice-based threshold informed by Ebsta slippage data: 36% deals slip quarterly, 50% best-case close rate)
+- 3.5x+: Strong (banding is a practice-based threshold informed by Ebsta slippage data: 36% of deals slip past their forecast close date)
 
 **Forecast Accuracy Benchmarks (Monthly Actuals vs Month-Start Forecast):**
-- ±5%: Elite (only 7% of companies reach 90%+ accuracy; Gartner via ORM Technologies, 2025)
-- ±10%: Strong; ±15-20%: Normal; ±25%+: Process broken, structural fix required (practice-based banding, informed by the Ebsta 2025 accuracy distribution)
+- ±5%: Elite (only 7% of sales organizations reach 90%+ accuracy; Gartner State of Sales Operations survey, via ORM Technologies)
+- ±10%: Strong; ±15-20%: Normal; ±25%+: Process broken, structural fix required (practice-based banding, informed by the Gartner median accuracy of 70-79%)
 
 **Quota Attainment Benchmarks (Rep-Level Performance):**
 - Healthy: 70-80% of reps hit quota (aspirational target)
-- Median market: 46% of reps hit quota in 2025, down from 52% in 2024 (Ebsta 2025 GTM Benchmarks Report)
+- Median market: 78% of sellers missed quota in 2025, up from 69% in 2024 (Ebsta x Pavilion 2025 GTM Benchmarks); 62% of ramped AEs hit quota in 2025 (ICONIQ State of Go-to-Market 2026)
 - Signal: If below 50% organization-wide, quota-setting process is flawed (The Revenue Leadership Podcast E64, 2026)
 
 **Reforecasting Frequency Boundaries:**
@@ -442,11 +441,12 @@ Deliverables per stage: Pre-PMF produces one-page customer retention assessment 
 | `references/reconciliation-playbook.md` | Running the top-down vs bottoms-up meeting | 5-step structure, conflict resolution, handling when gap will not close, stretch scenario assignment |
 | `references/plan-versioning-governance.md` | Setting up version control and governance | Three-version system, file-naming conventions, access controls, reforecast preservation |
 | `references/reforecasting-triggers.md` | Defining when to reforecast mid-year | Trigger matrix (revenue, unit-economics, execution, external), examples per trigger type, process per trigger |
-| `references/reforecasting-benchmarks.md` | Pipeline coverage and forecast accuracy thresholds | Coverage benchmarks (Ebsta 2025), accuracy benchmarks (Gartner 2025), when each benchmark triggers escalation |
+| `references/reforecasting-benchmarks.md` | Pipeline coverage and forecast accuracy thresholds | Coverage benchmarks (Ebsta 2025), accuracy benchmarks (Gartner, via ORM Technologies), when each benchmark triggers escalation |
 | `references/fpa-revops-collaboration-charter.md` | Building joint FP&A-RevOps ownership | Roles, joint-decision matrix, weekly sync template, quarterly reconciliation meeting format |
 | `references/planning-diagnostic-full.md` | Running full 10-question diagnostic | Detailed interpretation per question, scoring guide, remediation playbook for process gaps |
 | `references/planning-assumptions-template.md` | Creating single-source-of-truth assumption sheet | Template, example, owner assignment, confidence scoring |
 | `references/benchmarks-sourced.md` | Reference data for planning benchmarks | Only sourced numbers: quota attainment, forecast accuracy, pipeline coverage, reforecasting frequency, sales cycle length |
+| `references/stage-check.md` | When the one-line situation summaries are not enough to place the company | Full definitions of the four situations and the yes/no sorting questions |
 
 ---
 
@@ -486,6 +486,6 @@ To implement your annual planning:
 
 Use in: Annual planning kickoff, revenue-finance alignment sessions, board preparation, mid-year reforecasting.
 
-Benchmark source: Ebsta 2025 GTM Benchmarks Report.
+Benchmark sources: Ebsta x Pavilion 2025 GTM Benchmarks, Fullcast 2026 Revenue Benchmark Report, ICONIQ State of Go-to-Market 2026, Gartner (via ORM Technologies), SaaS Capital 2025, Benchmarkit and Aleph 2026.
 
 > Built by [Neon Triforce](https://neontriforce.com)

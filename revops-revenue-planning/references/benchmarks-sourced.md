@@ -1,6 +1,8 @@
 # Benchmarks and Operating Defaults
 
-Two classes of numbers, kept deliberately separate. **Part A** is sourced market research: every figure carries a named publisher and year, and figures that could not be verified against their source were removed at the 2026-07-14 verification pass. **Part B** is practice-based operating defaults: practitioner heuristics applied in planning, labeled as exactly that. Never present a Part B number to your executive team as market research.
+Last verified: 2026-09. Figures older than 2025 are kept only where no newer edition exists and are marked as such.
+
+Two classes of numbers, kept deliberately separate. **Part A** is sourced market research: every figure carries a named publisher and year, and figures that could not be verified against their source were removed at the 2026-07-14 and 2026-09 verification passes. **Part B** is practice-based operating defaults: practitioner heuristics applied in planning, labeled as exactly that. Never present a Part B number to your executive team as market research.
 
 ---
 
@@ -8,60 +10,75 @@ Two classes of numbers, kept deliberately separate. **Part A** is sourced market
 
 ### Forecast accuracy
 
-- Only 7% of companies reach 90%+ forecast accuracy (Gartner, as cited by ORM Technologies, Forecast Accuracy Guide, 2025)
-- 80% of sales organizations do not exceed 75% forecast accuracy (Ebsta 2025 GTM Benchmarks Report)
-- Median forecast accuracy: 75% (Ebsta 2025 GTM Benchmarks Report)
-- Companies with weekly pipeline velocity tracking report 87% forecast accuracy vs 52% for teams tracking irregularly (Digital Bloom, 2025 B2B SaaS Funnel Benchmarks; single agency study, treat as indicative)
+- Only 7% of sales organizations reach 90%+ forecast accuracy; median accuracy is 70 to 79% (Gartner State of Sales Operations survey, analyst; survey year not stated in the citing sources, and the figures are not visible on Gartner's public summary page, so treat as a secondary citation, e.g. via ORM Technologies, [orm-tech.com](https://orm-tech.com/blog/forecast-accuracy-guide/))
+- 87% of enterprises missed their 2025 revenue targets; 39% recalibrate forecast models only weekly or monthly; 55% report conflicting pipeline signals from disconnected data sources (Clari Labs, January 2026, vendor survey; the 87% applies to enterprises not using Clari + Salesloft and sample size is not disclosed; [clari.com](https://www.clari.com/press/new-clari-labs-research-reveals-enterprises-missed-revenue-targets-in-2025/))
 
 ### Quota attainment
 
-- 43-57% of B2B sales reps hit quota in any given quarter (Pavilion Revenue Collective, Salesforce State of Sales, Bridge Group)
-- 2024: 52% of reps hit quota; 2025: 46% (Ebsta 2025 GTM Benchmarks Report, based on EUR 48 billion in pipeline data from 2,000 CROs)
-- 78% of sellers missed their quotas in 2025, up from 69% in 2024 (Ebsta 2025 GTM Benchmarks Report)
+- 78% of sellers missed their quotas in 2025, up from 69% in 2024 (Ebsta x Pavilion 2025 GTM Benchmarks, vendor platform data plus survey; [benchmarks.ebsta.com](https://benchmarks.ebsta.com/2025-gtm-benchmarks))
+- 78.3% of sellers missed quota in 2025, with quota targets set about 13% too high on average; sales efficiency down 28% year on year (Fullcast 2026 Revenue Benchmark Report, published with Pavilion, vendor platform data: $78 billion pipeline, 361,000 opportunities, 316 companies; [fullcast.com](https://www.fullcast.com/content/fullcast-releases-2026-revenue-benchmark-report-analyzing-78-billion-in-revenue-data/))
+- Average quota attainment just under 44% across the index at Q4 2025, the highest level since Q2 2023 (RepVue Cloud Sales Index, vendor platform data from self-reported rep ratings; [repvue.com](https://www.repvue.com/cloud-index/2025/Q4))
+- 62% of ramped AEs hit quota in 2025, up from prior years; 67% where AI is fully embedded in GTM versus 59% where it is not (ICONIQ State of Go-to-Market 2026, survey of 155+ B2B SaaS executives; [iconiq.com](https://www.iconiq.com/growth/reports/state-of-go-to-market-2026))
+- 51% of AEs achieve quota annually; average AE ramp 5.7 months (Bridge Group SaaS AE Metrics, survey; 2024 edition, no newer edition found; [bridgegroupinc.com](https://blog.bridgegroupinc.com/saas-inside-sales-metrics))
 
-### Pipeline coverage, quality and slippage
+The spread (roughly 22% to 62% attaining) is mostly definitional: all sellers versus ramped AEs only, platform data versus executive survey. Quote the population with the number.
 
-- 3x to 5x pipeline coverage is the typical B2B SaaS range (Abacum; Runway; MetricGen, 2025-2026)
-- 36% of pipeline deals slip in any given quarter (Ebsta 2025 GTM Benchmarks Report)
-- Highly qualified deals close 20% faster and are 1.9 times less likely to slip (Ebsta 2025 GTM Benchmarks Report)
-- 11x pipeline velocity delta between top and bottom performers in the same pipeline, which is why blended conversion rates mislead (Ebsta/Pavilion, 2025)
-- Commit close rate 85%, best case close rate 50% (Ebsta 2025 GTM Benchmarks Report); together with the slippage rate, this is why 3x coverage is the floor for reliably hitting a quarterly target
+### Pipeline quality and slippage
 
-### Reforecasting cadence
+- 36% of pipeline deals slip past their forecast close date, down from 44% in 2024 (Ebsta x Pavilion 2025 GTM Benchmarks, vendor platform data)
+- Well-qualified deals close 21.6% faster, are 1.9x less likely to slip, and are 6.3x more likely to win (50% versus 8% win rate) (Ebsta 2025 Sales Qualification Report, vendor platform data, 655,000 opportunities)
+- Top performers close deals 11x faster than lower performers in the same data set, up from 8.9x in 2024, which is why blended conversion rates mislead (Ebsta x Pavilion 2025 GTM Benchmarks, vendor platform data)
+- Win rates down 13.5%, sales cycles about 7% longer and average deal value down 11% year on year (Fullcast 2026 Revenue Benchmark Report, vendor platform data)
 
-- Weekly forecast calls focused on material changes, late-stage deals and slippage, paired with a monthly full-pipeline commit, for most growth-stage SaaS (ORM Technologies, 2025)
-- Monthly rolling cadence to prevent drift; weekly or bi-weekly operational forecasting supported by monthly reviews and quarterly rollups (Fincome, "How to Master Reforecasting in SaaS", 2025)
-- Revenue or expense deviation of 10% or more from budget for two consecutive periods triggers a reforecast (Fincome, 2025)
-- For B2B marketing: 10% cumulative variance in media spend or a 20% shortfall in pipeline conversion should trigger a reforecast meeting (Fincome, 2025)
+### Retention and acquisition efficiency
+
+- Median NRR 101%, median GRR 91% across private B2B SaaS; bootstrapped 104% / 92%, equity-backed 101% / 90% (SaaS Capital 2025 retention benchmarks, survey; [saas-capital.com](https://www.saas-capital.com/blog-posts/what-is-a-good-retention-rate-for-a-private-saas-company/))
+- Median NRR 102%, top quartile 110%; median CAC payback 16 months, top quartile 6 months or fewer, bottom quartile 24 months or more (Benchmarkit and Aleph 2026 SaaS and AI Performance Benchmarks, survey of 342 companies, published June 2026; as summarized at [getaleph.com](https://www.getaleph.com/answers/net-revenue-retention-saas-2026) and [getaleph.com](https://www.getaleph.com/answers/cac-payback-period-saas-2026))
+- Gross retention approaching 90% and net retention above 100% (2025 KeyBanc Capital Markets and Sapphire Ventures SaaS Survey; [sapphireventures.com](https://info.sapphireventures.com/2025-keybanc-capital-markets-sapphire-ventures-saas-survey))
 
 ### Compensation
 
-- The gap between top and average Account Executive compensation reached $200,000 USD in 2025, the widest spread in five years (Xactly 2026 State of Sales Compensation Report; report is gated, figure from its published summary). Relevant to planning because capacity plans that assume average-rep productivity while paying for top-rep retention misprice the plan. Comp design itself belongs to gtm-compensation.
+- The pay gap between 25th and 90th percentile Account Executives reached nearly $200,000 in 2025, after widening steadily for five years; OTEs fell for AEs with 1 to 3 years of experience while AEs with 5+ years gained an average of $26,000 (Xactly 2026 State of Sales Compensation Report, released February 2026, vendor platform data; [xactlycorp.com](https://www.xactlycorp.com/company/press-room/xactly-unveils-2026-state-sales-compensation-report)). Relevant to planning because capacity plans that assume average-rep productivity while paying for top-rep retention misprice the plan.
 
 ### Source register
 
-- **Ebsta**, 2025 GTM Benchmarks Report (EUR 48 billion pipeline, 2,000 CROs); benchmarks.ebsta.com; report gated behind registration, figures from its published summaries.
-- **Gartner** forecast accuracy figure via **ORM Technologies** Forecast Accuracy Guide, 2025; orm-tech.com.
-- **Pavilion** Revenue Collective and CRO School (Forecasting and Revenue Modeling curriculum, 2026); joinpavilion.com/pavilion-university/cro-school.
-- **Salesforce** State of Sales (with Pavilion, quota attainment range); **Bridge Group** rep attainment research.
-- **Fincome**, How to Master Reforecasting in SaaS, 2025; fincome.co.
-- **Digital Bloom**, 2025 B2B SaaS Funnel Benchmarks; thedigitalbloom.com.
-- **Abacum** (abacum.ai), **Runway**, **MetricGen**: pipeline coverage guidance.
-- **Xactly**, 2026 State of Sales Compensation Report; xactlycorp.com (gated).
-Removed at verification (2026-07-14), do not reintroduce without a checkable source: Clari Labs "87% of enterprises missed revenue targets"; all GrowthSpree figures (gated agency reports); Optifai sales cycle medians (source unreachable); "sales cycles lengthened 22% since 2022" (no attributable source).
+- **Ebsta x Pavilion**, 2025 GTM Benchmarks ($48 billion pipeline, 655,000 opportunities, 2,000+ CRO survey); benchmarks.ebsta.com and joinpavilion.com; full report gated, figures from its published summaries. No 2026 edition found at 2026-09.
+- **Ebsta**, 2025 Sales Qualification Report (August 2025).
+- **Fullcast** (with Pavilion), 2026 Revenue Benchmark Report; fullcast.com. Vendor data.
+- **ICONIQ**, State of Go-to-Market 2026 (January 2026 survey); iconiq.com.
+- **RepVue**, Cloud Sales Index, Q4 2025; repvue.com.
+- **Bridge Group**, SaaS AE Metrics (2024 edition); bridgegroupinc.com.
+- **Gartner**, State of Sales Operations survey, via secondary citations (ORM Technologies, orm-tech.com).
+- **Clari Labs**, research release, 14 January 2026; clari.com. Vendor survey.
+- **SaaS Capital**, 2025 B2B SaaS retention benchmarks; saas-capital.com.
+- **Benchmarkit and Aleph**, 2026 SaaS and AI Performance Benchmarks; getaleph.com.
+- **KeyBanc Capital Markets and Sapphire Ventures**, 2025 SaaS Survey; sapphireventures.com.
+- **Xactly**, 2026 State of Sales Compensation Report; xactlycorp.com.
+
+Removed at verification, do not reintroduce without a checkable source:
+- 2026-07-14: all GrowthSpree figures (gated agency reports); Optifai sales cycle medians (source unreachable); "sales cycles lengthened 22% since 2022" (no attributable source). The Clari Labs "87% missed revenue targets" figure was removed then and reinstated at 2026-09 with the clari.com source above.
+- 2026-09: "80% of sales organizations do not exceed 75% forecast accuracy" and "median forecast accuracy 75%" (not traceable to Ebsta; replaced with the Gartner median); "52% of reps hit quota in 2024, 46% in 2025" (not traceable to Ebsta and inconsistent with its published 78% miss rate); "commit close rate 85%, best case 50%" (traceable only to a GrowthSpree blog, not Ebsta); Digital Bloom "87% versus 52% forecast accuracy with weekly velocity tracking" (single agency study, not verifiable); "43-57% of reps hit quota (Pavilion, Salesforce, Bridge Group)" (no traceable primary; replaced with the dated figures above).
 
 ---
 
 ## Part B: House operating defaults (practitioner doctrine, not market research)
 
-These are the defaults applied in planning. They come from practitioner experience, the sibling skills (revops-forecasting, gtm-planning) and widely used SaaS operating conventions. Present them to your leadership team as "our operating standard", never as a study result.
+These are the defaults applied in planning. They come from practitioner experience and widely used SaaS operating conventions. Present them to your leadership team as "our operating standard", never as a study result.
 
 ### Coverage and trigger thresholds
 
 - Coverage below 2.5x: critical risk, immediate reforecast trigger. 2.5x to 3.0x: at risk, escalate. 3.0x to 3.5x: healthy baseline. Above 3.5x: strong.
+- Typical B2B SaaS coverage range 3x to 5x: vendor guidance (Abacum, Runway, MetricGen, 2025-2026), practice-based convention rather than research.
 - Forecast accuracy variance beyond plus or minus 20% for two consecutive months: reforecast.
-- CAC payback beyond 14 months, NRR below 105%, or burn 15% over plan: reforecast review.
+- CAC payback beyond 14 months, NRR below 105%, or burn 15% over plan: reforecast review. Note the NRR threshold sits above the 2025-2026 market medians of 101 to 102% (Part A); it is a house standard, not the market midpoint.
 - Slippage adjustment: apply a 0.64 factor to Best Case and Upside forecasts (derived from the sourced 36% slippage rate).
+
+### Reforecasting cadence (vendor practice guidance, not research)
+
+- Weekly forecast calls focused on material changes, late-stage deals and slippage, paired with a monthly full-pipeline commit, for most growth-stage SaaS (ORM Technologies, 2025, vendor guidance).
+- Monthly rolling cadence to prevent drift; weekly or bi-weekly operational forecasting supported by monthly reviews and quarterly rollups (Fincome, "How to Master Reforecasting in SaaS", 2025, vendor guidance).
+- Revenue or expense deviation of 10% or more from budget for two consecutive periods triggers a reforecast (Fincome, 2025, vendor guidance).
+- For B2B marketing: 10% cumulative variance in media spend or a 20% shortfall in pipeline conversion should trigger a reforecast meeting (Fincome, 2025, vendor guidance).
 
 ### Attainment and productivity defaults
 
@@ -89,4 +106,4 @@ High-variance heuristics; always validate against your company's own cohort data
 
 ---
 
-**Last updated:** 2026-07-14, after the adversarial verification pass. Part A is sourced and was verified claim by claim; Part B is house doctrine and says so.
+**Last updated:** 2026-09-29, after the 2026-09 verification pass. Part A is sourced and was verified claim by claim against published summaries (full reports for Ebsta, Fullcast and Gartner are gated); Part B is house doctrine and says so.
