@@ -46,7 +46,7 @@ Pipeline Velocity = (# Opportunities × Win Rate × Avg Deal Size) ÷ Sales Cycl
 
 ## Benchmarks: Sales Cycle and Conversion
 
-Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cycle isn't slow; a 120-day SMB cycle is catastrophic. When your sales cycles are getting longer, that reflects market reality. Cycles have been up 22% since 2022 industry-wide. The question is whether yours are longer than the market shift justifies.
+Always diagnose against segment-appropriate benchmarks. A 120-day enterprise cycle isn't slow; a 120-day SMB cycle is catastrophic. When your sales cycles are getting longer, that reflects market reality. Cycles ran 6.9% longer year on year in the latest benchmark set (Fullcast/Pavilion, 2026). The question is whether yours are longer than the market shift justifies.
 
 Stage conversion rates are the system's vital signs. If conversion drops at a specific stage, that's the constraint.
 
@@ -451,7 +451,7 @@ Slippage is always a stage exit criteria problem. Check: are deals advancing bas
 Methodology adherence gap. Top performers are 588% more likely to follow methodology. Score methodology adherence per deal and inspect in pipeline reviews. The cure is deal inspection, not pep talks.
 
 **"Sales cycles keep getting longer"**
-First: is it longer than the market trend? (Cycles are up 22% since 2022; some lengthening is normal.) If it's beyond market shift: check economic buyer engagement timing. Early EB engagement compresses cycles by 55%. Check multi-threading. It's the second biggest lever.
+First: is it longer than the market trend? (Cycles ran 6.9% longer year on year per Fullcast/Pavilion 2026; some lengthening is normal.) If it's beyond market shift: check economic buyer engagement timing. Early EB engagement compresses cycles by 55%. Check multi-threading. It's the second biggest lever.
 
 **"When velocity is your binding constraint"**
 Use the velocity scorecard to quantify the gap. Frame the cost: "Your pipeline velocity is $800/day. Segment benchmark is $1,800/day. That's $365K in annual revenue you're leaving on the table from velocity alone."

@@ -201,7 +201,7 @@ Team development metrics:  10-20% (rep ramp time, rep retention, quota distribut
 
 These benchmarks are for B2B SaaS companies in 2026. Ranges shift based on geography (US benchmarks run 15-30% higher than Western Europe), company stage, deal complexity, and market competitiveness for talent.
 
-**Source note:** US ranges are market composite data from vendor surveys (Radford, Mercer, Payscale, salary databases). European ranges are derived from comparable market analysis and practice-based data from $15M-$150M ARR companies. For the most current market data, cross-reference against Radford benchmark database (if your company subscribes) or conduct a custom compensation survey every 12-18 months.
+**Source note:** US and European ranges are practice-based composites; at the 2026-09 verification pass they could not be traced to a specific published survey edition (Radford, Mercer, Payscale or similar). European ranges reflect practice-based data from $15M-$150M ARR companies. For the most current market data, cross-reference against Radford benchmark database (if your company subscribes) or conduct a custom compensation survey every 12-18 months.
 
 ### US Benchmarks by Role and Seniority
 

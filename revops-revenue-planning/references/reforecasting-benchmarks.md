@@ -1,12 +1,14 @@
 # Reforecasting Benchmarks and Trigger Thresholds
 
-Reference data for planning benchmarks and when each metric triggers a reforecast. Benchmarks sourced from market research (with attribution) and practice-based operating defaults.
+Reference data for planning benchmarks and when each metric triggers a reforecast. Benchmarks sourced from market research (with attribution) and practice-based operating defaults. All threshold bands and actions in the tables are practice-based house defaults; the sourced figures are the market context around them.
+
+Last verified: 2026-09. Figures older than 2025 are kept only where no newer edition exists and are marked as such.
 
 ---
 
 ## Pipeline Coverage Benchmarks
 
-**Market context:** Pipeline coverage varies by business model, ACV, and sales motion. SaaS companies typically operate in the 2.5x to 5x range; anything outside this band is a process risk.
+**Market context:** Pipeline coverage varies by business model, ACV, and sales motion. SaaS companies typically operate in the 2.5x to 5x range (practice-based convention); anything outside this band is a process risk.
 
 | Coverage Ratio | Status | Action | Owner | Timeline |
 |---|---|---|---|---|
@@ -16,7 +18,7 @@ Reference data for planning benchmarks and when each metric triggers a reforecas
 | **3.0x to 3.5x** | HEALTHY | Normal operating band. Standard monthly forecast review. Reforecast quarterly only. | RevOps (monthly check-in) | Monthly |
 | **3.5x+** | STRONG | Above-average coverage. May indicate sales cycle lengthening or pipeline bloat (old deals stagnating). Audit for stale deals (>45 days in same stage). | RevOps (diagnostic) | Monthly audit |
 
-**Source:** Coverage thresholds (practice-based operating default, informed by Ebsta 2025: 36% deals slip quarterly, 50% best-case close rate, yielding 3x as reliability floor). Market range 2.5-5x (Abacum, Runway, MetricGen 2025-2026).
+**Source:** Coverage thresholds are a practice-based operating default, informed by the Ebsta x Pavilion 2025 GTM Benchmarks slippage rate (36% of deals slip past their forecast close date, down from 44% in 2024; vendor platform data, [benchmarks.ebsta.com](https://benchmarks.ebsta.com/2025-gtm-benchmarks)). Market range 2.5-5x is vendor guidance (Abacum, Runway, MetricGen 2025-2026), practice-based convention rather than research.
 
 ---
 
@@ -32,7 +34,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 | **±20%** | WEAK SIGNAL | Forecast discipline is degrading. Either rep calibration is loose, or pipeline health is declining. | Diagnostic: Are reps sandbagging (under-forecasting) or over-forecasting? Are deals slipping? | Formal reforecast if persists 2+ months |
 | **>±25%** | BROKEN | Forecast process is broken. Either pipeline is unhealthy, reps are unaligned with forecast methodology, or both. | Emergency reforecast. Audit forecast categories and rep training. | YES, within 5 days |
 
-**Context:** Only 7% of companies reach 90%+ forecast accuracy (Gartner via ORM Technologies 2025). Median is 75% (Ebsta 2025, EUR 48B pipeline, 2,000 CROs), meaning ±20-25% variance is common. However, variance >±20% for two consecutive months is a signal that something structural has changed (sales cycle lengthened, deal quality dropped, competitive pressure increased).
+**Context:** Only 7% of sales organizations reach 90%+ forecast accuracy and median accuracy is 70 to 79% (Gartner State of Sales Operations survey, analyst; secondary citation via ORM Technologies, [orm-tech.com](https://orm-tech.com/blog/forecast-accuracy-guide/)), meaning ±20-30% variance is common. Clari Labs reports 87% of enterprises missed their 2025 revenue targets (January 2026, vendor survey, sample not disclosed; [clari.com](https://www.clari.com/press/new-clari-labs-research-reveals-enterprises-missed-revenue-targets-in-2025/)). However, variance >±20% for two consecutive months is a signal that something structural has changed (sales cycle lengthened, deal quality dropped, competitive pressure increased).
 
 **Operating practice:** Flag ±20% threshold if it repeats in Month 2. By Month 3 of consistent ±20%, a full reforecast is mandatory.
 
@@ -47,7 +49,7 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 | **>80%** | EXCELLENT | Most reps are hitting or exceeding quota. Quotas are realistic; team is performing. | No action; maintain momentum. |
 | **70-80%** | TARGET | Planned distribution (practice-based target for well-designed quotas). Approximately 75% of reps hit quota; 15% exceed; 10% significantly miss. | Continue execution. Standard reforecasting. |
 | **60-70%** | RISK | Below target. Either quotas are too aggressive, or execution is slipping. Diagnostic needed. | Review prior-year attainment by rep to validate if quotas are realistic. If quotas were historically achievable, investigate execution gaps (deal velocity, win rate, pipeline). |
-| **<60%** | BROKEN | Quota-setting process is flawed. Fewer than 6 in 10 reps can attain. | Reforecast and rebase quotas. If most reps cannot hit, the plan is unrealistic. (Ebsta 2025: 46% of reps hit quota in 2025, down from 52% in 2024; median market is broken.) |
+| **<60%** | BROKEN | Quota-setting process is flawed. Fewer than 6 in 10 reps can attain. | Reforecast and rebase quotas. If most reps cannot hit, the plan is unrealistic. (Market context: 78% of sellers missed quota in 2025, up from 69% in 2024, Ebsta x Pavilion 2025 GTM Benchmarks, vendor platform data; 78.3% missed with quotas set about 13% too high, Fullcast 2026 Revenue Benchmark Report, vendor platform data, [fullcast.com](https://www.fullcast.com/content/fullcast-releases-2026-revenue-benchmark-report-analyzing-78-billion-in-revenue-data/); 62% of ramped AEs hit quota in 2025, ICONIQ State of Go-to-Market 2026, survey, [iconiq.com](https://www.iconiq.com/growth/reports/state-of-go-to-market-2026). By this band, the median market is broken.) |
 
 **Interpretation note:** Attainment is a lagging indicator (measured end-of-period). Use it to validate or challenge forecast assumptions, not to trigger reforecasts in real-time. However, if attainment falls materially below plan (e.g. 50% vs 70% target), that is a signal that either your forecast is too aggressive or your capacity assumptions are too optimistic.
 
@@ -74,10 +76,10 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 
 | NRR | Status | Action |
 |---|---|---|
-| **>130%** | Elite (top quartile) | Expansion revenue is powering growth. Scalable model. |
-| **110-130%** | Healthy (top 50%) | Strong expansion motions. Sustainable growth. |
-| **105-110%** | Acceptable (median-to-strong) | Churn and expansion roughly balanced. Plan assumes this band. |
-| **<105%** | AT-RISK (trigger reforecast) | Churn exceeding expansion. Unsustainable as-is. Investigate cohort churn and expansion rate. Reforecast renewal and expansion forecasts downward. (Ebsta 2025: median NRR 106%; practice-based operating threshold 105%) |
+| **>130%** | Elite (well above top quartile) | Expansion revenue is powering growth. Scalable model. |
+| **110-130%** | Strong (top quartile and above) | Strong expansion motions. Sustainable growth. |
+| **105-110%** | Acceptable (above market median) | Churn and expansion roughly balanced. Plan assumes this band. |
+| **<105%** | AT-RISK (trigger reforecast) | Churn exceeding expansion. Unsustainable as-is. Investigate cohort churn and expansion rate. Reforecast renewal and expansion forecasts downward. (Market median NRR 102%, top quartile 110%: Benchmarkit and Aleph 2026, survey of 342 companies, [getaleph.com](https://www.getaleph.com/answers/net-revenue-retention-saas-2026); median 101%: SaaS Capital 2025, survey, [saas-capital.com](https://www.saas-capital.com/blog-posts/what-is-a-good-retention-rate-for-a-private-saas-company/). The 105% trigger is a practice-based house threshold set above the market median.) |
 
 **Reforecast trigger:** NRR below 105% for one quarter = diagnostic. Below 105% for two consecutive quarters = mandatory reforecast.
 
@@ -85,29 +87,29 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 
 | GRR | Status | Expected Reforecast Impact |
 |---|---|---|
-| **>95%** | Strong (top quartile) | Renewal forecast can be confident; churn is low. |
-| **90-95%** | Healthy (median) | Plan assumes this band. No reforecast needed unless trend is declining. |
+| **>95%** | Strong (above top quartile) | Renewal forecast can be confident; churn is low. |
+| **90-95%** | Healthy (at or above market median) | Plan assumes this band. No reforecast needed unless trend is declining. |
 | **85-90%** | At-risk (declining trend) | Watch for deterioration. If cohort GRR is falling, investigate (product issues, customer success effectiveness, competitive pressure). Reforecast if trend continues. |
 | **<85%** | Broken | Renewal forecast is too aggressive. Reforecast downward; diagnose root cause. |
 
-**Source:** Ebsta 2025; data-driven by customer cohort. Always segment by cohort (Year 1 vs Year 3+ have different retention rates).
+**Source:** Bands are practice-based. Market context: median GRR 91% (SaaS Capital 2025, survey, [saas-capital.com](https://www.saas-capital.com/blog-posts/what-is-a-good-retention-rate-for-a-private-saas-company/)); median GRR 84%, 75th percentile 91% (Benchmarkit and Aleph 2026, survey, as summarized at [getaleph.com](https://www.getaleph.com/answers/net-revenue-retention-saas-2026)); gross retention approaching 90% (2025 KeyBanc Capital Markets and Sapphire Ventures SaaS Survey, [sapphireventures.com](https://info.sapphireventures.com/2025-keybanc-capital-markets-sapphire-ventures-saas-survey)). Always segment by cohort (Year 1 vs Year 3+ have different retention rates).
 
 ### CAC Payback Period
 
 | Payback | Status | Action |
 |---|---|---|
-| **<12 months** | Strong (median and better) | Acquisition efficiency is healthy. Scalable motion. Assume this in plan. |
+| **<12 months** | Strong (better than market median) | Acquisition efficiency is healthy. Scalable motion. Assume this in plan. |
 | **12-14 months** | Acceptable (practice-based operating threshold) | Within tolerance. Plan conservatively; watch for drift. |
 | **14-18 months** | At-risk (trigger diagnostic) | Acquisition cost is rising or ACV is declining. Reforecast if trend continues. Diagnose: Is CAC up (ad costs rising)? Is ACV down (smaller deals)? |
 | **>18 months** | Broken | Acquisition efficiency is poor. Cannot scale. Reforecast downward and plan for CAC reduction or ACV increase. |
 
-**Source:** Median CAC payback 15-16 months (Drivetrain, Getaleph, Data-Mania 2026). Top quartile <12 months. House threshold of 14 months because most companies at this stage operate below median.
+**Source:** Median CAC payback 16 months; top quartile 6 months or fewer; bottom quartile 24 months or more (Benchmarkit and Aleph 2026 SaaS and AI Performance Benchmarks, survey of 342 companies, as summarized at [getaleph.com](https://www.getaleph.com/answers/cac-payback-period-saas-2026)). The 12, 14 and 18 month bands are practice-based house thresholds, set tighter than the market median on purpose.
 
 ---
 
 ## Sales Cycle Benchmarks
 
-**Market context (Optifai, Benchmarkit, Ray Rike, ORM 2026):**
+**Market context:** segment cycle ranges below are practice-based conventions (the earlier Optifai, Benchmarkit, Ray Rike and ORM attribution could not be traced to a specific published figure and was removed at 2026-09). Year-on-year trend: sales cycles about 7% longer and win rates down 13.5% (Fullcast 2026 Revenue Benchmark Report, vendor platform data).
 
 | Segment | Median Cycle | Implication for Planning |
 |---|---|---|
@@ -120,6 +122,8 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 ---
 
 ## Benchmark Summary Table (Quick Reference)
+
+All bands in this table are practice-based house thresholds.
 
 | Metric | Healthy Band | Yellow Flag | Reforecast Trigger |
 |---|---|---|---|
@@ -147,6 +151,6 @@ Forecast accuracy is measured monthly: actual closed revenue vs forecast entered
 
 ---
 
-**Last updated:** 2026-07-15
+**Last updated:** 2026-09-29
 
-**Sources:** Ebsta 2025 GTM Benchmarks Report (EUR 48B pipeline, 2,000 CROs); Gartner forecast accuracy via ORM Technologies; Optifai, Benchmarkit, Ray Rike, ORM sales cycle data 2026; Drivetrain, Getaleph, Data-Mania CAC payback research 2026.
+**Sources:** Ebsta x Pavilion 2025 GTM Benchmarks ($48 billion pipeline, 655,000 opportunities, 2,000+ CRO survey; vendor platform data; no 2026 edition found); Fullcast 2026 Revenue Benchmark Report (vendor platform data); ICONIQ State of Go-to-Market 2026 (survey); Gartner State of Sales Operations survey via ORM Technologies (analyst, secondary citation); Clari Labs January 2026 (vendor survey); SaaS Capital 2025 retention benchmarks (survey); Benchmarkit and Aleph 2026 SaaS and AI Performance Benchmarks (survey); 2025 KeyBanc Capital Markets and Sapphire Ventures SaaS Survey. Removed at 2026-09: Ebsta attribution for median forecast accuracy 75%, median NRR 106%, GRR bands and the 46%/52% attainment figures (not traceable to Ebsta); Optifai, Ray Rike and ORM sales cycle attribution; Drivetrain and Data-Mania CAC payback attribution (aggregator sources, replaced with Benchmarkit and Aleph).

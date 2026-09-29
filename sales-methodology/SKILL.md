@@ -606,7 +606,7 @@ For the full operating model; both stage-criteria tables (5-stage and granular M
 
 ## Benchmark Data
 
-For Ebsta/Pavilion 2025 benchmark data on discovery, multi-threading, qualification, and negotiation, see `references/benchmarks.md`.
+For Ebsta/Pavilion 2025 and Fullcast/Pavilion 2026 benchmark data on discovery, multi-threading, qualification, and negotiation, see `references/benchmarks.md`.
 
 ---
 

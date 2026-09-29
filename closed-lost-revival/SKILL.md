@@ -21,7 +21,7 @@ status: stable
 
 # Closed-Lost Revival: The Pipeline You Already Paid For
 
-Average B2B win rates run 20-21%, and the 2025 Ebsta x Pavilion benchmark measured 19%, down from 29% the year before. Read that from the other side: roughly four of five opportunities you worked end closed-lost. That pool compounds every year, it already knows you, and in most CRMs nobody owns it. Revival is not a heroic save. It is working an asset you already paid to create.
+The 2025 Ebsta x Pavilion benchmark measured a 19% B2B new-logo win rate across roughly 655,000 opportunities, down from 29% the year before. Read that from the other side: roughly four of five opportunities you worked end closed-lost. That pool compounds every year, it already knows you, and in most CRMs nobody owns it. Revival is not a heroic save. It is working an asset you already paid to create.
 
 One practitioner data point for what disciplined revival produces: Swan AI publicly documented $250K of pipeline in seven days from a pool of 566 closed-lost deals, after adding one step, loss categorization, to a re-engagement agent (public LinkedIn post, August 2026). The step that made the difference is built into this skill as the loss-pattern library.
 
@@ -141,7 +141,7 @@ Run these before the first sweep; they usually expose the opportunity in minutes
 
 Full provenance, vintages, and the list of practice-based rules: read `references/revival-benchmarks.md`.
 
-- Average B2B win rate 20-21%; 19% measured for 2025 (Ebsta x Pavilion benchmark, 2025; prior year 29%). The complement is the size of the closed-lost pool.
+- B2B new-logo win rate 19% measured for 2025 across ~655,000 opportunities (Ebsta x Pavilion benchmark, 2025; prior year 29%). The complement is the size of the closed-lost pool.
 - Post-proposal win rates 31-50% (Norwest, 2024): the case for the proposal-gone-quiet lane.
 - ~20% of champions change jobs per year (job-change vendor estimates, 2023-2026, consistent with Swan AI's published production rate, 2026).
 - $250K pipeline in 7 days from 566 closed-lost deals once loss categorization was added (Swan AI, public post, August 2026). A practitioner anecdote, not a controlled benchmark; treat as an existence proof.

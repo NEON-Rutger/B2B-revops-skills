@@ -1,16 +1,18 @@
 # Evaluation Benchmarks: Provenance and How the Skill Uses Them
 
+Last verified: 2026-09. Figures older than 2025 are kept only where no newer edition exists and are marked as such.
+
 ## Buyer expectations (enterprise AI, 2026)
 
-- 70% of enterprise buyers prioritize speed of deployment in vendor selection; 57% expect POC ROI within 3 months and 11% expect it immediately; vendor evaluation is increasingly one-shot with little tolerance for a failed first test (a16z Enterprise Survey, 2026). The skill uses these to justify the hard clock and the midpoint readout: evaluation velocity is now table stakes, not a differentiator.
+- 70% of enterprise buyers prioritize speed of deployment in vendor selection; 57% expect POC ROI within 3 months and 11% expect it immediately; vendor evaluation is increasingly one-shot with little tolerance for a failed first test (a16z Enterprise Survey, 2026; survey, published by an investor; the figures could not be re-checked against the report page in the 2026-09 pass). The skill uses these to justify the hard clock and the midpoint readout: evaluation velocity is now table stakes, not a differentiator.
 
 ## Trial-to-paid conversion by motion (2025-2026 aggregations)
 
-- Opt-in self-serve trials: 8-22%, median ~14%. Opt-out (card required): 35-55%, median ~44%. Sales-assisted trials/POCs: 35-70%, median ~55% (industry trial-benchmark aggregations published 2025-2026, compiling self-reported SaaS cohort data). These are blog-tier aggregations, not audited surveys; the skill uses them only for two robust conclusions that hold across every source: the ranges differ by motion far more than by execution quality, and cross-motion comparison is meaningless. Calibrate targets against your own motion's cohort within two quarters.
+- Opt-in self-serve trials: 8-22%, median ~14%. Opt-out (card required): 35-55%, median ~44%. Sales-assisted trials/POCs: 35-70%, median ~55% (industry trial-benchmark aggregations published 2025-2026, compiling self-reported SaaS cohort data; aggregator, no primary survey located). These are blog-tier aggregations, not audited surveys; the skill uses them only for two robust conclusions that hold across every source: the ranges differ by motion far more than by execution quality, and cross-motion comparison is meaningless. Calibrate targets against your own motion's cohort within two quarters.
 
 ## Activation as the dominant variable
 
-- Activation explains an estimated 60-75% of trial conversion variance; activated trials convert at 35-65% versus 2-8% for un-activated (same 2025-2026 aggregations). Directionally consistent across sources even where exact splits differ; the skill treats the direction (activation dominates) as reliable and the exact percentages as indicative.
+- Activation explains an estimated 60-75% of trial conversion variance; activated trials convert at 35-65% versus 2-8% for un-activated (same 2025-2026 aggregations; aggregator, no primary study located). Directionally consistent across sources even where exact splits differ; the skill treats the direction (activation dominates) as reliable and the exact percentages as indicative.
 
 ## Practice-based rules (no external study)
 

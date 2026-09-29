@@ -569,16 +569,16 @@ If revenue per AE is low, diagnose which input is the constraint:
 
 **The Anti-Prospecting Thesis:**
 - Most AEs admit 80-90% of closed revenue comes from inbound
-- Salesforce State of Sales 2026: reps spend 40% of week actually selling (up from 28% in 2024)
+- Salesforce State of Sales 2026: reps spend 40% of week actually selling (up from about 30% in 2024)
 - $250-300K OTE spent on prospecting = failure of resource allocation dressed as culture
 
 **Benchmarks:**
 
 | Metric | Industry Average | Top Performers |
 |--------|-----------------|----------------|
-| Quota attainment | 43-58% | 80%+ |
+| Quota attainment | 44-62% | 80%+ |
 | OTE attainment | ~80% | 138% (Owner.com) |
-| AE time selling | 28% (2024), 40% (2026) | 60%+ (inbound-fed) |
+| AE time selling | 30% (2024), 40% (2026) | 60%+ (inbound-fed) |
 | Revenue per AE vs. competitors | 1x | 3-4x (Owner, Datarails) |
 
 ### Predictability Metrics
@@ -613,10 +613,10 @@ Know these numbers before setting any quota:
 
 | Metric | Source | Value |
 |--------|--------|-------|
-| Average quota attainment | RepVue Cloud Sales Index (Q4 2024, 238 cos) | 43% |
-| Reps hitting quota | Bridge Group SaaS AE Metrics Report | ~58% |
-| Rep time actually selling | Salesforce State of Sales (2024) | 28%; (2026) 40% |
-| Avg time to full rep productivity | Sales Management Association | 11.2 months |
+| Average quota attainment | RepVue Cloud Sales Index (Q4 2025) | just under 44% |
+| Reps hitting quota | Bridge Group SaaS AE Metrics Report (2024 edition) | 51% |
+| Rep time actually selling | Salesforce State of Sales (2024) | 30%; (2026) 40% |
+| Avg AE ramp time | Bridge Group SaaS AE Metrics Report (2024 edition) | 5.7 months |
 | High performer productivity premium | McKinsey | 400% (800% in complex roles) |
 | Revenue per employee (Netflix) | Public data | ~$3M (2x Google, 10x Disney) |
 

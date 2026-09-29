@@ -1,11 +1,15 @@
 # OTE & Compensation Benchmarks
 ## B2B SaaS ($15M-$150M ARR) - European Market
 
-**Data vintage and sourcing:** These benchmarks are composite estimates derived from Radford/Mercer market data, Payscale regional salary databases, and practice-based analysis of $15M-$150M ARR European SaaS companies (2025-2026 data refresh). They should be validated against your company's industry, stage, and geography before implementation. Benchmark data moves 2-4% annually in mature markets and up to 6-8% in high-growth tech hubs. For the most current market data, subscribe to Radford or conduct a custom compensation survey.
+Last verified: 2026-09. Figures older than 2025 are kept only where no newer edition exists and are marked as such.
+
+**Data vintage and sourcing (evidence type: practice-based):** Every figure in this file is a practice-based operating estimate for $15M-$150M ARR European B2B SaaS companies. At the 2026-09 verification pass no figure in this file could be traced to a specific published survey edition (Radford, Mercer, Payscale, Bridge Group, RepVue, Pavilion, Ravio, Alexander Group or a national statistics office), so the previous statement that these tables were "derived from Radford/Mercer market data and Payscale regional salary databases" has been removed. Amounts are shown in USD as in previous editions. Treat all tables as starting points for plan design, not as market data. Before setting pay, validate against a current published or subscription survey for your country and role (for example Radford/Aon or Mercer subscriptions, Ravio for European tech, Pavilion member surveys, or national statistics office wage data) and label which one you used. The previous claim that benchmark data "moves 2-4% annually in mature markets and up to 6-8% in high-growth tech hubs" could not be traced and has been removed.
 
 ---
 
 ## 1. OTE Ranges by Role & Company Stage
+
+Evidence type: practice-based (not traced to a published survey edition; validate before use).
 
 ### **$15M-$50M ARR (Growth Stage)**
 
@@ -47,6 +51,8 @@
 
 ## 2. Base/Variable Split by Role
 
+Evidence type: practice-based.
+
 **Core Principle:** Higher roles = higher variable pay (risk/reward alignment)
 
 | Role | Conservative (Less Risk) | Balanced | Aggressive (High Performance) |
@@ -69,6 +75,8 @@
 
 **Definition:** Annual quota ÷ Annual OTE (the factor by which quota must exceed total earnings to ensure 100% attainment = 100% OTE earned)
 
+Evidence type: practice-based.
+
 **Note on terminology:** Quota-to-OTE ratios vary by literature and vendor. The ratios below reflect the multiplier needed to hit OTE at full quota attainment. A 5:1 ratio means $500K quota generates $100K OTE (all variable + base combined).
 
 | Role | Typical Range | Example ($65K OTE AE) | Interpretation |
@@ -90,6 +98,8 @@
 ---
 
 ## 4. Commission Rate Ranges by Segment
+
+Evidence type: practice-based.
 
 **First-Year Commission Rates (% of ACV)**
 
@@ -115,6 +125,8 @@
 
 ## 5. Accelerator & Decelerator Multiplier Ranges
 
+Evidence type: practice-based.
+
 **Standard Structure (applies when quota attainment changes):**
 
 | Attainment Level | Accelerator | Decelerator | Multiplier |
@@ -129,7 +141,7 @@
 **Design Notes:**
 - Decelerators protect company economics at low attainment
 - Accelerators reward top performers (incentivizes stretch)
-- Most commonly: 1.25x at 120%, 1.50x at 130%+
+- Common variant (practice-based; prevalence not measured): 1.25x at 120%, 1.50x at 130%+
 - Enterprise roles may have capped accelerators (max 1.50x) due to deal size risk
 
 **Monthly vs. Annual Attainment:**
@@ -140,7 +152,9 @@
 
 ## 6. Ramp Schedule Benchmarks
 
-**Time to Full Quota (Industry Standard)**
+Evidence type: practice-based (the previous "Industry Standard" label has been removed; no published ramp survey was traced for these values).
+
+**Time to Full Quota**
 
 | Role | Months to Full Quota | Key Milestones | Draw/Guarantee |
 |------|----------------------|----------------|-----------------|
@@ -168,7 +182,9 @@
 
 ## 7. Regional Adjustments (European Markets)
 
-**Apply these multipliers to base OTE range (2026 data):**
+Evidence type: practice-based.
+
+**Apply these multipliers to base OTE range (practice-based estimates, reviewed 2026-09; not survey data):**
 
 | Region | Amsterdam | Utrecht | DACH (DE/AT/CH) | UK | Nordics (SE/NO/DK) | Rest of NL |
 |--------|-----------|---------|-----------------|-----|-------------------|-----------|
@@ -180,7 +196,7 @@
 - UK: $65K × 1.04 = $67,600
 - Rest of NL: $65K × 0.96 = $62,400
 
-**Data sourcing note:** These regional multipliers are derived from practice-based compensation analysis of tech talent markets across Western Europe (2025-2026). They reflect cost of living, local talent density, and historical hiring competition. However, they should be validated against current Radford regional benchmarks or custom market data if your company has sufficient headcount in multiple regions. Regional gaps narrow and shift annually.
+**Data sourcing note:** These regional multipliers are derived from practice-based compensation analysis of tech talent markets across Western Europe (2025-2026). They reflect cost of living, local talent density, and historical hiring competition. However, they should be validated against current regional survey data (for example Radford/Aon or Mercer subscriptions, Ravio for European tech, or national statistics office wage data) or custom market data if your company has sufficient headcount in multiple regions. Regional gaps narrow and shift annually.
 
 **Rationale:**
 - Amsterdam: Highest cost of living in region, most competitive talent market for English-speaking GTM talent
@@ -192,6 +208,8 @@
 ---
 
 ## 8. Performance Bonus Structures (Additional to Commission)
+
+Evidence type: practice-based.
 
 **Quarterly/Annual Attainment Bonuses (pool-based):**
 
@@ -213,10 +231,12 @@
 
 ## 9. Benefits & Equity Benchmarks
 
+Evidence type: practice-based (benefits and equity ranges vary by country and are not traced to a published survey).
+
 **Standard Benefits Packages (all roles $45K+ OTE):**
-- Health insurance: Company covers 100%
+- Health insurance: employer contribution per local system (100% employer-paid cover is not the norm in every European country; in NL, health insurance is individually purchased)
 - Pension contribution: 5-8% employer match (depending on contract type)
-- 25 days vacation (Dutch standard minimum)
+- 25 days vacation (common market practice in NL; the Dutch statutory minimum is four times the weekly working hours, which is 20 days for a full-time week)
 - Home office budget: $500-$1,500 one-time
 - Professional development: $1,000-$3,000 annually
 - Mobile/equipment: $50-$100/month allowance
@@ -239,7 +259,7 @@
 ## 10. Compensation Planning Checklist
 
 **Annual Compensation Review (Q4):**
-- [ ] Review market benchmarks (Radford, Mercer, Payscale, Levels.fyi)
+- [ ] Review market benchmarks (Radford/Aon, Mercer, Ravio for European tech, Pavilion, national statistics office wage data; Payscale, Glassdoor or Levels.fyi only as labeled secondary sources)
 - [ ] Assess internal equity (salary compression risks?)
 - [ ] Evaluate company financial performance (budget available?)
 - [ ] Conduct 1:1 reviews with individual ICs and managers
@@ -255,7 +275,7 @@
 - [ ] Communicate quota by fiscal year start (or earlier)
 
 **Key Metrics to Track:**
-- [ ] Compensation as % of revenue (typical: 10-15% fully loaded)
+- [ ] Compensation as % of revenue (practice-based rule of thumb: 10-15% fully loaded)
 - [ ] Commission cost ratio (check for runaway variable costs)
 - [ ] OTE vs. actual compensation paid (is comp plan realistic?)
 - [ ] Ramp success rates (are new hires hitting milestones?)

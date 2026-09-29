@@ -310,15 +310,15 @@ Mixing locked and flexible parameters is the primary cause of reforecasting chao
 - Below 2.5x: Critical; reforecast immediately
 - 2.5x to 3.0x: At-risk; escalate and plan pipeline generation response
 - 3.0x to 3.5x: Healthy baseline
-- 3.5x+: Strong (banding is a practice-based threshold informed by Ebsta slippage data: 36% deals slip quarterly, 50% best-case close rate)
+- 3.5x+: Strong (banding is a practice-based threshold informed by Ebsta slippage data: 36% of deals slip past their forecast close date)
 
 **Forecast Accuracy Benchmarks (Monthly Actuals vs Month-Start Forecast):**
-- ±5%: Elite (only 7% of companies reach 90%+ accuracy; Gartner via ORM Technologies, 2025)
-- ±10%: Strong; ±15-20%: Normal; ±25%+: Process broken, structural fix required (practice-based banding, informed by the Ebsta 2025 accuracy distribution)
+- ±5%: Elite (only 7% of sales organizations reach 90%+ accuracy; Gartner State of Sales Operations survey, via ORM Technologies)
+- ±10%: Strong; ±15-20%: Normal; ±25%+: Process broken, structural fix required (practice-based banding, informed by the Gartner median accuracy of 70-79%)
 
 **Quota Attainment Benchmarks (Rep-Level Performance):**
 - Healthy: 70-80% of reps hit quota (aspirational target)
-- Median market: 46% of reps hit quota in 2025, down from 52% in 2024 (Ebsta 2025 GTM Benchmarks Report)
+- Median market: 78% of sellers missed quota in 2025, up from 69% in 2024 (Ebsta x Pavilion 2025 GTM Benchmarks); 62% of ramped AEs hit quota in 2025 (ICONIQ State of Go-to-Market 2026)
 - Signal: If below 50% organization-wide, quota-setting process is flawed (The Revenue Leadership Podcast E64, 2026)
 
 **Reforecasting Frequency Boundaries:**
@@ -441,7 +441,7 @@ Deliverables per stage: Pre-PMF produces one-page customer retention assessment 
 | `references/reconciliation-playbook.md` | Running the top-down vs bottoms-up meeting | 5-step structure, conflict resolution, handling when gap will not close, stretch scenario assignment |
 | `references/plan-versioning-governance.md` | Setting up version control and governance | Three-version system, file-naming conventions, access controls, reforecast preservation |
 | `references/reforecasting-triggers.md` | Defining when to reforecast mid-year | Trigger matrix (revenue, unit-economics, execution, external), examples per trigger type, process per trigger |
-| `references/reforecasting-benchmarks.md` | Pipeline coverage and forecast accuracy thresholds | Coverage benchmarks (Ebsta 2025), accuracy benchmarks (Gartner 2025), when each benchmark triggers escalation |
+| `references/reforecasting-benchmarks.md` | Pipeline coverage and forecast accuracy thresholds | Coverage benchmarks (Ebsta 2025), accuracy benchmarks (Gartner, via ORM Technologies), when each benchmark triggers escalation |
 | `references/fpa-revops-collaboration-charter.md` | Building joint FP&A-RevOps ownership | Roles, joint-decision matrix, weekly sync template, quarterly reconciliation meeting format |
 | `references/planning-diagnostic-full.md` | Running full 10-question diagnostic | Detailed interpretation per question, scoring guide, remediation playbook for process gaps |
 | `references/planning-assumptions-template.md` | Creating single-source-of-truth assumption sheet | Template, example, owner assignment, confidence scoring |
@@ -486,6 +486,6 @@ To implement your annual planning:
 
 Use in: Annual planning kickoff, revenue-finance alignment sessions, board preparation, mid-year reforecasting.
 
-Benchmark source: Ebsta 2025 GTM Benchmarks Report.
+Benchmark sources: Ebsta x Pavilion 2025 GTM Benchmarks, Fullcast 2026 Revenue Benchmark Report, ICONIQ State of Go-to-Market 2026, Gartner (via ORM Technologies), SaaS Capital 2025, Benchmarkit and Aleph 2026.
 
 > Built by [Neon Triforce](https://neontriforce.com)

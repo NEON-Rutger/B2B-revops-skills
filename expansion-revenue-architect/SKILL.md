@@ -95,7 +95,7 @@ When GRR needs fixing, these are the levers in priority order:
 | Product gaps (feature adoption blockers) | Medium; requires cross-functional investment | 2-4 quarters | Product + CS |
 | Pricing architecture (discount sunset, value alignment) | Medium; prevents renewal friction | 1-2 quarters | RevOps + Finance |
 
-**Source validation:** Companies improving GRR by 5 points see 20-30% valuation uplift at next funding round (m3ter, 2026; Software Equity Group). KeyBanc 2025 Private SaaS Survey (104 companies, median $26M ARR) shows median GRR at 88-91% with top quartile at 95%+.
+**Source validation:** Benchmarkit 2026 (CY2025 data, 342 companies) shows median GRR at 84% with top quartile at 91%; SaaS Capital 2025 (1,000+ private B2B SaaS companies) shows median GRR at 91%, and 95% for ACV above $250K.
 
 ---
 
@@ -335,7 +335,7 @@ For the referral ROI stats and the full advocacy playbook, see `references/advoc
 ## How to Use This Skill
 
 **"Your NRR is 102%: Is that good?"**
-Check your stage. For $15-50M ARR, 102% is below median (typically 104-108%). Run the GRR diagnostic first. Is this a churn problem masked by light expansion? Check NRR by segment; aggregate NRR hides segment-level problems.
+Check your stage. For $15-50M ARR, 102% is at the median (101-103% per SaaS Capital 2025, High Alpha 2025 and Benchmarkit 2026) and below top quartile (110-115%). Run the GRR diagnostic first. Is this a churn problem masked by light expansion? Check NRR by segment; aggregate NRR hides segment-level problems.
 
 **"You want to improve NRR but don't know where to start"**
 Run the 90-Day Program Phase 1 diagnostic. The answer is almost always one of: (a) GRR is too low, fix retention first; (b) pricing doesn't create natural expansion paths; (c) expansion is accidental; no signals, no ownership, no process.

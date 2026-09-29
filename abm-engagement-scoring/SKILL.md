@@ -567,7 +567,7 @@ These rules connect engagement scoring to the sales operating cadence. When an A
 | `references/buying-group-tracker.md` | Mapping and tracking the buying group | Role definitions, coverage calculation, champion validation, tracking table template |
 | `references/handover-trigger-doctrine.md` | Defining and executing account handoff to sales | Handover criteria, critical events, handover packet specification, rejection reason codes |
 | `references/measurement-dashboard-spec.md` | Building the ABM measurement dashboard | Leading/lagging metrics, what NOT to report, per-audience dashboard specs, alert thresholds |
-| `references/abm-benchmarks.md` | Validating your program against industry data | Buying group size, engagement benchmarks, handover conversion rates, ROI data (all sourced) |
+| `references/abm-benchmarks.md` | Validating your program against industry data | Buying group size, engagement benchmarks, handover conversion rates, evidence-labeled data (sourced or marked practice-based) |
 | `references/abm-diagnostics.md` | Detecting measurement theater and false positives | 10-question ABM diagnostic, pattern-based diagnosis, gap analysis framework |
 
 ---

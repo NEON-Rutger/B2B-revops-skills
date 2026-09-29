@@ -30,9 +30,9 @@ Three forces made warehouse-native architecture the default at scale:
 
 **Two.** AI requires unified data. Every AI agent (lead scorer, sales assistant, expansion predictor) depends on complete, fresh customer context. Distributed copies mean agents work from stale or incomplete views. Unified warehouse data means agents see the single source of truth (LeanData, 2026).
 
-**Three.** Speed. When definitions live in code across five systems, changes ripple slowly. When definitions live in the warehouse, updates flow to all downstream tools instantly. Teams using warehouse-native stacks report materially faster deal cycles and improved revenue outcomes (LeanData, 2026).
+**Three.** Speed. When definitions live in code across five systems, changes ripple slowly. When definitions live in the warehouse, updates flow to all downstream tools instantly. Teams using warehouse-native stacks report materially faster change cycles (practice-based; no published benchmark found).
 
-By 2026, 50% of large enterprises are replacing traditional packaged CDPs with composable, warehouse-native stacks (McKinsey, 2026). Composable vendor growth hit 7.8% in January 2026, six times the 1.3% industry average (CDP Institute, 2026).
+More than 25% of CDPs now support warehouse-centric architecture, and composable vendor employment growth hit 7.8% in January 2026, six times the 1.3% industry average (CDP Institute, 2026). Hightouch, a composable vendor, was named a Leader in the 2025 Gartner Magic Quadrant for Customer Data Platforms on its first inclusion (Gartner, published January 2026).
 
 ### The Reference Architecture
 
@@ -159,7 +159,7 @@ dbt (data build tool) is how revenue teams define customer metrics in a testable
 
 **Why it matters for RevOps:** When a definition lives in Excel or someone's head, it drifts. When it lives in dbt, it is versioned, tested, and auditable. You can trace any number back to the code that produced it.
 
-**Hiring signal:** By 2026, dbt literacy is emerging as a required skill at Manager+ in RevOps roles (RevOps Careers, Q1 2026). 75% of high-growth companies operate on a RevOps model, and most deployed their RevOps function in the last two years. Those teams need operators who speak transformation fluently.
+**Hiring signal:** By 2026, dbt literacy is emerging as a required skill at Manager+ in RevOps roles (RevOps Careers job-posting dataset, Q1 2026; not independently verified). Gartner predicted that 75% of the highest growth companies would deploy a RevOps model by 2025 (Gartner, 2021). Those teams need operators who speak transformation fluently.
 
 **Implementation scope:** dbt Cloud (managed) for most teams; self-managed dbt Core for highly technical orgs. Start with staging (raw data cleansed), then marts (aggregated business views), then testing and documentation.
 
@@ -171,7 +171,7 @@ dbt (data build tool) is how revenue teams define customer metrics in a testable
 
 **Implementation:** Every reverse ETL pipeline has: a warehouse query (the source), a transformation (optional), a destination system (CRM, Slack, email), a sync schedule (usually hourly or event-triggered), and a reconciliation process (monthly audit: do the numbers in the warehouse match what landed in the destination?).
 
-**Scale:** By mid-2026, Hightouch had synced 7.3 trillion plus records and organizations are achieving 15-30% CAC reduction and 25-45% higher conversion rates from warehouse-computed lead scores and routing decisions (Hightouch, 2026).
+**Scale:** By 2026, Hightouch reported 7.3 trillion plus records synced (Hightouch, vendor data, 2026). Vendor blogs cite 15-30% CAC reduction and 25-45% higher conversion rates from warehouse-computed lead scores and routing decisions (Integrate.io, Peliqan, vendor blogs, 2026; self-reported, no disclosed methodology).
 
 ### Identity Resolution: The Foundation
 

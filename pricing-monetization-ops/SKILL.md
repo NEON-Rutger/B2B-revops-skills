@@ -474,7 +474,7 @@ Existing customer (renewing in August):
 - Low-usage customers (who are price-sensitive) see a smaller increase or none.
 - Requires cohort analysis and segmentation in the billing system.
 
-**Gotcha:** Communicate price increases 60+ days before execution. Surprise increases drive churn. In one study, proactive communication reduced churn from a 15% impact to 5%.
+**Gotcha:** Communicate price increases 60+ days before execution. Surprise increases drive churn. Proactive communication reduces price-increase churn (practice-based; no traceable study quantifies the effect).
 
 ## Operational Playbook 3: Data Quality and Billing-Grade Standards
 
@@ -590,12 +590,12 @@ Do not use this skill if: (1) the customer's contract is pure flat-fee annual wi
 
 ## References
 
-- Ledgerup (2026). Consumption Pricing Adoption Report: 77% of largest software companies using consumption-based pricing. Market sizing: $6.5B in 2026, projected $15.3B by 2032.
-- Chargebee (2025). State of Subscriptions: 43% of companies using hybrid pricing models today; projected 61% by end of 2026.
+- Metronome (2025). State of Usage-Based Pricing 2025 Report (vendor research): 77% of the largest software companies have some form of usage-based pricing.
+- Ledgerup (2026), relaying third-party market research (forecast): usage-based billing software market about $6.5B, projected $15.3B by 2032.
+- Growth Unhinged (2026). The 2026 State of B2B SaaS and AI Monetization Report (survey, n=230): hybrid is the most common primary pricing model at 37%, up from 25% a year earlier.
 - Zuora (2026). Metered Billing Guide: Architecture and implementation patterns for usage tracking and deduplication.
-- Gartner (2026). Revenue Ops Platform Landscape: CPQ consolidation trends and ASC 606 compliance requirements.
-- HubSpot (April 2026). Breeze Agent pricing shift: $0.50 per resolved conversation (Customer Agent), $1.00 per recommended lead (Prospecting Agent).
-- Zylo (2026). SaaS Management Index: 78% of IT leaders experienced unexpected consumption or AI charges in the past year.
+- HubSpot (April 2026). Breeze Agent pricing shift: about $0.50 per resolved conversation (Customer Agent), $1.00 per recommended lead (Prospecting Agent).
+- Zylo (2026). SaaS Management Index: 78% of IT leaders reported unexpected charges tied to consumption or AI pricing in the past 12 months.
 - Normative estimates on revenue recognition complexity: Based on practice patterns across 5,000+ consumption contracts per customer. Re-estimation required monthly for ASC 606 compliance.
 
 See also: `references/benchmarks-sourced.md` for detailed sourcing on all quantitative claims.
