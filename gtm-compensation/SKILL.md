@@ -42,7 +42,7 @@ Base/Variable Split:  50/50 (standard for full-cycle closers)
                       60/40 (for enterprise AEs with longer cycles)
                       40/60 (for transactional, high-volume sales)
 
-Quota-to-OTE Ratio:  5:1 (standard: $500K quota for $100K OTE)
+Quota-to-OTE Ratio:  5:1 (standard: $500K quota for $100K OTE; Bridge Group 2026 AE median is 4.6x, $960K quota on $200K OTE)
                       4:1 (enterprise or complex sales)
                       6:1 (transactional, SMB)
                       8:1+ (self-serve or high-velocity)
@@ -71,7 +71,7 @@ Month 2:   100% of base, 50% of variable against reduced quota
 Month 3:   100% of base, 75% of variable against reduced quota
 Month 4+:  Full comp plan
 ```
-Ramp quotas should be 25-50-75-100% of full quota over the first four months. The timeline extends for enterprise (6-month ramp is common) and compresses for SMB/transactional (2-month ramp).
+Ramp quotas should be 25-50-75-100% of full quota over the first four months. The timeline extends for enterprise (6-month ramp is common; the Bridge Group 2026 median AE ramp across segments is 6.2 months) and compresses for SMB/transactional (2-month ramp).
 
 ### Sales Development Representatives (SDRs/BDRs)
 
@@ -199,9 +199,9 @@ Team development metrics:  10-20% (rep ramp time, rep retention, quota distribut
 
 ## Benchmark Ranges (B2B SaaS)
 
-These benchmarks are for B2B SaaS companies in 2026. Ranges shift based on geography (US benchmarks run 15-30% higher than Western Europe), company stage, deal complexity, and market competitiveness for talent.
+These benchmarks are for B2B SaaS companies in 2026. Ranges shift based on geography (practice-based: US benchmarks run 15-30% higher than Western Europe; not traced to a source), company stage, deal complexity, and market competitiveness for talent.
 
-**Source note:** US and European ranges are practice-based composites; at the 2026-09 verification pass they could not be traced to a specific published survey edition (Radford, Mercer, Payscale or similar). European ranges reflect practice-based data from $15M-$150M ARR companies. For the most current market data, cross-reference against Radford benchmark database (if your company subscribes) or conduct a custom compensation survey every 12-18 months.
+**Source note:** The US ranges are practice-based composites, with sourced medians noted under the block where they exist (The Bridge Group, RepVue; USD). The European block now uses sourced medians (RepVue country pages, Ravio Compensation Trends 2026) in the currency published, with practice-based rows labeled. Full figures, URLs, data-updated dates and source caveats are in `references/ote-benchmarks.md`. RepVue data is self-reported and skews to larger vendors; Ravio is vendor data from European tech companies. Validate against a current survey for your country and role (Ravio, Radford/Aon, Mercer, or national statistics office wage data) every 12-18 months.
 
 ### US Benchmarks by Role and Seniority
 
@@ -243,27 +243,30 @@ CRO:
   Base: $220-320K | OTE: $350-550K
 ```
 
+Sourced US medians (USD) to check the practice-based ranges against: SDR OTE $80K at 68:32 (The Bridge Group, 2025); AE OTE $200K, quota $960K, quota-to-OTE 4.6x (The Bridge Group, 2026); AE mix 53:47 (The Bridge Group, 2024 edition); Sales Manager $150K base, $280K OTE (RepVue, 2026), which is above the Frontline Manager range shown. See `references/ote-benchmarks.md` for URLs.
+
 ### European Benchmarks (Western Europe, 2026)
 
-European comp typically runs 15-30% below US for equivalent roles, partly offset by stronger employment protections and benefits. Variable percentages are often lower (less aggressive pay mix). These ranges have been updated for 2026 market conditions and should be validated against your region's talent market before implementation.
+European comp typically runs 15-30% below US for equivalent roles (practice-based), partly offset by stronger employment protections and benefits. Sourced European medians show a pay mix close to US norms (SDR about 70:30, AE about 52-56% base), so do not assume a less aggressive mix without checking. Validate against your region's talent market before implementation.
 
 ```
-ACCOUNT EXECUTIVES:
-Junior AE:  Base: $45-65K | OTE: $70-100K
-Mid-Level:  Base: $60-85K | OTE: $100-150K
-Senior/Enterprise: Base: $85-120K | OTE: $150-220K
+Median base | median OTE, by country (RepVue, 2026, self-reported)
+SDR/BDR:          NL €49,927 | €71,769   DE €46,789 | €66,951   UK £39,988 | £60,078
+AE (SMB):         NL €54,787 | €106,038  DE €60,816 | €108,820  UK £54,173 | £98,608
+AE (Mid-Market):  NL €76,116 | €136,637  DE €75,196 | €139,663  UK £67,688 | £120,997
+AE (Enterprise):  NL €99,433 | €181,904  DE €105,393 | €201,610 UK £97,669 | £181,374
+Account Manager:  DE €91,048 | €167,852
+CSM:              UK £70,964 | £97,776  (no NL/DE country median found; practice-based)
 
-SDR/BDR:    Base: $35-50K | OTE: $50-70K
+Base salary only, not OTE (Ravio Compensation Trends 2026)
+Sales Executive (P3, mid-level IC): NL €56,700  DE €57,800  UK £52,800
+Sales Manager (M3):                 NL €89,500  DE €90,200  UK £90,700
 
-CUSTOMER SUCCESS:
-CSM:        Base: $55-80K | OTE: $65-95K
-Senior CSM: Base: $75-100K | OTE: $90-125K
-
-SALES LEADERSHIP:
-Manager:    Base: $90-130K | OTE: $130-190K
-Director:   Base: $120-160K | OTE: $170-240K
-VP Sales:   Base: $140-200K | OTE: $210-320K
+Director / VP Sales: no European source found; practice-based.
+  VP Sales OTE $110-330K (USD) across $15M-$150M ARR bands, see reference stage tables
 ```
+
+The practice-based stage tables in `references/ote-benchmarks.md` (USD, by ARR band) sit well below these sourced medians for SDR and AE roles (for example SMB AE OTE $42-65K versus RepVue SMB AE medians of about €106-109K in NL and DE). Use the sourced medians for market positioning and the stage tables only as lean-company floor values.
 
 **Netherlands-specific note:** Dutch comp sits in the middle-to-upper range of European benchmarks. The Dutch market is competitive for English-speaking GTM talent due to Amsterdam's tech hub status, which pushes OTEs closer to UK levels.
 
