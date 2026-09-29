@@ -19,9 +19,9 @@ Marketing operations teams typically rely on enrichment data and behavioral data
 **The math:** 10 customer interviews, conducted with structured questioning depth, typically yield 40+ content assets AND validate/refine your lead scoring model (practice-based; execution depth varies). This is the highest-ROI activity in marketing operations when run with rigorous methodology.
 
 **Process:**
-1. CS or Sales conducts structured interviews (see `icp-builder` skill for the 8-step process)
+1. CS or Sales conducts structured interviews (the 8-step process is in `customer-interview-method.md` in this references folder)
 2. Interview outputs are tagged and stored in the SPICED library
 3. MarOps reviews quarterly: Which scoring criteria align with interview findings? Which don't?
 4. Adjust scoring weights based on what real customers say, not what you assumed
 
-See the icp-builder skill (references/icp-building-reference.md) for the full customer interview methodology and GAP method.
+For the full interview method, see `customer-interview-method.md` in this references folder. The GAP method for building the ICP itself lives in the icp-builder skill.
