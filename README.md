@@ -1,6 +1,6 @@
 # RevOps Skills Library for Claude
 
-**Current release: v1.7.1 (2026-09-29), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.7.2 (2026-10-05), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
 45 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
@@ -29,6 +29,8 @@ cp -r B2B-revops-skills/*/ your-project/.claude/skills/
 ```
 
 Each skill is a folder containing a `SKILL.md` file (and optionally a `references/` directory). Place the folder in your project's `.claude/skills/` directory. Claude discovers and loads skills automatically when you open the project.
+
+**Download instead of cloning.** Every [release](https://github.com/NEON-Rutger/B2B-revops-skills/releases/latest) ships one `.skill` file per skill plus `b2b-revops-skills-all-45.zip` with the whole library. A `.skill` file is a zip of the skill folder: upload it under Settings, Capabilities, Skills in the Claude apps, or unzip it into `.claude/skills/` for Claude Code. Each skill runs on its own, so you can install only the ones you need.
 
 ---
 
