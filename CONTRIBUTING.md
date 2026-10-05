@@ -12,6 +12,7 @@ Every pull request must include:
 
 1. **`SKILL.md`**, The skill file itself. Must include:
    - A clear activation trigger (one sentence describing when Claude should load this skill)
+   - A `description` in the frontmatter of **1,024 characters or fewer** (the Claude skill format's hard limit; a longer description can stop the skill from loading). Run `python3 scripts/check_skills.py` before opening the PR; CI runs the same check.
    - A BOUNDARY statement that names at least two other skills it intentionally does not overlap with, and why
    - Concrete diagnostic questions or frameworks, not general advice
 

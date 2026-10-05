@@ -1,6 +1,6 @@
 # RevOps Skills Library for Claude
 
-**Current release: v1.7.2 (2026-10-05), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.7.3 (2026-10-05), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
 45 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 

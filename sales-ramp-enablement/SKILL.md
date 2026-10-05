@@ -1,23 +1,16 @@
 ---
 name: sales-ramp-enablement
 aliases: [sales-ramp-enablement, rep-ramp-design]
-description: >
-  Design rep ramp as an instrumented system: milestone-gated 30-60-90 with
-  certification evidence, ramp math wired into capacity and forecast, ramp-
-  adjusted quota and comp, and the manager cadence that catches a drifting
-  ramp in week three instead of month five. Triggers on 'ramp,' 'ramp time,'
-  'new rep onboarding,' 'time to productivity,' 'reps take too long to
-  produce,' 'certification,' 'enablement program,' 'sales onboarding plan,'
-  '30-60-90 for the new AE,' 'ramp quota,' or any situation where hiring is
-  planned but the months between start date and full production are treated
-  as weather instead of a system. BOUNDARY: a playbook-foundations skill owns
-  the playbook document itself (what good looks like, written down); this
-  skill assumes a playbook exists or names its absence as the first gap, and
-  builds the SYSTEM that installs it into a new rep on a clock. Call-scoring
-  skills own per-call quality scoring; this skill consumes those scores as
-  certification evidence. gtm-compensation owns full comp design; this skill
-  specifies only the ramp-period quota and draw logic. revops-org-chart owns
-  hiring sequencing; capacity math here feeds it.
+description: >-
+  Design rep ramp as an instrumented system: milestone-gated 30-60-90 with certification evidence,
+  ramp math wired into capacity and forecast, ramp-adjusted quota and comp, and a manager cadence that
+  catches a drifting ramp in week three instead of month five. Triggers on 'ramp', 'ramp time', 'new
+  rep onboarding', 'time to productivity', 'reps take too long to produce', 'certification',
+  'enablement program', 'sales onboarding plan', '30-60-90 for the new AE', 'ramp quota', or any
+  hiring plan that treats the months between start date and full production as weather. BOUNDARY:
+  assumes a playbook exists or names its absence as the first gap. Call scoring feeds certification
+  evidence. gtm-compensation owns full comp design; this skill sets only ramp-period quota and draw.
+  revops-org-chart owns hiring sequencing; the capacity math here feeds it.
 status: stable
 ---
 

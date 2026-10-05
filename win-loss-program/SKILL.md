@@ -1,25 +1,16 @@
 ---
 name: win-loss-program
 aliases: [win-loss-program, win-loss-analysis]
-description: >
-  Build a standing win-loss program that finds out why deals were actually
-  won or lost, from two evidence lanes: mining the transcripts and threads of
-  decided deals, and interviewing the buyers themselves after the decision.
-  Triggers on 'win-loss,' 'why did we lose,' 'why do we win,' 'loss reasons,'
-  'post-mortem this deal,' 'buyer interview,' 'customer arena,' 'group
-  customer feedback session,' 'our CRM loss reasons are useless,'
-  'competitive losses,' 'what is actually killing our deals,' or any
-  situation where decisions about positioning, product, or process are
-  being made from rep-reported loss fields. BOUNDARY: objection-mining works
-  LIVE deals, extracting objections from in-flight conversations so reps can
-  handle them; this skill works DECIDED deals, extracting causes after the
-  outcome is known, which is a different evidence standard (no deal left to
-  protect). closed-lost-revival consumes this program's loss patterns as its
-  library's truth source and runs the re-engagement; battlecard-type skills
-  consume the competitive findings; sales-ramp-enablement consumes the
-  objection and loss-cause themes as certification curriculum. deal-
-  qualification-gates consumes the findings upstream: recurring loss causes
-  become new evidence-gate floors.
+description: >-
+  Build a standing win-loss program that finds out why deals were really won or lost, from two
+  evidence lanes: mining the transcripts and threads of decided deals, and interviewing buyers after
+  the decision. Triggers on 'win-loss', 'why did we lose', 'why do we win', 'loss reasons',
+  'post-mortem this deal', 'buyer interview', 'customer arena', 'our CRM loss reasons are useless',
+  'competitive losses', 'what is actually killing our deals', or any decision on positioning, product
+  or process being made from rep-reported loss fields. BOUNDARY: this skill works DECIDED deals, a
+  different evidence standard from objection handling on live deals. closed-lost-revival uses its loss
+  patterns for re-engagement, sales-ramp-enablement uses its themes as certification curriculum, and
+  deal-qualification-gates turns recurring loss causes into new gate floors.
 status: stable
 ---
 

@@ -301,7 +301,7 @@ Implement this workflow:
 3. **Right to Object**: Ensure every contact can easily object to further processing. Include an unsubscribe link and honor objections immediately (no delay).
 4. **Documentation**: Log notification dates per contact in your CRM (custom field: "Article_14_Notified__c" with a date stamp). This proves compliance in an audit.
 
-Non-compliance risk: $10M or 2% of global revenue in fines; this is typically escalated only in large-scale breaches, but still matters for reputational and legal risk.
+Non-compliance risk: fines of up to EUR 20M or 4% of global annual turnover, whichever is higher (GDPR Article 83(5), which covers the transparency duties in Article 14); this is typically escalated only in large-scale breaches, but still matters for reputational and legal risk.
 
 ### Practical Implementation Steps
 

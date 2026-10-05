@@ -207,7 +207,7 @@ A Business Automation team is the natural predecessor to RevOps. The transition 
 3. **Role evolution:** Existing admins can grow toward Analyst or Architect; existing leads can grow toward Business Partner
 4. **Gap to fill:** Process authority and business partnership skills; the technical foundation is already there
 
-The constraint is rarely technical. It's governance. Read the Governance Model 0.3 file for the framework.
+The constraint is rarely technical. It's governance.
 
 ---
 

@@ -1,24 +1,16 @@
 ---
 name: renewal-save-motion
 aliases: [renewal-save-motion, churn-save]
-description: >
-  Run the defensive counterpart to expansion: a structured save motion for
-  at-risk customers and a renewal runbook that starts at T-120, not the week
-  the contract ends. Triggers on 'renewal at risk,' 'customer went quiet,'
-  'churn save,' 'save play,' 'they stopped using the product,' 'champion
-  left the account,' 'renewal coming up,' 'GRR is slipping,' 'downgrade
-  request,' 'cancellation notice,' 'win the renewal,' or any situation where
-  a health signal fired and the team's only play is a discount and a prayer.
-  Entry condition: a risk flag already exists (from a health scan, usage
-  drop, champion departure, or a blocked expansion attempt). BOUNDARY:
-  customer-health scanners (e.g. customer-health, account-health-audit)
-  DETECT risk across the base; this skill executes the intervention on one
-  flagged account, starting where their output ends. expansion-opportunity-
-  analysis is the offense on healthy accounts; the two are mutually
-  exclusive on the same account at the same time, and its no-activity hard
-  gate is precisely the handoff INTO this skill. cs-operations owns the
-  full CS org design (segmentation, staffing, QBR cadence); this skill is
-  one motion inside that system, not the system.
+description: >-
+  The defensive counterpart to expansion: a structured save motion for at-risk customers and a renewal
+  runbook that starts at T-120, not the week the contract ends. Triggers on 'renewal at risk',
+  'customer went quiet', 'churn save', 'save play', 'they stopped using the product', 'champion left
+  the account', 'renewal coming up', 'GRR is slipping', 'downgrade request', 'cancellation notice', or
+  any account where a health signal fired and the only play on the table is a discount. Entry
+  condition: a risk flag already exists (health scan, usage drop, champion departure, blocked
+  expansion). BOUNDARY: health scanners detect risk across the base; this skill runs the intervention
+  on one flagged account. Expansion is the offense on healthy accounts and never runs on the same
+  account at the same time. cs-operations owns CS org design; this is one motion inside it.
 status: stable
 ---
 

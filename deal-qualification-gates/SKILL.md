@@ -1,24 +1,16 @@
 ---
 name: deal-qualification-gates
 aliases: [deal-qualification-gates, qualify-or-kill]
-description: >
-  Install evidence-gated qualification on a live pipeline: score the QUALITY
-  of evidence behind every deal (1-5 per qualification dimension), set
-  minimum scores per stage, and enforce qualify-or-kill at each gate.
-  Triggers on 'zombie deals,' 'pipeline is full of junk,' 'is this deal
-  real,' 'qualify or kill,' 'deals stall at proposal,' 'forecast built on
-  hope,' 'reps say every deal is closing,' 'stage criteria,' 'exit
-  criteria,' 'MEDDIC scoring,' 'SPICED scoring,' 'qualification framework
-  rollout,' or any situation where deals advance on rep optimism instead of
-  buyer evidence. Works with SPICED by default and maps to MEDDICC or BANT.
-  BOUNDARY: icp-builder owns ACCOUNT-level fit (is this the right company)
-  and carries a summary of these gates as its pipeline-enforcement step;
-  this skill is the full deal-level operating system (is this deal real).
-  deal-velocity-engineer treats slow deals as a speed problem; this skill
-  treats false deals as a truth problem, and it runs first, because
-  accelerating an unqualified deal just produces a faster loss. Weekly
-  pipeline reviews (e.g. pipeline-review) consume the scores this skill
-  produces; they read the dashboard, this skill builds the engine under it.
+description: >-
+  Install evidence-gated qualification on a live pipeline: score the quality of evidence behind every
+  deal (1 to 5 per qualification dimension), set minimum scores per stage, and enforce qualify-or-kill
+  at each gate. Works with SPICED by default and maps to MEDDICC or BANT. Triggers on 'zombie deals',
+  'pipeline is full of junk', 'is this deal real', 'qualify or kill', 'deals stall at proposal',
+  'forecast built on hope', 'reps say every deal is closing', 'stage criteria', 'exit criteria',
+  'MEDDIC scoring', 'SPICED scoring', or any pipeline where deals advance on rep optimism instead of
+  buyer evidence. BOUNDARY: icp-builder owns account-level fit; this skill owns deal-level truth.
+  deal-velocity-engineer treats slow deals as a speed problem; this skill treats false deals as a
+  truth problem and runs first, because accelerating an unqualified deal produces a faster loss.
 status: stable
 ---
 

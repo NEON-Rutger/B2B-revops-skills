@@ -1,21 +1,16 @@
 ---
 name: closed-lost-revival
 aliases: [closed-lost-revival, win-back-sweep]
-description: >
-  Run a quarterly revival sweep over the pipeline you already paid for:
-  closed-lost deals, proposals that went quiet, champions who changed jobs,
-  and engaged contacts who went silent. Triggers on 'closed-lost,' 'win-back,'
-  'revive dead deals,' 'they ghosted us,' 'gone quiet,' 'lost the deal, what
-  now,' 'reactivation campaign,' 're-engage old pipeline,' 'proposal never
-  answered,' 'dormant accounts,' or any situation where a team is buying new
-  leads while a warehouse of once-interested accounts sits untouched. The
-  skill gates hard: it revives accounts that engaged and then went quiet,
-  never cold contacts that ignored you from day one. BOUNDARY: closed-won-
-  replication-play covers the WON side of the same idea (turning wins into
-  lookalikes); champion-move-detection covers movers as a standing monitoring
-  signal, while this skill only consumes verified moves inside a quarterly
-  campaign; stage-aware-follow-up owns live threads still inside an active
-  cadence (under 60 days of silence), which are patience, not revival.
+description: >-
+  Run a quarterly revival sweep over pipeline you already paid for: closed-lost deals, proposals that
+  went quiet, champions who changed jobs, and engaged contacts who went silent. Triggers on
+  'closed-lost', 'win-back', 'revive dead deals', 'they ghosted us', 'gone quiet', 'lost the deal,
+  what now', 'reactivation campaign', 're-engage old pipeline', 'proposal never answered', 'dormant
+  accounts', or a team buying new leads while once-interested accounts sit untouched. Gates hard: it
+  revives accounts that engaged and then went quiet, never cold contacts that ignored you from day
+  one. BOUNDARY: turning wins into lookalikes is a separate play; job-change monitoring is a standing
+  signal, and this skill only uses verified moves inside the quarterly campaign; live threads under 60
+  days of silence are patience, not revival.
 status: stable
 ---
 

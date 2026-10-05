@@ -1,23 +1,16 @@
 ---
 name: onboarding-activation
 aliases: [onboarding-activation, time-to-first-value]
-description: >
-  Design customer onboarding as an activation system: carry the why-they-
-  bought evidence across the signature, drive to first realized value on a
-  clock, detect stalls while they are cheap, and graduate accounts into the
-  steady-state cadence with a value baseline installed. Triggers on 'customer
-  onboarding,' 'time to value,' 'time to first value,' 'activation,'
-  'implementation drags,' 'customers sign and stall,' 'go-live took months,'
-  'adoption never started,' 'onboarding handoff,' 'kickoff call,' or any
-  situation where the gap between signed and successful is where accounts
-  quietly die. BOUNDARY: trial-poc-conversion ends at the buying decision and
-  hands its activation definition forward; this skill starts at signature.
-  renewal-save-motion owns intervention on flagged accounts in steady state;
-  this skill's stall protocol covers the onboarding window, then hands the
-  account over with its baseline. qbr-ebr-builder consumes this skill's
-  output directly: the value baseline agreed at graduation is what every
-  later business review measures against. cs-operations owns the CS org
-  design around all of it.
+description: >-
+  Design customer onboarding as an activation system: carry the why-they-bought evidence across
+  signature, drive to first realized value on a clock, catch stalls while they are cheap, and graduate
+  accounts into steady state with a value baseline installed. Triggers on 'customer onboarding', 'time
+  to value', 'time to first value', 'activation', 'implementation drags', 'customers sign and stall',
+  'go-live took months', 'adoption never started', 'onboarding handoff', 'kickoff call', or any gap
+  between signed and successful where accounts quietly die. BOUNDARY: trial-poc-conversion ends at the
+  buying decision and hands its activation definition forward; this skill starts at signature.
+  renewal-save-motion owns flagged accounts in steady state. qbr-ebr-builder measures against the
+  baseline agreed here. cs-operations owns the CS org design around all of it.
 status: stable
 ---
 
