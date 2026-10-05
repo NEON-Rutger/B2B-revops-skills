@@ -15,6 +15,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 - `scripts/check_skills.py` and a CI check on every pull request: valid frontmatter, a name, and a description of at most 1,024 characters. CONTRIBUTING lists the limit as a requirement.
+- Release workflow: when the top CHANGELOG entry names a version without a release, GitHub Actions publishes it with one `.skill` package per skill and a full-library zip.
 
 ## [v1.7.2], 2026-10-05
 
