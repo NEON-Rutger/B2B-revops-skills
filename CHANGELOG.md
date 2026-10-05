@@ -6,6 +6,14 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.7.2], 2026-10-05
+
+### Added
+- Downloadable packages on the GitHub release: one `.skill` file per skill (a zip of the skill folder, ready to upload in the Claude apps or unzip into `.claude/skills/`) and `b2b-revops-skills-all-45.zip` with the full library. README install section points to them.
+
+### Fixed
+- `revops-forecasting/references/dashboard-architecture.md`: Ebsta x Pavilion 2025 pipeline figure corrected from $43B to $48B, matching the other reference files.
+
 ## [v1.7.1], 2026-09-29
 
 ### Changed

@@ -109,4 +109,4 @@ This waterfall, reviewed weekly, is the single most powerful pipeline visibility
 | Rep Scorecard (Rep × metrics matrix) | Individual performance |
 | Pipeline Created (by week) | Leading indicator |
 
-*References: Clari (3.2x pipeline coverage benchmark, 2024-25); Ebsta 2025 GTM Benchmarks (655K opportunities, $43B pipeline); Gong (close date push impact: win rate drops ~50% at 1 month versus 1 week); Salesforce research: active pipeline health management = 18% higher win rates, 28% more accurate forecasts.*
+*References: Clari (3.2x pipeline coverage benchmark, 2024-25); Ebsta x Pavilion 2025 GTM Benchmarks (655K opportunities, $48B pipeline); Gong (close date push impact: win rate drops ~50% at 1 month versus 1 week); Salesforce research: active pipeline health management = 18% higher win rates, 28% more accurate forecasts.*
