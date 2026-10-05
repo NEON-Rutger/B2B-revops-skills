@@ -1,24 +1,17 @@
 ---
 name: procurement-navigation
 aliases: [procurement-navigation, security-review-navigator]
-description: >
-  Navigate the buyer's procurement gauntlet from 'you're selected' to
-  signature: map the gauntlet early, pre-bake the artifact pack, run
-  security, legal, and privacy reviews in parallel on a mutual close plan,
-  and negotiate procurement's game without giving away the deal the sales
-  team already won. Triggers on 'procurement,' 'security review,' 'security
-  questionnaire,' 'vendor review,' 'legal redlines,' 'stuck in legal,' 'DPA,'
-  'InfoSec,' 'vendor onboarding,' 'the deal is agreed but not signed,'
-  'procurement is squeezing us,' 'close date keeps slipping at contract
-  stage,' or any situation where a verbally-won deal enters the buyer's
-  buying machinery. BOUNDARY: an rfp-response skill owns the upstream bid
-  phase (bid/no-bid, building the response to the evaluator's scorecard);
-  this skill begins after selection, when the evaluators hand you to the
-  machinery. deal-desk-operations owns your INTERNAL approvals, quoting, and
-  concession governance; this skill choreographs the BUYER's process and
-  tells deal desk what is coming. deal-qualification-gates predicts this
-  phase: a decision-process dimension scored 4+ means the gauntlet below was
-  mapped before proposal, which is the whole trick.
+description: >-
+  Navigate the buyer's procurement gauntlet from 'you're selected' to signature: map it early,
+  pre-bake the artifact pack, run security, legal and privacy reviews in parallel on a mutual close
+  plan, and negotiate procurement's game without giving away the deal. Triggers on 'procurement',
+  'security review', 'security questionnaire', 'vendor review', 'legal redlines', 'stuck in legal',
+  'DPA', 'InfoSec', 'vendor onboarding', 'the deal is agreed but not signed', 'procurement is
+  squeezing us', 'close date keeps slipping at contract stage', or any verbally won deal entering the
+  buyer's buying machinery. BOUNDARY: the RFP and bid phase comes before this skill, which starts
+  after selection. deal-desk-operations owns internal approvals and concessions; this skill runs the
+  buyer's process. deal-qualification-gates predicts this phase: a decision-process score of 4+ means
+  the gauntlet was mapped before proposal.
 status: stable
 ---
 

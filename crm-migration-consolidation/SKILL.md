@@ -1,22 +1,17 @@
 ---
 name: crm-migration-consolidation
 aliases: [crm-migration, instance-consolidation, post-merger-crm, crm-consolidation]
-description: >
-  CRM migration, instance consolidation, and post-merger integration for B2B revenue teams;
-  system-of-record design; deduplication and identity resolution; data harmonization before
-  cutover; historical data strategy; adoption and change management; PE portfolio integration
-  playbooks. Use when the user describes merging two CRM instances, consolidating after acquisition,
-  post-merger CRM integration, handling dual CRM coexistence, managing CRM data quality before
-  migration, defining which system of record wins for which object, planning a CRM cutover,
-  multi-entity or multi-currency CRM challenges, or running a 100-day integration plan with
-  CRM elements. Trigger phrases: "merge our CRMs", "consolidate two HubSpot portals", "HubSpot
-  and Salesforce together", "post-merger CRM", "CRM integration plan", "deduplication before
-  migration", "which CRM wins", "cutover", "consolidation strategy", or "100-day CRM plan".
-  BOUNDARY: Use this skill for CRM architecture decisions, data strategy, and integration planning.
-  For detailed Salesforce configuration, see revops-salesforce. For detailed HubSpot configuration,
-  see revops-hubspot. For handoff design across the revenue bow tie, see revops-handoffs. For
-  broader PMI strategy, see revops-change-management. For data governance and master data
-  management, see revops-data-governance. See also: revops-diagnostic, revops-tech-stack.
+description: >-
+  CRM migration, instance consolidation and post-merger CRM integration for B2B revenue teams:
+  system-of-record design, deduplication and identity resolution, data harmonization before cutover,
+  historical data strategy, adoption, and PE portfolio integration playbooks. Use when merging two CRM
+  instances, consolidating after an acquisition, running two CRMs side by side, cleaning data before
+  migration, deciding which system wins for which object, planning a cutover, handling multi-entity or
+  multi-currency CRM, or building a 100-day integration plan. Triggers: "merge our CRMs", "consolidate
+  two HubSpot portals", "HubSpot and Salesforce together", "post-merger CRM", "which CRM wins",
+  "cutover", "deduplication before migration". BOUNDARY: architecture, data strategy and integration
+  planning; platform configuration see revops-salesforce or revops-hubspot; data governance see
+  revops-data-governance; wider post-merger change see revops-change-management.
 status: stable
 ---
 

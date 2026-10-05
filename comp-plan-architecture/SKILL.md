@@ -1,24 +1,17 @@
 ---
 name: comp-plan-architecture
 aliases: [comp-plan-architecture, sales-crediting-governance]
-description: >
-  Sales compensation as a system to be designed and governed, not a set of numbers.
-  Covers sales crediting and attribution rules, comp plan governance and dispute
-  handling, post-merger and multi-entity harmonization, European works council and
-  employment law constraints on changing variable pay, IFRS 15 and ASC 606 commission
-  capitalization as a design constraint, and sales compensation administration tooling.
-  Use when the user mentions crediting rules, sales credit, split credit, double
-  crediting, overlay compensation, deal ownership disputes, comp governance, comp
-  committee, plan documents, comp harmonization, merging comp plans, CCOS,
-  compensation cost of sales, works council, Betriebsrat, ondernemingsraad, avenant,
-  comite de empresa, CCNL, RSU, MBL, fire and rehire, co-determination, commission
-  capitalization, amortization of commissions, SPM tooling, or commission software. Also trigger on "who gets credit for this deal,"
-  "we have three different comp plans," "can we change the plan mid-year," "reps are
-  arguing about commission," "the CFO wants to capitalize commissions," or "we need
-  to pick a commission tool."
-  BOUNDARY: Covers the SYSTEM around compensation. For benchmarks, OTE ranges, pay
-  mix and role-level plan mechanics, see gtm-compensation. For territory and capacity
-  design, see gtm-planning. For benchmark numbers, see revops-metrics.
+description: >-
+  Sales compensation as a system to design and govern, not a set of numbers: crediting and attribution
+  rules, comp governance and disputes, post-merger and multi-entity harmonization, European works
+  council and employment law limits on changing variable pay, IFRS 15 and ASC 606 commission
+  capitalization, and commission tooling. Use when the user mentions crediting rules, split or double
+  credit, overlay comp, deal ownership disputes, comp committee, plan documents, merging comp plans,
+  CCOS, works council, Betriebsrat, ondernemingsraad, co-determination, fire and rehire, commission
+  capitalization or SPM software. Also trigger on "who gets credit for this deal", "we have three
+  different comp plans", "can we change the plan mid-year", "reps are arguing about commission" or "we
+  need to pick a commission tool". BOUNDARY: the system around comp; OTE, pay mix and plan mechanics
+  see gtm-compensation; territory and capacity see gtm-planning.
 status: stable
 ---
 

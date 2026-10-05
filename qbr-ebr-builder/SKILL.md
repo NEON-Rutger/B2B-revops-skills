@@ -1,24 +1,17 @@
 ---
 name: qbr-ebr-builder
 aliases: [qbr-ebr-builder, business-review-builder]
-description: >
-  Design and build customer business reviews that buyers actually attend:
-  QBR (operational cadence) and EBR (executive cadence), with the value
-  recap in the customer's own numbers as the load-bearing artifact.
-  Triggers on 'QBR,' 'EBR,' 'business review,' 'executive business review,'
-  'quarterly review deck,' 'prove value to the customer,' 'renewal
-  conversation prep,' 'customer stopped attending reviews,' 'our QBRs are a
-  feature parade,' 'success plan review,' or any situation where post-sale
-  value needs to be demonstrated to the people who pay, not just the people
-  who use. BOUNDARY: account-health-audit and customer-health scanners
-  produce the internal diagnostic BEFORE the review; this skill builds the
-  customer-facing instrument itself and starts from their output.
-  renewal-save-motion owns the intervention when a review surfaces risk;
-  expansion-revenue-architect and expansion-opportunity-analysis own the
-  motion when it surfaces headroom; this skill hands off to both and runs
-  neither. revenue-operating-cadence owns INTERNAL meeting architecture;
-  a business review is a customer-facing meeting and follows different
-  rules: their agenda, their numbers, their next quarter.
+description: >-
+  Design and build customer business reviews that buyers attend: QBR (operational cadence) and EBR
+  (executive cadence), with the value recap in the customer's own numbers as the load-bearing
+  artifact. Triggers on 'QBR', 'EBR', 'business review', 'executive business review', 'quarterly
+  review deck', 'prove value to the customer', 'renewal conversation prep', 'customer stopped
+  attending reviews', 'our QBRs are a feature parade', 'success plan review', or any need to show
+  post-sale value to the people who pay, not just the people who use. BOUNDARY: health audits produce
+  the internal diagnostic before the review; this skill builds the customer-facing instrument from it.
+  renewal-save-motion owns risk a review surfaces and expansion-revenue-architect owns headroom; this
+  skill hands off to both. revenue-operating-cadence owns internal meetings; a business review runs on
+  the customer's agenda and numbers.
 status: stable
 ---
 

@@ -6,6 +6,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.7.3], 2026-10-05
+
+### Fixed
+- Skill descriptions over the 1,024-character limit of the Claude skill format, which can stop a skill from loading. Rewritten to fit, keeping purpose, trigger phrases and boundaries: `saas-pnl-reading`, `crm-migration-consolidation`, `comp-plan-architecture`, `win-loss-program`, `deal-qualification-gates`, `renewal-save-motion`, `procurement-navigation`, `qbr-ebr-builder`, `sales-ramp-enablement`, `onboarding-activation`, `trial-poc-conversion`, `closed-lost-revival`.
+- `data-enrichment`: GDPR fine level corrected to up to EUR 20M or 4% of global annual turnover (Article 83(5)); it read $10M or 2%.
+- `revops-org-chart`: removed a pointer to a "Governance Model 0.3" file that is not part of the skill.
+
+### Added
+- `scripts/check_skills.py` and a CI check on every pull request: valid frontmatter, a name, and a description of at most 1,024 characters. CONTRIBUTING lists the limit as a requirement.
+
 ## [v1.7.2], 2026-10-05
 
 ### Added

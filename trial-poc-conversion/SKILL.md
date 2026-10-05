@@ -1,22 +1,16 @@
 ---
 name: trial-poc-conversion
 aliases: [trial-poc-conversion, poc-design]
-description: >
-  Design and run trials, POCs, and pilots that convert: pick the right
-  evaluation motion, contract success criteria before granting access, define
-  and instrument activation, and run the conversion clock so evaluations end
-  in a decision instead of a drift. Triggers on 'trial conversion,' 'POC,'
-  'proof of concept,' 'pilot,' 'trial design,' 'trial-to-paid,' 'our trials
-  go nowhere,' 'free pilot request,' 'evaluation plan,' 'success criteria,'
-  'trial expired without a decision,' 'they want to test it first,' or any
-  situation where product access is being traded for a buying decision.
-  BOUNDARY: deal-qualification-gates decides whether the deal is real BEFORE
-  an evaluation is granted; a POC is a proof vehicle, never a qualification
-  substitute, and granting one below the evidence gate is how free consulting
-  projects start. onboarding-activation owns everything after signature; this
-  skill ends at the conversion decision and hands the activation definition
-  forward. Account-health monitoring during a live trial is detection; this
-  skill supplies the design those monitors check against.
+description: >-
+  Design and run trials, POCs and pilots that convert: pick the right evaluation motion, contract
+  success criteria before granting access, define and instrument activation, and run the conversion
+  clock so evaluations end in a decision instead of a drift. Triggers on 'trial conversion', 'POC',
+  'proof of concept', 'pilot', 'trial design', 'trial-to-paid', 'our trials go nowhere', 'free pilot
+  request', 'evaluation plan', 'success criteria', 'trial expired without a decision', 'they want to
+  test it first', or any trade of product access for a buying decision. BOUNDARY:
+  deal-qualification-gates decides whether the deal is real before an evaluation is granted; a POC is
+  a proof vehicle, never a qualification substitute. onboarding-activation owns everything after
+  signature; this skill ends at the conversion decision and hands the activation definition forward.
 status: stable
 ---
 

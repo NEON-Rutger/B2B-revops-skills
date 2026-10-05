@@ -1,24 +1,17 @@
 ---
 name: saas-pnl-reading
 aliases: [saas-pnl-reading, saas-financial-literacy]
-description: >
-  Reading, interrogating and translating B2B SaaS financial statements for commercial
-  and revenue operations leaders who sit next to finance but were not trained in it.
-  Covers the P&L line by line, gross margin by revenue stream, the ARR bridge versus
-  recognized revenue, deferred revenue and RPO, billings versus revenue, EBITDA versus
-  adjusted EBITDA and which add-backs to challenge, why a profitable SaaS company burns
-  cash, the balance sheet items that matter commercially, budget versus actual and
-  variance analysis, and the mapping between RevOps metrics and P&L lines. Use when the
-  user mentions P&L, profit and loss, income statement, balance sheet, cash flow
-  statement, gross margin, contribution margin, EBITDA, adjusted EBITDA, add-backs,
-  ARR bridge, deferred revenue, RPO, billings, revenue recognition, budget versus
-  actual, variance analysis, board pack, management accounts, working capital, DSO,
-  capitalized R&D, or opex versus capex. Also trigger on "the CFO said," "I do not
-  understand this board deck," "why is our ARR different from our revenue," "what is
-  adjusted EBITDA," "we are profitable but out of cash," or "how do I talk to finance."
-  BOUNDARY: Covers reading and challenging FINANCIAL STATEMENTS. For SaaS metric
-  definitions such as NRR, CAC payback and win rate, see revops-metrics, which also carries the benchmark values. For commission accounting as a comp design
-  constraint, see comp-plan-architecture.
+description: >-
+  Read, interrogate and translate B2B SaaS financial statements for revenue leaders who sit next to
+  finance but were not trained in it: the P&L line by line, gross margin by stream, the ARR bridge
+  versus recognized revenue, deferred revenue and RPO, billings, EBITDA and which add-backs to
+  challenge, why a profitable SaaS company burns cash, and budget versus actual. Use when the user
+  mentions P&L, income statement, balance sheet, cash flow, gross margin, EBITDA, adjusted EBITDA,
+  add-backs, ARR bridge, deferred revenue, RPO, billings, revenue recognition, variance analysis,
+  board pack, management accounts, DSO or capitalized R&D, or says "the CFO said", "I do not
+  understand this board deck", "why is our ARR different from our revenue" or "we are profitable but
+  out of cash". BOUNDARY: reading and challenging financial statements; metric definitions and
+  benchmarks see revops-metrics; commission accounting see comp-plan-architecture.
 status: stable
 ---
 
