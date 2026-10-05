@@ -1,0 +1,58 @@
+name: Release
+# Publishes a GitHub release with downloadable skill packages whenever the top
+# CHANGELOG entry names a version that has no release yet. Run it by hand from
+# the Actions tab with "Run workflow" to retry.
+on:
+  push:
+    branches: [main]
+    paths: [CHANGELOG.md]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check skills
+        run: pip install pyyaml && python3 scripts/check_skills.py
+      - name: Read version and notes from CHANGELOG
+        id: v
+        run: |
+          VERSION=$(grep -m1 -oE '^## \[v[0-9]+\.[0-9]+\.[0-9]+\]' CHANGELOG.md | grep -oE 'v[0-9.]+')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          COUNT=$(ls -d */ | while read d; do [ -f "$d/SKILL.md" ] && echo x; done | wc -l | tr -d ' ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          {
+            echo "### Download"
+            echo "- **One file per skill:** \`<skill-name>.skill\` ($COUNT files). A \`.skill\` file is a zip of the skill folder. Upload it under Settings, Capabilities, Skills in the Claude apps, or unzip it into \`.claude/skills/\` for Claude Code."
+            echo "- **Everything at once:** \`b2b-revops-skills-all-$COUNT.zip\` (all skill folders plus STAGE-GUIDE, README, CHANGELOG and LICENSE)."
+            echo
+            echo "Every skill runs on its own, so you can install only the ones you need."
+            echo
+            awk 'f && /^## \[v/ {exit} /^## \[v/ {f=1; next} f' CHANGELOG.md
+          } > notes.md
+      - name: Skip if already released
+        id: exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "${{ steps.v.outputs.version }}" >/dev/null 2>&1; then echo "skip=true" >> "$GITHUB_OUTPUT"; else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Build packages
+        if: steps.exists.outputs.skip == 'false'
+        run: |
+          mkdir dist
+          for d in */; do s=${d%/}; [ -f "$s/SKILL.md" ] && zip -qr -X "dist/$s.skill" "$s" -x '*.DS_Store'; done
+          zip -qr -X "dist/b2b-revops-skills-all-${{ steps.v.outputs.count }}.zip" $(for d in */; do [ -f "$d/SKILL.md" ] && echo "$d"; done) STAGE-GUIDE.md README.md LICENSE CHANGELOG.md -x '*.DS_Store'
+      - name: Publish release
+        if: steps.exists.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ steps.v.outputs.version }}" dist/* \
+            --target "${{ github.sha }}" \
+            --title "${{ steps.v.outputs.version }}: ${{ steps.v.outputs.count }} skills, downloadable packages" \
+            --notes-file notes.md
