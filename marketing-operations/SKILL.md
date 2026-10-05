@@ -242,7 +242,7 @@ For the implementation pattern, behavior-based lead segmentation, and full SaaSt
 
 The highest-signal data source (structured customer interviews) is almost never fed back into the marketing data model. Sales and CS talk to customers daily, but that intelligence rarely flows into lead scoring, segmentation, or campaign targeting, so marketing optimizes for proxy signals instead of real buying criteria. Structured interviews (8-12 sessions per quarter with current customers across different company sizes) yield verbatim language for ad copy, pain priorities that reset lead-scoring weights, and decision criteria that validate your engagement model; this is the highest-ROI activity in marketing operations (practice-based).
 
-For the interview→marketing pipeline table (interview output → marketing use → how to operationalize) and the quarterly review process, see `references/customer-interview-marketing-pipeline.md`. See the icp-builder skill (references/icp-building-reference.md) for the full customer interview methodology and GAP method.
+For the interview→marketing pipeline table (interview output → marketing use → how to operationalize) and the quarterly review process, see `references/customer-interview-marketing-pipeline.md`. For the full 8-step interview method, see `references/customer-interview-method.md`.
 
 ## 5. Marketing-Sales Alignment Operations
 
@@ -439,12 +439,13 @@ For the full flip mechanics, the supporting data citations, the channel quality 
 | `references/customer-interview-marketing-pipeline.md` | Feeding interview data into MarOps | Interview→marketing pipeline table, quarterly review process |
 | `references/inbound-operations-detail.md` | Designing the inbound operational layer | Speed-to-lead SLAs, routing rules + hierarchy, follow-up cadences, ABM reporting |
 | `references/inbound-flip-strategy.md` | Channel-mix and inbound-flip conversations | Flip mechanics, supporting data citations, channel quality ranking, outbound destruction data |
+| `references/customer-interview-method.md` | Running or designing the customer interviews that feed scoring and targeting | The 8-step SPICED interview pipeline: selection, prep, interview steps, testimonials, quote extraction, case study, feedback into ICP and personas |
 
 ---
 
 ## Canon References
 
-- **icp-builder (references/icp-building-reference.md)**: Full ICP building methodology including customer interview pipeline
+- **icp-builder**: Full ICP building methodology (GAP method) that the interview findings feed
 - **revops-diagnostic**: Constraint diagnosis, including the gut-feel ICP pattern that produces inaccurate lead scoring
 
 > Built by [Neon Triforce](https://neontriforce.com)

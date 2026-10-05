@@ -91,13 +91,13 @@ How it works:
 4. Involve partners in active deals for credibility and trust transfer
 
 Impact data (sourced; see `references/partner-ecosystem-benchmarks.md` for full citations):
-- Partner-involved deals: **+11.7% avg win rate uplift**, scaling to **+37.1%** with 50+ partners (Crossbeam Partner Impact Analysis, 2024; continuous dataset, thousands of companies)
-- ELG deals are **53% more likely to close** and close **46% faster** (Crossbeam State of Partner Ecosystem, 2023; 500+ GTM leaders surveyed)
-- Deal sizes **32-60% larger** with partner involvement (Introw 2024; SaaS Hero 2025; Crossbeam case studies)
-- Companies sharing signals with 10+ partners generate **291% more pipeline** (Reveal, 2024)
-- Partner-involved accounts **58% less likely to churn** (Crossbeam, 2023)
-- EQLs (Ecosystem-Qualified Leads) convert **53% faster** than outbound (Crossbeam, 2024)
-- Partner/referral CAC: **~$150** (Genesys Growth, 2026) vs **$1,200** average B2B SaaS CAC (SaaS Hero, 2026)
+- Partner-involved deals: **+11.7% avg win rate uplift**, scaling to **+37.1%** with 50+ partners (Crossbeam network data, 2024; vendor platform data)
+- Partner-involved deals are **53% more likely to close** and close **46% faster** (Crossbeam State of the Partner Ecosystem, 2023; survey, 526 respondents)
+- Deal sizes **~30-40% larger** with partner involvement (Introw 2024, 32%; Crossbeam case studies, 30-40%)
+- **48%** of senior SaaS leaders say partner alignment shortens sales cycles (PartnerStack x Wynter, State of Partnerships in GTM 2026; survey, n=100)
+- Users with partner integrations enabled are **58% less likely to churn** (Crossbeam, 2023; vendor-reported)
+- EQLs (Ecosystem-Qualified Leads) convert **53% faster** than outbound (Crossbeam; vendor claim, dataset not published)
+- Partner/referral CAC: **~$150** (Genesys Growth, 2026) vs **$1,200** average B2B SaaS CAC (SaaS Hero, 2026); aggregator estimates, directional only
 
 **Play 2: Nearbound Marketing**
 Co-create content and run joint campaigns with partners who share your ICP.
@@ -283,24 +283,22 @@ Track two categories. Report separately. Never combine.
 
 | Metric | Early Program (<18 months) | Growth (18-36 months) | Mature (36+ months) | Source |
 |--------|------------------------------|----------------------|---------------------|--------|
-| Partner-sourced revenue (% total) | 5-10% | 15-25% | 25-40%+ | Crossbeam composite, 2023 |
-| Partner-influenced revenue (% total) | 5-15% | 15-25% | 20-30% | Crossbeam composite, 2023 |
-| Win rate uplift (partner-involved) | +9.4% (1-5 partners) | +11.7% (avg) | +37.1% (50+ partners) | Crossbeam Partner Impact Analysis, 2024 |
-| Sales cycle acceleration | 27% faster (sales + partnerships aligned) | 46% faster | Not stage-differentiated | Introw 2024; Crossbeam 2023 |
-| Average deal size uplift | 32% larger | 34-40% larger | 34-60% larger | Introw 2024; Crossbeam 34-40%; SaaS Hero 60% (2025) |
-| Program ROI (3-year) | 0.5-1.5x (investing) | 2-3x | **296%** (Forrester-validated) | Impartner/Forrester TEI, 2024 |
-| Partner activation rate | >60% (90-day target) | 60-75% | 75-85% | Crossbeam composite |
-| Time to first partner deal | 90-120 days | 60-90 days | 30-60 days | Crossbeam composite |
-| Partner/referral CAC | ~$150 | N/A | N/A | SaaS Hero/Genesys Growth, 2026 |
-| LTV:CAC (partner channel) | 3:1+ (vs 2.5:1 direct) | N/A | N/A | SaaS Hero, 2025 |
+| Partner-sourced revenue (% total) | 5-10% | 15-25% | 25-40%+ | Practice-based |
+| Partner-influenced revenue (% total) | 5-15% | 15-25% | 20-30% | Practice-based |
+| Win rate uplift (partner-involved) | +9.4% (1-5 partners) | +11.7% (avg) | +37.1% (50+ partners) | Crossbeam network data, 2024 |
+| Sales cycle acceleration | 27% shorter (nearbound motion) | 46% faster | Not stage-differentiated | Reveal (vendor claim); Crossbeam 2023 |
+| Average deal size uplift | 32% larger | 30-40% larger | 30-40% larger | Introw 2024; Crossbeam case studies 30-40% |
+| Program ROI (3-year) | 0.5-1.5x (investing) | 2-3x | **296%** (Forrester TEI, vendor-commissioned) | Impartner/Forrester TEI, 2024 |
+| Partner activation rate | >60% (90-day target) | 60-75% | 75-85% | Practice-based |
+| Time to first partner deal | 90-120 days | 60-90 days | 30-60 days | Practice-based |
+| Partner/referral CAC | ~$150 | N/A | N/A | SaaS Hero/Genesys Growth, 2026 (aggregator estimate) |
+| LTV:CAC (partner channel) | 3:1+ (vs 2.5:1 direct) | N/A | N/A | Practice-based |
 
-**Primary sources:** Crossbeam State of Partner Ecosystem 2023 (500+ GTM leaders); Crossbeam Partner Impact Analysis 2024 (continuous dataset); PartnerStack Research Lab 2024 ($500M+ transaction data); Impartner/Forrester TEI 2024; Introw 2024. See `references/partner-ecosystem-benchmarks.md` for full source index with URLs.
+**Primary sources:** Forrester Partner Ecosystem Marketing Survey 2026; Forrester State of B2B Partner Ecosystems 2025; PartnerStack x Wynter State of Partnerships in GTM 2026 (100 senior SaaS leaders); Crossbeam State of the Partner Ecosystem 2023 (526 respondents); Crossbeam network data 2024 (vendor platform data); Impartner/Forrester TEI (vendor-commissioned); Introw 2024 (vendor data). See `references/partner-ecosystem-benchmarks.md` for full source index with URLs.
 
 **At-scale reference points:**
-- HubSpot: **45%** of revenue from partnerships (2022 annual report)
-- Salesforce: **70%** of implementations partner-led; **$12.4B** partner revenue FY2025 (+20% YoY)
-- Shopify: App ecosystem drove **32%** of new merchant growth, **$1B+** partner revenue (FY2025)
-- For every $1 Salesforce earns, partners make **$4.29** (IDC, 2019); projected **$5.80** by 2024
+- HubSpot: **~45%** of revenue via partners (2022 company disclosure; not re-verified 2026-09)
+- For every $1 Salesforce earns, the ecosystem earns about **$4.29** (IDC, 2019; forecast commissioned by Salesforce, pre-2025)
 
 ---
 
@@ -401,7 +399,7 @@ Run the 5 diagnostic questions first. If your company is <$5M ARR, advise agains
 Diagnose the layer. Level 1 problem (wrong partners or no IPP)? Level 2 (partners aren't enabled)? Level 3 (process exists but attribution is broken)? Usually it's enablement. Partners need more support than companies expect.
 
 **"You want ecosystem-led growth but have 3 partners"**
-ELG requires scale. With 3 partners, focus on making those 3 wildly successful. Then use those case studies to recruit more. The data shows exponential returns: 10+ partners = 291% more pipeline. But you need the foundation first.
+ELG requires scale. With 3 partners, focus on making those 3 wildly successful. Then use those case studies to recruit more. Crossbeam's network data shows win rate lift rising from 9.4% (1-5 partners) to 37.1% (50+ partners). But you need the foundation first.
 
 **"How should we think about partner strategy vs partner operations?"**
 This skill designs the strategy (which partner types, why, what economics, how it fits the system). partner-channel-operations handles the operations (deal registration mechanics, health scoring, QBR templates, CRM properties). Use both together.
@@ -410,7 +408,7 @@ This skill designs the strategy (which partner types, why, what economics, how i
 
 ## AI-Powered Partner Agents: The 2026 Shift
 
-AI is fundamental to partner ecosystem management at scale. Jay McBain's prediction that partners per customer will rise from 7 to 17 by 2026 makes human-only ecosystem management impossible. AI agents now orchestrate four critical functions:
+AI is fundamental to partner ecosystem management at scale. Jay McBain's forecast that partners per customer will rise from 7 to 17 makes human-only ecosystem management impossible. AI agents now orchestrate four critical functions:
 
 ### Layer 1: Account Mapping and Partner Matching
 Automated discovery replaces manual CSV-based mapping. Platforms like Crossbeam use AI to detect overlaps across 25,000+ companies in real time and recommend partner-customer matches that would take weeks to surface manually.
@@ -424,7 +422,7 @@ Faster onboarding, automated co-marketing content delivery, smarter lead routing
 ### Layer 4: Strategic Intelligence
 Predict customer churn risk using integration usage signals. Identify ideal partner-customer matches. Manage ecosystem complexity that would otherwise collapse operational processes.
 
-**Market reality:** 87% of revenue teams used AI in 2025 (Highspot, 2025); 96% expect to by 2026. AI in partner management is not a roadmap item. It is table stakes. Tools like Introw (AI partner agent), Crossbeam (AI overlap detection), and enterprise platforms embed AI agents as default rather than optional features.
+**Market reality:** 87% of sales organizations use AI; 54% of sellers have used AI agents and nearly 9 in 10 plan to by 2027 (Salesforce State of Sales, 2026). AI in partner management is not a roadmap item. It is table stakes. Tools like Introw (AI partner agent), Crossbeam (AI overlap detection), and enterprise platforms embed AI agents as default rather than optional features.
 
 When designing partner strategy for 2026+, assume your competitors are using AI orchestration. Your ecosystem strategy should too.
 
@@ -452,7 +450,7 @@ When selecting tools, match to your company's stage and compliance needs. Full e
 
 **Partner Relationship Management (PRM):**
 - **PartnerStack**. Purpose-built for B2B SaaS. 80K+ partner marketplace. Mid-Market ($15K+/yr).
-- **Impartner**. #1 for global mature programs (Forrester-validated 296% ROI). Enterprise ($20-50K+/yr).
+- **Impartner**. #1 for global mature programs (296% ROI in vendor-commissioned Forrester TEI). Enterprise ($20-50K+/yr).
 - **Kiflo**. Lightweight starter PRM. SMB ($5-15K/yr).
 - **Allbound/Channelscaler**. Mid-Market. Merged with Channel Mechanics 2024; rebranded to Channelscaler May 2025. Strong governance.
 
@@ -480,13 +478,13 @@ Track these developments as they affect your partner ecosystem strategy:
 
 Use these data points to inform your partner strategy and stay ahead of market shifts.
 
-**Adoption:** 60% of SaaS leaders are investing in ELG (Pavilion, 2024). 67% plan >30% indirect revenue growth (Forrester, 2025). 75%+ prioritize partnerships as key growth strategy (SaaS Hero, 2025).
+**Adoption:** 67% of B2B channel leaders plan >30% indirect revenue growth (Forrester, 2025). 69% of senior SaaS leaders plan to increase partnership investment (PartnerStack x Wynter, 2026). 75% of partner ecosystem marketing decision-makers expect tech investment to rise (Forrester, 2026).
 
-**The seller reality:** 89% of sellers use partners daily. 84% of sellers who hit quota credit partners as the reason (Highspot, 2025). This is no longer a side channel. It's how deals get done.
+**The GTM reality:** 51% of senior SaaS leaders say partners are involved in every sales and marketing decision, yet internal alignment (37%) is the top blocker to partner-driven revenue (PartnerStack x Wynter, 2026). This is no longer a side channel. It's how deals get done.
 
-**Ecosystem complexity:** Jay McBain (Omdia) predicts partners per customer rising from 7 to 17 by 2026, driven by modular products, embedded AI, and compliance localization. AI becoming essential for ecosystem management at this scale.
+**Ecosystem complexity:** Jay McBain (Omdia) forecasts partners per customer rising from 7 to 17 (no target year), driven by modular products, embedded AI, and compliance localization. AI becoming essential for ecosystem management at this scale.
 
-**Cloud marketplace explosion:** $30B GMV in 2024, projected $160B by 2030 (30% CAGR). 89% of companies transact on 1+ marketplace, but only 22% drive meaningful revenue (Clazar, 2025). This is an unlock opportunity.
+**Cloud marketplace explosion:** ~$30B GMV in 2024, projected $160B by 2030 (Suger.io forecast). 89% of companies transact on 1+ marketplace, but only 22% drive meaningful revenue (Clazar, 2025). Vendor figures, not re-verified 2026-09. This is an unlock opportunity.
 
 **The nearbound thesis (Jared Fuller):** "What comes after outbound and inbound." Operationalizes partner intel across sales (warm intros), marketing (co-creation), and CS (co-expansion). Book: "Nearbound and the Rise of the Who Economy."
 

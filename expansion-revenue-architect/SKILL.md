@@ -27,13 +27,12 @@ This skill sits in the **customer value layer** of the revenue system. It connec
 
 This skill was written for a company that already has a repeatable motion and named owners. Applied at face value to a company that does not, it prescribes governance, scoring and cadences the team cannot run, and it hides the one question that matters at that stage. Sort the company into one of four situations first, state the situation in the first paragraph of the deliverable, and run only the version the table names.
 
-1. Start-up, pre product-market fit. Fewer than roughly 30 comparable customers (practice-based threshold). Wins came from the founders' network or referrals, not from a process anyone could repeat. No segment has a measured win rate or cycle time. Retention is not tracked. The CRM, if there is one, is a contact list. Nobody carries a quota. The only question that matters: do existing customers get the outcome they were promised, and would they buy again? Run the minimum version of this skill, or do not run it.
+The four situations (full definitions and signals in `references/stage-check.md`):
 
-2. Start-up, product-market fit. At least one segment with 10 or more customers won the same way (practice-based threshold). A known win rate and cycle time for that motion. Retention measured monthly. The founders still do most of the selling, with a few early reps. One person owns the CRM and can trace how recent deals moved. Run the skill for that one motion only; treat thresholds as guidance, not rules.
-
-3. Scale-up. Sales, marketing, customer success and operations each have a named owner. The CRM holds stage history the team trusts. Reps carry quota. There is a forecast that someone is held to. Growth is a question of capacity and constraints: which function breaks first when volume doubles. Run the full skill.
-
-4. Enterprise. Everything in situation 3, plus more than one revenue organisation: business units, regions or product lines with their own plan and their own leader. A governance layer sits above go-to-market decisions (steering committee, works council, legal or compliance gates). Finance owns the revenue target that goes to the board. The CRM may run as several instances or with many administrators. Run the full skill with the enterprise deltas named in the table: aggregation across units, governance and change management, longer decision paths.
+1. Start-up, pre product-market fit: fewer than roughly 30 comparable customers, wins from the founders' network, no measured win rate, cycle time or retention, nobody on quota. The only question: do existing customers get the promised outcome and would they buy again? Run the minimum version, or do not run it.
+2. Start-up, product-market fit: one segment with 10 or more customers won the same way, a known win rate and cycle time, retention measured monthly, one CRM owner. Run the skill for that one motion; thresholds are guidance, not rules.
+3. Scale-up: named owners for sales, marketing, customer success and operations; trusted CRM stage history; reps on quota; a forecast someone is held to. Run the full skill.
+4. Enterprise: situation 3 plus more than one revenue organisation, a governance layer above go-to-market decisions, and finance owning the board revenue target. Run the full skill with the enterprise deltas in the table.
 
 If the evidence is thin, ask three yes or no questions: Is there a segment with 10 or more customers won the same way? Is retention measured monthly? Does someone own the CRM as part of their job? Three no answers means situation 1. One or two yes answers means situation 2. Three yes answers means situation 3 or 4; then ask three more: Is there more than one business unit or region with its own revenue plan and leader? Do go-to-market decisions pass through a formal governance layer? Does finance own the revenue target for board reporting? Two or more yes answers means situation 4; otherwise situation 3.
 
@@ -96,7 +95,7 @@ When GRR needs fixing, these are the levers in priority order:
 | Product gaps (feature adoption blockers) | Medium; requires cross-functional investment | 2-4 quarters | Product + CS |
 | Pricing architecture (discount sunset, value alignment) | Medium; prevents renewal friction | 1-2 quarters | RevOps + Finance |
 
-**Source validation:** Companies improving GRR by 5 points see 20-30% valuation uplift at next funding round (m3ter, 2026; Software Equity Group). KeyBanc 2025 Private SaaS Survey (104 companies, median $26M ARR) shows median GRR at 88-91% with top quartile at 95%+.
+**Source validation:** Benchmarkit 2026 (CY2025 data, 342 companies) shows median GRR at 84% with top quartile at 91%; SaaS Capital 2025 (1,000+ private B2B SaaS companies) shows median GRR at 91%, and 95% for ACV above $250K.
 
 ---
 
@@ -283,7 +282,7 @@ For the full weekly breakdown and the success-metrics table (90-day and 6-month 
 
 ## Benchmarks
 
-Calibrated for $15-150M B2B SaaS. Always adjust for your stage, ACV, and motion type. The headline thresholds: **NRR >110%** (great) / **>120%** (best-in-class), **GRR >90%** (great) / **>95%** (best-in-class), and **expansion as 20-30%+ of new ARR**.
+Calibrated for $15-150M B2B SaaS. Always adjust for your stage, ACV, and motion type. The headline thresholds: **NRR >110%** (great) / **>120%** (best-in-class), **GRR >90%** (great) / **>95%** (best-in-class), and **expansion as 20-30%+ of new ARR**. Market reference for these lines: median NRR 101% to 102% with top quartile about 110%, median GRR 84% to 91% with top quartile about 91% (Benchmarkit 2026; SaaS Capital 2025), so "great" here already means top quartile.
 
 For the full sourced benchmark set (master benchmarks, NRR by company stage, NRR by ACV band, GRR by segment, the expansion economics advantage of CAC/payback/close-rate/cycle, and expansion-revenue share by ARR stage) see `references/benchmarks-sourced.md`.
 
@@ -295,11 +294,11 @@ UBP is the strongest structural lever for NRR. The data supports prioritizing pr
 
 | Metric | UBP Companies | Traditional Pricing | Source |
 |--------|--------------|-------------------|--------|
-| Average NRR | **137%** | ~110% | OpenView Usage-Based Pricing Trends (through 2023) |
-| YoY revenue growth | **29.9%** | 21.7% | OpenView (through 2023); Zuora data |
-| Expansion mechanism | Automatic (usage growth) | Manual (CSM-led) | m3ter 2026 |
+| Average NRR | **137%** | ~110% | OpenView Usage-Based Pricing Trends (through 2023; series discontinued, older than 2025, directional only) |
+| YoY revenue growth | **29.9%** | 21.7% | OpenView (through 2023; older than 2025); Zuora data |
+| Expansion mechanism | Automatic (usage growth) | Manual (CSM-led) | m3ter 2026 (vendor) |
 
-**~60% of SaaS companies** now use or are testing usage-based pricing (OpenView SaaS Benchmarks, 2023). The shift is structural, not a trend.
+Usage components are now mainstream: 42% of AI and software companies report consumption-based pricing and 23% outcome-based (ICONIQ State of AI 2026, survey), and hybrid is the most common primary model at 37%, up from 25% (Growth Unhinged 2026 pricing survey, n=230). The shift is structural, not a trend.
 
 **When to recommend UBP to your business:**
 - They have a clear value metric that scales with customer success
@@ -336,7 +335,7 @@ For the referral ROI stats and the full advocacy playbook, see `references/advoc
 ## How to Use This Skill
 
 **"Your NRR is 102%: Is that good?"**
-Check your stage. For $15-50M ARR, 102% is below median (typically 104-108%). Run the GRR diagnostic first. Is this a churn problem masked by light expansion? Check NRR by segment; aggregate NRR hides segment-level problems.
+Check your stage. For $15-50M ARR, 102% is at the median (101-103% per SaaS Capital 2025, High Alpha 2025 and Benchmarkit 2026) and below top quartile (110-115%). Run the GRR diagnostic first. Is this a churn problem masked by light expansion? Check NRR by segment; aggregate NRR hides segment-level problems.
 
 **"You want to improve NRR but don't know where to start"**
 Run the 90-Day Program Phase 1 diagnostic. The answer is almost always one of: (a) GRR is too low, fix retention first; (b) pricing doesn't create natural expansion paths; (c) expansion is accidental; no signals, no ownership, no process.
@@ -365,6 +364,7 @@ Use the GRR diagnostic bands + NRR benchmarks to quantify the gap. Frame the cos
 | `references/ttv-benchmarks.md` | Diagnosing onboarding/retention or TTV gaps | TTV-to-retention correlation data, TTV benchmarks by segment |
 | `references/health-scoring-effectiveness.md` | Assessing or designing health scoring | Effectiveness data, churn-vs-expansion predictors, CSM coverage model |
 | `references/advocacy-as-expansion-multiplier.md` | Building the advocacy/referral motion | Referral ROI stats, advocacy playbook triggers |
+| `references/stage-check.md` | When the one-line situation summaries are not enough to place the company | Full definitions of the four situations and the yes/no sorting questions |
 
 ## Related Skills
 

@@ -1,182 +1,159 @@
 # ABM Benchmarks and Sourced Data
 
-All figures in this reference carry explicit source attribution. Numbers without sources are flagged as practitioner-estimated.
+All figures in this reference carry explicit source attribution and an evidence type (survey, vendor platform data, analyst, aggregator, practice-based). Numbers without a traceable source are either removed or labeled practice-based.
 
-**Verification note (2026-07-14):** This document has been reviewed for source quality. Many authoritative sources (Gartner, Forrester, analyst reports) are behind paywalls or authentication. Figures sourced to these analysts remain appropriate for professional use; confidence levels have been adjusted to reflect accessibility constraints. See "Source Quality Assessment" section for detail on source verification status.
+Last verified: 2026-09. Figures older than 2025 are kept only where no newer edition exists and are marked as such.
+
+**Verification note (2026-09):** Every figure was re-checked against its claimed source. Figures attributed to an analyst but only traceable to an aggregator page have been re-attributed. Figures that could not be traced to any source (including several ROI, conversion-lift and adoption claims from the previous edition) have been removed rather than kept. See "Source Quality Assessment" for detail.
 
 ## Buying Group Size and Composition Benchmarks
 
 ### Enterprise Software Deals
 
-**Median buying committee size: 11 stakeholders**
-- Source: The Starr Conspiracy, B2B Buying Committee Benchmarks 2025, page 1
-- Sample: 200+ B2B tech companies, $100K+ ACV deals
+**Typical buying decision: 13 internal stakeholders plus 9 external influencers (Forrester, 2026)**
+- Source: Forrester, The State Of Business Buying, 2026 (published January 2026; Buyers' Journey Survey of nearly 18,000 global business buyers), https://www.forrester.com/press-newsroom/forrester-2026-the-state-of-business-buying/
+- Evidence type: Survey (analyst)
+- Confidence: High
+- Note: Forrester reports the number rises for more expensive or complex purchases.
+
+**Purchases that include generative AI features: buying group doubles, from 7 to 14 members (Forrester, 2026)**
+- Source: Forrester, The State Of Business Buying, 2026, https://www.forrester.com/blogs/state-of-business-buying-2026/
+- Evidence type: Survey (analyst)
+- Confidence: High
+- Implication: If your product is sold as AI-enabled, plan buying group coverage targets for a larger committee.
+
+**Range: 5-16 people across as many as 4 functions (Gartner, 2025)**
+- Source: Gartner press release, May 2025 (survey of 632 B2B buyers conducted in 2024), https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process
+- Evidence type: Survey (analyst)
 - Confidence: High
 
-**Range: 5-16 stakeholders across up to 4 functions**
-- Source: Gartner B2B Buying Research, 2024
-- Confidence: High
+**Mega-deals (>$1M): 14-23 stakeholders (The Starr Conspiracy, 2025)**
+- Source: The Starr Conspiracy, B2B Buying Committee Benchmarks 2025 (aggregator page; it cites Forrester B2B Buying Study, 2023, which could not be verified in a primary Forrester source), https://www.thestarrconspiracy.com/insights/benchmarks/b2b-buying-committee-benchmarks-2025
+- Evidence type: Aggregator (underlying figure is pre-2025)
+- Confidence: Low-Medium
 
-**Mega-deals (>$1M ACV): 14-23 stakeholders**
-- Source: The Starr Conspiracy, 2024 Benchmarks (top 10% of deals)
-- Confidence: Medium (smaller sample)
+**Enterprise deals (>$250K ACV): median 36 touchpoints to close, 75th percentile 52 (The Starr Conspiracy, 2025)**
+- Source: The Starr Conspiracy, B2B Buying Committee Benchmarks 2025 (aggregator page; it cites Forrester B2B Buying Study, 2023, not verified in a primary Forrester source), https://www.thestarrconspiracy.com/insights/benchmarks/b2b-buying-committee-benchmarks-2025
+- Evidence type: Aggregator (underlying figure is pre-2025)
+- Confidence: Low-Medium
+- Note: Touchpoints include digital interactions, sales conversations and third-party review reads across the full buying committee. The previous edition applied this to >$100K ACV; the cited threshold is >$250K ACV.
 
-**Enterprise deals (>$100K ACV) require median 36 touchpoints to close**
-- Source: The Starr Conspiracy, 2024 Benchmarks, Deal Duration Study
-- Confidence: High
-- Note: "Touchpoints" include interactions across buying group (meetings, emails, content, demos across multiple stakeholders)
-
-**Gartner also reports: 6-10 decision-makers as typical, each entering with 4-5 independent research pieces**
-- Source: Gartner B2B Buying Journey Research, 2024-2025 (report not directly accessible)
-- Confidence: Medium-High (Gartner primary research; figure is plausible cross-check to other committee-size data; behind authentication wall)
+**Gartner: 6-10 decision-makers in a typical complex B2B purchase, each bringing 4-5 pieces of independently gathered information**
+- Source: Gartner B2B buying journey research (pre-2025 figure; exact edition year not verified; no newer Gartner edition of this metric found). The 2025 Gartner range of 5-16 above is the current Gartner figure.
+- Evidence type: Analyst (older than 2025)
+- Confidence: Medium
 
 ### Multi-Stakeholder Engagement
 
-**92% of B2B buying decisions involve two or more people**
-- Source: Forrester B2B Buyer Intelligence research (widely cited in industry benchmarks; original report not directly accessible)
-- Confidence: Medium-High (Forrester is primary analyst; figure widely cited and cross-validated)
+(A "92% of B2B buying decisions involve two or more people" claim attributed to Forrester was removed at the 2026-09 pass: it could not be traced to any Forrester source. Use the Forrester 2026 buying group figures above instead.)
 
-**67% of the purchasing journey occurs before sales engagement**
-- Source: Forrester, 2023 (cited in Starr Conspiracy, 2024; original Forrester report not directly accessible)
-- Confidence: Medium-High (Forrester source; widely cited; consistent with observed buyer behavior)
-- Implication: Marketing's role in early-stage engagement is critical
+**Buyers make first contact with sellers 61% of the way through the buying journey, down from 69% in 2024 (6sense, 2025)**
+- Source: 6sense, 2025 B2B Buyer Experience Report (published November 2025), https://6sense.com/science-of-b2b/buyer-experience-report-2025/ and press release https://6sense.com/newsroom/the-timeline-for-influencing-b2b-buyers-is-shrinking-insights-from-6senses-2025-buyer-experience-report/
+- Evidence type: Survey (vendor-published)
+- Confidence: Medium-High
+- Replaces: "67% of the purchasing journey occurs before sales engagement" (previously attributed to Forrester 2023; only traceable to an aggregator page)
+- Implication: Marketing's role in early-stage engagement remains critical, but the window for sellers is opening slightly earlier.
 
-**Average 27 interactions across buying group members (entire cycle)**
-- Source: Forrester (cited in multiple industry benchmarks; original report not directly accessible)
-- Confidence: Medium (widely cited; may vary significantly by product category, deal size, and industry)
+**Average 27 interactions across the buying journey (Forrester, 2021)**
+- Source: Forrester 2021 B2B Buying Survey (roughly 15 digital and 12 human interactions; up from 17 in 2019), https://www.forrester.com/blogs/three-seismic-shifts-in-buying-behavior-from-forresters-2021-b2b-buying-survey/
+- Evidence type: Survey (analyst; older than 2025, no newer edition of this metric found)
+- Confidence: Medium (dated; varies by product category, deal size and industry)
 
-**81% of buyers arrive with pre-formed vendor shortlists**
-- Source: The Starr Conspiracy, 2024 Benchmarks
-- Confidence: Medium (The Starr Conspiracy confirmed as active source; specific figure consistent with vendor shortlist research)
-- Cross-reference: 6sense reports 84% with "preferred vendor already selected" (similar concept, slightly different phrasing)
+**Buying groups pick a favorite before first contact: 94% ranked preferred vendors before first contact and bought from that favorite 77% of the time (6sense, 2025)**
+- Source: 6sense, 2025 B2B Buyer Experience Report, https://6sense.com/science-of-b2b/buyer-experience-report-2025/
+- Evidence type: Survey (vendor-published)
+- Confidence: Medium-High
+- Prior edition: 6sense 2024 Buyer Experience Report found 81% of buyers had picked a winner before talking to sales, https://6sense.com/science-of-b2b/2024-buyer-experience-report/ (the previous version of this file attributed the 81% to The Starr Conspiracy; the traceable origin is 6sense)
 - Implication: Vendor evaluation is well underway before sales first contact
 
 ### Buying Committee Dysfunction and Conflict
 
-**74% of B2B buyer teams demonstrate unhealthy conflict during decision-making**
-- Source: Gartner Sales Survey 2025, press release
-- URL: https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process (authentication required)
-- Confidence: Medium-High (Gartner is primary analyst; press release URL confirmed; figure plausible for Gartner research scope)
-- Note: "Unhealthy conflict" includes disagreement on vendor choice, budget allocation, implementation timeline
+**74% of B2B buyer teams demonstrate unhealthy conflict during decision-making (Gartner, 2025)**
+- Source: Gartner press release, May 2025 (survey of 632 B2B buyers conducted in 2024), https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process
+- Evidence type: Survey (analyst)
+- Confidence: High
+- Related finding (same release): buying groups that reach consensus are 2.5 times more likely to report a high-quality deal.
 
-**77% of B2B tech buyers describe the purchase as difficult**
-- Source: Gartner, 2023 B2B Buying Process Research (original report not directly accessible)
-- Confidence: Medium-High (Gartner is primary analyst; figure consistent with their buying research; specific report behind authentication)
+**77% of B2B buyers describe their latest purchase as very complex or difficult**
+- Source: Gartner B2B buying research (pre-2025 figure; exact edition year not verified; no newer Gartner edition of this metric found)
+- Evidence type: Survey (analyst; older than 2025)
+- Confidence: Medium
 - Implication: Buying committees are complex; multi-stakeholder engagement reduces perceived difficulty
 
 ## Win Rate and Committee Coverage Impact
 
-**Win rate with full committee mapping: 34%**
+**Win rate with 6+ stakeholders mapped in CRM: 34%**
 **vs. Win rate with fewer than 3 stakeholders mapped: 11%**
 
-- Source: The Starr Conspiracy, 2024 Benchmarks (opportunity stage analysis)
-- Confidence: High
-- Implication: Buying group completeness drives 3x win rate improvement
-- Note: "Full committee mapping" = identified all 3+ key decision-makers (Economic, Technical, End-User)
+- Source: The Starr Conspiracy GTM Audit, 2024 (reported sample of 47; Enterprise SaaS deals above $100K ACV), as published on https://www.thestarrconspiracy.com/insights/benchmarks/b2b-buying-committee-benchmarks-2025
+- Evidence type: Agency audit data (small sample; older than 2025, no newer edition found)
+- Confidence: Low-Medium
+- Note: The relationship is correlational within the audit dataset, not a controlled experiment. Treat the roughly 3x gap as directional, not as a causal uplift.
 
 ## Sales Cycle and Time-to-Close Benchmarks
 
-**Median average cycle: 11.5 months for deals >$100K ACV**
-- Source: The Starr Conspiracy, 2024 Benchmarks
-- Confidence: High
-- Note: Includes all phases from first contact to close; global data
+**Average B2B buying cycle: 10.1 months globally, down from 11.3 months in 2024 (6sense, 2025)**
+- Source: 6sense, 2025 B2B Buyer Experience Report, https://6sense.com/science-of-b2b/buyer-experience-report-2025/
+- Evidence type: Survey (vendor-published)
+- Confidence: Medium-High
+- Replaces: "Median 11.5 months for deals >$100K ACV" (previously attributed to The Starr Conspiracy; that page attributes it to Gartner Peer Insights 2024, which could not be verified)
 
-**Median time-to-close from first contact: 192 days**
-- Source: The Starr Conspiracy, 2024 Benchmarks
-- Confidence: High
-- Note: ~6.4 months
+**Average time from first touch to closed-won: 192 days (roughly 6.4 months) for enterprise B2B SaaS, average deal size $180K**
+- Source: The Starr Conspiracy GTM Audit, 2024, as published on https://www.thestarrconspiracy.com/insights/benchmarks/b2b-buying-committee-benchmarks-2025
+- Evidence type: Agency audit data (older than 2025, no newer edition found)
+- Confidence: Low-Medium
+- Note: This is an average, not a median as stated in the previous edition.
 
-**ABM-influenced deals close 234% faster than non-ABM baseline**
-- Source: Forrester, 2026 ABM Research (cited by Demandbase, Motion ABX)
-- Confidence: Medium (Forrester source beyond verification window; based on early-adopter data; may not reflect average programs)
+(An "ABM-influenced deals close 234% faster" claim attributed to Forrester 2026 was removed at the 2026-09 pass: no Forrester source could be found.)
 
 ## ABM Program Performance Benchmarks
 
 ### Return on Investment
 
-**Top-performing ABM programs: 7:1 ROI**
-- Source: TOPO, 2024 ABM Research
-- Confidence: Low-Medium (TOPO source no longer accessible; top quartile only, not average; treat as directional)
+No ABM ROI figure from the previous edition could be traced to a checkable primary source at the 2026-09 pass. The following were removed: "Top-performing ABM programs: 7:1 ROI" (attributed to TOPO 2024; TOPO was acquired by Gartner and no longer publishes research under its own name), "Mature ABM programs: 5-9x ROI and 200% larger deals" (no source named), "Overall average 3:1 ROI" (unnamed composite), "137% average ROI" (only traceable to aggregator articles), and "81% higher ROI vs. non-ABM peers" (attributed to a Demandbase 2024 report whose figure could not be confirmed). Do not reintroduce without a checkable citation.
 
-**Mature ABM programs: 5-9x ROI**
-- Source: Multiple sources (Demandbase, 6sense, ABMLA)
-- Coupled with: 200% larger deal sizes
-- Confidence: High (cross-validated)
-
-**Overall average across programs: 3:1 ROI**
-- Source: Composite of Forrester, Demandbase, HubSpot research
-- Confidence: Medium (may vary by TAM model and maturity)
-
-**Average across marketer survey: 137% ROI**
-- Source: Motion ABX, ABM KPI Framework (confirms this figure); also cited in "30 Eye-Opening ABM Statistics - The CMO"
-- Confidence: Medium-High (Motion ABX confirms the figure; original CMO article not directly accessible)
-
-**Demandbase top-performer data: 81% higher ROI vs. non-ABM peers**
-- Source: Demandbase 2024 ABM Benchmark Report
-- Confidence: High
+**Practice-based guidance:** Report ABM return from your own closed-won data on target accounts versus a comparable non-target cohort. Collect at least two full sales cycles before quoting an ROI multiple to leadership.
 
 ### Conversion Rates and Pipeline
 
-**Overall pipeline conversion lift (ABM vs. baseline): +14%**
-- Source: Multiple sources; ABMLA benchmarks
-- Confidence: High
-
-**MQL-to-SAL conversion rise: +25%**
-- Source: Demandbase / ITSMA benchmarks
-- Confidence: Medium-High
-- Note: "SAL" = Sales Accepted Lead; metric variant across vendors
+(Claims of "+14% pipeline conversion lift (ABMLA)", "+25% MQL-to-SAL (Demandbase / ITSMA)" and "ABM deals close 33% larger (Forrester 2026, Demandbase 2024)" were removed at the 2026-09 pass: none could be traced to the named source.)
 
 **SaaS sector: 15-25% target account conversion to opportunity**
-- Source: Practitioner benchmarks (Pavilion CRO School, 2025)
-- Confidence: Medium (range; not a fixed benchmark)
+- Source: Practice-based (previously attributed to Pavilion CRO School 2025; no published Pavilion figure found)
+- Evidence type: Practice-based
+- Confidence: Low-Medium (range; not a fixed benchmark)
 
 **Manufacturing sector: 8-12% conversion**
-- Source: Practitioner estimates; not universally validated
+- Source: Practice-based; not universally validated
+- Evidence type: Practice-based
 - Confidence: Low-Medium (flag if needed for specific campaign)
-
-**ABM-sourced deals close 33% larger on average**
-- Source: Multiple sources (Forrester 2026, Demandbase 2024)
-- Confidence: High
 
 ### Program Adoption and Maturity
 
-**76% of B2B companies have adopted or are testing ABM (2025)**
-- Source: Multiple sources cited in "30 Eye-Opening ABM Statistics" (source article not directly accessible)
-- Confidence: Medium-High (widely cited across industry; ABMLA reports suggest similar adoption trajectories)
+(A "76% of B2B companies have adopted or are testing ABM" claim was removed at the 2026-09 pass: it was only traceable to aggregator statistics articles. A "52% of companies measure ABM ROI" claim was removed at the 2026-07 pass. Do not reintroduce either without a checkable citation.)
 
-(A "52% of companies measure ABM ROI" claim was removed at the 2026-07-14 verification pass: the figure could not be found in its claimed 6sense source. Do not reintroduce without a checkable citation.)
-
-**Only 29% of ABM teams are measured solely through ABM-aligned metrics**
-- Source: 6sense, 2026 ABM Research
-- Confidence: High
-- Implication: Most ABM teams still carry demand-generation legacy metrics
-
-**Only 13% of ABM programs report closed-won revenue to leadership**
-- Source: 6sense, 2026 Research
-- Confidence: High
-- Red flag: Lack of revenue attribution closes ABM funding
+(Claims that "only 29% of ABM teams are measured solely through ABM-aligned metrics" and "only 13% of ABM programs report closed-won revenue to leadership", attributed to unnamed 6sense 2026 research, were removed at the 2026-09 pass: no 6sense publication containing these figures could be located.)
 
 ### 6sense Benchmark: 6QA (6sense Qualified Account) Performance
 
-**6QAs convert at 75% higher rates than traditional leads**
-- Source: 6sense, 2026 ABM Metrics Guide
-- Confidence: Medium (6sense internal data; published)
-- Definition: 6QA = Account meeting alignment criteria: fit + intent + engagement signals
+(A "6QAs convert at 75% higher rates than traditional leads" claim attributed to a 6sense ABM Metrics Guide was removed at the 2026-09 pass: the figure could not be confirmed in the guide.)
+
+- Definition (vendor terminology): 6QA = an account meeting 6sense's combined fit, intent and engagement qualification criteria.
 
 ### ITSMA / Momentum Maturity Benchmarks
 
-**Only 17% of ABM programs are fully embedded as foundational pillar**
-- Source: ITSMA / ABMLA, Moving to ABM Maturity Benchmark Report
-- Confidence: High
-
 **Positive correlation between ABM budget size and program maturity**
-- Source: ITSMA, 2019-2024 benchmark reports
-- Confidence: High
+- Source: ITSMA / ABM Leadership Alliance maturity benchmark reports (2019-2024 editions; older than 2025, no newer edition verified), https://abmleadershipalliance.com/report/moving-to-abm-maturity-benchmark/
+- Evidence type: Survey (industry body; older than 2025)
+- Confidence: Medium
 - Implication: Larger investment enables higher maturity
 
 **Four adoption stages tracked: Exploring, Experimenting, Expanding, Embedding**
-- Source: ITSMA / ABMLA, ABM Leadership Alliance
-- Confidence: High
+- Source: ITSMA / ABM Leadership Alliance maturity model, https://abmleadershipalliance.com/report/moving-to-abm-maturity-benchmark/
+- Evidence type: Industry body framework (older than 2025)
+- Confidence: Medium
+
+(An "only 17% of ABM programs are fully embedded" figure was removed at the 2026-09 pass: the report page could not be reached to confirm the number or its edition year.)
 
 **Five key success factors for ABM maturity:**
 1. Practice patience (long sales cycles)
@@ -185,20 +162,20 @@ All figures in this reference carry explicit source attribution. Numbers without
 4. Master multichannel
 5. Build blended strategy (inbound + outbound + account-based)
 
-- Source: ITSMA 6th Annual ABM Benchmark Study (Demandbase press release)
-- Confidence: High
+- Source: ITSMA 6th Annual ABM Benchmark Study (as announced in a Demandbase press release; older than 2025)
+- Evidence type: Survey (industry body; older than 2025)
+- Confidence: Medium
 
 ## Engagement Signal Benchmarks
 
 ### Critical Event Response Impact
 
-**Demo request from qualified contact: 75% higher conversion rate**
-- Source: 6sense ABM Metrics Guide
-- Confidence: Medium (platform-specific data)
+(A "demo request from qualified contact: 75% higher conversion rate" claim was removed at the 2026-09 pass: it duplicated the unverified 6QA figure above and could not be traced.)
 
 **Buying signal clustering (multiple events in short window) correlates with:**
 - 3-5x increase in likelihood of pipeline creation within 30 days
-- Source: Practitioner observation; not universally published
+- Source: Practice-based observation; not published
+- Evidence type: Practice-based
 - Confidence: Low-Medium (flag as estimated)
 
 ### First-Party Engagement
@@ -206,26 +183,30 @@ All figures in this reference carry explicit source attribution. Numbers without
 **Website pricing page visit: Strong purchase intent indicator**
 - Scoring weight: 10-15 points (significant signal)
 - Recency: Decays monthly at 75%
-- Source: Demandbase Engagement Minutes framework; practitioner consensus
-- Confidence: High
+- Source: Practice-based (the previous edition cited the Demandbase Engagement Minutes framework, which measures engagement time and does not publish these point values)
+- Evidence type: Practice-based
+- Confidence: Medium
 
 **Email reply / message: Intent confirmation signal**
 - Scoring weight: 8-12 points
 - Recency: Persistent (no decay)
-- Source: Demandbase; practitioner consensus
-- Confidence: High
+- Source: Practice-based
+- Evidence type: Practice-based
+- Confidence: Medium
 
 **Demo request: Critical milestone**
 - Scoring weight: 15-20 points
 - Recency: Persistent
-- Source: All major ABM platforms (6sense, Demandbase, RollWorks)
-- Confidence: High
+- Source: Practice-based (the previous edition attributed this to all major ABM platforms; no platform publishes these weights)
+- Evidence type: Practice-based
+- Confidence: Medium
 
-### Third-Party Intent Data (Bombora Model)
+### In-Market Share of ICP
 
-**On average, ten per cent of companies' ICPs are typically in-market at any given moment**
-- Source: 6sense Revenue Makers podcast, "The One About ABM Measurement"
-- Confidence: High
+**On average, about ten per cent of a company's ICP is in-market at any given moment**
+- Source: 6sense Revenue Makers podcast, "The One About ABM Measurement", https://6sense.com/revenue-makers/the-one-about-abm-measurement/ (not re-verified at the 2026-09 pass; the page could not be reached)
+- Evidence type: Vendor commentary
+- Confidence: Medium
 - Implication: Your TAM (100-500 accounts) likely has 10-50 accounts actively buying at any moment
 
 ## Handover and Sales Acceptance Benchmarks
@@ -236,63 +217,67 @@ All figures in this reference carry explicit source attribution. Numbers without
 - 25-40% rejection is expected; some accounts need more nurture, some are poor fits
 - <40% rejection = criteria too loose; tighten threshold
 - >60% rejection = criteria too tight; lower threshold OR sales team not executing
-- Source: Practitioner consensus; not universally published
+- Source: Practice-based; not published
+- Evidence type: Practice-based
 - Confidence: Medium
 
 ### Time to Opportunity from Handover
 
 **Target: <30 days (median)**
-- Source: Demandbase / RollWorks best practices
+- Source: Practice-based (the previous edition cited Demandbase / RollWorks best practices; no published figure found)
+- Evidence type: Practice-based
 - Confidence: Medium
 
 **Healthy range: 14-45 days (median)**
-- Source: Practitioner benchmarks
+- Source: Practice-based
+- Evidence type: Practice-based
 - Confidence: Medium
 
 ## Slippage Benchmarks
 
-**Current market slippage rate: 36% of pipeline deals slip**
-- Source: Ebsta / Pavilion 2025 Pipeline Research (source organizations confirmed; full report not directly accessible)
-- Confidence: Medium (widely cited benchmark; use for calibration only; validate against own forecast history)
-- Implication: Apply 0.64x multiplier to Best Case forecast; 36% of committed deals will slip to next period
+(A "36% of pipeline deals slip" figure attributed to Ebsta / Pavilion 2025 Pipeline Research was removed at the 2026-09 pass: the report could not be reached to confirm the figure, its definition or its edition.)
+
+**Practice-based guidance:** Derive your slippage multiplier from your own forecast history (share of Commit and Best Case deals that moved out of the period over the last four quarters) rather than from a market average.
 
 ## Demand Generation Efficiency Benchmarks (Supplementary)
 
 These are demand-generation metrics; included for context when bridging from ABM to funnel-wide metrics.
 
 **Average CAC (Customer Acquisition Cost) payback period: 12-18 months**
-- Source: Pavilion CRO School Unit Economics model
+- Source: Practice-based SaaS rule of thumb (previously attributed to a Pavilion CRO School model; no published Pavilion figure found)
+- Evidence type: Practice-based
 - Confidence: Medium (varies significantly by GTM model)
 
 **LTV:CAC ratio (Lifetime Value to Acquisition Cost)**
 - Healthy: 3:1 or better
 - Strong: 5:1 or better
 - Excellent: 7:1 or better
-- Source: Pavilion, Unit Economics standard
-- Confidence: High
+- Source: Practice-based SaaS operating convention (previously attributed to Pavilion; no Pavilion publication found)
+- Evidence type: Practice-based
+- Confidence: Medium
 
-**Example:** A $15M ARR company with $6,421 CAC and $46,429 LTV achieves 7.23x LTV:CAC (healthy).
+**Example:** A $15M ARR company with $6,421 CAC and $46,429 LTV achieves 7.23x LTV:CAC (excellent tier).
 
 ## Practitioner Estimates (Flagged)
 
-The following figures are based on practitioner case studies or extrapolated from limited samples. Use for directional guidance only; validate against your own data:
+The following figures are practice-based: drawn from practitioner case studies or extrapolated from limited samples. Use for directional guidance only; validate against your own data:
 
 **ABM account-to-opportunity conversion (new business): 8-15%**
-- Practitioner range; published benchmarks vary (12% from Motion ABX)
+- Practice-based range
 - Confidence: Low-Medium
 
 **Average buying group depth required (contacts per role): 2**
-- Practitioner consensus; not universally benchmarked
+- Practice-based; not benchmarked
 - Confidence: Medium
 
 **Buying group mapping effort: 4-6 weeks to identify 50% of accounts' full buying groups**
 - Depends on manual vs. automated prospecting
-- Practitioner estimate
+- Practice-based estimate
 - Confidence: Low-Medium
 
 **Critical event velocity (time from signal to handover): 24-48 hours**
 - Best practice recommendation; achievement varies
-- Practitioner estimate
+- Practice-based estimate
 - Confidence: Medium
 
 ---
@@ -300,21 +285,17 @@ The following figures are based on practitioner case studies or extrapolated fro
 ## Metadata: Source Quality Assessment
 
 ### High-Confidence Sources
-- Gartner (analyst firm, large samples, peer-reviewed; most reports behind authentication)
-- Forrester (analyst firm, large samples; reports behind authentication)
-- The Starr Conspiracy (B2B buying research, 200+ companies; verified accessible)
-- ITSMA / ABMLA (ABM industry body, benchmarks across members; reports gated)
-- Ebsta / Pavilion (aggregated data from SaaS + user submissions; full reports behind registration)
+- Forrester (analyst firm; State Of Business Buying 2026 based on nearly 18,000 buyers; full reports behind authentication, press material public)
+- Gartner (analyst firm; survey-based press releases public, full reports behind authentication)
 
 ### Medium-Confidence Sources
-- 6sense, Demandbase, RollWorks (vendor platforms publishing customer data; self-reported by customers; publicly accessible)
-- HubSpot, Marketo research (vendor + user data; platforms accessible)
-- Practitioner case studies cited in trade publications (limited samples; treat as directional)
+- 6sense Buyer Experience Report (vendor-published buyer survey; methodology published, but vendor has a commercial interest in the findings)
+- ITSMA / ABM Leadership Alliance (ABM industry body; benchmarks across members; reports gated; latest editions verified here are pre-2025)
 
-### Low-Confidence / Practitioner-Estimated
-- Individual company case studies (small sample, not generalized)
-- Proprietary internal research without third-party audit
-- Ranges without source attribution
+### Low-Confidence / Practice-Based
+- The Starr Conspiracy benchmark hub (agency aggregator page; mixes its own 2024 GTM Audit data, reported sample of 47, with attributions to analyst studies that could not be verified in the primary sources)
+- Vendor commentary (podcasts, blogs) without published methodology
+- Practice-based ranges and operating rules of thumb
 
 ---
 
@@ -340,13 +321,13 @@ The following figures are based on practitioner case studies or extrapolated fro
 
 ## References and URLs
 
-- [The Starr Conspiracy B2B Buying Committee Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-buying-committee-benchmarks-2025)
-- [Gartner Sales Survey 2025](https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process)
-- [6sense Guide to ABM Metrics](https://6sense.com/guides/abm-metrics/)
+- [Forrester: The State Of Business Buying, 2026 (press release)](https://www.forrester.com/press-newsroom/forrester-2026-the-state-of-business-buying/)
+- [Forrester blog: The State Of Business Buying, 2026](https://www.forrester.com/blogs/state-of-business-buying-2026/)
+- [Forrester blog: Three Seismic Shifts In Buying Behavior From Forrester's 2021 B2B Buying Survey](https://www.forrester.com/blogs/three-seismic-shifts-in-buying-behavior-from-forresters-2021-b2b-buying-survey/)
+- [Gartner Sales Survey, May 2025 (74% unhealthy conflict)](https://www.gartner.com/en/newsroom/press-releases/2025-05-07-gartner-sales-survey-finds-74-percent-of-b2b-buyer-teams-demonstrate-unhealthy-conflict-during-the-decision-process)
+- [6sense 2025 B2B Buyer Experience Report](https://6sense.com/science-of-b2b/buyer-experience-report-2025/)
+- [6sense 2025 Buyer Experience Report press release](https://6sense.com/newsroom/the-timeline-for-influencing-b2b-buyers-is-shrinking-insights-from-6senses-2025-buyer-experience-report/)
+- [6sense 2024 B2B Buyer Experience Report](https://6sense.com/science-of-b2b/2024-buyer-experience-report/)
 - [6sense Revenue Makers Podcast](https://6sense.com/revenue-makers/the-one-about-abm-measurement/)
-- [Demandbase 2024 ABM Benchmark Report](https://www.demandbase.com/resources/report/2024-abm-benchmark/)
-- [Forrester 2026 Buyer Insights](https://investor.forrester.com/news-releases/)
-- [Motion ABX: ABM KPI Framework](https://www.motionabx.com/abm-kpi-framework)
-- [30 Eye-Opening ABM Statistics - The CMO](https://thecmo.com/demand-generation/abm-statistics/)
-- [Pavilion CRO School](https://www.pavilion.com/platform/cro-school)
+- [The Starr Conspiracy B2B Buying Committee Benchmarks 2025 (aggregator)](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-buying-committee-benchmarks-2025)
 - [ITSMA / ABMLA Benchmark Reports](https://abmleadershipalliance.com/report/moving-to-abm-maturity-benchmark/)
