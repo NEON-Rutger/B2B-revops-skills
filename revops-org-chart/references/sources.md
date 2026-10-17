@@ -127,8 +127,8 @@ Published December 2025, built from interviews with 15 GTM leaders (Kyle Norton,
 
 ---
 
-## 14. Winning by Design webinar brief: The Evolution of RevOps (March 2026)
+## 14. Webinar brief: The Evolution of RevOps (March 2026)
 **URL:** https://revops-evolution.vercel.app/
 
-Research brief and discussion guide compiled for a Winning by Design webinar on the evolution of the RevOps organization and Growth Architecture. Source of the outcome-pod model: four pods across the bowtie, build face and run face per pod, shared services built once, minimum-viable pod, the 40% post-sale capacity floor, and "mechanisms, not meetings." Also the origin of the GTM Engineer bowtie blind spot critique (talent clusters on acquisition; post-sale gets the leftovers). Author not identified on the page.
+Research brief and discussion guide compiled for a March 2026 webinar on the evolution of the RevOps organization and Growth Architecture. Source of the outcome-pod model: four pods across the bowtie, build face and run face per pod, shared services built once, minimum-viable pod, the 40% post-sale capacity floor (a practice-based rule, not a studied figure), and "mechanisms, not meetings." Also the origin of the GTM Engineer bowtie blind spot critique (talent clusters on acquisition; post-sale gets the leftovers). Author not identified on the page.
 
