@@ -6,6 +6,12 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.8.1], 2026-10-17
+
+### Fixed
+- `revops-org-chart`: the outcome-pod model credited named practitioners and a named firm, while the skill's own source list records the underlying brief as unattributed. The source line now credits the Vasco 2026 report and an unattributed March 2026 webinar brief, and labels the pod structure and the 40% post-sale capacity floor as practice-based.
+- `revops-revenue-planning`: removed a pointer to a template file that is not part of the skill; the reconciliation template is now described as an outline to build from.
+
 ## [v1.8.0], 2026-10-17
 
 ### Added

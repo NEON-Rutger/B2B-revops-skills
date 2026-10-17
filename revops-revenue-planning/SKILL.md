@@ -476,8 +476,7 @@ To implement your annual planning:
 - Assumption documentation
 - Links to capacity model for rollup validation
 
-**Reconciliation Template:**
-`Frameworks/Templates/revops-revenue-planning/reconciliation-meeting-template.md`
+**Reconciliation Template** (build it from this outline; the skill ships no file for it):
 - Pre-meeting prep checklist
 - 5-step meeting structure
 - Gap analysis table
