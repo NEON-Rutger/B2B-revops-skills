@@ -6,7 +6,8 @@ description: >
   Trigger on change management, enablement design, adoption failure, rollout plan, communication
   plan, stakeholder management, training that doesn't stick, behavior change, coaching program,
   process change, system migration, comp plan change, territory change, Kotter, ADKAR, spaced
-  repetition, forgetting curve, reverse salient, traffic light model, Bloom's taxonomy, "nobody
+  repetition, forgetting curve, reverse salient, traffic light model, Bloom's taxonomy, willing
+  capable enabled, will versus skill, role play that doesn't transfer, rep not improving after coaching, "nobody
   follows the new process," "we trained them but nothing changed," "the tool is built but nobody
   uses it," "how do we get buy-in," "people are pushing back," AI change management, FOBO, shadow
   AI, AI adoption, works council AI, AI governance framework, AI rollout, or fear of becoming
@@ -155,21 +156,38 @@ Hierarchy: Remember, Understand, Apply, Analyze, Evaluate, Create. Most sales tr
 
 **Design principle:** every enablement program must include a creation task. If reps aren't making something with the new framework, the learning won't stick.
 
-### Reverse Salient (Coaching Focus)
+### Willing, Capable, Enabled (Diagnose Before You Coach)
 
-Before coaching anything, find the reverse salient: the single biggest bottleneck that, if improved, creates the most leverage. Sales is sequential; no point coaching objection handling if attention isn't earned in the first five seconds.
+Miss any of the three legs and the change does not stick.
 
-Start with data. Pick one area. Go deep. Resist the temptation to layer on additional feedback. Multiple weeks on one skill before moving to the next.
+| Leg | Definition | Test |
+|---|---|---|
+| **Willing** | The internal motivation to want the new state | Do they bring it up themselves? |
+| **Capable** | The skill to perform at the level the new state needs | Can they do it without asking you for the prompt, the script or the answer? |
+| **Enabled** | The systems, tools, access, data, time and environment that make it possible | Is what they need one click away? |
 
-### Coaching Mastery: Five Principles
+**Rule: diagnose which leg is broken before you coach.** Coaching fixes Capable only. Coaching an unwilling rep, or a rep whose tools or time block the behavior, wastes the session.
 
-1. **Focus:** one critical skill at a time, identified via reverse salient
-2. **Questions-based:** lead reps to discover answers themselves. Goal: self-sufficiency, not dependency
-3. **Deep practice:** isolation drills, 15-20 reps per session, progressive resistance (Coyle: myelin formation)
-4. **From a place of caring:** coaching works only when reps believe the coach wants them to win
-5. **Great follow-up:** account for the forgetting curve. Reinforcement is not optional.
+- **Willing:** rollouts usually push down on it ("you have to do this"). Give the why and a visible win instead; enable and coach a small willing group first, and the rest follow when they see the win.
+- **Enabled:** rollouts usually forget it. RevOps owns the fix: the CRM field, the access, the data, protected practice time (Path of Least Resistance Design, below).
+- **Capable:** the coaching protocol below.
 
-Read `references/enablement-frameworks.md` for the full coaching methodology including session structure, questioning sequences, and deep practice design.
+ADKAR's Desire is roughly Willing, and Knowledge plus Ability is Capable; Enabled is the leg ADKAR leaves implicit. Traffic Light sizes the change; the three legs explain why a person has not moved.
+
+### Coaching Protocol (Builds Capable)
+
+The coaching protocol builds on Kyle Norton's Coaching Mastery principles (Owner.com; The Revenue Leadership Podcast newsletter, October 2024), reframed here inside Willing, Capable, Enabled: his model centers on Capable, treats Enabled in one line (make time to practice) and takes Willing as given.
+
+Six steps, each detailed in `references/enablement-frameworks.md`:
+
+1. **Check the legs.** Coach only when Willing and Enabled hold.
+2. **Choose the focus skill from data** (the reverse salient): stage-to-stage conversion, call review flags, methodology scores per call (for example SPICED), talk ratio. Start at the earliest stage where the rep sits well below the team. Anything else goes on a parking list.
+3. **Write the standard** in observable terms before any drill.
+4. **Drill:** questions on a recorded call first, then short role-plays with one line of feedback per attempt.
+5. **Prove it live.** The manager pulls every recorded attempt over a fixed window; four of the five most recent at standard graduates the skill (a sensible default).
+6. **Revisit** at the next fixed cadence point, at least two weeks later.
+
+**Manager capacity:** a weekly deep session plus call review is 60 to 90 minutes per rep, so eight reps take one to one and a half working days a week. Without that time the coaching cadence itself is not Enabled. Fix that first.
 
 ### Organizational Energy as Infrastructure
 
@@ -225,7 +243,7 @@ Source: SaaStr AI Agent Playbook, Parts 7, 13, 15
 
 For any Red change, use this architecture:
 
-**Phase 1: Diagnose (Week 0):** Audit current state. Find the reverse salient. Classify via Traffic Light. Check for change overload (one variable rule).
+**Phase 1: Diagnose (Week 0):** Audit current state. Check Willing, Capable, Enabled for each affected group. Find the reverse salient. Classify via Traffic Light. Check for change overload (one variable rule).
 
 **Phase 2: Design (Weeks 1-2):** Define target behavior (specific, observable, measurable). Build the creation task. Map the reinforcement cadence. Design the energy system.
 
@@ -401,7 +419,7 @@ For the complete playbook (every phase's activities, durations, success metrics,
 | `references/impact-analysis-templates.md` | Planning any revenue change | Five-dimension impact mapping exercise; behavioral system audit; ripple-effect identification |
 | `references/change-scenarios.md` | Running specific RevOps changes | Detailed playbooks for comp plans, CRM migrations, territory changes, methodology rollouts |
 | `references/kotter-adkar-detail.md` | Diagnosing where change is stuck | Kotter's 8-step organizational model + ADKAR individual-level framework; change readiness assessment |
-| `references/enablement-frameworks.md` | Designing enablement that sticks | Eight frameworks: Traffic Light classification, Reverse Salient, Coaching Mastery, Organizational Energy, Data-Led Diagnosis, Systems Shift, Productivity Dip Communication, Path of Least Resistance |
+| `references/enablement-frameworks.md` | Designing enablement that sticks; stalled adoption; coaching | Eight frameworks (Traffic Light to Path of Least Resistance); Willing, Capable, Enabled signals and fixes per leg; coaching protocol (focus skill, session, questioning, practice, graduation rule, manager capacity) |
 | `references/book-integration-guide.md` | Weaving the seven foundational books into program design | Seven books mapped to enablement frameworks |
 | `references/ai-expectation-setting.md` | Setting leadership expectations before any AI agent deployment | Five myths-vs-reality table; SaaStr operator numbers ($500K stack to $2.4M closed-won) |
 | `references/shadow-ai-governance-sprint.md` | Discovering or governing unsanctioned AI tool use | Scale data; 4-week sprint (Discovery, Classification, Transition, Govern); four-tier tool classification |

@@ -6,6 +6,14 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [v1.8.0], 2026-10-17
+
+### Added
+- `revops-change-management`: Willing, Capable, Enabled, a diagnosis to run before any coaching. Willing: do they bring it up themselves? Capable: can they do it without asking for the prompt? Enabled: is what they need one click away? Coaching fixes Capable only; a broken Willing or Enabled leg gets its own fix first. Mapped to ADKAR and the Traffic Light classification, and added to Phase 1 of the enablement programme.
+
+### Changed
+- `revops-change-management`: the coaching protocol is rewritten as a six-step sequence (check the legs, choose the skill, write the standard, drill, prove it live, revisit). New: funnel data picks the focus skill, a graduation rule built on recorded live attempts over a fixed window with a minimum attempt count, drill timing that fits a 45 to 60 minute session, and the manager time it takes (one to one and a half working days a week for eight reps). New trigger phrases in the description.
+
 ## [v1.7.3], 2026-10-05
 
 ### Fixed
