@@ -36,7 +36,7 @@ Extensions worth requesting once the basic bridge exists: the bridge split by pr
 
 **Billings** = revenue + change in deferred revenue. Approximates what was invoiced in the period, and is closer to cash than revenue is.
 
-**Deferred revenue** is a liability: cash collected for service not yet delivered. Rising deferred revenue usually means healthy annual-upfront billing. Falling deferred revenue while revenue holds up often means a shift to monthly or quarterly billing, which is a cash story rather than a demand story.
+**Deferred revenue** is a liability: amounts billed or collected ahead of the service being delivered. Rising deferred revenue usually means healthy annual-upfront billing. Falling deferred revenue while revenue holds up often means a shift to monthly or quarterly billing, which is a cash story rather than a demand story.
 
 **RPO (remaining performance obligations)** is total contracted revenue not yet recognized, including amounts not yet billed. **cRPO** is the portion expected within twelve months. RPO captures multi-year commitments that both ARR and deferred revenue miss, which makes it the better number in an enterprise business with long contracts.
 
@@ -52,9 +52,9 @@ Work through the mechanics rather than asserting the conclusion. There are five,
 
 **3. Billing terms.** Monthly billing collects cash over twelve months for revenue recognized over the same twelve, giving no working capital benefit. Annual upfront collects it all on day one. Same revenue, entirely different cash profile.
 
-**4. Rising DSO.** Revenue is recognized on invoice; cash arrives when the customer pays. A slipping collections process shows up in cash long before it shows up in the P&L, and it is frequently caused by commercial decisions: bad payment terms conceded in negotiation, disputed invoices from scope disagreements, or invoicing that waits on a milestone nobody chased.
+**4. Rising DSO.** An invoice creates a receivable; cash arrives when the customer pays. A slipping collections process shows up in cash long before it shows up in the P&L, and it is frequently caused by commercial decisions: bad payment terms conceded in negotiation, disputed invoices from scope disagreements, or invoicing that waits on a milestone nobody chased.
 
-**5. Capitalization.** Capitalized R&D and capitalized commissions raise reported profit without changing the cash that left the building.
+**5. Capitalization.** Capitalized R&D and capitalized commissions raise reported profit without changing the cash that left the building. Capitalized development moves its cash to the investing section, so it flatters operating cash flow as well as EBITDA; capitalized commissions stay in operating cash flow, so they open a gap between EBITDA and operating cash instead.
 
 **The reverse case, which surprises people more:** a company with heavy annual-upfront billing and a growing deferred revenue balance can generate cash while reporting losses. That is not a trick. It is a working capital position, and it reverses the moment growth slows.
 
@@ -76,7 +76,7 @@ Three sections, and knowing which one a number lives in answers most questions a
 - **Investing:** capex and, importantly for SaaS, capitalized development. Costs capitalized out of the P&L reappear here, which is why aggressive capitalization flatters operating cash flow as well as EBITDA: the spend did not disappear, it moved sections.
 - **Financing:** debt drawn or repaid, equity raised, in PE contexts the interest and sweep mechanics.
 
-The single most useful habit: read operating cash flow next to EBITDA for the same period. A persistent, growing gap between them has a reason, and the reason is always in working capital or capitalization, both of which are interrogable with the questions in this file.
+The single most useful habit: read EBITDA next to free cash flow after capitalized development for the same period. Operating cash flow alone is not enough, because capitalized development sits in investing and reaches neither number. A persistent, growing gap has a reason: working capital, capitalized commissions, cash interest and tax, or the cash cost of anything added back, all of which are interrogable with the questions in this file.
 
 ## Definitions to pin down before quoting any of these
 

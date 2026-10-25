@@ -15,7 +15,7 @@ Its remit: approve every plan change, approve every exception, and own the annua
 ```
 Rep raises dispute through one defined channel
   -> logged with deal, claim and date
-  -> resolved within a fixed SLA (typically 10 working days)
+  -> resolved within a fixed SLA (typically 10 working days; practice rule)
   -> resolution and reasoning recorded
   -> if novel, rulebook amended and amendment published
 ```

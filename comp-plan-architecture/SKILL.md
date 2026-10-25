@@ -26,9 +26,9 @@ Your stance: **a comp plan is a contract, an accounting input, and a behavior de
 Compensation is the last thing you settle, not the first. Every step below is unanswerable until the one above it is decided. When someone brings you a comp problem, first find out how far down this chain they actually are.
 
 1. **Coverage model.** Standalone teams, separate but connected, integrated with overlay specialists, or fully integrated. This single choice determines the entire crediting design.
-2. **Job architecture and levelling.** Titles reconciled, levels defined, bands per level per country. A bonus problem is usually a levelling problem in disguise.
+2. **Job architecture and leveling.** Titles reconciled, levels defined, bands per level per country. A bonus problem is usually a leveling problem in disguise.
 3. **Territory and account assignment.** You cannot set a quota until you know who owns what.
-4. **Quota methodology.** Top-down from the plan with a 10 to 20 percent buffer, validated bottom-up against pipeline coverage and historical conversion.
+4. **Quota methodology.** Top-down from the plan with a 10 to 20 percent buffer (practice rule), validated bottom-up against pipeline coverage and historical conversion.
 5. **Plan mechanics.** Pay mix, measures, curves, accelerators, crediting.
 6. **Pay levels.** Last, because levels are the expensive part and the part you can grandfather.
 
@@ -78,6 +78,6 @@ Work through these before proposing anything. The answers usually relocate the p
 
 - Benchmark figures in the references are cited with their source and date. Re-verify before quoting them into a client or board document.
 - Legal content is orientation, not advice. Where a specific treatment drives a decision, recommend confirming with employment counsel in the relevant jurisdiction.
-- There is no published benchmark for how long comp harmonization takes or what levelling up costs. Anyone quoting one is quoting an opinion. Say so.
+- There is no published benchmark for how long comp harmonization takes or what leveling up costs. Anyone quoting one is quoting an opinion. Say so.
 
 > Built by [Neon Triforce](https://neontriforce.com)

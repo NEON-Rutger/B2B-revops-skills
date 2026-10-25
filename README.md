@@ -1,6 +1,6 @@
 # RevOps Skills Library for Claude
 
-**Current release: v1.8.1 (2026-10-17), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
+**Current release: v1.8.2 (2026-10-25), 45 skills, all stable.** See the [CHANGELOG](CHANGELOG.md) for what changed in each release.
 
 45 battle-tested Claude skills for B2B revenue teams. Drop them into any Claude project and get expert-level RevOps, GTM, ICP, positioning, deal velocity, and operating cadence thinking on demand.
 
@@ -43,7 +43,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 | `revops-strategy` | Revenue operations strategy, pipeline architecture, strategic advisory | v0.1.0 |
 | `revops-diagnostic` | System diagnostics, constraint identification, root cause analysis | v0.1.0 |
 | `revops-metrics` | Revenue measurement, funnel math, unit economics, benchmarks | v0.1.0 |
-| `saas-pnl-reading` | Reading and interrogating SaaS financial statements: classification choices, ARR vs revenue vs cash, add-backs, red flags, finance translation | v1.6.0 |
+| `saas-pnl-reading` | Reading and interrogating SaaS financial statements: classification choices, ARR vs revenue vs cash, add-backs, red flags, finance translation | v1.8.2 |
 | `revops-forecasting` | Forecast methodology, accuracy measurement, pipeline analysis | v0.1.0 |
 | `revops-revenue-planning` | Annual and quarterly plan construction, top-down vs bottoms-up reconciliation, reforecasting | v0.3.0 |
 | `revops-data-governance` | Data governance, quality operations, field management | v0.1.0 |
@@ -62,7 +62,7 @@ Each skill is a folder containing a `SKILL.md` file (and optionally a `reference
 |---|---|---|
 | `gtm-planning` | GTM motion selection, org design, territory and capacity planning | v0.1.0 |
 | `gtm-compensation` | Compensation plans, quota setting, OTE structures | v0.1.0 |
-| `comp-plan-architecture` | The system around comp: crediting rules, governance, harmonization, European legal constraints, commission capitalization, SPM tooling | v1.6.0 |
+| `comp-plan-architecture` | The system around comp: crediting rules, governance, harmonization, European legal constraints, commission capitalization, SPM tooling | v1.8.2 |
 | `marketing-operations` | Lead scoring, attribution, campaign tracking, MQL handoff | v0.1.0 |
 | `cs-operations` | Customer success operations, health scoring, renewal management | v0.1.0 |
 | `sales-methodology` | SPICED, MEDDIC, Challenger, SPIN, Gap Selling, multi-framework | v0.1.0 |

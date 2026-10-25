@@ -26,11 +26,11 @@ Survey data via Alexander Group and WorldatWork:
 
 Two labels on that table. The percentages are consultant survey data (Alexander Group / WorldatWork assets, undated publications, sample sizes undisclosed); directional, not measured. The ~112% guardrail row is different in kind: it is practitioner guidance on where total credit should cap out, not a surveyed observation, and no published measurement backs it; treat it as a governance heuristic and set your own cap deliberately.
 
-One documented client case reached **160 people compensated on a single deal**. That is what unbounded exception-granting produces over a few years.
+Deals that end up paying dozens of people are a known failure pattern, and the predictable product of unbounded exception-granting over a few years.
 
 ## The three failure modes
 
-Name these explicitly when you see them. They are recognisable and they are the reason plans lose legitimacy.
+Name these explicitly when you see them. They are recognizable and they are the reason plans lose legitimacy.
 
 **1. Ransom payments.** Double credit used to buy a colleague's cooperation rather than because they persuaded anyone. Symptom: credit is granted after the fact, in response to a complaint.
 
@@ -65,7 +65,7 @@ Where multiple product lines persist rather than converging, the coherent struct
 - **Product specialists** carry a product number and take credit on their product only, inside assigned accounts.
 - Total credit lands between 100% and 130%, inside the guardrail.
 
-**Use the asymmetry deliberately.** Pay a higher rate on cross-sell of a non-native product than on renewal of a rep's native product. This is the mechanic that actually funds a cross-sell thesis rather than hoping for it. One documented case shifted 30% of corporate metric weighting toward top-line synergy incentives during integration for this reason.
+**Use the asymmetry deliberately.** Pay a higher rate on cross-sell of a non-native product than on renewal of a rep's native product. This is the mechanic that actually funds a cross-sell thesis rather than hoping for it. Integrations that take a cross-sell thesis seriously move real metric weight toward top-line synergy for the transition period, and say so in the plan document.
 
 ## Scenarios the rulebook must answer
 
@@ -88,7 +88,7 @@ Do not ship a rulebook that leaves any of these to interpretation. Each one beco
 
 ## Clawback design
 
-- Claw back only on deals that churn or fail to pay within a defined window, typically 3 to 6 months.
+- Claw back only on deals that churn or fail to pay within a defined window, typically 3 to 6 months (practice rule, not a surveyed figure).
 - Claw back the commission amount, never a penalty on top.
 - Prorate. A customer churning at month 4 of a 6-month window means clawing back one third.
 - Never claw back base salary. In many European jurisdictions attempting to recover paid base salary is unlawful or unenforceable; which protection applies varies by country, so confirm with counsel per jurisdiction rather than assuming.
@@ -102,7 +102,7 @@ The loop that works:
 
 1. Rep raises a dispute through a single defined channel.
 2. It is logged with the deal, the claim and the date.
-3. Resolved within a fixed SLA, typically ten working days.
+3. Resolved within a fixed SLA, typically ten working days (practice rule).
 4. The resolution and its reasoning are recorded.
 5. If the case was novel, the rulebook is amended and the amendment is published.
 

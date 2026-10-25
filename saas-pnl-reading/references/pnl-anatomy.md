@@ -33,17 +33,17 @@ Operating expenses
 
 ## The classification choices, and what each one flatters
 
-This is the part a non-finance reader misses, and it is where most of the interpretive work lives. None of these are wrong. All of them change the story.
+This is the part a non-finance reader misses, and it is where most of the interpretive work lives. Most of these are legitimate policy choices. All of them change the story.
 
 | Choice | Effect if done one way | Effect if done the other | The question |
 |---|---|---|---|
 | **Customer success in COGS or S&M** | In COGS: depresses gross margin, flatters S&M efficiency and CAC | In S&M: flatters gross margin, worsens apparent S&M efficiency and CAC | Which is it, and has it changed between the periods being compared? |
-| **Capitalized R&D** | Capitalized: raises current EBITDA, creates an intangible asset amortized over years | Expensed: lower current EBITDA, no asset | How much was capitalized this year, over what period, and has the rate changed? |
-| **Capitalized commissions** | Capitalized: moves sales cash spend off the current P&L | Expensed: full cost hits the period the deal was signed | What is the capitalized contract cost balance, and what amortization period supports it? Note this one is less of a free choice than the rest of the table: both IFRS 15 and ASC 606 REQUIRE capitalizing incremental costs of obtaining a contract where recovery is expected; the genuine policy choice is the practical expedient (expense when the amortization period would be a year or less). A company simply expensing multi-year commissions is off-standard, not conservative. Mechanics in comp-plan-architecture's IFRS 15 reference |
+| **Capitalized R&D** | Capitalized: raises EBITDA permanently, because the amortization sits in depreciation and amortization below EBITDA; creates an intangible asset amortized over years | Expensed: lower EBITDA, no asset | How much was capitalized this year, over what period, and has the rate changed? |
+| **Capitalized commissions** | Capitalized: defers the cost; the amortization usually stays in S&M above EBITDA, so the uplift is a timing effect that shrinks as growth slows | Expensed: full cost hits the period the deal was signed | What is the capitalized contract cost balance, and what amortization period supports it? Note this one is less of a free choice than the rest of the table: both IFRS 15 and, under US GAAP, ASC 340-40 (issued with ASC 606) REQUIRE capitalizing incremental costs of obtaining a contract where recovery is expected; the genuine policy choice is the practical expedient (expense when the amortization period would be a year or less). A company simply expensing multi-year commissions is off-standard, not conservative. The amortization mechanics belong to commission accounting; confirm the schedule with finance |
 | **Hosting costs** | In COGS: correct, and gross margin reflects real delivery cost | Drifting into R&D: gross margin looks better than it is | Are all infrastructure costs in COGS? |
 | **Implementation staff** | In COGS: services margin is visible | In S&M or R&D: services losses are hidden | Where do delivery salaries sit? |
 
-**The single highest-yield question in this table:** a company that suddenly starts capitalizing more R&D or more commissions has improved EBITDA without improving anything. A changed capitalization rate with no accompanying explanation is worth more scrutiny than almost anything else on the page.
+**The single highest-yield question in this table:** a company that suddenly capitalizes more R&D has raised EBITDA permanently without improving anything; capitalizing more commissions does the same on a smaller, temporary scale. A changed capitalization rate with no accompanying explanation is worth more scrutiny than almost anything else on the page.
 
 ## Gross margin, by stream
 
@@ -61,7 +61,7 @@ Blended gross margin is nearly useless in a multi-stream SaaS business. Always s
 
 **Sales and marketing.** Contains quota-carrying salaries and variable, marketing program spend, sales leadership, and often sales operations and enablement. The line that most affects it commercially is quota attainment, because variable compensation flexes with it.
 
-Watch for: S&M growing faster than revenue for more than two consecutive periods without a stated investment thesis. And check whether CS sits here or in COGS before comparing S&M efficiency to any benchmark.
+Watch for: S&M growing faster than revenue for more than two consecutive periods without a stated investment thesis (a practice rule, not an accounting standard). And check whether CS sits here or in COGS before comparing S&M efficiency to any benchmark.
 
 **Research and development.** Product, engineering, design. Reduced by whatever is capitalized. In an acquisitive group carrying multiple product lines, R&D is structurally higher than a single-product peer, and comparing to a single-product benchmark is misleading.
 

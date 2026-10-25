@@ -19,29 +19,29 @@ Before scoping any harmonization, get answers to these. They are not knowable fr
 
 Practical consequence: **reducing or restructuring commission requires stronger justification than trimming a peripheral benefit.** You cannot simply redesign the plan each January unless the contracts carry a valid clause and you can evidence the business interest.
 
-**Works council.** WOR Article 27 gives the *ondernemingsraad* a consent right over a remuneration or job evaluation **system**. Dutch case law (including a Rotterdam District Court decision involving Rockwell Automation, where the court found for the employer and the works council's objection was overruled) held that changing bonus targets, or freezing salary increases, does **not** trigger the consent right where the system itself is unchanged. The line remains contested at the margins; treat it as a strong current position, not settled ground.
+**Works council.** WOR Article 27 gives the *ondernemingsraad* a consent right over a remuneration or job evaluation **system**. Dutch case law (including a Rotterdam District Court decision involving Rockwell Automation, where the court found for the employer and the works council's objection was overruled; locate the ruling and its ECLI before citing it) held that changing bonus targets, or freezing salary increases, does **not** trigger the consent right where the system itself is unchanged. The line remains contested at the margins; treat it as a strong current position, not settled ground.
 
 The operative test: **does the compensation system change, or only its outputs?** Adjusting quota within an existing plan is an output change. Introducing a new group-wide plan architecture is a system change and almost certainly triggers consent.
 
 ## Germany
 
-**Co-determination is a veto, not consultation.** Where a *Betriebsrat* exists, the Betriebsverfassungsgesetz gives it genuine co-determination rights, meaning agreement is required rather than an opportunity to comment.
+**Co-determination means agreement, not consultation.** Where a *Betriebsrat* exists, the Betriebsverfassungsgesetz gives it genuine co-determination rights: the employer needs the works council's agreement, and where the two deadlock the matter goes to a conciliation board (*Einigungsstelle*) under BetrVG s.87(2), whose ruling is binding and replaces the agreement. Not a veto in the strict sense, but a process whose timeline and outcome the employer does not control.
 
 | Provision | Covers | Applied to comp |
 |---|---|---|
 | BetrVG s.87(1) no. 10 | Remuneration principles and methods | Bonus formulas, performance criteria, commission formulas |
-| BetrVG s.87(1) no. 11 | Performance-related pay | Piece rates and performance pay structures |
+| BetrVG s.87(1) no. 11 | Performance-related pay (piece rates and similar) | Whether a given commission plan sits under no. 10 or no. 11 is a counsel question; the BAG commission ruling below was decided under no. 10 |
 | BetrVG s.87(1) no. 6 | Technical systems suitable for monitoring employee performance | Can make the commission software itself co-determined |
 
-**The line the Federal Labour Court drew** (BAG, 13 March 1984, 1 ABR 57/82; confirmed via dejure.org and betriebsrat.com case databases): for a commission scheme, the **weighting and point allocation across transactions and products is co-determined** under no. 10, while the **monetary value per point remains employer prerogative**. Absolute pay levels are not co-determined; the structure that distributes them is.
+**The line the Federal Labor Court drew** (BAG, 13 March 1984, 1 ABR 57/82; confirmed via dejure.org and betriebsrat.com case databases): for a commission scheme, the **weighting and point allocation across transactions and products is co-determined** under no. 10, while the **monetary value per point remains employer prerogative**. Absolute pay levels are not co-determined; the structure that distributes them is.
 
 Practical consequence: in a German entity with a works council, a new commission plan is a negotiation with a timeline you do not control. Establish whether a Betriebsrat exists before you scope anything. Note also that no. 6 has been read broadly enough to reach algorithmic and AI-based performance scoring, which is worth knowing before selecting a tool.
 
 ## France
 
-**Objectives must be achievable, and the burden of proof sits with the employer.** They must be set at the start of the financial year. If objectives are not set, are set late, or are modified unilaterally, **the employer must pay the variable compensation in full**. Contracts should specify what happens if targets are not set, and most do not.
+**Objectives must be achievable, and the burden of proof sits with the employer.** They must be set at the start of the financial year. If objectives are not set, or are communicated late, **the employer risks owing the variable compensation in full**. Setting objectives unilaterally is possible where the contract provides for it, provided they are achievable and communicated at the start of the period; changing the contractual pay structure is a different matter, below. Contracts should specify what happens if targets are not set, and most do not.
 
-**Changing the basis of variable pay requires consent.** Cass. soc., 7 January 2026, n° 24-18.742 (an FD, non-bulletin ruling) held that adding client accounts to the basis of a salesperson's variable pay is a modification of the employment contract requiring the employee's consent. Citation confirmed against legal-press summaries (Lefebvre Dalloz and others); pull the full text from Legifrance before quoting it verbatim in a live negotiation. In the case, the employer expanded the bonus basis from 31 accounts to 43; because adding those accounts had an impact on the bonus amount, consent was required.
+**Changing the contractual pay structure requires consent.** The settled rule is that a remuneration structure fixed by the contract cannot be modified without the employee's agreement. One recent application: Cass. soc., 7 January 2026, n° 24-18.742 (an FD, non-bulletin ruling, so persuasive rather than doctrine-setting) held that adding client accounts to the basis of a salesperson's variable pay is a modification of the employment contract requiring the employee's consent. Citation confirmed against legal-press summaries (Lefebvre Dalloz and others); pull the full text from Legifrance before quoting it verbatim in a live negotiation. In the case, the employer expanded the bonus basis from 31 accounts to 43; because adding those accounts had an impact on the bonus amount, consent was required.
 
 Practical consequence, and the one that catches merger programs: **territory reassignment, account redistribution and crediting changes for French sellers may each require an individual signed *avenant*.** A three-way merger with overlapping accounts is precisely the fact pattern that ruling addresses. If the French contracts do not already contain a well-drafted flexibility clause, harmonization in France is an individual-consent exercise, not a plan rollout.
 
@@ -49,7 +49,7 @@ Practical consequence, and the one that catches merger programs: **territory rea
 
 **No co-determination; contract law does the work.** There is no works council veto. The starting point is that contractual terms, and commission plans referenced by the contract, cannot be changed unilaterally: imposing new terms without consent is breach of contract and feeds unfair or constructive dismissal claims. Whether the plan is contractual or discretionary is therefore the first question; many UK plans are drafted as discretionary precisely to preserve flexibility, and courts still police the exercise of that discretion for rationality.
 
-**Fire-and-rehire is now a regulated last resort.** Since 18 July 2024 a statutory Code of Practice on dismissal and re-engagement applies in England, Wales and Scotland: meaningful consultation first, re-engagement as a genuine last resort, and tribunals can uplift compensation by up to 25% where an employer unreasonably ignores the Code. Where 20 or more employees at one establishment may be dismissed for refusing new terms, collective consultation duties with minimum periods (30 days for 20-99, 45 days for 100 or more) apply on top. UK employment legislation has been moving since 2024; verify the current state of the contract-change rules with counsel before scoping a UK rollout.
+**Fire-and-rehire is now a regulated last resort.** Since 18 July 2024 a statutory Code of Practice on dismissal and re-engagement applies in England, Wales and Scotland: meaningful consultation first, re-engagement as a genuine last resort, and tribunals can uplift compensation by up to 25% where an employer unreasonably ignores the Code. Where 20 or more employees at one establishment may be dismissed for refusing new terms, collective consultation duties with minimum periods (30 days for 20-99, 45 days for 100 or more) apply on top. The Employment Rights Act 2025 goes further and restricts fire-and-rehire itself; its provisions commence in stages, so verify with counsel which are in force, and treat the Code as the floor rather than the full picture, before scoping a UK rollout.
 
 Practical consequence: a UK comp change is a consent campaign with a consultation calendar behind it, not an announcement, and the discretionary-versus-contractual drafting of the current plan decides how hard it is.
 
@@ -75,7 +75,7 @@ Practical consequence: in Italy the question is not "works council or not" but "
 
 ## Nordics
 
-**Sweden: negotiate first, then decide.** The Co-Determination Act (MBL) obliges an employer to inform and negotiate with the relevant unions before important changes, and a commission or bonus system change for unionised sellers is squarely in scope. The duty is real and enforceable, but it is a negotiation duty, not a veto: after negotiating in good faith the employer generally decides. Where a collective agreement covers the workforce, its terms bind the plan design itself.
+**Sweden: negotiate first, then decide.** The Co-Determination Act (MBL) obliges an employer to inform and negotiate with the relevant unions before important changes, and a commission or bonus system change for unionized sellers is squarely in scope. The duty is real and enforceable, but it is a negotiation duty, not a veto: after negotiating in good faith the employer generally decides. Where a collective agreement covers the workforce, its terms bind the plan design itself.
 
 **Denmark: material change equals notice.** A material change to terms, and a remuneration restructure qualifies, requires consent or must be given with notice equal to the employee's individual termination notice (up to six months for long-serving salaried employees under the Salaried Employees Act). The employee then accepts the new terms or treats the employment as terminated. A Danish comp harmonization therefore has a built-in clock set by the longest notice period in the population.
 
@@ -85,11 +85,11 @@ Practical consequence for the region: the Nordics run on collective agreements m
 
 ## EU-wide: the Pay Transparency Directive
 
-Directive (EU) 2023/970. The definition of pay **explicitly includes variable pay**. It requires employers to operate a job evaluation and classification system using objective, gender-neutral criteria.
+Directive (EU) 2023/970. The definition of pay **explicitly includes variable pay**. Article 4 requires pay structures that ensure equal pay for equal work or work of equal value, assessed with objective, gender-neutral criteria; where a job evaluation or classification system is used, it must rest on those criteria.
 
 **Transposition dates vary by member state and several have slipped.** The Netherlands, for example, formally postponed transposition beyond the original deadline. Do not assert a date; check the current status for the country in question.
 
-Practical consequence for a comp designer: **the plan must sit on a defensible job architecture, not just a set of OTE numbers.** This makes step 2 of the sequencing law (job architecture and levelling) a compliance requirement rather than a nicety.
+Practical consequence for a comp designer: **the plan must sit on a defensible job architecture, not just a set of OTE numbers.** This makes step 2 of the sequencing chain (job architecture and leveling) the place where equal-pay compliance is won or lost, not a nicety.
 
 ## Sequencing consequence
 

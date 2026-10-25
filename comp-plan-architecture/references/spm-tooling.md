@@ -16,9 +16,9 @@ Vendor-sourced benchmarks, which should be read as directional advocacy rather t
 
 **What does the existing ERP or revenue recognition module already do?**
 
-Many finance platforms claim configurable ASC 606 and IFRS 15 **revenue recognition** while saying nothing about capitalizing and amortising **contract acquisition costs**. Those are different capabilities. That gap is the thing that decides whether a separate commission sub-ledger is needed, and it is answerable with one email to the vendor.
+Many finance platforms claim configurable ASC 606 and IFRS 15 **revenue recognition** while saying nothing about capitalizing and amortizing **contract acquisition costs**. Those are different capabilities. That gap is the thing that decides whether a separate commission sub-ledger is needed, and it is answerable with one email to the vendor.
 
-Also ask how many applications already exist in the CRM estate. Adding a tool to an unrationalised stack is a decision that should be made deliberately, not by default.
+Also ask how many applications already exist in the CRM estate. Adding a tool to an unrationalized stack is a decision that should be made deliberately, not by default.
 
 ## Market shape, 2026
 
@@ -58,7 +58,7 @@ All figures are list or observed-deal data, mostly from vendor blogs and aggrega
 | Qobra | From ~USD 39/user/mo | Not published |
 | ElevateHQ | USD 25 / 30 / 40 per user by tier | Not published |
 
-**Negotiation benchmarks** (Vendr data, likely generalising across the category): competitive context achieves 15 to 30% off initial quotes, multi-year 10 to 25%, end-of-quarter timing a further 5 to 15%, upfront annual payment 3 to 7%.
+**Negotiation benchmarks** (Vendr data, likely generalizing across the category): competitive context achieves 15 to 30% off initial quotes, multi-year 10 to 25%, end-of-quarter timing a further 5 to 15%, upfront annual payment 3 to 7%.
 
 ## Selection criteria for a European multi-entity company
 
@@ -70,7 +70,7 @@ In priority order. The first two are where most evaluations go wrong.
 4. **Works council posture.** In Germany, BetrVG s.87(1) no. 6 covers technical systems suitable for monitoring performance, which can make the tool itself co-determined. Ask the vendor whether they have been through a Betriebsrat approval before.
 5. **EU data residency and GDPR.** No public vendor comparison addresses this. Put it in the RFP explicitly.
 
-Also relevant in Europe and absent from most comparisons: local social contribution treatment of variable pay, and fully localised UI including date formats and number separators.
+Also relevant in Europe and absent from most comparisons: local social contribution treatment of variable pay, and fully localized UI including date formats and number separators.
 
 ## Common complaints, by vendor
 

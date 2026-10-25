@@ -6,7 +6,7 @@ The practice literature is unanimous even where it does not say so bluntly. Two 
 
 **Build transition mechanisms into the design (ZS Associates).** Partial payouts on both old and new territories during handover, so customer handoffs stay clean. Payout curves more forgiving on non-legacy products than on legacy ones. Quota ramp for reps selling a product they have never sold.
 
-**Frame it as optimisation, not harmonization (Pearl Meyer).** Harmonization merges two programs and averages them. Optimisation selects the elements that fit the combined strategy and discards the rest. The warning that lands hardest in a PE deal: the acquired company's performance was already priced into the purchase price, so a new incentive structure that ignores that means **paying twice for the same performance**.
+**Frame it as optimization, not harmonization (Pearl Meyer).** Harmonization merges two programs and averages them. Optimization selects the elements that fit the combined strategy and discards the rest. The warning that lands hardest in a PE deal: the acquired company's performance was already priced into the purchase price, so a new incentive structure that ignores that means **paying twice for the same performance**.
 
 ## What can and cannot wait
 
@@ -53,7 +53,7 @@ A sourcing caveat first: Alexander Group's own figures vary across its assets (6
 
 **Compensation cost of sales** = total sales base plus variable, divided by revenue or bookings.
 
-Cross-industry B2B benchmark: **7.9%** (Alexander Group). Cash compensation is roughly 40% of total sales costs.
+Cross-industry B2B benchmark: **7.9%** (Alexander Group). Cash compensation is roughly 40% of total sales costs (practitioner estimate, unsourced in the material reviewed; verify before quoting).
 
 **The method.** Compute CCOS for each legacy entity at actual attainment. You will get three different numbers. Design a target CCOS for the combined group. Back-solve the plan parameters to reach it.
 
@@ -65,17 +65,17 @@ Cross-industry B2B benchmark: **7.9%** (Alexander Group). Cash compensation is r
 4. Quota attainment levels
 5. Pay curve shape
 6. **Sales crediting rules**
-7. Salesforce sizing
+7. Sales force sizing
 
 **Why this matters more than the arithmetic.** Three entities with three quota-to-OTE ratios, three curves and three crediting regimes will produce three different CCOS figures. Presenting it this way converts a fight about fairness, which the comp owner loses, into arithmetic about cost, which the comp owner wins. It is also the framing that works when the comp function reports into finance.
 
 ## Level up, level down, grandfather
 
-**Level down is often legally unavailable in Europe.** In France and Germany, reducing variable pay is a negotiation, not a design choice. See `eu-legal-constraints.md`.
+**Level down is often legally unavailable in Europe.** In France it is an individual consent exercise, and in Germany a co-determination process that ends in works council agreement or a binding conciliation board ruling; in neither is it a design choice. See `eu-legal-constraints.md`.
 
-**Grandfathering is the standard bridge.** Red-circling is the mechanism: freeze an individual above the new band rather than cutting, and let band movement and non-promotion close the gap over time. CAP's observation that comp is typically held at existing levels for one to two years is institutionalised grandfathering.
+**Grandfathering is the standard bridge.** Red-circling is the mechanism: freeze an individual above the new band rather than cutting, and let band movement and non-promotion close the gap over time. CAP's observation that comp is typically held at existing levels for one to two years is institutionalized grandfathering.
 
-**There is no public benchmark for what levelling up costs.** Mercer, WTW, Korn Ferry, SHRM and the compensation consultancies have not published it. This is a genuine gap, not a research failure. Model it three ways:
+**There is no public benchmark for what leveling up costs.** Mercer, WTW, Korn Ferry, SHRM and the compensation consultancies have not published it. This is a genuine gap, not a research failure. Model it three ways:
 
 | Scenario | Definition | Who prefers it |
 |---|---|---|

@@ -5,12 +5,12 @@
 Work in this sequence. It is deliberately not the order the pack is assembled in, because packs are assembled to lead the reader.
 
 1. **Actual versus budget, then actual versus prior year.** Budget variance tells you about planning quality. Prior-year variance tells you about the business. They are different questions and packs frequently show only the flattering one.
-2. **Split every variance into price, volume and mix** before accepting any narrative.
+2. **Split every revenue variance into retained base, volume, price, mix and timing** before accepting any narrative.
 3. **Check whether the forecast changed, and who changed it.** A forecast that drifts quietly toward actuals is not a forecast.
 4. **Find the cash line.** Many packs bury it or leave it out.
 5. **Gross margin by stream, not blended.**
 6. **The ARR bridge.** If absent, ask.
-7. **Look for what is not there.** See the red flag catalogue below.
+7. **Look for what is not there.** See the red flag catalog below.
 
 ## Variance discipline
 
@@ -18,18 +18,19 @@ Work in this sequence. It is deliberately not the order the pack is assembled in
 
 | Component | The question | The owner |
 |---|---|---|
-| **Volume** | Did we do fewer deals? | Pipeline generation and conversion |
-| **Price** | Were deals smaller at the same volume? | Pricing, packaging, discount governance |
-| **Mix** | Did we sell a different, lower-margin blend? | Segment strategy and product focus |
+| **Retained base** | Did churn or contraction in the opening base drive the miss, rather than new business? Most of a quarter's revenue is the opening base, and new ARR signed late in the quarter barely touches it | Customer success, renewals and account management |
+| **Volume** | Were fewer deals or fewer units closed? | Pipeline generation and conversion |
+| **Price** | Was realized price per unit (seat, usage unit) lower at the same volume? | Pricing, packaging, discount governance |
+| **Mix** | Was a different, lower-margin blend sold? | Segment strategy and product focus |
 | **Timing** | Did deals slip rather than disappear? | Forecast discipline and stage gates |
 
 Timing is the one most often misread as demand failure. A quarter of slipped deals and a quarter of lost deals look identical on the revenue line and require opposite responses.
 
 **The discipline to enforce:** a variance without a driver, an owner and an action is a number, not analysis. If a pack contains variance commentary that only restates the number in words, say so.
 
-## Red flag catalogue
+## Red flag catalog
 
-Ordered roughly by how much they should worry you.
+Grouped by type.
 
 **Presentation red flags**
 
@@ -54,7 +55,7 @@ Ordered roughly by how much they should worry you.
 
 - Revenue growing while operating cash flow declines, with no billing-terms explanation.
 - Services revenue growing faster than subscription revenue.
-- Subscription gross margin eroding over four or more quarters.
+- Subscription gross margin eroding over four or more quarters (a practice threshold, not a standard).
 - S&M rising as a percentage of revenue for multiple periods with no stated investment thesis.
 - Headcount growing faster than revenue outside a declared investment phase.
 - Growth entirely dependent on expansion, with new logo acquisition flat or falling.
@@ -68,7 +69,7 @@ Ordered roughly by how much they should worry you.
 
 ## The question bank
 
-Ordered so the first three build credibility rather than spend it. Ask two or three, not twelve.
+Ordered so the first three build credibility rather than spend it. Ask at most five, not twelve.
 
 1. What is the bridge from unadjusted to adjusted EBITDA, item by item?
 2. What is subscription gross margin excluding services, and how has it trended over eight quarters?
@@ -98,6 +99,6 @@ Do not produce a general commentary on the whole pack. A ranked short list is mo
 
 ## A caution on benchmarking
 
-Resist comparing any of these ratios to a published benchmark without first establishing classification. S&M as a percentage of revenue is not comparable between two companies if one puts customer success in S&M and the other puts it in COGS. Gross margin is not comparable if one capitalizes software amortization into COGS and the other does not.
+Resist comparing any of these ratios to a published benchmark without first establishing classification. S&M as a percentage of revenue is not comparable between two companies if one puts customer success in S&M and the other puts it in COGS. Gross margin is not comparable if one classifies the amortization of capitalized software in COGS and the other does not.
 
 **Establish classification first, benchmark second.** For benchmark values themselves, use revops-metrics.

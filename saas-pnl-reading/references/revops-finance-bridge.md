@@ -1,13 +1,13 @@
 # The RevOps to finance bridge
 
-The most useful thing a commercial operator can hold in their head. It lets them argue in the CFO's units, which roughly doubles the chance of getting what they want.
+The most useful thing a commercial operator can hold in their head. It lets them argue in the CFO's units.
 
 ## The mapping
 
 | Commercial lever or metric | Where it lands financially |
 |---|---|
 | New and expansion ARR | Revenue, recognized over the delivery period, not at signature |
-| Churn and contraction | Revenue decline, plus impairment of capitalized commissions |
+| Churn and contraction | Revenue decline; churn also writes off the unamortized capitalized commission on the lost contract, contraction alone usually does not |
 | Discounting | Gross margin and realized price. Shows up as price variance |
 | Sales cycle length | Timing of revenue recognition, and working capital |
 | Forecast accuracy | Working capital planning and covenant headroom predictability |
@@ -26,17 +26,17 @@ The most useful thing a commercial operator can hold in their head. It lets them
 
 ## Reframing commercial asks
 
-The pattern: name the financial line, quantify the movement, then state the ask.
+The pattern: name the financial line, quantify the movement, then state the ask. Every figure in the strong column illustrates the shape of the sentence; none is a benchmark. Substitute the company's own numbers before using any of them.
 
 | Weak framing | Strong framing |
 |---|---|
 | "We need better forecast discipline" | "Forecast error of 20% forces a working capital buffer and makes covenant headroom unpredictable" |
 | "Our CRM data is a mess" | "We cannot evidence the amortization period for capitalized commissions, which is an audit exposure" |
-| "Sales keeps discounting" | "Realized price is down 6% year on year, which is a gross margin variance of X, entirely in price not volume" |
-| "We need a commission tool" | "Manual calculation cannot produce a per-contract amortization schedule, so the 606 sub-ledger is a spreadsheet with an 80% chance of containing an error" |
+| "Sales keeps discounting" | "Realized price is down 6% year on year, which takes 6% of subscription revenue straight out of gross profit, entirely price, not volume" |
+| "We need a commission tool" | "Manual calculation cannot produce a per-contract amortization schedule, so the contract-cost sub-ledger required by ASC 340-40 and IFRS 15 is a spreadsheet nobody has reconciled" |
 | "We should tighten stage gates" | "Deals slipping rather than closing moves revenue across a covenant test date" |
-| "We need more headcount" | "At current attainment and quota-to-OTE ratio, coverage requires N reps to reach the plan, at a CCOS of X%" |
-| "Onboarding takes too long" | "Time to first value correlates with renewal, and a churned cohort also impairs the capitalized commission balance" |
+| "We need more headcount" | "At current attainment and quota-to-OTE ratio, coverage requires four more reps to reach the plan, which adds two points to cost of sales as a share of revenue" |
+| "Onboarding takes too long" | "Time to first value correlates with renewal, and a churned cohort also writes off its unamortized capitalized commissions" |
 
 ## What finance actually reports on, and why some commercial metrics do not travel
 

@@ -56,13 +56,13 @@ When someone puts a set of numbers in front of you, do these six things before f
 
 ## How to use this skill
 
-**Explaining a statement.** Walk the structure first, then name the two or three judgement calls that shape it. Do not lecture on accounting theory. The operator needs to know where the choices are, not how double entry works.
+**Explaining a statement.** Walk the structure first, then name the two or three judgment calls that shape it. Do not lecture on accounting theory. The operator needs to know where the choices are, not how double entry works.
 
-**Interrogating a pack.** Run the fast triage, then the reading order in `board-pack-review.md`, then the red flag catalogue. Produce at most five questions, ranked by what the answer would change.
+**Interrogating a pack.** Run the fast triage, then the reading order in `board-pack-review.md`, then the red flag catalog. Produce at most five questions, ranked by what the answer would change.
 
 **Translating a commercial argument.** Use the bridge table in `revops-finance-bridge.md`. Restate the commercial ask in terms of the line item it moves. "We need better forecast discipline" lands weakly. "Forecast error of 20% forces a working capital buffer and makes covenant headroom unpredictable" lands.
 
-**When asked for a metric definition or a benchmark value.** Hand off to `revops-metrics` or `revops-metrics` rather than duplicating them here.
+**When asked for a metric definition or a benchmark value.** Hand off to `revops-metrics` for metric definitions and benchmark values rather than duplicating them here.
 
 **A note on tone.** The person asking is usually competent in their own domain and slightly embarrassed about this one. Do not perform expertise at them. Name the thing, show where it sits, give them the question to ask.
 
